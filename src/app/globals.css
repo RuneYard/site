@@ -4,15 +4,15 @@
   --font-display: var(--font-display-family), "Palatino Linotype", Palatino, serif;
   --font-body: var(--font-body-family), Palatino, serif;
   --font-runic: var(--font-runic-family), sans-serif;
-  --color-soot: #f7f1e6;
-  --color-timber: #e7d7c1;
-  --color-bark: #6e4b32;
-  --color-bone: #1c2833;
-  --color-ash: #4d5c68;
-  --color-ember: #9c2f24;
-  --color-paper: #fffaf3;
-  --color-ink: #1c2833;
-  --color-lichen: #3d6b78;
+  --color-soot: #10141a;
+  --color-timber: #1a1e26;
+  --color-bark: #3c342c;
+  --color-bone: #e7e1d6;
+  --color-ash: #9c9488;
+  --color-ember: #8e3a32;
+  --color-paper: #e7e1d6;
+  --color-ink: #10141a;
+  --color-lichen: #8aa0ae;
 }
 
 html {
@@ -20,69 +20,48 @@ html {
 }
 
 body {
-  background: #f4efe4;
-  color: #1c2833;
+  background: #10141a;
+  color: #e7e1d6;
   font-family: var(--font-body);
 }
 
-.wall {
-  background-color: #f3ecdf;
-  background-image:
-    repeating-linear-gradient(
-      90deg,
-      rgba(110, 75, 50, 0.05) 0,
-      rgba(110, 75, 50, 0.05) 70px,
-      rgba(110, 75, 50, 0.14) 70px,
-      rgba(110, 75, 50, 0.14) 72px
-    );
+.hall {
+  background-color: #10141a;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 88px,
+    rgba(231, 225, 214, 0.035) 88px,
+    rgba(231, 225, 214, 0.035) 89px
+  );
 }
 
-.hearth {
+.north-light {
+  pointer-events: none;
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 28vh;
+  background: linear-gradient(
+    180deg,
+    rgba(168, 188, 204, 0.22),
+    rgba(16, 20, 26, 0) 80%
+  );
+}
+
+.hearth-glow {
+  pointer-events: none;
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 18vh;
   background: radial-gradient(
-    ellipse 55% 100% at 50% 120%,
-    rgba(156, 47, 36, 0.16),
-    rgba(232, 168, 74, 0.08) 42%,
+    ellipse 70% 100% at 50% 100%,
+    rgba(142, 58, 50, 0.28),
     transparent 70%
   );
-  animation: ember 7s ease-in-out infinite;
-}
-
-@keyframes ember {
-  0%,
-  100% {
-    opacity: 0.72;
-  }
-  50% {
-    opacity: 1;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
-  }
-
-  .hearth {
-    animation: none;
-  }
-}
-
-.string {
-  width: 1px;
-  background: #8a6a4a;
-}
-
-.hung:hover .object,
-.hung:focus-visible .object {
-  transform: translateY(-6px);
-}
-
-.object {
-  transition: transform 280ms ease;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .object {
-    transition: none;
   }
 }

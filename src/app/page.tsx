@@ -1,71 +1,78 @@
 import { HearthAsk } from "@/components/hearth-ask";
-import { HouseMark } from "@/components/house-mark";
-import { HungWall } from "@/components/hung-wall";
-import { NorthWindow } from "@/components/north-window";
 
-const hangs = [
-  { href: "#tas", label: "Taş" },
-  { href: "#duyuru", label: "Duyuru" },
-  { href: "#gok", label: "Gökyüzü" },
+const places = [
+  {
+    id: "tas",
+    kicker: "Taş",
+    title: "Rün notları",
+    text: "Uruz: beden, direnç, ham güç. Kısa karşılıklar burada birikecek.",
+  },
+  {
+    id: "duyuru",
+    kicker: "Duyuru",
+    title: "Rün alfabesine giriş",
+    text: "Yirmi dört işaret. Ses, ad, ve bir kelimenin nasıl okunduğu. Gün belli olunca bu satır dolacak.",
+  },
+  {
+    id: "gok",
+    kicker: "Gökyüzü",
+    title: "Ekinoks",
+    text: "Gündüz ile gecenin eşitlendiği gün. Yazı bitince burada duracak.",
+  },
 ] as const;
 
 export default function Home() {
   return (
-    <>
+    <div className="hall relative">
       <a
-        href="#duvar"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-paper focus:px-3 focus:py-2 focus:text-ink"
+        href="#icerik"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-bone focus:px-3 focus:py-2 focus:text-ink"
       >
-        Duvardaki eşyalara geç
+        İçeriğe geç
       </a>
 
-      <header className="wall relative flex min-h-svh flex-col">
-        <div className="relative flex-1">
-        <div className="px-5 pt-5 md:px-8 lg:absolute lg:top-8 lg:left-8 lg:w-[min(32vw,380px)] lg:px-0 lg:pt-0">
-          <NorthWindow />
-        </div>
-
-        <div className="relative z-10 flex flex-col justify-end px-5 pt-8 pb-8 md:px-10 lg:ml-[36vw] lg:h-full lg:max-w-2xl lg:justify-center lg:px-12 lg:py-8">
-          <a href="#oda" className="inline-flex items-center gap-3 text-bone" aria-label="RuneYard">
-            <HouseMark className="size-9 text-ember" />
-            <span className="font-display text-xs tracking-[0.28em] text-bone lowercase">
-              runeyard.com
-            </span>
-          </a>
-          <h1
-            id="oda"
-            className="mt-6 font-display text-[4.2rem] leading-[0.86] font-light text-bone sm:text-8xl"
-          >
-            Kış <em className="font-light italic">odası</em>
-          </h1>
-          <p className="mt-6 font-display text-2xl text-bone sm:text-3xl">
-            Mehmet Akdeniz
+      <header className="relative flex min-h-svh flex-col">
+        <div className="north-light" aria-hidden />
+        <div className="hearth-glow" aria-hidden />
+        <div className="relative z-10 mx-auto flex w-full max-w-xl flex-1 flex-col justify-between px-6 py-8">
+          <p className="font-display text-xs tracking-[0.28em] text-lichen lowercase">
+            runeyard.com
           </p>
-          <p className="mt-5 max-w-md text-lg leading-8 text-ash">
-            Kapıdan girince üç şey asılı: bir taş, bir duyuru kâğıdı, bir gök
-            tabağı. Ocağa bir rün ya da gökyüzü sorusu bırakabilirsin.
-          </p>
-          <nav aria-label="Duvardaki üç eşya" className="mt-8 flex gap-6">
-            {hangs.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="font-display text-sm tracking-[0.22em] text-bone uppercase underline decoration-ember/70 decoration-1 underline-offset-8 hover:text-ember focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ember"
-              >
-                {item.label}
-              </a>
-            ))}
-          </nav>
+          <div>
+            <h1
+              id="oda"
+              className="font-display text-6xl leading-[0.9] font-light text-bone sm:text-8xl"
+            >
+              Kış odası
+            </h1>
+            <p className="mt-5 font-display text-3xl text-bone">Mehmet Akdeniz</p>
+            <p className="mt-6 max-w-md text-lg leading-8 text-ash">
+              Karanlık bir kuzey odası. Rün notu, ders duyurusu ve gökyüzü yazısı
+              ocak başında durur.
+            </p>
+          </div>
+          <HearthAsk />
         </div>
-        </div>
-
-        <div className="hearth pointer-events-none absolute inset-x-0 bottom-24 h-28" aria-hidden />
-        <HearthAsk />
       </header>
 
-      <main id="duvar">
-        <HungWall />
+      <main id="icerik" className="relative z-10 mx-auto w-full max-w-xl px-6 pb-24">
+        <ul>
+          {places.map((place) => (
+            <li key={place.id} id={place.id} className="border-t border-bone/15 py-12">
+              <p className="font-display text-xs tracking-[0.28em] text-lichen uppercase">
+                {place.kicker}
+              </p>
+              <h2 className="mt-3 font-display text-4xl leading-none text-bone">
+                {place.title}
+              </h2>
+              <p className="mt-4 max-w-md leading-8 text-ash">{place.text}</p>
+            </li>
+          ))}
+        </ul>
+        <p className="border-t border-bone/15 pt-10 text-lg leading-8 text-bone">
+          Ben Mehmet Akdeniz. RuneYard bu odanın adı.
+        </p>
       </main>
-    </>
+    </div>
   );
 }
