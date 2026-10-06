@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-display: var(--font-display-family), "Palatino Linotype", Palatino, serif;
+  --font-body: var(--font-body-family), Palatino, serif;
+  --font-runic: var(--font-runic-family), sans-serif;
+  --color-soot: #14110e;
+  --color-timber: #2a241c;
+  --color-bark: #4a4036;
+  --color-bone: #f3eadc;
+  --color-ash: #b7ad9f;
+  --color-ember: #e07a3d;
+  --color-paper: #f6f0e4;
+  --color-ink: #241c16;
+  --color-lichen: #9aada8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #14110e;
+  color: #f3eadc;
+  font-family: var(--font-body);
+}
+
+.wall {
+  background-color: #14110e;
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 72px,
+      rgba(243, 234, 220, 0.035) 72px,
+      rgba(243, 234, 220, 0.035) 73px
+    );
+}
+
+.hearth {
+  background: radial-gradient(
+    ellipse 55% 100% at 50% 120%,
+    rgba(224, 122, 61, 0.45),
+    rgba(224, 122, 61, 0.08) 42%,
+    transparent 70%
+  );
+  animation: ember 7s ease-in-out infinite;
+}
+
+@keyframes ember {
+  0%,
+  100% {
+    opacity: 0.72;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hearth {
+    animation: none;
+  }
+}
+
+.string {
+  width: 1px;
+  background: #6d6458;
+}
+
+.hung:hover .object,
+.hung:focus-visible .object {
+  transform: translateY(-6px);
+}
+
+.object {
+  transition: transform 280ms ease;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .object {
+    transition: none;
+  }
+}
