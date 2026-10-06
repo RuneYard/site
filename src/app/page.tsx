@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <a
         href="#duvar"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-bone focus:px-3 focus:py-2 focus:text-ink"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-paper focus:px-3 focus:py-2 focus:text-ink"
       >
         Duvardaki eşyalara geç
       </a>

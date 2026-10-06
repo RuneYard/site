@@ -54,7 +54,7 @@ export function HearthAsk() {
 
   return (
     <form
-      className="relative z-20 border-t border-bone/15 bg-soot/80 px-5 py-5 backdrop-blur-sm md:px-10"
+      className="relative z-20 border-t border-bark/25 bg-paper px-5 py-5 md:px-10"
       onSubmit={(event) => {
         event.preventDefault();
         void ask(question);
@@ -75,12 +75,12 @@ export function HearthAsk() {
             onChange={(event) => setQuestion(event.target.value)}
             placeholder="Bir rün adı, bir burç, bir gün"
             maxLength={500}
-            className="min-h-12 flex-1 border border-bone/20 bg-soot px-4 text-bone outline-none placeholder:text-ash/70 focus-visible:border-ember"
+            className="min-h-12 flex-1 border border-bark/30 bg-soot px-4 text-ink outline-none placeholder:text-ash/70 focus-visible:border-ember"
           />
           <button
             type="submit"
             disabled={pending || question.trim().length < 2}
-            className="min-h-12 bg-ember px-6 font-display text-sm tracking-[0.18em] text-ink uppercase disabled:opacity-50"
+            className="min-h-12 bg-ember px-6 font-display text-sm tracking-[0.18em] text-paper uppercase disabled:opacity-50"
           >
             {pending ? "Dinliyor" : "Sor"}
           </button>
@@ -91,7 +91,7 @@ export function HearthAsk() {
               key={spark}
               type="button"
               onClick={() => void ask(spark)}
-              className="min-h-10 border border-bone/20 px-3 text-sm text-ash hover:border-ember hover:text-bone focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ember"
+              className="min-h-10 border border-bark/30 px-3 text-sm text-ash hover:border-ember hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ember"
             >
               {spark}
             </button>

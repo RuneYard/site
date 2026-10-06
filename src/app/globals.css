@@ -4,15 +4,15 @@
   --font-display: var(--font-display-family), "Palatino Linotype", Palatino, serif;
   --font-body: var(--font-body-family), Palatino, serif;
   --font-runic: var(--font-runic-family), sans-serif;
-  --color-soot: #14110e;
-  --color-timber: #2a241c;
-  --color-bark: #4a4036;
-  --color-bone: #f3eadc;
-  --color-ash: #b7ad9f;
-  --color-ember: #e07a3d;
-  --color-paper: #f6f0e4;
-  --color-ink: #241c16;
-  --color-lichen: #9aada8;
+  --color-soot: #f7f1e6;
+  --color-timber: #e7d7c1;
+  --color-bark: #6e4b32;
+  --color-bone: #1c2833;
+  --color-ash: #4d5c68;
+  --color-ember: #9c2f24;
+  --color-paper: #fffaf3;
+  --color-ink: #1c2833;
+  --color-lichen: #3d6b78;
 }
 
 html {
@@ -20,28 +20,28 @@ html {
 }
 
 body {
-  background: #14110e;
-  color: #f3eadc;
+  background: #f4efe4;
+  color: #1c2833;
   font-family: var(--font-body);
 }
 
 .wall {
-  background-color: #14110e;
+  background-color: #f3ecdf;
   background-image:
     repeating-linear-gradient(
       90deg,
-      transparent 0,
-      transparent 72px,
-      rgba(243, 234, 220, 0.035) 72px,
-      rgba(243, 234, 220, 0.035) 73px
+      rgba(110, 75, 50, 0.05) 0,
+      rgba(110, 75, 50, 0.05) 70px,
+      rgba(110, 75, 50, 0.14) 70px,
+      rgba(110, 75, 50, 0.14) 72px
     );
 }
 
 .hearth {
   background: radial-gradient(
     ellipse 55% 100% at 50% 120%,
-    rgba(224, 122, 61, 0.45),
-    rgba(224, 122, 61, 0.08) 42%,
+    rgba(156, 47, 36, 0.16),
+    rgba(232, 168, 74, 0.08) 42%,
     transparent 70%
   );
   animation: ember 7s ease-in-out infinite;
@@ -69,7 +69,7 @@ body {
 
 .string {
   width: 1px;
-  background: #6d6458;
+  background: #8a6a4a;
 }
 
 .hung:hover .object,
@@ -80,7 +80,6 @@ body {
 .object {
   transition: transform 280ms ease;
 }
-
 
 @media (prefers-reduced-motion: reduce) {
   .object {

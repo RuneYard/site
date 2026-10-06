@@ -13,7 +13,7 @@ export function HungWall() {
   return (
     <section
       aria-label="Duvarda asılı olanlar"
-      className="wall border-t border-bone/10 px-5 py-16 md:px-10 md:py-24"
+      className="wall border-t border-bark/20 px-5 py-16 md:px-10 md:py-24"
     >
       <p className="font-display text-sm tracking-[0.28em] text-ash uppercase">
         Aynı duvar
@@ -32,12 +32,12 @@ export function HungWall() {
             <svg viewBox="0 0 220 280" className="mx-auto w-[min(100%,240px)]" aria-hidden>
               <path
                 d="M48 28c28-18 92-16 128 14 28 24 36 78 28 124-8 48-36 92-78 100-46 8-96-10-112-52C-2 154 8 58 48 28z"
-                fill="#2a261f"
-                stroke="#6a5e50"
+                fill="#d9d2c6"
+                stroke="#6e4b32"
               />
               <path
                 d="M70 70c18-8 58-6 78 12"
-                stroke="#8a7b68"
+                stroke="#8a6a4a"
                 strokeWidth="1"
                 fill="none"
               />
@@ -45,7 +45,7 @@ export function HungWall() {
                 x="110"
                 y="168"
                 textAnchor="middle"
-                fill="#f3eadc"
+                fill="#1c2833"
                 fontSize="78"
                 fontFamily="var(--font-runic), sans-serif"
               >
@@ -106,20 +106,20 @@ export function HungWall() {
               className="mx-auto w-[min(100%,250px)]"
               aria-hidden
             >
-              <circle cx="130" cy="130" r="124" fill="#1c1915" stroke="#6a5e50" />
-              <circle cx="130" cy="130" r="96" fill="none" stroke="#8a7b68" strokeWidth="0.6" />
-              <circle cx="130" cy="130" r="62" fill="none" stroke="#8a7b68" strokeWidth="0.6" />
-              <path d="M130 18v224M18 130h224" stroke="#4a4036" strokeWidth="0.8" />
-              <circle cx="130" cy="42" r="3.2" fill="#f3eadc" />
-              <circle cx="176" cy="78" r="1.8" fill="#e07a3d" />
-              <circle cx="92" cy="104" r="1.6" fill="#f3eadc" />
-              <circle cx="168" cy="156" r="1.6" fill="#f3eadc" />
-              <circle cx="108" cy="176" r="2" fill="#9aada8" />
+              <circle cx="130" cy="130" r="124" fill="#f7f3ea" stroke="#6e4b32" />
+              <circle cx="130" cy="130" r="96" fill="none" stroke="#8a6a4a" strokeWidth="0.8" />
+              <circle cx="130" cy="130" r="62" fill="none" stroke="#8a6a4a" strokeWidth="0.8" />
+              <path d="M130 18v224M18 130h224" stroke="#c4ad92" strokeWidth="0.8" />
+              <circle cx="130" cy="42" r="3.2" fill="#9c2f24" />
+              <circle cx="176" cy="78" r="1.8" fill="#3d6b78" />
+              <circle cx="92" cy="104" r="1.6" fill="#1c2833" />
+              <circle cx="168" cy="156" r="1.6" fill="#1c2833" />
+              <circle cx="108" cy="176" r="2" fill="#6e4b32" />
               <text
                 x="130"
                 y="36"
                 textAnchor="middle"
-                fill="#9aada8"
+                fill="#6e4b32"
                 fontSize="11"
                 fontFamily="var(--font-display), serif"
               >
@@ -143,7 +143,7 @@ export function HungWall() {
         </li>
       </ul>
 
-      <div className="mx-auto mt-20 flex max-w-2xl gap-5 border-t border-bone/15 pt-8">
+      <div className="mx-auto mt-20 flex max-w-2xl gap-5 border-t border-bark/25 pt-8">
         <HouseMark className="mt-1 size-12 shrink-0 text-ember" />
         <p className="text-lg leading-8 text-bone">
           Ben Mehmet Akdeniz. RuneYard bu odanın adı. Rün notu, ders duyurusu ve
