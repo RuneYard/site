@@ -21,10 +21,23 @@ const runic = Noto_Sans_Runic({
   display: "swap",
 });
 
+const siteUrl = "https://runeyard.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "RuneYard — Kış odası",
   description:
     "Mehmet Akdeniz’in kış odası. Rün notları, ders duyuruları ve gökyüzü yazıları aynı duvarda asılı.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    url: siteUrl,
+    siteName: "RuneYard",
+    title: "RuneYard — Kış odası",
+    description:
+      "Mehmet Akdeniz’in kış odası. Rün notları, ders duyuruları ve gökyüzü yazıları aynı duvarda asılı.",
+    locale: "tr_TR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

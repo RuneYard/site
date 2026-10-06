@@ -28,8 +28,8 @@ export default function Home() {
         <div className="relative z-10 flex flex-col justify-end px-5 pt-8 pb-8 md:px-10 lg:ml-[36vw] lg:h-full lg:max-w-2xl lg:justify-center lg:px-12 lg:py-8">
           <a href="#oda" className="inline-flex items-center gap-3 text-bone" aria-label="RuneYard">
             <HouseMark className="size-9 text-ember" />
-            <span className="font-display text-xs tracking-[0.42em] uppercase">
-              RuneYard
+            <span className="font-display text-xs tracking-[0.28em] text-bone lowercase">
+              runeyard.com
             </span>
           </a>
           <h1
