@@ -3,14 +3,14 @@
 @theme inline {
   --font-display: var(--font-display-family), "Palatino Linotype", Palatino, serif;
   --font-body: var(--font-body-family), "Helvetica Neue", Helvetica, sans-serif;
-  --color-snow: #f4f6f5;
+  --color-snow: #efe6d4;
   --color-ink: #101214;
   --color-iron: #3a4046;
   --color-wood: #2c2824;
   --color-green: #2f9d6a;
   --color-blue: #3d8ec4;
   --color-violet: #7a6cb8;
-  --color-paper: #fbfcfc;
+  --color-paper: #f7f1e4;
 }
 
 html {
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: #f4f6f5;
+  background: #efe6d4;
   color: #101214;
   font-family: var(--font-body);
 }
@@ -29,7 +29,7 @@ body {
 
 .portrait-light {
   background:
-    linear-gradient(180deg, rgba(251, 252, 252, 0.72) 0%, rgba(61, 142, 196, 0.16) 62%, rgba(47, 157, 106, 0.12) 100%);
+    linear-gradient(180deg, rgba(247, 241, 228, 0.82) 0%, rgba(228, 208, 170, 0.55) 62%, rgba(186, 156, 112, 0.28) 100%);
 }
 
 @media (prefers-reduced-motion: reduce) {
