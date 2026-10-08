@@ -3,13 +3,14 @@
 @theme inline {
   --font-display: var(--font-display-family), "Palatino Linotype", Palatino, serif;
   --font-body: var(--font-body-family), "Helvetica Neue", Helvetica, sans-serif;
-  --color-cream: #faf8f3;
-  --color-warm: #fff9f0;
-  --color-gold: #8b6914;
-  --color-gold-light: #c9a84c;
-  --color-ink: #1a1612;
-  --color-mist: #6b6560;
-  --color-line: #e8e4dc;
+  --color-snow: #f4f6f5;
+  --color-ink: #101214;
+  --color-iron: #3a4046;
+  --color-wood: #2c2824;
+  --color-green: #2f9d6a;
+  --color-blue: #3d8ec4;
+  --color-violet: #7a6cb8;
+  --color-paper: #fbfcfc;
 }
 
 html {
@@ -17,9 +18,18 @@ html {
 }
 
 body {
-  background: #faf8f3;
-  color: #1a1612;
+  background: #f4f6f5;
+  color: #101214;
   font-family: var(--font-body);
+}
+
+.aurora-line {
+  background-image: linear-gradient(90deg, #2f9d6a, #3d8ec4, #7a6cb8);
+}
+
+.portrait-light {
+  background:
+    linear-gradient(180deg, rgba(251, 252, 252, 0.72) 0%, rgba(61, 142, 196, 0.16) 62%, rgba(47, 157, 106, 0.12) 100%);
 }
 
 @media (prefers-reduced-motion: reduce) {
