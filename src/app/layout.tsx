@@ -21,7 +21,7 @@ const runic = Noto_Sans_Runic({
   display: "swap",
 });
 
-const siteUrl = "https://runeyard.com";
+const siteUrl = "https://runeyard.net";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

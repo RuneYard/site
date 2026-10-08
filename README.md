@@ -1,6 +1,6 @@
 # RuneYard
 
-Mehmet Akdeniz’in kış odası. Rün notları, ders duyuruları ve gökyüzü yazıları aynı duvarda asılı. Ocak, rün ve astroloji sorularını odanın notlarından cevaplar.
+Adres: [runeyard.net](https://runeyard.net). Mehmet Akdeniz’in kış odası. Rün notları, ders duyuruları ve gökyüzü yazıları aynı duvarda asılı. Ocak, rün ve astroloji sorularını odanın notlarından cevaplar.
 
 İsteğe bağlı olarak aynı ocağa bir model bağlanır. Anahtar yoksa sayfa kendi notlarıyla çalışır.
 

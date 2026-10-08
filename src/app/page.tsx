@@ -36,7 +36,7 @@ export default function Home() {
         <div className="hearth-glow" aria-hidden />
         <div className="relative z-10 mx-auto flex w-full max-w-xl flex-1 flex-col justify-between px-6 py-8">
           <p className="font-display text-xs tracking-[0.28em] text-lichen lowercase">
-            runeyard.com
+            runeyard.net
           </p>
           <div>
             <h1
