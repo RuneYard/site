@@ -36,17 +36,29 @@ const closedDoors = [
 export default function Home() {
   return (
     <HallShell>
-      <section className="flex min-h-[calc(100svh-64px)] items-center px-6 py-16 sm:px-8">
-        <div className="mx-auto flex w-full max-w-[1600px] flex-col items-start justify-between gap-12 lg:flex-row lg:items-center">
-          <div className="max-w-xl">
+      <section className="px-6 py-10 sm:px-8 lg:min-h-[calc(100svh-180px)] lg:py-12">
+        <div className="mx-auto grid w-full max-w-[1600px] gap-8 lg:min-h-[calc(100svh-280px)] lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-x-14">
+          <div className="order-1 lg:col-start-1 lg:row-start-1">
             <h1 className="font-display text-5xl leading-[1.05] font-semibold tracking-[0.03em] sm:text-7xl">
               Mehmet Akdeniz
             </h1>
+            <p className="mt-2 font-display text-3xl font-semibold tracking-[0.04em] sm:text-4xl">
+              RuneYard
+            </p>
             <p className="mt-6 max-w-md text-lg leading-8 text-iron">
               Merak eden de, derse gelen de bu holdan girer.
             </p>
           </div>
-          <PortraitMark />
+          <div className="order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:h-full">
+            <PortraitMark />
+          </div>
+          <section
+            id="ocak"
+            className="relative order-3 overflow-hidden bg-ink px-5 py-6 sm:px-6 lg:col-start-1 lg:row-start-2 lg:self-end"
+          >
+            <div className="aurora-line absolute inset-x-0 top-0 h-0.5" aria-hidden />
+            <HearthAsk />
+          </section>
         </div>
       </section>
 
@@ -72,11 +84,6 @@ export default function Home() {
               </li>
             ))}
           </ul>
-
-          <section id="ocak" className="relative mt-3.5 overflow-hidden bg-ink px-6 py-8 sm:px-8">
-            <div className="aurora-line absolute inset-x-0 top-0 h-0.5" aria-hidden />
-            <HearthAsk />
-          </section>
 
           <ul className="mt-3.5 grid gap-3.5 sm:grid-cols-3">
             {closedDoors.map((name) => (

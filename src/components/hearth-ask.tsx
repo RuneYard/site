@@ -54,7 +54,7 @@ export function HearthAsk() {
 
   return (
     <form
-      className="mx-auto max-w-3xl"
+      className="w-full"
       onSubmit={(event) => {
         event.preventDefault();
         void ask(question);
@@ -70,7 +70,7 @@ export function HearthAsk() {
           </label>
           <p className="mt-1.5 text-xs tracking-[0.12em] text-snow/60">Rün ya da gökyüzü.</p>
         </div>
-        <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <input
             id="ocak"
             name="question"
@@ -88,7 +88,7 @@ export function HearthAsk() {
             {pending ? "Dinliyor" : "Sor"}
           </button>
         </div>
-        <div className="flex flex-wrap justify-center gap-2">
+        <div className="flex flex-wrap gap-2">
           {sparks.map((spark) => (
             <button
               key={spark}
