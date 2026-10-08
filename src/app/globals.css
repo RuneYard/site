@@ -2,17 +2,14 @@
 
 @theme inline {
   --font-display: var(--font-display-family), "Palatino Linotype", Palatino, serif;
-  --font-body: var(--font-body-family), Palatino, serif;
-  --font-runic: var(--font-runic-family), sans-serif;
-  --color-soot: #10141a;
-  --color-timber: #1a1e26;
-  --color-bark: #3c342c;
-  --color-bone: #e7e1d6;
-  --color-ash: #9c9488;
-  --color-ember: #8e3a32;
-  --color-paper: #e7e1d6;
-  --color-ink: #10141a;
-  --color-lichen: #8aa0ae;
+  --font-body: var(--font-body-family), "Helvetica Neue", Helvetica, sans-serif;
+  --color-cream: #faf8f3;
+  --color-warm: #fff9f0;
+  --color-gold: #8b6914;
+  --color-gold-light: #c9a84c;
+  --color-ink: #1a1612;
+  --color-mist: #6b6560;
+  --color-line: #e8e4dc;
 }
 
 html {
@@ -20,44 +17,9 @@ html {
 }
 
 body {
-  background: #10141a;
-  color: #e7e1d6;
+  background: #faf8f3;
+  color: #1a1612;
   font-family: var(--font-body);
-}
-
-.hall {
-  background-color: #10141a;
-  background-image: repeating-linear-gradient(
-    90deg,
-    transparent 0,
-    transparent 88px,
-    rgba(231, 225, 214, 0.035) 88px,
-    rgba(231, 225, 214, 0.035) 89px
-  );
-}
-
-.north-light {
-  pointer-events: none;
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 28vh;
-  background: linear-gradient(
-    180deg,
-    rgba(168, 188, 204, 0.22),
-    rgba(16, 20, 26, 0) 80%
-  );
-}
-
-.hearth-glow {
-  pointer-events: none;
-  position: absolute;
-  inset: auto 0 0 0;
-  height: 18vh;
-  background: radial-gradient(
-    ellipse 70% 100% at 50% 100%,
-    rgba(142, 58, 50, 0.28),
-    transparent 70%
-  );
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,23 +1,18 @@
 import type { Metadata } from "next";
-import { Fraunces, Literata, Noto_Sans_Runic } from "next/font/google";
+import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Cormorant_Garamond({
   subsets: ["latin", "latin-ext"],
+  weight: ["400", "600", "700"],
   variable: "--font-display-family",
   display: "swap",
 });
 
-const body = Literata({
+const body = DM_Sans({
   subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500"],
   variable: "--font-body-family",
-  display: "swap",
-});
-
-const runic = Noto_Sans_Runic({
-  weight: "400",
-  subsets: ["runic"],
-  variable: "--font-runic-family",
   display: "swap",
 });
 
@@ -44,7 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="tr"
-      className={`${display.variable} ${body.variable} ${runic.variable} h-full antialiased`}
+      className={`${display.variable} ${body.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
     </html>
