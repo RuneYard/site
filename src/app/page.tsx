@@ -1,25 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { HearthAsk } from "@/components/hearth-ask";
 import { PortraitMark } from "@/components/portrait-mark";
-
-const openDoors = [
-  {
-    href: "/runler",
-    title: "Rünler",
-    line: "Kısa karşılıklar burada birikecek.",
-  },
-  {
-    href: "/egitim",
-    title: "Eğitim",
-    line: "Gün belli olunca bu satır dolacak.",
-  },
-  {
-    href: "/astroloji",
-    title: "Astroloji",
-    line: "Yazı bitince burada duracak.",
-  },
-] as const;
+import { useLanguage } from "@/components/language";
 
 const closedDoors = [
   "Şaman",
@@ -31,6 +16,8 @@ const closedDoors = [
 ] as const;
 
 export default function Home() {
+  const { t } = useLanguage();
+
   return (
     <HallShell>
       <section className="px-6 py-10 sm:px-8 lg:min-h-[calc(100svh-180px)] lg:py-12">
@@ -61,9 +48,11 @@ export default function Home() {
 
       <main id="icerik" className="px-6 pt-8 pb-16 sm:px-8">
         <div className="mx-auto w-full max-w-[1600px]">
-          <h2 className="mb-4 font-display text-sm font-medium tracking-[0.22em] uppercase">Hol</h2>
+          <h2 className="mb-4 font-display text-sm font-medium tracking-[0.22em] uppercase">
+            {t.hall}
+          </h2>
           <ul className="grid gap-3.5 sm:grid-cols-3">
-            {openDoors.map((door) => (
+            {t.doors.map((door) => (
               <li key={door.href}>
                 <Link
                   href={door.href}
@@ -75,7 +64,7 @@ export default function Home() {
                     </span>
                     <span className="mt-2 block text-sm leading-6 text-chalk/70">{door.line}</span>
                   </span>
-                  <span className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">Açık</span>
+                  <span className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">{t.open}</span>
                 </Link>
               </li>
             ))}
@@ -91,7 +80,7 @@ export default function Home() {
                   <span className="font-display text-3xl font-medium tracking-[0.01em]">
                     {name}
                   </span>
-                  <span className="text-[10px] tracking-[0.18em] uppercase">Kapalı</span>
+                  <span className="text-[10px] tracking-[0.18em] uppercase">{t.closed}</span>
                 </div>
               </li>
             ))}

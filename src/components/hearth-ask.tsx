@@ -1,15 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-
-const sparks = [
-  "Uruz ne der?",
-  "Fehu",
-  "Terazi",
-  "15 Nisan",
-  "Ekinoks nedir?",
-  "Haritaya nereden bakılır?",
-] as const;
+import { useLanguage } from "@/components/language";
 
 export function HearthAsk() {
   const [question, setQuestion] = useState("");
@@ -18,6 +10,7 @@ export function HearthAsk() {
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const answerRef = useRef<HTMLDivElement>(null);
+  const { t } = useLanguage();
 
   async function ask(text: string) {
     const next = text.trim();
@@ -37,7 +30,7 @@ export function HearthAsk() {
         error?: string;
       };
       if (!response.ok || !data.answer) {
-        setError(data.error ?? "Ocak şu an cevap vermedi. Bir kez daha sor.");
+        setError(data.error ?? t.hearth.error);
         return;
       }
       setAnswer(data.answer);
@@ -46,7 +39,7 @@ export function HearthAsk() {
         answerRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
       });
     } catch {
-      setError("Ocak şu an cevap vermedi. Bir kez daha sor.");
+      setError(t.hearth.error);
     } finally {
       setPending(false);
     }
@@ -66,14 +59,14 @@ export function HearthAsk() {
             htmlFor="ocak"
             className="shrink-0 font-display text-[11px] tracking-[0.16em] text-chalk uppercase"
           >
-            Ocağa sor
+            {t.hearth.label}
           </label>
           <input
             id="ocak"
             name="question"
             value={question}
             onChange={(event) => setQuestion(event.target.value)}
-            placeholder="Bir rün, bir burç, bir gün"
+            placeholder={t.hearth.placeholder}
             maxLength={500}
             className="h-8 min-w-0 flex-1 border border-chalk/25 bg-transparent px-2 text-sm text-chalk outline-none placeholder:text-chalk/40 focus-visible:border-chalk"
           />
@@ -82,11 +75,11 @@ export function HearthAsk() {
             disabled={pending || question.trim().length < 2}
             className="h-8 shrink-0 bg-chalk px-3 font-display text-[11px] tracking-[0.14em] text-ink uppercase disabled:opacity-50"
           >
-            {pending ? "…" : "Sor"}
+            {pending ? "…" : t.hearth.ask}
           </button>
         </div>
         <div className="flex gap-1 overflow-x-auto">
-          {sparks.map((spark) => (
+          {t.hearth.sparks.map((spark) => (
             <button
               key={spark}
               type="button"
@@ -102,7 +95,7 @@ export function HearthAsk() {
           {answer ? (
             <p className="text-sm leading-5 text-chalk">
               <span className="mr-2 font-display text-[10px] tracking-[0.18em] text-chalk/60 uppercase">
-                {voice === "model" ? "Ocak" : "Odanın notu"}
+                {voice === "model" ? t.hearth.voice : t.hearth.note}
               </span>
               {answer}
             </p>
