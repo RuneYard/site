@@ -60,51 +60,48 @@ export function HearthAsk() {
         void ask(question);
       }}
     >
-      <div className="flex flex-col gap-4">
-        <div>
+      <div className="flex flex-col gap-1.5">
+        <div className="flex items-center gap-2">
           <label
             htmlFor="ocak"
-            className="font-display text-2xl font-semibold tracking-[0.06em] text-snow"
+            className="shrink-0 font-display text-[11px] tracking-[0.16em] text-chalk uppercase"
           >
             Ocağa sor
           </label>
-          <p className="mt-1.5 text-xs tracking-[0.12em] text-snow/60">Rün ya da gökyüzü.</p>
-        </div>
-        <div className="flex flex-col gap-3 sm:flex-row">
           <input
             id="ocak"
             name="question"
             value={question}
             onChange={(event) => setQuestion(event.target.value)}
-            placeholder="Bir rün adı, bir burç, bir gün"
+            placeholder="Bir rün, bir burç, bir gün"
             maxLength={500}
-            className="min-h-12 flex-1 rounded-lg border border-snow/25 bg-transparent px-4 text-left text-snow outline-none placeholder:text-snow/40 focus-visible:border-blue"
+            className="h-8 min-w-0 flex-1 border border-chalk/25 bg-transparent px-2 text-sm text-chalk outline-none placeholder:text-chalk/40 focus-visible:border-chalk"
           />
           <button
             type="submit"
             disabled={pending || question.trim().length < 2}
-            className="min-h-12 rounded-lg bg-snow px-8 font-display text-sm font-semibold tracking-[0.14em] text-ink uppercase disabled:opacity-50"
+            className="h-8 shrink-0 bg-chalk px-3 font-display text-[11px] tracking-[0.14em] text-ink uppercase disabled:opacity-50"
           >
-            {pending ? "Dinliyor" : "Sor"}
+            {pending ? "…" : "Sor"}
           </button>
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex gap-1 overflow-x-auto">
           {sparks.map((spark) => (
             <button
               key={spark}
               type="button"
               onClick={() => void ask(spark)}
-              className="min-h-10 rounded-lg border border-snow/25 px-3 text-sm text-snow/75 hover:border-green hover:text-snow focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue"
+              className="h-6 shrink-0 border border-chalk/20 px-2 text-[11px] text-chalk/75 hover:border-chalk hover:text-chalk focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chalk"
             >
               {spark}
             </button>
           ))}
         </div>
-        <div ref={answerRef} aria-live="polite" className="min-h-6 text-left">
-          {error ? <p className="text-blue">{error}</p> : null}
+        <div ref={answerRef} aria-live="polite" className="text-left">
+          {error ? <p className="text-xs text-chalk">{error}</p> : null}
           {answer ? (
-            <p className="leading-7 text-snow">
-              <span className="mr-2 font-display text-xs tracking-[0.22em] text-green uppercase">
+            <p className="text-sm leading-5 text-chalk">
+              <span className="mr-2 font-display text-[10px] tracking-[0.18em] text-chalk/60 uppercase">
                 {voice === "model" ? "Ocak" : "Odanın notu"}
               </span>
               {answer}

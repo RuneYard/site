@@ -3,14 +3,12 @@
 @theme inline {
   --font-display: var(--font-display-family), "Palatino Linotype", Palatino, serif;
   --font-body: var(--font-body-family), "Helvetica Neue", Helvetica, sans-serif;
-  --color-snow: #efe6d4;
-  --color-ink: #101214;
-  --color-iron: #3a4046;
-  --color-wood: #2c2824;
-  --color-green: #2f9d6a;
-  --color-blue: #3d8ec4;
-  --color-violet: #7a6cb8;
-  --color-paper: #f7f1e4;
+  --color-slate: #1b2426;
+  --color-card: #263236;
+  --color-chalk: #e7e2d8;
+  --color-ink: #141a1c;
+  --color-bronze: #8a6840;
+  --color-moss: #1a2820;
 }
 
 html {
@@ -18,18 +16,49 @@ html {
 }
 
 body {
-  background: #efe6d4;
-  color: #101214;
+  background-color: #1b2426;
+  color: #e7e2d8;
   font-family: var(--font-body);
 }
 
-.aurora-line {
-  background-image: linear-gradient(90deg, #2f9d6a, #3d8ec4, #7a6cb8);
+.wet-slate {
+  background-color: #1b2426;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse 80% 42% at 12% -8%, rgba(214, 224, 220, 0.16), transparent 58%),
+    radial-gradient(ellipse 70% 50% at 100% 100%, rgba(0, 0, 0, 0.45), transparent 62%),
+    linear-gradient(165deg, rgba(214, 224, 220, 0.16), #1b2426 42%, rgba(0, 0, 0, 0.45));
+  background-blend-mode: overlay, soft-light, multiply, normal;
+  background-size: 180px 180px, auto, auto, auto;
 }
 
-.portrait-light {
-  background:
-    linear-gradient(180deg, rgba(247, 241, 228, 0.82) 0%, rgba(228, 208, 170, 0.55) 62%, rgba(186, 156, 112, 0.28) 100%);
+.wet-ink {
+  background-color: #141a1c;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E"),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent 36%, rgba(0, 0, 0, 0.28));
+  background-blend-mode: overlay, normal;
+}
+
+.card-slate {
+  background-color: #263236;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent 42%, rgba(0, 0, 0, 0.16));
+}
+
+.bronze-hairline {
+  box-shadow: inset 0 -1px 0 #8a6840;
+}
+
+.bronze-frame {
+  box-shadow: inset 0 0 0 1px #8a6840;
+}
+
+.aurora-wash {
+  background-image:
+    radial-gradient(ellipse 80% 60% at 24% 18%, rgba(176, 206, 186, 0.55), transparent 62%),
+    radial-gradient(ellipse 70% 55% at 78% 62%, rgba(166, 184, 214, 0.42), transparent 60%),
+    radial-gradient(ellipse 60% 45% at 46% 88%, rgba(196, 180, 216, 0.36), transparent 58%),
+    linear-gradient(180deg, rgba(20, 28, 30, 0.15), rgba(20, 28, 30, 0.4));
 }
 
 @media (prefers-reduced-motion: reduce) {
