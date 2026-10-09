@@ -21,6 +21,10 @@ const copy = {
       "Okunmayı bekleyen bir düzen var.",
       "İşaret ve gökyüzü, yaklaşana açılır.",
     ],
+    sky: {
+      date: "9 Ekim 2026",
+      line: "Ay bugün Terazi'de, ince bir hilal.",
+    },
     portrait: "Portre yeri",
     hall: "Hol",
     open: "Açık",
@@ -77,6 +81,10 @@ const copy = {
       "There is an order waiting to be read.",
       "Sign and sky open to whoever draws near.",
     ],
+    sky: {
+      date: "9 October 2026",
+      line: "The Moon is in Libra today, a thin crescent.",
+    },
     portrait: "Place for a portrait",
     hall: "Hall",
     open: "Open",
@@ -133,6 +141,10 @@ const copy = {
       "En ordning väntar på att bli läst.",
       "Tecken och himmel öppnar sig för den som närmar sig.",
     ],
+    sky: {
+      date: "9 oktober 2026",
+      line: "Månen står i Vågen i dag, en tunn skära.",
+    },
     portrait: "Plats för porträtt",
     hall: "Hall",
     open: "Öppen",

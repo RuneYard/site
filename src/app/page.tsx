@@ -34,6 +34,12 @@ export default function Home() {
               <br />
               {t.lines[1]}
             </p>
+            <p className="mt-8 max-w-md text-sm leading-6 text-chalk/80">
+              <time className="block text-[10px] tracking-[0.16em] text-chalk/50 uppercase" dateTime="2026-10-09">
+                {t.sky.date}
+              </time>
+              {t.sky.line}
+            </p>
           </div>
           <div className="order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:h-full">
             <PortraitMark />
