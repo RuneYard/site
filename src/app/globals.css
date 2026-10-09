@@ -61,8 +61,44 @@ body {
     linear-gradient(180deg, rgba(20, 28, 30, 0.15), rgba(20, 28, 30, 0.4));
 }
 
+.portrait-slide {
+  opacity: 0;
+  animation: portrait-fade 45s linear infinite;
+}
+
+.portrait-grade {
+  filter: brightness(0.76) saturate(0.58) contrast(1.05);
+}
+
+@keyframes portrait-fade {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .portrait-slide {
+    animation: none;
+    opacity: 0;
+  }
+
+  .portrait-slide:first-child {
+    opacity: 1;
   }
 }

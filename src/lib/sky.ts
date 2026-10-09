@@ -217,3 +217,13 @@ export function formatSkyDate(date: Date, locale: string) {
     timeZone: ISTANBUL.timeZone,
   }).format(date);
 }
+
+export function formatSkyClock(date: Date) {
+  return new Intl.DateTimeFormat("en-GB", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+    timeZone: ISTANBUL.timeZone,
+  }).format(date);
+}

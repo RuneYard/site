@@ -2,28 +2,28 @@
 
 import { useSyncExternalStore } from "react";
 import { useLanguage } from "@/components/language";
-import { formatSkyDate, readSky } from "@/lib/sky";
+import { formatSkyClock, formatSkyDate, readSky } from "@/lib/sky";
 import { skyAdvice, skyNames } from "@/lib/sky-copy";
 
 const locale = { tr: "tr-TR", en: "en-GB", sv: "sv-SE" } as const;
 
 function subscribe(onChange: () => void) {
-  const id = setInterval(onChange, 60_000);
+  const id = setInterval(onChange, 1000);
   return () => clearInterval(id);
 }
 
-function minuteNow() {
-  return Math.floor(Date.now() / 60_000);
+function secondNow() {
+  return Math.floor(Date.now() / 1000);
 }
 
 export function SkyNote() {
   const { lang, t } = useLanguage();
-  const minute = useSyncExternalStore(subscribe, minuteNow, minuteNow);
-  const sky = readSky(new Date(minute * 60_000));
+  const second = useSyncExternalStore(subscribe, secondNow, secondNow);
+  const sky = readSky(new Date(second * 1000));
   const names = skyNames[lang];
 
   return (
-    <div className="mt-8 max-w-md">
+    <div className="mt-8 max-w-md" suppressHydrationWarning>
       <time
         dateTime={sky.date.toISOString()}
         className="block text-[10px] tracking-[0.16em] text-chalk/50 uppercase"
@@ -45,6 +45,12 @@ export function SkyNote() {
         </div>
       </dl>
       <p className="mt-3 text-base leading-7 text-chalk/90">{skyAdvice(lang, sky)}</p>
+      <p
+        className="mt-4 font-display text-sm tracking-[0.28em] text-chalk/45 tabular-nums"
+        aria-label={formatSkyClock(sky.date)}
+      >
+        {formatSkyClock(sky.date)}
+      </p>
     </div>
   );
 }
