@@ -30,7 +30,9 @@ export default function Home() {
               RuneYard
             </p>
             <p className="mt-6 max-w-md text-lg leading-relaxed tracking-[0.012em] text-chalk/85">
-              Merak eden de, derse gelen de bu holdan girer.
+              {t.lines[0]}
+              <br />
+              {t.lines[1]}
             </p>
           </div>
           <div className="order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:h-full">

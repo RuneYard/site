@@ -17,6 +17,10 @@ const copy = {
       { href: "/astroloji", label: "Astroloji" },
       { href: "/#ocak", label: "Ocak" },
     ],
+    lines: [
+      "Sessiz bir eşik.",
+      "İçeride işaret, gökyüzü ve ders birbirini bekler.",
+    ],
     portrait: "Portre yeri",
     hall: "Hol",
     open: "Açık",
@@ -69,6 +73,10 @@ const copy = {
       { href: "/astroloji", label: "Astrology" },
       { href: "/#ocak", label: "Hearth" },
     ],
+    lines: [
+      "A quiet threshold.",
+      "Inside, the sign, the sky, and the lesson wait for each other.",
+    ],
     portrait: "Place for a portrait",
     hall: "Hall",
     open: "Open",
@@ -120,6 +128,10 @@ const copy = {
       { href: "/egitim", label: "Utbildning" },
       { href: "/astroloji", label: "Astrologi" },
       { href: "/#ocak", label: "Härd" },
+    ],
+    lines: [
+      "En tyst tröskel.",
+      "Där inne väntar tecken, himmel och lektion på varandra.",
     ],
     portrait: "Plats för porträtt",
     hall: "Hall",
