@@ -47,9 +47,9 @@ const copy = {
       status: "başladı",
       soon: "Yeni eğitim duyuruları yakında.",
       items: [
-        "Şamanizm Eğitimi",
-        "Rune Bilgeliği Eğitimi",
-        "El, Yüz ve Element Okuma Teknikleri",
+        { name: "Şamanizm Eğitimi", href: "/egitim/samanizm" },
+        { name: "Rune Bilgeliği Eğitimi", href: "/egitim/rune-bilgeligi" },
+        { name: "El, Yüz ve Element Okuma Teknikleri", href: "/egitim/el-yuz-element" },
       ],
     },
     astrology: {
@@ -111,9 +111,9 @@ const copy = {
       status: "has begun",
       soon: "New course announcements soon.",
       items: [
-        "Shamanism Training",
-        "Rune Wisdom Training",
-        "Hand, Face, and Element Reading Techniques",
+        { name: "Shamanism Training", href: "/egitim/samanizm" },
+        { name: "Rune Wisdom Training", href: "/egitim/rune-bilgeligi" },
+        { name: "Hand, Face, and Element Reading Techniques", href: "/egitim/el-yuz-element" },
       ],
     },
     astrology: {
@@ -175,9 +175,9 @@ const copy = {
       status: "har börjat",
       soon: "Nya utbildningsbesked kommer snart.",
       items: [
-        "Schamanismutbildning",
-        "Utbildning i runvisdom",
-        "Tekniker för hand-, ansikts- och elementläsning",
+        { name: "Schamanismutbildning", href: "/egitim/samanizm" },
+        { name: "Utbildning i runvisdom", href: "/egitim/rune-bilgeligi" },
+        { name: "Tekniker för hand-, ansikts- och elementläsning", href: "/egitim/el-yuz-element" },
       ],
     },
     astrology: {

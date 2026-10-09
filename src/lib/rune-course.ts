@@ -1,0 +1,167 @@
+import type { Lang } from "@/lib/copy";
+
+const lessons = {
+  tr: [
+    "Rune tarihi ve mitolojisi, rune yapımında ağaçların kullanımı",
+    "Elementler, frekanslar ve ritüel hazırlamanın mantığı",
+    "Çember açma, rune takdis ritüeli, rune yoga",
+    "Fehu ve Uruz",
+    "Thurisaz ve Ansuz",
+    "Raidho ve Kenaz",
+    "Gebo ve Wunjo",
+    "Hagalaz ve Nauthiz",
+    "Isa ve Jera",
+    "Eihwaz ve Perthro",
+    "Algiz ve Sowilo",
+    "Tiwaz ve Berkano",
+    "Ehwaz ve Mannaz",
+    "Laguz ve Ingwaz",
+    "Othala ve Dagaz",
+    "Rune ve sağlık, rune meditasyonu",
+    "Rune bağlama (bindrune) pratikler",
+    "Kehanet yöntemleri ve pratikler",
+    "Kehanet yöntemi ve pratikler",
+    "Element çemberi ve pratik",
+  ],
+  en: [
+    "Rune history and mythology, the use of trees in making runes",
+    "Elements, frequencies, and the logic of preparing a ritual",
+    "Opening the circle, the rune consecration ritual, rune yoga",
+    "Fehu and Uruz",
+    "Thurisaz and Ansuz",
+    "Raidho and Kenaz",
+    "Gebo and Wunjo",
+    "Hagalaz and Nauthiz",
+    "Isa and Jera",
+    "Eihwaz and Perthro",
+    "Algiz and Sowilo",
+    "Tiwaz and Berkano",
+    "Ehwaz and Mannaz",
+    "Laguz and Ingwaz",
+    "Othala and Dagaz",
+    "Runes and health, rune meditation",
+    "Rune binding (bindrune), practice",
+    "Divination methods and practice",
+    "A divination method and practice",
+    "The element circle and practice",
+  ],
+  sv: [
+    "Runornas historia och mytologi, användningen av träd när runor görs",
+    "Element, frekvenser och logiken i att förbereda en ritual",
+    "Att öppna cirkeln, ritual för att inviga runor, runyoga",
+    "Fehu och Uruz",
+    "Thurisaz och Ansuz",
+    "Raidho och Kenaz",
+    "Gebo och Wunjo",
+    "Hagalaz och Nauthiz",
+    "Isa och Jera",
+    "Eihwaz och Perthro",
+    "Algiz och Sowilo",
+    "Tiwaz och Berkano",
+    "Ehwaz och Mannaz",
+    "Laguz och Ingwaz",
+    "Othala och Dagaz",
+    "Runor och hälsa, runmeditation",
+    "Runbindning (bindrune), övningar",
+    "Spådomsmetoder och övningar",
+    "En spådomsmetod och övningar",
+    "Elementcirkeln och övning",
+  ],
+} as const;
+
+export function runeCourse(lang: Lang) {
+  const sheet = {
+    tr: {
+      title: "Rune Bilgeliği Eğitimi",
+      status: "başladı",
+      welcome: [
+        "Kuzey şamanizminin, Keltlerin, Germenlerin, Avrupa’da yaşayan kadim toplumların yüzlerce yılda oluşturdukları bu sembol dilini hem kehanet hem bindrune mantığı ile öğrenmek istiyorsanız aramıza hoşgeldiniz. Sıkı giyinin kuzeye yolculuk edeceğiz.",
+        "Bir çok şeye çok şaşıracağınıza söz veriyorum.",
+      ],
+      questions: [
+        "Fehu, sadece bereket midir?",
+        "Hagalaz sadece felaket mi?",
+        "Tiwaz neden kolunu kaybetmiştir?",
+        "Thurisaz gerçekten yenilmez midir?",
+        "Runları sen çizebilir, kendi taşlarını oluşturabilir misin?",
+      ],
+      scope:
+        "Eğitim içeriğinde; rune tarihi, temsil ettikleri konular, öz anlamları, mitolojisi, ritüelleri, pratik kullanım alanları, rune çemberi, rune bağlama (bindrune) ve şifa ve kehanet yöntemleri yer almaktadır.",
+      facts: [
+        ["Ücret", "2750 TL / ay"],
+        ["Başlangıç", "7 Ekim Çarşamba"],
+        ["Sıklık", "Haftada bir"],
+        ["Ders", "20 ders"],
+        ["Saat", "20:30"],
+        ["Yer", "Zoom"],
+        ["Kayıt", "Kayıt düşer"],
+      ],
+      lessonsLabel: "Ders içeriği",
+      level:
+        "İçerik en temelden orta ve orta-ileri seviyeye uygun olarak hazırlanmıştır. Hem rünlerle çalışan hem de rünleri öğrenmek isteyen herkese kapı açıktır.",
+      enroll: "Bilgi ve kayıt:",
+    },
+    en: {
+      title: "Rune Wisdom Training",
+      status: "has begun",
+      welcome: [
+        "If you want to learn this symbolic language — shaped over hundreds of years by northern shamanism, the Celts, the Germanic peoples, and the ancient societies living in Europe — both as divination and through the logic of the bindrune, you are welcome among us. Dress warmly. We are traveling north.",
+        "I promise you will be surprised by a great many things.",
+      ],
+      questions: [
+        "Is Fehu only abundance?",
+        "Is Hagalaz only disaster?",
+        "Why did Tiwaz lose his arm?",
+        "Is Thurisaz truly invincible?",
+        "Can you draw the runes yourself, and make your own stones?",
+      ],
+      scope:
+        "The course includes rune history, the subjects they stand for, their essential meanings, their mythology, their rituals, practical uses, the rune circle, rune binding (bindrune), and methods of healing and divination.",
+      facts: [
+        ["Fee", "2750 TL / month"],
+        ["Start", "7 October, Wednesday"],
+        ["Rhythm", "Once a week"],
+        ["Lessons", "20 lessons"],
+        ["Time", "20:30"],
+        ["Place", "Zoom"],
+        ["Recording", "A recording is kept"],
+      ],
+      lessonsLabel: "Lessons",
+      level:
+        "The material is prepared from the very beginning through intermediate and upper-intermediate level. The door is open both to those who already work with runes and to those who want to learn them.",
+      enroll: "Information and enrollment:",
+    },
+    sv: {
+      title: "Utbildning i runvisdom",
+      status: "har börjat",
+      welcome: [
+        "Om du vill lära dig detta symbolspråk — det som nordlig schamanism, kelterna, germanerna och de gamla samhällena i Europa formade under hundratals år — både som spådom och enligt bindrunans logik, är du välkommen. Klä dig varmt. Vi reser norrut.",
+        "Jag lovar att du kommer att förvånas över mycket.",
+      ],
+      questions: [
+        "Är Fehu bara överflöd?",
+        "Är Hagalaz bara en katastrof?",
+        "Varför förlorade Tiwaz sin arm?",
+        "Är Thurisaz verkligen oövervinnelig?",
+        "Kan du själv rita runorna och göra dina egna stenar?",
+      ],
+      scope:
+        "I utbildningen ingår runornas historia, det de står för, deras kärnbetydelser, mytologi, ritualer, praktisk användning, runcirkeln, runbindning (bindrune) samt metoder för läkning och spådom.",
+      facts: [
+        ["Avgift", "2750 TL / mån"],
+        ["Start", "7 oktober, onsdag"],
+        ["Takt", "En gång i veckan"],
+        ["Lektioner", "20 lektioner"],
+        ["Tid", "20:30"],
+        ["Plats", "Zoom"],
+        ["Inspelning", "Spelas in"],
+      ],
+      lessonsLabel: "Lektioner",
+      level:
+        "Innehållet är lagt från den allra första grunden till medel och övre medelnivå. Dörren är öppen både för den som redan arbetar med runor och för den som vill lära sig dem.",
+      enroll: "Information och anmälan:",
+    },
+  } as const;
+
+  return { ...sheet[lang], lessons: lessons[lang] };
+}
