@@ -28,6 +28,7 @@ export const phases = [
   "waningGibbous",
   "lastQuarter",
   "waningCrescent",
+  "balsamic",
 ] as const;
 
 export const planets = ["saturn", "jupiter", "mars", "sun", "venus", "mercury", "moon"] as const;
@@ -64,15 +65,17 @@ function julianDay(date: Date) {
 export function moonPhase(date: Date): Phase {
   let age = (date.getTime() - KNOWN_NEW_MOON) / 86400000;
   age = ((age % SYNODIC) + SYNODIC) % SYNODIC;
-  if (age < 1.85) return "new";
-  if (age < 7.38) return "waxingCrescent";
-  if (age < 9.23) return "firstQuarter";
-  if (age < 14.77) return "waxingGibbous";
-  if (age < 16.61) return "full";
-  if (age < 22.15) return "waningGibbous";
-  if (age < 24.0) return "lastQuarter";
-  if (age < 28.5) return "waningCrescent";
-  return "new";
+  const eighth = SYNODIC / 8;
+  const index = Math.min(7, Math.floor(age / eighth));
+  if (index === 0) return "new";
+  if (index === 1) return "waxingCrescent";
+  if (index === 2) return "firstQuarter";
+  if (index === 3) return "waxingGibbous";
+  if (index === 4) return "full";
+  if (index === 5) return "waningGibbous";
+  if (index === 6) return "lastQuarter";
+  const intoLast = age - 7 * eighth;
+  return intoLast < eighth / 2 ? "waningCrescent" : "balsamic";
 }
 
 /** Ecliptic longitude, short series, enough to name the sign. */
