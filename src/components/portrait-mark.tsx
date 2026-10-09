@@ -31,6 +31,36 @@ const frames = [
     grade: false,
     position: "object-center",
   },
+  {
+    src: "/portrait/still-runes-iron.jpg",
+    alt: "",
+    grade: false,
+    position: "object-center",
+  },
+  {
+    src: "/portrait/still-runes-arc.jpg",
+    alt: "",
+    grade: false,
+    position: "object-center",
+  },
+  {
+    src: "/portrait/still-sky-pines.jpg",
+    alt: "",
+    grade: false,
+    position: "object-center",
+  },
+  {
+    src: "/portrait/still-chart.jpg",
+    alt: "",
+    grade: false,
+    position: "object-center",
+  },
+  {
+    src: "/portrait/still-iron-candle.jpg",
+    alt: "",
+    grade: false,
+    position: "object-center",
+  },
 ] as const;
 
 export function PortraitMark() {

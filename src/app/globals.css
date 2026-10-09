@@ -63,7 +63,7 @@ body {
 
 .portrait-slide {
   opacity: 0;
-  animation: portrait-fade 45s linear infinite;
+  animation: portrait-fade 90s linear infinite;
 }
 
 .portrait-grade {
@@ -74,13 +74,13 @@ body {
   0% {
     opacity: 0;
   }
-  3% {
+  1.5% {
     opacity: 1;
   }
-  17% {
+  8.5% {
     opacity: 1;
   }
-  20% {
+  10% {
     opacity: 0;
   }
   100% {
