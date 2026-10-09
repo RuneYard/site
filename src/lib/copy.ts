@@ -18,8 +18,8 @@ const copy = {
       { href: "/#ocak", label: "Ocak" },
     ],
     lines: [
-      "Sessiz bir eşik.",
-      "İçeride işaret, gökyüzü ve ders birbirini bekler.",
+      "Okunmayı bekleyen bir düzen var.",
+      "İşaret ve gökyüzü, yaklaşana açılır.",
     ],
     portrait: "Portre yeri",
     hall: "Hol",
@@ -74,8 +74,8 @@ const copy = {
       { href: "/#ocak", label: "Hearth" },
     ],
     lines: [
-      "A quiet threshold.",
-      "Inside, the sign, the sky, and the lesson wait for each other.",
+      "There is an order waiting to be read.",
+      "Sign and sky open to whoever draws near.",
     ],
     portrait: "Place for a portrait",
     hall: "Hall",
@@ -130,8 +130,8 @@ const copy = {
       { href: "/#ocak", label: "Härd" },
     ],
     lines: [
-      "En tyst tröskel.",
-      "Där inne väntar tecken, himmel och lektion på varandra.",
+      "En ordning väntar på att bli läst.",
+      "Tecken och himmel öppnar sig för den som närmar sig.",
     ],
     portrait: "Plats för porträtt",
     hall: "Hall",
