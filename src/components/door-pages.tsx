@@ -41,18 +41,21 @@ export function EducationRoom() {
 
   return (
     <Frame title={t.education.title}>
-      <ul className="mt-8 border-t border-chalk/15">
+      <h2 className="mt-8 font-display text-3xl font-medium tracking-[-0.02em]">
+        {t.education.heading}
+      </h2>
+      <ul className="mt-6 border-t border-chalk/15">
         {t.education.items.map((item) => (
           <li
-            key={item.date}
-            className="flex flex-wrap items-baseline gap-x-6 gap-y-1 border-b border-chalk/15 py-4"
+            key={item}
+            className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b border-chalk/15 py-4"
           >
-            <time className="text-sm tracking-[0.04em] text-chalk/60">{item.date}</time>
-            <span className="font-display text-2xl font-medium">{item.topic}</span>
-            <span className="text-[10px] tracking-[0.18em] text-chalk/50 uppercase">{t.draft}</span>
+            <span className="font-display text-2xl font-medium">{item}</span>
+            <span className="text-sm text-chalk/60">{t.education.status}</span>
           </li>
         ))}
       </ul>
+      <p className="mt-6 text-sm text-chalk/55">{t.education.soon}</p>
     </Frame>
   );
 }

@@ -43,10 +43,13 @@ const copy = {
     draft: "Taslak",
     education: {
       title: "Eğitim",
+      heading: "Ekim Çemberi başladı",
+      status: "başladı",
+      soon: "Yeni eğitim duyuruları yakında.",
       items: [
-        { date: "12 Kasım 2026", topic: "Rün alfabesine giriş" },
-        { date: "3 Aralık 2026", topic: "Ses ve ad" },
-        { date: "21 Ocak 2027", topic: "Yirmi dört işaret" },
+        "Şamanizm Eğitimi",
+        "Rune Bilgeliği Eğitimi",
+        "El, Yüz ve Element Okuma Teknikleri",
       ],
     },
     astrology: {
@@ -104,10 +107,13 @@ const copy = {
     draft: "Draft",
     education: {
       title: "Education",
+      heading: "The October Circle has begun",
+      status: "has begun",
+      soon: "New course announcements soon.",
       items: [
-        { date: "12 November 2026", topic: "Introduction to the rune row" },
-        { date: "3 December 2026", topic: "Sound and name" },
-        { date: "21 January 2027", topic: "Twenty-four signs" },
+        "Shamanism Training",
+        "Rune Wisdom Training",
+        "Hand, Face, and Element Reading Techniques",
       ],
     },
     astrology: {
@@ -165,10 +171,13 @@ const copy = {
     draft: "Utkast",
     education: {
       title: "Utbildning",
+      heading: "Oktobercirkeln har börjat",
+      status: "har börjat",
+      soon: "Nya utbildningsbesked kommer snart.",
       items: [
-        { date: "12 november 2026", topic: "Introduktion till runraden" },
-        { date: "3 december 2026", topic: "Ljud och namn" },
-        { date: "21 januari 2027", topic: "Tjugofyra tecken" },
+        "Schamanismutbildning",
+        "Utbildning i runvisdom",
+        "Tekniker för hand-, ansikts- och elementläsning",
       ],
     },
     astrology: {
