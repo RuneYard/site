@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { AstrologyRoom } from "@/components/door-pages";
+import { VenusNote } from "@/components/venus-note";
 
 export const metadata: Metadata = {
-  title: "Astroloji — RuneYard",
+  title: "Venüs Retrosu — RuneYard",
 };
 
 export default function AstrolojiPage() {
-  return <AstrologyRoom />;
+  return <VenusNote />;
 }

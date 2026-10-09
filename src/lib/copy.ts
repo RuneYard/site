@@ -34,7 +34,7 @@ const copy = {
     doors: [
       { href: "/runler", title: "Rünler", line: "Kısa karşılıklar burada birikecek." },
       { href: "/egitim", title: "Eğitim", line: "Gün belli olunca bu satır dolacak." },
-      { href: "/astroloji", title: "Astroloji", line: "Yazı bitince burada duracak." },
+      { href: "/astroloji", title: "Astroloji", line: "Venüs retrosu, 3 Ekim – 14 Kasım." },
     ],
     runes: {
       title: "Rünler",
@@ -98,7 +98,7 @@ const copy = {
     doors: [
       { href: "/runler", title: "Runes", line: "Short readings will gather here." },
       { href: "/egitim", title: "Education", line: "This line will fill when the day is set." },
-      { href: "/astroloji", title: "Astrology", line: "The writing will stand here when it is finished." },
+      { href: "/astroloji", title: "Astrology", line: "Venus retrograde, 3 October – 14 November." },
     ],
     runes: {
       title: "Runes",
@@ -162,7 +162,7 @@ const copy = {
     doors: [
       { href: "/runler", title: "Runor", line: "Korta tydningar samlas här." },
       { href: "/egitim", title: "Utbildning", line: "Raden fylls när dagen är satt." },
-      { href: "/astroloji", title: "Astrologi", line: "Texten får stå här när den är färdig." },
+      { href: "/astroloji", title: "Astrologi", line: "Venus retrograd, 3 oktober – 14 november." },
     ],
     runes: {
       title: "Runor",

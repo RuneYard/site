@@ -69,13 +69,3 @@ export function EducationRoom() {
   );
 }
 
-export function AstrologyRoom() {
-  const { t } = useLanguage();
-
-  return (
-    <Frame title={t.astrology.title}>
-      <p className="mt-6 text-[10px] tracking-[0.18em] text-chalk/50 uppercase">{t.draft}</p>
-      <p className="mt-3 max-w-xl text-lg leading-8 text-chalk/80">{t.astrology.note}</p>
-    </Frame>
-  );
-}
