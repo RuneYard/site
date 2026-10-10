@@ -50,16 +50,12 @@ export function EducationRoom() {
             key={item.name}
             className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b border-chalk/15 py-4"
           >
-            {item.href ? (
-              <Link
-                href={item.href}
-                className="font-display text-2xl font-medium underline decoration-chalk/30 underline-offset-4"
-              >
-                {item.name}
-              </Link>
-            ) : (
-              <span className="font-display text-2xl font-medium">{item.name}</span>
-            )}
+            <Link
+              href={item.href}
+              className="font-display text-2xl font-medium underline decoration-chalk/30 underline-offset-4"
+            >
+              {item.name}
+            </Link>
             <span className="text-sm text-chalk/60">{t.education.status}</span>
           </li>
         ))}
