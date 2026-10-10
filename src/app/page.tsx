@@ -12,7 +12,6 @@ const closedDoors = [
   "Kelt",
   "Mezopotamya",
   "Witchcraft",
-  "Uygulamalar",
   "Shop",
 ] as const;
 

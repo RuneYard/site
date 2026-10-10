@@ -15,6 +15,7 @@ const copy = {
       { href: "/runler", label: "Rünler" },
       { href: "/egitim", label: "Eğitim" },
       { href: "/astroloji", label: "Astroloji" },
+      { href: "/uygulamalar", label: "Uygulamalar" },
       { href: "/#ocak", label: "Ocak" },
     ],
     lines: [
@@ -35,7 +36,12 @@ const copy = {
       { href: "/runler", title: "Rünler", line: "Kısa karşılıklar burada birikecek." },
       { href: "/egitim", title: "Eğitim", line: "Gün belli olunca bu satır dolacak." },
       { href: "/astroloji", title: "Astroloji", line: "Venüs retrosu, 3 Ekim – 14 Kasım." },
+      { href: "/uygulamalar", title: "Uygulamalar", line: "Henüz herkese açık değil." },
     ],
+    apps: {
+      title: "Uygulamalar",
+      empty: "Uygulamalar henüz herkese açık değil. Bağlantılar burada duracak.",
+    },
     runes: {
       title: "Rünler",
       line: "Notlar sonra gelecek.",
@@ -79,6 +85,7 @@ const copy = {
       { href: "/runler", label: "Runes" },
       { href: "/egitim", label: "Education" },
       { href: "/astroloji", label: "Astrology" },
+      { href: "/uygulamalar", label: "Apps" },
       { href: "/#ocak", label: "Hearth" },
     ],
     lines: [
@@ -99,7 +106,12 @@ const copy = {
       { href: "/runler", title: "Runes", line: "Short readings will gather here." },
       { href: "/egitim", title: "Education", line: "This line will fill when the day is set." },
       { href: "/astroloji", title: "Astrology", line: "Venus retrograde, 3 October – 14 November." },
+      { href: "/uygulamalar", title: "Apps", line: "Not public yet." },
     ],
+    apps: {
+      title: "Apps",
+      empty: "The apps are not public yet. The links will sit here.",
+    },
     runes: {
       title: "Runes",
       line: "The notes will come later.",
@@ -143,6 +155,7 @@ const copy = {
       { href: "/runler", label: "Runor" },
       { href: "/egitim", label: "Utbildning" },
       { href: "/astroloji", label: "Astrologi" },
+      { href: "/uygulamalar", label: "Appar" },
       { href: "/#ocak", label: "Härd" },
     ],
     lines: [
@@ -163,7 +176,12 @@ const copy = {
       { href: "/runler", title: "Runor", line: "Korta tydningar samlas här." },
       { href: "/egitim", title: "Utbildning", line: "Raden fylls när dagen är satt." },
       { href: "/astroloji", title: "Astrologi", line: "Venus retrograd, 3 oktober – 14 november." },
+      { href: "/uygulamalar", title: "Appar", line: "Inte offentliga ännu." },
     ],
+    apps: {
+      title: "Appar",
+      empty: "Apparna är inte offentliga ännu. Länkarna kommer att ligga här.",
+    },
     runes: {
       title: "Runor",
       line: "Anteckningarna kommer senare.",
