@@ -63,7 +63,13 @@ function RuneDoorView({ rune }: { rune: Rune }) {
           </span>
           {rune.name}
         </h1>
-        <p className="mt-8 max-w-xl text-lg leading-8 text-chalk/85">{rune.text[lang]}</p>
+        <div className="mt-8 max-w-xl space-y-5">
+          {rune.text[lang].map((paragraph) => (
+            <p key={paragraph} className="text-lg leading-8 text-chalk/85">
+              {paragraph}
+            </p>
+          ))}
+        </div>
         <p className="mt-10 text-[10px] tracking-[0.18em] text-chalk/50 uppercase">{t.runes.names}</p>
         <p className="mt-2 font-display text-xl font-medium tracking-[0.02em] text-chalk/80">
           {rune.deities.join(" · ")}
