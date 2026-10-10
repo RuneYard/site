@@ -32,6 +32,8 @@ const copy = {
     open: "Açık",
     closed: "Kapalı",
     back: "Hole dön",
+    backRunes: "Rünlere dön",
+    backSky: "Astrolojiye dön",
     doors: [
       { href: "/runler", title: "Rünler", line: "Kısa karşılıklar burada birikecek." },
       { href: "/egitim", title: "Eğitim", line: "Gün belli olunca bu satır dolacak." },
@@ -44,7 +46,8 @@ const copy = {
     },
     runes: {
       title: "Rünler",
-      line: "Notlar sonra gelecek.",
+      line: "Yirmi dört rün, her biri kendi kapısı.",
+      names: "Adlar",
     },
     draft: "Taslak",
     education: {
@@ -61,6 +64,10 @@ const copy = {
     astrology: {
       title: "Astroloji",
       note: "Ekinoks: gündüz ile gece eşitlenir. Notun devamı sonra yazılacak.",
+      items: [
+        { href: "/astroloji/venus-retrosu", name: "Venüs retrosu (3 Ekim–14 Kasım)" },
+        { href: "/astroloji/terazi-yeniay", name: "10 Ekim Terazi Yeniayı" },
+      ],
     },
     hearth: {
       label: "Ocağa sor",
@@ -102,6 +109,8 @@ const copy = {
     open: "Open",
     closed: "Closed",
     back: "Back to the hall",
+    backRunes: "Back to the runes",
+    backSky: "Back to astrology",
     doors: [
       { href: "/runler", title: "Runes", line: "Short readings will gather here." },
       { href: "/egitim", title: "Education", line: "This line will fill when the day is set." },
@@ -114,7 +123,8 @@ const copy = {
     },
     runes: {
       title: "Runes",
-      line: "The notes will come later.",
+      line: "Twenty-four runes, each its own door.",
+      names: "Names",
     },
     draft: "Draft",
     education: {
@@ -131,6 +141,10 @@ const copy = {
     astrology: {
       title: "Astrology",
       note: "Equinox: day and night stand equal. The rest of the note will be written later.",
+      items: [
+        { href: "/astroloji/venus-retrosu", name: "Venus retrograde (3 October–14 November)" },
+        { href: "/astroloji/terazi-yeniay", name: "10 October Libra new moon" },
+      ],
     },
     hearth: {
       label: "Ask the hearth",
@@ -172,6 +186,8 @@ const copy = {
     open: "Öppen",
     closed: "Stängd",
     back: "Tillbaka till hallen",
+    backRunes: "Tillbaka till runorna",
+    backSky: "Tillbaka till astrologin",
     doors: [
       { href: "/runler", title: "Runor", line: "Korta tydningar samlas här." },
       { href: "/egitim", title: "Utbildning", line: "Raden fylls när dagen är satt." },
@@ -184,7 +200,8 @@ const copy = {
     },
     runes: {
       title: "Runor",
-      line: "Anteckningarna kommer senare.",
+      line: "Tjugofyra runor, var och en en egen dörr.",
+      names: "Namn",
     },
     draft: "Utkast",
     education: {
@@ -201,6 +218,10 @@ const copy = {
     astrology: {
       title: "Astrologi",
       note: "Dagjämning: dag och natt väger jämnt. Resten av noten skrivs senare.",
+      items: [
+        { href: "/astroloji/venus-retrosu", name: "Venus retrograd (3 oktober–14 november)" },
+        { href: "/astroloji/terazi-yeniay", name: "10 oktober Vågens nymåne" },
+      ],
     },
     hearth: {
       label: "Fråga härden",

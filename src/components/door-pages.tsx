@@ -26,16 +26,6 @@ function Frame({ title, children }: { title: string; children: React.ReactNode }
   );
 }
 
-export function RuneRoom() {
-  const { t } = useLanguage();
-
-  return (
-    <Frame title={t.runes.title}>
-      <p className="mt-6 max-w-xl text-lg leading-8 text-chalk/80">{t.runes.line}</p>
-    </Frame>
-  );
-}
-
 export function EducationRoom() {
   const { t } = useLanguage();
 
@@ -61,6 +51,27 @@ export function EducationRoom() {
         ))}
       </ul>
       <p className="mt-6 text-sm text-chalk/55">{t.education.soon}</p>
+    </Frame>
+  );
+}
+
+export function AstrologyRoom() {
+  const { t } = useLanguage();
+
+  return (
+    <Frame title={t.astrology.title}>
+      <ul className="mt-8 border-t border-chalk/15">
+        {t.astrology.items.map((item) => (
+          <li key={item.href} className="border-b border-chalk/15 py-4">
+            <Link
+              href={item.href}
+              className="font-display text-2xl font-medium underline decoration-chalk/30 underline-offset-4"
+            >
+              {item.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </Frame>
   );
 }

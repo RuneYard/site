@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
-import { LibraNote } from "@/components/libra-note";
 import { venusNote } from "@/lib/venus-note";
 
 export function VenusNote() {
@@ -54,13 +53,11 @@ export function VenusNote() {
           ))}
         </div>
 
-        <LibraNote />
-
         <Link
-          href="/"
+          href="/astroloji"
           className="mt-10 inline-block border border-chalk/30 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk uppercase"
         >
-          {t.back}
+          {t.backSky}
         </Link>
       </main>
     </HallShell>

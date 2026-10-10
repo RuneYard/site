@@ -1,21 +1,25 @@
 "use client";
 
+import Link from "next/link";
+import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { libraNote } from "@/lib/libra-note";
 
 export function LibraNote() {
-  const { lang } = useLanguage();
+  const { lang, t } = useLanguage();
   const note = libraNote(lang);
 
   return (
-    <article className="mt-20 border-t border-chalk/15 pt-16">
-      <h2 className="flex flex-wrap items-baseline gap-x-3 font-display text-5xl font-medium tracking-[-0.025em] sm:text-6xl">
+    <HallShell>
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-3xl px-6 py-20 sm:px-8">
+        <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">runeyard.net</p>
+        <h1 className="mt-4 flex flex-wrap items-baseline gap-x-3 font-display text-5xl font-medium tracking-[-0.025em] sm:text-6xl">
         <span aria-hidden className="text-[0.72em] text-chalk/55">
           ♎
         </span>
         {note.title}
-      </h2>
-      <p className="mt-3 max-w-xl font-display text-2xl font-medium tracking-[-0.02em] text-chalk/80">
+        </h1>
+        <p className="mt-3 max-w-xl font-display text-2xl font-medium tracking-[-0.02em] text-chalk/80">
         {note.subtitle}
       </p>
       <p className="mt-8 max-w-xl text-lg leading-8 text-chalk/85">{note.overview}</p>
@@ -35,7 +39,14 @@ export function LibraNote() {
             <p className="mt-2 text-base leading-7 text-chalk/80">{sign.text}</p>
           </section>
         ))}
-      </div>
-    </article>
+        </div>
+        <Link
+          href="/astroloji"
+          className="mt-10 inline-block border border-chalk/30 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk uppercase"
+        >
+          {t.backSky}
+        </Link>
+      </main>
+    </HallShell>
   );
 }
