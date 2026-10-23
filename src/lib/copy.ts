@@ -75,12 +75,14 @@ const copy = {
       {
         href: "/witchcraft",
         title: "Witchcraft",
-        line: "Yeşil Ahit: 36 bitki, dört element ve ocak bilgisi.",
+        line: "Yeşil Ahit: Yabani bitkiler, reçineler, dört element ve ocak bilgisi.",
+        closed: false,
       },
       {
         href: "/shop",
         title: "Shop",
         line: "El yapımı rün takımları, tılsımlar ve çalışma nesneleri.",
+        closed: true,
       },
     ],
     apps: {
@@ -196,12 +198,14 @@ const copy = {
       {
         href: "/witchcraft",
         title: "Witchcraft",
-        line: "The Green Covenant: 36 herbs, the four elements, and hearth lore.",
+        line: "The Green Covenant: Wild herbs, resins, the four elements, and hearth lore.",
+        closed: false,
       },
       {
         href: "/shop",
         title: "Shop",
         line: "Handcrafted rune sets, talismans, and study objects.",
+        closed: true,
       },
     ],
     apps: {
@@ -317,12 +321,14 @@ const copy = {
       {
         href: "/witchcraft",
         title: "Witchcraft",
-        line: "Det gröna förbundet: 36 örter, de fyra elementen och härdkunskap.",
+        line: "Det gröna förbundet: Vilda örter, hartser, de fyra elementen och härdkunskap.",
+        closed: false,
       },
       {
         href: "/shop",
         title: "Shop",
         line: "Handgjorda runuppsättningar, talismaner och studieföremål.",
+        closed: true,
       },
     ],
     apps: {

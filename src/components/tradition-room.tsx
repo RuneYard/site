@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
@@ -25,34 +26,56 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
     <HallShell>
       <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-5xl px-6 py-16 sm:px-8">
         <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">runeyard.net</p>
-        <h1 className="mt-4 font-display text-5xl font-medium tracking-[-0.025em] sm:text-6xl">
-          {hall.title[lang]}
-        </h1>
-        <p className="mt-4 max-w-2xl text-base leading-7 text-chalk/70">{hall.line[lang]}</p>
+        <div className="mt-4 flex flex-wrap items-baseline justify-between gap-4">
+          <h1 className="font-display text-5xl font-medium tracking-[-0.025em] sm:text-6xl">
+            {hall.title[lang]}
+          </h1>
+          {hall.closed && (
+            <span className="border border-chalk/20 px-3 py-1 text-[10px] tracking-[0.2em] text-chalk/60 uppercase">
+              {t.closed}
+            </span>
+          )}
+        </div>
+        <p className="mt-4 max-w-2xl text-base leading-7 text-chalk/75">{hall.line[lang]}</p>
 
-        <ul className="mt-10 grid gap-3.5 sm:grid-cols-2">
-          {hall.doors.map((door) => (
-            <li key={door.slug}>
-              <Link
-                href={`/${slug}/${door.slug}`}
-                className="card-slate flex h-full min-h-48 flex-col justify-between border border-chalk/10 p-6 text-chalk"
-              >
-                <div>
-                  <span aria-hidden className="font-display text-3xl leading-none text-chalk/75">
-                    {door.glyph}
+        {hall.image && (
+          <div className="mt-8 overflow-hidden border border-chalk/12 bg-ink/60">
+            <Image
+              src={hall.image}
+              alt={hall.title[lang]}
+              width={1200}
+              height={420}
+              priority
+              className="h-auto w-full object-cover"
+            />
+          </div>
+        )}
+
+        {!hall.closed && hall.doors.length > 0 && (
+          <ul className="mt-10 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+            {hall.doors.map((door) => (
+              <li key={door.slug}>
+                <Link
+                  href={`/${slug}/${door.slug}`}
+                  className="card-slate flex h-full min-h-52 flex-col justify-between border border-chalk/10 p-6 text-chalk"
+                >
+                  <div>
+                    <span aria-hidden className="font-display text-3xl leading-none text-chalk/75">
+                      {door.glyph}
+                    </span>
+                    <h2 className="mt-5 font-display text-2xl font-medium tracking-[0.01em] text-chalk">
+                      {door.title[lang]}
+                    </h2>
+                    <p className="mt-2.5 text-sm leading-6 text-chalk/70">{door.summary[lang]}</p>
+                  </div>
+                  <span className="mt-6 text-[10px] tracking-[0.2em] text-chalk/45 uppercase">
+                    {t.open}
                   </span>
-                  <h2 className="mt-5 font-display text-2xl font-medium tracking-[0.01em] text-chalk sm:text-3xl">
-                    {door.title[lang]}
-                  </h2>
-                  <p className="mt-2.5 text-sm leading-6 text-chalk/70">{door.summary[lang]}</p>
-                </div>
-                <span className="mt-6 text-[10px] tracking-[0.2em] text-chalk/45 uppercase">
-                  {t.open}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
 
         <Link
           href="/"
@@ -79,7 +102,7 @@ export function TraditionDoor({
 
 function splitItem(item: string): { head: string | null; body: string } {
   const idx = item.indexOf(":");
-  if (idx === -1 || idx > 60) {
+  if (idx === -1 || idx > 65) {
     return { head: null, body: item };
   }
   return {
@@ -97,7 +120,9 @@ function TraditionDoorView({
 }) {
   const { lang } = useLanguage();
   const hall = traditions[traditionSlug];
+  const chapters = door.chapters[lang];
   const items = door.items?.[lang];
+  const practice = door.practice[lang];
 
   return (
     <HallShell>
@@ -111,6 +136,9 @@ function TraditionDoorView({
           </span>
           <span>{door.title[lang]}</span>
         </h1>
+        <p className="mt-3 max-w-2xl font-display text-2xl font-medium tracking-[-0.015em] text-chalk/75">
+          {door.subtitle[lang]}
+        </p>
 
         <div className="mt-8 max-w-2xl space-y-5">
           {door.paragraphs[lang].map((paragraph) => (
@@ -120,8 +148,21 @@ function TraditionDoorView({
           ))}
         </div>
 
+        {chapters && chapters.length > 0 && (
+          <div className="mt-12 max-w-2xl space-y-8 border-t border-chalk/15 pt-8">
+            {chapters.map((chapter) => (
+              <section key={chapter.heading}>
+                <h2 className="font-display text-2xl font-medium tracking-[-0.015em] text-chalk sm:text-3xl">
+                  {chapter.heading}
+                </h2>
+                <p className="mt-2.5 text-base leading-7 text-chalk/80">{chapter.body}</p>
+              </section>
+            ))}
+          </div>
+        )}
+
         {items && items.length > 0 && (
-          <ul className="mt-8 grid max-w-2xl gap-3 sm:grid-cols-2">
+          <ul className="mt-12 grid max-w-2xl gap-3 sm:grid-cols-2">
             {items.map((raw) => {
               const { head, body } = splitItem(raw);
               return (
@@ -141,6 +182,19 @@ function TraditionDoorView({
               );
             })}
           </ul>
+        )}
+
+        {practice && (
+          <section className="card-slate mt-12 max-w-2xl border border-chalk/15 p-6">
+            <h2 className="font-display text-xl font-medium tracking-[0.02em] text-chalk">
+              {practice.title}
+            </h2>
+            <ol className="mt-4 list-decimal space-y-2.5 pl-5 text-sm leading-6 text-chalk/80">
+              {practice.steps.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ol>
+          </section>
         )}
 
         <p className="mt-10 max-w-2xl border-l border-chalk/25 pl-4 font-display text-xl italic text-chalk/80">

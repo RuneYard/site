@@ -66,22 +66,48 @@ export default function Home() {
           </ul>
 
           <ul className="mt-3.5 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-5">
-            {t.traditionDoors.map((door) => (
-              <li key={door.href}>
-                <Link
-                  href={door.href}
-                  className="card-slate flex min-h-52 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk"
-                >
-                  <span>
-                    <span className="block font-display text-3xl font-medium tracking-[0.01em]">
-                      {door.title}
-                    </span>
-                    <span className="mt-2 block text-sm leading-6 text-chalk/70">{door.line}</span>
-                  </span>
-                  <span className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">{t.open}</span>
-                </Link>
-              </li>
-            ))}
+            {t.traditionDoors.map((door) => {
+              const isClosed = "closed" in door && door.closed;
+              return (
+                <li key={door.href}>
+                  {isClosed ? (
+                    <div
+                      aria-disabled="true"
+                      className="card-slate flex min-h-52 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk/55"
+                    >
+                      <span>
+                        <span className="block font-display text-3xl font-medium tracking-[0.01em]">
+                          {door.title}
+                        </span>
+                        <span className="mt-2 block text-sm leading-6 text-chalk/50">
+                          {door.line}
+                        </span>
+                      </span>
+                      <span className="text-[10px] tracking-[0.18em] text-chalk/45 uppercase">
+                        {t.closed}
+                      </span>
+                    </div>
+                  ) : (
+                    <Link
+                      href={door.href}
+                      className="card-slate flex min-h-52 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk"
+                    >
+                      <span>
+                        <span className="block font-display text-3xl font-medium tracking-[0.01em]">
+                          {door.title}
+                        </span>
+                        <span className="mt-2 block text-sm leading-6 text-chalk/70">
+                          {door.line}
+                        </span>
+                      </span>
+                      <span className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
+                        {t.open}
+                      </span>
+                    </Link>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </main>
