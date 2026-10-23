@@ -426,7 +426,7 @@ export function AstrologyRoom() {
           <h2 className="font-display text-2xl font-medium tracking-[-0.015em] text-chalk sm:text-3xl">
             {astrologyHall.skyNotesHeading[lang]}
           </h2>
-          <ul className="mt-6 grid gap-3.5 sm:grid-cols-2">
+          <ul className="mt-6 grid gap-3.5 sm:grid-cols-3">
             {astrologySkyNotes.map((note) => (
               <li key={note.href}>
                 <Link

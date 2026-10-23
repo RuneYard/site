@@ -71,6 +71,12 @@ export function LibraNote() {
             {t.backSky}
           </Link>
           <Link
+            href="/astroloji/boga-dolunayi"
+            className="inline-block border border-chalk/20 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk/80 uppercase transition-colors hover:border-chalk/50"
+          >
+            ♉ 26 Ekim Boğa Dolunayı →
+          </Link>
+          <Link
             href="/astroloji/venus-retrosu"
             className="inline-block border border-chalk/20 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk/80 uppercase transition-colors hover:border-chalk/50"
           >

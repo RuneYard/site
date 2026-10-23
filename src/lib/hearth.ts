@@ -232,7 +232,23 @@ const loreEntries: LoreEntry[] = [
     },
   },
   {
-    keywords: ["dugum", "dugumler", "rahu", "ketu", "tutulma", "eclipse", "node", "nodes", "yeniay", "dolunay", "boslukta", "void of course"],
+    keywords: ["boga dolunayi", "26 ekim", "dolunay", "full moon", "fullmane"],
+    href: "/astroloji/boga-dolunayi",
+    tr: {
+      label: "♉ 26 Ekim Boğa Dolunayı Notu →",
+      text: "26 Ekim 2026’da Boğa burcunun 3. derecesinde (Ay’ın yücelim makamında) gerçekleşen Dolunay; özdeğer, somut güven, bütçe ve ikili ilişkilerdeki alma-verme dengesini hasat noktasına taşır. Yöneticisi Venüs 29° Terazi’de geri giderken 10 Ekim Yeniayında açılan dosyalar karara bağlanır.",
+    },
+    en: {
+      label: "♉ 26 October Taurus Full Moon Note →",
+      text: "The Full Moon on 26 October 2026 at 3° Taurus (the Moon's exaltation) brings self-worth, tangible security, finances, and relational balance to a point of harvest, ruled by Retrograde Venus at 29° Libra.",
+    },
+    sv: {
+      label: "♉ 26 oktober Oxens Fullmåne →",
+      text: "Fullmånen den 26 oktober 2026 på 3° Oxen (Månens upphöjelse) för självvärde, påtaglig trygghet, ekonomi och relationsbalans till skörd och avgörande, styrd av retrograda Venus på 29° Vågen.",
+    },
+  },
+  {
+    keywords: ["dugum", "dugumler", "rahu", "ketu", "tutulma", "eclipse", "node", "nodes", "yeniay", "boslukta", "void of course"],
     href: "/astroloji/ay-evreleri-ve-dugumler",
     tr: {
       label: "Ay Evreleri ve Düğümler Odası →",

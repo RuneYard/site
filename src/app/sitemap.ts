@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/astroloji",
     "/astroloji/venus-retrosu",
     "/astroloji/terazi-yeniay",
+    "/astroloji/boga-dolunayi",
     "/uygulamalar",
     "/saman",
     "/kelt",

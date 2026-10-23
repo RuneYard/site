@@ -942,14 +942,28 @@ export const astrologySkyNotes: {
     "href": "/astroloji/terazi-yeniay",
     "glyph": "♎●",
     "title": {
-      "tr": "Terazi Yeniayı",
-      "en": "New Moon in Libra",
-      "sv": "Nymåne i Vågen"
+      "tr": "10 Ekim Terazi Yeniayı",
+      "en": "10 October Libra New Moon",
+      "sv": "10 oktober · Nymåne i Vågen"
     },
     "summary": {
-      "tr": "Terazi burcunda doğan Yeniay'ın denge, sözleşme, ilişki kefesi ve burçlar üzerindeki yankısı.",
-      "en": "The New Moon in Libra: balance, covenants, relational scales, and its resonance across the signs.",
-      "sv": "Nymånen i Vågen: balans, förbund, relationernas vågskålar och dess genklang genom tecknen."
+      "tr": "17° Terazi’de doğan Yeniay’ın denge, sözleşme, ilişki kefesi ve 12 yükselen burç üzerindeki yankısı.",
+      "en": "The New Moon at 17° Libra: balance, covenants, relational scales, and its resonance across the 12 rising signs.",
+      "sv": "Nymånen på 17° Vågen: balans, förbund, relationernas vågskålar och dess genklang genom de 12 stigande tecknen."
+    }
+  },
+  {
+    "href": "/astroloji/boga-dolunayi",
+    "glyph": "♉○",
+    "title": {
+      "tr": "26 Ekim Boğa Dolunayı",
+      "en": "26 October Taurus Full Moon",
+      "sv": "26 oktober · Fullmåne i Oxen"
+    },
+    "summary": {
+      "tr": "3° Boğa’da yücelimdeki Ay ile 3° Akrep Güneş karşıtlığı: Özdeğer, güven, maddi-manevi hasat ve 12 yükselen burç yorumu.",
+      "en": "Exalted Moon at 3° Taurus opposite 3° Scorpio Sun: self-worth, security, harvest, and readings for all 12 rising signs.",
+      "sv": "Upphöjd Måne på 3° Oxen mittemot 3° Skorpionen-Solen: självvärde, trygghet, skörd och läsning för alla 12 stigande tecken."
     }
   }
 ];

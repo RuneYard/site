@@ -88,6 +88,12 @@ export function VenusNote() {
           >
             ♎ 10 Ekim Terazi Yeniayı →
           </Link>
+          <Link
+            href="/astroloji/boga-dolunayi"
+            className="inline-block border border-chalk/20 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk/80 uppercase transition-colors hover:border-chalk/50"
+          >
+            ♉ 26 Ekim Boğa Dolunayı →
+          </Link>
         </div>
       </main>
     </HallShell>
