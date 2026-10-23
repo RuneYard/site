@@ -56,24 +56,29 @@ const copy = {
         line: "Rune Yard, Moon Yard, Dream Yard ve RuneWords.",
       },
     ],
-    closedDoors: [
+    traditionDoors: [
       {
+        href: "/saman",
         title: "Şaman",
-        line: "Üç dünya, davulun sesi, ağaç iyeleri ve ruh yolculuğu.",
+        line: "Üç dünya, davulun sesi, Seidr ve ruh yolculuğu.",
       },
       {
+        href: "/kelt",
         title: "Kelt",
         line: "Ogham ağaç alfabesi, meşe koruları ve mevsim çarkı.",
       },
       {
+        href: "/mezopotamya",
         title: "Mezopotamya",
-        line: "Babil yıldız bilimi, Marduk ve kadim kil tabletler.",
+        line: "Babil yıldız bilimi, Abzu’nun suları ve kadim kil tabletler.",
       },
       {
+        href: "/witchcraft",
         title: "Witchcraft",
-        line: "Bitkiler, elementler, ay döngüleri ve ocak ritüelleri.",
+        line: "Yeşil Ahit: 36 bitki, dört element ve ocak bilgisi.",
       },
       {
+        href: "/shop",
         title: "Shop",
         line: "El yapımı rün takımları, tılsımlar ve çalışma nesneleri.",
       },
@@ -172,24 +177,29 @@ const copy = {
         line: "Rune Yard, Moon Yard, Dream Yard, and RuneWords.",
       },
     ],
-    closedDoors: [
+    traditionDoors: [
       {
+        href: "/saman",
         title: "Shaman",
-        line: "Three worlds, the voice of the drum, tree spirits, and soul journeying.",
+        line: "Three worlds, the voice of the drum, Seidr, and soul journeying.",
       },
       {
+        href: "/kelt",
         title: "Celtic",
         line: "The Ogham tree alphabet, oak groves, and the wheel of the year.",
       },
       {
+        href: "/mezopotamya",
         title: "Mesopotamia",
-        line: "Babylonian star lore, Marduk, and ancient clay tablets.",
+        line: "Babylonian star lore, the waters of Abzu, and ancient clay tablets.",
       },
       {
+        href: "/witchcraft",
         title: "Witchcraft",
-        line: "Herbs, elements, lunar cycles, and hearth rituals.",
+        line: "The Green Covenant: 36 herbs, the four elements, and hearth lore.",
       },
       {
+        href: "/shop",
         title: "Shop",
         line: "Handcrafted rune sets, talismans, and study objects.",
       },
@@ -288,24 +298,29 @@ const copy = {
         line: "Rune Yard, Moon Yard, Dream Yard och RuneWords.",
       },
     ],
-    closedDoors: [
+    traditionDoors: [
       {
+        href: "/saman",
         title: "Schaman",
-        line: "Tre världar, trummans röst, trädandar och själsresor.",
+        line: "Tre världar, trummans röst, Seidr och själsresor.",
       },
       {
+        href: "/kelt",
         title: "Keltisk",
         line: "Oghams trädalfabet, eklundar och årshjulet.",
       },
       {
+        href: "/mezopotamya",
         title: "Mesopotamien",
-        line: "Babylonisk stjärnlära, Marduk och forntida lertavlor.",
+        line: "Babylonisk stjärnlära, Abzus vatten och forntida lertavlor.",
       },
       {
+        href: "/witchcraft",
         title: "Witchcraft",
-        line: "Örter, element, måncykler och härdritualer.",
+        line: "Det gröna förbundet: 36 örter, de fyra elementen och härdkunskap.",
       },
       {
+        href: "/shop",
         title: "Shop",
         line: "Handgjorda runuppsättningar, talismaner och studieföremål.",
       },
