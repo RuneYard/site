@@ -43,6 +43,7 @@ const copy = {
     apps: {
       title: "Uygulamalar",
       empty: "Uygulamalar henüz herkese açık değil. Bağlantılar burada duracak.",
+      soon: "Yakında",
     },
     runes: {
       title: "Rünler",
@@ -120,6 +121,7 @@ const copy = {
     apps: {
       title: "Apps",
       empty: "The apps are not public yet. The links will sit here.",
+      soon: "Coming soon",
     },
     runes: {
       title: "Runes",
@@ -197,6 +199,7 @@ const copy = {
     apps: {
       title: "Appar",
       empty: "Apparna är inte offentliga ännu. Länkarna kommer att ligga här.",
+      soon: "Kommer snart",
     },
     runes: {
       title: "Runor",

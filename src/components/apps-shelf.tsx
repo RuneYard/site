@@ -12,7 +12,7 @@ function storeHref(url: string) {
 }
 
 export function AppsShelf() {
-  const { t } = useLanguage();
+  const { lang, t } = useLanguage();
 
   return (
     <HallShell>
@@ -30,7 +30,7 @@ export function AppsShelf() {
               const play = storeHref(app.googlePlay);
               const store = storeHref(app.appStore);
               return (
-                <li key={app.name} className="card-slate border border-chalk/10">
+                <li key={app.name} className="card-slate flex flex-col border border-chalk/10">
                   {app.image ? (
                     <Image
                       src={app.image}
@@ -40,9 +40,11 @@ export function AppsShelf() {
                       className="aspect-[4/3] w-full object-cover"
                     />
                   ) : null}
-                  <div className="px-5 py-5">
-                    <h2 className="font-display text-3xl font-medium">{app.name}</h2>
-                    <p className="mt-2 text-sm leading-6 text-chalk/70">{app.line}</p>
+                  <div className="flex flex-1 flex-col justify-between px-5 py-5">
+                    <div>
+                      <h2 className="font-display text-3xl font-medium">{app.name}</h2>
+                      <p className="mt-2 text-sm leading-6 text-chalk/70">{app.line[lang]}</p>
+                    </div>
                     {play || store ? (
                       <p className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-[10px] tracking-[0.16em] uppercase">
                         {play ? (
@@ -66,7 +68,11 @@ export function AppsShelf() {
                           </a>
                         ) : null}
                       </p>
-                    ) : null}
+                    ) : (
+                      <p className="mt-4 text-[10px] tracking-[0.16em] text-chalk/50 uppercase">
+                        {t.apps.soon}
+                      </p>
+                    )}
                   </div>
                 </li>
               );
