@@ -10,21 +10,161 @@ import {
   astrologySkyNotes,
   findAstrologyDoor,
 } from "@/content/astrology";
+import {
+  educationCourses,
+  educationHall,
+  findEducationCourse,
+} from "@/content/education";
 
-function Frame({ title, children }: { title: string; children: React.ReactNode }) {
-  const { t } = useLanguage();
+export function EducationRoom() {
+  const { lang, t } = useLanguage();
+  const ui = educationHall.ui[lang];
 
   return (
     <HallShell>
-      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-3xl px-6 py-20 sm:px-8">
-        <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">runeyard.net</p>
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-5xl px-6 py-16 sm:px-8">
+        <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">
+          runeyard.net · Academy
+        </p>
         <h1 className="mt-4 font-display text-5xl font-medium tracking-[-0.025em] sm:text-6xl">
-          {title}
+          {educationHall.title[lang]}
         </h1>
-        {children}
+        <p className="mt-3 max-w-2xl font-display text-xl text-chalk/75 italic">
+          {educationHall.subtitle[lang]}
+        </p>
+
+        <figure className="mt-8 overflow-hidden border border-chalk/15 bg-black/50">
+          <Image
+            src={educationHall.image}
+            alt={educationHall.title[lang]}
+            width={1200}
+            height={420}
+            priority
+            className="h-auto w-full object-cover"
+          />
+        </figure>
+
+        <div className="mt-8 max-w-3xl space-y-4">
+          {educationHall.intro[lang].map((p) => (
+            <p key={p} className="text-base leading-7 text-chalk/80">
+              {p}
+            </p>
+          ))}
+        </div>
+
+        {/* Academy Pillars */}
+        <div className="mt-10 grid gap-3.5 sm:grid-cols-3">
+          {educationHall.pillars[lang].map((pillar, idx) => (
+            <div
+              key={pillar.title}
+              className="border border-chalk/15 bg-chalk/[0.02] p-5"
+            >
+              <p className="text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
+                0{idx + 1} · AKADEMİ İLKESİ
+              </p>
+              <h2 className="mt-2 font-display text-xl font-medium text-chalk">
+                {pillar.title}
+              </h2>
+              <p className="mt-2 text-xs leading-5 text-chalk/70">
+                {pillar.body}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Course Cards */}
+        <section className="mt-14 border-t border-chalk/15 pt-10">
+          <h2 className="font-display text-3xl font-medium tracking-[-0.015em] text-chalk">
+            {ui.activeHeading}
+          </h2>
+
+          <ul className="mt-8 space-y-8">
+            {educationCourses.map((course) => (
+              <li
+                key={course.slug}
+                className="card-slate overflow-hidden border border-chalk/15 transition-colors hover:border-chalk/40"
+              >
+                <Link href={`/egitim/${course.slug}`} className="block">
+                  <div className="overflow-hidden border-b border-chalk/10 bg-black/50">
+                    <Image
+                      src={course.image}
+                      alt={course.title[lang]}
+                      width={1200}
+                      height={420}
+                      className="h-auto w-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6 sm:p-8">
+                    <div className="flex flex-wrap items-center justify-between gap-2 text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
+                      <span>
+                        {course.code} · {course.badge[lang]}
+                      </span>
+                      <span className="border border-chalk/20 px-2.5 py-1 text-chalk/80">
+                        {course.status[lang]}
+                      </span>
+                    </div>
+
+                    <h3 className="mt-4 flex items-baseline gap-3 font-display text-3xl font-medium tracking-[-0.015em] text-chalk sm:text-4xl">
+                      <span aria-hidden className="text-chalk/75">
+                        {course.glyph}
+                      </span>
+                      <span>{course.title[lang]}</span>
+                    </h3>
+
+                    <p className="mt-2 font-display text-lg text-chalk/75 italic">
+                      {course.subtitle[lang]}
+                    </p>
+
+                    <p className="mt-4 max-w-3xl text-sm leading-6 text-chalk/75 sm:text-base sm:leading-7">
+                      {course.summary[lang]}
+                    </p>
+
+                    <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-chalk/10 pt-4">
+                      <div className="flex flex-wrap gap-x-6 gap-y-1 text-xs text-chalk/65">
+                        {course.facts[lang].slice(0, 4).map(([k, v]) => (
+                          <span key={k}>
+                            <strong className="font-normal text-chalk/45 uppercase">
+                              {k}:
+                            </strong>{" "}
+                            {v}
+                          </span>
+                        ))}
+                      </div>
+                      <span className="font-display text-xs tracking-[0.16em] text-chalk uppercase">
+                        {ui.openCourse}
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {/* Upcoming courses notice & direct WhatsApp line */}
+        <section className="mt-12 border border-chalk/20 bg-chalk/[0.02] p-6 sm:p-8">
+          <p className="text-sm leading-6 text-chalk/80">{ui.upcomingNotice}</p>
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <a
+              href="https://wa.me/905455642164"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-chalk/45 bg-chalk/[0.06] px-5 py-2.5 font-display text-xs tracking-[0.16em] text-chalk uppercase transition-colors hover:border-chalk/80"
+            >
+              {ui.enrollCta} · 0545 564 21 64
+            </a>
+            <a
+              href="tel:+905455642164"
+              className="inline-block border border-chalk/25 px-5 py-2.5 font-display text-xs tracking-[0.16em] text-chalk/80 uppercase transition-colors hover:border-chalk/55"
+            >
+              {ui.callCta}
+            </a>
+          </div>
+        </section>
+
         <Link
           href="/"
-          className="mt-10 inline-block border border-chalk/30 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk uppercase"
+          className="mt-12 inline-block border border-chalk/30 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk uppercase"
         >
           {t.back}
         </Link>
@@ -33,32 +173,203 @@ function Frame({ title, children }: { title: string; children: React.ReactNode }
   );
 }
 
-export function EducationRoom() {
-  const { t } = useLanguage();
+export function EducationCourseDoor({ slug }: { slug: string }) {
+  const { lang, t } = useLanguage();
+  const course = findEducationCourse(slug);
+  if (!course) return null;
+
+  const ui = educationHall.ui[lang];
+  const otherCourses = educationCourses.filter((c) => c.slug !== course.slug);
 
   return (
-    <Frame title={t.education.title}>
-      <h2 className="mt-8 font-display text-3xl font-medium tracking-[-0.02em]">
-        {t.education.heading}
-      </h2>
-      <ul className="mt-6 border-t border-chalk/15">
-        {t.education.items.map((item) => (
-          <li
-            key={item.name}
-            className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b border-chalk/15 py-4"
-          >
-            <Link
-              href={item.href}
-              className="font-display text-2xl font-medium underline decoration-chalk/30 underline-offset-4"
+    <HallShell>
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-3xl px-6 py-16 sm:px-8 sm:py-20">
+        <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">
+          runeyard.net · {course.code} · {course.badge[lang]}
+        </p>
+
+        <h1 className="mt-4 flex flex-wrap items-baseline gap-x-4 font-display text-4xl font-medium tracking-[-0.025em] sm:text-6xl">
+          <span aria-hidden className="text-[0.85em] text-chalk/75">
+            {course.glyph}
+          </span>
+          <span>{course.title[lang]}</span>
+        </h1>
+
+        <p className="mt-3 font-display text-xl text-chalk/75 italic">
+          {course.subtitle[lang]}
+        </p>
+
+        <div className="mt-4 inline-block border border-chalk/25 bg-chalk/[0.03] px-3 py-1 text-xs tracking-[0.14em] text-chalk/80 uppercase">
+          {course.status[lang]}
+        </div>
+
+        <figure className="mt-7 overflow-hidden border border-chalk/15 bg-black/50">
+          <Image
+            src={course.image}
+            alt={course.title[lang]}
+            width={1200}
+            height={420}
+            priority
+            className="h-auto w-full object-cover"
+          />
+        </figure>
+
+        {/* Opening paragraphs */}
+        <div className="mt-8 space-y-4 text-lg leading-8 text-chalk/85">
+          {course.opening[lang].map((line) => (
+            <p key={line}>{line}</p>
+          ))}
+        </div>
+
+        {/* Optional Note (e.g., Shamanism vs Tengricilik note) */}
+        {course.note && (
+          <blockquote className="mt-7 border-l-2 border-chalk/35 bg-chalk/[0.03] px-5 py-4 text-sm leading-6 text-chalk/80">
+            {course.note[lang]}
+          </blockquote>
+        )}
+
+        {/* Optional Questions block (e.g., Rune Wisdom questions) */}
+        {course.questions && (
+          <section className="mt-9 border border-chalk/15 bg-chalk/[0.02] p-6">
+            <p className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
+              {ui.questionsHeading}
+            </p>
+            <ul className="mt-4 space-y-2.5">
+              {course.questions[lang].map((q) => (
+                <li
+                  key={q}
+                  className="font-display text-2xl leading-snug font-medium text-chalk/90"
+                >
+                  — {q}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {/* Optional Scope summary */}
+        {course.scope && (
+          <p className="mt-8 text-base leading-7 text-chalk/80">
+            {course.scope[lang]}
+          </p>
+        )}
+
+        {/* Structured Curriculum Modules */}
+        <section className="mt-12">
+          <h2 className="font-display text-2xl font-medium tracking-[-0.01em] text-chalk sm:text-3xl">
+            {ui.curriculumHeading}
+          </h2>
+
+          <div className="mt-6 space-y-6">
+            {course.modules[lang].map((mod) => (
+              <div
+                key={mod.title}
+                className="border border-chalk/15 bg-chalk/[0.02] p-6 sm:p-7"
+              >
+                {mod.subtitle && (
+                  <p className="text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
+                    {mod.subtitle}
+                  </p>
+                )}
+                <h3 className="mt-1 font-display text-2xl font-medium text-chalk">
+                  {mod.title}
+                </h3>
+                <ul className="mt-4 space-y-2.5 border-t border-chalk/10 pt-4 text-base leading-7 text-chalk/85">
+                  {mod.lessons.map((lesson) => (
+                    <li key={lesson} className="flex gap-3">
+                      <span aria-hidden className="text-chalk/45">
+                        ·
+                      </span>
+                      <span>{lesson}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Closing statements */}
+        <div className="mt-10 space-y-3 border-l border-chalk/30 pl-5 text-base leading-7 text-chalk/85">
+          {course.closing[lang].map((line) => (
+            <p key={line}>{line}</p>
+          ))}
+        </div>
+
+        {/* Course Facts & WhatsApp Enrollment Box */}
+        <section className="mt-12 border border-chalk/25 bg-chalk/[0.03] p-6 sm:p-8">
+          <h2 className="font-display text-2xl font-medium text-chalk">
+            {ui.factsHeading}
+          </h2>
+
+          <dl className="mt-5 grid border border-chalk/15 sm:grid-cols-2">
+            {course.facts[lang].map(([label, value]) => (
+              <div
+                key={label}
+                className="flex items-baseline justify-between gap-4 border-b border-chalk/10 px-4 py-3.5 last:border-b-0 sm:[&:nth-last-child(-n+2)]:border-b-0 sm:odd:border-r"
+              >
+                <dt className="text-[10px] tracking-[0.16em] text-chalk/50 uppercase">
+                  {label}
+                </dt>
+                <dd className="text-right text-sm text-chalk">{value}</dd>
+              </div>
+            ))}
+          </dl>
+
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <a
+              href={course.whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-chalk/50 bg-chalk/[0.08] px-6 py-3 font-display text-xs tracking-[0.16em] text-chalk uppercase transition-colors hover:border-chalk/90"
             >
-              {item.name}
+              {ui.enrollCta} ({course.phone})
+            </a>
+            <a
+              href="tel:+905455642164"
+              className="inline-block border border-chalk/25 px-5 py-3 font-display text-xs tracking-[0.16em] text-chalk/80 uppercase transition-colors hover:border-chalk/60"
+            >
+              {ui.callCta}
+            </a>
+          </div>
+        </section>
+
+        {/* Other Academy Courses + Back Navigation */}
+        <nav className="mt-12 border-t border-chalk/15 pt-8">
+          <div className="grid gap-3 sm:grid-cols-2">
+            {otherCourses.map((other) => (
+              <Link
+                key={other.slug}
+                href={`/egitim/${other.slug}`}
+                className="border border-chalk/15 px-4 py-3.5 transition-colors hover:border-chalk/45"
+              >
+                <span className="text-[10px] tracking-[0.16em] text-chalk/50 uppercase">
+                  {other.code} · {other.badge[lang]}
+                </span>
+                <p className="mt-1 font-display text-xl text-chalk">
+                  {other.glyph} {other.title[lang]} →
+                </p>
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link
+              href="/egitim"
+              className="inline-block border border-chalk/35 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk uppercase transition-colors hover:border-chalk/65"
+            >
+              {ui.backToEducation}
             </Link>
-            <span className="text-sm text-chalk/60">{t.education.status}</span>
-          </li>
-        ))}
-      </ul>
-      <p className="mt-6 text-sm text-chalk/55">{t.education.soon}</p>
-    </Frame>
+            <Link
+              href="/"
+              className="inline-block border border-chalk/20 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk/75 uppercase transition-colors hover:border-chalk/45"
+            >
+              {t.back}
+            </Link>
+          </div>
+        </nav>
+      </main>
+    </HallShell>
   );
 }
 
