@@ -1,3 +1,4 @@
+import type { Lang } from "@/lib/copy";
 import { askHearth } from "@/lib/hearth";
 
 export async function POST(request: Request) {
@@ -16,10 +17,18 @@ export async function POST(request: Request) {
       ? body.question.trim()
       : "";
 
+  const lang: Lang =
+    typeof body === "object" &&
+    body !== null &&
+    "lang" in body &&
+    (body.lang === "en" || body.lang === "sv" || body.lang === "tr")
+      ? body.lang
+      : "tr";
+
   if (question.length < 2) {
     return Response.json({ error: "Ocağa bir soru bırak." }, { status: 400 });
   }
 
-  const reply = await askHearth(question);
+  const reply = await askHearth(question, lang);
   return Response.json(reply);
 }

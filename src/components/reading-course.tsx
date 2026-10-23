@@ -44,9 +44,19 @@ export function ReadingCourseRoom() {
               <dt className="text-[10px] tracking-[0.16em] text-chalk/50 uppercase">{label}</dt>
               <dd className="text-right text-sm text-chalk">
                 {value === "0545 564 21 64" ? (
-                  <a href="tel:+905455642164" className="tabular-nums">
-                    {value}
-                  </a>
+                  <span className="inline-flex flex-wrap items-baseline justify-end gap-x-2">
+                    <a href="tel:+905455642164" className="tabular-nums hover:underline">
+                      {value}
+                    </a>
+                    <a
+                      href="https://wa.me/905455642164"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[10px] tracking-[0.14em] text-chalk/75 underline decoration-chalk/35 underline-offset-4 uppercase hover:text-chalk"
+                    >
+                      WhatsApp
+                    </a>
+                  </span>
                 ) : (
                   value
                 )}

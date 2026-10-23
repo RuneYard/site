@@ -35,10 +35,48 @@ const copy = {
     backRunes: "Rünlere dön",
     backSky: "Astrolojiye dön",
     doors: [
-      { href: "/runler", title: "Rünler", line: "Kısa karşılıklar burada birikecek." },
-      { href: "/egitim", title: "Eğitim", line: "Gün belli olunca bu satır dolacak." },
-      { href: "/astroloji", title: "Astroloji", line: "Venüs retrosu, 3 Ekim – 14 Kasım." },
-      { href: "/uygulamalar", title: "Uygulamalar", line: "Rune Yard ve dijital kapılar." },
+      {
+        href: "/runler",
+        title: "Rünler",
+        line: "Elder Futhark’ın yirmi dört kapısı; anlamı, hareketi ve sınırı.",
+      },
+      {
+        href: "/egitim",
+        title: "Eğitim",
+        line: "Şamanizm, Rune Bilgeliği ve İlm-i Sima ders halkaları.",
+      },
+      {
+        href: "/astroloji",
+        title: "Astroloji",
+        line: "Venüs retrosu (Terazi fazı) ve gökyüzü notları.",
+      },
+      {
+        href: "/uygulamalar",
+        title: "Uygulamalar",
+        line: "Rune Yard, Moon Yard, Dream Yard ve RuneWords.",
+      },
+    ],
+    closedDoors: [
+      {
+        title: "Şaman",
+        line: "Üç dünya, davulun sesi, ağaç iyeleri ve ruh yolculuğu.",
+      },
+      {
+        title: "Kelt",
+        line: "Ogham ağaç alfabesi, meşe koruları ve mevsim çarkı.",
+      },
+      {
+        title: "Mezopotamya",
+        line: "Babil yıldız bilimi, Marduk ve kadim kil tabletler.",
+      },
+      {
+        title: "Witchcraft",
+        line: "Bitkiler, elementler, ay döngüleri ve ocak ritüelleri.",
+      },
+      {
+        title: "Shop",
+        line: "El yapımı rün takımları, tılsımlar ve çalışma nesneleri.",
+      },
     ],
     apps: {
       title: "Uygulamalar",
@@ -113,10 +151,48 @@ const copy = {
     backRunes: "Back to the runes",
     backSky: "Back to astrology",
     doors: [
-      { href: "/runler", title: "Runes", line: "Short readings will gather here." },
-      { href: "/egitim", title: "Education", line: "This line will fill when the day is set." },
-      { href: "/astroloji", title: "Astrology", line: "Venus retrograde, 3 October – 14 November." },
-      { href: "/uygulamalar", title: "Apps", line: "Rune Yard and digital doors." },
+      {
+        href: "/runler",
+        title: "Runes",
+        line: "Twenty-four doors of the Elder Futhark; meaning, movement, and limit.",
+      },
+      {
+        href: "/egitim",
+        title: "Education",
+        line: "Study circles in Shamanism, Rune Wisdom, and İlm-i Sima.",
+      },
+      {
+        href: "/astroloji",
+        title: "Astrology",
+        line: "Venus retrograde (Libra phase) and sky notes.",
+      },
+      {
+        href: "/uygulamalar",
+        title: "Apps",
+        line: "Rune Yard, Moon Yard, Dream Yard, and RuneWords.",
+      },
+    ],
+    closedDoors: [
+      {
+        title: "Shaman",
+        line: "Three worlds, the voice of the drum, tree spirits, and soul journeying.",
+      },
+      {
+        title: "Celtic",
+        line: "The Ogham tree alphabet, oak groves, and the wheel of the year.",
+      },
+      {
+        title: "Mesopotamia",
+        line: "Babylonian star lore, Marduk, and ancient clay tablets.",
+      },
+      {
+        title: "Witchcraft",
+        line: "Herbs, elements, lunar cycles, and hearth rituals.",
+      },
+      {
+        title: "Shop",
+        line: "Handcrafted rune sets, talismans, and study objects.",
+      },
     ],
     apps: {
       title: "Apps",
@@ -191,10 +267,48 @@ const copy = {
     backRunes: "Tillbaka till runorna",
     backSky: "Tillbaka till astrologin",
     doors: [
-      { href: "/runler", title: "Runor", line: "Korta tydningar samlas här." },
-      { href: "/egitim", title: "Utbildning", line: "Raden fylls när dagen är satt." },
-      { href: "/astroloji", title: "Astrologi", line: "Venus retrograd, 3 oktober – 14 november." },
-      { href: "/uygulamalar", title: "Appar", line: "Rune Yard och digitala dörrar." },
+      {
+        href: "/runler",
+        title: "Runor",
+        line: "Elder Futharks tjugofyra dörrar; betydelse, rörelse och gräns.",
+      },
+      {
+        href: "/egitim",
+        title: "Utbildning",
+        line: "Studiecirklar i schamanism, runvisdom och İlm-i Sima.",
+      },
+      {
+        href: "/astroloji",
+        title: "Astrologi",
+        line: "Venus retrograd (Vågens fas) och himmelsnoter.",
+      },
+      {
+        href: "/uygulamalar",
+        title: "Appar",
+        line: "Rune Yard, Moon Yard, Dream Yard och RuneWords.",
+      },
+    ],
+    closedDoors: [
+      {
+        title: "Schaman",
+        line: "Tre världar, trummans röst, trädandar och själsresor.",
+      },
+      {
+        title: "Keltisk",
+        line: "Oghams trädalfabet, eklundar och årshjulet.",
+      },
+      {
+        title: "Mesopotamien",
+        line: "Babylonisk stjärnlära, Marduk och forntida lertavlor.",
+      },
+      {
+        title: "Witchcraft",
+        line: "Örter, element, måncykler och härdritualer.",
+      },
+      {
+        title: "Shop",
+        line: "Handgjorda runuppsättningar, talismaner och studieföremål.",
+      },
     ],
     apps: {
       title: "Appar",

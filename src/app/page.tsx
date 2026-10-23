@@ -7,14 +7,6 @@ import { PortraitMark } from "@/components/portrait-mark";
 import { SkyNote } from "@/components/sky-note";
 import { useLanguage } from "@/components/language";
 
-const closedDoors = [
-  "Şaman",
-  "Kelt",
-  "Mezopotamya",
-  "Witchcraft",
-  "Shop",
-] as const;
-
 export default function Home() {
   const { t } = useLanguage();
 
@@ -54,7 +46,7 @@ export default function Home() {
           <h2 className="mb-4 font-display text-sm font-medium tracking-[0.22em] uppercase">
             {t.hall}
           </h2>
-          <ul className="grid gap-3.5 sm:grid-cols-3">
+          <ul className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
             {t.doors.map((door) => (
               <li key={door.href}>
                 <Link
@@ -73,17 +65,20 @@ export default function Home() {
             ))}
           </ul>
 
-          <ul className="mt-3.5 grid gap-3.5 sm:grid-cols-3">
-            {closedDoors.map((name) => (
-              <li key={name}>
+          <ul className="mt-3.5 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-5">
+            {t.closedDoors.map((door) => (
+              <li key={door.title}>
                 <div
                   aria-disabled="true"
                   className="card-slate flex min-h-52 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk/75"
                 >
-                  <span className="font-display text-3xl font-medium tracking-[0.01em]">
-                    {name}
+                  <span>
+                    <span className="block font-display text-3xl font-medium tracking-[0.01em]">
+                      {door.title}
+                    </span>
+                    <span className="mt-2 block text-sm leading-6 text-chalk/50">{door.line}</span>
                   </span>
-                  <span className="text-[10px] tracking-[0.18em] uppercase">{t.closed}</span>
+                  <span className="text-[10px] tracking-[0.18em] text-chalk/45 uppercase">{t.closed}</span>
                 </div>
               </li>
             ))}

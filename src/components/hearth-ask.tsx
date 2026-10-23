@@ -10,7 +10,7 @@ export function HearthAsk() {
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const answerRef = useRef<HTMLDivElement>(null);
-  const { t } = useLanguage();
+  const { lang, t } = useLanguage();
 
   async function ask(text: string) {
     const next = text.trim();
@@ -22,7 +22,7 @@ export function HearthAsk() {
       const response = await fetch("/api/ocak", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: next }),
+        body: JSON.stringify({ question: next, lang }),
       });
       const data = (await response.json()) as {
         answer?: string;

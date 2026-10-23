@@ -58,8 +58,22 @@ export function HallShell({ children }: { children: React.ReactNode }) {
       {children}
       <footer className="wet-ink px-8 py-3 text-center text-[10px] tracking-[0.1em] text-chalk/55">
         Mehmet Akdeniz · runeyard.net ·{" "}
-        <a href="https://instagram.com/runeyard_" className="hover:text-chalk">
+        <a
+          href="https://instagram.com/runeyard_"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-chalk"
+        >
           runeyard_
+        </a>{" "}
+        ·{" "}
+        <a
+          href="https://wa.me/905455642164"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-chalk"
+        >
+          WhatsApp
         </a>{" "}
         ·{" "}
         <a href="mailto:runeyard@gmail.com" className="hover:text-chalk">

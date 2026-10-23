@@ -56,10 +56,18 @@ export function RuneCourseRoom() {
         </ol>
 
         <p className="mt-10 max-w-xl text-base leading-7 text-chalk/80">{course.level}</p>
-        <p className="mt-4 text-base text-chalk">
-          {course.enroll}{" "}
-          <a href="tel:+905455642164" className="tabular-nums text-chalk">
+        <p className="mt-4 flex flex-wrap items-baseline gap-x-3 text-base text-chalk">
+          <span>{course.enroll}</span>
+          <a href="tel:+905455642164" className="tabular-nums text-chalk hover:underline">
             0545 564 21 64
+          </a>
+          <a
+            href="https://wa.me/905455642164"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs tracking-[0.14em] text-chalk/75 underline decoration-chalk/35 underline-offset-4 uppercase hover:text-chalk"
+          >
+            WhatsApp
           </a>
         </p>
 
