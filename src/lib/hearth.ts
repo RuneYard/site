@@ -6,6 +6,8 @@ export type HearthVoice = "not" | "model";
 export type HearthReply = {
   answer: string;
   voice: HearthVoice;
+  href?: string;
+  linkLabel?: string;
 };
 
 type RuneIndex = {
@@ -52,75 +54,198 @@ type SignInfo = {
 const signs: SignInfo[] = [
   {
     aliases: ["koc", "aries", "vaduren"],
-    tr: { name: "Koç", span: "21 Mart – 19 Nisan", note: "Ateş. Başlangıç, öne çıkan hareket ve saf irade." },
-    en: { name: "Aries", span: "21 March – 19 April", note: "Fire. Beginning, forward motion, and raw will." },
-    sv: { name: "Väduren", span: "21 mars – 19 april", note: "Eld. Början, framåtrörelse och ren vilja." },
+    tr: { name: "Koç", span: "21 Mart – 19 Nisan", note: "Ateş · Öncü · Mars yönetimi, Güneş yücelimi. Başlangıç, öne çıkan hareket ve saf irade." },
+    en: { name: "Aries", span: "21 March – 19 April", note: "Fire · Cardinal · Ruled by Mars, Exaltation of Sun. Beginning, forward motion, and raw will." },
+    sv: { name: "Väduren", span: "21 mars – 19 april", note: "Eld · Kardinal · Styrs av Mars, Solens upphöjelse. Början, framåtrörelse och ren vilja." },
   },
   {
     aliases: ["boga", "taurus", "oxen"],
-    tr: { name: "Boğa", span: "20 Nisan – 20 Mayıs", note: "Toprak. Süre, beden, köklenme ve elde tutulan değer." },
-    en: { name: "Taurus", span: "20 April – 20 May", note: "Earth. Duration, body, rooting, and held value." },
-    sv: { name: "Oxen", span: "20 april – 20 maj", note: "Jord. Varaktighet, kropp, förankring och bevarat värde." },
+    tr: { name: "Boğa", span: "20 Nisan – 20 Mayıs", note: "Toprak · Sabit · Venüs yönetimi, Ay yücelimi. Süre, beden, köklenme ve elde tutulan değer." },
+    en: { name: "Taurus", span: "20 April – 20 May", note: "Earth · Fixed · Ruled by Venus, Exaltation of Moon. Duration, body, rooting, and held value." },
+    sv: { name: "Oxen", span: "20 april – 20 maj", note: "Jord · Fast · Styrs av Venus, Månens upphöjelse. Varaktighet, kropp, förankring och bevarat värde." },
   },
   {
     aliases: ["ikizler", "gemini", "tvillingarna"],
-    tr: { name: "İkizler", span: "21 Mayıs – 20 Haziran", note: "Hava. İki yön, haber, merak ve yakın konuşma." },
-    en: { name: "Gemini", span: "21 May – 20 June", note: "Air. Two directions, news, curiosity, and close speech." },
-    sv: { name: "Tvillingarna", span: "21 maj – 20 juni", note: "Luft. Två riktningar, budskap, nyfikenhet och nära samtal." },
+    tr: { name: "İkizler", span: "21 Mayıs – 20 Haziran", note: "Hava · Değişken · Merkür yönetimi. İki yön, haber, merak ve yakın konuşma." },
+    en: { name: "Gemini", span: "21 May – 20 June", note: "Air · Mutable · Ruled by Mercury. Two directions, news, curiosity, and close speech." },
+    sv: { name: "Tvillingarna", span: "21 maj – 20 juni", note: "Luft · Föränderlig · Styrs av Merkurius. Två riktningar, budskap, nyfikenhet och nära samtal." },
   },
   {
     aliases: ["yengec", "cancer", "kraftan"],
-    tr: { name: "Yengeç", span: "21 Haziran – 22 Temmuz", note: "Su. Yuva, hafıza, korunma ve köklerin suyu." },
-    en: { name: "Cancer", span: "21 June – 22 July", note: "Water. Home, memory, shelter, and the water of roots." },
-    sv: { name: "Kräftan", span: "21 juni – 22 juli", note: "Vatten. Hem, minne, skydd och rötternas vatten." },
+    tr: { name: "Yengeç", span: "21 Haziran – 22 Temmuz", note: "Su · Öncü · Ay yönetimi, Jüpiter yücelimi. Yuva, hafıza, korunma ve köklerin suyu." },
+    en: { name: "Cancer", span: "21 June – 22 July", note: "Water · Cardinal · Ruled by Moon, Exaltation of Jupiter. Home, memory, shelter, and the water of roots." },
+    sv: { name: "Kräftan", span: "21 juni – 22 juli", note: "Vatten · Kardinal · Styrs av Månen, Jupiters upphöjelse. Hem, minne, skydd och rötternas vatten." },
   },
   {
     aliases: ["aslan", "leo", "lejonet"],
-    tr: { name: "Aslan", span: "23 Temmuz – 22 Ağustos", note: "Ateş. Görünen merkez, sıcaklık ve ortaya konan öz." },
-    en: { name: "Leo", span: "23 July – 22 August", note: "Fire. Visible center, warmth, and the heart set forth." },
-    sv: { name: "Lejonet", span: "23 juli – 22 augusti", note: "Eld. Synligt centrum, värme och det som ställs fram." },
+    tr: { name: "Aslan", span: "23 Temmuz – 22 Ağustos", note: "Ateş · Sabit · Güneş yönetimi. Görünen merkez, sıcaklık ve ortaya konan öz." },
+    en: { name: "Leo", span: "23 July – 22 August", note: "Fire · Fixed · Ruled by Sun. Visible center, warmth, and the heart set forth." },
+    sv: { name: "Lejonet", span: "23 juli – 22 augusti", note: "Eld · Fast · Styrs av Solen. Synligt centrum, värme och det som ställs fram." },
   },
   {
     aliases: ["basak", "virgo", "jungfrun"],
-    tr: { name: "Başak", span: "23 Ağustos – 22 Eylül", note: "Toprak. Ayıklama, emek, ritim ve ince ayrıntı." },
-    en: { name: "Virgo", span: "23 August – 22 September", note: "Earth. Winnowing, craft, rhythm, and fine detail." },
-    sv: { name: "Jungfrun", span: "23 augusti – 22 september", note: "Jord. Sortering, hantverk, rytm och fin detalj." },
+    tr: { name: "Başak", span: "23 Ağustos – 22 Eylül", note: "Toprak · Değişken · Merkür yönetimi ve yücelimi. Ayıklama, emek, ritim ve ince ayrıntı." },
+    en: { name: "Virgo", span: "23 August – 22 September", note: "Earth · Mutable · Ruled and Exalted by Mercury. Winnowing, craft, rhythm, and fine detail." },
+    sv: { name: "Jungfrun", span: "23 augusti – 22 september", note: "Jord · Föränderlig · Styrs och upphöjs av Merkurius. Sortering, hantverk, rytm och fin detalj." },
   },
   {
     aliases: ["terazi", "libra", "vagen"],
-    tr: { name: "Terazi", span: "23 Eylül – 22 Ekim", note: "Hava. İlişki, tartı, adalet ve karşıdaki kişiyle kurulan denge." },
-    en: { name: "Libra", span: "23 September – 22 October", note: "Air. Relation, the scales, justice, and balance with the other." },
-    sv: { name: "Vågen", span: "23 september – 22 oktober", note: "Luft. Relation, vågskål, rättvisa och jämvikt med den andre." },
+    tr: { name: "Terazi", span: "23 Eylül – 22 Ekim", note: "Hava · Öncü · Venüs yönetimi, Satürn yücelimi. İlişki, tartı, adalet ve karşıdaki kişiyle kurulan denge." },
+    en: { name: "Libra", span: "23 September – 22 October", note: "Air · Cardinal · Ruled by Venus, Exaltation of Saturn. Relation, the scales, justice, and balance with the other." },
+    sv: { name: "Vågen", span: "23 september – 22 oktober", note: "Luft · Kardinal · Styrs av Venus, Saturnus upphöjelse. Relation, vågskål, rättvisa och jämvikt med den andre." },
   },
   {
     aliases: ["akrep", "scorpio", "skorpionen"],
-    tr: { name: "Akrep", span: "23 Ekim – 21 Kasım", note: "Su. Derinlik, eşik, krizle gelen dönüşüm ve gizli olan." },
-    en: { name: "Scorpio", span: "23 October – 21 November", note: "Water. Depth, threshold, transformation through crisis, and the hidden." },
-    sv: { name: "Skorpionen", span: "23 oktober – 21 november", note: "Vatten. Djup, tröskel, förvandling genom kris och det dolda." },
+    tr: { name: "Akrep", span: "23 Ekim – 21 Kasım", note: "Su · Sabit · Klasik Mars yönetimi. Derinlik, eşik, krizle gelen dönüşüm ve gizli olan." },
+    en: { name: "Scorpio", span: "23 October – 21 November", note: "Water · Fixed · Classical Mars domicile. Depth, threshold, transformation through crisis, and the hidden." },
+    sv: { name: "Skorpionen", span: "23 oktober – 21 november", note: "Vatten · Fast · Klassiskt Mars-hemvist. Djup, tröskel, förvandling genom kris och det dolda." },
   },
   {
     aliases: ["yay", "sagittarius", "skytten"],
-    tr: { name: "Yay", span: "22 Kasım – 21 Aralık", note: "Ateş. Ufuk, anlam arayışı, okun yönü ve uzağa giden yol." },
-    en: { name: "Sagittarius", span: "22 November – 21 December", note: "Fire. Horizon, search for meaning, aim of the arrow, and the far road." },
-    sv: { name: "Skytten", span: "22 november – 21 december", note: "Eld. Horisont, meningssökande, pilens riktning och den långa vägen." },
+    tr: { name: "Yay", span: "22 Kasım – 21 Aralık", note: "Ateş · Değişken · Jüpiter yönetimi. Ufuk, anlam arayışı, okun yönü ve uzağa giden yol." },
+    en: { name: "Sagittarius", span: "22 November – 21 December", note: "Fire · Mutable · Ruled by Jupiter. Horizon, search for meaning, aim of the arrow, and the far road." },
+    sv: { name: "Skytten", span: "22 november – 21 december", note: "Eld · Föränderlig · Styrs av Jupiter. Horisont, meningssökande, pilens riktning och den långa vägen." },
   },
   {
     aliases: ["oglak", "capricorn", "stenbocken"],
-    tr: { name: "Oğlak", span: "22 Aralık – 19 Ocak", note: "Toprak. Süreç, sabır, omurga ve zamana dayanan yapı." },
-    en: { name: "Capricorn", span: "22 December – 19 January", note: "Earth. Process, patience, spine, and structure that endures time." },
-    sv: { name: "Stenbocken", span: "22 december – 19 januari", note: "Jord. Process, tålamod, ryggrad och struktur som bär genom tiden." },
+    tr: { name: "Oğlak", span: "22 Aralık – 19 Ocak", note: "Toprak · Öncü · Satürn yönetimi, Mars yücelimi. Süreç, sabır, omurga ve zamana dayanan yapı." },
+    en: { name: "Capricorn", span: "22 December – 19 January", note: "Earth · Cardinal · Ruled by Saturn, Exaltation of Mars. Process, patience, spine, and structure that endures time." },
+    sv: { name: "Stenbocken", span: "22 december – 19 januari", note: "Jord · Kardinal · Styrs av Saturnus, Mars upphöjelse. Process, tålamod, ryggrad och struktur som bär genom tiden." },
   },
   {
     aliases: ["kova", "aquarius", "vattumannen"],
-    tr: { name: "Kova", span: "20 Ocak – 18 Şubat", note: "Hava. Aralık, topluluk, bağımsız bakış ve alışılmamış düzen." },
-    en: { name: "Aquarius", span: "20 January – 18 February", note: "Air. Interval, community, independent sight, and uncommon order." },
-    sv: { name: "Vattumannen", span: "20 januari – 18 februari", note: "Luft. Mellanrum, gemenskap, fri blick och ovanlig ordning." },
+    tr: { name: "Kova", span: "20 Ocak – 18 Şubat", note: "Hava · Sabit · Klasik Satürn yönetimi. Aralık, topluluk, bağımsız bakış ve alışılmamış düzen." },
+    en: { name: "Aquarius", span: "20 January – 18 February", note: "Air · Fixed · Classical Saturn domicile. Interval, community, independent sight, and uncommon order." },
+    sv: { name: "Vattumannen", span: "20 januari – 18 februari", note: "Luft · Fast · Klassiskt Saturnus-hemvist. Mellanrum, gemenskap, fri blick och ovanlig ordning." },
   },
   {
     aliases: ["balik", "pisces", "fiskarna"],
-    tr: { name: "Balık", span: "19 Şubat – 20 Mart", note: "Su. Dağılma, sınırın incelmesi, rüya ve sezgisel imge." },
-    en: { name: "Pisces", span: "19 February – 20 March", note: "Water. Dissolution, thinning of borders, dream, and intuitive image." },
-    sv: { name: "Fiskarna", span: "19 februari – 20 mars", note: "Vatten. Upplösning, tunna gränser, dröm och intuitiv bild." },
+    tr: { name: "Balık", span: "19 Şubat – 20 Mart", note: "Su · Değişken · Klasik Jüpiter yönetimi, Venüs yücelimi. Dağılma, sınırın incelmesi, rüya ve sezgisel imge." },
+    en: { name: "Pisces", span: "19 February – 20 March", note: "Water · Mutable · Classical Jupiter domicile, Exaltation of Venus. Dissolution, thinning of borders, dream, and intuitive image." },
+    sv: { name: "Fiskarna", span: "19 februari – 20 mars", note: "Vatten · Föränderlig · Klassiskt Jupiter-hemvist, Venus upphöjelse. Upplösning, tunna gränser, dröm och intuitiv bild." },
+  },
+];
+
+type LoreEntry = {
+  keywords: string[];
+  href: string;
+  tr: { label: string; text: string };
+  en: { label: string; text: string };
+  sv: { label: string; text: string };
+};
+
+const loreEntries: LoreEntry[] = [
+  {
+    keywords: ["ogham", "kelt", "celtic", "keltisk", "aicme", "duir", "mese", "beith", "luis", "uvez", "ioho", "porsuk"],
+    href: "/kelt",
+    tr: {
+      label: "Kelt & Ogham Salonuna Git →",
+      text: "Ogham (Beith-Luis-Nin), 4 Aicme (beşli grup) halinde dizilen 20 kutsal ağaç kapısıdır: Huş (Beith) arınma ve başlangıcı, Üvez (Luis) sezgi ve ocağın korunmasını, Meşe (Duir) dayanıklılık ve eşiği, Porsuk (Ioho) ise zamanın ötesindeki kökleri taşır.",
+    },
+    en: {
+      label: "Enter Celtic & Ogham Hall →",
+      text: "Ogham (Beith-Luis-Nin) is the Celtic tree alphabet of 20 sacred trees arranged into four Aicme: Birch (Beith) marks purification and beginnings, Rowan (Luis) wardship and clear sight, Oak (Duir) endurance and doorway, and Yew (Ioho) ancestral continuity.",
+    },
+    sv: {
+      label: "Gå till Keltiska & Ogham-salen →",
+      text: "Ogham (Beith-Luis-Nin) är det keltiska trädalfabetet med 20 heliga träd indelade i fyra Aicme: Björk (Beith) står för rening och början, Rönn (Luis) för beskydd, Ek (Duir) för uthållighet och Idegran (Ioho) för evig förankring.",
+    },
+  },
+  {
+    keywords: ["awen", "nemeton", "imbolc", "beltane", "lughnasadh", "samhain", "brigid"],
+    href: "/kelt/nemeton-ve-cark",
+    tr: {
+      label: "Nemeton & Yılın Çarkı Odası →",
+      text: "Kelt geleneğinde Nemeton gökle yerin buluştuğu kutsal meşe korusudur. Yılın çarkı dört ateş eşiğiyle (Imbolc, Beltane, Lughnasadh, Samhain) ve dört güneş kapısıyla döner; Awen ise akan ilham nefesidir.",
+    },
+    en: {
+      label: "Nemeton & Wheel of the Year →",
+      text: "In Celtic lore, the Nemeton is the sacred grove where sky and earth meet. The Wheel of the Year turns through the four fire festivals (Imbolc, Beltane, Lughnasadh, Samhain) and the solstices and equinoxes; Awen is the flowing breath of inspiration.",
+    },
+    sv: {
+      label: "Nemeton & Årshjulet →",
+      text: "I keltisk tradition är Nemeton den heliga lunden där himmel och jord möts. Årshjulet vrider sig genom de fyra eldfesterna (Imbolc, Beltane, Lughnasadh, Samhain); Awen är den flödande inspirationens andedräkt.",
+    },
+  },
+  {
+    keywords: ["mezopotamya", "mesopotamia", "mesopotamien", "babil", "babylon", "sumer", "ziggurat", "mulapin", "enuma", "inanna", "ishtar", "istar", "enki", "abzu", "marduk", "samas", "shamash", "nergal", "nabu", "ereshkigal"],
+    href: "/mezopotamya",
+    tr: {
+      label: "Mezopotamya Salonuna Git →",
+      text: "Mezopotamya yıldız bilimi (MUL.APIN ve Enûma Anu Enlil), gökyüzünü tanrıların kil tableti olarak okur: Sin (Ay) zamanı ölçer, Şamaş (Güneş) adaleti aydınlatır, İştar/İnanna (Venüs) sabah ve akşam yıldızı olarak yedi kapıdan geçer, Enki ise Abzu’nun derin bilgelik sularını korur.",
+    },
+    en: {
+      label: "Enter Mesopotamia Hall →",
+      text: "Mesopotamian star lore (MUL.APIN and Enûma Anu Enlil) reads the sky as the cuneiform tablet of the gods: Sin (Moon) measures time, Shamash (Sun) illuminates justice, Ishtar/Inanna (Venus) crosses the seven gates as Morning and Evening Star, and Enki guards the deep waters of the Abzu.",
+    },
+    sv: {
+      label: "Gå till Mesopotamiensalen →",
+      text: "Mesopotamisk stjärnlära (MUL.APIN och Enûma Anu Enlil) läser himlen som gudarnas kilskriftstavla: Sin (Månen) mäter tiden, Shamash (Solen) belyser rättvisan, Ishtar/Inanna (Venus) vandrar genom de sju portarna och Enki vaktar Abzus djupa visdomsvatten.",
+    },
+  },
+  {
+    keywords: ["saman", "shaman", "schaman", "kam", "dungur", "davul", "ulgen", "erlik", "seidr", "volva", "otacilik", "erk", "iye", "iyeler"],
+    href: "/saman",
+    tr: {
+      label: "Şamanizm Salonuna Git →",
+      text: "Şamanik kozmolojide evren Dünya Ağacı ekseninde Üst Dünya (Ülgen ve ışık rehberleri), Orta Dünya (doğa iyeleri) ve Alt Dünya (ata kökleri ve erk hayvanları) olarak üç katmandır. Kam, düngürün (davulun) ritmiyle bu katmanlar arasında bilinçli köprü kurar.",
+    },
+    en: {
+      label: "Enter Shamanism Hall →",
+      text: "In shamanic cosmology, the universe is joined along the World Tree into the Upper World (teachers of light), Middle World (nature spirits), and Lower World (ancestral roots and power animals). Through the rhythm of the drum (düngür), the practitioner walks between worlds.",
+    },
+    sv: {
+      label: "Gå till Schamanismsalen →",
+      text: "I schamanistisk kosmologi förenas universum längs Världsträdet i Övre Världen, Mellanvärlden och Nedre Världen. Genom trummans (düngür) rytm vandrar schamanen medvetet mellan dessa sfärer.",
+    },
+  },
+  {
+    keywords: ["witchcraft", "cadi", "cadilik", "pelin", "uzerlik", "murver", "biberiye", "alic", "karacali", "tutsu", "recine", "herbaryum", "aktar"],
+    href: "/witchcraft",
+    tr: {
+      label: "Witchcraft & Yeşil Ahit Salonuna Git →",
+      text: "Yeşil Ahit ve ocak zanaatı; doğanın bitkilerini, reçinelerini, dört elementi ve ay evrelerini hane koruması ve şifa için okumaktır: Pelin (Artemisia) eşik ve rüya görüsünü, Üzerlik (Peganum harmala) nazar ve ağırlık kırmayı, Biberiye ise berrak hafızayı taşır.",
+    },
+    en: {
+      label: "Enter Witchcraft Hall →",
+      text: "The Green Covenant and hearth craft work with wild herbs, resins, the four elements, and lunar phases: Mugwort (Artemisia) opens threshold vision, Syrian Rue (Peganum harmala) clears heavy stagnation, and Rosemary guards memory and the home.",
+    },
+    sv: {
+      label: "Gå till Witchcraft-salen →",
+      text: "Det gröna förbundet och härdhantverket arbetar med vilda örter, hartser, de fyra elementen och månens faser: Gråbo (Artemisia) öppnar tröskelseendet, Harmelruta bryter tung stagnation och Rosmarin vaktar minnet och hemmet.",
+    },
+  },
+  {
+    keywords: ["gezegen saati", "gezegen saatleri", "planetary hour", "planetary hours", "planettimme", "planettimmar", "keldani", "chaldean", "saturn", "jupiter", "mars", "merkur", "mercury"],
+    href: "/astroloji/gezegen-saatleri-ve-secim",
+    tr: {
+      label: "Gezegen Saatleri & Seçim Astrolojisi →",
+      text: "Klasik astrolojide her gün Gündoğumu ile başlar ve Keldani sırasına (Satürn – Jüpiter – Mars – Güneş – Venüs – Merkür – Ay) göre 12 gündüz ve 12 gece saatine bölünür. Güneş saati görünürlük ve irade, Venüs saati uzlaşma, Merkür saati yazı ve analiz, Satürn saati ise sabırlı inşa için seçilir.",
+    },
+    en: {
+      label: "Planetary Hours & Electional Astrology →",
+      text: "In classical astrology, each day begins at sunrise and is divided into 12 daytime and 12 nighttime hours following the Chaldean order (Saturn – Jupiter – Mars – Sun – Venus – Mercury – Moon). Each hour carries the quality of its ruling planet.",
+    },
+    sv: {
+      label: "Planettimmar & Elektionsastrologi →",
+      text: "I klassisk astrologi börjar varje dygn vid soluppgången och delas in i 12 dagtimmar och 12 nattimmar enligt den kaldeiska ordningen (Saturnus – Jupiter – Mars – Solen – Venus – Merkurius – Månen).",
+    },
+  },
+  {
+    keywords: ["dugum", "dugumler", "rahu", "ketu", "tutulma", "eclipse", "node", "nodes", "yeniay", "dolunay", "boslukta", "void of course"],
+    href: "/astroloji/ay-evreleri-ve-dugumler",
+    tr: {
+      label: "Ay Evreleri ve Düğümler Odası →",
+      text: "Ay’ın 29,5 günlük sinodik döngüsü tohumdan (Yeniay) tezahüre (Dolunay) ve içe çekilişe (Balzamik Ay) akar. Kuzey Ay Düğümü (Caput Draconis) ruhun büyüme ufkunu, Güney Ay Düğümü (Cauda Draconis) ise geçmişten getirilen tortuyu ve bırakma dersini gösterir.",
+    },
+    en: {
+      label: "Lunar Phases & Nodes Room →",
+      text: "The Moon's 29.5-day synodic cycle flows from seed (New Moon) to culmination (Full Moon) and release (Balsamic). The North Node (Caput Draconis) marks the horizon of growth, while the South Node (Cauda Draconis) shows inherited mastery and release.",
+    },
+    sv: {
+      label: "Månfaser & Månknutar →",
+      text: "Månens 29,5-dagars synodiska cykel löper från frö (Nymåne) till fullbordan (Fullmåne) och vila (Balsamisk måne). Norra månknuten visar växtens riktning och Södra månknuten det som ska släppas.",
+    },
   },
 ];
 
@@ -191,9 +316,13 @@ function findDate(text: string) {
   return { day, month };
 }
 
-export function answerFromNotes(question: string, lang: Lang = "tr"): string {
+export function answerFromNotes(
+  question: string,
+  lang: Lang = "tr",
+): { answer: string; href?: string; linkLabel?: string } {
   const text = fold(question);
 
+  // 1. Runes
   const matchedRune = runeIndex.find(
     (item) =>
       text.includes(item.glyph) ||
@@ -204,66 +333,155 @@ export function answerFromNotes(question: string, lang: Lang = "tr"): string {
     if (sheet) {
       const firstParagraph = sheet.text[lang][0];
       const deities = sheet.deities.join(" · ");
-      return `${sheet.glyph} ${sheet.name} (${deities}) — ${firstParagraph}`;
+      const label =
+        lang === "en"
+          ? `${sheet.glyph} Enter ${sheet.name} Room →`
+          : lang === "sv"
+            ? `${sheet.glyph} Gå till ${sheet.name}-rummet →`
+            : `${sheet.glyph} ${sheet.name} Odasına Git →`;
+      return {
+        answer: `${sheet.glyph} ${sheet.name} (${sheet.protoGermanic} · [${sheet.phoneme}] · ${deities}) — ${firstParagraph}`,
+        href: `/runler/${sheet.slug}`,
+        linkLabel: label,
+      };
     }
   }
 
+  // 2. Venus Retrograde
+  if (
+    hasWord(text, "venus") ||
+    hasWord(text, "retro") ||
+    hasWord(text, "retrosu") ||
+    hasWord(text, "retrograd")
+  ) {
+    if (lang === "en") {
+      return {
+        answer:
+          "Venus retrograde runs from 3 October to 14 November 2026: first in Scorpio (3–25 October, depth and hidden dynamics), then in Libra (25 October–14 November, balance, justice, and unfinished ties).",
+        href: "/astroloji/venus-retrosu",
+        linkLabel: "♀ Read Venus Retrograde Note →",
+      };
+    }
+    if (lang === "sv") {
+      return {
+        answer:
+          "Venus retrograd pågår 3 oktober – 14 november 2026: först i Skorpionen (3–25 oktober, djup och dolda band), sedan i Vågen (25 oktober–14 november, balans, rättvisa och oavslutade relationer).",
+        href: "/astroloji/venus-retrosu",
+        linkLabel: "♀ Läs om Venus Retrograd →",
+      };
+    }
+    return {
+      answer:
+        "Venüs retrosu 3 Ekim – 14 Kasım 2026 arasında iki fazda ilerliyor: 3–25 Ekim Akrep fazı (derinlik ve gizli dinamikler), 25 Ekim–14 Kasım Terazi fazı (ilişkilerde adalet, denge ve geçmiş hesaplaşmalar).",
+      href: "/astroloji/venus-retrosu",
+      linkLabel: "♀ Venüs Retrosu Notuna Git →",
+    };
+  }
+
+  // 3. Expanded Lore (Ogham, Celtic, Mesopotamia, Shamanism, Witchcraft, Planetary Hours, Lunar Nodes)
+  const matchedLore = loreEntries.find((entry) =>
+    entry.keywords.some((kw) =>
+      kw.includes(" ") ? text.includes(kw) : hasWord(text, kw),
+    ),
+  );
+  if (matchedLore) {
+    const content = matchedLore[lang];
+    return {
+      answer: content.text,
+      href: matchedLore.href,
+      linkLabel: content.label,
+    };
+  }
+
+  // 4. Zodiac Signs
   const sign = signs.find((item) =>
     item.aliases.some((alias) => hasWord(text, alias)),
   );
   if (sign) {
     const s = sign[lang];
-    return `${s.name} (${s.span}) — ${s.note}`;
+    return {
+      answer: `${s.name} (${s.span}) — ${s.note}`,
+      href: "/astroloji/on-iki-burc-ve-nitelikler",
+      linkLabel:
+        lang === "en"
+          ? "☉ Twelve Signs & Dignities →"
+          : lang === "sv"
+            ? "☉ Tolv Tecken & Värdigheter →"
+            : "☉ On İki Burç ve Asaletler Odası →",
+    };
   }
 
+  // 5. Calendar Date -> Sun Sign
   const date = findDate(text);
   if (date) {
     const idx = sunSignIndex(date.month, date.day);
     if (idx === null) {
-      return lang === "en"
-        ? "I could not place that day on the calendar. Write the day and month together."
-        : lang === "sv"
-          ? "Jag kunde inte placera den dagen i kalendern. Skriv dag och månad tillsammans."
-          : "Bu günü takvimde yerine oturtamadım. Günü ve ayı birlikte yaz.";
+      return {
+        answer:
+          lang === "en"
+            ? "I could not place that day on the calendar. Write the day and month together."
+            : lang === "sv"
+              ? "Jag kunde inte placera den dagen i kalendern. Skriv dag och månad tillsammans."
+              : "Bu günü takvimde yerine oturtamadım. Günü ve ayı birlikte yaz.",
+      };
     }
     const s = signs[idx][lang];
     if (lang === "en") {
-      return `For ${date.day}.${date.month}, the tropical Sun sign is ${s.name}. ${s.note} The rising sign also requires birth hour and place.`;
+      return {
+        answer: `For ${date.day}.${date.month}, the tropical Sun sign is ${s.name}. ${s.note} The rising sign also requires birth hour and place.`,
+        href: "/astroloji/harita-nasil-okunur",
+        linkLabel: "☉ How to Read a Chart →",
+      };
     }
     if (lang === "sv") {
-      return `För ${date.day}.${date.month} är det tropiska soltecknet ${s.name}. ${s.note} Ascendenten kräver även födelsetimme och plats.`;
+      return {
+        answer: `För ${date.day}.${date.month} är det tropiska soltecknet ${s.name}. ${s.note} Ascendenten kräver även födelsetimme och plats.`,
+        href: "/astroloji/harita-nasil-okunur",
+        linkLabel: "☉ Hur Man Läser En Karta →",
+      };
     }
-    return `${date.day}.${date.month} için tropik güneş burcu ${s.name}. ${s.note} Yükselen için doğum saati ve yer de gerekir; ocak onu bu kadarıyla kurmaz.`;
+    return {
+      answer: `${date.day}.${date.month} için tropik güneş burcu ${s.name}. ${s.note} Yükselen için doğum saati ve yer de gerekir; ocak onu bu kadarıyla kurmaz.`,
+      href: "/astroloji/harita-nasil-okunur",
+      linkLabel: "☉ Harita Nasıl Okunur Odası →",
+    };
   }
 
-  if (hasWord(text, "venus") || hasWord(text, "retro") || hasWord(text, "retrosu") || hasWord(text, "retrograd")) {
-    if (lang === "en") {
-      return "Venus retrograde runs from 3 October to 14 November 2026: first in Scorpio (3–25 October, depth and hidden dynamics), then in Libra (25 October–14 November, balance, justice, and unfinished ties).";
-    }
-    if (lang === "sv") {
-      return "Venus retrograd pågår 3 oktober – 14 november 2026: först i Skorpionen (3–25 oktober, djup och dolda band), sedan i Vågen (25 oktober–14 november, balans, rättvisa och oavslutade relationer).";
-    }
-    return "Venüs retrosu 3 Ekim – 14 Kasım 2026 arasında iki fazda ilerliyor: 3–25 Ekim Akrep fazı (derinlik ve gizli dinamikler), 25 Ekim–14 Kasım Terazi fazı (ilişkilerde adalet, denge ve geçmiş hesaplaşmalar).";
-  }
-
+  // 6. Education / Courses
   if (
     hasWord(text, "egitim") ||
     hasWord(text, "ders") ||
     hasWord(text, "kurs") ||
-    hasWord(text, "samanizm") ||
+    hasWord(text, "akademi") ||
     hasWord(text, "education") ||
     hasWord(text, "course") ||
     hasWord(text, "utbildning")
   ) {
     if (lang === "en") {
-      return "Three study circles are open under Education: Shamanism Training (6 months), Rune Wisdom Training (5 months), and Hand, Face & Element Reading (4 months). For registration: +90 545 564 21 64.";
+      return {
+        answer:
+          "Three study circles are open under RuneYard Academy: Shamanism Training (24 lessons), Rune Wisdom Training (20 lessons), and Hand, Face & Element Reading (16 lessons / 4 modules). For registration: +90 545 564 21 64.",
+        href: "/egitim",
+        linkLabel: "◈ Enter RuneYard Academy →",
+      };
     }
     if (lang === "sv") {
-      return "Tre studiecirklar finns under Utbildning: Schamanismutbildning (6 månader), Utbildning i runvisdom (5 månader) samt Hand-, ansikts- och elementläsning (4 månader). Kontakt: +90 545 564 21 64.";
+      return {
+        answer:
+          "Tre studiecirklar finns under RuneYard Akademi: Schamanismutbildning (24 lektioner), Utbildning i runvisdom (20 lektioner) samt Hand-, ansikts- och elementläsning (16 lektioner / 4 moduler). Kontakt: +90 545 564 21 64.",
+        href: "/egitim",
+        linkLabel: "◈ Gå till RuneYard Akademi →",
+      };
     }
-    return "Eğitim odasında üç halka açık: Şamanizm Eğitimi (6 ay), Rune Bilgeliği Eğitimi (5 ay) ve El, Yüz ve Element Okuma Teknikleri (4 ay). Kayıt ve bilgi için: 0545 564 21 64.";
+    return {
+      answer:
+        "RuneYard Akademi’de üç canlı sınıf açık: Şamanizm Eğitimi (24 ders), Rune Bilgeliği Eğitimi (20 ders) ve El, Yüz ve Element Okuma Teknikleri (16 ders / 4 modül). Kayıt ve bilgi için: 0545 564 21 64.",
+      href: "/egitim",
+      linkLabel: "◈ Eğitim Salonuna Git →",
+    };
   }
 
+  // 7. Apps
   if (
     hasWord(text, "uygulama") ||
     hasWord(text, "uygulamalar") ||
@@ -275,34 +493,91 @@ export function answerFromNotes(question: string, lang: Lang = "tr"): string {
     hasWord(text, "runewords")
   ) {
     if (lang === "en") {
-      return "Rune Yard is live on Google Play and the App Store. Moon Yard (lunar calendar & planetary hours), Dream Yard, and RuneWords are on the Apps shelf and coming soon.";
+      return {
+        answer:
+          "Rune Yard is live on Google Play and the App Store. Moon Yard (lunar calendar & planetary hours), Dream Yard, and RuneWords are on the Apps shelf.",
+        href: "/uygulamalar",
+        linkLabel: "⌘ Open Apps Shelf →",
+      };
     }
     if (lang === "sv") {
-      return "Rune Yard finns ute på Google Play och App Store. Moon Yard (månkalender & planettimmar), Dream Yard och RuneWords står på hyllan under Appar och kommer snart.";
+      return {
+        answer:
+          "Rune Yard finns ute på Google Play och App Store. Moon Yard (månkalender & planettimmar), Dream Yard och RuneWords står på hyllan under Appar.",
+        href: "/uygulamalar",
+        linkLabel: "⌘ Öppna Apphyllan →",
+      };
     }
-    return "Rune Yard şu an Google Play ve App Store’da yayında. Moon Yard (ay takvimi ve gezegen saatleri), Dream Yard ve RuneWords ise Uygulamalar rafında yakında açılıyor.";
+    return {
+      answer:
+        "Rune Yard şu an Google Play ve App Store’da yayında. Moon Yard (ay takvimi ve gezegen saatleri), Dream Yard ve RuneWords ise Uygulamalar rafında yer alıyor.",
+      href: "/uygulamalar",
+      linkLabel: "⌘ Uygulamalar Rafına Git →",
+    };
   }
 
-  if (hasWord(text, "ekinoks") || hasWord(text, "equinox") || hasWord(text, "dagjamning") || hasWord(text, "dagjamningen")) {
+  // 8. Equinox & Solstice
+  if (
+    hasWord(text, "ekinoks") ||
+    hasWord(text, "equinox") ||
+    hasWord(text, "dagjamning") ||
+    hasWord(text, "dagjamningen")
+  ) {
     if (lang === "en") {
-      return "The equinox is the threshold where day and night stand equal. The spring equinox falls around 20 March, and the autumn equinox around 22 September.";
+      return {
+        answer:
+          "The equinox is the threshold where day and night stand equal. The spring equinox falls around 20 March (0° Aries), and the autumn equinox around 22 September (0° Libra).",
+        href: "/astroloji",
+        linkLabel: "☉ Enter Astrology Hall →",
+      };
     }
     if (lang === "sv") {
-      return "Dagjämningen är tröskeln där dag och natt väger jämnt. Vårdagjämningen infaller kring 20 mars och höstdagjämningen kring 22 september.";
+      return {
+        answer:
+          "Dagjämningen är tröskeln där dag och natt väger jämnt. Vårdagjämningen infaller kring 20 mars (0° Väduren) och höstdagjämningen kring 22 september (0° Vågen).",
+        href: "/astroloji",
+        linkLabel: "☉ Gå till Astrologisalen →",
+      };
     }
-    return "Ekinoks, gündüz ile gecenin eşitlendiği eşiktir. İlkbahar ekinoksu Mart’ın 20’si civarı, sonbahar ekinoksu Eylül’ün 22’si civarı düşer. Yıl yıl bir gün kayabilir.";
+    return {
+      answer:
+        "Ekinoks, gündüz ile gecenin eşitlendiği eşiktir. İlkbahar ekinoksu 20 Mart civarı (0° Koç), sonbahar ekinoksu ise 22 Eylül civarı (0° Terazi) düşer.",
+      href: "/astroloji",
+      linkLabel: "☉ Astroloji Salonuna Git →",
+    };
   }
 
-  if (hasWord(text, "gundonumu") || text.includes("gun donumu") || hasWord(text, "solstice") || hasWord(text, "solstand")) {
+  if (
+    hasWord(text, "gundonumu") ||
+    text.includes("gun donumu") ||
+    hasWord(text, "solstice") ||
+    hasWord(text, "solstand")
+  ) {
     if (lang === "en") {
-      return "The solstice marks the longest or shortest day of the sun. Summer solstice falls around 21 June, winter solstice around 21 December.";
+      return {
+        answer:
+          "The solstice marks the longest or shortest day of the sun. Summer solstice falls around 21 June (0° Cancer), winter solstice around 21 December (0° Capricorn).",
+        href: "/kelt/nemeton-ve-cark",
+        linkLabel: "ᚇ Wheel of the Year →",
+      };
     }
     if (lang === "sv") {
-      return "Solståndet är solens längsta eller kortaste dag. Sommarsolståndet infaller kring 21 juni, vintersolståndet kring 21 december.";
+      return {
+        answer:
+          "Solståndet är solens längsta eller kortaste dag. Sommarsolståndet infaller kring 21 juni (0° Kräftan), vintersolståndet kring 21 december (0° Stenbocken).",
+        href: "/kelt/nemeton-ve-cark",
+        linkLabel: "ᚇ Årshjulet →",
+      };
     }
-    return "Gündönümü, güneşin en uzun ya da en kısa günüdür. Yaz gündönümü Haziran’ın 21’i civarı, kış gündönümü Aralık’ın 21’i civarı.";
+    return {
+      answer:
+        "Gündönümü, güneşin en uzun ya da en kısa günüdür. Yaz gündönümü 21 Haziran civarı (0° Yengeç), kış gündönümü ise 21 Aralık civarı (0° Oğlak) gerçekleşir.",
+      href: "/kelt/nemeton-ve-cark",
+      linkLabel: "ᚇ Yılın Çarkı Odasına Git →",
+    };
   }
 
+  // 9. Aspects, Houses, Chart Reading
   if (
     hasWord(text, "kavusum") ||
     hasWord(text, "karsit") ||
@@ -314,54 +589,99 @@ export function answerFromNotes(question: string, lang: Lang = "tr"): string {
     hasWord(text, "aspects")
   ) {
     if (lang === "en") {
-      return "An aspect is the angular distance between two points in the sky. Conjunction stands together, opposition faces across, trine flows, square creates friction, and sextile opens a quiet path.";
+      return {
+        answer:
+          "In Ptolemaic doctrine, aspects are geometric rays of sight between planets: Conjunction (0°) fuses forces, Opposition (180°) confronts, Trine (120°) harmonizes, Square (90°) drives action through friction, and Sextile (60°) opens opportunity.",
+        href: "/astroloji/acilar-ve-geometri",
+        linkLabel: "☉ Aspects & Cosmic Geometry →",
+      };
     }
     if (lang === "sv") {
-      return "En aspekt är vinkelavståndet mellan två punkter på himlen. Konjunktion står tillsammans, opposition står mittemot, trigon flyter, kvadratur skaver och sextil öppnar en stilla väg.";
+      return {
+        answer:
+          "I ptolemaisk lära är aspekter geometriska siktlinjer mellan planeter: Konjunktion (0°) förenar, Opposition (180°) ställer mot varandra, Trigon (120°) harmoniserar, Kvadratur (90°) skapar friktion och Sextil (60°) öppnar möjligheter.",
+        href: "/astroloji/acilar-ve-geometri",
+        linkLabel: "☉ Aspekter & Kosmisk Geometri →",
+      };
     }
-    return "Açı, iki noktanın gökyüzünde birbirine uzaklığıdır. Kavuşum bir arada durur. Karşıtlık karşı karşıyadır. Üçgen akıcı, kare sürtünen, sekstil ise hafif bir açıklıktır. Haritada önce hangi iki nokta konuşuyor, ona bakılır.";
+    return {
+      answer:
+        "Batlamyus doktrininde açılar gezegenlerin birbirini görme (bakış) geometrisidir: Kavuşum (0°) güçleri birleştirir, Karşıtlık (180°) yüzleştirir, Üçgen (120°) uyumlu akış sağlar, Kare (90°) sürtünmeyle eylem üretir, Sekstil (60°) ise fırsat kapısı açar.",
+      href: "/astroloji/acilar-ve-geometri",
+      linkLabel: "☉ Açılar ve Kozmik Geometri Odası →",
+    };
   }
 
-  if (text.includes("evler") || text.includes("yukselen") || text.includes(". ev") || hasWord(text, "houses") || hasWord(text, "ascendant")) {
+  if (
+    text.includes("evler") ||
+    text.includes("yukselen") ||
+    text.includes(". ev") ||
+    hasWord(text, "houses") ||
+    hasWord(text, "ascendant") ||
+    text.includes("harita") ||
+    text.includes("natal") ||
+    text.includes("chart") ||
+    text.includes("karta")
+  ) {
     if (lang === "en") {
-      return "A house shows where a sky event falls in life. The Ascendant is the threshold of the first house and requires birth time and place. 1 self, 2 resources, 3 near kin, 4 home, 5 creation, 6 work & body, 7 the other, 8 threshold, 9 horizon, 10 standing, 11 community, 12 closure.";
+      return {
+        answer:
+          "When reading a chart, keep the classical order: first Sect (day/night chart), then Sun, Moon, and Ascendant (Horoskopos) with its ruler, then the 12 Houses (Topoi), and finally the Ptolemaic aspects.",
+        href: "/astroloji/harita-nasil-okunur",
+        linkLabel: "☉ How to Read a Chart Room →",
+      };
     }
     if (lang === "sv") {
-      return "Ett hus visar var en himmelshändelse landar i livet. Ascendenten är första husets tröskel och kräver födelsetid och plats. 1 jaget, 2 tillgångar, 3 närhet, 4 hem, 5 skapande, 6 arbete & kropp, 7 den andre, 8 tröskel, 9 horisont, 10 ställning, 11 gemenskap, 12 avslut.";
+      return {
+        answer:
+          "När man läser en karta hålls den klassiska ordningen: först Sekt (dag-/nattkarta), sedan Sol, Måne och Ascendent (Horoskopos) med dess styrare, därefter de 12 husen (Topoi) och sist aspekterna.",
+        href: "/astroloji/harita-nasil-okunur",
+        linkLabel: "☉ Hur Man Läser En Karta →",
+      };
     }
-    return "Ev, gökyüzü olayının hayatta nereye düştüğünü söyler. Yükselen birinci evin eşiğidir; doğum saati ve yer olmadan kurulmaz. Kısa sıra: 1 kişi, 2 sahip olunan, 3 yakın çevre, 4 yuva, 5 ortaya konan, 6 iş ve beden, 7 karşıdaki, 8 eşik, 9 ufuk, 10 duruş, 11 topluluk, 12 kapanan.";
-  }
-
-  if (text.includes("harita") || text.includes("natal") || text.includes("burc") || text.includes("chart") || text.includes("karta")) {
-    if (lang === "en") {
-      return "When reading a chart, keep the order simple: first Sun, Moon, and Ascendant. Then the house in question. Finally the aspects—which two points touch one another. The hearth explains the language rather than writing fixed fate.";
-    }
-    if (lang === "sv") {
-      return "När man läser en karta hålls ordningen enkel: först Sol, Måne och Ascendent. Sedan huset som berörs. Sist aspekterna—vilka två punkter som möts. Härden förklarar språket, den skriver inte ett låst öde.";
-    }
-    return "Bir haritaya bakarken sıra sade tutulur. Önce güneş, ay ve yükselen. Sonra konuşulan ev. En son açılar: hangi iki nokta birbirine değiyor. Ocak kişiye özel kader yazmaz; dili açıklar.";
+    return {
+      answer:
+        "Bir haritaya bakarken klasik sıra korunur: Önce Harita Sekti (gündüz/gece haritası), ardından Güneş, Ay ve Yükselen (Horoskopos) ile yükselen yöneticisi, sonra 12 Ev (Topoi) ve en son gezegen açıları okunur.",
+      href: "/astroloji/harita-nasil-okunur",
+      linkLabel: "☉ Harita Nasıl Okunur Odası →",
+    };
   }
 
   if (lang === "en") {
-    return "The hearth hears the names of the runes and the tongue of the sky. Name a sign: Fehu, Uruz, Ansuz. Or ask of Venus retrograde, Libra, 15 April, or where to start with a chart.";
+    return {
+      answer:
+        "The hearth hears the names of the 24 runes, the 20 Ogham trees, the gods of Mesopotamia, shamanic lore, and the tongue of the sky. Name a sign or symbol: Fehu, Uruz, Ogham, Inanna, Düngür, Venus retrograde, or 15 April.",
+      href: "/runler",
+      linkLabel: "ᚠ Explore the 24 Runes →",
+    };
   }
   if (lang === "sv") {
-    return "Härden hör runornas namn och himlens språk. Nämn ett tecken: Fehu, Uruz, Ansuz. Eller fråga om Venus retrograd, Vågen, 15 april eller var man börjar med en karta.";
+    return {
+      answer:
+        "Härden hör de 24 runornas namn, de 20 Oghamträden, Mesopotamiens stjärnlära, schamanism och himlens språk. Nämn ett tecken: Fehu, Uruz, Ogham, Inanna, Düngür, Venus retrograd eller 15 april.",
+      href: "/runler",
+      linkLabel: "ᚠ Utforska de 24 Runorna →",
+    };
   }
-  return "Ocak rün adlarını ve gökyüzünün dilini duyar. Bir işaret söyle: Fehu, Uruz, Ansuz. Ya da bir söz: Venüs retrosu, Terazi, 15 Nisan, eğitimler, haritaya nereden bakılır.";
+  return {
+    answer:
+      "Ocak 24 rünün adını, 20 Ogham ağacını, Mezopotamya tabletlerini, şamanik düngürü, otacılığı ve gökyüzünün dilini duyar. Bir işaret söyle: Fehu, Uruz, Ogham, İnanna, Düngür, Venüs retrosu, 15 Nisan ya da Haritaya nereden bakılır.",
+    href: "/runler",
+    linkLabel: "ᚠ 24 Rün Kapısına Git →",
+  };
 }
 
 const systemPrompt: Record<Lang, string> = {
-  tr: `Sen RuneYard'ın kış odasındaki ocaksın. Mehmet Akdeniz'in kişisel sayfasında, yalnızca rünler (Elder Futhark), şamanik/kadim semboller ve astroloji üzerine konuşursun.
+  tr: `Sen RuneYard'ın kış odasındaki ocaksın. Mehmet Akdeniz'in kişisel sayfasında, rünler (Elder Futhark), Kelt/Ogham, Mezopotamya, Şamanizm, Witchcraft/Otacılık ve Klasik Astroloji üzerine konuşursun.
 Kısa, sade ve ağırbaşlı Türkçe yaz. İki ile beş cümle yeter.
 Rün karşılıklarını tek ve kesin kader diye sunma; hareket, anlam ve sınır olarak söyle.
 Kişiye özel yükselen ya da tam harita için doğum saati ve yer gerekir; veri yoksa uydurma.
 Tıbbi, hukuki, finansal öğüt verme. Alışveriş önerme.`,
-  en: `You are the hearth in the winter hall of RuneYard, Mehmet Akdeniz's personal study. You speak only of the runes (Elder Futhark), ancient symbols, and astrology.
+  en: `You are the hearth in the winter hall of RuneYard, Mehmet Akdeniz's personal study. You speak of the runes (Elder Futhark), Celtic Ogham, Mesopotamian lore, Shamanism, Witchcraft/Herbalism, and Classical Astrology.
 Write in concise, calm English. Two to five sentences are enough.
 Do not present rune readings as fixed fate; speak of meaning, movement, and limit.
 Personal rising signs or full charts require birth hour and place; do not invent them if absent.`,
-  sv: `Du är härden i RuneYards vinterrum, Mehmet Akdeniz personliga studierum. Du talar endast om runor (Elder Futhark), forntida symboler och astrologi.
+  sv: `Du är härden i RuneYards vinterrum, Mehmet Akdeniz personliga studierum. Du talar om runor (Elder Futhark), keltisk Ogham, Mesopotamien, schamanism, örtkunskap och klassisk astrologi.
 Skriv på kort, stillsam svenska. Två till fem meningar räcker.
 Framställ inte runtydningar som låst öde; tala om betydelse, rörelse och gräns.`,
 };
@@ -406,7 +726,20 @@ async function answerFromModel(question: string, lang: Lang): Promise<string | n
 
 export async function askHearth(question: string, lang: Lang = "tr"): Promise<HearthReply> {
   const cleaned = question.trim().slice(0, 500);
+  const noteMatch = answerFromNotes(cleaned, lang);
   const model = await answerFromModel(cleaned, lang);
-  if (model) return { answer: model, voice: "model" };
-  return { answer: answerFromNotes(cleaned, lang), voice: "not" };
+  if (model) {
+    return {
+      answer: model,
+      voice: "model",
+      href: noteMatch.href,
+      linkLabel: noteMatch.linkLabel,
+    };
+  }
+  return {
+    answer: noteMatch.answer,
+    voice: "not",
+    href: noteMatch.href,
+    linkLabel: noteMatch.linkLabel,
+  };
 }

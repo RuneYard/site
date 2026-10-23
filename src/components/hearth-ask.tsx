@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRef, useState } from "react";
 import { useLanguage } from "@/components/language";
 
@@ -7,6 +8,8 @@ export function HearthAsk() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState<string | null>(null);
   const [voice, setVoice] = useState<"not" | "model" | null>(null);
+  const [href, setHref] = useState<string | null>(null);
+  const [linkLabel, setLinkLabel] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const answerRef = useRef<HTMLDivElement>(null);
@@ -27,6 +30,8 @@ export function HearthAsk() {
       const data = (await response.json()) as {
         answer?: string;
         voice?: "not" | "model";
+        href?: string;
+        linkLabel?: string;
         error?: string;
       };
       if (!response.ok || !data.answer) {
@@ -35,6 +40,8 @@ export function HearthAsk() {
       }
       setAnswer(data.answer);
       setVoice(data.voice ?? "not");
+      setHref(data.href ?? null);
+      setLinkLabel(data.linkLabel ?? null);
       requestAnimationFrame(() => {
         answerRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
       });
@@ -93,12 +100,22 @@ export function HearthAsk() {
         <div ref={answerRef} aria-live="polite" className="text-left">
           {error ? <p className="text-xs text-chalk">{error}</p> : null}
           {answer ? (
-            <p className="text-sm leading-5 text-chalk">
-              <span className="mr-2 font-display text-[10px] tracking-[0.18em] text-chalk/60 uppercase">
-                {voice === "model" ? t.hearth.voice : t.hearth.note}
-              </span>
-              {answer}
-            </p>
+            <div className="mt-1 space-y-1.5">
+              <p className="text-sm leading-5 text-chalk">
+                <span className="mr-2 font-display text-[10px] tracking-[0.18em] text-chalk/60 uppercase">
+                  {voice === "model" ? t.hearth.voice : t.hearth.note}
+                </span>
+                {answer}
+              </p>
+              {href && linkLabel ? (
+                <Link
+                  href={href}
+                  className="inline-block font-display text-[11px] tracking-[0.14em] text-chalk/85 underline decoration-chalk/35 underline-offset-4 uppercase hover:text-chalk"
+                >
+                  {linkLabel}
+                </Link>
+              ) : null}
+            </div>
           ) : null}
         </div>
       </div>
