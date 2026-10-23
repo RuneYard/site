@@ -11,6 +11,11 @@ import {
 } from "@/content/traditions";
 
 const WHATSAPP_URL = "https://wa.me/905455642164";
+const WHATSAPP_LABEL = {
+  tr: "WhatsApp · İletişim",
+  en: "WhatsApp · Contact",
+  sv: "WhatsApp · Kontakt",
+} as const;
 
 export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
   const { lang, t } = useLanguage();
@@ -90,7 +95,7 @@ function TraditionDoorView({
   traditionSlug: TraditionSlug;
   door: TraditionSubDoor;
 }) {
-  const { lang, t } = useLanguage();
+  const { lang } = useLanguage();
   const hall = traditions[traditionSlug];
   const items = door.items?.[lang];
 
@@ -158,7 +163,7 @@ function TraditionDoorView({
               rel="noopener noreferrer"
               className="inline-block border border-chalk/50 bg-chalk/10 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk uppercase transition-colors hover:border-chalk/80 hover:bg-chalk/15"
             >
-              WhatsApp · {t.contact}
+              {WHATSAPP_LABEL[lang]}
             </a>
           )}
           <Link
