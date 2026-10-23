@@ -126,7 +126,7 @@ function TraditionDoorView({
 
   return (
     <HallShell>
-      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-3xl px-6 py-20 sm:px-8">
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-4xl px-6 py-20 sm:px-8">
         <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">
           runeyard.net · {hall.title[lang]}
         </p>
@@ -139,6 +139,19 @@ function TraditionDoorView({
         <p className="mt-3 max-w-2xl font-display text-2xl font-medium tracking-[-0.015em] text-chalk/75">
           {door.subtitle[lang]}
         </p>
+
+        {door.image && (
+          <div className="mt-8 overflow-hidden border border-chalk/12 bg-ink/60">
+            <Image
+              src={door.image}
+              alt={door.title[lang]}
+              width={1200}
+              height={440}
+              priority
+              className="h-auto w-full object-cover"
+            />
+          </div>
+        )}
 
         <div className="mt-8 max-w-2xl space-y-5">
           {door.paragraphs[lang].map((paragraph) => (
@@ -162,18 +175,34 @@ function TraditionDoorView({
         )}
 
         {items && items.length > 0 && (
-          <ul className="mt-12 grid max-w-2xl gap-3 sm:grid-cols-2">
-            {items.map((raw) => {
+          <ul
+            className={`mt-12 grid gap-4 ${
+              door.itemImages ? "max-w-4xl sm:grid-cols-2" : "max-w-2xl sm:grid-cols-2"
+            }`}
+          >
+            {items.map((raw, idx) => {
               const { head, body } = splitItem(raw);
+              const itemImg = door.itemImages?.[idx];
               return (
                 <li
                   key={raw}
                   className="border border-chalk/12 bg-slate/50 p-4 text-sm leading-6 text-chalk/80"
                 >
+                  {itemImg && (
+                    <div className="mb-4 overflow-hidden border border-chalk/10 bg-ink/70">
+                      <Image
+                        src={itemImg}
+                        alt={head ?? door.title[lang]}
+                        width={720}
+                        height={440}
+                        className="h-auto w-full object-cover"
+                      />
+                    </div>
+                  )}
                   {head ? (
                     <>
-                      <p className="font-display text-lg font-medium text-chalk">{head}</p>
-                      <p className="mt-1 text-chalk/75">{body}</p>
+                      <p className="font-display text-xl font-medium text-chalk">{head}</p>
+                      <p className="mt-1.5 text-chalk/75">{body}</p>
                     </>
                   ) : (
                     <p>{body}</p>

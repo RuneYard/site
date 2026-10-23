@@ -15,6 +15,8 @@ export type TraditionPractice = {
 export type TraditionSubDoor = {
   slug: string;
   glyph: string;
+  image?: string;
+  itemImages?: readonly string[];
   title: Record<Lang, string>;
   subtitle: Record<Lang, string>;
   summary: Record<Lang, string>;
@@ -1070,7 +1072,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Mevsimiyle kavga eden dal kırılır; kökünü bilen ağaç ise kıştan korkmaz.",
           "en": "The branch that fights its season breaks; the tree that knows its root does not fear winter.",
           "sv": "Den gren som strider mot sin årstid bryts; det träd som känner sin rot fruktar inte vintern."
-        }
+        },
+        "image": "/ogham/nemeton-cark.jpg"
       },
       {
         "slug": "awen-ve-uc-kazan",
@@ -1210,7 +1213,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Kap eğikse su durmaz; önce içindeki kazanı doğrult, bilgelik kendi yolunu bulur.",
           "en": "Water cannot rest in a tilted vessel; right the cauldron within, and wisdom finds its own way.",
           "sv": "Vatten stannar inte i ett lutande kärl; räta upp kitteln inom dig, så finner visdomen sin egen väg."
-        }
+        },
+        "image": "/ogham/awen-kazan.jpg"
       },
       {
         "slug": "birinci-aicme",
@@ -1347,7 +1351,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Huş ile temizlenmeyen toprağa dişbudak dikilmez.",
           "en": "Ash cannot be planted in ground that Birch has not first cleared.",
           "sv": "Asken kan inte planteras i mark som björken inte först har röjt."
-        }
+        },
+        "image": "/ogham/aicme-1.jpg",
+        "itemImages": [
+          "/ogham/tree-b-beithe.jpg",
+          "/ogham/tree-l-luis.jpg",
+          "/ogham/tree-f-fearn.jpg",
+          "/ogham/tree-s-sail.jpg",
+          "/ogham/tree-n-nion.jpg"
+        ]
       },
       {
         "slug": "ikinci-aicme",
@@ -1484,7 +1496,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Bilgelik koca bir ormanda değil, tek bir fındığın içindeki sessiz özde saklıdır.",
           "en": "Wisdom hides not in noise, but in the quiet kernel within a single hazelnut.",
           "sv": "Visdomen gömmer sig inte i bruset, utan i den stilla kärnan inuti en enda hasselnöt."
-        }
+        },
+        "image": "/ogham/aicme-2.jpg",
+        "itemImages": [
+          "/ogham/tree-h-huath.jpg",
+          "/ogham/tree-d-dair.jpg",
+          "/ogham/tree-t-tinne.jpg",
+          "/ogham/tree-c-coll.jpg",
+          "/ogham/tree-q-cert.jpg"
+        ]
       },
       {
         "slug": "ucuncu-aicme",
@@ -1621,7 +1641,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Karaçalının dikeninden geçmeyen, kışın ortasında açan beyaz çiçeği göremez.",
           "en": "Whoever shuns the thorn of Blackthorn never sees the white blossom that opens in midwinter.",
           "sv": "Den som väjer för slånens törne får aldrig se den vita blomman mitt i vintern."
-        }
+        },
+        "image": "/ogham/aicme-3.jpg",
+        "itemImages": [
+          "/ogham/tree-m-muin.jpg",
+          "/ogham/tree-g-gort.jpg",
+          "/ogham/tree-ng-getal.jpg",
+          "/ogham/tree-z-straif.jpg",
+          "/ogham/tree-r-ruis.jpg"
+        ]
       },
       {
         "slug": "dorduncu-aicme",
@@ -1758,7 +1786,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Porsuk ağacı bin yıl konuşmadan durur; ama köküne oturan herkes onun ne dediğini duyar.",
           "en": "The Yew stands a thousand years without speaking a word, yet whoever sits by its root hears its counsel.",
           "sv": "Idegranen står i tusen år utan att yttra ett ord, men var och en som sitter vid dess rot hör dess råd."
-        }
+        },
+        "image": "/ogham/aicme-4.jpg",
+        "itemImages": [
+          "/ogham/tree-a-ailm.jpg",
+          "/ogham/tree-o-onn.jpg",
+          "/ogham/tree-u-ur.jpg",
+          "/ogham/tree-e-edad.jpg",
+          "/ogham/tree-i-idad.jpg"
+        ]
       }
     ]
   },
