@@ -38,11 +38,12 @@ const copy = {
       { href: "/runler", title: "Rünler", line: "Kısa karşılıklar burada birikecek." },
       { href: "/egitim", title: "Eğitim", line: "Gün belli olunca bu satır dolacak." },
       { href: "/astroloji", title: "Astroloji", line: "Venüs retrosu, 3 Ekim – 14 Kasım." },
-      { href: "/uygulamalar", title: "Uygulamalar", line: "Henüz herkese açık değil." },
+      { href: "/uygulamalar", title: "Uygulamalar", line: "Rune Yard ve dijital kapılar." },
     ],
     apps: {
       title: "Uygulamalar",
       empty: "Uygulamalar henüz herkese açık değil. Bağlantılar burada duracak.",
+      intro: "Kadim sembolleri, gökyüzünü ve günlük ritüelleri cebinize taşıyan dijital rehberler.",
     },
     runes: {
       title: "Rünler",
@@ -115,11 +116,12 @@ const copy = {
       { href: "/runler", title: "Runes", line: "Short readings will gather here." },
       { href: "/egitim", title: "Education", line: "This line will fill when the day is set." },
       { href: "/astroloji", title: "Astrology", line: "Venus retrograde, 3 October – 14 November." },
-      { href: "/uygulamalar", title: "Apps", line: "Not public yet." },
+      { href: "/uygulamalar", title: "Apps", line: "Rune Yard and digital doors." },
     ],
     apps: {
       title: "Apps",
       empty: "The apps are not public yet. The links will sit here.",
+      intro: "Digital guides bringing ancient symbols, skies, and daily rituals into your pocket.",
     },
     runes: {
       title: "Runes",
@@ -192,11 +194,12 @@ const copy = {
       { href: "/runler", title: "Runor", line: "Korta tydningar samlas här." },
       { href: "/egitim", title: "Utbildning", line: "Raden fylls när dagen är satt." },
       { href: "/astroloji", title: "Astrologi", line: "Venus retrograd, 3 oktober – 14 november." },
-      { href: "/uygulamalar", title: "Appar", line: "Inte offentliga ännu." },
+      { href: "/uygulamalar", title: "Appar", line: "Rune Yard och digitala dörrar." },
     ],
     apps: {
       title: "Appar",
       empty: "Apparna är inte offentliga ännu. Länkarna kommer att ligga här.",
+      intro: "Digitala guider som bär forntida symboler, himlar och dagliga ritualer i din ficka.",
     },
     runes: {
       title: "Runor",
