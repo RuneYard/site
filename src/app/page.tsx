@@ -51,15 +51,27 @@ export default function Home() {
               <li key={door.href}>
                 <Link
                   href={door.href}
-                  className="card-slate flex min-h-52 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk"
+                  className="card-slate group flex min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
                 >
-                  <span>
-                    <span className="block font-display text-3xl font-medium tracking-[0.01em]">
+                  <div>
+                    <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
+                      <span>{door.badge}</span>
+                      <span
+                        aria-hidden
+                        className="font-display text-2xl leading-none text-chalk/75 transition-transform group-hover:scale-110 group-hover:text-chalk"
+                      >
+                        {door.glyph}
+                      </span>
+                    </div>
+                    <span className="mt-4 block font-display text-3xl font-medium tracking-[0.01em]">
                       {door.title}
                     </span>
                     <span className="mt-2 block text-sm leading-6 text-chalk/70">{door.line}</span>
-                  </span>
-                  <span className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">{t.open}</span>
+                  </div>
+                  <div className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.18em] text-chalk/55 uppercase group-hover:text-chalk/85">
+                    <span>{t.open}</span>
+                    <span aria-hidden>→</span>
+                  </div>
                 </Link>
               </li>
             ))}
@@ -73,36 +85,53 @@ export default function Home() {
                   {isClosed ? (
                     <div
                       aria-disabled="true"
-                      className="card-slate flex min-h-52 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk/55"
+                      className="card-slate flex min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk/55"
                     >
-                      <span>
-                        <span className="block font-display text-3xl font-medium tracking-[0.01em]">
+                      <div>
+                        <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/40 uppercase">
+                          <span>{door.badge}</span>
+                          <span aria-hidden className="font-display text-2xl leading-none text-chalk/45">
+                            {door.glyph}
+                          </span>
+                        </div>
+                        <span className="mt-4 block font-display text-3xl font-medium tracking-[0.01em]">
                           {door.title}
                         </span>
                         <span className="mt-2 block text-sm leading-6 text-chalk/50">
                           {door.line}
                         </span>
-                      </span>
-                      <span className="text-[10px] tracking-[0.18em] text-chalk/45 uppercase">
-                        {t.closed}
-                      </span>
+                      </div>
+                      <div className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.18em] text-chalk/45 uppercase">
+                        <span>{t.closed}</span>
+                        <span aria-hidden>—</span>
+                      </div>
                     </div>
                   ) : (
                     <Link
                       href={door.href}
-                      className="card-slate flex min-h-52 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk"
+                      className="card-slate group flex min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
                     >
-                      <span>
-                        <span className="block font-display text-3xl font-medium tracking-[0.01em]">
+                      <div>
+                        <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
+                          <span>{door.badge}</span>
+                          <span
+                            aria-hidden
+                            className="font-display text-2xl leading-none text-chalk/75 transition-transform group-hover:scale-110 group-hover:text-chalk"
+                          >
+                            {door.glyph}
+                          </span>
+                        </div>
+                        <span className="mt-4 block font-display text-3xl font-medium tracking-[0.01em]">
                           {door.title}
                         </span>
                         <span className="mt-2 block text-sm leading-6 text-chalk/70">
                           {door.line}
                         </span>
-                      </span>
-                      <span className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
-                        {t.open}
-                      </span>
+                      </div>
+                      <div className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.18em] text-chalk/55 uppercase group-hover:text-chalk/85">
+                        <span>{t.open}</span>
+                        <span aria-hidden>→</span>
+                      </div>
                     </Link>
                   )}
                 </li>
