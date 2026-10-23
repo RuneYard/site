@@ -43,7 +43,6 @@ const copy = {
     apps: {
       title: "Uygulamalar",
       empty: "Uygulamalar henüz herkese açık değil. Bağlantılar burada duracak.",
-      intro: "Kadim sembolleri, gökyüzünü ve günlük ritüelleri cebinize taşıyan dijital rehberler.",
     },
     runes: {
       title: "Rünler",
@@ -121,7 +120,6 @@ const copy = {
     apps: {
       title: "Apps",
       empty: "The apps are not public yet. The links will sit here.",
-      intro: "Digital guides bringing ancient symbols, skies, and daily rituals into your pocket.",
     },
     runes: {
       title: "Runes",
@@ -199,7 +197,6 @@ const copy = {
     apps: {
       title: "Appar",
       empty: "Apparna är inte offentliga ännu. Länkarna kommer att ligga här.",
-      intro: "Digitala guider som bär forntida symboler, himlar och dagliga ritualer i din ficka.",
     },
     runes: {
       title: "Runor",

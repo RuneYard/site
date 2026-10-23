@@ -12,7 +12,7 @@ function storeHref(url: string) {
 }
 
 export function AppsShelf() {
-  const { t, lang } = useLanguage();
+  const { t } = useLanguage();
 
   return (
     <HallShell>
@@ -21,18 +21,14 @@ export function AppsShelf() {
         <h1 className="mt-4 font-display text-5xl font-medium tracking-[-0.025em] sm:text-6xl">
           {t.apps.title}
         </h1>
-        <p className="mt-8 max-w-xl text-lg leading-8 text-chalk/80">
-          {apps.length > 0 ? (t.apps.intro ?? t.apps.title) : t.apps.empty}
-        </p>
+        {apps.length === 0 ? (
+          <p className="mt-8 max-w-xl text-lg leading-8 text-chalk/80">{t.apps.empty}</p>
+        ) : null}
         {apps.length > 0 ? (
           <ul className="mt-10 grid gap-3.5 sm:grid-cols-2">
             {apps.map((app) => {
               const play = storeHref(app.googlePlay);
               const store = storeHref(app.appStore);
-              const lineText =
-                typeof app.line === "object" && app.line !== null
-                  ? app.line[lang] ?? app.line.tr
-                  : app.line;
               return (
                 <li key={app.name} className="card-slate border border-chalk/10">
                   {app.image ? (
@@ -46,7 +42,7 @@ export function AppsShelf() {
                   ) : null}
                   <div className="px-5 py-5">
                     <h2 className="font-display text-3xl font-medium">{app.name}</h2>
-                    <p className="mt-2 text-sm leading-6 text-chalk/70">{lineText}</p>
+                    <p className="mt-2 text-sm leading-6 text-chalk/70">{app.line}</p>
                     {play || store ? (
                       <p className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-[10px] tracking-[0.16em] uppercase">
                         {play ? (
