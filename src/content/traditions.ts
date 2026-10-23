@@ -198,7 +198,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Kökü olmayanın dalı göğe değmez; önce toprağa bas, sonra gökyüzünü oku.",
           "en": "Without roots, no branch touches the sky; stand firm upon the earth before reading the heavens.",
           "sv": "Utan rötter når ingen gren himlen; stå stadigt på jorden innan du läser himlavalvet."
-        }
+        },
+        "image": "/saman/uc-dunya-agac.jpg"
       },
       {
         "slug": "dungur-ve-nefes",
@@ -284,28 +285,28 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
         },
         "items": {
           "tr": [
-            "Düngür (Kasnak ve Deri): Sedir, kayın veya söğüt kasnak üzerine gerilen doğal deri; şamanın kozmik haritası.",
-            "Orba (Tokmak): Genellikle huş veya geyik boynuzundan yapılan, ucu keçe ya da kürkle kaplı vuruş aracı.",
-            "Teta Eşiği (4–7 Hz): Monoton ritmin zihni indirdiği, rüya ile uyanıklık arasındaki berrak görü katmanı.",
-            "Diyafram Nefesi: Dört sayı alış, dört sayı tutuş ve sekiz sayı verişle sinir sistemini hazırlayan temel nefes.",
-            "Kiriş ve Çıngıraklar: Davulun iç kısmında yer alan, negatif ağırlıkları dağıtan demir veya bronz ses parçaları.",
-            "Dokuz Mühür Vuruşu: Yolculuğun tamamlandığını ve bilincin Orta Dünya’ya döndüğünü bildiren kapanış ritmi."
+            "Kasnak (Kayın ve Sedir Ağacı): Yabanıl ormanda yıldırım görmüş veya el değmemiş ağaçtan izin alınarak bükülen, dünyanın çemberini simgeleyen gövde.",
+            "Deri (Maral ve Dağ Geyiği): Üzerine kızıl aşıboyası ile Güneş, Ay, Kutup Yıldızı, Dünya Ağacı ve göksel geyiklerin çizildiği rezonans zarı.",
+            "Sap · İye-Kiji (Davulun Sahibi): Davulun iç kısmında dikey duran, çift başlı ata figürü oymalı merkez direk (Axis Mundi).",
+            "Demir Kiriş ve Çıngıraklar (Kıngırak): Yatay demir tel üzerine dizilen konik metal sarkaçlar; yıldırım sesini ve koruyucu zırhı taşır.",
+            "Orba (Kam Tokmağı): Kayın dalı veya geyik boynuzundan yapılan, tavşan/samur kürküyle kaplı tokmak; hem ritim vurur hem de falda (Tölge) kullanılır.",
+            "Canlandırma (Ak-Çajıl) ve Ritim: Yeni yapılan davulun ateşte ısıtılıp kımız/süt serpilerek uyandırılması ve 4–7 Hz teta ritmiyle nefesin kilitlenmesi."
           ],
           "en": [
-            "Düngür (Frame & Hide): Natural hide stretched over cedar, birch, or willow; the practitioner's cosmic map.",
-            "Orba (Beater): Crafted from birch wood or antler, padded with felt or fur to draw out deep bass overtones.",
-            "Theta Threshold (4–7 Hz): The state between waking and dreaming reached through steady pulse.",
-            "Diaphragm Breath: Four-count inhale, four-count hold, eight-count exhale preparing the nervous system.",
-            "Crossbar & Iron Pendants: Metal rings inside the drum that scatter stagnant weight through sound.",
-            "Nine Sealing Strikes: The closing rhythm signaling completion and full return to the Middle World."
+            "Rim (Birch and Cedar Wood): The circular frame bent from a consecrated forest tree, embodying the ring of the cosmos.",
+            "Membrane (Maral and Mountain Deer Hide): The drum skin painted in red ochre with the Sun, Moon, Pole Star, World Tree, and celestial deer.",
+            "Handle · İye-Kiji (Master of the Drum): The vertical anthropomorphic wooden grip inside the drum representing the ancestral World Axis.",
+            "Iron Crossbeam and Chimes: The horizontal iron rod hung with conical metal pendants that ring like thunder and act as acoustic armor.",
+            "Orba (Fur-Covered Beater): Crafted from birch or reindeer antler wrapped in fur, used both to strike the rhythm and for divination (Tölge).",
+            "Animation (Ak-Chajyl) and Rhythm: The rite of warming and awakening the new drum by the fire, locking breath into the 4–7 Hz theta pulse."
           ],
           "sv": [
-            "Düngür (Ram & Skinn): Naturligt skinn spänt över ceder, björk eller pil; utövarens kosmiska karta.",
-            "Orba (Trumpinne): Tillverkad av björk eller horn, klädd med filt eller päls för djupa bastoner.",
-            "Tetatröskeln (4–7 Hz): Tillståndet mellan vaka och dröm som nås genom stadig puls.",
-            "Diafragmaandning: Fyra sekunder in, fyra håll, åtta ut för att lugna nervsystemet.",
-            "Tvärslå & Järnhängen: Metallringar på trummans insida som skingrar tung energi.",
-            "Nio Förseglande Slag: Avslutningsrytmen som markerar full återkomst till Mellanvärlden."
+            "Ram (Björk och Cederträ): Den runda stommen böjd av ett utvalt skogsträd som symboliserar världsalltets krets.",
+            "Trumskinn (Maral- och Hjorthud): Skinnet målat med röd ockra med Solen, Månen, Polstjärnan, Världsträdet och himmelshjortar.",
+            "Handtag · İye-Kiji (Trummans Rådare): Det vertikala snidade träfästet inuti trumman som utgör världsaxeln.",
+            "Järntvärslå och Hänklockor: Den horisontella järnten med koniska metallhängen som klingar likt åska och ger skydd.",
+            "Orba (Pälsklädd Trumpinne): Tillverkad av björk eller renhorn klädd i päls; används både för rytm och tydor (Tölge).",
+            "Levendegöring (Ak-Tjajyl) och Rytm: Invigningen där trumman värms vid elden och väcks till liv i 4–7 Hz thetarytm."
           ]
         },
         "practice": {
@@ -338,7 +339,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Davul çalınmaz, dinlenir; ilk vuruşu sen yaparsın, ikinci vuruşu davul sana söyler.",
           "en": "The drum is not merely played, it is listened to; you strike the first beat, and the drum teaches the second.",
           "sv": "Trumman spelas inte bara, man lyssnar till den; du slår det första slaget och trumman visar det andra."
-        }
+        },
+        "image": "/saman/dungur-kozmos.jpg",
+        "itemImages": [
+          "/saman/drum-1-kasnak.jpg",
+          "/saman/drum-2-deri.jpg",
+          "/saman/drum-3-sap.jpg",
+          "/saman/drum-4-kiris.jpg",
+          "/saman/drum-5-orba.jpg",
+          "/saman/drum-6-taziye.jpg"
+        ]
       },
       {
         "slug": "seidr-ve-kuzey",
@@ -484,7 +494,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "24 Rün Kapısına Geç",
           "en": "Open the 24 Runes",
           "sv": "Öppna de 24 Runorna"
-        }
+        },
+        "image": "/saman/seidr-hjallr.jpg"
       },
       {
         "slug": "erk-hayvanlari-ve-rehberler",
@@ -912,6 +923,288 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "sv": "Utforska Schamanismutbildningen"
         },
         "whatsapp": true
+      },
+      {
+        "slug": "demir-ocak-ve-merkut",
+        "glyph": "🦅",
+        "image": "/saman/demir-ocak-merkut.jpg",
+        "title": {
+          "tr": "Demirci Ocağı, Kuş Donu ve Merküt (Kartal)",
+          "en": "The Blacksmith's Forge, Bird Cloak, and Merküt (Eagle)",
+          "sv": "Smedjans Härd, Fågelhamnen och Merküt (Örnen)"
+        },
+        "subtitle": {
+          "tr": "‘Demirciler ve Kamlar aynı yuvadan çıkmadır’: Su verilmiş demir ve gök kartalı",
+          "en": "'Blacksmiths and Shamans come from the same nest': Tempered iron and the sky eagle",
+          "sv": "'Smeder och schamaner kommer ur samma rede': Härdat järn och himmelsörnen"
+        },
+        "summary": {
+          "tr": "Saha (Yakut) ve Altay geleneğinde demirci ocağının kutsallığı, kam cübbesi (Manyak) ve gök kartalı Merküt.",
+          "en": "The sanctity of the blacksmith's forge in Sakha (Yakut) and Altai tradition, the shamanic coat (Manyak), and the cosmic eagle Merküt.",
+          "sv": "Smedjans helighet i jakutisk och altaisk tradition, schamandräkten (Manyak) och den kosmiska örnen Merküt."
+        },
+        "paragraphs": {
+          "tr": [
+            "Sibirya, Saha (Yakut), Buryat ve Altay etnografyasında en köklü atasözlerinden biri şöyledir: ‘Demirciler ve Kamlar aynı yuvadan çıkmadır’ (veya ‘Demirci kamın ağabeyidir’). Mircea Eliade ve A. V. Anokhin’in kayıt altına aldığı bu gelenekte demirci (Darhan / Temirci), sıradan bir zanaatkâr değil; toprağın ham cevherini ateş ve çekiçle terbiye edip biçim veren ateş efendisidir.",
+            "Geleneksel anlatılarda Dünya Ağacı’nın (Bay Kayın) en üst dallarında çift başlı veya dev kanatlı gök kartalı Merküt (Bürgüt) yuva yapar. Bir kam adayının ruhu inisiyasyon (geçiş) uykusu sırasında bu ağacın dallarında olgunlaşır; demirci ustası ise adayın dağınık parçalarını örs üzerinde döverek yeniden birleştirir ve ona ‘su verilmiş çelik’ gibi dayanıklı bir irade kazandırır.",
+            "Kamın törende giydiği cübbe (Altayca Manyak) sıradan bir kıyafet değil, tam anlamıyla bir ‘Kuş Donu’ veya ‘Geyik Donu’dur. Cübbenin omuzlarına dikilen puhu kuşu ve kartal tüyleri kanatları, sırtına ve göğsüne asılan dövme demir levhalar ise hem kuşun kemik iskeletini hem de kamı alt dünya yolculuğunda koruyan zırhı temsil eder.",
+            "Bir kam cübbesinin üzerindeki dövme demir parçaların ağırlığı bazen 15–20 kilogramı bulur; bu demir parçalar yalnızca eğitimli bir demirci ocağında, özel dualar ve ateş sunularıyla dövülür. Demir paslanmaz iradeyi, kuş tüyü ise ağırlıksız uçuşu simgeler: Kam, toprağın en ağır madeni ile göğün en hafif tüyünü tek bedende birleştiren kişidir."
+          ],
+          "en": [
+            "One of the most foundational proverbs recorded in Siberian, Sakha (Yakut), Buryat, and Altai ethnography states: 'Blacksmiths and Shamans come from the same nest' (or 'The Blacksmith is the elder brother of the Shaman'). Documented by Mircea Eliade and A. V. Anokhin, the blacksmith (Darkhan / Temirchi) is no ordinary artisan, but the master of fire who tempers raw ore on the anvil into enduring form.",
+            "In traditional cosmology, the giant cosmic eagle Merküt (Bürgüt) nests in the highest branches of the World Tree (Bay Kayın). During the initiatory illness and vision-sleep of a future shaman, the candidate's spirit is hatched in those branches and symbolically forged anew on the blacksmith's anvil, receiving the resilience of tempered iron.",
+            "The ritual coat worn by the shaman (Altai Manyak) is not mere clothing, but an anatomical 'Bird Cloak' or 'Deer Cloak'. Eagle and owl feathers sewn onto the shoulders form the wings, while hand-forged iron pendants suspended across the chest and spine form both the skeletal bones of the bird and protective armor during journeys to the lower world.",
+            "The forged iron ornaments on a traditional coat can weigh 15 to 20 kilograms; every piece must be hammered at a consecrated forge. Iron embodies unyielding groundedness, while feather embodies weightless flight: the shaman is the one who unites the heaviest metal of earth with the lightest pinion of the sky."
+          ],
+          "sv": [
+            "Ett av de mest grundläggande talesätten i sibirisk, jakutisk (Sacha), burjatisk och altaisk etnografi lyder: 'Smeder och schamaner kommer ur samma rede' (eller 'Smeden är schamanens äldre bror'). Smeden (Darchan / Temirtji) är inte en vanlig hantverkare, utan eldens mästare som tämjer rå malm på städet.",
+            "I den traditionella kosmologin bygger den kosmiska örnen Merküt (Bürgüt) sitt bo i Världsträdets (Bay Kayıns) högsta grenar. Under schamanens invigningssömn smids kandidatens ande symboliskt på nytt på smedens städ och får det härdade järnets motståndskraft.",
+            "Den rituella dräkten (altaiska Manyak) är en anatomisk 'fågelhamn' eller 'hjorthamn'. Örn- och ugglefjädrar vid axlarna bildar vingarna, medan handsmidda järnhängen över bröst och ryggrad utgör både fågelns skelett och en skyddande rustning under färder genom underjorden.",
+            "Järnornamenten på en traditionell dräkt kan väga 15 till 20 kilo. Järnet förkroppsligar orubblig förankring medan fjädern bär tyngdlös flykt: schamanen förenar jordens tyngsta metall med himlens lättaste vinge."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Demirci Ocağı (Darhan) ve İnisiyatik Yeniden Dövülme",
+              "body": "Yakut ve Buryat anlatılarında kam adayı görevi kabul etmeden önce sembolik bir ‘parçalanma ve yeniden dövülme’ (Anokhin’in kaydettiği ‘etin ve kemiklerin sayılıp demirci ateşinde su verilmesi’) deneyiminden geçer. Bunun psikolojik ve ruhsal karşılığı, eski kibirli benliğin ateşte eriyip yerine sorumluluk taşıyabilen sağlam bir omurganın kurulmasıdır."
+            },
+            {
+              "heading": "Merküt (Bürgüt): Dünya Ağacının Tepesindeki İlk Öğretmen",
+              "body": "Altay ve Tuva mitolojisinde göklerden ilk kam bilgisini indiren varlık Güneş kuşu Merküt’tür (Kara Kartal / Kaya Kartalı). Kartal en yüksek irtifada uçabilen ve Güneş’e doğrudan bakabilen yırtıcıdır; bu yüzden kamın ‘üstten bakış’ (bütünü görme) yetisini temsil eder."
+            },
+            {
+              "heading": "Manyak (Kam Cübbesi): İskelet, Zırh ve Ses",
+              "body": "Manyak üzerine dikilen her demir parça (kaburga demirleri, güneş ve ay diskleri, küçük demir yaylar ve çıngıraklar) kam hareket ettikçe ritmik bir metal uğultusu çıkarır. Bu ses hem transı derinleştirir hem de ağır enerjileri (aza / kara nefes) uzakta tutan akustik bir kalkan işlevi görür."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Blacksmith's Forge (Darkhan) and Initiatory Tempering",
+              "body": "In Sakha and Buryat accounts, before stepping into the vocation, a shamanic candidate undergoes an inner ordeal of 'dismemberment and re-forging'—counting the bones and tempering them in the smith's fire. Psychologically and spiritually, the fragile ego melts away so a resilient spine capable of carrying communal responsibility can be forged."
+            },
+            {
+              "heading": "Merküt (Bürgüt): The First Teacher Atop the World Tree",
+              "body": "In Altai and Tuvan mythology, the being who first brought shamanic sight down from the heavens is Merküt, the Golden Eagle. Flying at the highest altitude and gazing toward the sun, the eagle represents synoptic vision—seeing the whole landscape from above."
+            },
+            {
+              "heading": "Manyak (The Shamanic Coat): Skeleton, Armor, and Acoustic Shield",
+              "body": "Every forged iron piece sewn onto the Manyak—iron ribs, solar and lunar disks, miniature bows, and tubular bells—produces a resonant metallic hum whenever the shaman moves, serving both as rhythmic accompaniment and an acoustic shield."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Smedjans Härd (Darchan) och Invigningens Härdning",
+              "body": "I jakutiska och burjatiska berättelser genomgår kandidaten en inre prövning av 'sönderdelning och omsmide' vid smedens eld. Det bräckliga egot smälts ned för att smida en ryggrad stark nog att bära ansvar."
+            },
+            {
+              "heading": "Merküt (Bürgüt): Den Förste Läraren i Världsträdets Krona",
+              "body": "I altaisk och tuvinsk mytologi är kungsörnen Merküt den som först bar ned den schamanska blicken. Örnen representerar överblick och förmågan att se helheten från hög höjd."
+            },
+            {
+              "heading": "Manyak (Schamandräkten): Skelett, Rustning och Ljudsköld",
+              "body": "Varje smidd järndel på Manyak-dräkten — järnrevben, sol- och månskivor samt klockor — skapar ett rytmiskt metalliskt brus som både fördjupar transen och fungerar som en akustisk sköld."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Darhan / Temirci (Demirci): Ateşi, körüğü ve örsü yöneten; kamın zırhını döven ocak ustası.",
+            "Merküt / Bürgüt (Kaya Kartalı): Dünya Ağacı’nın tepesinde yuva yapan, yüksek görüşün ve güneşin elçisi.",
+            "Manyak (Kuş Donu Cübbe): Geyik derisi, kartal tüyleri ve dövme demir iskelet parçalarından oluşan tören giysisi.",
+            "Körük ve Örs: Nefesin (hava) ateşi harlaması ve çekiç darbesinin (ritim) ham maddeye biçim vermesi.",
+            "Demir Kaburgalar: Cübbenin göğüs ve sırt kısmına dikilen, iç organları ve ruhu koruyan demir şeritler.",
+            "Su Verme (Temperleme): Kızgın demirin soğuk suya daldırılarak kırılmaz çelik haline gelmesi; sınavla olgunlaşma."
+          ],
+          "en": [
+            "Darkhan / Temirchi (Blacksmith): Master of bellows, fire, and anvil who forges the shaman's iron ornaments.",
+            "Merküt / Bürgüt (Golden Eagle): Messenger of high vision nesting in the crown of the World Tree.",
+            "Manyak (Bird-Cloak Coat): Ceremonial garment of deer hide, eagle feathers, and forged skeletal iron.",
+            "Bellows and Anvil: Breath fanning the flame and rhythm shaping raw matter into form.",
+            "Iron Ribs: Forged iron strips sewn across chest and back to guard the vital core.",
+            "Quenching (Tempering): Plunging red-hot iron into cold water to create unbreakable steel; maturity through trial."
+          ],
+          "sv": [
+            "Darchan / Temirtji (Smed): Mästaren över bälg, eld och städ som smider dräktens järndelar.",
+            "Merküt / Bürgüt (Kungsörn): Den höga blickens budbärare i Världsträdets krona.",
+            "Manyak (Fågelhamnsdräkt): Ceremoniell dräkt av hjortskinn, örnfjädrar och smidda järnben.",
+            "Bälg och Städ: Andedräkten som väcker elden och rytmen som ger råämnet form.",
+            "Järnrevben: Smidda järnremsor över bröst och rygg som skyddar livskärnan.",
+            "Härdning: När glödande järn sänks i kallt vatten och blir obrytbart stål; mognad genom prövning."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Çalışma Notu · Demir ve Tüy Dengesi",
+            "steps": [
+              "Ayak tabanlarını yere tam basarak omurganı dikleştir: Bacaklarını ve omurganı toprağa kök salmış ‘dövme demir’ gibi ağır ve sarsılmaz hisset.",
+              "Omuzlarını ve kürek kemiklerini gevşeterek nefes al: Başının tepe noktasını ve bakışını gökyüzündeki bir kartal (Merküt) tüyü kadar hafif ve geniş tut.",
+              "Gün içinde bir krizle karşılaştığında bu iki niteliği aynı anda hatırla: Ayakların demir gibi yerde dursun, zihnin kartal gibi yukarıdan bütünü görsün."
+            ]
+          },
+          "en": {
+            "title": "Study Note · Balancing Iron and Feather",
+            "steps": [
+              "Stand with both feet planted firmly on the floor and lengthen your spine: feel your legs and lower body as heavy, unshakeable forged iron.",
+              "Soften your shoulders and shoulder blades as you inhale: keep the crown of your head and your gaze as light and wide as an eagle's feather.",
+              "When meeting a challenge during the day, hold both qualities at once: feet anchored like iron on the earth, mind viewing the whole from above like Merküt."
+            ]
+          },
+          "sv": {
+            "title": "Studieanteckning · Balansen mellan Järn och Fjäder",
+            "steps": [
+              "Stå med båda fotsulorna stadigt i golvet och sträck på ryggraden: känn benen och basen som tungt, orubbligt smidesjärn.",
+              "Slappna av i axlar och skulderblad när du andas in: håll hjässan och blicken så lätt och vid som en örnfjäder.",
+              "När du möter en utmaning, förena båda kvaliteterna: fötterna förankrade som järn i jorden, sinnet överblickande som Merküt."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Demir ateşte dövülmeden çelik olmaz; kanat rüzgâra açılmadan göğü bilmez.",
+          "en": "Iron does not become steel without the anvil's fire; the wing does not know the sky until it opens to the wind.",
+          "sv": "Järn blir inte stål utan städets eld; vingen känner inte himlen förrän den öppnas mot vinden."
+        }
+      },
+      {
+        "slug": "on-iki-hayvanli-takvim",
+        "glyph": "❂",
+        "image": "/saman/on-iki-hayvan-takvim.jpg",
+        "title": {
+          "tr": "On İki Hayvanlı Gök Takvimi, Cemreler ve Gündönümü",
+          "en": "The Twelve-Animal Sky Calendar, Thaws, and Solstices",
+          "sv": "Tolvårsdjurkalendern, Islossning och Solstånd"
+        },
+        "subtitle": {
+          "tr": "Orhun yazıtlarından Kaşgarlı Mahmud’a: 12 yıllık Jüpiter çarkı, Nardugan ve Yengigün",
+          "en": "From the Orkhon inscriptions to Mahmud al-Kashgari: The 12-year Jupiter wheel, Nardugan, and New Day",
+          "sv": "Från Orchonskrifterna till Mahmud al-Kashgari: Det 12-åriga Jupiterhjulet, Nardugan och Ny Dag"
+        },
+        "summary": {
+          "tr": "Eski Türk ve İç Asya geleneğinde 12 Hayvanlı Takvim (Sıçgan’dan Tonguz’a), 21 Aralık Nardugan, 21 Mart Yengigün ve üç cemre.",
+          "en": "The Old Turkic 12-Animal Calendar (Rat to Boar), December 21 Nardugan, March 21 Yengigün, and the three vernal thaws (Cemre).",
+          "sv": "Den fornturkiska 12-djurkalendern, vintersolståndet Nardugan, vårdagjämningen Yengigün och vårens tre uppvärmningar (Cemre)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Orhun Abideleri’nde (Kül Tigin ve Bilge Kağan yazıtlarında: ‘Koyn yılka...’) ve Kaşgarlı Mahmud’un 1072 tarihli Dîvânu Lugâti’t-Türk eserinde ayrıntılarıyla kaydedilen On İki Hayvanlı Türk Takvimi, göçebe bozkır ve orman halklarının gökyüzü gözlemine dayanan en eski astronomik zaman dizgesidir. Bu takvim, Jüpiter gezegeninin (Eski Türkçe: Erentüz / Kara-kuş) Güneş etrafındaki 11.86 yıllık (yaklaşık 12 yıllık) yörünge dönüşünü temel alır.",
+            "On iki yıllık çarkın her yılı bir hayvanın karakteriyle ve doğa sınavıyla anılır: Sıçgan (Sıçan/Fare), Ud (Sığır/Öküz), Bars (Pars/Kaplan), Tavışgan (Tavşan), Luu (Ejder/Timsa), Yılan, Yunt (At), Koy (Koyun), Biçin (Maymun), Takagu (Tavuk/Horoz), İt (Köpek) ve Tonguz (Domuz). Tarihsel kayıtlarda örneğin Ud (Sığır) ve Tavışgan yıllarının sert kışlarla, Luu (Su Ejderi) yılının ise bol yağış ve bereketle geçtiği gözlemlenmiştir.",
+            "Yılın kendi içindeki güneş döngüsü ise iki büyük eşikle mühürlenir: 21 Aralık Kış Gündönümü’nde en uzun gecenin ardından Güneş’in yeniden doğuşu (Nardugan / Nar-Tugan — ‘Doğan Güneş’) kutlanır ve Akçam / Kayın ağacına dilek bağları asılır. 21 Mart İlkbahar Ekinoksu’nda ise gece ile gündüz eşitlendiğinde Yengigün (Ergenekon / Nevruz — Yeni Yıl Günü) başlar.",
+            "Kıştan bahara geçiş ise Anadolu ve Orta Asya halk meteorolojisinde ‘Cemre’ (kor ateş) düşüşüyle adım adım izlenir: İlk cemre 19–20 Şubat’ta Havaya, ikinci cemre 26–27 Şubat’ta Suya (buzların çözülmesi), üçüncü cemre ise 5–6 Mart’ta Toprağa düşer. Gökyüzü (Hava), nehir (Su) ve çayır (Toprak) sırasıyla uyanmadan bahar başlamaz."
+          ],
+          "en": [
+            "Recorded on the 8th-century Orkhon Inscriptions (Kül Tigin and Bilge Khagan monuments) and detailed in Mahmud al-Kashgari's 1072 Dīwān Lughāt al-Turk, the Twelve-Animal Turkic Calendar is the oldest astronomical timekeeping system of the Inner Asian steppe and forest peoples. Its twelve-year wheel tracks the 11.86-year sidereal orbit of Jupiter across the ecliptic.",
+            "Each year of the twelve-year cycle carries the character of an animal: Sıçgan (Rat), Ud (Ox), Bars (Leopard/Tiger), Tavışgan (Hare), Luu (Dragon), Yılan (Serpent), Yunt (Horse), Koy (Sheep), Biçin (Monkey), Takagu (Rooster), İt (Dog), and Tonguz (Boar). Historical chronicles noted empirical climatic patterns across the cycle, such as abundant rains in the Year of the Dragon (Luu).",
+            "Within each solar year, two cardinal gates anchor the calendar: at the December 21 Winter Solstice, after the longest night, the rebirth of the Sun is celebrated as Nardugan ('Rising Sun'), while at the March 21 Vernal Equinox, when day and night stand equal, the New Year dawns as Yengigün ('New Day' / Nowruz).",
+            "The awakening of late winter into spring is tracked across Anatolia and Central Asia through the three 'Cemre' (descending embers of warmth): the first warms the Air (February 19–20), the second warms the Water and melts the ice (February 26–27), and the third enters the Earth (March 5–6) just before the equinox."
+          ],
+          "sv": [
+            "Nedtecknad på 700-talets Orchonskrifter (Kül Tigin- och Bilge Khagan-monumenten) och utförligt beskriven i Mahmud al-Kashgaris Dīwān Lughāt al-Turk (1072) är den fornturkiska tolvårsdjurkalendern det äldsta astronomiska tidssystemet i Inre Asien. Dess tolvåriga hjul följer Jupiters 11,86-åriga omloppstid runt ekliptikan.",
+            "Varje år i tolvårscykeln bär ett djurs prägel: Sıçgan (Råtta), Ud (Oxe), Bars (Leopard/Tiger), Tavışgan (Hare), Luu (Drake), Yılan (Orm), Yunt (Häst), Koy (Får), Biçin (Apa), Takagu (Tupp), İt (Hund) och Tonguz (Vildsvin).",
+            "Under solåret markeras två stora trösklar: vid vintersolståndet den 21 december firas solens återfödelse efter årets längsta natt som Nardugan ('Den stigande solen'), och vid vårdagjämningen den 21 mars, när natt och dag väger lika, gryr det nya året som Yengigün ('Ny dag' / Nouruz).",
+            "Övergången från vinter till vår följs genom de tre 'Cemre' (glödande värmedroppar): den första värmer Luften (19–20 februari), den andra värmer Vattnet och bryter isen (26–27 februari) och den tredje värmer Jorden (5–6 mars)."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "On İki Hayvan Çarkı ve Jüpiter (Erentüz) Döngüsü",
+              "body": "Jüpiter her yıl zodyakın yaklaşık 30 derecelik bir dilimini (bir burcu) geçer ve 12 yılda başladığı noktaya döner. İnsan ömründeki 12, 24, 36, 48, 60 (bir ‘Müşel’ / tam altmışlık döngü) ve 72 yaşları, kişinin kendi doğduğu hayvan yılına geri döndüğü olgunluk eşikleridir."
+            },
+            {
+              "heading": "Nardugan (21 Aralık) ve Yengigün (21 Mart)",
+              "body": "Kuzey yarımkürede yaşayan doğa halkları için yıl iki kez doğar: İlki 21 Aralık’ta ışığın karanlığı yenip günlerin uzamaya başladığı astronomik dönüm (Nardugan), ikincisi ise 21 Mart’ta toprağın uyanıp göçebe sürülerin yaylaya çıktığı yaşamsal bahar başlangıcıdır (Yengigün)."
+            },
+            {
+              "heading": "Üç Cemre: Hava, Su ve Toprağın Uyanış Sırası",
+              "body": "Halk takvimindeki üç cemre gözlemi atmosfer fiziğiyle birebir örtüşür: Güneş ışınlarının geliş açısı dikleştikçe önce atmosferin alt katmanları (Hava) kırılır, ardından karların erimesiyle akarsular (Su) çözülür, en sonunda ise özgül ısısı yüksek olan Toprak ısınarak tohumu çatlatır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Twelve-Animal Wheel and the Orbit of Jupiter",
+              "body": "Jupiter traverses roughly 30 degrees of the ecliptic each year, completing its circuit in 12 years. Ages 12, 24, 36, 48, 60 (one complete 60-year cycle), and 72 mark a person's return to their birth year animal—thresholds of life review and maturity."
+            },
+            {
+              "heading": "Nardugan (December 21) and Yengigün (March 21)",
+              "body": "For northern peoples, the year has two births: first at the Winter Solstice (Nardugan), when light triumphs over the longest night and days begin to lengthen; second at the Vernal Equinox (Yengigün), when day equals night and the pastures awaken."
+            },
+            {
+              "heading": "The Three Cemre: Sequential Awakening of Air, Water, and Earth",
+              "body": "The folk observation of the three Cemre mirrors natural thermodynamics: as solar declination rises in late February, the air warms first, followed a week later by the thawing of ice and streams, and finally the warming of the soil in early March."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Tolvårshjulet och Jupiters Omloppsbana",
+              "body": "Jupiter rör sig ungefär 30 grader längs ekliptikan varje år och fullbordar sitt kretslopp på 12 år. Åldrarna 12, 24, 36, 48, 60 och 72 markerar återkomsten till ens eget födelseårsdjur."
+            },
+            {
+              "heading": "Nardugan (21 december) och Yengigün (21 mars)",
+              "body": "För nordliga folk föds året två gånger: vid vintersolståndet (Nardugan) när ljuset vänder åter efter den längsta natten, och vid vårdagjämningen (Yengigün) när dag och natt är lika långa."
+            },
+            {
+              "heading": "De Tre Cemre: Luftens, Vattnets och Jordens Uppvaknande",
+              "body": "Folkkalenderns tre Cemre speglar naturens termodynamik i slutet av februari och början av mars: först värms luften, en vecka senare bryts isen i vattendragen, och slutligen värms jorden."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Sıçgan & Ud (Fare ve Sığır · 1–2. Yıllar): Kış hazırlığı, ambar bereketi, sabır ve ağır emek yılları.",
+            "Bars & Tavışgan (Pars ve Tavşan · 3–4. Yıllar): Atılganlık ve çeviklik; doğanın sert sınavları ile hızlı uyum.",
+            "Luu & Yılan (Ejder ve Yılan · 5–6. Yıllar): Yağmur, yer-su bereketi, deri değiştirme ve derin bilgelik.",
+            "Yunt & Koy (At ve Koyun · 7–8. Yıllar): Bozkır yolculuğu, hız, sürü bereketi ve topluluk huzuru.",
+            "Biçin & Takagu (Maymun ve Horoz · 9–10. Yıllar): Zanaat, uyanıklık, şafak vakti ve zamanın ilanı.",
+            "İt & Tonguz (Köpek ve Domuz · 11–12. Yıllar): Sadakat, eşik bekçiliği, döngünün kapanışı ve yeni tohuma hazırlık."
+          ],
+          "en": [
+            "Sıçgan & Ud (Rat and Ox · Years 1–2): Winter storage, patience, endurance, and steady labor.",
+            "Bars & Tavışgan (Leopard and Hare · Years 3–4): Boldness and agility; swift adaptation to nature's tests.",
+            "Luu & Yılan (Dragon and Serpent · Years 5–6): Rain, water abundance, shedding old skin, and deep wisdom.",
+            "Yunt & Koy (Horse and Sheep · Years 7–8): Steppe journeying, speed, flock abundance, and communal peace.",
+            "Biçin & Takagu (Monkey and Rooster · Years 9–10): Craft, vigilance, dawn awakening, and heralding the hour.",
+            "İt & Tonguz (Dog and Boar · Years 11–12): Loyalty, threshold guardianship, completion of the 12-year wheel."
+          ],
+          "sv": [
+            "Sıçgan & Ud (Råtta och Oxe · År 1–2): Vinterförråd, tålamod, uthållighet och stadigt arbete.",
+            "Bars & Tavışgan (Leopard och Hare · År 3–4): Mod och smidighet; snabb anpassning till naturens prövningar.",
+            "Luu & Yılan (Drake och Orm · År 5–6): Regn, vattnets välsignelse, skinnömsning och djup visdom.",
+            "Yunt & Koy (Häst och Får · År 7–8): Vandring över stäppen, snabbhet, hjordens välgång och frid.",
+            "Biçin & Takagu (Apa och Tupp · År 9–10): Hantverk, vaksamhet, gryningsrop och tidens mått.",
+            "İt & Tonguz (Hund och Vildsvin · År 11–12): Trofasthet, tröskelvakt och fullbordan av tolvårscykeln."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Çalışma Notu · Doğum Yılını ve Mevsim Eşiğini Bulmak",
+            "steps": [
+              "Doğum yılını 12’ye bölerek (veya 12’şer yıllık Jüpiter dönüşlerini: 12, 24, 36, 48, 60 yaşlarını sayarak) hayatındaki 12 yıllık ana dönemlerin nasıl kapandığını ve açıldığını incele.",
+              "Şubat sonu ve Mart başında üç cemrenin (Hava, Su, Toprak) düşüş günlerini takviminde işaretle ve o günlerde doğadaki değişimi bizzat dışarı çıkarak gözlemle.",
+              "21 Aralık (Nardugan) ve 21 Mart (Yengigün) günlerinde evini havalandır, yarım kalan bir hesabı kapat ve yeni mevsim için tek bir somut niyet belirle."
+            ]
+          },
+          "en": {
+            "title": "Study Note · Tracking Your 12-Year Cycle and Seasonal Gates",
+            "steps": [
+              "Reflect on the 12-year Jupiter milestones of your life (ages 12, 24, 36, 48, 60) to see how major chapters have opened and closed.",
+              "Mark the three Cemre dates in late February and early March (Air, Water, Earth) and step outdoors on each to observe the physical shift in wind, water, and soil.",
+              "On December 21 (Nardugan) and March 21 (Yengigün), air out your home, settle an unfinished matter, and set one clear intention for the new quarter."
+            ]
+          },
+          "sv": {
+            "title": "Studieanteckning · Att Följa Din 12-Årscykel och Årstidsportarna",
+            "steps": [
+              "Betrakta 12-årsgränserna i ditt liv (12, 24, 36, 48, 60 år) för att se hur stora livskapitel har öppnats och slutits.",
+              "Markera de tre Cemre-dagarna i slutet av februari och början av mars (Luft, Vatten, Jord) och gå ut i naturen för att iaktta skiftet.",
+              "Den 21 december (Nardugan) och 21 mars (Yengigün), vädra ditt hem, avsluta en ouppklarad sak och sätt en tydlig avsikt för den nya årstiden."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Göğün çarkı on iki yılda döner; cemre önce havaya, sonra suya, en son toprağa düşer.",
+          "en": "The wheel of heaven turns in twelve years; the ember warms first the air, then the water, and last the earth.",
+          "sv": "Himlens hjul vänder på tolv år; glöden värmer först luften, sedan vattnet och sist jorden."
+        }
       }
     ]
   },
@@ -3130,7 +3423,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Eşiği temiz tutulan evin ocağı duman yapmaz.",
           "en": "Where the threshold is kept clean, the hearth burns without smoke.",
           "sv": "Där tröskeln hålls ren brinner härden klart."
-        }
+        },
+        "image": "/witchcraft/hane-ocak-esik.jpg"
       },
       {
         "slug": "kir-ve-aktar",
@@ -3216,28 +3510,28 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
         },
         "items": {
           "tr": [
-            "Pelin Otu (Artemisia vulgaris): Gümüş yapraklı eşik bitkisi; berrak rüya, sezgi ve yol koruma.",
-            "Civanperçemi (Achillea millefolium): Bin yapraklı yara otu; sınır koruma, direnç ve denge.",
-            "Sarı Kantaron (Hypericum perforatum): Yaz gündönümü çiçeği; güneş enerjisi, sinir sistemi onarımı ve ferahlık.",
-            "Mine Çiçeği (Verbena officinalis): Antik çağın ‘Herba Sacra’sı; sunak temizliği, barış ve odaklanma.",
-            "Biberiye (Salvia rosmarinus): ‘Denizin çiyi’; güçlü hafıza, zihinsel uyanıklık ve hane sadakati.",
-            "Tıbbi Adaçayı (Salvia officinalis): Latince ‘salvare’ (şifa vermek) kökünden; bilgelik, arındırma ve boğaz/söz sağlığı."
+            "Yavşan / Pelin (Artemisia vulgaris · Mugwort): Sineol ve tujon içeren kadim yolcu ve eşik otu; yorgun ayak banyolarında, tütsüde ve rüya yastıklarında kullanılır.",
+            "Üzerlik (Peganum harmala · Syrian Rue): Anadolu, İran ve Mezopotamya’nın en köklü koruma tohumu; ateşte çıtırdayan kapsülleriyle hane havasını ve nazar yükünü temizler.",
+            "Sarı Kantaron (Hypericum perforatum · St. John’s Wort): Yaz gündönümünde (21 Haziran) toplanan güneş otu; zeytinyağında 40 gün bekletilerek kızıl yara ve sinir balsamı yapılır.",
+            "Biberiye (Rosmarinus officinalis · Rosemary): Rozmarinik asit zengini ‘deniz şebnemi’; zihni berraklaştırır, hafızayı güçlendirir ve kapı eşiğinde koruyucu kalkan kurar.",
+            "Civanperçemi (Achillea millefolium · Yarrow): Adını Akhilleus’tan alan ‘bin yapraklı’ yara otu; kan durdurucu, terletici ve kişisel sınırları sağlamlaştırıcı kır bitkisi.",
+            "Kara Mürver (Sambucus nigra · Elder): Avrupa ve İskandinav folklorunda ‘Mürver Ana’ (Hyldemoer) olarak saygı gören, çiçeği ve meyvesi kış şifası olan eşik ağacı."
           ],
           "en": [
-            "Mugwort (Artemisia vulgaris): Silver-backed threshold herb; lucid dreaming, intuition, and wayfaring protection.",
-            "Yarrow (Achillea millefolium): Thousand-leafed wound herb; boundary strength, resilience, and equilibrium.",
-            "St. John's Wort (Hypericum perforatum): Midsummer solar blossom; nervous-system balm and light in winter.",
-            "Vervain (Verbena officinalis): Classical 'Herba Sacra'; altar purification, peace, and clear focus.",
-            "Rosemary (Salvia rosmarinus): 'Dew of the Sea'; remembrance, mental alertness, and household protection.",
-            "Garden Sage (Salvia officinalis): From Latin 'salvare' (to heal); longevity, wisdom, and vocal clarity."
+            "Mugwort (Artemisia vulgaris): The ancient traveler's and threshold herb rich in cineole; used in foot baths, smoke bundles, and dream pillows.",
+            "Syrian Rue / Üzerlik (Peganum harmala): The foundational protective seed of Anatolia and Mesopotamia, burned on coals to clear stagnant air and the evil eye.",
+            "St. John's Wort (Hypericum perforatum): The midsummer solar herb harvested around June 21; infused in olive oil for 40 days to yield a ruby-red balm for wounds and nerves.",
+            "Rosemary (Rosmarinus officinalis): 'Dew of the Sea' rich in rosmarinic acid; sharpens memory, clarifies study spaces, and guards the household threshold.",
+            "Yarrow (Achillea millefolium): Named for Achilles, the 'thousand-leaved' woundwort used since antiquity to staunch bleeding and fortify personal boundaries.",
+            "Black Elder (Sambucus nigra): Revered in Nordic and European folklore as the 'Elder Mother' (Hyldemoer); a guardian threshold tree whose blossoms and berries heal in winter."
           ],
           "sv": [
-            "Gråbo (Artemisia vulgaris): Silverbladig tröskelört; klar dröm, intuition och färdskydd.",
-            "Röllika (Achillea millefolium): Tusenbladig läkeört; gränsstyrka, motståndskraft och balans.",
-            "Johannesört (Hypericum perforatum): Midsommarens solblomma; balsam för nervsystemet och ljus i mörkret.",
-            "Järnört (Verbena officinalis): Antikens 'Herba Sacra'; altarrening, frid och fokus.",
-            "Rosmarin (Salvia rosmarinus): 'Havets dagg'; minnesskärpa, vakenhet och hemmets beskydd.",
-            "Läkesalvia (Salvia officinalis): Av latinets 'salvare' (att läka); visdom, rening och klar röst."
+            "Gråbo (Artemisia vulgaris · Mugwort): Den uråldriga vandrar- och tröskelörten; använd i fotbad, rökelseknippen och drömkuddar.",
+            "Harmelbuske / Üzerlik (Peganum harmala): Anatoliens och Mesopotamiens klassiska skyddsfrö som bränns på glöd för att rena hemmet från avund.",
+            "Äkta Johannesört (Hypericum perforatum): Sommarsolståndets solört som får dra i olivolja i 40 dagar till ett djuprött balsam för sår och nerver.",
+            "Rosmarin (Rosmarinus officinalis): 'Havets dagg' rik på rosmarinsyra; skärper minnet, renar luften och vaktar hemmets tröskel.",
+            "Röllika (Achillea millefolium): 'Tusenbladig' sårläkares ört som sedan antiken använts för att stilla blod och stärka gränser.",
+            "Fläder (Sambucus nigra): Vördad i nordisk folktro som 'Hyldemoer' (Flädermor); ett beskyddande gårdsträd vars blommor och bär ger läkedom under vintern."
           ]
         },
         "practice": {
@@ -3270,7 +3564,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Adını ve toprağını tanıdığın her ot, yabani bir çalı olmaktan çıkıp sessiz bir dosta dönüşür.",
           "en": "Every plant whose name and soil you learn ceases to be a nameless weed and becomes a quiet ally.",
           "sv": "Varje växt vars namn och jord du lär känna upphör att vara ett namnlöst ogräs och blir en stilla bundsförvant."
-        }
+        },
+        "image": "/witchcraft/kir-aktar-botanik.jpg",
+        "itemImages": [
+          "/witchcraft/herb-1-pelin.jpg",
+          "/witchcraft/herb-2-uzerlik.jpg",
+          "/witchcraft/herb-3-kantaron.jpg",
+          "/witchcraft/herb-4-biberiye.jpg",
+          "/witchcraft/herb-5-civanpercem.jpg",
+          "/witchcraft/herb-6-murver.jpg"
+        ]
       },
       {
         "slug": "agaclar-ve-recineler",
@@ -3410,7 +3713,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Reçine ağacın yaradan çıkardığı cevherdir; insan da en derin kokusunu onardığı yaradan verir.",
           "en": "Resin is the treasure a tree draws from its wound; so too does human character deepen where it has healed.",
           "sv": "Harts är den skatt trädet skapar ur sitt sår; så fördjupas också människan där hon har läkt."
-        }
+        },
+        "image": "/witchcraft/agac-recine-tutsu.jpg"
       },
       {
         "slug": "dort-element-ve-ay",
@@ -3836,6 +4140,288 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Topraktan aldığını toprağa saygıyla geri veren elin bereketi hiç eksilmez.",
           "en": "The hand that returns to the earth with gratitude what it borrowed from the earth never lacks.",
           "sv": "Den hand som i tacksamhet återger till jorden vad den lånat ur jorden saknar aldrig kraft."
+        }
+      },
+      {
+        "slug": "cadi-sisesi-ve-muska",
+        "glyph": "🏺",
+        "image": "/witchcraft/cadi-sisesi-arkeoloji.jpg",
+        "title": {
+          "tr": "Arkeolojik Koruma Nesneleri: Cadı Şişesi, Nazar ve Tılsım",
+          "en": "Archaeological Wards: Witch Bottles, Evil Eye, and Talismans",
+          "sv": "Arkeologiska Skyddsföremål: Häxflaskor, Onda Ögat och Talismaner"
+        },
+        "subtitle": {
+          "tr": "Ocak taşı altına gömülen 17. yüzyıl Bellarmine şişeleri, bükülmüş demir ve eşik mühürleri",
+          "en": "17th-century Bellarmine bottles buried beneath hearthstones, bent iron, and threshold seals",
+          "sv": "1600-talets Bellarmine-flaskor under härdstenen, böjt järn och tröskelsigill"
+        },
+        "summary": {
+          "tr": "Arkeolojik kazılarda bulunan gerçek ‘Cadı Şişeleri’ (Witch Bottles), bükülmüş demir çiviler, Anadolu/Akdeniz nazarlığı ve koruyucu tılsımlar.",
+          "en": "Authentic 'Witch Bottles' uncovered in archaeological digs, bent iron nails, Mediterranean/Anatolian evil-eye wards, and protective talismans.",
+          "sv": "Arkeologiska fynd av äkta 'häxflaskor' (Witch Bottles), böjda järnspikar, onda ögat-skydd och skyddande talismaner."
+        },
+        "paragraphs": {
+          "tr": [
+            "Avrupa ve Britanya arkeolojisinde (özellikle Londra Müzesi ve Doğu Anglia kazılarında) 16. ve 17. yüzyıllardan kalma eski taş evlerin ocak taşlarının (hearthstone) veya kapı eşiklerinin altında yüzlerce gerçek ‘Cadı Şişesi’ (Witch Bottle) bulunmuştur. Genellikle üzerinde sakallı bir yüz kabartması bulunan taş-seramik Bellarmine (Bartmann) testilerinden yapılan bu şişeler, ‘kötülük yapmak’ için değil, tam tersine haneyi kem gözden, hasetten ve yıkıcı niyetlerden korumak (apotropaik savunma) için gömülmüştür.",
+            "Arkeologların X-ışını ve laboratuvar analizleriyle incelediği bu şişelerin içinde her zaman belirli bir sembolik reçete yer alır: Kasıtlı olarak U şeklinde bükülmüş demir çiviler ve toplu iğneler (gelen kem niyeti yakalayıp etkisizleştirmek için), biberiye dalları, dikenler, bazen kalp şeklinde kesilmiş bir keçe parçası ve hane sahibinin kendi izini taşıyan sıvı veya saç teli.",
+            "Bu uygulamanın altında yatan halk fiziği son derece nettir: Ocak bacası ve kapı eşiği, evin dış dünyaya açılan en hassas iki boğazıdır. Ocak taşının altına gömülen şişe, haneye yönelen görünmez düşmanlığı veya hasedi kendi içine çeken bir ‘paratoner’ (yıldırımsavar) ya da tuzak işlevi görür; ocak yandıkça şişenin içindeki demir ve biberiye aktif kalır.",
+            "Aynı koruyucu mantık Akdeniz, Mezopotamya ve Anadolu coğrafyasında mavi cam Göz Taşı (Nazar boncuğu), üzerine koruyucu dualar veya geometrik mühürler kazınmış bakır/gümüş levhalar ve kurşun dökme geleneğinde görülür. Mavi cam ve göz sembolü, karşıdan gelen keskin ve kıskanç bakışı (‘kem göz’) daha eşikten içeri girmeden aynalayıp kırar."
+          ],
+          "en": [
+            "In British and European archaeology (notably collections in the Museum of London and East Anglia), over two hundred authentic 16th- and 17th-century 'Witch Bottles' have been excavated from beneath the hearthstones and thresholds of historic houses. Typically made from salt-glazed Bellarmine (Bartmann) stoneware jugs bearing a bearded mask on the neck, these bottles were buried not to harm, but as counter-magical apotropaic wards to defend the household against malice and envy.",
+            "X-ray and laboratory analyses of sealed archaeological bottles reveal a remarkably consistent formula inside: iron nails and brass pins deliberately bent into L or U shapes (to snag and neutralize incoming ill-will), sprigs of rosemary, thorns, and personal links belonging to the homeowner.",
+            "The folk physics behind the practice is unmistakable: the chimney hearth and the front threshold are the two most vulnerable openings of a house. Buried beneath the hearthstone, the bottle acts as a spiritual lightning-rod or decoy trap, drawing hostile intent into the iron and thorns while the hearth fire above keeps the ward warm and active.",
+            "Across the Mediterranean, Mesopotamia, and Anatolia, the exact same apotropaic principle appears in blue glass Eye Beads (Nazar), inscribed copper or silver amulet cases (Hamayıl), and lead-pouring rites. The blue glass eye mirrors and shatters envious glare ('the evil eye') at the threshold before it can touch the household."
+          ],
+          "sv": [
+            "Inom europeisk och brittisk arkeologi (särskilt vid Museum of London och utgrävningar i East Anglia) har över tvåhundra äkta 'häxflaskor' (Witch Bottles) från 1500- och 1600-talen grävts fram under härdstenar och trösklar i gamla hus. Dessa krus av stengods (ofta Bellarmine-krus med ett skäggigt ansikte på halsen) grävdes inte ned för att skada, utan som apotropeiska skydd för att värna gården mot avund och illvilja.",
+            "Röntgen- och laboratorieanalyser av förseglade arkeologiska flaskor visar ett tydligt innehåll: järnspikar och mässingsnålar som avsiktligt böjts (för att fånga upp och oskadliggöra fientlig avsikt), kvistar av rosmarin, törnen och personliga spår från husets ägare.",
+            "Den folkliga logiken bakom bruket är glasklar: eldstaden och dörrtröskeln är husets två känsligaste öppningar mot yttervärlden. Nedgrävd under härdstenen fungerar flaskan som en åskledare som drar in illvilja i järnet och törnena.",
+            "Runt Medelhavet och i Anatolien syns samma skyddsprincip i det blå glasögat (Nazar), graverade amuletter av koppar eller silver samt blystöpning. Det blå ögat speglar och bryter den avundsjuka blicken redan vid tröskeln."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Bellarmine (Bartmann) Şişeleri ve Bükülmüş Demir Çiviler",
+              "body": "Arkeolojik şişelerdeki çivilerin ve iğnelerin neden düz değil de ‘bükülmüş’ olduğu uzun süre araştırılmıştır: Halk zanaatında bir demir çiviyi bükmek, onun maddi dünyadaki sıradan işlevini bitirip onu ‘öteki alanda’ (görünmez sınırda) çalışan bir kancaya dönüştürmektir. Bükülmüş demir, dağınık ve sivri niyeti yakalayıp toprağa mühürler."
+            },
+            {
+              "heading": "Ocak Taşı ve Bacanın Korunması",
+              "body": "Eski evlerde kapılar ve pencereler kilitlenebilirdi ama baca her zaman gökyüzüne açıktı. Bu yüzden ocak taşı (hearthstone) altına koruyucu şişe gömmek veya şömine kirişine kurutulmuş ot, demir nal ve delikli taş asmak, evin açık kalan tek dikey kapısını mühürlemek demekti."
+            },
+            {
+              "heading": "Nazar (Kem Göz) ve Aynalama İlkesi",
+              "body": "Antik Yunan’da ‘Baskania’, Roma’da ‘Fascinum’, Anadolu’da ise ‘Nazar / Göz Değmesi’ olarak bilinen olgu, aşırı odaklanmış kıskançlık veya hayranlık bakışının karşı tarafta yarattığı ağırlıktır. Mavi cam, tuz, üzerlik tohumu ve demir gibi nesneler bu bakışın odağını kendi üzerine çekerek (paratoner etkisi) ev sahibini korur."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Bellarmine Stoneware and Why the Iron Nails Were Bent",
+              "body": "Archaeologists noted that the nails and pins inside witch bottles were almost always bent before insertion. In folk craft, bending a nail retires it from ordinary physical carpentry and dedicates it as a hook on the unseen threshold—catching sharp, hostile intent and grounding it safely in earth."
+            },
+            {
+              "heading": "Guarding the Hearthstone and Chimney Flue",
+              "body": "In early modern homes, doors and shutters could be bolted at night, but the chimney flue remained permanently open to the sky. Burying a ward beneath the hearthstone or hanging iron and herbs on the chimney beam sealed the home's vertical opening."
+            },
+            {
+              "heading": "The Evil Eye (Baskania / Nazar) and the Principle of Deflection",
+              "body": "Known as Baskania in ancient Greece, Fascinum in Rome, and Nazar in Anatolia, the 'evil eye' is the disruptive weight of envious or overly fixated gaze. Blue glass, salt, Syrian rue (Peganum harmala), and iron act as visual and energetic decoys, absorbing or reflecting the gaze first."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Bellarmine-stengods och Varför Järnspikarna Böjdes",
+              "body": "Arkeologer har noterat att spikarna och nålarna i häxflaskorna nästan alltid böjdes innan de lades ned. I folkligt hantverk innebär det att böja en spik att man tar den ur vanligt bruk och gör den till en krok vid den osynliga tröskeln."
+            },
+            {
+              "heading": "Att Vakta Härdstenen och Skorstenen",
+              "body": "I äldre hus kunde dörrar och fönsterbommar låsas om natten, men skorstenen stod alltid öppen mot himlen. Att gräva ned ett skydd under härdstenen eller hänga järn vid spiselkransen förseglade husets vertikala port."
+            },
+            {
+              "heading": "Onda Ögat (Baskania / Nazar) och Avledningsprincipen",
+              "body": "Känt som Baskania i Grekland, Fascinum i Rom och Nazar i Anatolien beskriver 'onda ögat' den tyngd som en avundsjuk blick skapar. Blått glas, salt och järn fungerar som blickfång som bryter udden av blicken."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "🏺 Bellarmine Cadı Şişesi: 17. yüzyılda ocak taşı altına gömülen, içinde demir çivi ve biberiye bulunan seramik koruma kabı.",
+            "Bükülmüş Demir Çiviler: Sivri ve haset dolu niyeti yakalayıp toprağa bağlayan apotropaik demir kancalar.",
+            "Biberiye ve Gül Dikeni: Şişelerin içine konulan, arındırıcı ve sınır çizici bitkisel koruyucular.",
+            "Nazar / Göz Taşı: Kem gözü ve kıskanç bakışı daha eşikteyken kırıp yansıtan mavi cam mühür.",
+            "Kurşun ve Balmumu Dökümü: Suda ani soğuyan erimiş madenin şekli üzerinden ağırlığı çözme ve arındırma geleneği.",
+            "Eşik Tuz Kavanozu: Modern bir evde kapı girişine konulan kaya tuzu, biberiye ve demir anahtar kavanozu."
+          ],
+          "en": [
+            "🏺 Bellarmine Witch Bottle: 17th-century stoneware jug buried beneath the hearth with iron nails and rosemary as a household ward.",
+            "Bent Iron Nails: Apotropaic iron hooks designed to snag and ground sharp, envious intent.",
+            "Rosemary and Hawthorn Thorns: Botanical guardians placed inside protection vessels to cleanse and hold boundaries.",
+            "Nazar / Blue Eye Bead: Blue glass seal that reflects and shatters envious glare at the doorway.",
+            "Molybdomancy (Lead/Wax Pouring): Dropping molten metal or wax into cold water to release shock and stagnant weight.",
+            "Threshold Salt Jar: A contemporary hearth jar of rock salt, rosemary, and an old iron key placed near the entrance."
+          ],
+          "sv": [
+            "🏺 Bellarmine-häxflaska: 1600-talskrus av stengods nedgrävt under härden med järnspikar och rosmarin som gårdsskydd.",
+            "Böjda Järnspikar: Apotropeiska järnkrokar som fångar upp och jordar skarp illvilja.",
+            "Rosmarin och HagtornsTaggar: Växtväktare som läggs i skyddskärl för att rena och hålla gränsen.",
+            "Nazar / Blå Ögonpärla: Blått glassigill som speglar och bryter avundsjuka blickar vid dörren.",
+            "Bly- och Vaxstöpning: Att gjuta smält metall eller bivax i kallt vatten för att lösa upp tyngd och oro.",
+            "Tröskelns Saltburk: En enkel glasburk med bergsalt, rosmarin och en gammal järnnyckel vid hemmets ingång."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Hane Eşiği İçin Modern Koruma Kavanozu",
+            "steps": [
+              "Küçük, kapaklı cam bir kavanozun tabanına üç parmak kalınlığında doğal kaya tuzu doldur.",
+              "Tuzun üzerine üç dal kurutulmuş biberiye, üç adet karanfil tanesi ve artık kullanmadığın eski bir demir anahtar (veya temiz bir demir çivi) yerleştir.",
+              "Kavanozun kapağını kapatıp evin dış kapısına yakın bir rafa veya vestiyer köşesine koy; her mevsim dönümünde (3 ayda bir) içindeki tuzu toprağa veya suya dökerek yenile."
+            ]
+          },
+          "en": {
+            "title": "Practice · A Modern Threshold Protection Jar",
+            "steps": [
+              "Fill the bottom third of a small lidded glass jar with coarse natural rock salt.",
+              "Place three sprigs of dried rosemary, three whole cloves, and an old iron key (or clean iron nail) atop the salt.",
+              "Seal the jar and set it on a shelf near your front entrance; at each seasonal turn (every three months), empty the salt into running water or earth and refresh it."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · En Nutida Skyddsburk för Tröskeln",
+            "steps": [
+              "Fyll botten av en liten glasburk med lock med grovt naturligt bergsalt.",
+              "Lägg tre kvistar torkad rosmarin, tre hela kryddnejlikor och en gammal järnnyckel (eller järnspik) ovanpå saltet.",
+              "Förslut burken och ställ den nära ytterdörren; vid varje årstidsskifte (var tredje månad) tömmer du saltet och förnyar det."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Ocak taşı sıcaksa, eşikteki demir uyanıktır; kem göz kendi aynasında kırılır.",
+          "en": "When the hearthstone is warm, the iron at the threshold stays awake; the envious eye breaks upon its own mirror.",
+          "sv": "När härdstenen är varm är järnet vid tröskeln vaket; den avundsjuka blicken bryts mot sin egen spegel."
+        }
+      },
+      {
+        "slug": "bilge-kadinlar-ve-sifacilar",
+        "glyph": "📜",
+        "image": "/witchcraft/bilge-sifacilar-defter.jpg",
+        "title": {
+          "tr": "Tarihte Kır Şifacıları: Cunning Folk, Läkebok ve Ocaklı Kadınlar",
+          "en": "Historical Folk Healers: Cunning Folk, Läkebok, and Hearth Healers",
+          "sv": "Historiska Läkekunniga: Kloka Gummor, Läkebok och Härdens Botare"
+        },
+        "subtitle": {
+          "tr": "Köy ebeleri, İskandinav ‘Kloka Gummor’, İtalyan Benandanti ve Anadolu Ocaklı geleneği",
+          "en": "Village midwives, Scandinavian 'Kloka Gummor', Italian Benandanti, and Anatolian Ocaklı healers",
+          "sv": "Byarnas jordemödrar, skandinaviska 'Kloka gummor', italienska Benandanti och anatoliska Ocaklı-botare"
+        },
+        "summary": {
+          "tr": "Tarihçi Owen Davies ve Carlo Ginzburg’un belgeleriyle gerçek halk şifacıları, el yazması Läkebok defterleri ve Anadolu Ocaklıları.",
+          "en": "Real historical folk healers documented by Owen Davies and Carlo Ginzburg, handwritten Läkebok herbals, and Anatolian Ocaklı lineages.",
+          "sv": "Verkliga historiska läkekunniga dokumenterade av Owen Davies och Carlo Ginzburg, handskrivna Läkeböcker och anatoliska Ocaklı-linjer."
+        },
+        "paragraphs": {
+          "tr": [
+            "Popüler kültürün uydurduğu karikatürlerin ötesinde, Avrupa, İskandinavya ve Anadolu kırsal tarihinde köylerin gerçek yükünü taşıyan yerel bilge kadınlar ve erkekler vardı: İngiltere’de ‘Cunning Folk’ (Bilge/Hünerli Kişiler), İskandinavya’da ‘Kloka gummor / Kloka gubbar’ (Bilge Kadınlar ve Erkekler), İtalya Friuli’de ‘Benandanti’ ve Anadolu’da ‘Ocaklı Kadınlar / Otacılar’.",
+            "Tarihçi Owen Davies’in mahkeme ve kilise arşivlerinden belgelediği üzere Cunning Folk ve Kloka Gummor; modern tıbbın henüz köylere ulaşmadığı yüzyıllarda doğum yaptıran ebeler, kırık-çıkık saran sargıcılar, merhem ve tentür hazırlayan aktarlar, kayıp eşyaları ve su kaynaklarını radyesteziyle bulan ve ‘nazar / büyü’ korkusu yaşayan köylüyü sakinleştirip koruma muskası yazan kişilerdi.",
+            "İsveç, Norveç ve Danimarka’da bu şifacılar kuşaktan kuşağa geçen ve adına ‘Svartkonstbok’ veya ‘Läkebok’ (Şifa Kitabı) denilen el yazması küçük defterler tutarlardı. Bu defterlerde Latince ve İskandinavca bitki reçeteleri, kan durdurma duaları, keten ipiyle ölçüm (Stöpa / Mätning) yöntemleri ve hangi otun hangi ay evresinde toplanacağı titizlikle yazılıydı.",
+            "Tarihçi Carlo Ginzburg’un 16. yüzyıl Engizisyon arşivlerinde keşfettiği Kuzey İtalya’daki ‘Benandanti’ (‘İyi Yürüyenler’) ise doğuştan amniyon zarıyla (‘duvaklı’ / caul ile) doğan ve yılda dört mevsim dönümünde rüyalarında köylerinin ekinlerini ve bağlarını karanlık güçlere karşı rezene (fennel) dallarıyla savunduklarına inanan gerçek bir tarımsal şaman-şifacı geleneğiydi."
+          ],
+          "en": [
+            "Beyond modern pop-culture caricatures, the rural history of Europe, Scandinavia, and Anatolia was sustained by real local practitioners: the 'Cunning Folk' of Britain, the 'Kloka gummor and Kloka gubbar' ('Wise Women and Wise Men') of Sweden and Norway, the 'Benandanti' of Friuli in Italy, and the 'Ocaklı' hearth-healers and herbalists of Anatolia.",
+            "As historian Owen Davies documented from historical archives, Cunning Folk and Kloka Gummor served as the indispensable backbone of village life for centuries: acting as midwives, bone-setters, herbalists preparing salves and tinctures, dowsers locating water and lost livestock, and specialists in unbewitching and household protection.",
+            "Across Sweden, Norway, and Denmark, these practitioners kept small handwritten receipt books passed down within families, known as a 'Läkebok' (Book of Healing) or 'Svartkonstbok'. Inside were practical herbal poultices, prayers to staunch bleeding, linen-thread measuring rites (Mätning), and lunar calendars for harvesting roots.",
+            "In northern Italy, historian Carlo Ginzburg uncovered the 16th-century 'Benandanti' ('Good Walkers')—men and women born with the amniotic caul who believed their spirits went forth during the four seasonal Ember Days armed with stalks of fennel to protect their village harvests and vineyards."
+          ],
+          "sv": [
+            "Bortom populärkulturens karikatyrer bars landsbygdens historia i Skandinavien, Europa och Anatolien upp av verkliga lokala utövare: Nordens 'Kloka gummor och Kloka gubbar', Storbritanniens 'Cunning Folk', Italiens 'Benandanti' och Anatoliens 'Ocaklı' (härdbotare och örtkunniga).",
+            "Som historikern Owen Davies och nordiska folklivsforskare har dokumenterat var Kloka gummor och Cunning Folk under århundraden byarnas oumbärliga stöd: de verkade som jordemödrar, benbrytare, örtkunniga som kokade salvor och dekokter, slagrutemän som fann källor och botare som läste bort oro och avund.",
+            "I Sverige, Norge och Danmark förde dessa läkekunniga små handskrivna böcker som gick i arv, kallade 'Läkebok' eller 'Svartkonstbok'. Där samlades praktiska örtrecept, blodstämningsord, mätning med lintråd och regler för vid vilken månfas rötter skulle grävas.",
+            "I norra Italien upptäckte historikern Carlo Ginzburg 1500-talets 'Benandanti' ('De goda vandrarna') — människor födda med segerhuva (fosterhinna) som vid årets fyra kvartalsdagar ansågs försvara byns skördar och vingårdar med fänkålsstjälkar."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "İskandinav ‘Kloka Gummor’ ve El Yazması Läkebok Defterleri",
+              "body": "İsveç’te 19. yüzyıla kadar her bölgenin tanınan bir ‘Klok Gumma’sı (örneğin Göta kanal bölgesindeki ünlü şifacı kadınlar) vardı. Onların gücü korkudan değil, doğayı tanımaktan, keten sargıdan, ardıç katranından ve hastayı dinleyen sakin otoriteden gelirdi."
+            },
+            {
+              "heading": "Carlo Ginzburg ve ‘Benandanti’ (İyi Yürüyenler)",
+              "body": "Ginzburg’un ‘Gece Savaşları’ (I Benandanti) kitabında yayımladığı 1575–1650 arşiv tutanakları, Avrupa halk büyücülüğünün altında aslında çok eski, şamanik bir ‘ekin ve bereket koruma’ inancının yattığını kanıtlamıştır."
+            },
+            {
+              "heading": "Anadolu’da ‘Ocaklı’ Geleneği ve El Verme",
+              "body": "Anadolu’da her ‘Ocak’ (örneğin sarılık ocağı, siğil ocağı, yılancık ocağı, kurşun ocağı) belirli bir şifa zanaatında uzmanlaşmış aile soyudur. Ocaklı kişi bilgisini rastgele dağıtmaz; sabrını, ahlakını ve elinin temizliğini sınadığı çırağına ‘El Verme’ töresiyle devreder."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Scandinavian 'Kloka Gummor' and Handwritten Läkeböcker",
+              "body": "Well into the 19th century, every rural parish in Sweden and Norway knew its local 'Klok Gumma'. Their authority rested not on fear, but on deep botanical literacy, juniper tar, linen bindings, and calm bedside presence."
+            },
+            {
+              "heading": "Carlo Ginzburg and the 'Benandanti' (Good Walkers)",
+              "body": "Published in Ginzburg's classic study 'The Night Battles', archival trial records from 1575–1650 demonstrated that beneath European folk magic lay an ancient agrarian shamanic stratum dedicated to protecting the community's crops."
+            },
+            {
+              "heading": "The Anatolian 'Ocaklı' (Hearth) Lineage and 'Hand Transmission'",
+              "body": "In Anatolia, an 'Ocak' (literally 'Hearth') is a family lineage specializing in a specific healing craft or herbal remedy. An Ocaklı elder passes the craft only to a tested apprentice of clean character through the rite of 'El Verme' ('Giving the Hand')."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Skandinaviens 'Kloka Gummor' och Handskrivna Läkeböcker",
+              "body": "Ända in på 1800-talet hade varje bygd i Sverige och Norge sin 'Kloka Gumma'. Deras auktoritet vilade inte på fruktan, utan på djup växtkännedom, enbärstjära, linneförband och lugn närvaro."
+            },
+            {
+              "heading": "Carlo Ginzburg och 'Benandanti' (De Goda Vandrarna)",
+              "body": "I Ginzburgs klassiska verk om Benandanti (1575–1650) visade arkiven att det under den europeiska folktron låg ett uråldrigt agrart schamanskt skikt inriktat på att skydda byns grödor."
+            },
+            {
+              "heading": "Den Anatoliska 'Ocaklı'-Traditionen (Härdlinjen)",
+              "body": "I Anatolien är en 'Ocak' ('Härd') en familjelinje specialiserad på en specifik läkekonst. Kunskapen förs vidare till en prövad lärling genom seden 'El Verme' ('Att ge handen')."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "📜 Läkebok / Şifa Defteri: Kuşaktan kuşağa aktarılan bitki reçeteleri, merhem ölçüleri ve mevsim kayıtları.",
+            "Kloka Gummor (İskandinavya): Kuzey köylerinin bitki, doğum, sargı ve eşik koruması bilen bilge kadınları.",
+            "Cunning Folk (Britanya): Radyestezi, şifalı otlar ve koruyucu tılsımlarla halka hizmet eden kırsal uzmanlar.",
+            "Benandanti (Kuzey İtalya): Mevsim dönümlerinde rezene dalıyla köyün bereketini koruyan ‘İyi Yürüyenler’.",
+            "Ocaklı ve El Verme (Anadolu): Şifa ve aktar bilgisinin usta-çırak ahlakıyla ocaktan ocağa aktarılması.",
+            "Herbaryum (Kurutulmuş Bitki Atlası): Bitkileri toplandığı yer, tarih ve etkiyle deftere yapıştırarak tanıma disiplini."
+          ],
+          "en": [
+            "📜 Läkebok / Receipt Book: Handwritten family notebook of herbal remedies, salve ratios, and seasonal notes.",
+            "Kloka Gummor (Scandinavia): The 'Wise Women' of Nordic parishes skilled in herbs, midwifery, and household wards.",
+            "Cunning Folk (Britain): Rural practitioners serving villages through herbalism, dowsing, and protective charms.",
+            "Benandanti (Northern Italy): The 'Good Walkers' born with the caul who guarded the harvest at the seasonal turns.",
+            "Ocaklı & El Verme (Anatolia): Hearth-lineages transmitting herbal and healing craft from master to apprentice.",
+            "Herbarium (Pressed Plant Atlas): The discipline of pressing, labeling, and studying local flora by date and habitat."
+          ],
+          "sv": [
+            "📜 Läkebok / Receptbok: Handskriven familjebok med örtrecept, salvproportioner och årstidsanteckningar.",
+            "Kloka Gummor (Skandinavien): Nordiska bygders läkekunniga kvinnor inom örter, förlossning och gårdsskydd.",
+            "Cunning Folk (Storbritannien): Landsbygdens utövare inom örtlära, slagruta och skyddande amuletter.",
+            "Benandanti (Norra Italien): 'De goda vandrarna' som värnade skörden vid årstidernas vändpunkter.",
+            "Ocaklı & El Verme (Anatolien): Härdlinjer där läkekonst och örtkunskap förs vidare från mästare till lärling.",
+            "Herbarium (Växtatlas): Disciplinen att pressa, namnge och studera lokala växter efter växtplats och tid."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kendi ‘Läkebok’ (Bitki ve Gözlem Defteri) Kaydını Başlatmak",
+            "steps": [
+              "Çizgisiz, sağlam ciltli bir defter edin ve ilk sayfasına yaşadığın coğrafyada doğal olarak yetişen 5 şifalı bitkinin (örneğin ıhlamur, kekik, biberiye, adaçayı, sarı kantaron) adını yaz.",
+              "Bu bitkilerden birinin küçük bir yaprağını veya çiçeğini kitap arasında kurutup defter sayfasına yapıştır; yanına toplandığı tarihi, ay evresini, kokusunu ve geleneksel kullanımını not et.",
+              "Duyduğun her halk bilgisini körü körüne yazmak yerine, modern botanik kaynaklarından (etken maddesini ve güvenli dozunu) doğrulayarak gerçek bir ‘Ocaklı / Bilge’ titizliğiyle kaydet."
+            ]
+          },
+          "en": {
+            "title": "Practice · Starting Your Own 'Läkebok' (Herbal & Observation Notebook)",
+            "steps": [
+              "Dedicate a sturdy unlined notebook and list on its opening pages five medicinal plants that grow naturally in your region (such as linden, thyme, rosemary, sage, or St. John's wort).",
+              "Press a small leaf or flower from one plant between heavy pages, mount it in your notebook, and record the date, lunar phase, scent, and traditional preparation.",
+              "Cross-check every folk usage against modern botanical pharmacology (active compounds and safe dosage), recording only verified knowledge with the rigor of a true healer."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Börja Din Egen 'Läkebok' (Ört- och Observationsbok)",
+            "steps": [
+              "Skaffa en stadig olinjerad anteckningsbok och skriv på första sidan upp fem läkeväxter som växer i din närhet (till exempel lind, timjan, rosmarin, salvia eller johannesört).",
+              "Pressa ett litet blad eller en blomma, fäst det i boken och anteckna datum, månfas, doft och traditionell beredning.",
+              "Kontrollera varje folkligt bruk mot modern botanisk kunskap (aktiva ämnen och säker dosering) och för in verifierad kunskap med en läkekunnigs noggrannhet."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Gerçek bilgelik gösterişte değil; otu tanıyan gözde, ölçüyü bilen elde ve temiz tutulan defterdedir.",
+          "en": "True wisdom lies not in spectacle, but in the eye that knows the herb, the hand that keeps the measure, and the well-kept book.",
+          "sv": "Sann visdom ligger inte i skådespel, utan i ögat som känner örten, handen som håller måttet och den välförda boken."
         }
       }
     ]
