@@ -1961,7 +1961,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Astroloji Notlarına Geç",
           "en": "Open Astrology Notes",
           "sv": "Öppna Astrologianteckningar"
-        }
+        },
+        "image": "/mezopotamya/ziggurat-yildizlar.jpg"
       },
       {
         "slug": "abzu-ve-asalluhi",
@@ -2101,7 +2102,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Fırtına denizin yüzeyindedir; Abzu’nun derin suyuna inen kişi bulanıklığın altında hep berrak kalır.",
           "en": "Storms belong to the surface; whoever descends to the deep water of the Abzu remains clear beneath turbulence.",
           "sv": "Stormen hör till ytan; den som stiger ned till Abzus djupa vatten förblir klar under virvlarna."
-        }
+        },
+        "image": "/mezopotamya/abzu-asalluhi.jpg"
       },
       {
         "slug": "inanna-ve-yedi-kapi",
@@ -2247,7 +2249,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Venüs Retrosu Notunu Oku",
           "en": "Read Venus Retrograde Note",
           "sv": "Läs Anteckningen om Venus Retrograd"
-        }
+        },
+        "image": "/mezopotamya/inanna-yedi-kapi.jpg"
       },
       {
         "slug": "ay-tanrisi-sin",
@@ -2387,7 +2390,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Ay küçülürken korkmaz, çünkü karanlıkta kayboluşunun üçüncü gecesinde yeniden hilal olacağını bilir.",
           "en": "The waning Moon does not fear its darkening, knowing that on the third night of stillness it rises again as a crescent.",
           "sv": "Den avtagande månen fruktar inte mörkret, ty den vet att den på tredje natten stiger upp på nytt som skära."
-        }
+        },
+        "image": "/mezopotamya/ay-tanrisi-sin.jpg"
       },
       {
         "slug": "marukka-maruttuku",
@@ -2527,7 +2531,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "İsmi konulmamış korku büyür; adını doğru koyduğun her güç ise seninle konuşur.",
           "en": "Unnamed fear grows in the dark; every force called by its true name enters into dialogue.",
           "sv": "Namnlös fruktan växer i mörkret; varje kraft som nämns vid sitt sanna namn träder i samtal."
-        }
+        },
+        "image": "/mezopotamya/marukka-elli-isim.jpg"
       },
       {
         "slug": "apkallu-ve-muhur",
@@ -2667,6 +2672,303 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "İnsan kendi elinin attığı düğümü yine kendi eli ve doğru sözle çözer.",
           "en": "The knot tied by the hand is unbound by the hand and the true word.",
           "sv": "Den knut som handen har knutit löses av handen och det sanna ordet."
+        },
+        "image": "/mezopotamya/apkallu-muhur.jpg"
+      },
+      {
+        "slug": "gilgamis-ve-derinlik",
+        "glyph": "𒄑",
+        "image": "/mezopotamya/gilgamis-derinlik.jpg",
+        "title": {
+          "tr": "Gılgamış, Utnapiştim ve ‘Derinliği Gören’",
+          "en": "Gilgamesh, Utnapishtim, and 'He Who Saw the Deep'",
+          "sv": "Gilgamesh, Utnapishtim och 'Den som Såg Djupet'"
+        },
+        "subtitle": {
+          "tr": "Ša naqba īmuru: On iki tabletlik ölümsüzlük arayışı ve Abzu’daki gençlik otu.",
+          "en": "Ša naqba īmuru: The twelve-tablet quest for immortality and the thorny plant of the Abzu.",
+          "sv": "Ša naqba īmuru: Den tolv tavlor långa vandringen och den törnbeströdda örten i Abzu."
+        },
+        "summary": {
+          "tr": "Sîn-lēqi-unninni’nin derlediği 12 tabletlik Gılgamış Destanı, Māšu İkiz Dağları, Utnapiştim ve kalp ritmi bitkisi.",
+          "en": "The 12-tablet Standard Babylonian Epic compiled by Sîn-lēqi-unninni, Mount Māšu, Utnapishtim, and the Plant of Heartbeat.",
+          "sv": "Det babyloniska Gilgamesheposet sammanställt av Sîn-lēqi-unninni, tvillingbergen Māšu, Utnapishtim och Hjärtats Ört."
+        },
+        "paragraphs": {
+          "tr": [
+            "Babil’de Gılgamış Destanı’nın resmi adı, birinci tabletin ilk dizesi olan **‘Ša naqba īmuru’** (‘Derinliği / Kaynağı Gören Kişi’) idi. MÖ 1200 civarında rahip ve şifacı katip **Sîn-lēqi-unninni** tarafından on iki kil tablet halinde son şekli verilen bu eser, yalnızca bir kahramanlık masalı değil, insanın ölüm korkusuyla yüzleşip bilgelikle olgunlaşmasının inisiyatik haritasıdır.",
+            "Uruk kralı Gılgamış, yabani doğadan gelen ikiz ruhu ve dostu **Enkidu**’yu kaybettikten sonra ölüm gerçeğiyle sarsılır. Ölümsüzlüğün sırrını öğrenmek için tufandan sağ kurtulan tek bilge olan **Utnapiştim**’i (‘Uzakta Duran’) bulmaya yola çıkar. Yolculuğu sırasında Güneş’in her sabah doğup her akşam battığı **Māšu İkiz Dağları**’na ve kapısını Akrep-İnsanların beklediği 12 fersahlık zifiri karanlık tünele ulaşır.",
+            "Karanlık tüneli geçip Ölüm Sularını kayıkçı Urşanabi ile aşan Gılgamış’a Utnapiştim önce ‘Yedi gün, yedi gece uyumadan uyanık kal’ sınavını verir; çünkü uykuyu yenemeyen ölümü hiç yenemez. Gılgamış uykuya yenik düşer; ancak Utnapiştim’in eşi merhamet göstererek ona son bir sır verir: Abzu’nun derin sularının dibinde gül gibi dikenli bir bitki (**Şībū issaḫir amēlu** — ‘Yaşlı İnsanı Gençleştiren / Kalp Atışı Bitkisi’) vardır.",
+            "Gılgamış ayaklarına ağır taşlar bağlayarak Abzu’nun dibine dalar, elini kanatan bu dikenli otu koparıp yüzeye çıkarır. Ancak dönüş yolunda serin bir pınarda yıkanırken bir yılan otun kokusunu alır, otu yer ve anında eski derisini değiştirir. Gılgamış o an hakikati kavrar: Bedensel ölümsüzlük insana verilmemiştir; insanın ölümsüzlüğü kurduğu eserde (Uruk’un sağlam surlarında), adil yönetiminde ve geride bıraktığı bilgelik taşındadır."
+          ],
+          "en": [
+            "In Babylon, the formal title of the Epic of Gilgamesh was its opening incipit: **'Ša naqba īmuru'** ('He Who Saw the Deep / the Source').Given its canonical twelve-tablet form around 1200 BCE by the scholar-exorcist **Sîn-lēqi-unninni**, the epic is not merely a heroic tale, but an initiatory map of confronting mortality and awakening to wisdom.",
+            "After the death of his wild counterpart and companion **Enkidu**, King Gilgamesh of Uruk is shaken by the reality of death. Determined to learn the secret of eternal life, he journeys to the ends of the earth to seek **Utnapishtim** ('He Who Found Life'), the sage who survived the Great Flood. Along the way he reaches the twin peaks of **Mount Māšu**, guarded by Scorpion-Beings, and walks twelve double-hours through pitch darkness along the path of the Sun.",
+            "Crossing the Waters of Death with the ferryman Urshanabi, Gilgamesh is tested by Utnapishtim to remain awake for six days and seven nights—for how can one conquer death who cannot even master sleep? Though Gilgamesh fails the vigil, Utnapishtim reveals a final secret at his wife's urging: at the bottom of the subterranean Abzu grows a thorny plant like boxthorn (**Šībū issaḫir amēlu**—'The Old Man Grows Young / Plant of Heartbeat').",
+            "Tying heavy stones to his feet, Gilgamesh plunges into the Abzu and plucks the prickly plant. Yet on his return, while bathing in a cool spring, a serpent scents the herb, consumes it, and immediately sheds its skin. Weeping beside the water, Gilgamesh finally understands: physical immortality belongs not to mortals; human permanence lives in what one builds with integrity—the enduring walls of Uruk and the stone tablet of wisdom left behind."
+          ],
+          "sv": [
+            "I Babylon var det officiella namnet på Gilgamesheposet dess inledningsrad: **'Ša naqba īmuru'** ('Den som såg djupet / källan'). Sammanställt på tolv lertavlor omkring 1200 f.Kr. av den lärde skrivaren **Sîn-lēqi-unninni** är verket en invigningskarta över människans möte med dödligheten och mognaden till visdom.",
+            "Efter förlusten av sin vän och själsfrände **Enkidu** skakas kung Gilgamesh av Uruk i sina grundvalar. Han beger sig mot världens ände för att söka **Utnapishtim**, den vise som överlevde floden. På vägen når han tvillingbergen **Māšu**, vaktade av skorpionväsen, och vandrar tolv dubbelmil genom fullständigt mörker längs solens underjordiska bana.",
+            "Efter att ha korsat Dödens Vatten prövas Gilgamesh av Utnapishtim att hålla sig vaken i sex dagar och sju nätter. När han besegras av sömnen avslöjar Utnapishtim en sista hemlighet: på botten av det djupa Abzu växer en törnbevuxen ört (**Šībū issaḫir amēlu** — 'Den gamle blir ung på nytt').",
+            "Gilgamesh binder tunga stenar vid sina fötter, dyker ned i Abzu och hämtar örten. Men på hemvägen, medan han tvättar sig i en sval källa, äter en orm upp örten och ömsar genast skinn. Vid källan inser Gilgamesh sanningen: människans odödlighet ligger inte i evig fysisk ungdom, utan i det bestående verk och den visdom hon lämnar efter sig."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Enkidu ve Sedir Ormanı: Yabani Doğa ile Uygarlığın Dengesi",
+              "body": "Enkidu bozkırda ceylanlarla su içen saf doğa insanıdır; Gılgamış ise şehir surlarının içindeki kibirli uygarlıktır. İkisi güreşip yenişemediğinde kardeş olurlar. Çünkü insan yalnızca şehirli akılla ya da yalnızca vahşi içgüdüyle tam olamaz; bilgelik bu iki yarının dostluğundan doğar."
+            },
+            {
+              "heading": "Māšu Dağı’ndaki Akrep-İnsanlar ve 12 Saatlik Karanlık",
+              "body": "Dokuzuncu tablette Gılgamış’ın karşılaştığı Akrep-İnsanlar onu öldürmez; niyetinin ciddiyetini tarttıktan sonra dağın kapısını açarlar. Güneş’in geçtiği 12 saatlik zifiri karanlık tünel, insanın dış ışığı kaybettiğinde kendi iç kararlılığıyla yürümesini simgeler."
+            },
+            {
+              "heading": "Sîn-lēqi-unninni’nin Çerçevesi: Başlangıçtaki Sura Dönüş",
+              "body": "Destan 1. tablette okuyucuyu Uruk’un pişmiş tuğladan surlarına ve temelindeki lacivert taşı (lapis lazuli) kutuya bakmaya davet ederek başlar; 11. tabletin sonunda Gılgamış yine aynı surlara bakarak teselli bulur. Arayış insanı dünyadan koparmaz; dünyadaki görevine bambaşka bir gözle geri döndürür."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Enkidu and the Cedar Forest: Nature and City in Balance",
+              "body": "Enkidu embodies untamed wilderness drinking beside gazelles, while Gilgamesh embodies the walled city. When they wrestle at the threshold and become brothers, the epic teaches that neither raw instinct nor urban intellect is whole without the other."
+            },
+            {
+              "heading": "The Scorpion-Guardians of Mount Māšu and the Twelve Leagues of Night",
+              "body": "In Tablet IX, the Scorpion-Beings at Mount Māšu do not destroy Gilgamesh; after weighing his resolve, they open the mountain gate. Walking twelve double-hours through total darkness mirrors the threshold passage where only inner resolve guides the step."
+            },
+            {
+              "heading": "Sîn-lēqi-unninni's Ring Composition: Returning to the Walls of Uruk",
+              "body": "Tablet I invites the reader to climb the baked-brick walls of Uruk and open the copper tablet-box of lapis lazuli; at the end of Tablet XI, Gilgamesh stands before those very same walls in quiet acceptance. The quest returns the seeker to earthly duty with transformed sight."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Enkidu och Cederskogen: Balansen mellan Vildmark och Stad",
+              "body": "Enkidu förkroppsligar den otämjda naturen medan Gilgamesh representerar stadens murar. När de blir bröder visar eposet att människan behöver både sin ursprungliga natur och sitt ordnande förnuft."
+            },
+            {
+              "heading": "Skorpionväktarna vid Berget Māšu och Tolv Dubbelmil av Mörker",
+              "body": "I nionde tavlan prövar skorpionväktarna vid Māšu Gilgameshs avsikt innan de öppnar porten. Vandringen genom tolv timmars kompakt mörker speglar den prövning där endast inre fasthet leder steget."
+            },
+            {
+              "heading": "Återkomsten till Uruks Murar",
+              "body": "Första tavlan bjuder läsaren att betrakta Uruks murar och skrinets tavla av lapis lazuli; i slutet av elfte tavlan står Gilgamesh åter framför samma murar med förvandlad blick."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "𒄑 Ša naqba īmuru: ‘Derinliği Gören’; Gılgamış Destanı’nın Babil kütüphanelerindeki orijinal adı.",
+            "Sîn-lēqi-unninni: MÖ 1200 civarında destanı 12 tabletlik standart formuna kavuşturan Babil rahip-katibi.",
+            "Enkidu: Bozkırda yaratılan, Gılgamış’ın kibrini dengeleyen ve ona kalbin merhametini öğreten yoldaş.",
+            "Māšu İkiz Dağları: Güneş’in doğuş ve batış kapısını tutan, Akrep-İnsanların beklediği kozmik sınır.",
+            "Utnapiştim: Tufandan önce Enki’nin uyarısıyla gemiyi inşa eden ve nehirlerin ağzında yaşayan bilge.",
+            "Kalp Atışı Bitkisi: Abzu’nun dibindeki dikenli ot; bedenin değil, bilincin ve eserin yenilenmesi."
+          ],
+          "en": [
+            "𒄑 Ša naqba īmuru: 'He Who Saw the Deep'—the original Babylonian title of the Epic of Gilgamesh.",
+            "Sîn-lēqi-unninni: The Babylonian scholar-exorcist (~1200 BCE) who compiled the twelve-tablet epic.",
+            "Enkidu: Companion formed from steppe clay who balances Gilgamesh's pride with wilderness wisdom.",
+            "Twin Peaks of Māšu: The horizon mountain guarded by Scorpion-Beings where the Sun enters and exits.",
+            "Utnapishtim: The antediluvian sage warned by Enki who dwells at the Mouth of the Rivers.",
+            "Plant of Heartbeat: The thorny herb from the bottom of the Abzu symbolizing renewal of spirit."
+          ],
+          "sv": [
+            "𒄑 Ša naqba īmuru: 'Den som såg djupet' — det ursprungliga babyloniska namnet på Gilgamesheposet.",
+            "Sîn-lēqi-unninni: Den babyloniske lärde (~1200 f.Kr.) som sammanställde eposets tolv tavlor.",
+            "Enkidu: Följeslagaren av stäpplera som balanserar Gilgameshs stolthet med vildmarkens visdom.",
+            "Tvillingbergen Māšu: Horisontberget vaktat av skorpionväsen vid solens port.",
+            "Utnapishtim: Den vise som räddades undan floden genom Enkis råd.",
+            "Hjärtats Ört: Den törniga växten på Abzus botten som symboliserar inre förnyelse."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Çalışma Notu · Uruk’un Surları ve Kalıcı Eser",
+            "steps": [
+              "Geçici övgü veya kontrol arayışını bir kenara bırakıp kendine şu soruyu sor: ‘Benden geriye kalacak olan gerçek Uruk suru (somut ve dürüst eserim) nedir?’",
+              "Hayatında ayaklarına ağırlık bağlayıp derine (Abzu’ya) inmekten çekindiğin, dikenli olduğu için ertelediğin tek bir hakikati belirle.",
+              "Bugün o konuda küçük ama kalıcı bir tuğla koy; çünkü Gılgamış’ı ölümsüz kılan koparılan ot değil, pişmiş tuğladan ördüğü sur ve yazdırdığı tablettir."
+            ]
+          },
+          "en": {
+            "title": "Study Note · The Walls of Uruk and Enduring Work",
+            "steps": [
+              "Set aside fleeting praise and ask yourself plainly: 'What is the enduring Wall of Uruk—the honest, tangible work—I am building?'",
+              "Identify one prickly truth in your life that requires diving beneath the surface (into the Abzu) rather than skimming the waves.",
+              "Lay one solid brick toward that work today; what immortalized Gilgamesh was not the stolen herb, but the baked-brick wall and the inscribed tablet."
+            ]
+          },
+          "sv": {
+            "title": "Studieanteckning · Uruks Murar och det Bestående Verket",
+            "steps": [
+              "Lägg tillfälligt beröm åt sidan och fråga dig själv: 'Vilken är min varaktiga mur i Uruk — det ärliga verk jag bygger?'",
+              "Identifiera en törnströdd sanning i ditt liv som kräver att du dyker under ytan (ned i Abzu).",
+              "Lägg en fast tegelsten till det arbetet idag; det som gjorde Gilgamesh odödlig var muren och den ristade tavlan."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Yılan derisini değiştirir, insan ise geride bıraktığı sözü ve eseriyle yaşar.",
+          "en": "The serpent renews its skin, but a human being endures through the integrity of word and work.",
+          "sv": "Ormen ömsar sitt skinn, men människan lever vidare genom ordets och verkets redbarhet."
+        }
+      },
+      {
+        "slug": "keldani-duzeni-ve-zodyak",
+        "glyph": "𒀭Mul",
+        "image": "/mezopotamya/keldani-duzeni.jpg",
+        "title": {
+          "tr": "Babil Gökbilimi, Keldani Düzeni ve Zodyak’ın Doğuşu",
+          "en": "Babylonian Astronomy, the Chaldean Order, and the Birth of the Zodiac",
+          "sv": "Babylonisk Astronomi, den Kaldeiska Ordningen och Zodiakens Födelse"
+        },
+        "subtitle": {
+          "tr": "MÖ 410 tarihli en eski doğum haritası tableti, 19 yıllık Meton döngüsü ve yedi gezegen.",
+          "en": "The oldest natal horoscope tablet (410 BCE), the 19-year lunar-solar cycle, and the seven luminaries.",
+          "sv": "Den äldsta horoskoptavlan (410 f.Kr.), den 19-åriga månsolcykeln och de sju himlakropparna."
+        },
+        "summary": {
+          "tr": "30 derecelik 12 burç kuşağının Babil’de icadı, MÖ 410 tarihli ilk doğum haritası tableti ve Keldani gezegen sırası.",
+          "en": "The Babylonian invention of the 12×30° uniform zodiac, the earliest natal chart tablet of 410 BCE, and the Chaldean planetary order.",
+          "sv": "Den babyloniska uppfinningen av zodiakens 12×30°, den äldsta födelsehoroskoptavlan från 410 f.Kr. och den kaldeiska planetordningen."
+        },
+        "paragraphs": {
+          "tr": [
+            "Astroloji tarihindeki en büyük bilimsel sıçrama MÖ 5. yüzyılda Babil’de gerçekleşti: Babil gökbilimcileri, gökyüzünde farklı genişliklerde duran takımyıldızları (örneğin geniş Başak ile dar Koç takımyıldızını) hesaplama hassasiyeti için **her biri tam 30 derecelik 12 eşit burç dilimine (toplam 360 dereceye)** böldüler. Böylece takımyıldız gözleminden matematiksel **Zodyak Kuşağına** geçildi.",
+            "Dünya tarihinde bilinen **en eski kişisel doğum haritası (horoskop) kil tableti** (Oxford Bodleian Kütüphanesi, AB 251), Babil’de **29 Nisan MÖ 410** tarihinde doğan bir çocuk için çivi yazısıyla yazılmıştır. Tablette Güneş, Ay, Jüpiter, Venüs, Merkür ve Satürn’ün hangi burçlarda olduğu kaydedilir ve şu cümleyle biter: ‘Her şey senin önünde açık olacak.’",
+            "Babil katipleri ayrıca Güneş yılı ile Ay aylarını kusursuz eşitleyen **19 yıllık döngüyü** (19 Güneş yılının tam 235 kameri aya eşit olduğunu) Atinalı Meton’dan çok önce keşfetti ve takvimlerini bu matematiksel yasaya göre yürüttü.",
+            "Antik dünyada ‘Keldani (Chaldean / Kaldu) Sırası’ olarak bilinen ve gezegenleri en yavaştan en hızlıya doğru dizilen hiyerarşi (**Satürn · Jüpiter · Mars · Güneş · Venüs · Merkür · Ay**) Babil ve İskenderiye üzerinden bütün dünyaya yayıldı; bugün kullandığımız 24 gezegen saati ve haftanın 7 gününün sırası doğrudan bu dizilimden doğmuştur."
+          ],
+          "en": [
+            "The single greatest mathematical leap in the history of astrology took place in 5th-century BCE Babylon: Babylonian astronomer-scribes standardized the irregular constellations along the ecliptic into **twelve equal signs of exactly 30 degrees each (360 degrees in total)**, giving birth to the mathematical **Zodiac** still used today.",
+            "The **oldest surviving personal natal horoscope in human history** is a Babylonian cuneiform clay tablet (preserved in the Bodleian Library, Oxford, AB 251) cast for a child born on **29 April 410 BCE**. It records the positions of the Moon, Sun, Jupiter, Venus, Mercury, and Saturn in the signs and concludes: *'Everything before you will be favorable.'*",
+            "Long before Meton of Athens, Babylonian astronomers also discovered the exact **19-year lunisolar cycle** (showing that 19 solar years equal exactly 235 synodic lunar months) and developed predictive mathematical tables (System A and System B ephemerides) capable of calculating planetary stations years in advance.",
+            "From this tradition emerged the **Chaldean Order** of the seven classical planets, arranged from slowest to fastest orbital motion (**Saturn · Jupiter · Mars · Sun · Venus · Mercury · Moon**)—the direct mathematical engine behind the 24 planetary hours and the order of the seven days of the week."
+          ],
+          "sv": [
+            "Det största matematiska språnget i astrologins historia ägde rum i Babylon under 400-talet f.Kr.: babyloniska astronomer delade in ekliptikan i **tolv exakt lika stora tecken om 30 grader vardera (totalt 360 grader)** och skapade därmed den matematiska **Zodiak** som används än idag.",
+            "Världshistoriens **äldsta bevarade personliga födelsehoroskop** är en babylonisk kilskriftstavla av lera (bevarad i Bodleian Library i Oxford, AB 251), upprättad för ett barn fött den **29 april 410 f.Kr.** Tavlan anger positionerna för Månen, Solen, Jupiter, Venus, Merkurius och Saturnus.",
+            "Långt före Meton i Aten upptäckte babyloniska astronomer dessutom den exakta **19-åriga månsolcykeln** (där 19 solår motsvarar exakt 235 månmånader) och utvecklade matematiska efemerider (System A och System B).",
+            "Härifrån stammar den **Kaldeiska Ordningen** av de sju klassiska planeterna från långsammast till snabbast (**Saturnus · Jupiter · Mars · Solen · Venus · Merkurius · Månen**) — den direkta nyckeln till dygnets 24 planettimmar och veckans sju dagar."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Yedi Gezegenin Babil İsimleri ve Karakterleri",
+              "body": "Babil tabletlerinde yedi gezegenin her biri kozmik bir görevi temsil eder: Sîn (Ay — zaman ve hafıza), Šiḫṭu / Nabû (Merkür — yazı, hesap ve bilgelik), Dilbat / Ištar (Venüs — uyum, çekim ve dönüşüm), Šamaš (Güneş — adalet ve her şeyi gören ışık), Salbatanu / Nergal (Mars — keskin irade ve ateş), Nēberu / Marduk (Jüpiter — merkez, ölçü ve bereket) ve Kayamānu / Ninurta (Satürn — ‘Sabit Olan’, sınır ve tarım disiplini)."
+            },
+            {
+              "heading": "Yücelim Derecelerinin (Bīt Niṣirti) Kökeni",
+              "body": "Astrolojide gezegenlerin en güçlü olduğu burçları ifade eden ‘Yücelim’ (Exaltation — örneğin Güneş’in Koç’ta, Ay’ın Boğa’da, Satürn’ün Terazi’de yücelmesi) kavramı, Babil çivi yazılı tabletlerindeki ‘Bīt Niṣirti’ (‘Sır Evi / Hazine Yeri’) öğretisinden doğrudan Yunan ve İslam astrolojisine geçmiştir."
+            },
+            {
+              "heading": "Babil’den İznikli Hipparkhos’a Bilim Köprüsü",
+              "body": "Babil katiplerinin yüzyıllar boyunca tuttuğu tutulma kayıtları, MÖ 2. yüzyılda Anadolu’da, İznik’te (Nikaia) doğan büyük gökbilimci **Hipparkhos**’a ulaştı; Hipparkhos bu Babil tabletlerini kendi gözlemleriyle karşılaştırarak ‘Ekinoksların Presesyonu’nu (Gündönümü-Ekinoks noktalarının gerilemesini) keşfetti."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Babylonian Names and Natures of the Seven Luminaries",
+              "body": "In cuneiform tablets each planet embodies a cosmic office: *Sîn* (Moon — time and memory), *Šiḫṭu / Nabû* (Mercury — writing and calculation), *Dilbat / Ištar* (Venus — harmony and renewal), *Šamaš* (Sun — justice and all-seeing light), *Salbatanu / Nergal* (Mars — decisive heat and edge), *Nēberu / Marduk* (Jupiter — pivot, measure, and abundance), and *Kayamānu / Ninurta* (Saturn — 'The Steady One', boundary and agriculture)."
+            },
+            {
+              "heading": "Bīt Niṣirti: The Babylonian Origin of Planetary Exaltations",
+              "body": "The classical astrological doctrine of Planetary Exaltations (such as the Sun exalted in Aries, the Moon in Taurus, and Saturn in Libra) derives directly from the Babylonian cuneiform concept of *Bīt Niṣirti* ('House of the Secret / Treasure')."
+            },
+            {
+              "heading": "The Bridge from Babylon to Hipparchus of Nicaea (İznik)",
+              "body": "Centuries of Babylonian eclipse diaries were transmitted to **Hipparchus**, born in Nicaea (modern İznik in Anatolia) in the 2nd century BCE; by comparing Babylonian tablets with his own observations, Hipparchus discovered the Precession of the Equinoxes."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "De Sju Planeternas Babyloniska Namn och Väsen",
+              "body": "I kilskriftstavlorna bär varje planet ett kosmiskt ämbete: *Sîn* (Månen — tid och minne), *Šiḫṭu / Nabû* (Merkurius — skrift och räkning), *Dilbat / Ištar* (Venus — harmoni och förvandling), *Šamaš* (Solen — rättvisa och klarhet), *Salbatanu / Nergal* (Mars — skärpa och kraft), *Nēberu / Marduk* (Jupiter — mått och välgång) samt *Kayamānu / Ninurta* (Saturnus — 'Den Stadige', gräns och uthållighet)."
+            },
+            {
+              "heading": "Bīt Niṣirti: Ursprunget till Planeternas Upphöjelse (Exaltation)",
+              "body": "Den klassiska läran om planeternas upphöjelser (såsom Solen i Väduren, Månen i Oxen och Saturnus i Vågen) härstammar direkt från det babyloniska begreppet *Bīt Niṣirti* ('Hemlighetens Hus')."
+            },
+            {
+              "heading": "Bron från Babylon till Hipparkhos från Nikaia (İznik)",
+              "body": "De babyloniska förmörkelsedagböckerna nådde under 100-talet f.Kr. astronomen **Hipparkhos**, född i Nikaia (dagens İznik i Anatolien), som genom dem upptäckte dagjämningarnas precession."
+            }
+          ]
+        },
+        "itemImages": [
+          "/mezopotamya/deity-1-sin.jpg",
+          "/mezopotamya/deity-2-samas.jpg",
+          "/mezopotamya/deity-3-istar.jpg",
+          "/mezopotamya/deity-4-nergal.jpg",
+          "/mezopotamya/deity-5-marduk.jpg",
+          "/mezopotamya/deity-6-ninurta-nabu.jpg"
+        ],
+        "items": {
+          "tr": [
+            "☽ Nanna / Sîn (Kutsal Sayı: 30 · Ay): Ur tapınağı E-kišnugal’in efendisi; yukarı bakan hilal kayığı (Má-gur₈) ile 30 günlük takvimi ve zamanı ölçer.",
+            "☉ Utu / Šamaš (Kutsal Sayı: 20 · Güneş): Sippar ve Larsa’daki E-babbar (‘Ak Ev’) tapınağının hakimi; sekiz ışınlı güneş diskiyle adaleti ve hakikati aydınlatır.",
+            "♀ İnanna / Ištar (Kutsal Sayı: 15 · Venüs / Dilbat): Uruk’un E-anna tapınağının ecesi; sekiz köşeli Venüs yıldızıyla sabah ve akşam ufkunun dönüşümünü yönetir.",
+            "♂ Nergal / Şalbatānu (Kutsal Sayı: 14 · Mars): Kutha’daki E-meslam tapınağının efendisi; kızıl ateş yıldızı, keskin irade ve yeraltı kapılarının muhafızı.",
+            "♃ Marduk / Šulpae (Kutsal Sayı: 10 · Jüpiter / Nēberu): Babil Esagila tapınağının baş tanrısı; üçgen kürek (marrû) mührüyle kozmik ölçüyü ve bereketi kurar.",
+            "♄☿ Ninurta (Kayamānu / Satürn) & Nabû (Šiḫṭu / Merkür): 29.5 yıllık ‘Sabit Yıldız’ Kayamānu sınır ve sabrı; çift kamış kalemli Nabû ise kader tabletlerini ve gök hesabını tutar."
+          ],
+          "en": [
+            "☽ Nanna / Sîn (Sacred Number: 30 · Moon): Lord of E-kišnugal at Ur; measures the 30-day lunar month in his upward-curved crescent boat (Má-gur₈).",
+            "☉ Utu / Šamaš (Sacred Number: 20 · Sun): Judge of E-babbar ('Shining House') at Sippar and Larsa; his eight-rayed solar disk illuminates justice and oaths.",
+            "♀ Inanna / Ištar (Sacred Number: 15 · Venus / Dilbat): Queen of E-anna at Uruk; her eight-pointed star governs the morning and evening thresholds of Venus.",
+            "♂ Nergal / Şalbatānu (Sacred Number: 14 · Mars): Lord of E-meslam at Kutha; the fiery red star governing decisive edge and the gates of the underworld.",
+            "♃ Marduk / Šulpae (Sacred Number: 10 · Jupiter / Nēberu): Sovereign of Esagila in Babylon; his triangular spade (marrû) establishes cosmic measure and order.",
+            "♄☿ Ninurta (Kayamānu / Saturn) & Nabû (Šiḫṭu / Mercury): Kayamānu ('The Steady One') guards the 29.5-year boundary, while double-stylus Nabû inscribes the tablets of destiny."
+          ],
+          "sv": [
+            "☽ Nanna / Sîn (Heligt tal: 30 · Månen): E-kišnugals herre i Ur; mäter den 30 dagar långa månmånaden i sin uppåtböjda månbåt (Má-gur₈).",
+            "☉ Utu / Šamaš (Heligt tal: 20 · Solen): Domare i E-babbar ('Det lysande huset') i Sippar och Larsa; hans åttastråliga solskiva lyser upp rättvisa och eder.",
+            "♀ Inanna / Ištar (Heligt tal: 15 · Venus / Dilbat): E-annas drottning i Uruk; hennes åttauddiga stjärna styr morgon- och aftonhorisontens Venus.",
+            "♂ Nergal / Şalbatānu (Heligt tal: 14 · Mars): E-meslams herre i Kutha; den röda eldstjärnan som styr skärpa och underjordens portar.",
+            "♃ Marduk / Šulpae (Heligt tal: 10 · Jupiter / Nēberu): Esagilas härskare i Babylon; hans trekantiga spade (marrû) upprättar kosmiskt mått och ordning.",
+            "♄☿ Ninurta (Kayamānu / Saturnus) & Nabû (Šiḫṭu / Merkurius): Kayamānu ('Den Stadige') vaktar 29,5-årsgränsen, medan Nabû med dubbelt griffelpar skriver ödestavlorna."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Çalışma Notu · Keldani Sırasıyla Günün Gezegenini Bulmak",
+            "steps": [
+              "Keldani sırasını (Satürn → Jüpiter → Mars → Güneş → Venüs → Merkür → Ay) ezberine al: En ağır ve dış yörüngeden en hızlı ve iç yörüngeye doğru iner.",
+              "Bugün haftanın hangi günüyse o günün şafak saatini yöneten gezegeni hatırla (Cumartesi: Satürn, Pazar: Güneş, Pazartesi: Ay, Salı: Mars, Çarşamba: Merkür, Perşembe: Jüpiter, Cuma: Venüs).",
+              "Günlük işini o gezegenin doğasına uygun seç: Satürn gününde yarım kalanları tamamla ve sadeleş, Merkür gününde yaz ve hesapla, Venüs gününde uyum ve dinlenme kur."
+            ]
+          },
+          "en": {
+            "title": "Study Note · Using the Chaldean Order in Daily Rhythm",
+            "steps": [
+              "Commit the Chaldean Order to memory from slowest outer orbit to fastest inner orbit: Saturn → Jupiter → Mars → Sun → Venus → Mercury → Moon.",
+              "Note the planetary ruler of the dawn hour of today's weekday (Saturday: Saturn, Sunday: Sun, Monday: Moon, Tuesday: Mars, Wednesday: Mercury, Thursday: Jupiter, Friday: Venus).",
+              "Align your primary task with the character of the day: structure and pruning on Saturn's day, study and writing on Mercury's day, harmony and art on Venus's day."
+            ]
+          },
+          "sv": {
+            "title": "Studieanteckning · Den Kaldeiska Ordningen i Vardagens Rytm",
+            "steps": [
+              "Minns den kaldeiska ordningen från långsammast ytterbana till snabbast innerbana: Saturnus → Jupiter → Mars → Solen → Venus → Merkurius → Månen.",
+              "Uppmärksamma vilken planet som styr dagens gryningstimme (lördag: Saturnus, söndag: Solen, måndag: Månen, tisdag: Mars, onsdag: Merkurius, torsdag: Jupiter, fredag: Venus).",
+              "Anpassa dagens huvuduppgift efter dess karaktär: struktur på Saturnus dag, skrivande och studier på Merkurius dag, harmoni på Venus dag."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Gökyüzü saatinin yelkovanı Ay, akrebi Satürn’dür; ikisini birlikte okuyan zamanı şaşırmaz.",
+          "en": "The Moon is the minute-hand of the celestial clock and Saturn its hour-hand; whoever reads both never loses the time.",
+          "sv": "Månen är det himmelska urets minutvisare och Saturnus dess timvisare; den som läser båda går aldrig vilse i tiden."
+        },
+        "ctaHref": "/astroloji",
+        "ctaLabel": {
+          "tr": "Astroloji Odasına Geç",
+          "en": "Enter Astrology Hall",
+          "sv": "Gå till Astrologirummet"
         }
       }
     ]
