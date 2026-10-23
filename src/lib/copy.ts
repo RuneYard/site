@@ -52,7 +52,7 @@ const copy = {
       {
         href: "/astroloji",
         glyph: "☉",
-        badge: "VI KLASİK ODA · III GÖKYÜZÜ NOTU",
+        badge: "VI KLASİK ODA · VI GÖKYÜZÜ NOTU",
         title: "Astroloji",
         line: "Klasik gök kubbe, yedi gezegen, on iki burç ve gökyüzü notları.",
       },
@@ -195,7 +195,7 @@ const copy = {
       {
         href: "/astroloji",
         glyph: "☉",
-        badge: "VI CLASSICAL ROOMS · III SKY NOTES",
+        badge: "VI CLASSICAL ROOMS · VI SKY NOTES",
         title: "Astrology",
         line: "The classical vault, seven planets, twelve signs, and sky notes.",
       },
@@ -338,7 +338,7 @@ const copy = {
       {
         href: "/astroloji",
         glyph: "☉",
-        badge: "VI KLASSISKA RUM · III HIMMELSNOTER",
+        badge: "VI KLASSISKA RUM · VI HIMMELSNOTER",
         title: "Astrologi",
         line: "Det klassiska himlavalvet, sju planeter, tolv tecken och himmelsnoter.",
       },

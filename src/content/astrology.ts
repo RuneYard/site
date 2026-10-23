@@ -933,7 +933,7 @@ export const astrologySkyNotes: {
       "sv": "Venus retrograd · Skorpionen — Vågen"
     },
     "summary": {
-      "tr": "3 Ekim – 14 Kasım 2026: Akşam yıldızından sabah yıldızına geçiş, iç kavuşum ve burçlara etkileri.",
+      "tr": "3 Ekim – 14 Kasım 2026: Akşam yıldızından sabah yıldızına geçiş, iç kavuşum ve 12 yükselen burç yorumu.",
       "en": "3 October – 14 November 2026: Transition from evening star to morning star, inferior conjunction, and sign readings.",
       "sv": "3 oktober – 14 november 2026: Övergång från aftonstjärna till morgonstjärna, inre konjunktion och teckenläsningar."
     }
@@ -953,6 +953,20 @@ export const astrologySkyNotes: {
     }
   },
   {
+    "href": "/astroloji/merkur-retrosu",
+    "glyph": "☿℞",
+    "title": {
+      "tr": "Merkür Akrep Retrosu (24 Ekim – 13 Kasım)",
+      "en": "Mercury Retrograde in Scorpio (24 Oct – 13 Nov)",
+      "sv": "Merkurius retrograd i Skorpionen (24 okt – 13 nov)"
+    },
+    "summary": {
+      "tr": "20°58' Akrep’ten 5°02' Akrep’e zihinsel arkeoloji, 4 Kasım Merkür Cazimi, Çifte Retro (☿℞ + ♀℞) ve 12 yükselen burç yorumu.",
+      "en": "From 20°58' to 5°02' Scorpio: mental archaeology, 4 November Cazimi, the Double Retrograde, and 12 rising sign readings.",
+      "sv": "Från 20°58' till 5°02' Skorpionen: mental arkeologi, 4 november Cazimi, dubbelretrograden och 12 stigande tecken."
+    }
+  },
+  {
     "href": "/astroloji/boga-dolunayi",
     "glyph": "♉○",
     "title": {
@@ -964,6 +978,34 @@ export const astrologySkyNotes: {
       "tr": "3° Boğa’da yücelimdeki Ay ile 3° Akrep Güneş karşıtlığı: Özdeğer, güven, maddi-manevi hasat ve 12 yükselen burç yorumu.",
       "en": "Exalted Moon at 3° Taurus opposite 3° Scorpio Sun: self-worth, security, harvest, and readings for all 12 rising signs.",
       "sv": "Upphöjd Måne på 3° Oxen mittemot 3° Skorpionen-Solen: självvärde, trygghet, skörd och läsning för alla 12 stigande tecken."
+    }
+  },
+  {
+    "href": "/astroloji/akrep-yeniayi",
+    "glyph": "♏●",
+    "title": {
+      "tr": "9 Kasım Akrep Yeniayı",
+      "en": "9 November Scorpio New Moon",
+      "sv": "9 november · Nymåne i Skorpionen"
+    },
+    "summary": {
+      "tr": "16°53' Akrep’te küllerinden doğuş, kriz temizliği, ortak kaynaklar ve 12 yükselen burç için derin yenilenme.",
+      "en": "Rebirth at 16°53' Scorpio: crisis clearing, shared resources, shadow alchemy, and readings for all 12 rising signs.",
+      "sv": "Pånyttfödelse på 16°53' Skorpionen: krisrening, delade resurser, alkemi och läsning för alla 12 stigande tecken."
+    }
+  },
+  {
+    "href": "/astroloji/ikizler-dolunayi",
+    "glyph": "♊○",
+    "title": {
+      "tr": "24 Kasım İkizler Dolunayı",
+      "en": "24 November Gemini Full Moon",
+      "sv": "24 november · Fullmåne i Tvillingarna"
+    },
+    "summary": {
+      "tr": "2°20' İkizler–Yay ekseninde Merkür ve Venüs retroları sonrası ilk büyük netlik, sözleşmeler ve 12 yükselen burç yorumu.",
+      "en": "At 2°20' Gemini–Sagittarius: the first great clarity after the retrogrades, contracts, and readings for all 12 rising signs.",
+      "sv": "På 2°20' Tvillingarna–Skytten: den första stora klarheten efter retrograderna, avtal och alla 12 stigande tecken."
     }
   }
 ];

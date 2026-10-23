@@ -232,6 +232,54 @@ const loreEntries: LoreEntry[] = [
     },
   },
   {
+    keywords: ["merkur retrosu", "mercury retrograde", "merkurius retrograd", "cifte retro", "cazimi", "4 kasim", "13 kasim"],
+    href: "/astroloji/merkur-retrosu",
+    tr: {
+      label: "☿ Merkür Akrep Retrosu Notu →",
+      text: "24 Ekim – 13 Kasım 2026 arasında Merkür 20°58' Akrep’ten 5°02' Akrep’e geriliyor ve Venüs Retrosu ile 20 günlük bir ‘Çifte Retro’ oluşturuyor. 4 Kasım’da 11°54' Akrep’te gerçekleşen Merkür Cazimi (Güneş’in kalbi) zihinsel aydınlanma getirirken, 13–14 Kasım’da her iki gezegen de düz harekete dönüyor.",
+    },
+    en: {
+      label: "☿ Mercury Retrograde in Scorpio →",
+      text: "From 24 October to 13 November 2026, Mercury retrogrades from 20°58' to 5°02' Scorpio alongside Venus Retrograde. The 4 November Cazimi at 11°54' Scorpio brings piercing insight before both planets turn direct on 13–14 November.",
+    },
+    sv: {
+      label: "☿ Merkurius Retrograd i Skorpionen →",
+      text: "Mellan 24 oktober och 13 november 2026 går Merkurius retrograd från 20°58' till 5°02' Skorpionen parallellt med Venus retrograd. Cazimi-dagen den 4 november ger skarp klarhet innan båda vänds direkt den 13–14 november.",
+    },
+  },
+  {
+    keywords: ["akrep yeniayi", "9 kasim", "scorpio new moon"],
+    href: "/astroloji/akrep-yeniayi",
+    tr: {
+      label: "♏ 9 Kasım Akrep Yeniayı Notu →",
+      text: "9 Kasım 2026 saat 10:02’de 16°53' Akrep’te doğan Yeniay; kriz temizliği, ortak kaynakların yeniden yapılandırılması ve küllerinden doğuş (Simurg) eşiğidir.",
+    },
+    en: {
+      label: "♏ 9 November Scorpio New Moon →",
+      text: "The New Moon on 9 November 2026 at 16°53' Scorpio marks a threshold of crisis clearing, shared financial strategy, and rebirth from the ashes.",
+    },
+    sv: {
+      label: "♏ 9 november Skorpionens Nymåne →",
+      text: "Nymånen den 9 november 2026 på 16°53' Skorpionen är en tröskel för krisrening, delad ekonomi och pånyttfödelse ur askan.",
+    },
+  },
+  {
+    keywords: ["ikizler dolunayi", "24 kasim", "gemini full moon"],
+    href: "/astroloji/ikizler-dolunayi",
+    tr: {
+      label: "♊ 24 Kasım İkizler Dolunayı Notu →",
+      text: "24 Kasım 2026 saat 17:53’te 2°20' İkizler’de gerçekleşen Dolunay, Merkür ve Venüs retroları bittikten sonraki ilk büyük netlik, sözleşme ve iletişim hasadıdır.",
+    },
+    en: {
+      label: "♊ 24 November Gemini Full Moon →",
+      text: "The Full Moon on 24 November 2026 at 2°20' Gemini brings the first great clarity and harvest of agreements after the autumn retrogrades.",
+    },
+    sv: {
+      label: "♊ 24 november Tvillingarnas Fullmåne →",
+      text: "Fullmånen den 24 november 2026 på 2°20' Tvillingarna ger den första stora klarheten och avtalsskörden efter höstens retrograder.",
+    },
+  },
+  {
     keywords: ["boga dolunayi", "26 ekim", "dolunay", "full moon", "fullmane"],
     href: "/astroloji/boga-dolunayi",
     tr: {
