@@ -7,6 +7,7 @@ import { apps } from "@/content/apps";
 import { astrologyDoors, astrologySkyNotes } from "@/content/astrology";
 import { educationCourses } from "@/content/education";
 import { runes } from "@/content/runes";
+import { shopProducts } from "@/content/shop";
 import { traditions } from "@/content/traditions";
 
 type SearchEntry = {
@@ -21,8 +22,8 @@ type SearchEntry = {
 const SEARCH_UI = {
   tr: {
     buttonLabel: "Ara",
-    modalTitle: "Kış Odası Dizin & Sembol Arama (146 Oda)",
-    placeholder: "Rün, burç, gezegen, bitki, ogham, şaman, eğitim ara... (Örn: Fehu, Boğa, Akrep, Sedir, Davul)",
+    modalTitle: "Kış Odası Dizin & Sembol Arama (165 Oda)",
+    placeholder: "Rün, burç, gezegen, bitki, ogham, şaman, eğitim, shop ara... (Örn: Fehu, Yeşil Ahit, Velvet Love)",
     closeLabel: "Kapat (ESC)",
     emptyText: "Aradığın kelimeyle eşleşen bir oda bulunamadı.",
     categories: {
@@ -35,12 +36,13 @@ const SEARCH_UI = {
       kelt: "Kelt & Ogham",
       mezopotamya: "Mezopotamya",
       witchcraft: "Cadılık Zanaatı",
+      shop: "Shop · Atölye",
     },
   },
   en: {
     buttonLabel: "Search",
-    modalTitle: "Winter Hall Index & Symbol Search (146 Rooms)",
-    placeholder: "Search rune, sign, planet, herb, ogham, shamanism, course... (e.g. Fehu, Taurus, Scorpio, Cedar)",
+    modalTitle: "Winter Hall Index & Symbol Search (165 Rooms)",
+    placeholder: "Search rune, sign, planet, herb, ogham, shamanism, course, shop... (e.g. Fehu, Velvet Love)",
     closeLabel: "Close (ESC)",
     emptyText: "No room matched your search query.",
     categories: {
@@ -53,12 +55,13 @@ const SEARCH_UI = {
       kelt: "Celtic & Ogham",
       mezopotamya: "Mesopotamia",
       witchcraft: "Witchcraft",
+      shop: "Shop · Workshop",
     },
   },
   sv: {
     buttonLabel: "Sök",
-    modalTitle: "Vinterrummet Register & Symbolsök (146 Rum)",
-    placeholder: "Sök runa, tecken, planet, ört, ogham, schamanism, kurs... (t.ex. Fehu, Oxen, Skorpionen)",
+    modalTitle: "Vinterrummet Register & Symbolsök (165 Rum)",
+    placeholder: "Sök runa, tecken, planet, ört, ogham, schamanism, kurs, shop... (t.ex. Fehu, Velvet Love)",
     closeLabel: "Stäng (ESC)",
     emptyText: "Inget rum matchade din sökning.",
     categories: {
@@ -71,6 +74,7 @@ const SEARCH_UI = {
       kelt: "Keltiskt & Ogham",
       mezopotamya: "Mesopotamien",
       witchcraft: "Häxkonst",
+      shop: "Shop · Ateljé",
     },
   },
 } as const;
@@ -163,6 +167,17 @@ export function RoomSearch() {
           keywords: `${door.title.tr} ${door.title.en} ${door.subtitle[lang]} ${door.summary[lang]} ${tKey}`,
         });
       }
+    }
+
+    for (const product of shopProducts) {
+      list.push({
+        href: `/shop/${product.slug}`,
+        glyph: product.glyph,
+        category: `${ui.categories.shop} · ${product.price}`,
+        title: product.title[lang],
+        subtitle: product.subtitle[lang],
+        keywords: `${product.title.tr} ${product.title.en} ${product.subtitle[lang]} ${product.summary[lang]} shop shopier yağ iksir tuz danışmanlık ekitap`,
+      });
     }
 
     return list;

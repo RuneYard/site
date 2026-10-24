@@ -3,6 +3,7 @@ import { apps } from "@/content/apps";
 import { astrologyDoors } from "@/content/astrology";
 import { educationCourses } from "@/content/education";
 import { runes } from "@/content/runes";
+import { shopProducts } from "@/content/shop";
 import { extraSkyNotes } from "@/content/sky-notes";
 import { traditions } from "@/content/traditions";
 
@@ -24,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/kelt",
     "/mezopotamya",
     "/witchcraft",
+    "/shop",
   ];
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map((route) => ({
@@ -87,6 +89,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       });
     }
+  }
+
+  for (const product of shopProducts) {
+    entries.push({
+      url: `${BASE}/shop/${product.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    });
   }
 
   return entries;
