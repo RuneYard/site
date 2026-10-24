@@ -1,5 +1,6 @@
 import type { Lang } from "@/lib/copy";
 import { astrologyDoors } from "@/content/astrology";
+import { dailyLoreEntries, getTodayDailyLore } from "@/content/daily-lore";
 import { runes as runeSheets } from "@/content/runes";
 import { shopProducts } from "@/content/shop";
 import { traditions } from "@/content/traditions";
@@ -461,6 +462,55 @@ export function answerFromNotes(
     };
   }
 
+  // 2b. Daily Hearth Lore ("Günün Konusu" or direct keyword match on dailyLoreEntries)
+  if (
+    text.includes("gunun konusu") ||
+    text.includes("bugunun konusu") ||
+    text.includes("gunluk yaprak") ||
+    text.includes("gunluk bilgelik") ||
+    text.includes("bugun ocakta") ||
+    text.includes("todays lore") ||
+    text.includes("daily lore") ||
+    text.includes("dagens blad")
+  ) {
+    const today = getTodayDailyLore(new Date());
+    const cleanSummary = today.summary[lang].replace(/\*\*/g, "").replace(/\*/g, "");
+    const cleanClosing = today.closing[lang];
+    return {
+      answer: `🔥 ${today.title[lang]} — ${cleanSummary} “${cleanClosing}”`,
+      href: `/gunluk/${today.slug}`,
+      linkLabel:
+        lang === "en"
+          ? `🔥 Read Today's Hearth Leaf: ${today.title.en} →`
+          : lang === "sv"
+            ? `🔥 Läs Dagens Härdblad: ${today.title.sv} →`
+            : `🔥 Bugünün Ocak Yaprağını Oku: ${today.title.tr} →`,
+    };
+  }
+
+  const matchedDaily = dailyLoreEntries.find((entry) =>
+    entry.keywords.some((kw) => {
+      const fkw = fold(kw);
+      return fkw.includes(" ") ? text.includes(fkw) : hasWord(text, fkw);
+    }),
+  );
+  if (matchedDaily) {
+    const cleanSummary = matchedDaily.summary[lang]
+      .replace(/\*\*/g, "")
+      .replace(/\*/g, "");
+    const cleanClosing = matchedDaily.closing[lang];
+    return {
+      answer: `${matchedDaily.glyph} ${matchedDaily.title[lang]} — ${cleanSummary} “${cleanClosing}”`,
+      href: `/gunluk/${matchedDaily.slug}`,
+      linkLabel:
+        lang === "en"
+          ? `${matchedDaily.glyph} Read Hearth Leaf: ${matchedDaily.title.en} →`
+          : lang === "sv"
+            ? `${matchedDaily.glyph} Läs Härdbladet: ${matchedDaily.title.sv} →`
+            : `${matchedDaily.glyph} Günlük Ocak Yaprağını Oku →`,
+    };
+  }
+
   // 3. Expanded Lore (Ogham, Celtic, Mesopotamia, Shamanism, Witchcraft, Planetary Hours, Lunar Nodes)
   const matchedLore = loreEntries.find((entry) =>
     entry.keywords.some((kw) =>
@@ -814,6 +864,27 @@ export function answerFromNotes(
           title: door.title[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
           summary: door.summary[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
           glyph: door.glyph,
+        };
+      }
+    }
+
+    for (const leaf of dailyLoreEntries) {
+      const titleFold = fold(
+        `${leaf.title.tr} ${leaf.title.en} ${leaf.slug} ${leaf.keywords.join(" ")}`,
+      );
+      const subFold = fold(`${leaf.subtitle.tr} ${leaf.summary.tr}`);
+      let score = 0;
+      for (const tok of tokens) {
+        if (titleFold.includes(tok)) score += 4;
+        else if (subFold.includes(tok)) score += 2;
+      }
+      if (score > bestRoomScore) {
+        bestRoomScore = score;
+        bestRoom = {
+          href: `/gunluk/${leaf.slug}`,
+          title: leaf.title[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
+          summary: leaf.summary[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
+          glyph: leaf.glyph,
         };
       }
     }

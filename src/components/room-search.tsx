@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useLanguage } from "@/components/language";
 import { apps } from "@/content/apps";
 import { astrologyDoors, astrologySkyNotes } from "@/content/astrology";
+import { dailyLoreEntries } from "@/content/daily-lore";
 import { educationCourses } from "@/content/education";
 import { runes } from "@/content/runes";
 import { shopProducts } from "@/content/shop";
@@ -177,6 +178,22 @@ export function RoomSearch() {
         title: product.title[lang],
         subtitle: product.subtitle[lang],
         keywords: `${product.title.tr} ${product.title.en} ${product.subtitle[lang]} ${product.summary[lang]} shop shopier yağ iksir tuz danışmanlık ekitap`,
+      });
+    }
+
+    for (const leaf of dailyLoreEntries) {
+      list.push({
+        href: `/gunluk/${leaf.slug}`,
+        glyph: leaf.glyph,
+        category:
+          lang === "en"
+            ? "Daily Hearth Leaf"
+            : lang === "sv"
+              ? "Dagligt Härdblad"
+              : "Günlük Ocak Yaprağı",
+        title: leaf.title[lang],
+        subtitle: leaf.subtitle[lang],
+        keywords: `${leaf.title.tr} ${leaf.title.en} ${leaf.subtitle[lang]} ${leaf.summary[lang]} ${leaf.keywords.join(" ")} günlük ocak`,
       });
     }
 

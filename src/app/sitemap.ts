@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { apps } from "@/content/apps";
 import { astrologyDoors } from "@/content/astrology";
+import { dailyLoreEntries } from "@/content/daily-lore";
 import { educationCourses } from "@/content/education";
 import { runes } from "@/content/runes";
 import { shopProducts } from "@/content/shop";
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticRoutes = [
     "",
+    "/gunluk",
     "/runler",
     "/egitim",
     "/astroloji",
@@ -96,6 +98,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE}/shop/${product.slug}`,
       lastModified: now,
       changeFrequency: "weekly",
+      priority: 0.85,
+    });
+  }
+
+  for (const leaf of dailyLoreEntries) {
+    entries.push({
+      url: `${BASE}/gunluk/${leaf.slug}`,
+      lastModified: now,
+      changeFrequency: "daily",
       priority: 0.85,
     });
   }

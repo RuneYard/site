@@ -33,9 +33,8 @@ export default function Home() {
           </div>
           <section
             id="ocak"
-            className="wet-ink relative order-3 overflow-hidden px-3 py-2.5 lg:col-start-1 lg:row-start-2 lg:self-end"
+            className="relative order-3 lg:col-start-1 lg:row-start-2 lg:self-end"
           >
-            <div className="aurora-wash pointer-events-none absolute inset-x-0 top-0 h-8 opacity-70" aria-hidden />
             <HearthAsk />
           </section>
         </div>
