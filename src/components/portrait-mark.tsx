@@ -218,6 +218,7 @@ export function PortraitMark() {
   const { lang } = useLanguage();
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
 
   useEffect(() => {
     if (paused) return;
@@ -229,14 +230,36 @@ export function PortraitMark() {
 
   const current = frames[active];
 
+  function handleTouchStart(e: React.TouchEvent) {
+    setPaused(true);
+    setTouchStartX(e.touches[0]?.clientX ?? null);
+  }
+
+  function handleTouchEnd(e: React.TouchEvent) {
+    if (touchStartX !== null && e.changedTouches[0]) {
+      const deltaX = e.changedTouches[0].clientX - touchStartX;
+      if (Math.abs(deltaX) > 40) {
+        if (deltaX < 0) {
+          setActive((prev) => (prev + 1) % frames.length);
+        } else {
+          setActive((prev) => (prev - 1 + frames.length) % frames.length);
+        }
+      }
+    }
+    setTouchStartX(null);
+    setTimeout(() => setPaused(false), 4000);
+  }
+
   return (
     <figure
-      className="bronze-frame group relative h-full min-h-[440px] w-full overflow-hidden bg-ink p-3 select-none"
+      className="bronze-frame group relative h-full min-h-[380px] w-full overflow-hidden bg-ink p-2.5 select-none sm:min-h-[440px] sm:p-3"
       aria-label="Mehmet Akdeniz · RuneYard"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
-      <div className="relative h-full min-h-[416px] overflow-hidden">
+      <div className="relative h-full min-h-[360px] overflow-hidden sm:min-h-[416px]">
         {frames.map((frame, index) => {
           const isCurrent = index === active;
           return (
@@ -281,7 +304,7 @@ export function PortraitMark() {
                 type="button"
                 onClick={() => setActive((prev) => (prev - 1 + frames.length) % frames.length)}
                 aria-label="Previous image"
-                className="flex h-7 w-7 items-center justify-center border border-chalk/20 bg-ink/75 text-xs text-chalk/80 transition-colors hover:border-bronze hover:text-chalk"
+                className="flex h-9 w-9 items-center justify-center border border-chalk/25 bg-ink/80 text-sm text-chalk/85 transition-colors hover:border-bronze hover:text-chalk sm:h-7 sm:w-7 sm:text-xs"
               >
                 ‹
               </button>
@@ -289,7 +312,7 @@ export function PortraitMark() {
                 type="button"
                 onClick={() => setActive((prev) => (prev + 1) % frames.length)}
                 aria-label="Next image"
-                className="flex h-7 w-7 items-center justify-center border border-chalk/20 bg-ink/75 text-xs text-chalk/80 transition-colors hover:border-bronze hover:text-chalk"
+                className="flex h-9 w-9 items-center justify-center border border-chalk/25 bg-ink/80 text-sm text-chalk/85 transition-colors hover:border-bronze hover:text-chalk sm:h-7 sm:w-7 sm:text-xs"
               >
                 ›
               </button>
