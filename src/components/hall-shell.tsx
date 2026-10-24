@@ -60,29 +60,40 @@ export function HallShell({ children }: { children: React.ReactNode }) {
         </div>
       </header>
       {children}
-      <footer className="wet-ink px-8 py-3 text-center text-[10px] tracking-[0.1em] text-chalk/55">
-        Mehmet Akdeniz · runeyard.net ·{" "}
-        <a
-          href="https://instagram.com/runeyard_"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-chalk"
-        >
-          runeyard_
-        </a>{" "}
-        ·{" "}
-        <a
-          href="https://wa.me/905455642164"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-chalk"
-        >
-          WhatsApp
-        </a>{" "}
-        ·{" "}
-        <a href="mailto:runeyard@gmail.com" className="hover:text-chalk">
-          runeyard@gmail.com
-        </a>
+      <footer className="wet-ink border-t border-chalk/10 px-6 py-5 text-center sm:px-8">
+        <div className="mx-auto max-w-4xl space-y-2">
+          <p className="text-[10px] tracking-[0.1em] text-chalk/60">
+            Mehmet Akdeniz · runeyard.net ·{" "}
+            <a
+              href="https://instagram.com/runeyard_"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-chalk"
+            >
+              runeyard_
+            </a>{" "}
+            ·{" "}
+            <a
+              href="https://wa.me/905455642164"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-chalk"
+            >
+              WhatsApp
+            </a>{" "}
+            ·{" "}
+            <a href="mailto:runeyard@gmail.com" className="hover:text-chalk">
+              runeyard@gmail.com
+            </a>
+          </p>
+          <p className="text-[10px] leading-4 tracking-[0.04em] text-chalk/45">
+            {lang === "en"
+              ? "Legal & Cultural Notice: All content on RuneYard is presented strictly within the scope of cultural history, mythology, folklore, ethnobotany, and symbolic studies; it does not constitute medical diagnosis or treatment, psychological, legal, or financial advice, nor any guarantee of future events."
+              : lang === "sv"
+                ? "Juridisk & Kulturell Notis: Allt innehåll på RuneYard presenteras uteslutande inom ramen för kulturhistoria, mytologi, folklore, etnobotanik och symbolstudier; det utgör inte medicinsk diagnos eller behandling, psykologisk, juridisk eller finansiell rådgivning och inte heller några löften om framtida händelser."
+                : "Yasal ve Kültürel Beyan: RuneYard’da yer alan tüm metin, sembol ve araçlar kültür tarihi, mitoloji, folklor (halkbilimi), etnobotanik ve arketipsel sembol dili araştırması kapsamındadır; tıbbi teşhis veya tedavi (1219 S.K.), psikolojik, hukuki ya da finansal danışmanlık veya kesin gelecek vaadi niteliği taşımaz."}
+          </p>
+        </div>
       </footer>
     </div>
   );
