@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { DreamCompass } from "@/components/dream-compass";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { OghamOracle } from "@/components/ogham-oracle";
@@ -58,6 +59,7 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
         {slug === "kelt" && <OghamOracle />}
         {slug === "mezopotamya" && <PlanetaryHoursCompass />}
         {(slug === "witchcraft" || slug === "saman") && <WheelCompass />}
+        {slug === "saman" && <DreamCompass />}
 
         {!hall.closed && hall.doors.length > 0 && (
           <ul className="mt-10 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { GaldrPlayer } from "@/components/galdr-player";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { RuneCast } from "@/components/rune-cast";
@@ -274,6 +275,14 @@ function RuneDoorView({ rune }: { rune: Rune }) {
             loading="eager"
           />
         </figure>
+
+        {/* Recorded Galdr Audio Player */}
+        <GaldrPlayer
+          slug={rune.slug}
+          name={rune.name}
+          glyph={rune.glyph}
+          phoneme={rune.phoneme}
+        />
 
         {/* Historical Rune Poem Stanza */}
         <blockquote className="mt-8 border-l-2 border-chalk/40 bg-chalk/[0.03] px-6 py-5">

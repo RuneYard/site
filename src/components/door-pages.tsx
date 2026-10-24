@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { AcademyPathfinder } from "@/components/academy-pathfinder";
 import { ElementCompass } from "@/components/element-compass";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
@@ -74,6 +75,9 @@ export function EducationRoom() {
             </div>
           ))}
         </div>
+
+        {/* Interactive Academy Pathfinder */}
+        <AcademyPathfinder />
 
         {/* Course Cards */}
         <section className="mt-14 border-t border-chalk/15 pt-10">

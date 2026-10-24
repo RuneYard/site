@@ -140,8 +140,24 @@ export function RuneCast() {
   const [drawn, setDrawn] = useState<DrawnStone[] | null>(null);
 
   function handleCast(targetMode: CastMode = mode) {
+    try {
+      const stoneAudio = new Audio("/audio/tas.mp3");
+      stoneAudio.volume = 0.7;
+      stoneAudio.play().catch(() => {});
+    } catch {
+      // ignore audio error
+    }
     const count = targetMode === "single" ? 1 : 3;
     setDrawn(drawUniqueRunes(count));
+  }
+
+  function playRuneGaldr(slug: string) {
+    try {
+      const galdrAudio = new Audio(`/audio/galdr/${slug}.mp3`);
+      galdrAudio.play().catch(() => {});
+    } catch {
+      // ignore audio error
+    }
   }
 
   function switchMode(nextMode: CastMode) {
@@ -299,6 +315,13 @@ export function RuneCast() {
                   </div>
 
                   <div className="mt-5 flex flex-wrap items-center justify-between gap-2 border-t border-chalk/12 pt-3">
+                    <button
+                      type="button"
+                      onClick={() => playRuneGaldr(rune.slug)}
+                      className="border border-chalk/25 bg-chalk/[0.05] px-2.5 py-1 font-display text-[11px] tracking-[0.14em] text-chalk uppercase transition-colors hover:border-chalk/60"
+                    >
+                      🔊 Galdr [{rune.phoneme}]
+                    </button>
                     <Link
                       href={`/runler/${rune.slug}`}
                       className="font-display text-xs tracking-[0.14em] text-chalk uppercase hover:underline"

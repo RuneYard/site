@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { DreamCompass } from "@/components/dream-compass";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { apps, appsHall, findAppBySlug } from "@/content/apps";
@@ -35,6 +36,8 @@ export function AppsShelf() {
             </p>
           ))}
         </div>
+
+        <DreamCompass />
 
         <ul className="mt-12 grid gap-6 sm:grid-cols-2">
           {apps.map((app) => {
