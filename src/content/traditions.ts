@@ -8515,6 +8515,148 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/mezopotamya/item-samas-kittum-ve-kozmik-adalet-5.jpg"
         ],
         "practiceImage": "/mezopotamya/practice-samas-kittum-ve-kozmik-adalet.jpg"
+      },
+      {
+            "slug": "sitchin-enki-ve-marduk-kronikleri",
+            "glyph": "XXI",
+            "image": "/mezopotamya/abzu-asalluhi.jpg",
+            "title": {
+                  "tr": "XXI · Sitchin Anlatılarında Enki (E.A) ve Marduk: Abzu, 12. Gezegen ve Koç Çağı",
+                  "en": "XXI · Enki (E.A) and Marduk in Sitchin's Chronicles: Abzu, the 12th Planet & Age of Aries",
+                  "sv": "XXI · Enki (E.A) och Marduk i Sitchins Krönikor: Abzu, 12:e Planeten & Vädurens Tidsålder"
+            },
+            "subtitle": {
+                  "tr": "Zecharia Sitchin’in ‘Dünya Tarihçesi’ ve ‘Enki’nin Kayıp Kitabı’ Perspektifiyle E.A’nın Bilgeliği, Enlil-Enki İkiliği ve Marduk’un (Ra) Göksel Egemenliği",
+                  "en": "Through Zecharia Sitchin's 'Earth Chronicles' and 'The Lost Book of Enki': E.A's Wisdom, the Enki-Enlil Polarity, and Marduk's (Ra) Celestial Sovereignty",
+                  "sv": "Ur Zecharia Sitchins 'Earth Chronicles' och 'Enkis Förlorade Bok': E.A:s Visdom, Enki-Enlil-polariteten och Marduks (Ra) Himmelska Suveränitet"
+            },
+            "summary": {
+                  "tr": "Sümer tabletlerinin Sitchin okumasında başbilimci Enki (E.A) ile komutan Enlil arasındaki kozmik gerilim, insanlığın (Lulu Amelu) mühürlenmesi, sarmal çift yılan sembolü ve Enki’nin ilk oğlu Marduk’un (Ra) Boğa Çağı’ndan Koç Çağı’na geçişteki Babil egemenliği.",
+                  "en": "In Sitchin's reading of the Sumerian tablets: the cosmic polarity between chief scientist Enki (E.A) and commander Enlil, the fashioning of humanity (Lulu Amelu), the entwined serpent emblem, and firstborn Marduk's (Ra) rise in the Age of Aries.",
+                  "sv": "I Sitchins läsning av de sumeriska tavlorna: spänningen mellan vetenskapsmannen Enki (E.A) och befälhavaren Enlil, människans skapelse (Lulu Amelu), dubbelormen och Marduks (Ra) uppgång i Vädurens tidsålder."
+            },
+            "paragraphs": {
+                  "tr": [
+                        "Mezopotamya çivi yazılı tabletlerini (özellikle *Atra-Hasis*, *Enûma Eliš* ve *Eridu Yaratılış* metinlerini) karşılaştırmalı mitoloji ve antik astronomi ekseninde yorumlayan **Zecharia Sitchin** (*Dünya Tarihçesi / The Earth Chronicles* serisi ve *Enki’nin Kayıp Kitabı*), Sümer panteonunu soyut doğa kişileştirmeleri olarak değil; **Anu**’nun liderliğindeki **Anunnaki** (‘Gökten Yere İnenler’) meclisinin tarihsel ve kozmik kroniği olarak okur.",
+                        "Bu kroniğin kalbinde Anu’nun iki büyük oğlu arasındaki arketipsel ikilik yatar: İlk gelen başbilimci, denizci, mühendis ve **Abzu**’nun (derin suların ve maden yataklarının) efendisi **E.A / Enki** (‘Evi Su Olan’ / ‘Yeryüzünün Efendisi’) ile meşru veraset yasası gereği sonradan gelip başkomutanlık makamını devralan **Enlil** (‘Emirlerin Efendisi’). Enlil disiplini, katı yasayı ve hiyerarşiyi temsil ederken; **Enki** merhameti, genetik ve zanaatsal ustalığı, bilimi ve insanlığın korunmasını temsil eder.",
+                        "Sitchin’in *12. Gezegen* ve *Enki’nin Kayıp Kitabı* anlatısında Enki, ağır emek yükü altında ezilen Igigi’lerin isyanı üzerine kız kardeşi **Ninhursag (Ninmah)** ve oğlu **Ningişzida (Thoth)** ile birlikte Abzu’daki *Şimti Evi*’nde (‘Nefesin/Kaderin Belirlendiği Ev’) **Lulu Amelu**’yu (ilk bilinçli insanı) kendi öz mühürleriyle şekillendirir. Enki’nin amblemi olan **birbirine dolanmış çift yılan (DNA sarmalı ve şifa/bilgelik asası)** insanlığa idrak ve özgür irade bilincini verir; Büyük Tufan yaklaşırken de **Ziusudra**’ya kamış duvarın arkasından seslenerek insan soyunu yok olmaktan kurtaran yine Enki’dir.",
+                        "Enki’nin bu yarım kalan meşruiyet davasını devralan figür ise onun resmî eşi **Damkina**’dan doğan ilk oğlu **Marduk**’tur (Sitchin’e göre Mısır’daki karşılığı **Ra / Amen-Ra**). Babası Enki’nin bilgeliğini devralan ancak Enliloğullarına karşı hakkını doğrudan talep eden Marduk, gökyüzündeki **Ekinoks Presesyonu (Burç Çağları)** saati Enlil’in **Boğa Çağı**’ndan kendi burcu olan **Koç Çağı**’na (MÖ 2100 civarı) girdiğinde harekete geçer. *Bâb-ilim*’i (Babil — ‘Tanrıların Kapısı’) dünyanın ekseni olarak kurar ve *Enûma Eliš* tabletlerinde anlatıldığı üzere **50 İlahi Unvanı (Ellilik Makamını)** devralarak yeni çağın başhükümdarı olur."
+                  ],
+                  "en": [
+                        "Reading the cuneiform tablets of Sumer and Babylon (*Atra-Hasis*, *Enûma Eliš*, and the *Eridu Genesis*) through ancient astronomy and comparative myth, **Zecharia Sitchin** (*The Earth Chronicles* and *The Lost Book of Enki*) interpreted the Mesopotamian pantheon as the chronicle of the **Anunnaki** under King **Anu**.",
+                        "At the center of Sitchin's narrative stands the polarity between Anu's two sons: **E.A / Enki** ('He Whose House Is Water'), the firstborn chief scientist and master of the **Abzu**, and **Enlil** ('Lord of the Command'), the legal heir who assumed supreme command. Where Enlil embodies strict decree, **Enki** embodies wisdom, craftsmanship, and compassion for humanity.",
+                        "Working alongside **Ninhursag** and **Ningishzida (Thoth)** in the *House of Shimti*, Enki fashioned **Lulu Amelu** (conscious humanity). Marked by his emblem of the **Entwined Serpents (the double helix of life and wisdom)**, Enki granted humankind intelligence and later whispered the dimensions of the rescue vessel through a reed wall to **Ziusudra**, saving humanity from the Deluge.",
+                        "The champion who rose to reclaim Enki's bypassed birthright was his firstborn son by **Damkina**: **Marduk** (identified by Sitchin with Egyptian **Ra / Amen-Ra**). Tracking the astronomical **Precession of the Equinoxes**, Marduk declared that Enlil's **Age of Taurus** had ended and the **Age of Aries (the Ram of Marduk)** had dawned, establishing **Bâb-ilim (Babylon)** and receiving the **Fifty Names** of sovereignty."
+                  ],
+                  "sv": [
+                        "Genom att läsa de sumeriska och babyloniska kilskriftstavlorna ur ett astronomiskt perspektiv tolkade **Zecharia Sitchin** (*The Earth Chronicles* och *Enkis Förlorade Bok*) panteonet som krönikan om **Anunnaki** under kung **Anu**.",
+                        "I centrum står spänningen mellan Anus två söner: **E.A / Enki** ('Han Vars Hus Är Vatten'), den förstfödde vetenskapsmannen och **Abzus** mästare, och **Enlil** ('Befallningens Herre'). Där Enlil står för sträng lag står **Enki** för visdom, skaparkraft och beskydd av människan.",
+                        "I *Shimtis Hus* formade Enki tillsammans med **Ninhursag** och **Ningishzida** den medvetna människan (**Lulu Amelu**). Med sitt emblem **Dubbelormen** skänkte Enki människan insikt och viskade senare arkens mått genom en vassvägg till **Ziusudra**.",
+                        "Den som återkrävde Enkis förstfödslorätt var hans son med **Damkina**: **Marduk** (Egyptens **Ra**). När vårdagjämningspunkten skiftade från Enlils **Oxens tidsålder** till **Vädurens tidsålder (Marduks tecken)** grundade Marduk **Bâb-ilim (Babylon)** och mottog de **Femtio Namnen**."
+                  ]
+            },
+            "chapters": {
+                  "tr": [
+                        {
+                              "heading": "E.A (Enki), Abzu ve Sarmal Çift Yılan Mührü",
+                              "body": "Sitchin’in analizinde Enki yalnızca su tanrısı değil; yaşamın kodlarını (*Me* tabletlerini) ve bilgelik sırlarını koruyan başsimyacıdır. Onun sembolü olan **birbirine dolanmış iki yılan**, daha sonra Hermes’in Kadüsesine ve modern tıbbın sembolüne dönüşmüştür. Enki’nin yönü **Derinlik, Bilgelik, Yaratıcı Çözüm ve Şefkat** yönüdür."
+                        },
+                        {
+                              "heading": "Marduk (Ra), Koç Çağı ve Bâb-ilim’in Yükselişi",
+                              "body": "Sitchin’e göre Marduk’un mücadelesi kör bir güç savaşı değil, **Göksel Zamanın (Zodyak Çağlarının) Okunmasıdır**. Boğa Çağı kapanıp Koç Çağı doğduğunda Marduk hem Mısır’da (*Ra* kimliğiyle) hem Babil’de (*Marduk / Bel* kimliğiyle) sürgünlere rağmen geri dönerek babası Enki’nin kendisine devrettiği **50 Me / 50 İsim** ile meşru liderliği kurmuştur."
+                        },
+                        {
+                              "heading": "Enûma Eliš’te Kozmik Savaş: Nibiru / Marduk ve Tiamat",
+                              "body": "Sitchin, Babil Yaratılış Destanı *Enûma Eliš*’i iki katmanlı okur: Birinci katman güneş sisteminin erken döneminde **Nibiru (Marduk)** gezegeninin **Tiamat** ile karşılaşarak Dünya’yı (*Ki*) ve Asteroit Kuşağı’nı (*Dövülmüş Bilezik*) oluşturmasıdır. İkinci katman ise Prens Marduk’un 12 takımyıldızı ve yeni çağ takvimini nizam etmesidir."
+                        }
+                  ],
+                  "en": [
+                        {
+                              "heading": "E.A (Enki), the Abzu, and the Entwined Serpent Seal",
+                              "body": "In Sitchin's reading, Enki is the master of life's codes and keeper of the **Me** blueprints. His emblem of the **two entwined serpents** later became the Caduceus of Hermes. Enki's orientation is **Depth, Ingenuity, Compassion, and Preservation of Life**."
+                        },
+                        {
+                              "heading": "Marduk (Ra), the Age of Aries, and the Rise of Babylon",
+                              "body": "Marduk's struggle revolves around **Precessional Time**: recognizing when the cosmic clock shifted from Taurus (Enlil) to Aries (Marduk). Despite exile, Marduk returned to establish **Babylon (Bâb-ilim)** and received the **Fifty Names** from his father Enki."
+                        },
+                        {
+                              "heading": "Celestial Mechanics in Enûma Eliš: Nibiru and Tiamat",
+                              "body": "Sitchin reads *Enûma Eliš* on two levels: first as the primordial celestial encounter in which **Nibiru/Marduk** cleaved **Tiamat** to form Earth (*Ki*) and the Asteroid Belt; second as Prince Marduk's ordering of the twelve zodiacal stations."
+                        }
+                  ],
+                  "sv": [
+                        {
+                              "heading": "E.A (Enki), Abzu och Dubbelormens Sigill",
+                              "body": "I Sitchins tolkning är Enki mästaren över livets koder och **Me**-lagarna. Hans tecken **de två slingrande ormarna** blev senare läkekonstens stav. Enkis riktning är **Djup, Uppfinningsrikedom och Livets Bevarande**."
+                        },
+                        {
+                              "heading": "Marduk (Ra), Vädurens Tidsålder och Babylons Uppgång",
+                              "body": "Marduks kamp handlar om att läsa **det kosmiska uret (precessionen)** när tiden skiftade från Oxen (Enlil) till Väduren (Marduk). Han grundade **Bâb-ilim (Babylon)** och mottog de **Femtio Namnen** av sin far Enki."
+                        },
+                        {
+                              "heading": "Himmelsk Mekanik i Enûma Eliš: Nibiru och Tiamat",
+                              "body": "Sitchin läser *Enûma Eliš* både som den urtida himmelska kollisionen mellan **Nibiru/Marduk** och **Tiamat** som skapade Jorden (*Ki*), och som prins Marduks ordnande av zodiakens tolv stationer."
+                        }
+                  ]
+            },
+            "items": {
+                  "tr": [
+                        "E.A / Enki (Sayısal Mührü: 40): Abzu’nun, tatlı suların, bilimin, zanaatın ve insanlığın koruyucu bilgeliğinin efendisi.",
+                        "Enlil (Sayısal Mührü: 50): Nippur’daki E-kur (‘Dağ Evi’) merkezinden hükmeden disiplin ve meclis komutanı.",
+                        "Marduk / Ra (Sayısal Mührü: 10 → 50): Enki ve Damkina’nın ilk oğlu; Koç Çağı’yla birlikte 50 unvanı alarak Babil’in başhükümdarı olan güç.",
+                        "Ningişzida (Thoth): Enki’nin diğer bilge oğlu; Mısır ve Mezopotamya’da astronomi, takvim ve sarmal yılan sırlarının muhafızı.",
+                        "Şimti Evi & Lulu Amelu: İnsanın kil/toprak ve göksel öz mührüyle (*Şimti* — nefes/kader) bilinçli varlık olarak uyandırılması.",
+                        "Kamış Duvarın Fısıltısı: Enki’nin Ziusudra’nın kamış kulübesinin duvarına konuşarak insanlığı Tufan’dan kurtaran ince zekası."
+                  ],
+                  "en": [
+                        "E.A / Enki (Sacred Number: 40): Lord of the Abzu, sweet waters, science, craft, and protective wisdom.",
+                        "Enlil (Sacred Number: 50): Lord of the Command ruling from E-kur in Nippur, embodying strict law.",
+                        "Marduk / Ra (Sacred Number: 10 → 50): Firstborn of Enki and Damkina who claimed supreme sovereignty in the Age of Aries.",
+                        "Ningishzida (Thoth): Wise son of Enki, keeper of astronomy, the calendar, and the entwined serpents.",
+                        "House of Shimti & Lulu Amelu: The awakening of conscious humanity sealed with earthly clay and celestial spark.",
+                        "Whisper Through the Reed Wall: Enki's ingenious counsel to Ziusudra that preserved human life through the Deluge."
+                  ],
+                  "sv": [
+                        "E.A / Enki (Heligt Tal: 40): Abzus, det söta vattnets, vetenskapens och människans beskyddande herre.",
+                        "Enlil (Heligt Tal: 50): Befallningens herre i Nippur, symbol för sträng lag och ordning.",
+                        "Marduk / Ra (Heligt Tal: 10 → 50): Enkis och Damkinas förstfödde som mottog de femtio namnen i Vädurens tidsålder.",
+                        "Ningishzida (Thoth): Enkis vise son, väktare av astronomi, kalender och dubbelormens hemlighet.",
+                        "Shimtis Hus & Lulu Amelu: Människans uppvaknande genom föreningen av jordisk lera och himmelsk gnista.",
+                        "Viskningen genom Vassväggen: Enkis kloka råd till Ziusudra som räddade mänskligheten undan floden."
+                  ]
+            },
+            "practice": {
+                  "tr": {
+                        "title": "Uygulama · ‘Enki’nin Bilgeliği ve Marduk’un İradesi’ Denge Tefekkürü",
+                        "steps": [
+                              "Hayatında şu an karşılaştığın bir engeli düşün ve kendine önce **Enki’nin sorusunu** sor: ‘Bu engeli kaba kuvvetle yıkmak yerine, su gibi etrafından dolaşarak veya kamış duvarın arkasından konuşur gibi ince bir zeka ve ustalıkla nasıl çözebilirim?’",
+                              "Ardından kendine **Marduk’un sorusunu** sor: ‘Zamanı geldiği halde ertelediğim, hakkım olan ama başkalarının onayını beklediğim kendi merkezimi (kendi Babil’imi) kurmak için bugün hangi net adımı atmalıyım?’",
+                              "Masanın üzerine bir bardak temiz su (Enki / Abzu berraklığı) ve yanına yanan bir mum (Marduk / Koç Çağı ateşi) koyarak bu iki gücü — **derin bilgelik ile kararlı eylemi** — kendi kararında birleştir."
+                        ]
+                  },
+                  "en": {
+                        "title": "Practice · Balancing 'Enki's Wisdom and Marduk's Will'",
+                        "steps": [
+                              "Contemplate a current obstacle and ask **Enki's question**: 'How can I solve this not by brute force, but with water-like adaptability, craft, and quiet ingenuity?'",
+                              "Then ask **Marduk's question**: 'Where has the cosmic clock already turned in my life, calling me to claim my rightful center without waiting for permission?'",
+                              "Set a glass of clear water (Enki's Abzu clarity) beside a lit candle (Marduk's Aries fire) to unite deep wisdom with decisive action."
+                        ]
+                  },
+                  "sv": {
+                        "title": "Praktik · Att Förena 'Enkis Visdom och Marduks Vilja'",
+                        "steps": [
+                              "Tänk på ett aktuellt hinder och ställ först **Enkis fråga**: 'Hur kan jag lösa detta med vattnets smidighet och klokt hantverk i stället för rå styrka?'",
+                              "Ställ därefter **Marduks fråga**: 'Var har tiden redan skiftat i mitt liv och kallat mig att inta mitt eget centrum utan att tveka?'",
+                              "Ställ ett glas rent vatten (Enkis Abzu-klarhet) bredvid ett tänt ljus (Marduks eld) för att förena djup visdom med beslutsam handling."
+                        ]
+                  }
+            },
+            "closing": {
+                  "tr": "Enki’nin derin suyu olmadan irade kurur; Marduk’un ateşi olmadan bilgelik kıyıda bekler.",
+                  "en": "Without Enki's deep water, will runs dry; without Marduk's fire, wisdom waits upon the shore.",
+                  "sv": "Utan Enkis djupa vatten torkar viljan ut; utan Marduks eld väntar visdomen på stranden."
+            },
+            "practiceImage": "/mezopotamya/practice-abzu-ve-asalluhi.jpg"
       }
     ]
   },

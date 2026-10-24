@@ -7,6 +7,7 @@ import { apps } from "@/content/apps";
 import { astrologyDoors, astrologySkyNotes } from "@/content/astrology";
 import { dailyLoreEntries } from "@/content/daily-lore";
 import { educationCourses } from "@/content/education";
+import { glossaryTerms } from "@/content/glossary";
 import { runes } from "@/content/runes";
 import { shopProducts } from "@/content/shop";
 import { traditions } from "@/content/traditions";
@@ -194,6 +195,22 @@ export function RoomSearch() {
         title: leaf.title[lang],
         subtitle: leaf.subtitle[lang],
         keywords: `${leaf.title.tr} ${leaf.title.en} ${leaf.subtitle[lang]} ${leaf.summary[lang]} ${leaf.keywords.join(" ")} günlük ocak`,
+      });
+    }
+
+    for (const item of glossaryTerms) {
+      list.push({
+        href: `/sozluk#${item.id}`,
+        glyph: item.glyph,
+        category:
+          lang === "en"
+            ? "Lexicon · Ancient Term"
+            : lang === "sv"
+              ? "Ordbok · Forntida Term"
+              : "Kadim Terimler Sözlüğü",
+        title: `${item.term} [${item.pronunciation}]`,
+        subtitle: item.definition[lang],
+        keywords: `${item.term} ${item.pronunciation} ${item.origin[lang]} ${item.definition[lang]} sözlük terim`,
       });
     }
 

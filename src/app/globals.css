@@ -23,6 +23,11 @@ body {
   font-family: var(--font-body);
 }
 
+html.candlelight-mode body {
+  filter: sepia(0.22) saturate(1.08) brightness(0.95);
+  background-color: #110e0a;
+}
+
 .wet-slate {
   background-color: #0d1210;
   background-image:

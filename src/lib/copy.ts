@@ -14,6 +14,7 @@ const copy = {
     nav: [
       { href: "/runler", label: "Rünler" },
       { href: "/gunluk", label: "Günlük Kütük" },
+      { href: "/sozluk", label: "Sözlük" },
       { href: "/egitim", label: "Eğitim" },
       { href: "/astroloji", label: "Astroloji" },
       { href: "/shop", label: "Shop" },
@@ -84,9 +85,9 @@ const copy = {
       {
         href: "/mezopotamya",
         glyph: "𒀭",
-        badge: "XX ODA · MUL.APIN & ABZU",
+        badge: "XXI ODA · ENKİ, MARDUK & MUL.APIN",
         title: "Mezopotamya",
-        line: "Babil yıldız bilimi, Abzu’nun suları ve kadim kil tabletler.",
+        line: "Enki’nin Abzu bilimi, Marduk’un Koç Çağı ve kadim kil tabletler.",
       },
       {
         href: "/witchcraft",
@@ -140,14 +141,14 @@ const copy = {
       placeholder: "Bir rün, bir burç, bir gün",
       ask: "Sor",
       sparks: [
+        "Enki",
+        "Marduk",
         "Uruz ne der?",
         "Fehu",
         "Ogham",
         "İnanna",
         "Düngür",
-        "Terazi",
         "15 Nisan",
-        "Gezegen saatleri",
       ],
       error: "Ocak şu an cevap vermedi. Bir kez daha sor.",
       note: "Odanın notu",
@@ -159,6 +160,7 @@ const copy = {
     nav: [
       { href: "/runler", label: "Runes" },
       { href: "/gunluk", label: "Daily Lore" },
+      { href: "/sozluk", label: "Lexicon" },
       { href: "/egitim", label: "Education" },
       { href: "/astroloji", label: "Astrology" },
       { href: "/shop", label: "Shop" },
@@ -229,9 +231,9 @@ const copy = {
       {
         href: "/mezopotamya",
         glyph: "𒀭",
-        badge: "XX ROOMS · MUL.APIN & ABZU",
+        badge: "XXI ROOMS · ENKI, MARDUK & MUL.APIN",
         title: "Mesopotamia",
-        line: "Babylonian star lore, the waters of Abzu, and ancient clay tablets.",
+        line: "Enki’s Abzu science, Marduk’s Age of Aries, and ancient clay tablets.",
       },
       {
         href: "/witchcraft",
@@ -304,6 +306,7 @@ const copy = {
     nav: [
       { href: "/runler", label: "Runor" },
       { href: "/gunluk", label: "Härdblad" },
+      { href: "/sozluk", label: "Ordbok" },
       { href: "/egitim", label: "Utbildning" },
       { href: "/astroloji", label: "Astrologi" },
       { href: "/shop", label: "Shop" },
@@ -374,9 +377,9 @@ const copy = {
       {
         href: "/mezopotamya",
         glyph: "𒀭",
-        badge: "XX RUM · MUL.APIN & ABZU",
+        badge: "XXI RUM · ENKI, MARDUK & MUL.APIN",
         title: "Mesopotamien",
-        line: "Babylonisk stjärnlära, Abzus vatten och forntida lertavlor.",
+        line: "Enkis Abzu-vetenskap, Marduks Vädurens tidsålder och lertavlor.",
       },
       {
         href: "/witchcraft",

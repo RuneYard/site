@@ -55,6 +55,212 @@ export const dailyLoreHall = {
 
 export const dailyLoreEntries: DailyLoreEntry[] = [
   {
+    slug: "sitchin-enki-kayip-kitabi-ve-abzu",
+    glyph: "𒀭",
+    traditionTag: {
+      tr: "MEZOPOTAMYA & SITCHIN ANLATISI · ERİDU & ABZU",
+      en: "MESOPOTAMIA & SITCHIN CHRONICLES · ERIDU & ABZU",
+      sv: "MESOPOTAMIEN & SITCHINS KRÖNIKOR · ERIDU & ABZU",
+    },
+    keywords: [
+      "sitchin",
+      "zecharia sitchin",
+      "enki",
+      "ea",
+      "enkinin kayip kitabi",
+      "anunnaki",
+      "lulu amelu",
+      "abzu",
+      "enlil",
+    ],
+    title: {
+      tr: "Sitchin Anlatılarında ‘Enki (E.A)’: Abzu’nun Efendisi, Sarmal Yılan ve İnsanlığın Koruyucusu",
+      en: "'Enki (E.A)' in Sitchin's Chronicles: Lord of the Abzu, the Entwined Serpent & Guardian of Humanity",
+      sv: "'Enki (E.A)' i Sitchins Krönikor: Abzus Herre, Dubbelormen och Mänsklighetens Beskyddare",
+    },
+    subtitle: {
+      tr: "‘Enki’nin Kayıp Kitabı’ ve ‘12. Gezegen’ Perspektifiyle Enki-Enlil İkiliği, Şimti Evi ve Kamış Duvarın Fısıltısı",
+      en: "Through 'The Lost Book of Enki' and 'The 12th Planet': The Enki-Enlil Polarity, House of Shimti, and the Reed Wall",
+      sv: "Ur 'Enkis Förlorade Bok' och 'Den 12:e Planeten': Enki-Enlil-polariteten, Shimtis Hus och Vassväggen",
+    },
+    summary: {
+      tr: "Zecharia Sitchin’in Sümer çivi yazılı tabletlerini (*Atra-Hasis*, *Eridu Yaratılış*) okuma biçiminde **E.A / Enki** (‘Evi Su Olan’), katı emir komutanı Enlil’in karşısında bilimi, genetik ustalığı, özgür iradeyi ve insanlığın (*Lulu Amelu*) hayatta kalmasını savunan başbilgedir.",
+      en: "In Zecharia Sitchin's reading of the Sumerian tablets, **E.A / Enki** ('He Whose House Is Water') stands opposite the stern commander Enlil as the chief scientist, master artisan, and steadfast protector of humanity (*Lulu Amelu*).",
+      sv: "I Zecharia Sitchins tolkning av de sumeriska tavlorna står **E.A / Enki** ('Han Vars Hus Är Vatten') gentemot den stränge Enlil som den främste vetenskapsmannen och mänsklighetens (*Lulu Amelu*) beskyddare.",
+    },
+    paragraphs: {
+      tr: [
+        "Sümer ve Akkad tabletlerini karşılaştırmalı kozmoloji ekseninde inceleyen **Zecharia Sitchin** (*12. Gezegen* ve *Enki’nin Kayıp Kitabı*), Mezopotamya tarihini **Anu**’nun iki büyük oğlu arasındaki derin karakter ve vizyon farkı üzerinden okur: İlk gelen öncü ve başbilimci **E.A / Enki** (Sayısal Mührü: **40**) ile meşru veraset yasası gereği sonradan gelip başkomutanlığı alan **Enlil** (Sayısal Mührü: **50**).",
+        "Sitchin’in anlatısında **Enki**, ilk şehri **Eridu**’da ve **Abzu** (derin sular / maden bölgesi) merkezinde yaşamın sırlarını araştıran ustadır. Alt rütbeli Igigi’lerin ağır emek isyanı başladığında, kız kardeşi **Ninhursag (Ninmah)** ve oğlu **Ningişzida** ile birlikte *Şimti Evi*’nde (‘Nefesin/Kaderin Belirlendiği Ev’) dünyadaki varlığa kendi öz mühürlerini katarak **Lulu Amelu**’yu (ilk bilinçli insanı) uyandırır.",
+        "Enlil insanın ‘fazla bilgiye’ ulaşmasından rahatsız olurken; amblemi **birbirine dolanmış çift yılan (DNA sarmalı ve şifa/bilgelik asası)** olan Enki, insana idrak ve soyunu sürdürme yetisi kazandırır. Büyük Tufan kararı alındığında da Meclis yeminini doğrudan bozmadan, sadık bilge **Ziusudra**’nın (Utnapiştim) **kamış kulübesinin duvarına konuşarak** geminin ölçülerini fısıldayan ve insanlığı yok olmaktan kurtaran yine Enki’dir.",
+      ],
+      en: [
+        "In **Zecharia Sitchin's** *The Earth Chronicles* and *The Lost Book of Enki*, the cuneiform epics of Sumer revolve around the profound polarity between King Anu's two sons: the firstborn pioneer and chief scientist **E.A / Enki** (Sacred Rank: **40**) and the legal heir and supreme commander **Enlil** (Sacred Rank: **50**).",
+        "From his sanctuary at **Eridu** and the **Abzu**, Enki fathomed the laws of water, metallurgy, and life. Alongside **Ninhursag** and **Ningishzida** in the *House of Shimti*, Enki bound the celestial imprint onto earthly form to awaken **Lulu Amelu**—conscious humanity.",
+        "Where Enlil sought strict obedience, Enki—whose emblem was the **Entwined Serpents**—endowed humankind with understanding and later whispered the design of the rescue vessel through a **reed wall** to **Ziusudra**, preserving the seed of life through the Deluge.",
+      ],
+      sv: [
+        "I **Zecharia Sitchins** *Earth Chronicles* och *Enkis Förlorade Bok* kretsar de sumeriska tavlornas berättelse kring spänningen mellan Anus två söner: den förstfödde vetenskapsmannen **E.A / Enki** (Heligt tal: **40**) och överbefälhavaren **Enlil** (Heligt tal: **50**).",
+        "Från sin helgedom i **Eridu** och **Abzu** utforskade Enki vattnets och livets hemligheter. Tillsammans med **Ninhursag** och **Ningishzida** i *Shimtis Hus* väckte han **Lulu Amelu**—den medvetna människan.",
+        "Med sitt tecken **Dubbelormen** gav Enki människan urskillning och viskade senare arkens mått genom en **vassvägg** till **Ziusudra** för att rädda livet undan den stora floden.",
+      ],
+    },
+    keyPoints: {
+      tr: [
+        "E.A / Enki (Sayısal Mührü 40): ‘Evi Su Olan’; Eridu ve Abzu’nun efendisi, bilgelik ve yaşam ustası.",
+        "Sarmal Çift Yılan (Ningişzida & Enki): Yaşamın genetik sarmalını, şifayı ve uyanmış bilinci simgeleyen kadim mühür.",
+        "Şimti Evi (Bit Şimti): ‘Rüzgarın/Nefesin Üflendiği Ev’; insanın kil ve göksel özle mühürlendiği simya alanı.",
+        "Kamış Duvar Bilgeliği: Katı yasakların karşısında yıkıcı kavgayla değil, su gibi esnek ve derin zekayla çözüm üretmek.",
+      ],
+      en: [
+        "E.A / Enki (Rank 40): 'He Whose House Is Water'; Lord of Eridu and the Abzu, master of wisdom and craft.",
+        "The Entwined Serpents: The ancient emblem of life's double helix, healing, and awakened discernment.",
+        "House of Shimti (Bit Shimti): 'The House Where the Wind of Life Is Breathed'.",
+        "Wisdom of the Reed Wall: Overcoming rigid obstacles through water-like ingenuity rather than brute force.",
+      ],
+      sv: [
+        "E.A / Enki (Tal 40): 'Han Vars Hus Är Vatten'; Eridus och Abzus vise herre.",
+        "Dubbelormen: Det uråldriga tecknet för livets spiral, läkekonst och vaket medvetande.",
+        "Shimtis Hus: Platsen där livets andedräkt och medvetande förseglades.",
+        "Vassväggens Visdom: Att övervinna hårda hinder med vattnets smidighet och klokskap.",
+      ],
+    },
+    practice: {
+      tr: {
+        title: "Günlük Uygulama · ‘Enki’nin Abzu Suyu ve Kamış Duvar’ Çözüm Tekniği",
+        steps: [
+          "Bugün seni sıkıştıran katı bir kural veya inatçı bir sorun karşısında kaba kuvvetle çarpışmayı bırak.",
+          "Kendine Enki’nin yöntemini sor: ‘Su kayayı delmez, etrafından dolaşarak yolunu açar; bu meselede kamış duvarın arkasından konuşacak ince çözüm ne?’",
+          "Çalışma masana bir bardak berrak su koy ve içmeden önce zihninin tıpkı Abzu suları gibi derinleşip sakinleşmesine izin ver.",
+        ],
+      },
+      en: {
+        title: "Daily Practice · Enki's 'Abzu Water & Reed Wall' Problem-Solving",
+        steps: [
+          "When facing a rigid obstacle today, pause before colliding with it head-on.",
+          "Ask Enki's question: 'Water does not fight the boulder—it flows around it. What is the quiet, ingenious solution here?'",
+          "Place a glass of clear water on your desk and let your mind settle into the calm depth of the Abzu before speaking.",
+        ],
+      },
+      sv: {
+        title: "Daglig Praktik · Enkis 'Abzu-vatten & Vassvägg' vid Svåra Beslut",
+        steps: [
+          "När du möter ett hårt motstånd i dag, stanna upp innan du går i rakt krig mot det.",
+          "Ställ Enkis fråga: 'Vattnet strider inte mot klippan—det finner vägen runt den. Vilken är den kloka lösningen här?'",
+          "Ställ ett glas klart vatten på ditt bord och låt tanken klara som Abzus djup.",
+        ],
+      },
+    },
+    closing: {
+      tr: "Fırtına (Enlil) ağacı kökünden söker; derin su (Enki) ise tohumu tufanın içinden geçirip yeniden yeşertir.",
+      en: "The storm uproots the tree; the deep water carries the seed safely through the flood to bloom again.",
+      sv: "Stormen rycker upp trädet med rötterna; det djupa vattnet bär fröet genom floden till ny grönska.",
+    },
+  },
+  {
+    slug: "sitchin-marduk-ra-ve-koc-cagi",
+    glyph: "♈",
+    traditionTag: {
+      tr: "MEZOPOTAMYA & SITCHIN ANLATISI · BABİL & KOÇ ÇAĞI",
+      en: "MESOPOTAMIA & SITCHIN CHRONICLES · BABYLON & AGE OF ARIES",
+      sv: "MESOPOTAMIEN & SITCHINS KRÖNIKOR · BABYLON & VÄDURENS TID",
+    },
+    keywords: [
+      "marduk",
+      "ra",
+      "amen ra",
+      "koc cagi",
+      "nibiru",
+      "bab-ilim",
+      "tiamat",
+      "elli isim",
+      "sitchin marduk",
+    ],
+    title: {
+      tr: "Sitchin Anlatılarında ‘Marduk (Ra)’: Enki’nin İlkdoğan Oğlu, Koç Çağı ve Babil’in Yükselişi",
+      en: "'Marduk (Ra)' in Sitchin's Chronicles: Firstborn of Enki, the Age of Aries & the Rise of Babylon",
+      sv: "'Marduk (Ra)' i Sitchins Krönikor: Enkis Förstfödde, Vädurens Tidsålder & Babylons Uppgång",
+    },
+    subtitle: {
+      tr: "Boğa Çağı’ndan Koç Çağı’na Göksel Saat Değişimi, Mısır’daki Ra Kimliği ve Enûma Eliš’teki 50 İlahi Unvan",
+      en: "The Precessional Shift from Taurus to Aries, the Egyptian Identity of Ra, and the Fifty Names of Enûma Eliš",
+      sv: "Skiftet från Oxens till Vädurens Tidsålder, Ra i Egypten och De Femtio Namnen i Enûma Eliš",
+    },
+    summary: {
+      tr: "Zecharia Sitchin’in *Tanrıların ve İnsanların Savaşları* eserinde **Marduk** (Mısır’da **Ra**), babası Enki’nin ertelenmiş meşru hakkını geri almak için gökyüzü saatinin **Koç Çağı**’na girişini bekleyen, sürgünleri aşarak **Bâb-ilim**’i (Babil) kuran ve 50 unvanı devralan iradedir.",
+      en: "In Zecharia Sitchin's *The Wars of Gods and Men*, **Marduk** (known in Egypt as **Ra**) is the firstborn son of Enki and Damkina who read the precessional dawn of the **Age of Aries**, founded **Bâb-ilim (Babylon)**, and claimed the **Fifty Names** of sovereignty.",
+      sv: "I Zecharia Sitchins *The Wars of Gods and Men* är **Marduk** (i Egypten **Ra**) Enkis och Damkinas förstfödde son som läste inträdet i **Vädurens tidsålder**, grundade **Babylon** och mottog de **Femtio Namnen**.",
+    },
+    paragraphs: {
+      tr: [
+        "Zecharia Sitchin’in kroniklerinde **Marduk** (*‘Saf Höyüğün/Güneşin Oğlu’*), bilge **Enki** ile resmî eşi **Damkina**’nın (*Ninki*) meşru ilk oğludur. Babası Enki, veraset kuralları yüzünden üvey kardeşi Enlil’e bıraktığı başhükümdarlık makamını kabullenmiş olsa da; genç ve ateşli prens Marduk kendi soyunun meşru üstünlüğünden asla vazgeçmemiştir.",
+        "Sitchin’e göre Tufan sonrasında topraklar paylaştırılırken Mezopotamya (Birinci Bölge) Enliloğullarına, **Mısır / Nil Vadisi (İkinci Bölge)** ise Enki soyuna verilmiş ve Marduk burada **Ra (daha sonra sürgün/gizlenme döneminde Amen-Ra)** adıyla hüküm sürmüştür. Ancak Marduk’un asıl hedefi dünyanın göbek bağı olan Mezopotamya’da **Bâb-ilim**’i (‘Tanrıların Kapısı’ / Babil) kurmaktı.",
+        "Marduk’un mücadelesindeki en kritik dönüm noktası **Göksel Zaman (Ekinoks Presesyonu)** bilgisidir: Dünya’nın eksen salınımı nedeniyle her ~2160 yılda bir ilkbahar ekinoksu bir önceki burca kayar. MÖ 2100 civarında Enlil’in **Boğa Çağı** (*Gugalanna*) bitip gökyüzünde **Koç Çağı (Marduk’un Burcu)** doğduğunda, Marduk göksel vaktin kendisine geçtiğini ilan etmiş; *Enûma Eliš* destanında anlatıldığı üzere hem gökyüzündeki **Nibiru** gezegeniyle özdeşleşmiş hem de babası Enki’nin onayıyla **50 İlahi Unvanı (Ellilik Rütbesini)** alarak Babil’in başhükümdarı olmuştur.",
+      ],
+      en: [
+        "In **Zecharia Sitchin's** chronicles, **Marduk** ('Son of the Pure Mound / Sun') is the firstborn son of **Enki** and his official consort **Damkina**. While Enki accepted the succession law that placed his half-brother Enlil in supreme command, young Marduk never relinquished his lineage's claim to sovereignty.",
+        "According to Sitchin, when the post-Diluvial lands were apportioned, Mesopotamia (the First Region) was held by Enlil's descendants while the Nile Valley (the Second Region) came under Enki's domain, where Marduk reigned as **Ra (and during his exile, Amen-Ra)**. Yet Marduk's enduring vision was to establish **Bâb-ilim ('Gate of the Gods' — Babylon)** as the axis of Earth.",
+        "The decisive key in Marduk's rise was **Precessional Astronomy**: every ~2,160 years, the vernal equinox shifts by one zodiacal house. When the sky clock moved out of Enlil's **Age of Taurus** into the **Age of Aries (the Ram of Marduk)** around 2100 BCE, Marduk proclaimed the dawn of his era and received the **Fifty Names** recorded in *Enûma Eliš*.",
+      ],
+      sv: [
+        "I **Zecharia Sitchins** krönikor är **Marduk** ('Den Rena Högens / Solens Son') den förstfödde sonen till **Enki** och hans gemål **Damkina**. Medan Enki fogade sig i att halvbrodern Enlil bar överbefälet, gav Marduk aldrig upp sitt anspråk på sin ätts rättmätiga ställning.",
+        "Enligt Sitchin härskade Marduk i Egypten (Andra Regionen) under namnet **Ra / Amen-Ra**, men hans blick var alltid riktad mot att grunda **Bâb-ilim ('Gudarnas Port' — Babylon)** i hjärtat av Mesopotamien.",
+        "Avgörandet kom genom **Precessionsastronomin**: när vårdagjämningspunkten omkring 2100 f.Kr. lämnade Enlils **Oxens tidsålder** och trädde in i **Vädurens tidsålder (Marduks tecken)** förkunnade Marduk att hans tid var inne och mottog de **Femtio Namnen** i *Enûma Eliš*.",
+      ],
+    },
+    keyPoints: {
+      tr: [
+        "Marduk & Ra Özdeşliği: Sitchin’e göre Mezopotamya’daki Marduk ile Mısır’daki Güneş Efendisi Ra/Amen-Ra aynı tarihsel/kozmik kişiliktir.",
+        "Boğa’dan Koç’a Presesyon: Enlil’in Boğa Çağı kapanırken Marduk’un gökyüzündeki Koç takımyıldızı doğumuyla kendi çağını ilan etmesi.",
+        "Bâb-ilim (Babil): ‘Tanrıların Kapısı’; Marduk’un Nippur’a alternatif olarak kurduğu yeni dünya merkezi ve Esagila Tapınağı.",
+        "Enûma Eliš ve 50 İsim: Gökyüzünde Nibiru gezegeninin Tiamat’ı aşarak güneş sistemini düzenlemesi, yeryüzünde ise Marduk’un 50 unvanı alması.",
+      ],
+      en: [
+        "Marduk & Ra Identity: Sitchin's thesis uniting Babylonian Marduk with Egyptian Ra / Amen-Ra.",
+        "Precession from Taurus to Aries: Reading the astronomical shift of the vernal equinox into the Ram.",
+        "Bâb-ilim (Babylon): 'Gate of the Gods', founded by Marduk with the great sanctuary of Esagila.",
+        "Enûma Eliš & The Fifty Names: The dual cosmic and earthly triumph transferring rank 50 to Marduk.",
+      ],
+      sv: [
+        "Marduk & Ra: Sitchins koppling mellan Babylons Marduk och Egyptens Ra / Amen-Ra.",
+        "Från Oxen till Väduren: Hur vårdagjämningens skifte markerade den nya tidsåldern.",
+        "Bâb-ilim (Babylon): 'Gudarnas Port' och Esagila-helgedomen som nytt världscentrum.",
+        "Enûma Eliš & De Femtio Namnen: Överlämnandet av den högsta rangen (50) till Marduk.",
+      ],
+    },
+    practice: {
+      tr: {
+        title: "Günlük Uygulama · ‘Kendi Koç Çağı’nı Okuma ve Merkez Kurma’",
+        steps: [
+          "Marduk’un en büyük sırrı **‘Zamanın değiştiğini herkesten önce görmek’**ti. Bugün hayatında artık süresi dolmuş (eski ‘Boğa Çağı’nda kalmış) bir alışkanlığını veya bağımlılığını tespit et.",
+          "Başkalarının sana alan açmasını beklemek yerine, kendi işinde ve hayatında **‘kendi Bâb-ilim’ini (merkezini)** kurmak için bugün hangi cesur kararı alman gerektiğini yaz.",
+          "Sürgün veya gecikme yaşadığın konularda umutsuzluğa kapılma; vakti gelen güneşin (Ra/Marduk) doğuşunu hiçbir bulut engelleyemez.",
+        ],
+      },
+      en: {
+        title: "Daily Practice · 'Reading Your Own New Age and Claiming Your Center'",
+        steps: [
+          "Marduk's core strength was **recognizing when the cosmic clock had turned**. Identify one outdated habit or role in your life whose season has already passed.",
+          "Instead of waiting for others to grant you permission, write down one decisive step to build your own center ('your Bâb-ilim') today.",
+          "Remember that delays and exiles are temporary when your preparation aligns with the right hour.",
+        ],
+      },
+      sv: {
+        title: "Daglig Praktik · 'Att Läsa Sin Nya Tidsålder och Inta Sitt Centrum'",
+        steps: [
+          "Marduks främsta styrka var att **se när det kosmiska uret hade slagit om**. Identifiera en gammal roll eller vana vars tid redan är förbi.",
+          "I stället för att vänta på andras tillåtelse, skriv ner ett beslutsamt steg för att bygga ditt eget centrum i dag.",
+          "Minns att ingen motgång kan hejda det vars rätta tid har kommit.",
+        ],
+      },
+    },
+    closing: {
+      tr: "Eski çağın bekçileri saati durdurmak ister; uyanık ruh ise doğan yeni burcu gökyüzünde ilk görendir.",
+      en: "The guardians of the old age try to hold back the clock; the awakened spirit is the first to read the new sign on the horizon.",
+      sv: "Den gamla tidens väktare vill hålla tillbaka uret; den vakna själen är den första som ser det nya tecknet stiga vid horisonten.",
+    },
+  },
+  {
     slug: "anadolu-ocak-kultu-ve-kul",
     glyph: "🔥",
     traditionTag: {

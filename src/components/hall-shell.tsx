@@ -4,6 +4,7 @@ import Link from "next/link";
 import { languageLabel, languages } from "@/lib/copy";
 import { HearthAmbienceButton } from "@/components/hearth-ambience";
 import { useLanguage } from "@/components/language";
+import { CandlelightToggle, ReadingProgressBar } from "@/components/reading-comfort";
 import { RoomSearch } from "@/components/room-search";
 import { SavedSealsDrawer } from "@/components/saved-seals";
 
@@ -12,6 +13,7 @@ export function HallShell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="wet-slate min-h-full text-chalk">
+      <ReadingProgressBar />
       <a
         href="#icerik"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-ink focus:px-3 focus:py-2 focus:text-chalk"
@@ -31,6 +33,7 @@ export function HallShell({ children }: { children: React.ReactNode }) {
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
             <RoomSearch />
             <HearthAmbienceButton />
+            <CandlelightToggle />
             <SavedSealsDrawer />
             <div className="flex items-center gap-2" role="group" aria-label={languageLabel[lang]}>
               {languages.map((code) => (

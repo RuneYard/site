@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { BirthSealFinder } from "@/components/birth-seal-finder";
 import { HallShell } from "@/components/hall-shell";
 import { HearthAsk } from "@/components/hearth-ask";
 import { SanctumAstrolabe } from "@/components/sanctum-astrolabe";
@@ -138,7 +139,7 @@ export default function Home() {
             })}
           </ul>
 
-          <div className="mt-4">
+          <div className="mt-4 grid gap-4 lg:grid-cols-2">
             <Link
               href="/gunluk"
               className="hearth-sanctum group flex flex-col justify-between gap-4 border border-amber/40 px-6 py-5 transition-colors hover:border-amber sm:flex-row sm:items-center"
@@ -147,10 +148,10 @@ export default function Home() {
                 <span className="text-[10px] font-semibold tracking-[0.22em] text-amber uppercase">
                   🔥{" "}
                   {lang === "en"
-                    ? "XIV DAILY HEARTH LEAVES · NEW ANCIENT TOPIC EVERY DAY"
+                    ? "XVI DAILY HEARTH LEAVES · SITCHIN, ENKI & MARDUK"
                     : lang === "sv"
-                      ? "XIV DAGLIGA HÄRDBLAD · NYTT FORNTIDA ÄMNE VARJE DAG"
-                      : "XIV GÜNLÜK OCAK YAPRAĞI · HER GÜN YENİ BİR KADİM KONU"}
+                      ? "XVI DAGLIGA HÄRDBLAD · SITCHIN, ENKI & MARDUK"
+                      : "XVI GÜNLÜK OCAK YAPRAĞI · SİTCHİN, ENKİ & MARDUK"}
                 </span>
                 <span className="mt-1.5 block font-display text-2xl font-medium text-chalk transition-colors group-hover:text-amber sm:text-3xl">
                   {lang === "en"
@@ -161,17 +162,52 @@ export default function Home() {
                 </span>
                 <span className="mt-1 block text-sm text-chalk/75">
                   {lang === "en"
-                    ? "Previously untold primary-source studies in Altai hearth lore, Icelandic manuscripts, Babylonian tablets, Celtic Dark Houses, and classical star wisdom."
+                    ? "Primary-source studies: Zecharia Sitchin’s Lost Book of Enki, Marduk-Ra & the Age of Aries, Altai Od Ana, Huld Manuscript, and 36 Decans."
                     : lang === "sv"
-                      ? "Tidigare oberättade studier i altajsk härdkult, isländska handskrifter, babyloniska tavlor och klassisk stjärnlära."
-                      : "Daha önce hiçbir odada işlenmemiş birincil kaynaklar: Od Ana, 1860 Huld El Yazması, Babil Akītu Yemini, Kelt Karanlık İnzivası, Vörðr, Yada Taşı ve 36 Dekan."}
+                      ? "Primärkällstudier: Zecharia Sitchins Enkis förlorade bok, Marduk-Ra & Vädurens tidsålder, Od Ana och Huld-handskriften."
+                      : "Zecharia Sitchin’in Enki’nin Kayıp Kitabı, Marduk-Ra ve Koç Çağı, Od Ana, 1860 Huld El Yazması, Babil Akītu Yemini, Vörðr ve Yada Taşı."}
                 </span>
               </div>
               <span className="shrink-0 border border-amber/50 bg-amber/15 px-4 py-2.5 font-display text-xs font-semibold tracking-[0.18em] text-amber uppercase transition-colors group-hover:bg-amber group-hover:text-ink">
                 {t.open} →
               </span>
             </Link>
+
+            <Link
+              href="/sozluk"
+              className="card-slate group flex flex-col justify-between gap-4 border border-chalk/20 px-6 py-5 transition-colors hover:border-amber/60 sm:flex-row sm:items-center"
+            >
+              <div>
+                <span className="text-[10px] font-semibold tracking-[0.22em] text-amber/90 uppercase">
+                  📖{" "}
+                  {lang === "en"
+                    ? "WINTER HALL LEXICON · VI ANCIENT TRADITIONS"
+                    : lang === "sv"
+                      ? "VINTERHALLEN ORDBOK · VI FORNTIDA TRADITIONER"
+                      : "KIŞ ODASI SÖZLÜĞÜ · VI KADİM GELENEK DİZİNİ"}
+                </span>
+                <span className="mt-1.5 block font-display text-2xl font-medium text-chalk transition-colors group-hover:text-amber sm:text-3xl">
+                  {lang === "en"
+                    ? "Lexicon of Ancient Terms & Etymologies"
+                    : lang === "sv"
+                      ? "Ordbok över Forntida Termer & Etymologi"
+                      : "Kadim Terimler Sözlüğü ve Etimoloji"}
+                </span>
+                <span className="mt-1 block text-sm text-chalk/75">
+                  {lang === "en"
+                    ? "Pronunciation, linguistic roots, and definitions of Abzu, ME, Nibiru, Marduk-Ra, Ørlög, Galdr, Fidhchell, Tös, and Hermetic Decans."
+                    : lang === "sv"
+                      ? "Uttal, språkliga rötter och definitioner av Abzu, ME, Nibiru, Marduk-Ra, Ørlög, Galdr, Fidhchell, Tös och dekaner."
+                      : "Abzu, ME, Şimti, Nibiru, Marduk-Ra, Ørlög, Galdr, Vörðr, Aicme, Tös, Düngür ve 36 Dekan kavramlarının telaffuz ve etimolojisi."}
+                </span>
+              </div>
+              <span className="shrink-0 border border-chalk/30 bg-black/50 px-4 py-2.5 font-display text-xs font-semibold tracking-[0.18em] text-chalk uppercase transition-colors group-hover:border-amber group-hover:text-amber">
+                {t.open} →
+              </span>
+            </Link>
           </div>
+
+          <BirthSealFinder />
         </div>
       </main>
     </HallShell>

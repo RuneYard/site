@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useLanguage } from "@/components/language";
+import { SealCardGenerator } from "@/components/seal-card-generator";
 
 type OghamFew = {
   index: number;
@@ -612,13 +613,22 @@ export function OghamOracle() {
           {current.teaching[lang]}
         </p>
 
-        <div className="mt-5 border-t border-chalk/12 pt-4">
+        <div className="mt-5 flex flex-wrap items-center justify-between gap-4 border-t border-chalk/12 pt-4">
           <Link
             href={`/kelt/${current.aicmeSlug}`}
             className="font-display text-xs tracking-[0.16em] text-chalk uppercase hover:underline"
           >
             {ui.openAicme}
           </Link>
+          <SealCardGenerator
+            filename={`runeyard-ogham-${current.oldIrish.toLowerCase()}`}
+            badge={`KELT OGHAM FEW ${String(current.index).padStart(2, "0")} / XX · ${current.aicmeLabel.toUpperCase()}`}
+            glyph={current.glyph}
+            title={`${current.oldIrish} · ${current.tree[lang]}`}
+            subtitle={current.seasonSpan[lang]}
+            body={current.teaching[lang]}
+            quote={current.kenning[lang]}
+          />
         </div>
       </article>
     </section>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useLanguage } from "@/components/language";
+import { SealCardGenerator } from "@/components/seal-card-generator";
 import type { Lang } from "@/lib/copy";
 
 type KumalakSpread = {
@@ -324,6 +325,24 @@ export function KumalakOracle() {
                 ))}
               </ul>
             </div>
+          </div>
+
+          <div className="mt-4 flex justify-end border-t border-chalk/12 pt-4">
+            <SealCardGenerator
+              filename="runeyard-41-kumalak-acilimi"
+              badge="ALTAY & KAZAK · 41 KUMALAK (ТӨРТКҮЛ) KEHANET SOFRASI"
+              title="41 Kumalak · 3×3 Törtkül Açılımı"
+              subtitle={`${ui.statsLabel}: ${spread.totalOnGrid} / 41 · ${ui.poolLabel}: ${spread.remainingPool}`}
+              body={interpretSpread(spread, lang).join(" ")}
+              stones={[0, 1, 2].map((rIdx) => ({
+                positionTag: ui.rows[rIdx].name,
+                glyph: spread.grid[rIdx].map((c) => `${c}`).join("·"),
+                name: `${ui.rows[rIdx].name} (${spread.rowSums[rIdx]} Taş)`,
+                subtitle: ui.rows[rIdx].world,
+                flowLabel: `${spread.grid[rIdx][0]} - ${spread.grid[rIdx][1]} - ${spread.grid[rIdx][2]}`,
+                note: interpretSpread(spread, lang)[rIdx] || "",
+              }))}
+            />
           </div>
         </div>
       )}
