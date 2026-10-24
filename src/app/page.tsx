@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { HearthAsk } from "@/components/hearth-ask";
-import { PortraitMark } from "@/components/portrait-mark";
+import { SanctumAstrolabe } from "@/components/sanctum-astrolabe";
 import { SkyNote } from "@/components/sky-note";
 import { useLanguage } from "@/components/language";
 
@@ -29,7 +29,7 @@ export default function Home() {
             <SkyNote />
           </div>
           <div className="order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:h-full">
-            <PortraitMark />
+            <SanctumAstrolabe />
           </div>
           <section
             id="ocak"
