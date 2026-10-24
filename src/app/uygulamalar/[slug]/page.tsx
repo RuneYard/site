@@ -16,8 +16,8 @@ export async function generateMetadata({
   const app = findAppBySlug(slug);
   if (!app) return { title: "Uygulamalar — RuneYard" };
 
-  const title = `${app.name} (${app.tagline.tr}) — iOS Uygulaması · RuneYard`;
-  const description = app.summary.tr;
+  const title = `${app.name} (${app.badge.tr}) — Mobil Uygulama · RuneYard`;
+  const description = app.line.tr;
 
   return {
     title,
@@ -28,7 +28,7 @@ export async function generateMetadata({
       description,
       url: `https://www.runeyard.net/uygulamalar/${app.slug}`,
       type: "website",
-      images: [{ url: app.icon, alt: app.name }],
+      images: [{ url: app.image, alt: app.name }],
     },
   };
 }

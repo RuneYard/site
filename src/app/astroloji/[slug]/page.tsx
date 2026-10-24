@@ -21,7 +21,7 @@ export async function generateMetadata({
   const door = findAstrologyDoor(slug);
   if (door) {
     const title = `${door.title.tr} (${door.subtitle.tr}) — Astroloji · RuneYard`;
-    const description = door.text.tr[0];
+    const description = door.summary.tr;
     return {
       title,
       description,
@@ -31,14 +31,14 @@ export async function generateMetadata({
         description,
         url: `https://www.runeyard.net/astroloji/${door.slug}`,
         type: "article",
-        images: [{ url: door.image, alt: door.title.tr }],
+        images: door.image ? [{ url: door.image, alt: door.title.tr }] : undefined,
       },
     };
   }
   const skyNote = findExtraSkyNote(slug);
   if (skyNote) {
     const title = `${skyNote.data.tr.title} — Astroloji & Burç Yorumları · RuneYard`;
-    const description = skyNote.data.tr.lead;
+    const description = skyNote.data.tr.overview;
     return {
       title,
       description,
@@ -67,8 +67,8 @@ export default async function AstrologyDoorPage({
       "@context": "https://schema.org",
       "@type": "Article",
       headline: `${door.title.tr} — ${door.subtitle.tr}`,
-      description: door.text.tr[0],
-      image: `https://www.runeyard.net${door.image}`,
+      description: door.summary.tr,
+      image: door.image ? `https://www.runeyard.net${door.image}` : undefined,
       author: { "@type": "Person", name: "Mehmet Akdeniz" },
       publisher: { "@type": "Organization", name: "RuneYard", url: "https://www.runeyard.net" },
       mainEntityOfPage: `https://www.runeyard.net/astroloji/${door.slug}`,
@@ -89,7 +89,7 @@ export default async function AstrologyDoorPage({
       "@context": "https://schema.org",
       "@type": "Article",
       headline: skyNote.data.tr.title,
-      description: skyNote.data.tr.lead,
+      description: skyNote.data.tr.overview,
       image: `https://www.runeyard.net${skyNote.image}`,
       author: { "@type": "Person", name: "Mehmet Akdeniz" },
       publisher: { "@type": "Organization", name: "RuneYard", url: "https://www.runeyard.net" },

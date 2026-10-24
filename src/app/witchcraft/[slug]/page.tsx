@@ -16,7 +16,7 @@ export async function generateMetadata({
   const door = findTraditionDoor("witchcraft", slug);
   if (!door) return { title: "Cadılık — RuneYard" };
   const title = `${door.title.tr} (${door.subtitle.tr}) — Cadılık Zanaatı · RuneYard`;
-  const description = door.text.tr[0];
+  const description = door.summary.tr;
   return {
     title,
     description,
@@ -26,7 +26,7 @@ export async function generateMetadata({
       description,
       url: `https://www.runeyard.net/witchcraft/${door.slug}`,
       type: "article",
-      images: [{ url: door.image, alt: door.title.tr }],
+      images: door.image ? [{ url: door.image, alt: door.title.tr }] : undefined,
     },
   };
 }
