@@ -3,6 +3,7 @@ import { apps } from "@/content/apps";
 import { astrologyDoors } from "@/content/astrology";
 import { educationCourses } from "@/content/education";
 import { runes } from "@/content/runes";
+import { extraSkyNotes } from "@/content/sky-notes";
 import { traditions } from "@/content/traditions";
 
 const BASE = "https://www.runeyard.net";
@@ -18,9 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/astroloji/venus-retrosu",
     "/astroloji/terazi-yeniay",
     "/astroloji/boga-dolunayi",
-    "/astroloji/merkur-retrosu",
-    "/astroloji/akrep-yeniayi",
-    "/astroloji/ikizler-dolunayi",
     "/uygulamalar",
     "/saman",
     "/kelt",
@@ -34,6 +32,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: route === "" ? "daily" : "weekly",
     priority: route === "" ? 1.0 : 0.9,
   }));
+
+  for (const note of extraSkyNotes) {
+    entries.push({
+      url: `${BASE}/astroloji/${note.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    });
+  }
 
   for (const rune of runes) {
     entries.push({
