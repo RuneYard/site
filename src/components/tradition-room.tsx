@@ -77,24 +77,36 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
         {slug === "saman" && <DreamCompass />}
 
         {!hall.closed && hall.doors.length > 0 && (
-          <ul className="mt-10 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {hall.doors.map((door) => (
               <li key={door.slug}>
                 <Link
                   href={`/${slug}/${door.slug}`}
-                  className="card-slate flex h-full min-h-52 flex-col justify-between border border-chalk/10 p-6 text-chalk"
+                  className="card-slate group flex h-full min-h-52 flex-col justify-between border border-chalk/10 p-5 text-chalk transition-colors hover:border-chalk/35"
                 >
                   <div>
-                    <span aria-hidden className="font-display text-3xl leading-none text-chalk/75">
+                    {door.image && (
+                      <div className="mb-4 overflow-hidden border border-chalk/10 bg-ink/80">
+                        <Image
+                          src={door.image}
+                          alt={door.title[lang]}
+                          width={600}
+                          height={220}
+                          className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                        />
+                      </div>
+                    )}
+                    <span aria-hidden className="font-display text-2xl leading-none text-bronze">
                       {door.glyph}
                     </span>
-                    <h2 className="mt-5 font-display text-2xl font-medium tracking-[0.01em] text-chalk">
+                    <h2 className="mt-3 font-display text-2xl font-medium tracking-[0.01em] text-chalk">
                       {door.title[lang]}
                     </h2>
-                    <p className="mt-2.5 text-sm leading-6 text-chalk/70">{door.summary[lang]}</p>
+                    <p className="mt-2 text-sm leading-6 text-chalk/70">{door.summary[lang]}</p>
                   </div>
-                  <span className="mt-6 text-[10px] tracking-[0.2em] text-chalk/45 uppercase">
-                    {t.open}
+                  <span className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.2em] text-chalk/50 uppercase group-hover:text-chalk/85">
+                    <span>{t.open}</span>
+                    <span aria-hidden>→</span>
                   </span>
                 </Link>
               </li>
@@ -239,10 +251,21 @@ function TraditionDoorView({
         )}
 
         {practice && (
-          <section className="card-slate mt-12 max-w-2xl border border-chalk/15 p-6">
+          <section className="card-slate mt-12 max-w-4xl border border-chalk/15 p-6">
             <h2 className="font-display text-xl font-medium tracking-[0.02em] text-chalk">
               {practice.title}
             </h2>
+            {door.practiceImage && (
+              <div className="my-5 overflow-hidden border border-chalk/12 bg-ink/80">
+                <Image
+                  src={door.practiceImage}
+                  alt={practice.title}
+                  width={1080}
+                  height={380}
+                  className="h-auto w-full object-cover"
+                />
+              </div>
+            )}
             <ol className="mt-4 list-decimal space-y-2.5 pl-5 text-sm leading-6 text-chalk/80">
               {practice.steps.map((step) => (
                 <li key={step}>{step}</li>

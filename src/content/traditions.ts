@@ -17,6 +17,7 @@ export type TraditionSubDoor = {
   glyph: string;
   image?: string;
   itemImages?: readonly string[];
+  practiceImage?: string;
   title: Record<Lang, string>;
   subtitle: Record<Lang, string>;
   summary: Record<Lang, string>;
@@ -199,7 +200,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Without roots, no branch touches the sky; stand firm upon the earth before reading the heavens.",
           "sv": "Utan rötter når ingen gren himlen; stå stadigt på jorden innan du läser himlavalvet."
         },
-        "image": "/saman/uc-dunya-agac.jpg"
+        "image": "/saman/uc-dunya-agac.jpg",
+        "itemImages": [
+          "/saman/item-uc-dunya-1.jpg",
+          "/saman/item-uc-dunya-2.jpg",
+          "/saman/item-uc-dunya-3.jpg",
+          "/saman/item-uc-dunya-4.jpg",
+          "/saman/item-uc-dunya-5.jpg",
+          "/saman/item-uc-dunya-6.jpg"
+        ],
+        "practiceImage": "/saman/practice-uc-dunya.jpg"
       },
       {
         "slug": "dungur-ve-nefes",
@@ -348,7 +358,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/saman/drum-4-kiris.jpg",
           "/saman/drum-5-orba.jpg",
           "/saman/drum-6-taziye.jpg"
-        ]
+        ],
+        "practiceImage": "/saman/practice-dungur-ve-nefes.jpg"
       },
       {
         "slug": "seidr-ve-kuzey",
@@ -495,7 +506,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Open the 24 Runes",
           "sv": "Öppna de 24 Runorna"
         },
-        "image": "/saman/seidr-hjallr.jpg"
+        "image": "/saman/seidr-hjallr.jpg",
+        "itemImages": [
+          "/saman/item-seidr-ve-kuzey-1.jpg",
+          "/saman/item-seidr-ve-kuzey-2.jpg",
+          "/saman/item-seidr-ve-kuzey-3.jpg",
+          "/saman/item-seidr-ve-kuzey-4.jpg",
+          "/saman/item-seidr-ve-kuzey-5.jpg",
+          "/saman/item-seidr-ve-kuzey-6.jpg"
+        ],
+        "practiceImage": "/saman/practice-seidr-ve-kuzey.jpg"
       },
       {
         "slug": "erk-hayvanlari-ve-rehberler",
@@ -635,7 +655,17 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "İçindeki vahşi rehberi susturursan, ormanda yönünü şaşırırsın.",
           "en": "Silence the wild guide within, and you lose your way in the forest.",
           "sv": "Tystar du den vilda vägledaren inom dig går du vilse i skogen."
-        }
+        },
+        "image": "/saman/erk-hayvanlari-ve-rehberler.jpg",
+        "itemImages": [
+          "/saman/item-erk-hayvanlari-ve-rehberler-1.jpg",
+          "/saman/item-erk-hayvanlari-ve-rehberler-2.jpg",
+          "/saman/item-erk-hayvanlari-ve-rehberler-3.jpg",
+          "/saman/item-erk-hayvanlari-ve-rehberler-4.jpg",
+          "/saman/item-erk-hayvanlari-ve-rehberler-5.jpg",
+          "/saman/item-erk-hayvanlari-ve-rehberler-6.jpg"
+        ],
+        "practiceImage": "/saman/practice-erk-hayvanlari-ve-rehberler.jpg"
       },
       {
         "slug": "ruh-geri-cagirma",
@@ -775,7 +805,17 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Geçmişte bıraktığın hiçbir parça orada kalmak zorunda değildir; nefesin buradaysa gücün de buraya döner.",
           "en": "No part left in the past is bound to stay there; where your breath is, your strength can return.",
           "sv": "Ingen del som lämnats i det förflutna måste stanna där; där din andedräkt är kan din kraft återvända."
-        }
+        },
+        "image": "/saman/ruh-geri-cagirma.jpg",
+        "itemImages": [
+          "/saman/item-ruh-geri-cagirma-1.jpg",
+          "/saman/item-ruh-geri-cagirma-2.jpg",
+          "/saman/item-ruh-geri-cagirma-3.jpg",
+          "/saman/item-ruh-geri-cagirma-4.jpg",
+          "/saman/item-ruh-geri-cagirma-5.jpg",
+          "/saman/item-ruh-geri-cagirma-6.jpg"
+        ],
+        "practiceImage": "/saman/practice-ruh-geri-cagirma.jpg"
       },
       {
         "slug": "otacilik-ve-alan",
@@ -925,7 +965,18 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Explore Shamanism Training",
           "sv": "Utforska Schamanismutbildningen"
         },
-        "whatsapp": true
+        "whatsapp": true,
+        "image": "/saman/otacilik-ve-alan.jpg",
+        "itemImages": [
+          "/saman/item-otacilik-ve-alan-1.jpg",
+          "/saman/item-otacilik-ve-alan-2.jpg",
+          "/saman/item-otacilik-ve-alan-3.jpg",
+          "/saman/item-otacilik-ve-alan-4.jpg",
+          "/saman/item-otacilik-ve-alan-5.jpg",
+          "/saman/item-otacilik-ve-alan-6.jpg",
+          "/saman/item-otacilik-ve-alan-7.jpg"
+        ],
+        "practiceImage": "/saman/practice-otacilik-ve-alan.jpg"
       },
       {
         "slug": "demir-ocak-ve-merkut",
@@ -1066,12 +1117,21 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Demir ateşte dövülmeden çelik olmaz; kanat rüzgâra açılmadan göğü bilmez.",
           "en": "Iron does not become steel without the anvil's fire; the wing does not know the sky until it opens to the wind.",
           "sv": "Järn blir inte stål utan städets eld; vingen känner inte himlen förrän den öppnas mot vinden."
-        }
+        },
+        "itemImages": [
+          "/saman/item-demir-ocak-ve-merkut-1.jpg",
+          "/saman/item-demir-ocak-ve-merkut-2.jpg",
+          "/saman/item-demir-ocak-ve-merkut-3.jpg",
+          "/saman/item-demir-ocak-ve-merkut-4.jpg",
+          "/saman/item-demir-ocak-ve-merkut-5.jpg",
+          "/saman/item-demir-ocak-ve-merkut-6.jpg"
+        ],
+        "practiceImage": "/saman/practice-demir-ocak-ve-merkut.jpg"
       },
       {
         "slug": "on-iki-hayvanli-takvim",
         "glyph": "❂",
-        "image": "/saman/on-iki-hayvan-takvim.jpg",
+        "image": "/saman/on-iki-hayvanli-takvim.jpg",
         "title": {
           "tr": "On İki Hayvanlı Gök Takvimi, Cemreler ve Gündönümü",
           "en": "The Twelve-Animal Sky Calendar, Thaws, and Solstices",
@@ -1207,7 +1267,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Göğün çarkı on iki yılda döner; cemre önce havaya, sonra suya, en son toprağa düşer.",
           "en": "The wheel of heaven turns in twelve years; the ember warms first the air, then the water, and last the earth.",
           "sv": "Himlens hjul vänder på tolv år; glöden värmer först luften, sedan vattnet och sist jorden."
-        }
+        },
+        "itemImages": [
+          "/saman/item-on-iki-hayvanli-takvim-1.jpg",
+          "/saman/item-on-iki-hayvanli-takvim-2.jpg",
+          "/saman/item-on-iki-hayvanli-takvim-3.jpg",
+          "/saman/item-on-iki-hayvanli-takvim-4.jpg",
+          "/saman/item-on-iki-hayvanli-takvim-5.jpg",
+          "/saman/item-on-iki-hayvanli-takvim-6.jpg"
+        ],
+        "practiceImage": "/saman/practice-on-iki-hayvanli-takvim.jpg"
       },
       {
         "slug": "gok-tengri-umay-erlik",
@@ -1345,7 +1414,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Göğün yasası başının üstünde, Umay’ın şefkati nefesinde, toprağın ağırlığı tabanının altındadır; insan bu üçünün ortasında uyanır.",
           "en": "The law of Sky stands above your head, Umay's grace lives in your breath, and the weight of Earth rests beneath your soles; between the three, the human awakens.",
           "sv": "Himlens lag står över ditt huvud, Umays omtanke lever i din andedräkt och jordens tyngd vilar under dina fotsulor."
-        }
+        },
+        "itemImages": [
+          "/saman/item-gok-tengri-umay-erlik-1.jpg",
+          "/saman/item-gok-tengri-umay-erlik-2.jpg",
+          "/saman/item-gok-tengri-umay-erlik-3.jpg",
+          "/saman/item-gok-tengri-umay-erlik-4.jpg",
+          "/saman/item-gok-tengri-umay-erlik-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-gok-tengri-umay-erlik.jpg"
       },
       {
         "slug": "kut-tin-sune-can",
@@ -1471,7 +1548,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Nefesin (Tın) bedende, neşen (Kut) ocağında, rüya kuşun (Yula) kendi dalında olduğunda hiçbir fırtına seni köksüz bırakamaz.",
           "en": "When your breath (Tın) is in the body, your joy (Kut) at the hearth, and your dream-bird (Yula) upon its own branch, no storm can uproot you.",
           "sv": "När din andedräkt (Tın) är i kroppen, din glädje (Kut) vid härden och din drömfågel (Yula) på sin egen gren kan ingen storm rycka upp dig."
-        }
+        },
+        "itemImages": [
+          "/saman/item-kut-tin-sune-can-1.jpg",
+          "/saman/item-kut-tin-sune-can-2.jpg",
+          "/saman/item-kut-tin-sune-can-3.jpg",
+          "/saman/item-kut-tin-sune-can-4.jpg",
+          "/saman/item-kut-tin-sune-can-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-kut-tin-sune-can.jpg"
       },
       {
         "slug": "yer-su-iyeleri",
@@ -1597,7 +1682,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Toprağa efendi gibi basan yabancı kalır; misafir gibi eğilip selam veren ise dağın ve suyun dostu olur.",
           "en": "Whoever treads the earth like a conqueror remains a stranger; whoever bows as a guest becomes friend to mountain and stream.",
           "sv": "Den som trampar jorden som härskare förblir främling; den som hälsar som gäst blir vän med berg och källa."
-        }
+        },
+        "itemImages": [
+          "/saman/item-yer-su-iyeleri-1.jpg",
+          "/saman/item-yer-su-iyeleri-2.jpg",
+          "/saman/item-yer-su-iyeleri-3.jpg",
+          "/saman/item-yer-su-iyeleri-4.jpg",
+          "/saman/item-yer-su-iyeleri-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-yer-su-iyeleri.jpg"
       },
       {
         "slug": "kam-inisiyasyon-gecis",
@@ -1723,7 +1816,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Ateşe girmeyen demir kılıç olmaz; kendi karanlığından geçmeyen insan başkasının gecesine çıra tutamaz.",
           "en": "Iron that refuses the fire never becomes a blade; one who has not walked through their own night cannot hold a lantern for another.",
           "sv": "Järn som vägrar elden blir aldrig en klinga; den som inte vandrat genom sin egen natt kan inte hålla en lykta åt en annan."
-        }
+        },
+        "itemImages": [
+          "/saman/item-kam-inisiyasyon-gecis-1.jpg",
+          "/saman/item-kam-inisiyasyon-gecis-2.jpg",
+          "/saman/item-kam-inisiyasyon-gecis-3.jpg",
+          "/saman/item-kam-inisiyasyon-gecis-4.jpg",
+          "/saman/item-kam-inisiyasyon-gecis-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-kam-inisiyasyon-gecis.jpg"
       },
       {
         "slug": "manyah-cupe-ve-zirh",
@@ -1849,7 +1950,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Zırh sadece demirden dövülmez; temiz bir niyet ve bilinçle kuşanılan sade bir örtü, en sağlam Manyak’tır.",
           "en": "Armor is not forged from iron alone; a simple mantle worn with clear intention is the truest Manyak.",
           "sv": "Rustning smids inte enbart av järn; en enkel mantel buren med ren avsikt är den starkaste Manyak."
-        }
+        },
+        "itemImages": [
+          "/saman/item-manyah-cupe-ve-zirh-1.jpg",
+          "/saman/item-manyah-cupe-ve-zirh-2.jpg",
+          "/saman/item-manyah-cupe-ve-zirh-3.jpg",
+          "/saman/item-manyah-cupe-ve-zirh-4.jpg",
+          "/saman/item-manyah-cupe-ve-zirh-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-manyah-cupe-ve-zirh.jpg"
       },
       {
         "slug": "agac-kultu-kayin-ardic",
@@ -1987,7 +2096,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Ağaç göğe dua eden topraktır; onun gövdesine elini koyan, hem kökün sabrını hem yaprağın ışığını hatırlar.",
           "en": "A tree is the earth praying toward the sky; whoever rests a hand upon its bark remembers both the patience of roots and the light of leaves.",
           "sv": "Ett träd är jorden som ber mot himlen; den som lägger handen mot dess bark minns både rötternas tålamod och lövens ljus."
-        }
+        },
+        "itemImages": [
+          "/saman/item-agac-kultu-kayin-ardic-1.jpg",
+          "/saman/item-agac-kultu-kayin-ardic-2.jpg",
+          "/saman/item-agac-kultu-kayin-ardic-3.jpg",
+          "/saman/item-agac-kultu-kayin-ardic-4.jpg",
+          "/saman/item-agac-kultu-kayin-ardic-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-agac-kultu-kayin-ardic.jpg"
       },
       {
         "slug": "bogaz-sarkisi-kay-titresim",
@@ -2113,7 +2230,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Dağ rüzgarla, nehir taşla, insan ise kendi kemiklerinde yankılanan dürüst sesle konuşur.",
           "en": "The mountain speaks through wind, the river through stone, and the human through the honest resonance of their own bones.",
           "sv": "Berget talar genom vinden, älven genom stenen och människan genom den ärliga klangen i sina egna ben."
-        }
+        },
+        "itemImages": [
+          "/saman/item-bogaz-sarkisi-kay-titresim-1.jpg",
+          "/saman/item-bogaz-sarkisi-kay-titresim-2.jpg",
+          "/saman/item-bogaz-sarkisi-kay-titresim-3.jpg",
+          "/saman/item-bogaz-sarkisi-kay-titresim-4.jpg",
+          "/saman/item-bogaz-sarkisi-kay-titresim-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-bogaz-sarkisi-kay-titresim.jpg"
       },
       {
         "slug": "utisetute-disarida-oturma",
@@ -2236,7 +2361,14 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Gündüz gözleriyle bin şey görürsün; gece karanlığında sessizce oturduğunda ise görmen gereken tek şeyi.",
           "en": "By daylight the eyes see a thousand things; sitting quietly in the night, you perceive the one thing that matters.",
           "sv": "I dagsljus ser ögat tusen ting; när du sitter stilla i natten ser du det enda som är nödvändigt."
-        }
+        },
+        "itemImages": [
+          "/saman/item-utisetute-disarida-oturma-1.jpg",
+          "/saman/item-utisetute-disarida-oturma-2.jpg",
+          "/saman/item-utisetute-disarida-oturma-3.jpg",
+          "/saman/item-utisetute-disarida-oturma-4.jpg"
+        ],
+        "practiceImage": "/saman/practice-utisetute-disarida-oturma.jpg"
       },
       {
         "slug": "alaslama-ocak-ve-tuz",
@@ -2362,7 +2494,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Penceresi rüzgara, ocağı ışığa, kalbi doğruluğa açık olan evde hiçbir ağırlık barınamaz.",
           "en": "In a house whose window is open to the wind, whose hearth is open to light, and whose heart is honest, no heaviness can linger.",
           "sv": "I ett hem vars fönster står öppet för vinden och vars hjärta är ärligt kan ingen tyngd dröja kvar."
-        }
+        },
+        "itemImages": [
+          "/saman/item-alaslama-ocak-ve-tuz-1.jpg",
+          "/saman/item-alaslama-ocak-ve-tuz-2.jpg",
+          "/saman/item-alaslama-ocak-ve-tuz-3.jpg",
+          "/saman/item-alaslama-ocak-ve-tuz-4.jpg",
+          "/saman/item-alaslama-ocak-ve-tuz-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-alaslama-ocak-ve-tuz.jpg"
       },
       {
         "slug": "kurek-kemigi-ve-kumalak",
@@ -2485,7 +2625,14 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Taş geleceği yaratmaz; senin içindeki sessiz pusulanın zaten bildiği yönü masanın üzerine görünür kılar.",
           "en": "The stone does not invent the future; it lays visibly upon the cloth the direction your quiet inner compass already knows.",
           "sv": "Stenen skapar inte framtiden; den gör den riktning synlig som din inre kompass redan anar."
-        }
+        },
+        "itemImages": [
+          "/saman/item-kurek-kemigi-ve-kumalak-1.jpg",
+          "/saman/item-kurek-kemigi-ve-kumalak-2.jpg",
+          "/saman/item-kurek-kemigi-ve-kumalak-3.jpg",
+          "/saman/item-kurek-kemigi-ve-kumalak-4.jpg"
+        ],
+        "practiceImage": "/saman/practice-kurek-kemigi-ve-kumalak.jpg"
       },
       {
         "slug": "psikopomp-ve-yas-esigi",
@@ -2611,7 +2758,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Ölüler mezarında, geçmiş kendi zamanında güzeldir; yaşayanın görevi ise ocağının ateşini bugün canlı tutmaktır.",
           "en": "The past belongs in its own time; the duty of the living is to tend the fire of today.",
           "sv": "Det förflutna vilar i sin tid; de levandes uppgift är att vårda dagens eld."
-        }
+        },
+        "itemImages": [
+          "/saman/item-psikopomp-ve-yas-esigi-1.jpg",
+          "/saman/item-psikopomp-ve-yas-esigi-2.jpg",
+          "/saman/item-psikopomp-ve-yas-esigi-3.jpg",
+          "/saman/item-psikopomp-ve-yas-esigi-4.jpg",
+          "/saman/item-psikopomp-ve-yas-esigi-5.jpg"
+        ],
+        "practiceImage": "/saman/practice-psikopomp-ve-yas-esigi.jpg"
       },
       {
         "slug": "kuzey-isiklari-kutup-yildizi",
@@ -2734,7 +2889,14 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Yıldızlar döner, mevsimler geçer; kendi içindeki Demir Kazık’ı bulan insan ise hiçbir gecede yolunu kaybetmez.",
           "en": "The stars wheel and seasons pass; whoever finds the Iron Stake within their own spine is never lost in any night.",
           "sv": "Stjärnorna kretsar och årstiderna skiftar; den som finner Järnpålen i sin egen ryggrad går aldrig vilse i natten."
-        }
+        },
+        "itemImages": [
+          "/saman/item-kuzey-isiklari-kutup-yildizi-1.jpg",
+          "/saman/item-kuzey-isiklari-kutup-yildizi-2.jpg",
+          "/saman/item-kuzey-isiklari-kutup-yildizi-3.jpg",
+          "/saman/item-kuzey-isiklari-kutup-yildizi-4.jpg"
+        ],
+        "practiceImage": "/saman/practice-kuzey-isiklari-kutup-yildizi.jpg"
       }
     ]
   },
@@ -2896,7 +3058,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "The branch that fights its season breaks; the tree that knows its root does not fear winter.",
           "sv": "Den gren som strider mot sin årstid bryts; det träd som känner sin rot fruktar inte vintern."
         },
-        "image": "/ogham/nemeton-cark.jpg"
+        "image": "/ogham/nemeton-cark.jpg",
+        "itemImages": [
+          "/kelt/item-nemeton-ve-cark-1.jpg",
+          "/kelt/item-nemeton-ve-cark-2.jpg",
+          "/kelt/item-nemeton-ve-cark-3.jpg",
+          "/kelt/item-nemeton-ve-cark-4.jpg",
+          "/kelt/item-nemeton-ve-cark-5.jpg",
+          "/kelt/item-nemeton-ve-cark-6.jpg"
+        ],
+        "practiceImage": "/kelt/practice-nemeton-ve-cark.jpg"
       },
       {
         "slug": "awen-ve-uc-kazan",
@@ -3037,7 +3208,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Water cannot rest in a tilted vessel; right the cauldron within, and wisdom finds its own way.",
           "sv": "Vatten stannar inte i ett lutande kärl; räta upp kitteln inom dig, så finner visdomen sin egen väg."
         },
-        "image": "/ogham/awen-kazan.jpg"
+        "image": "/ogham/awen-kazan.jpg",
+        "itemImages": [
+          "/kelt/item-awen-ve-uc-kazan-1.jpg",
+          "/kelt/item-awen-ve-uc-kazan-2.jpg",
+          "/kelt/item-awen-ve-uc-kazan-3.jpg",
+          "/kelt/item-awen-ve-uc-kazan-4.jpg",
+          "/kelt/item-awen-ve-uc-kazan-5.jpg",
+          "/kelt/item-awen-ve-uc-kazan-6.jpg"
+        ],
+        "practiceImage": "/kelt/practice-awen-ve-uc-kazan.jpg"
       },
       {
         "slug": "birinci-aicme",
@@ -3182,7 +3362,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/ogham/tree-f-fearn.jpg",
           "/ogham/tree-s-sail.jpg",
           "/ogham/tree-n-nion.jpg"
-        ]
+        ],
+        "practiceImage": "/kelt/practice-birinci-aicme.jpg"
       },
       {
         "slug": "ikinci-aicme",
@@ -3327,7 +3508,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/ogham/tree-t-tinne.jpg",
           "/ogham/tree-c-coll.jpg",
           "/ogham/tree-q-cert.jpg"
-        ]
+        ],
+        "practiceImage": "/kelt/practice-ikinci-aicme.jpg"
       },
       {
         "slug": "ucuncu-aicme",
@@ -3472,7 +3654,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/ogham/tree-ng-getal.jpg",
           "/ogham/tree-z-straif.jpg",
           "/ogham/tree-r-ruis.jpg"
-        ]
+        ],
+        "practiceImage": "/kelt/practice-ucuncu-aicme.jpg"
       },
       {
         "slug": "dorduncu-aicme",
@@ -3617,7 +3800,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/ogham/tree-u-ur.jpg",
           "/ogham/tree-e-edad.jpg",
           "/ogham/tree-i-idad.jpg"
-        ]
+        ],
+        "practiceImage": "/kelt/practice-dorduncu-aicme.jpg"
       },
       {
         "slug": "uclu-ocak-brigid",
@@ -3743,7 +3927,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Demiri döven çekiç, sözü ören şiir ve yarayı yıkayan pınar aynı kutsal ocağın üç kıvılcımıdır.",
           "en": "The hammer that shapes iron, the verse that shapes speech, and the well that cools fever are three sparks of one hearth.",
           "sv": "Hammaren som formar järnet, dikten som formar ordet och källan som svalkar är tre gnistor ur samma härd."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-uclu-ocak-brigid-1.jpg",
+          "/kelt/item-uclu-ocak-brigid-2.jpg",
+          "/kelt/item-uclu-ocak-brigid-3.jpg",
+          "/kelt/item-uclu-ocak-brigid-4.jpg",
+          "/kelt/item-uclu-ocak-brigid-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-uclu-ocak-brigid.jpg"
       },
       {
         "slug": "morrigan-egemenlik-ve-kuzgun",
@@ -3869,7 +4061,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Kuzgunun sesinden korkan kaçmaya mahkumdur; kendi nehir geçidinde dimdik duran ise toprağın tacını giyer.",
           "en": "Whoever fears the raven's cry flees the threshold; whoever stands firm in the river ford wears the crown of self-mastery.",
           "sv": "Den som fruktar korpens rop flyr tröskeln; den som står stadigt i vadstället bär självbehärskningens krona."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-morrigan-egemenlik-ve-kuzgun-1.jpg",
+          "/kelt/item-morrigan-egemenlik-ve-kuzgun-2.jpg",
+          "/kelt/item-morrigan-egemenlik-ve-kuzgun-3.jpg",
+          "/kelt/item-morrigan-egemenlik-ve-kuzgun-4.jpg",
+          "/kelt/item-morrigan-egemenlik-ve-kuzgun-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-morrigan-egemenlik-ve-kuzgun.jpg"
       },
       {
         "slug": "cernunnos-yaban-ve-dongu",
@@ -3995,7 +4195,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Yılanı öldüren canlılığını kaybeder, Torc’u unutan yolunu; bilge olan ikisini iki elinde dengede tutar.",
           "en": "Whoever slays the serpent loses vitality, and whoever forgets the Torc loses measure; the wise hold both in quiet balance.",
           "sv": "Den som dödar ormen förlorar sin livskraft, och den som glömmer sin Torc förlorar sitt mått; den vise håller båda i lugn balans."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-cernunnos-yaban-ve-dongu-1.jpg",
+          "/kelt/item-cernunnos-yaban-ve-dongu-2.jpg",
+          "/kelt/item-cernunnos-yaban-ve-dongu-3.jpg",
+          "/kelt/item-cernunnos-yaban-ve-dongu-4.jpg",
+          "/kelt/item-cernunnos-yaban-ve-dongu-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-cernunnos-yaban-ve-dongu.jpg"
       },
       {
         "slug": "kutsal-pinarlar-ve-su-kultu",
@@ -4121,7 +4329,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Somon bilgeliği akıntıya kapılarak değil, suyun doğduğu ilk pınara doğru yüzerek bulur.",
           "en": "The salmon finds wisdom not by drifting with the current, but by swimming back to the clear spring where the river begins.",
           "sv": "Laxen finner inte visdomen genom att driva med strömmen, utan genom att simma tillbaka till källan där floden föds."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-kutsal-pinarlar-ve-su-kultu-1.jpg",
+          "/kelt/item-kutsal-pinarlar-ve-su-kultu-2.jpg",
+          "/kelt/item-kutsal-pinarlar-ve-su-kultu-3.jpg",
+          "/kelt/item-kutsal-pinarlar-ve-su-kultu-4.jpg",
+          "/kelt/item-kutsal-pinarlar-ve-su-kultu-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-kutsal-pinarlar-ve-su-kultu.jpg"
       },
       {
         "slug": "coligny-takvimi-kutsal-zaman",
@@ -4247,7 +4463,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Gündüz sadece meyvedir; kök ve tohum her zaman bir önceki gecenin karanlığında hazırlanır.",
           "en": "Daylight is only the fruit; the root and seed are always prepared in the silence of the preceding night.",
           "sv": "Dagen är blott frukten; roten och fröet förbereds alltid i föregående natts stillhet."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-coligny-takvimi-kutsal-zaman-1.jpg",
+          "/kelt/item-coligny-takvimi-kutsal-zaman-2.jpg",
+          "/kelt/item-coligny-takvimi-kutsal-zaman-3.jpg",
+          "/kelt/item-coligny-takvimi-kutsal-zaman-4.jpg",
+          "/kelt/item-coligny-takvimi-kutsal-zaman-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-coligny-takvimi-kutsal-zaman.jpg"
       },
       {
         "slug": "bard-ovad-druid-uclusu",
@@ -4373,7 +4597,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Sözü güzelleştiren Bard, doğayı dinleyen Ovate, adaleti ayakta tutan ise Druid’dir.",
           "en": "The Bard refines the word, the Ovate listens to the forest, and the Druid upholds the peace.",
           "sv": "Barden förädlar ordet, Ovaten lyssnar till skogen och Druiden bär rättvisan."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-bard-ovad-druid-uclusu-1.jpg",
+          "/kelt/item-bard-ovad-druid-uclusu-2.jpg",
+          "/kelt/item-bard-ovad-druid-uclusu-3.jpg",
+          "/kelt/item-bard-ovad-druid-uclusu-4.jpg",
+          "/kelt/item-bard-ovad-druid-uclusu-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-bard-ovad-druid-uclusu.jpg"
       },
       {
         "slug": "tuatha-de-danann-dort-hazine",
@@ -4499,7 +4731,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Taşın sağlamlığı, mızrağın odağı, kılıcın doğruluğu ve kazanın cömertliği bir araya geldiğinde insan kendi ülkesinin bilgesi olur.",
           "en": "When the steadiness of the Stone, the focus of the Spear, the clarity of the Sword, and the generosity of the Cauldron unite, a person governs their life in wisdom.",
           "sv": "När Stenens stadga, Spjutets fokus, Svärdets klarhet och Kittelns givmildhet möts styr människan sitt liv i visdom."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-tuatha-de-danann-dort-hazine-1.jpg",
+          "/kelt/item-tuatha-de-danann-dort-hazine-2.jpg",
+          "/kelt/item-tuatha-de-danann-dort-hazine-3.jpg",
+          "/kelt/item-tuatha-de-danann-dort-hazine-4.jpg",
+          "/kelt/item-tuatha-de-danann-dort-hazine-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-tuatha-de-danann-dort-hazine.jpg"
       },
       {
         "slug": "ogma-sozun-altin-zinciri",
@@ -4625,7 +4865,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Demir zincir bedeni tutsak eder ve ilk fırsatta kırılır; doğru ve tatlı sözün altın zinciri ise gönülleri özgürce birleştirir.",
           "en": "Chains of iron bind the body and invite rebellion; the golden chain of honest, gracious speech unites hearts in freedom.",
           "sv": "Järnkedjor binder kroppen och väcker motstånd; det sanna ordets gyllene kedja förenar sinnen i frihet."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-ogma-sozun-altin-zinciri-1.jpg",
+          "/kelt/item-ogma-sozun-altin-zinciri-2.jpg",
+          "/kelt/item-ogma-sozun-altin-zinciri-3.jpg",
+          "/kelt/item-ogma-sozun-altin-zinciri-4.jpg",
+          "/kelt/item-ogma-sozun-altin-zinciri-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-ogma-sozun-altin-zinciri.jpg"
       },
       {
         "slug": "taliesin-ceridwen-kazani-awen",
@@ -4751,7 +4999,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Kazan bir yıl kaynar, bilgelik ise üç damlada gelir; önemli olan ateşi bir yıl boyunca söndürmeden bekleyebilmektir.",
           "en": "The cauldron simmers for a year, yet wisdom arrives in three drops; the secret lies in keeping the fire alive until the day of distillation.",
           "sv": "Kitteln sjuder i ett år, men visdomen kommer i tre droppar; hemligheten är att hålla elden vid liv ända till slutet."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-taliesin-ceridwen-kazani-awen-1.jpg",
+          "/kelt/item-taliesin-ceridwen-kazani-awen-2.jpg",
+          "/kelt/item-taliesin-ceridwen-kazani-awen-3.jpg",
+          "/kelt/item-taliesin-ceridwen-kazani-awen-4.jpg",
+          "/kelt/item-taliesin-ceridwen-kazani-awen-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-taliesin-ceridwen-kazani-awen.jpg"
       },
       {
         "slug": "ince-yerler-sidhe-ve-annwn",
@@ -4877,7 +5133,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Öteki Dünya yıldızların ardında saklı değildir; yavaşlayıp alacakaranlığı dinleyen göz için bir nefes uzağındadır.",
           "en": "The Otherworld is not hidden beyond distant stars; to the eye that slows down at twilight, it stands one breath away.",
           "sv": "Andra Världen är inte gömd bakom avlägsna stjärnor; för den som saktar ned i skymningen är den bara ett andetag bort."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-ince-yerler-sidhe-ve-annwn-1.jpg",
+          "/kelt/item-ince-yerler-sidhe-ve-annwn-2.jpg",
+          "/kelt/item-ince-yerler-sidhe-ve-annwn-3.jpg",
+          "/kelt/item-ince-yerler-sidhe-ve-annwn-4.jpg",
+          "/kelt/item-ince-yerler-sidhe-ve-annwn-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-ince-yerler-sidhe-ve-annwn.jpg"
       },
       {
         "slug": "druid-bitkileri-vervain-okseotu",
@@ -5003,7 +5267,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Bilgelik, zehirli olanla şifalı olanı ayırt eden bilgide ve elmanın kalbindeki gizli yıldızı gören gözdedir.",
           "en": "Wisdom lies in the knowledge that distinguishes toxin from nourishment, and in the eye that perceives the hidden star at the heart of the apple.",
           "sv": "Visdom ligger i kunskapen som skiljer gift från näring och i ögat som ser den dolda stjärnan i äpplets hjärta."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-druid-bitkileri-vervain-okseotu-1.jpg",
+          "/kelt/item-druid-bitkileri-vervain-okseotu-2.jpg",
+          "/kelt/item-druid-bitkileri-vervain-okseotu-3.jpg",
+          "/kelt/item-druid-bitkileri-vervain-okseotu-4.jpg",
+          "/kelt/item-druid-bitkileri-vervain-okseotu-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-druid-bitkileri-vervain-okseotu.jpg"
       },
       {
         "slug": "carmina-gadelica-caim-cemberi",
@@ -5129,7 +5401,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Koru külle örten sabah ateşini hazır bulur; sınırını Caim ile çizen geceyi huzurla uyur.",
           "en": "Whoever banks the ember finds a living fire at dawn; whoever draws the Caim sleeps in an unshakeable house.",
           "sv": "Den som täcker glöden med aska finner levande eld i gryningen; den som drar sin Caim vilar tryggt genom natten."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-carmina-gadelica-caim-cemberi-1.jpg",
+          "/kelt/item-carmina-gadelica-caim-cemberi-2.jpg",
+          "/kelt/item-carmina-gadelica-caim-cemberi-3.jpg",
+          "/kelt/item-carmina-gadelica-caim-cemberi-4.jpg",
+          "/kelt/item-carmina-gadelica-caim-cemberi-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-carmina-gadelica-caim-cemberi.jpg"
       },
       {
         "slug": "immram-mistik-deniz-yolculugu",
@@ -5255,7 +5535,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Her ada görülmesi gereken bir derstir; fakat gerçek denizci hiçbir geçici kıyıyı kendi vatanı sanmaz.",
           "en": "Every island along the way holds a lesson; yet the true mariner never mistakes a passing shore for home.",
           "sv": "Varje ö bär en lärdom, men den sanne sjöfararen förväxlar aldrig en tillfällig strand med sitt hem."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-immram-mistik-deniz-yolculugu-1.jpg",
+          "/kelt/item-immram-mistik-deniz-yolculugu-2.jpg",
+          "/kelt/item-immram-mistik-deniz-yolculugu-3.jpg",
+          "/kelt/item-immram-mistik-deniz-yolculugu-4.jpg",
+          "/kelt/item-immram-mistik-deniz-yolculugu-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-immram-mistik-deniz-yolculugu.jpg"
       },
       {
         "slug": "brehon-yasalari-agac-haklari",
@@ -5381,7 +5669,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Ağaca mahkemede bile onur hakkı tanıyan bir gelenek, insanın doğanın efendisi değil, yalnızca onun komşusu olduğunu unutmamıştır.",
           "en": "A civilization that granted legal honor-price to an oak tree understood that humanity is not the master of the forest, but its neighbor.",
           "sv": "En kultur som gav eken ett juridiskt hederspris i domstolen glömde aldrig att människan inte är skogens härskare, utan dess granne."
-        }
+        },
+        "itemImages": [
+          "/kelt/item-brehon-yasalari-agac-haklari-1.jpg",
+          "/kelt/item-brehon-yasalari-agac-haklari-2.jpg",
+          "/kelt/item-brehon-yasalari-agac-haklari-3.jpg",
+          "/kelt/item-brehon-yasalari-agac-haklari-4.jpg",
+          "/kelt/item-brehon-yasalari-agac-haklari-5.jpg"
+        ],
+        "practiceImage": "/kelt/practice-brehon-yasalari-agac-haklari.jpg"
       }
     ]
   },
@@ -5549,7 +5845,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Open Astrology Notes",
           "sv": "Öppna Astrologianteckningar"
         },
-        "image": "/mezopotamya/ziggurat-yildizlar.jpg"
+        "image": "/mezopotamya/ziggurat-yildizlar.jpg",
+        "itemImages": [
+          "/mezopotamya/item-ziggurat-ve-yildizlar-1.jpg",
+          "/mezopotamya/item-ziggurat-ve-yildizlar-2.jpg",
+          "/mezopotamya/item-ziggurat-ve-yildizlar-3.jpg",
+          "/mezopotamya/item-ziggurat-ve-yildizlar-4.jpg",
+          "/mezopotamya/item-ziggurat-ve-yildizlar-5.jpg",
+          "/mezopotamya/item-ziggurat-ve-yildizlar-6.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-ziggurat-ve-yildizlar.jpg"
       },
       {
         "slug": "abzu-ve-asalluhi",
@@ -5690,7 +5995,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Storms belong to the surface; whoever descends to the deep water of the Abzu remains clear beneath turbulence.",
           "sv": "Stormen hör till ytan; den som stiger ned till Abzus djupa vatten förblir klar under virvlarna."
         },
-        "image": "/mezopotamya/abzu-asalluhi.jpg"
+        "image": "/mezopotamya/abzu-asalluhi.jpg",
+        "itemImages": [
+          "/mezopotamya/item-abzu-ve-asalluhi-1.jpg",
+          "/mezopotamya/item-abzu-ve-asalluhi-2.jpg",
+          "/mezopotamya/item-abzu-ve-asalluhi-3.jpg",
+          "/mezopotamya/item-abzu-ve-asalluhi-4.jpg",
+          "/mezopotamya/item-abzu-ve-asalluhi-5.jpg",
+          "/mezopotamya/item-abzu-ve-asalluhi-6.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-abzu-ve-asalluhi.jpg"
       },
       {
         "slug": "inanna-ve-yedi-kapi",
@@ -5837,7 +6151,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Read Venus Retrograde Note",
           "sv": "Läs Anteckningen om Venus Retrograd"
         },
-        "image": "/mezopotamya/inanna-yedi-kapi.jpg"
+        "image": "/mezopotamya/inanna-yedi-kapi.jpg",
+        "itemImages": [
+          "/mezopotamya/item-inanna-ve-yedi-kapi-1.jpg",
+          "/mezopotamya/item-inanna-ve-yedi-kapi-2.jpg",
+          "/mezopotamya/item-inanna-ve-yedi-kapi-3.jpg",
+          "/mezopotamya/item-inanna-ve-yedi-kapi-4.jpg",
+          "/mezopotamya/item-inanna-ve-yedi-kapi-5.jpg",
+          "/mezopotamya/item-inanna-ve-yedi-kapi-6.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-inanna-ve-yedi-kapi.jpg"
       },
       {
         "slug": "ay-tanrisi-sin",
@@ -5978,7 +6301,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "The waning Moon does not fear its darkening, knowing that on the third night of stillness it rises again as a crescent.",
           "sv": "Den avtagande månen fruktar inte mörkret, ty den vet att den på tredje natten stiger upp på nytt som skära."
         },
-        "image": "/mezopotamya/ay-tanrisi-sin.jpg"
+        "image": "/mezopotamya/ay-tanrisi-sin.jpg",
+        "itemImages": [
+          "/mezopotamya/item-ay-tanrisi-sin-1.jpg",
+          "/mezopotamya/item-ay-tanrisi-sin-2.jpg",
+          "/mezopotamya/item-ay-tanrisi-sin-3.jpg",
+          "/mezopotamya/item-ay-tanrisi-sin-4.jpg",
+          "/mezopotamya/item-ay-tanrisi-sin-5.jpg",
+          "/mezopotamya/item-ay-tanrisi-sin-6.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-ay-tanrisi-sin.jpg"
       },
       {
         "slug": "marukka-maruttuku",
@@ -6119,7 +6451,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Unnamed fear grows in the dark; every force called by its true name enters into dialogue.",
           "sv": "Namnlös fruktan växer i mörkret; varje kraft som nämns vid sitt sanna namn träder i samtal."
         },
-        "image": "/mezopotamya/marukka-elli-isim.jpg"
+        "image": "/mezopotamya/marukka-elli-isim.jpg",
+        "itemImages": [
+          "/mezopotamya/item-marukka-maruttuku-1.jpg",
+          "/mezopotamya/item-marukka-maruttuku-2.jpg",
+          "/mezopotamya/item-marukka-maruttuku-3.jpg",
+          "/mezopotamya/item-marukka-maruttuku-4.jpg",
+          "/mezopotamya/item-marukka-maruttuku-5.jpg",
+          "/mezopotamya/item-marukka-maruttuku-6.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-marukka-maruttuku.jpg"
       },
       {
         "slug": "apkallu-ve-muhur",
@@ -6260,7 +6601,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "The knot tied by the hand is unbound by the hand and the true word.",
           "sv": "Den knut som handen har knutit löses av handen och det sanna ordet."
         },
-        "image": "/mezopotamya/apkallu-muhur.jpg"
+        "image": "/mezopotamya/apkallu-muhur.jpg",
+        "itemImages": [
+          "/mezopotamya/item-apkallu-ve-muhur-1.jpg",
+          "/mezopotamya/item-apkallu-ve-muhur-2.jpg",
+          "/mezopotamya/item-apkallu-ve-muhur-3.jpg",
+          "/mezopotamya/item-apkallu-ve-muhur-4.jpg",
+          "/mezopotamya/item-apkallu-ve-muhur-5.jpg",
+          "/mezopotamya/item-apkallu-ve-muhur-6.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-apkallu-ve-muhur.jpg"
       },
       {
         "slug": "gilgamis-ve-derinlik",
@@ -6401,7 +6751,16 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Yılan derisini değiştirir, insan ise geride bıraktığı sözü ve eseriyle yaşar.",
           "en": "The serpent renews its skin, but a human being endures through the integrity of word and work.",
           "sv": "Ormen ömsar sitt skinn, men människan lever vidare genom ordets och verkets redbarhet."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-gilgamis-ve-derinlik-1.jpg",
+          "/mezopotamya/item-gilgamis-ve-derinlik-2.jpg",
+          "/mezopotamya/item-gilgamis-ve-derinlik-3.jpg",
+          "/mezopotamya/item-gilgamis-ve-derinlik-4.jpg",
+          "/mezopotamya/item-gilgamis-ve-derinlik-5.jpg",
+          "/mezopotamya/item-gilgamis-ve-derinlik-6.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-gilgamis-ve-derinlik.jpg"
       },
       {
         "slug": "keldani-duzeni-ve-zodyak",
@@ -6556,7 +6915,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Astroloji Odasına Geç",
           "en": "Enter Astrology Hall",
           "sv": "Gå till Astrologirummet"
-        }
+        },
+        "practiceImage": "/mezopotamya/practice-keldani-duzeni-ve-zodyak.jpg"
       },
       {
         "slug": "enuma-elis-kozmik-duzen",
@@ -6682,7 +7042,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Adlandırılmamış korku okyanus kadar büyür; adı konmuş ve ölçülmüş sorun ise üzerinden geçilen bir köprü olur.",
           "en": "Unnamed fear swells like an ocean; once named and measured, it becomes solid ground beneath your feet.",
           "sv": "Onämnd fruktan växer som ett urhav; när den får namn och mått blir den fast mark under fötterna."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-enuma-elis-kozmik-duzen-1.jpg",
+          "/mezopotamya/item-enuma-elis-kozmik-duzen-2.jpg",
+          "/mezopotamya/item-enuma-elis-kozmik-duzen-3.jpg",
+          "/mezopotamya/item-enuma-elis-kozmik-duzen-4.jpg",
+          "/mezopotamya/item-enuma-elis-kozmik-duzen-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-enuma-elis-kozmik-duzen.jpg"
       },
       {
         "slug": "asipu-ve-asu-iki-sifaci",
@@ -6808,7 +7176,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Yarayı saran hekimin eli (Asû) ile kalbi ferahlatan bilgenin sözü (Āšipu) birleştiğinde şifa tamamlanır.",
           "en": "When the physician's hand (Asû) tends the body and the counselor's word (Āšipu) quiets the heart, wholeness is restored.",
           "sv": "När läkarens hand (Asû) vårdar kroppen och rådgivarens ord (Āšipu) ger hjärtat frid möts de två vingarna."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-asipu-ve-asu-iki-sifaci-1.jpg",
+          "/mezopotamya/item-asipu-ve-asu-iki-sifaci-2.jpg",
+          "/mezopotamya/item-asipu-ve-asu-iki-sifaci-3.jpg",
+          "/mezopotamya/item-asipu-ve-asu-iki-sifaci-4.jpg",
+          "/mezopotamya/item-asipu-ve-asu-iki-sifaci-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-asipu-ve-asu-iki-sifaci.jpg"
       },
       {
         "slug": "gilgamis-olumsuzluk-ve-bilgelik",
@@ -6934,7 +7310,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Yılan gençlik otunu alır, fakat bilgenin ördüğü sağlam duvar ve söylediği doğru söz binlerce yıl ayakta kalır.",
           "en": "The serpent takes the herb of youth, yet the honest wall built by the wise stands for millennia.",
           "sv": "Ormen tar ungdomens ört, men den mur som byggts i visdom och sanning står kvar genom årtusendena."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-gilgamis-olumsuzluk-ve-bilgelik-1.jpg",
+          "/mezopotamya/item-gilgamis-olumsuzluk-ve-bilgelik-2.jpg",
+          "/mezopotamya/item-gilgamis-olumsuzluk-ve-bilgelik-3.jpg",
+          "/mezopotamya/item-gilgamis-olumsuzluk-ve-bilgelik-4.jpg",
+          "/mezopotamya/item-gilgamis-olumsuzluk-ve-bilgelik-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-gilgamis-olumsuzluk-ve-bilgelik.jpg"
       },
       {
         "slug": "enuma-anu-enlil-gok-kehaneti",
@@ -7060,7 +7444,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Gökyüzü korkutmak için değil, hazırlıklı olalım diye konuşur; yıldızların yazısını okuyan fırtınaya şaşırmaz.",
           "en": "The sky speaks not to terrify, but to prepare; whoever reads the writing of the stars is never ambushed by the season.",
           "sv": "Himlen talar inte för att skrämma, utan för att förbereda; den som läser stjärnornas skrift överraskas inte av skiftet."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-enuma-anu-enlil-gok-kehaneti-1.jpg",
+          "/mezopotamya/item-enuma-anu-enlil-gok-kehaneti-2.jpg",
+          "/mezopotamya/item-enuma-anu-enlil-gok-kehaneti-3.jpg",
+          "/mezopotamya/item-enuma-anu-enlil-gok-kehaneti-4.jpg",
+          "/mezopotamya/item-enuma-anu-enlil-gok-kehaneti-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-enuma-anu-enlil-gok-kehaneti.jpg"
       },
       {
         "slug": "nisaba-ve-nabu-civi-yazisi",
@@ -7186,7 +7578,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Söz rüzgarda uçar, fakat kalemin sabırla kazıdığı harf zamanın nehrini aşar.",
           "en": "Spoken words scatter on the wind, but the line inscribed with patient care crosses the river of time.",
           "sv": "Det talade ordet flyger med vinden, men den rad som ristas med tålamod färdas över tidens flod."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-nisaba-ve-nabu-civi-yazisi-1.jpg",
+          "/mezopotamya/item-nisaba-ve-nabu-civi-yazisi-2.jpg",
+          "/mezopotamya/item-nisaba-ve-nabu-civi-yazisi-3.jpg",
+          "/mezopotamya/item-nisaba-ve-nabu-civi-yazisi-4.jpg",
+          "/mezopotamya/item-nisaba-ve-nabu-civi-yazisi-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-nisaba-ve-nabu-civi-yazisi.jpg"
       },
       {
         "slug": "ziqiqu-babil-ruya-kitabi",
@@ -7310,7 +7710,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Gece esintisiyle (Zaqīqu) gelen mesaj dinlenir, ağırlığı ise sabah suyunda çözülüp (Pašāru) toprağa geri verilir.",
           "en": "What arrives on the night breeze (Zaqīqu) is listened to for its counsel, and its heaviness is untied (Pašāru) in the morning water.",
           "sv": "Det som kommer med nattbrisen (Zaqīqu) lyssnar vi till, och dess tyngd löser vi upp (Pašāru) i morgonens klara vatten."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-ziqiqu-babil-ruya-kitabi-1.jpg",
+          "/mezopotamya/item-ziqiqu-babil-ruya-kitabi-2.jpg",
+          "/mezopotamya/item-ziqiqu-babil-ruya-kitabi-3.jpg",
+          "/mezopotamya/item-ziqiqu-babil-ruya-kitabi-4.jpg",
+          "/mezopotamya/item-ziqiqu-babil-ruya-kitabi-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-ziqiqu-babil-ruya-kitabi.jpg"
       },
       {
         "slug": "imago-mundi-babil-haritasi",
@@ -7433,7 +7841,14 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Kıyıdaki güvenli şehirde kalmak rahattır; fakat yıldız adaları (Nagû) yalnızca Acı Deniz’i geçenlere açılır.",
           "en": "The familiar city is comfortable, yet the star-islands (Nagû) reveal themselves only to those willing to row across the Bitter Sea.",
           "sv": "Den välkända staden är trygg, men stjärnöarna (Nagû) öppnar sig endast för den som vågar korsa det Bittra Havet."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-imago-mundi-babil-haritasi-1.jpg",
+          "/mezopotamya/item-imago-mundi-babil-haritasi-2.jpg",
+          "/mezopotamya/item-imago-mundi-babil-haritasi-3.jpg",
+          "/mezopotamya/item-imago-mundi-babil-haritasi-4.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-imago-mundi-babil-haritasi.jpg"
       },
       {
         "slug": "lamassu-ve-esik-muhafizlari",
@@ -7556,7 +7971,14 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Eşiğini akıl, yüksek görüş, sabır ve cesaretle bekleyen eve kaos adım atamaz.",
           "en": "No chaos can breach a threshold guarded by reason, wide vision, patience, and courage.",
           "sv": "Inget kaos kan bryta igenom en tröskel som vaktas av förnuft, överblick, tålamod och mod."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-lamassu-ve-esik-muhafizlari-1.jpg",
+          "/mezopotamya/item-lamassu-ve-esik-muhafizlari-2.jpg",
+          "/mezopotamya/item-lamassu-ve-esik-muhafizlari-3.jpg",
+          "/mezopotamya/item-lamassu-ve-esik-muhafizlari-4.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-lamassu-ve-esik-muhafizlari.jpg"
       },
       {
         "slug": "surpu-ve-maqlu-ates-arinmasi",
@@ -7682,7 +8104,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Dilinin söylediği ile kalbinin bildiği bir olduğunda, hiçbir düğüm (Māmītu) seni bağlayamaz.",
           "en": "When what your mouth speaks and what your heart knows are one, no knot (Māmītu) can bind you.",
           "sv": "När det din mun talar och det ditt hjärta vet är ett kan ingen knut (Māmītu) binda dig."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-surpu-ve-maqlu-ates-arinmasi-1.jpg",
+          "/mezopotamya/item-surpu-ve-maqlu-ates-arinmasi-2.jpg",
+          "/mezopotamya/item-surpu-ve-maqlu-ates-arinmasi-3.jpg",
+          "/mezopotamya/item-surpu-ve-maqlu-ates-arinmasi-4.jpg",
+          "/mezopotamya/item-surpu-ve-maqlu-ates-arinmasi-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-surpu-ve-maqlu-ates-arinmasi.jpg"
       },
       {
         "slug": "akitu-bahar-ekinoksu-ve-tevazu",
@@ -7808,7 +8238,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Tacını yılda bir kez tevazu ile yere koyabilen insan, geri kalan üç yüz altmış dört gün onu onurla taşır.",
           "en": "Whoever can lay down their crown in humility once a year wears it with genuine honor the other three hundred and sixty-four days.",
           "sv": "Den som en gång om året kan lägga ned sin krona i ödmjukhet bär den med sann heder under årets övriga dagar."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-akitu-bahar-ekinoksu-ve-tevazu-1.jpg",
+          "/mezopotamya/item-akitu-bahar-ekinoksu-ve-tevazu-2.jpg",
+          "/mezopotamya/item-akitu-bahar-ekinoksu-ve-tevazu-3.jpg",
+          "/mezopotamya/item-akitu-bahar-ekinoksu-ve-tevazu-4.jpg",
+          "/mezopotamya/item-akitu-bahar-ekinoksu-ve-tevazu-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-akitu-bahar-ekinoksu-ve-tevazu.jpg"
       },
       {
         "slug": "eridu-yedi-bilgesi-apkallu",
@@ -7934,7 +8372,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Sol elinde Abzu’nun suyunu taşıyan, sağ elindeki kozalakla çorak toprağı yeşertir.",
           "en": "Whoever carries the water of the Abzu in the left hand makes the dry earth blossom with the cone in the right.",
           "sv": "Den som bär Abzus klara vatten i vänster hand får den torra jorden att grönska med kotten i den högra."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-eridu-yedi-bilgesi-apkallu-1.jpg",
+          "/mezopotamya/item-eridu-yedi-bilgesi-apkallu-2.jpg",
+          "/mezopotamya/item-eridu-yedi-bilgesi-apkallu-3.jpg",
+          "/mezopotamya/item-eridu-yedi-bilgesi-apkallu-4.jpg",
+          "/mezopotamya/item-eridu-yedi-bilgesi-apkallu-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-eridu-yedi-bilgesi-apkallu.jpg"
       },
       {
         "slug": "samas-kittum-ve-kozmik-adalet",
@@ -8060,7 +8506,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Güneş (Şamaş) her çatıdan içeri bakar; gizlisi saklısı olmayan ve ölçüsü doğru olan insan ise ışığın altında başı dik yürür.",
           "en": "The Sun (Shamash) looks through every roof; whoever keeps an honest measure and nothing hidden walks upright in the light.",
           "sv": "Solen (Shamash) ser in genom varje tak; den som håller rätt mått och inget döljer vandrar rakryggad i ljuset."
-        }
+        },
+        "itemImages": [
+          "/mezopotamya/item-samas-kittum-ve-kozmik-adalet-1.jpg",
+          "/mezopotamya/item-samas-kittum-ve-kozmik-adalet-2.jpg",
+          "/mezopotamya/item-samas-kittum-ve-kozmik-adalet-3.jpg",
+          "/mezopotamya/item-samas-kittum-ve-kozmik-adalet-4.jpg",
+          "/mezopotamya/item-samas-kittum-ve-kozmik-adalet-5.jpg"
+        ],
+        "practiceImage": "/mezopotamya/practice-samas-kittum-ve-kozmik-adalet.jpg"
       }
     ]
   },
@@ -8225,7 +8679,17 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Where the threshold is kept clean, the hearth burns without smoke.",
           "sv": "Där tröskeln hålls ren brinner härden klart."
         },
-        "image": "/witchcraft/hane-ocak-esik.jpg"
+        "image": "/witchcraft/hane-ocak-esik.jpg",
+        "itemImages": [
+          "/witchcraft/item-hane-ve-mutfak-1.jpg",
+          "/witchcraft/item-hane-ve-mutfak-2.jpg",
+          "/witchcraft/item-hane-ve-mutfak-3.jpg",
+          "/witchcraft/item-hane-ve-mutfak-4.jpg",
+          "/witchcraft/item-hane-ve-mutfak-5.jpg",
+          "/witchcraft/item-hane-ve-mutfak-6.jpg",
+          "/witchcraft/item-hane-ve-mutfak-7.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-hane-ve-mutfak.jpg"
       },
       {
         "slug": "kir-ve-aktar",
@@ -8377,7 +8841,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/witchcraft/herb-4-biberiye.jpg",
           "/witchcraft/herb-5-civanpercem.jpg",
           "/witchcraft/herb-6-murver.jpg"
-        ]
+        ],
+        "practiceImage": "/witchcraft/practice-kir-ve-aktar.jpg"
       },
       {
         "slug": "agaclar-ve-recineler",
@@ -8521,7 +8986,17 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Resin is the treasure a tree draws from its wound; so too does human character deepen where it has healed.",
           "sv": "Harts är den skatt trädet skapar ur sitt sår; så fördjupas också människan där hon har läkt."
         },
-        "image": "/witchcraft/agac-recine-tutsu.jpg"
+        "image": "/witchcraft/agac-recine-tutsu.jpg",
+        "itemImages": [
+          "/witchcraft/item-agaclar-ve-recineler-1.jpg",
+          "/witchcraft/item-agaclar-ve-recineler-2.jpg",
+          "/witchcraft/item-agaclar-ve-recineler-3.jpg",
+          "/witchcraft/item-agaclar-ve-recineler-4.jpg",
+          "/witchcraft/item-agaclar-ve-recineler-5.jpg",
+          "/witchcraft/item-agaclar-ve-recineler-6.jpg",
+          "/witchcraft/item-agaclar-ve-recineler-7.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-agaclar-ve-recineler.jpg"
       },
       {
         "slug": "dort-element-ve-ay",
@@ -8670,7 +9145,18 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "El, Yüz ve Element Eğitimini İncele",
           "en": "Explore Element Reading Training",
           "sv": "Utforska Elementläsningskursen"
-        }
+        },
+        "image": "/witchcraft/dort-element-ve-ay.jpg",
+        "itemImages": [
+          "/witchcraft/item-dort-element-ve-ay-1.jpg",
+          "/witchcraft/item-dort-element-ve-ay-2.jpg",
+          "/witchcraft/item-dort-element-ve-ay-3.jpg",
+          "/witchcraft/item-dort-element-ve-ay-4.jpg",
+          "/witchcraft/item-dort-element-ve-ay-5.jpg",
+          "/witchcraft/item-dort-element-ve-ay-6.jpg",
+          "/witchcraft/item-dort-element-ve-ay-7.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-dort-element-ve-ay.jpg"
       },
       {
         "slug": "su-ayna-ve-gozlem",
@@ -8813,7 +9299,18 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Bulanık suya elini sokarsan daha çok bulanır; dokunmadan beklersen tortu dibe çöker ve su kendi kendine ayna olur.",
           "en": "Stir muddy water and it darkens further; leave it untouched, and the sediment settles until the surface becomes a mirror.",
           "sv": "Rör du i grumligt vatten blir det mörkare; låter du det stå stilla sjunker slammet till botten och ytan blir en spegel."
-        }
+        },
+        "image": "/witchcraft/su-ayna-ve-gozlem.jpg",
+        "itemImages": [
+          "/witchcraft/item-su-ayna-ve-gozlem-1.jpg",
+          "/witchcraft/item-su-ayna-ve-gozlem-2.jpg",
+          "/witchcraft/item-su-ayna-ve-gozlem-3.jpg",
+          "/witchcraft/item-su-ayna-ve-gozlem-4.jpg",
+          "/witchcraft/item-su-ayna-ve-gozlem-5.jpg",
+          "/witchcraft/item-su-ayna-ve-gozlem-6.jpg",
+          "/witchcraft/item-su-ayna-ve-gozlem-7.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-su-ayna-ve-gozlem.jpg"
       },
       {
         "slug": "dugum-kese-ve-muhur",
@@ -8956,7 +9453,18 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Topraktan aldığını toprağa saygıyla geri veren elin bereketi hiç eksilmez.",
           "en": "The hand that returns to the earth with gratitude what it borrowed from the earth never lacks.",
           "sv": "Den hand som i tacksamhet återger till jorden vad den lånat ur jorden saknar aldrig kraft."
-        }
+        },
+        "image": "/witchcraft/dugum-kese-ve-muhur.jpg",
+        "itemImages": [
+          "/witchcraft/item-dugum-kese-ve-muhur-1.jpg",
+          "/witchcraft/item-dugum-kese-ve-muhur-2.jpg",
+          "/witchcraft/item-dugum-kese-ve-muhur-3.jpg",
+          "/witchcraft/item-dugum-kese-ve-muhur-4.jpg",
+          "/witchcraft/item-dugum-kese-ve-muhur-5.jpg",
+          "/witchcraft/item-dugum-kese-ve-muhur-6.jpg",
+          "/witchcraft/item-dugum-kese-ve-muhur-7.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-dugum-kese-ve-muhur.jpg"
       },
       {
         "slug": "cadi-sisesi-ve-muska",
@@ -9100,12 +9608,22 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Ocak taşı sıcaksa, eşikteki demir uyanıktır; kem göz kendi aynasında kırılır.",
           "en": "When the hearthstone is warm, the iron at the threshold stays awake; the envious eye breaks upon its own mirror.",
           "sv": "När härdstenen är varm är järnet vid tröskeln vaket; den avundsjuka blicken bryts mot sin egen spegel."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-cadi-sisesi-ve-muska-1.jpg",
+          "/witchcraft/item-cadi-sisesi-ve-muska-2.jpg",
+          "/witchcraft/item-cadi-sisesi-ve-muska-3.jpg",
+          "/witchcraft/item-cadi-sisesi-ve-muska-4.jpg",
+          "/witchcraft/item-cadi-sisesi-ve-muska-5.jpg",
+          "/witchcraft/item-cadi-sisesi-ve-muska-6.jpg",
+          "/witchcraft/item-cadi-sisesi-ve-muska-7.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-cadi-sisesi-ve-muska.jpg"
       },
       {
         "slug": "bilge-kadinlar-ve-sifacilar",
         "glyph": "📜",
-        "image": "/witchcraft/bilge-sifacilar-defter.jpg",
+        "image": "/witchcraft/bilge-kadinlar-ve-sifacilar.jpg",
         "title": {
           "tr": "Tarihte Kır Şifacıları: Cunning Folk, Läkebok ve Ocaklı Kadınlar",
           "en": "Historical Folk Healers: Cunning Folk, Läkebok, and Hearth Healers",
@@ -9244,7 +9762,17 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Gerçek bilgelik gösterişte değil; otu tanıyan gözde, ölçüyü bilen elde ve temiz tutulan defterdedir.",
           "en": "True wisdom lies not in spectacle, but in the eye that knows the herb, the hand that keeps the measure, and the well-kept book.",
           "sv": "Sann visdom ligger inte i skådespel, utan i ögat som känner örten, handen som håller måttet och den välförda boken."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-bilge-kadinlar-ve-sifacilar-1.jpg",
+          "/witchcraft/item-bilge-kadinlar-ve-sifacilar-2.jpg",
+          "/witchcraft/item-bilge-kadinlar-ve-sifacilar-3.jpg",
+          "/witchcraft/item-bilge-kadinlar-ve-sifacilar-4.jpg",
+          "/witchcraft/item-bilge-kadinlar-ve-sifacilar-5.jpg",
+          "/witchcraft/item-bilge-kadinlar-ve-sifacilar-6.jpg",
+          "/witchcraft/item-bilge-kadinlar-ve-sifacilar-7.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-bilge-kadinlar-ve-sifacilar.jpg"
       },
       {
         "slug": "dokuz-kutsal-ot-lacnunga",
@@ -9370,7 +9898,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Kaldırım taşının çatlağında yeşeren ot, saray bahçesindeki çiçekten daha derin bir hayatta kalma sırrı taşır.",
           "en": "The herb that thrives in the trampled footpath holds a deeper secret of endurance than the pampered flower.",
           "sv": "Örten som grönskar mitt på den trampade stigen bär en djupare hemlighet om uthållighet än den skyddade prydnadsblomman."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-dokuz-kutsal-ot-lacnunga-1.jpg",
+          "/witchcraft/item-dokuz-kutsal-ot-lacnunga-2.jpg",
+          "/witchcraft/item-dokuz-kutsal-ot-lacnunga-3.jpg",
+          "/witchcraft/item-dokuz-kutsal-ot-lacnunga-4.jpg",
+          "/witchcraft/item-dokuz-kutsal-ot-lacnunga-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-dokuz-kutsal-ot-lacnunga.jpg"
       },
       {
         "slug": "gece-bitkileri-toksikoloji-siniri",
@@ -9493,7 +10029,14 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Gerçek bilgelik zehirle gösteriş yapmakta değil; doğanın sınırına saygı duyup yaşamı ve sağlığı korumaktadır.",
           "en": "True wisdom never flirts with poison; it knows the boundaries of nature and guards the safety of life.",
           "sv": "Sann visdom leker aldrig med gift; den känner naturens gränser och värnar livets trygghet."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-gece-bitkileri-toksikoloji-siniri-1.jpg",
+          "/witchcraft/item-gece-bitkileri-toksikoloji-siniri-2.jpg",
+          "/witchcraft/item-gece-bitkileri-toksikoloji-siniri-3.jpg",
+          "/witchcraft/item-gece-bitkileri-toksikoloji-siniri-4.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-gece-bitkileri-toksikoloji-siniri.jpg"
       },
       {
         "slug": "ocak-simyasi-ekmek-tuz-bal",
@@ -9619,7 +10162,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Simya kurşunu altına çevirmek değil; unu, suyu ve sevgiyi aynı sofrada ekmeğe dönüştürmektir.",
           "en": "True alchemy is not turning lead into gold, but turning flour, water, fire, and care into shared bread.",
           "sv": "Sann alkemi är inte att förvandla bly till guld, utan att förvandla mjöl, vatten, eld och omtanke till delat bröd."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-ocak-simyasi-ekmek-tuz-bal-1.jpg",
+          "/witchcraft/item-ocak-simyasi-ekmek-tuz-bal-2.jpg",
+          "/witchcraft/item-ocak-simyasi-ekmek-tuz-bal-3.jpg",
+          "/witchcraft/item-ocak-simyasi-ekmek-tuz-bal-4.jpg",
+          "/witchcraft/item-ocak-simyasi-ekmek-tuz-bal-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-ocak-simyasi-ekmek-tuz-bal.jpg"
       },
       {
         "slug": "besom-supurge-ve-esik-bekciligi",
@@ -9745,7 +10296,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Tapınak da, zihin de önce süpürgeyle temizlenir; eşiği temiz olmayanın ocağı berrak yanmaz.",
           "en": "Both sanctuary and mind begin with a clean sweep; where the threshold is cluttered, the hearth cannot breathe.",
           "sv": "Både helgedom och sinne börjar med en ren tröskel; där ingången är belamrad kan härden inte andas."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-besom-supurge-ve-esik-bekciligi-1.jpg",
+          "/witchcraft/item-besom-supurge-ve-esik-bekciligi-2.jpg",
+          "/witchcraft/item-besom-supurge-ve-esik-bekciligi-3.jpg",
+          "/witchcraft/item-besom-supurge-ve-esik-bekciligi-4.jpg",
+          "/witchcraft/item-besom-supurge-ve-esik-bekciligi-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-besom-supurge-ve-esik-bekciligi.jpg"
       },
       {
         "slug": "ip-dugum-ve-ruzgar-zanaati",
@@ -9868,7 +10427,14 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Söz havada uçar, fakat parmakların keten ipe attığı bilinçli düğüm hedef tamamlanana dek nöbet tutar.",
           "en": "Spoken words drift on the air, but a conscious knot tied in linen keeps watch until the work is done.",
           "sv": "Det talade ordet flyger i vinden, men en medveten knut i linne håller vakt tills verket är i hamn."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-ip-dugum-ve-ruzgar-zanaati-1.jpg",
+          "/witchcraft/item-ip-dugum-ve-ruzgar-zanaati-2.jpg",
+          "/witchcraft/item-ip-dugum-ve-ruzgar-zanaati-3.jpg",
+          "/witchcraft/item-ip-dugum-ve-ruzgar-zanaati-4.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-ip-dugum-ve-ruzgar-zanaati.jpg"
       },
       {
         "slug": "ay-bahcesi-tohum-ve-kok",
@@ -9994,7 +10560,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Ay denizi kıyılara, özsuyu ise kökten yaprağa çağırır; bahçıvanın ustalığı doğru günde tohum atmaktır.",
           "en": "The Moon calls the tide to the shore and the sap to the leaf; the gardener's craft is knowing which day belongs to the seed and which to the root.",
           "sv": "Månen kallar tidvattnet till stranden och saven till bladet; odlarens konst är att veta vilken dag som tillhör fröet och vilken som tillhör roten."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-ay-bahcesi-tohum-ve-kok-1.jpg",
+          "/witchcraft/item-ay-bahcesi-tohum-ve-kok-2.jpg",
+          "/witchcraft/item-ay-bahcesi-tohum-ve-kok-3.jpg",
+          "/witchcraft/item-ay-bahcesi-tohum-ve-kok-4.jpg",
+          "/witchcraft/item-ay-bahcesi-tohum-ve-kok-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-ay-bahcesi-tohum-ve-kok.jpg"
       },
       {
         "slug": "merhem-ve-gunes-infuzyonu",
@@ -10117,7 +10691,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Yaz güneşini zeytinyağında, arının emeğini balmumunda saklayan el, kışın ayazından korkmaz.",
           "en": "Whoever preserves summer sunlight in olive oil and the bee's labor in wax meets the winter frost prepared.",
           "sv": "Den som bevarar sommarsolen i olivolja och biets arbete i vax möter vinterkylan väl rustad."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-merhem-ve-gunes-infuzyonu-1.jpg",
+          "/witchcraft/item-merhem-ve-gunes-infuzyonu-2.jpg",
+          "/witchcraft/item-merhem-ve-gunes-infuzyonu-3.jpg",
+          "/witchcraft/item-merhem-ve-gunes-infuzyonu-4.jpg",
+          "/witchcraft/item-merhem-ve-gunes-infuzyonu-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-merhem-ve-gunes-infuzyonu.jpg"
       },
       {
         "slug": "balmumu-alevi-ve-isik-odagi",
@@ -10243,7 +10825,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Bin yere dağılan ışık sadece gölge yapar; tek bir fitilde toplanan alev ise karanlığı yarar.",
           "en": "Light scattered in a thousand directions casts only faint shadows; light gathered onto a single wick pierces the night.",
           "sv": "Ljus som sprids åt tusen håll kastar bara matta skuggor; ljus som samlas vid en enda veke skär genom mörkret."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-balmumu-alevi-ve-isik-odagi-1.jpg",
+          "/witchcraft/item-balmumu-alevi-ve-isik-odagi-2.jpg",
+          "/witchcraft/item-balmumu-alevi-ve-isik-odagi-3.jpg",
+          "/witchcraft/item-balmumu-alevi-ve-isik-odagi-4.jpg",
+          "/witchcraft/item-balmumu-alevi-ve-isik-odagi-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-balmumu-alevi-ve-isik-odagi.jpg"
       },
       {
         "slug": "siyah-ayna-ve-su-tefekkuru",
@@ -10369,7 +10959,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Bulanık suyu parmağınla karıştırarak berraklaştıramazsın; elini çekip beklediğinde tortu çöker ve ayna açılır.",
           "en": "You cannot clear muddy water by stirring it with your finger; withdraw your hand and wait, and the water becomes a mirror.",
           "sv": "Du kan inte göra grumligt vatten klart genom att röra i det med handen; dra tillbaka handen och vänta, så blir vattnet en spegel."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-siyah-ayna-ve-su-tefekkuru-1.jpg",
+          "/witchcraft/item-siyah-ayna-ve-su-tefekkuru-2.jpg",
+          "/witchcraft/item-siyah-ayna-ve-su-tefekkuru-3.jpg",
+          "/witchcraft/item-siyah-ayna-ve-su-tefekkuru-4.jpg",
+          "/witchcraft/item-siyah-ayna-ve-su-tefekkuru-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-siyah-ayna-ve-su-tefekkuru.jpg"
       },
       {
         "slug": "trolldom-galdrabok-ve-galdrastafir",
@@ -10495,7 +11093,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Dışarıdaki fırtına ne kadar sert eserse essin, kendi merkez noktasından çizilen pusulayı silemez.",
           "en": "However fiercely the outer storm blows, it cannot erase a compass drawn from your own center.",
           "sv": "Hur hårt stormen än viner därute kan den inte sudda ut en kompass som ritats utifrån din egen mittpunkt."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-trolldom-galdrabok-ve-galdrastafir-1.jpg",
+          "/witchcraft/item-trolldom-galdrabok-ve-galdrastafir-2.jpg",
+          "/witchcraft/item-trolldom-galdrabok-ve-galdrastafir-3.jpg",
+          "/witchcraft/item-trolldom-galdrabok-ve-galdrastafir-4.jpg",
+          "/witchcraft/item-trolldom-galdrabok-ve-galdrastafir-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-trolldom-galdrabok-ve-galdrastafir.jpg"
       },
       {
         "slug": "esik-sisesi-ve-koruyucu-kavanoz",
@@ -10621,7 +11227,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Duvar evi rüzgardan korur; eşiğe konulan bilinç ve şükran ise evi içeriden aydınlatır.",
           "en": "Stone walls shelter a house from the wind; conscious gratitude at the threshold shelters the peace within.",
           "sv": "Väggar skyddar huset mot vinden; medveten tacksamhet vid tröskeln bevarar friden därinne."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-esik-sisesi-ve-koruyucu-kavanoz-1.jpg",
+          "/witchcraft/item-esik-sisesi-ve-koruyucu-kavanoz-2.jpg",
+          "/witchcraft/item-esik-sisesi-ve-koruyucu-kavanoz-3.jpg",
+          "/witchcraft/item-esik-sisesi-ve-koruyucu-kavanoz-4.jpg",
+          "/witchcraft/item-esik-sisesi-ve-koruyucu-kavanoz-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-esik-sisesi-ve-koruyucu-kavanoz.jpg"
       },
       {
         "slug": "yesil-ahit-biyo-bolgesel-etik",
@@ -10747,7 +11361,15 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "İlk gördüğü çiçeği koparmayıp arıya bırakan insan, bütün ormanın gerçek dostudur.",
           "en": "Whoever leaves the first blossom standing for the bee walks as a true friend of the whole forest.",
           "sv": "Den som lämnar den första blomman åt biet vandrar som en sann vän genom hela skogen."
-        }
+        },
+        "itemImages": [
+          "/witchcraft/item-yesil-ahit-biyo-bolgesel-etik-1.jpg",
+          "/witchcraft/item-yesil-ahit-biyo-bolgesel-etik-2.jpg",
+          "/witchcraft/item-yesil-ahit-biyo-bolgesel-etik-3.jpg",
+          "/witchcraft/item-yesil-ahit-biyo-bolgesel-etik-4.jpg",
+          "/witchcraft/item-yesil-ahit-biyo-bolgesel-etik-5.jpg"
+        ],
+        "practiceImage": "/witchcraft/practice-yesil-ahit-biyo-bolgesel-etik.jpg"
       }
     ]
   },
