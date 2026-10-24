@@ -68,7 +68,7 @@ export function ShopRoom() {
               href={shopHall.shopierStoreUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-amber/55 bg-amber/12 px-4 py-2.5 text-xs tracking-[0.2em] text-amber uppercase transition hover:border-amber hover:bg-amber hover:text-ink"
+              className="inline-flex items-center gap-2 border border-[#d4a857] bg-[#d4a857]/18 px-4 py-2.5 text-xs font-medium tracking-[0.2em] text-[#f0d493] uppercase transition hover:bg-[#d4a857] hover:text-[#141a1c]"
             >
               <span>{ui.openStore}</span>
               <span aria-hidden="true">↗</span>
@@ -188,7 +188,7 @@ export function ShopRoom() {
                         href={ebookProduct.shopierUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="border border-amber bg-amber px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.2em] text-ink hover:bg-amber/90 transition-colors"
+                        className="border border-[#e5be73] bg-[#d4a857] px-5 py-2.5 text-xs font-bold uppercase tracking-[0.2em] text-[#141a1c] shadow-[0_2px_14px_rgba(212,168,87,0.3)] hover:bg-[#e5be73] transition-colors"
                       >
                         {ui.buyShopier}
                       </a>
@@ -314,7 +314,7 @@ export function ShopRoom() {
                     href={product.shopierUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center border border-amber bg-amber px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-ink hover:bg-amber/90 transition-colors text-center"
+                    className="flex items-center justify-center border border-[#e5be73] bg-[#d4a857] px-3 py-2 text-[11px] font-bold uppercase tracking-[0.16em] text-[#141a1c] shadow-[0_2px_12px_rgba(212,168,87,0.28)] hover:bg-[#e5be73] transition-colors text-center"
                   >
                     {ui.buyShopier}
                   </a>
@@ -505,11 +505,11 @@ export function ShopProductDoor({ slug }: { slug: string }) {
                 href={product.shopierUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex w-full items-center justify-center gap-2 border border-amber bg-amber px-6 py-3.5 text-xs sm:text-sm font-semibold uppercase tracking-[0.2em] text-ink hover:bg-amber/90 transition-colors"
+                className="flex w-full items-center justify-center gap-2 border border-[#e5be73] bg-[#d4a857] px-6 py-4 text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-[#141a1c] shadow-[0_4px_20px_rgba(212,168,87,0.35)] hover:bg-[#e5be73] transition-colors"
               >
                 <span>{ui.buyShopier}</span>
               </a>
-              <p className="text-center text-[11px] uppercase tracking-[0.18em] text-chalk/60">
+              <p className="text-center text-[11px] uppercase tracking-[0.18em] text-chalk/70">
                 ✦ {ui.secureBadge}
               </p>
             </div>
@@ -596,7 +596,7 @@ export function ShopProductDoor({ slug }: { slug: string }) {
             href={product.shopierUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto text-center border border-amber bg-amber px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-ink hover:bg-amber/90 transition-colors"
+            className="w-full sm:w-auto text-center border border-[#e5be73] bg-[#d4a857] px-6 py-3.5 text-xs font-bold uppercase tracking-[0.2em] text-[#141a1c] shadow-[0_3px_16px_rgba(212,168,87,0.32)] hover:bg-[#e5be73] transition-colors"
           >
             {ui.buyShopier}
           </a>

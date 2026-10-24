@@ -48,10 +48,10 @@ export default function Home() {
           </h2>
           <ul className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
             {t.doors.map((door) => (
-              <li key={door.href}>
+              <li key={door.href} className="h-full">
                 <Link
                   href={door.href}
-                  className="card-slate group flex min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
+                  className="card-slate group flex h-full min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
                 >
                   <div>
                     <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
@@ -81,11 +81,11 @@ export default function Home() {
             {t.traditionDoors.map((door) => {
               const isClosed = "closed" in door && door.closed;
               return (
-                <li key={door.href}>
+                <li key={door.href} className="h-full">
                   {isClosed ? (
                     <div
                       aria-disabled="true"
-                      className="card-slate flex min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk/55"
+                      className="card-slate flex h-full min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk/55"
                     >
                       <div>
                         <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/40 uppercase">
@@ -109,7 +109,7 @@ export default function Home() {
                   ) : (
                     <Link
                       href={door.href}
-                      className="card-slate group flex min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
+                      className="card-slate group flex h-full min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
                     >
                       <div>
                         <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
