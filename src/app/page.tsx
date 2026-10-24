@@ -43,7 +43,7 @@ export default function Home() {
 
       <main id="icerik" className="px-6 pt-8 pb-16 sm:px-8">
         <div className="mx-auto w-full max-w-[1600px]">
-          <h2 className="mb-4 font-display text-sm font-medium tracking-[0.22em] uppercase">
+          <h2 className="mb-4 font-display text-sm font-medium tracking-[0.22em] text-amber/90 uppercase">
             {t.hall}
           </h2>
           <ul className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
@@ -51,24 +51,24 @@ export default function Home() {
               <li key={door.href} className="h-full">
                 <Link
                   href={door.href}
-                  className="card-slate group flex h-full min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
+                  className="card-slate group flex h-full min-h-56 flex-col justify-between border border-chalk/12 px-5 py-5 text-chalk transition-colors hover:border-amber/50"
                 >
                   <div>
-                    <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
+                    <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
                       <span>{door.badge}</span>
                       <span
                         aria-hidden
-                        className="font-display text-2xl leading-none text-chalk/75 transition-transform group-hover:scale-110 group-hover:text-chalk"
+                        className="font-display text-2xl leading-none text-amber/85 transition-transform group-hover:scale-110 group-hover:text-amber"
                       >
                         {door.glyph}
                       </span>
                     </div>
-                    <span className="mt-4 block font-display text-3xl font-medium tracking-[0.01em]">
+                    <span className="mt-4 block font-display text-3xl font-medium tracking-[0.01em] group-hover:text-amber transition-colors">
                       {door.title}
                     </span>
-                    <span className="mt-2 block text-sm leading-6 text-chalk/70">{door.line}</span>
+                    <span className="mt-2 block text-sm leading-6 text-chalk/72">{door.line}</span>
                   </div>
-                  <div className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.18em] text-chalk/55 uppercase group-hover:text-chalk/85">
+                  <div className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.18em] text-chalk/55 uppercase group-hover:text-amber">
                     <span>{t.open}</span>
                     <span aria-hidden>→</span>
                   </div>
@@ -109,26 +109,26 @@ export default function Home() {
                   ) : (
                     <Link
                       href={door.href}
-                      className="card-slate group flex h-full min-h-56 flex-col justify-between border border-chalk/10 px-5 py-5 text-chalk transition-colors hover:border-chalk/40"
+                      className="card-slate group flex h-full min-h-56 flex-col justify-between border border-chalk/12 px-5 py-5 text-chalk transition-colors hover:border-amber/50"
                     >
                       <div>
-                        <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/50 uppercase">
+                        <div className="flex items-center justify-between text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
                           <span>{door.badge}</span>
                           <span
                             aria-hidden
-                            className="font-display text-2xl leading-none text-chalk/75 transition-transform group-hover:scale-110 group-hover:text-chalk"
+                            className="font-display text-2xl leading-none text-amber/85 transition-transform group-hover:scale-110 group-hover:text-amber"
                           >
                             {door.glyph}
                           </span>
                         </div>
-                        <span className="mt-4 block font-display text-3xl font-medium tracking-[0.01em]">
+                        <span className="mt-4 block font-display text-3xl font-medium tracking-[0.01em] group-hover:text-amber transition-colors">
                           {door.title}
                         </span>
-                        <span className="mt-2 block text-sm leading-6 text-chalk/70">
+                        <span className="mt-2 block text-sm leading-6 text-chalk/72">
                           {door.line}
                         </span>
                       </div>
-                      <div className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.18em] text-chalk/55 uppercase group-hover:text-chalk/85">
+                      <div className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.18em] text-chalk/55 uppercase group-hover:text-amber">
                         <span>{t.open}</span>
                         <span aria-hidden>→</span>
                       </div>
