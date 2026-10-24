@@ -7,6 +7,7 @@ import { useLanguage } from "@/components/language";
 import { RuneCast } from "@/components/rune-cast";
 import { RuneTransliterator } from "@/components/rune-transliterator";
 import { ShareBar } from "@/components/share-bar";
+import { havamalBySlug } from "@/content/havamal";
 import {
   runeAetts,
   runeBySlug,
@@ -293,6 +294,29 @@ function RuneDoorView({ rune }: { rune: Rune }) {
             “{rune.poem[lang].quote}”
           </p>
         </blockquote>
+
+        {/* Poetic Edda Hávamál Stanza & Birth Rune Solar Span */}
+        {havamalBySlug[rune.slug] && (
+          <blockquote className="mt-4 border-l-2 border-chalk/25 bg-black/35 px-6 py-5">
+            <div className="flex flex-wrap items-center justify-between gap-2 text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
+              <span>
+                Poetic Edda · Hávamál ({lang === "tr" ? "Kıta" : lang === "sv" ? "Strof" : "Stanza"}{" "}
+                {havamalBySlug[rune.slug].stanza})
+              </span>
+              <span>
+                {lang === "tr"
+                  ? "Güneş Döngüsü / Doğum Rünü:"
+                  : lang === "sv"
+                  ? "Solcykel / Födelseruna:"
+                  : "Solar Cycle / Birth Rune:"}{" "}
+                {havamalBySlug[rune.slug].birthSpan[lang]}
+              </span>
+            </div>
+            <p className="mt-2 font-display text-lg leading-7 text-chalk/85 italic sm:text-xl">
+              “{havamalBySlug[rune.slug].quote[lang]}”
+            </p>
+          </blockquote>
+        )}
 
         {/* Core 4-Paragraph Archetypal & Cosmological Reading */}
         <section className="mt-10">
