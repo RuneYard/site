@@ -7,8 +7,10 @@ import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { RuneCast } from "@/components/rune-cast";
 import { RuneTransliterator } from "@/components/rune-transliterator";
+import { SealCardGenerator } from "@/components/seal-card-generator";
 import { ShareBar } from "@/components/share-bar";
 import { ScholarSeal, ShopBridge } from "@/components/shop-bridge";
+import { SymbolicTwins } from "@/components/symbolic-twins";
 import { havamalBySlug } from "@/content/havamal";
 import {
   runeAetts,
@@ -417,6 +419,20 @@ function RuneDoorView({ rune }: { rune: Rune }) {
         <p className="mt-10 border-l border-chalk/30 pl-5 font-display text-xl leading-8 text-chalk/80 italic">
           “{rune.closing[lang]}”
         </p>
+
+        <div className="mt-6">
+          <SealCardGenerator
+            filename={`runeyard-run-${rune.slug}`}
+            badge={`ELDER FUTHARK · ${String(rune.index).padStart(2, "0")} / XXIV · AETT ${rune.aett}`}
+            glyph={rune.glyph}
+            title={`${rune.name} (${rune.protoGermanic})`}
+            subtitle={rune.subtitle[lang]}
+            body={rune.text[lang][0]}
+            quote={rune.closing[lang]}
+          />
+        </div>
+
+        <SymbolicTwins runeSlug={rune.slug} />
 
         <ScholarSeal context="runes" />
         <ShopBridge context="runes" />

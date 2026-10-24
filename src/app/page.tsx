@@ -8,7 +8,7 @@ import { SkyNote } from "@/components/sky-note";
 import { useLanguage } from "@/components/language";
 
 export default function Home() {
-  const { t } = useLanguage();
+  const { lang, t } = useLanguage();
 
   return (
     <HallShell>
@@ -137,6 +137,41 @@ export default function Home() {
               );
             })}
           </ul>
+
+          <div className="mt-4">
+            <Link
+              href="/gunluk"
+              className="hearth-sanctum group flex flex-col justify-between gap-4 border border-amber/40 px-6 py-5 transition-colors hover:border-amber sm:flex-row sm:items-center"
+            >
+              <div>
+                <span className="text-[10px] font-semibold tracking-[0.22em] text-amber uppercase">
+                  🔥{" "}
+                  {lang === "en"
+                    ? "XIV DAILY HEARTH LEAVES · NEW ANCIENT TOPIC EVERY DAY"
+                    : lang === "sv"
+                      ? "XIV DAGLIGA HÄRDBLAD · NYTT FORNTIDA ÄMNE VARJE DAG"
+                      : "XIV GÜNLÜK OCAK YAPRAĞI · HER GÜN YENİ BİR KADİM KONU"}
+                </span>
+                <span className="mt-1.5 block font-display text-2xl font-medium text-chalk transition-colors group-hover:text-amber sm:text-3xl">
+                  {lang === "en"
+                    ? "Daily Hearth Leaves · Chronicle of Ancient Lore"
+                    : lang === "sv"
+                      ? "Dagliga Härdblad · Krönika över Forntida Visdom"
+                      : "Günlük Ocak Yaprakları · Kadim Bilgelik Kütüğü"}
+                </span>
+                <span className="mt-1 block text-sm text-chalk/75">
+                  {lang === "en"
+                    ? "Previously untold primary-source studies in Altai hearth lore, Icelandic manuscripts, Babylonian tablets, Celtic Dark Houses, and classical star wisdom."
+                    : lang === "sv"
+                      ? "Tidigare oberättade studier i altajsk härdkult, isländska handskrifter, babyloniska tavlor och klassisk stjärnlära."
+                      : "Daha önce hiçbir odada işlenmemiş birincil kaynaklar: Od Ana, 1860 Huld El Yazması, Babil Akītu Yemini, Kelt Karanlık İnzivası, Vörðr, Yada Taşı ve 36 Dekan."}
+                </span>
+              </div>
+              <span className="shrink-0 border border-amber/50 bg-amber/15 px-4 py-2.5 font-display text-xs font-semibold tracking-[0.18em] text-amber uppercase transition-colors group-hover:bg-amber group-hover:text-ink">
+                {t.open} →
+              </span>
+            </Link>
+          </div>
         </div>
       </main>
     </HallShell>

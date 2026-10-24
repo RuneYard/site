@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
+import { SealCardGenerator } from "@/components/seal-card-generator";
+import { SymbolicTwins } from "@/components/symbolic-twins";
 import {
   dailyLoreEntries,
   dailyLoreHall,
@@ -311,6 +313,20 @@ export function DailyLoreEntryView({ slug }: { slug: string }) {
           <blockquote className="mt-8 border-y border-chalk/15 py-6 text-center font-display text-xl italic text-chalk/90 sm:text-2xl">
             “{entry.closing[lang]}”
           </blockquote>
+
+          <div className="mt-6 flex justify-center">
+            <SealCardGenerator
+              filename={`runeyard-gunluk-${entry.slug}`}
+              badge={entry.traditionTag[lang]}
+              glyph={entry.glyph}
+              title={entry.title[lang]}
+              subtitle={entry.subtitle[lang]}
+              body={entry.summary[lang]}
+              quote={entry.closing[lang]}
+            />
+          </div>
+
+          <SymbolicTwins doorSlug={entry.slug} />
 
           {/* Prev / Next Navigation + Ask the Hearth */}
           <nav className="mt-10 grid gap-4 border-t border-chalk/15 pt-8 sm:grid-cols-3">

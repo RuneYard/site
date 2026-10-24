@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { languageLabel, languages } from "@/lib/copy";
+import { HearthAmbienceButton } from "@/components/hearth-ambience";
 import { useLanguage } from "@/components/language";
 import { RoomSearch } from "@/components/room-search";
 import { SavedSealsDrawer } from "@/components/saved-seals";
@@ -29,6 +30,7 @@ export function HallShell({ children }: { children: React.ReactNode }) {
           </Link>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
             <RoomSearch />
+            <HearthAmbienceButton />
             <SavedSealsDrawer />
             <div className="flex items-center gap-2" role="group" aria-label={languageLabel[lang]}>
               {languages.map((code) => (

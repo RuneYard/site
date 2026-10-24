@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useLanguage } from "@/components/language";
+import { SealCardGenerator } from "@/components/seal-card-generator";
 import { runes, type Rune } from "@/content/runes";
 
 type CastMode = "single" | "norns";
@@ -334,20 +335,56 @@ export function RuneCast() {
             })}
           </div>
 
-          <div className="mt-6 flex flex-wrap items-center gap-4 border-t border-chalk/10 pt-4 text-xs">
-            <Link
-              href="/uygulamalar/rune-yard"
-              className="font-display tracking-[0.14em] text-amber uppercase transition-colors hover:underline"
-            >
-              {ui.appBridge}
-            </Link>
-            <span className="text-chalk/25">·</span>
-            <Link
-              href="/egitim/rune-bilgeligi"
-              className="font-display tracking-[0.14em] text-amber uppercase transition-colors hover:underline"
-            >
-              {ui.courseBridge}
-            </Link>
+          <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-chalk/10 pt-4 text-xs">
+            <SealCardGenerator
+              filename={
+                drawn.length === 3
+                  ? `runeyard-uc-norn-${drawn.map((d) => d.rune.slug).join("-")}`
+                  : `runeyard-run-${drawn[0].rune.slug}`
+              }
+              badge={drawn.length === 3 ? ui.modeNorns : ui.modeSingle}
+              glyph={drawn[0].rune.glyph}
+              title={
+                drawn.length === 3
+                  ? ui.modeNorns
+                  : `${drawn[0].rune.name} (${drawn[0].rune.protoGermanic})`
+              }
+              subtitle={drawn.length === 1 ? drawn[0].rune.subtitle[lang] : undefined}
+              body={drawn[0].rune.text[lang][0]}
+              quote={drawn[0].rune.closing[lang]}
+              intent={intent}
+              stones={
+                drawn.length === 3
+                  ? drawn.map((d, i) => ({
+                      positionTag: ui.nornsPositions[i].tag,
+                      glyph: d.rune.glyph,
+                      name: d.rune.name,
+                      subtitle: d.rune.subtitle[lang],
+                      flowLabel: SYMMETRIC_SLUGS.has(d.rune.slug)
+                        ? ui.symmetricBadge
+                        : d.reversed
+                          ? ui.shadowBadge
+                          : ui.uprightBadge,
+                      note: d.rune.text[lang][0],
+                    }))
+                  : undefined
+              }
+            />
+            <div className="flex flex-wrap items-center gap-4">
+              <Link
+                href="/uygulamalar/rune-yard"
+                className="font-display tracking-[0.14em] text-amber uppercase transition-colors hover:underline"
+              >
+                {ui.appBridge}
+              </Link>
+              <span className="text-chalk/25">·</span>
+              <Link
+                href="/egitim/rune-bilgeligi"
+                className="font-display tracking-[0.14em] text-amber uppercase transition-colors hover:underline"
+              >
+                {ui.courseBridge}
+              </Link>
+            </div>
           </div>
         </div>
       )}

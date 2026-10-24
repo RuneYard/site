@@ -13,6 +13,7 @@ const copy = {
     skip: "İçeriğe geç",
     nav: [
       { href: "/runler", label: "Rünler" },
+      { href: "/gunluk", label: "Günlük Kütük" },
       { href: "/egitim", label: "Eğitim" },
       { href: "/astroloji", label: "Astroloji" },
       { href: "/shop", label: "Shop" },
@@ -157,6 +158,7 @@ const copy = {
     skip: "Skip to content",
     nav: [
       { href: "/runler", label: "Runes" },
+      { href: "/gunluk", label: "Daily Lore" },
       { href: "/egitim", label: "Education" },
       { href: "/astroloji", label: "Astrology" },
       { href: "/shop", label: "Shop" },
@@ -301,6 +303,7 @@ const copy = {
     skip: "Hoppa till innehållet",
     nav: [
       { href: "/runler", label: "Runor" },
+      { href: "/gunluk", label: "Härdblad" },
       { href: "/egitim", label: "Utbildning" },
       { href: "/astroloji", label: "Astrologi" },
       { href: "/shop", label: "Shop" },

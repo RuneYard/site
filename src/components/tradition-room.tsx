@@ -12,6 +12,7 @@ import { PlanetaryHoursCompass } from "@/components/planetary-hours";
 import { ShareBar } from "@/components/share-bar";
 import { ScholarSeal, ShopBridge, type BridgeContext } from "@/components/shop-bridge";
 import { DrumPulseResonator } from "@/components/sound-resonator";
+import { SymbolicTwins } from "@/components/symbolic-twins";
 import { WheelCompass } from "@/components/wheel-compass";
 import {
   findTraditionDoor,
@@ -396,6 +397,8 @@ function TraditionDoorView({
         {(traditionSlug === "saman" || traditionSlug === "witchcraft") && (
           <DrumPulseResonator />
         )}
+
+        <SymbolicTwins traditionSlug={traditionSlug} doorSlug={door.slug} />
 
         {traditionSlug !== "shop" && (
           <>
