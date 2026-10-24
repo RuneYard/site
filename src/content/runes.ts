@@ -24,6 +24,7 @@ export type Rune = {
   protoGermanic: string;
   phoneme: string;
   image: string;
+  practiceImage?: string;
   deities: readonly string[];
   subtitle: Record<Lang, string>;
   element: Record<Lang, string>;
@@ -226,7 +227,8 @@ export const runes: readonly Rune[] = [
       "tr": "Akan su yosun tutmaz; paylaşılan ateş sönmez.",
       "en": "Flowing water gathers no moss; shared fire never dies.",
       "sv": "Rinnande vatten samlar ingen mossa; delad eld slocknar aldrig."
-    }
+    },
+    "practiceImage": "/runes/practice-fehu.jpg"
   },
   {
     "index": 2,
@@ -347,7 +349,8 @@ export const runes: readonly Rune[] = [
       "tr": "Kalıp sağlam değilse erimiş demir toprağa dağılır; beden iradenin örsüdür.",
       "en": "If the mold is not sound, molten iron scatters on the ground; the body is the anvil of the will.",
       "sv": "Är gjutformen inte fast rinner det smälta järnet ut på marken; kroppen är viljans städ."
-    }
+    },
+    "practiceImage": "/runes/practice-uruz.jpg"
   },
   {
     "index": 3,
@@ -468,7 +471,8 @@ export const runes: readonly Rune[] = [
       "tr": "Gülü koruyan diken nezaket bilmez; sınırını korumayan bahçe çiğnenir.",
       "en": "The thorn that guards the rose knows no flattery; a garden without a hedge is trampled.",
       "sv": "Törnet som vaktar rosen känner ingen inställsamhet; en örtagård utan häck blir nedtrampad."
-    }
+    },
+    "practiceImage": "/runes/practice-thurisaz.jpg"
   },
   {
     "index": 4,
@@ -590,7 +594,8 @@ export const runes: readonly Rune[] = [
       "tr": "Nefes durursa söz biter; adını doğru koyduğun şey seninle konuşur.",
       "en": "When breath ceases, the word ends; whatever you name truly enters into dialogue with you.",
       "sv": "När andedräkten stannar tar ordet slut; det du nämner vid dess sanna namn talar till dig."
-    }
+    },
+    "practiceImage": "/runes/practice-ansuz.jpg"
   },
   {
     "index": 5,
@@ -712,7 +717,8 @@ export const runes: readonly Rune[] = [
       "tr": "Tekerlek merkezine sadıksa yol sarsmaz; adalet toplumun doğru ritmidir.",
       "en": "When the wheel stays true to its hub, the road does not shake it; justice is the right rhythm of life.",
       "sv": "När hjulet är troget sitt nav skakar inte vägen det; rättvisa är livets rätta rytm."
-    }
+    },
+    "practiceImage": "/runes/practice-raido.jpg"
   },
   {
     "index": 6,
@@ -835,7 +841,8 @@ export const runes: readonly Rune[] = [
       "tr": "Orman yangını yıkar, demirci ocağı ise çeliğe biçim verir.",
       "en": "Wildfire destroys the forest, but the smith's forge shapes the steel.",
       "sv": "Skogsbranden ödelägger, men smedens härd ger stålet form."
-    }
+    },
+    "practiceImage": "/runes/practice-kenaz.jpg"
   },
   {
     "index": 7,
@@ -958,7 +965,8 @@ export const runes: readonly Rune[] = [
       "tr": "Gebo’nun tersi yoktur; verilen söz nefesin mührüdür.",
       "en": "Gebo has no reverse; the spoken word is the seal of breath.",
       "sv": "Gebo har ingen baksida; det givna ordet är andedräktens sigill."
-    }
+    },
+    "practiceImage": "/runes/practice-gebo.jpg"
   },
   {
     "index": 8,
@@ -1081,7 +1089,8 @@ export const runes: readonly Rune[] = [
       "tr": "Gerçek neşe gürültüde değil, her şeyin yerli yerine oturduğu sessiz uyumda durur.",
       "en": "True joy dwells not in noise, but in the quiet harmony where all things sit in their rightful place.",
       "sv": "Sann glädje bor inte i larmet, utan i den stilla samklang där allt vilar på sin rätta plats."
-    }
+    },
+    "practiceImage": "/runes/practice-wunjo.jpg"
   },
   {
     "index": 9,
@@ -1202,7 +1211,8 @@ export const runes: readonly Rune[] = [
       "tr": "Dolu yağarken gökle pazarlık edilmez; fırtına geçer, eriyen buz toprağı sular.",
       "en": "One does not bargain with the sky while hail falls; the storm passes, and melted ice waters the earth.",
       "sv": "Man köpslår inte med himlen medan haglet faller; stormen drar förbi och smält is vattnar jorden."
-    }
+    },
+    "practiceImage": "/runes/practice-hagalaz.jpg"
   },
   {
     "index": 10,
@@ -1323,7 +1333,8 @@ export const runes: readonly Rune[] = [
       "tr": "Konfor alanında kıvılcım çıkmaz; iki kuru dal birbirine sürtünerek alev alır.",
       "en": "No spark is struck in comfort; two dry sticks take flame by rubbing against one another.",
       "sv": "Ingen gnista slås i bekvämlighet; två torra grenar tar eld genom friktion."
-    }
+    },
+    "practiceImage": "/runes/practice-nauthiz.jpg"
   },
   {
     "index": 11,
@@ -1445,7 +1456,8 @@ export const runes: readonly Rune[] = [
       "tr": "Sıcaklıkta hareket, soğuklukta berraklık vardır; buzun altındaki su baharı bekler.",
       "en": "In warmth there is motion, in cold there is clarity; the water beneath the ice awaits the spring.",
       "sv": "I värme finns rörelse, i kyla finns klarhet; vattnet under isen väntar på våren."
-    }
+    },
+    "practiceImage": "/runes/practice-isa.jpg"
   },
   {
     "index": 12,
@@ -1570,7 +1582,8 @@ export const runes: readonly Rune[] = [
       "tr": "Tohum kışın soğuğunu yemeden baharda başak vermez; Jera aceleyi tanımaz.",
       "en": "The seed does not ear in spring without eating the cold of winter; Jera knows no haste.",
       "sv": "Fröet går inte i ax om våren utan att ha ätit vinterns kyla; Jera känner ingen brådska."
-    }
+    },
+    "practiceImage": "/runes/practice-jera.jpg"
   },
   {
     "index": 13,
@@ -1692,7 +1705,8 @@ export const runes: readonly Rune[] = [
       "tr": "Dişbudak yaprak döker, porsuk ağacı kışın da yeşil kalır; omurga dikse fırtına geçer.",
       "en": "The ash drops its leaves, the yew stays green in winter; when the spine stands upright, the storm passes.",
       "sv": "Asken fäller sina löv, idegranen står grön i vintern; när ryggraden är rak drar stormen förbi."
-    }
+    },
+    "practiceImage": "/runes/practice-eihwaz.jpg"
   },
   {
     "index": 14,
@@ -1815,7 +1829,8 @@ export const runes: readonly Rune[] = [
       "tr": "Dolu kadehe yeni su girmez; zarın nasıl düşeceğini bilmesen de hamle senindir.",
       "en": "Water cannot enter a full cup; though you do not command the fall of the die, the move is yours.",
       "sv": "Vatten går inte in i en full bägare; även om du inte styr tärningens fall är draget ditt."
-    }
+    },
+    "practiceImage": "/runes/practice-perthro.jpg"
   },
   {
     "index": 15,
@@ -1936,7 +1951,8 @@ export const runes: readonly Rune[] = [
       "tr": "Uyanık olanın kalkanı paslanmaz; iç sesini susturan boynuzunu kırar.",
       "en": "The shield of the vigilant never rusts; whoever silences instinct breaks their own horn.",
       "sv": "Den vaksammes sköld rostar aldrig; den som tystar sin instinkt bryter sitt eget horn."
-    }
+    },
+    "practiceImage": "/runes/practice-algiz.jpg"
   },
   {
     "index": 16,
@@ -2057,7 +2073,8 @@ export const runes: readonly Rune[] = [
       "tr": "Güneş doğduğunda sis pazarlık etmez; ışık eylemle parlar.",
       "en": "When the sun rises, the fog does not bargain; light shines through deed.",
       "sv": "När solen stiger förhandlar inte dimman; ljuset lyser genom handling."
-    }
+    },
+    "practiceImage": "/runes/practice-sowilo.jpg"
   },
   {
     "index": 17,
@@ -2177,7 +2194,8 @@ export const runes: readonly Rune[] = [
       "tr": "Duygu ve rüzgâr döner, Kutup Yıldızı dönmez; haklı kılıç karanlıkta çekilmez.",
       "en": "Wind and feeling turn, the Pole Star does not; the rightful blade is never drawn in secret.",
       "sv": "Vind och känsla vänder, Polstjärnan vänder aldrig; det rättmätiga svärdet dras i ljuset."
-    }
+    },
+    "practiceImage": "/runes/practice-tiwaz.jpg"
   },
   {
     "index": 18,
@@ -2299,7 +2317,8 @@ export const runes: readonly Rune[] = [
       "tr": "Tohum toprağın altında sessizce çatlar; büyüme dışarı bağırılmaz.",
       "en": "The seed splits silently beneath the soil; true growth is never shouted outward.",
       "sv": "Fröet spricker i tystnad under jorden; sann växt ropas inte utåt."
-    }
+    },
+    "practiceImage": "/runes/practice-berkano.jpg"
   },
   {
     "index": 19,
@@ -2423,7 +2442,8 @@ export const runes: readonly Rune[] = [
       "tr": "Binici yolu görür, at yolu taşır; ikisi kavga ederse menzile varılmaz.",
       "en": "The rider sees the road, the horse carries the stride; if the two war with each other, the destination is never reached.",
       "sv": "Ryttaren ser vägen, hästen bär steget; strider de två med varandra nås aldrig målet."
-    }
+    },
+    "practiceImage": "/runes/practice-ehwaz.jpg"
   },
   {
     "index": 20,
@@ -2546,7 +2566,8 @@ export const runes: readonly Rune[] = [
       "tr": "İnsan insanın aynasıdır; liyakatle yapılan ölümlü iş mertebe değiştirir.",
       "en": "Human is mirror to human; mortal craft performed with integrity transcends its rank.",
       "sv": "Människa är människas spegel; dödligt hantverk utfört med heder lyfter sin rang."
-    }
+    },
+    "practiceImage": "/runes/practice-mannaz.jpg"
   },
   {
     "index": 21,
@@ -2670,7 +2691,8 @@ export const runes: readonly Rune[] = [
       "tr": "Suyla savaşılmaz; sağlam bir omurga (gemi) kurarsan okyanus seni ufka taşır.",
       "en": "One does not war with water; build a sound hull of reason, and the ocean will carry you to the horizon.",
       "sv": "Man krigar inte med vattnet; bygg ett fast skrov av vilja, så bär oceanen dig mot horisonten."
-    }
+    },
+    "practiceImage": "/runes/practice-laguz.jpg"
   },
   {
     "index": 22,
@@ -2793,7 +2815,8 @@ export const runes: readonly Rune[] = [
       "tr": "Tohum karanlıkta çatlar; örtünün altına erken bakan filizi kör eder.",
       "en": "The seed splits in the dark; whoever lifts the cover too soon blinds the shoot.",
       "sv": "Fröet spricker i mörkret; den som lyfter täcket för tidigt förblindar grodden."
-    }
+    },
+    "practiceImage": "/runes/practice-ingwaz.jpg"
   },
   {
     "index": 23,
@@ -2916,7 +2939,8 @@ export const runes: readonly Rune[] = [
       "tr": "Şafak karanlığı inkâr ederek değil, geceyi tamamlayarak doğar.",
       "en": "Dawn breaks not by denying the dark, but by completing the night.",
       "sv": "Gryningen gryr inte genom att förneka mörkret, utan genom att fullborda natten."
-    }
+    },
+    "practiceImage": "/runes/practice-dagaz.jpg"
   },
   {
     "index": 24,
@@ -3036,7 +3060,8 @@ export const runes: readonly Rune[] = [
       "tr": "Yolculuk Fehu’nun kıvılcımıyla başlar, Othala’nın sıcak ocağında tamamlanır.",
       "en": "The journey begins with the spark of Fehu and is completed at the warm hearth of Othala.",
       "sv": "Vandringen börjar med Fehus gnista och fullbordas vid Othalas varma härd."
-    }
+    },
+    "practiceImage": "/runes/practice-othala.jpg"
   }
 ];
 

@@ -21,7 +21,7 @@ type SearchEntry = {
 const SEARCH_UI = {
   tr: {
     buttonLabel: "Ara",
-    modalTitle: "Kış Odası Dizin & Sembol Arama (132 Oda)",
+    modalTitle: "Kış Odası Dizin & Sembol Arama (146 Oda)",
     placeholder: "Rün, burç, gezegen, bitki, ogham, şaman, eğitim ara... (Örn: Fehu, Boğa, Akrep, Sedir, Davul)",
     closeLabel: "Kapat (ESC)",
     emptyText: "Aradığın kelimeyle eşleşen bir oda bulunamadı.",
@@ -39,7 +39,7 @@ const SEARCH_UI = {
   },
   en: {
     buttonLabel: "Search",
-    modalTitle: "Winter Hall Index & Symbol Search (132 Rooms)",
+    modalTitle: "Winter Hall Index & Symbol Search (146 Rooms)",
     placeholder: "Search rune, sign, planet, herb, ogham, shamanism, course... (e.g. Fehu, Taurus, Scorpio, Cedar)",
     closeLabel: "Close (ESC)",
     emptyText: "No room matched your search query.",
@@ -57,7 +57,7 @@ const SEARCH_UI = {
   },
   sv: {
     buttonLabel: "Sök",
-    modalTitle: "Vinterrummet Register & Symbolsök (132 Rum)",
+    modalTitle: "Vinterrummet Register & Symbolsök (146 Rum)",
     placeholder: "Sök runa, tecken, planet, ört, ogham, schamanism, kurs... (t.ex. Fehu, Oxen, Skorpionen)",
     closeLabel: "Stäng (ESC)",
     emptyText: "Inget rum matchade din sökning.",

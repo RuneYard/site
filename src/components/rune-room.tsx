@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { GaldrPlayer } from "@/components/galdr-player";
 import { HallShell } from "@/components/hall-shell";
@@ -205,6 +206,7 @@ export function RuneDoor({ slug }: { slug: string }) {
 
 function RuneDoorView({ rune }: { rune: Rune }) {
   const { lang, t } = useLanguage();
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
   const ui = LABELS[lang];
 
   const currentIdx = runes.findIndex((r) => r.slug === rune.slug);
@@ -268,14 +270,20 @@ function RuneDoorView({ rune }: { rune: Rune }) {
         </div>
 
         {/* Engraved Stone Plate */}
-        <figure className="mt-7 overflow-hidden border border-chalk/15 bg-black/50">
+        <button
+          type="button"
+          onClick={() =>
+            setLightbox({ src: rune.image, alt: `${rune.name} (${rune.protoGermanic})` })
+          }
+          className="mt-7 block w-full overflow-hidden border border-chalk/15 bg-black/50 text-left transition-colors hover:border-bronze/60"
+        >
           <img
             src={rune.image}
             alt={`${rune.name} (${rune.protoGermanic})`}
             className="h-auto w-full object-cover"
             loading="eager"
           />
-        </figure>
+        </button>
 
         {/* Recorded Galdr Audio Player */}
         <GaldrPlayer
@@ -351,10 +359,41 @@ function RuneDoorView({ rune }: { rune: Rune }) {
         </div>
 
         {/* 3-Step Galdr, Stöðul & Contemplation Practice */}
-        <section className="mt-12 border border-chalk/25 bg-chalk/[0.03] p-6 sm:p-8">
+        <section className="mt-12 border border-chalk/25 bg-chalk/[0.03] p-5 sm:p-8">
           <h2 className="font-display text-2xl font-medium tracking-[0.01em] text-chalk">
             {rune.practice[lang].title}
           </h2>
+          {rune.practiceImage && (
+            <button
+              type="button"
+              onClick={() =>
+                setLightbox({
+                  src: rune.practiceImage!,
+                  alt: rune.practice[lang].title,
+                })
+              }
+              className="my-5 block w-full overflow-hidden border border-chalk/15 bg-ink/80 text-left transition-colors hover:border-bronze/60"
+            >
+              <div className="overflow-x-auto sm:overflow-visible">
+                <img
+                  src={rune.practiceImage}
+                  alt={rune.practice[lang].title}
+                  className="h-auto min-w-[580px] w-full object-cover sm:min-w-0"
+                  loading="lazy"
+                />
+              </div>
+              <div className="flex items-center justify-between border-t border-chalk/10 bg-ink/85 px-3 py-1.5 text-[11px] text-chalk/65">
+                <span>
+                  {lang === "tr"
+                    ? "🔍 Şemayı tam ekran incelemek için dokunun"
+                    : lang === "sv"
+                    ? "🔍 Tryck på schemat för helskärmsvisning"
+                    : "🔍 Tap diagram to inspect full-screen"}
+                </span>
+                <span className="text-bronze sm:hidden">↔ Kaydır / Büyüt</span>
+              </div>
+            </button>
+          )}
           <ol className="mt-5 space-y-4">
             {rune.practice[lang].steps.map((step, i) => (
               <li
@@ -417,6 +456,39 @@ function RuneDoorView({ rune }: { rune: Rune }) {
           </Link>
         </nav>
       </main>
+
+      {lightbox && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label={lightbox.alt}
+          onClick={() => setLightbox(null)}
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black/90 p-3 backdrop-blur-sm sm:p-8"
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="relative max-h-[92vh] w-full max-w-5xl overflow-auto border border-bronze/40 bg-ink p-2 sm:p-4"
+          >
+            <div className="mb-2 flex items-center justify-between gap-4 px-1">
+              <p className="font-display text-sm text-chalk/90 sm:text-base">{lightbox.alt}</p>
+              <button
+                type="button"
+                onClick={() => setLightbox(null)}
+                className="border border-chalk/25 bg-black/60 px-3 py-1 text-xs tracking-[0.15em] text-chalk uppercase hover:border-bronze"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="overflow-x-auto">
+              <img
+                src={lightbox.src}
+                alt={lightbox.alt}
+                className="h-auto min-w-[680px] w-full object-contain sm:min-w-0"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </HallShell>
   );
 }

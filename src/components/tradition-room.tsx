@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DreamCompass } from "@/components/dream-compass";
 import { HallShell } from "@/components/hall-shell";
+import { KumalakOracle } from "@/components/kumalak-oracle";
 import { useLanguage } from "@/components/language";
 import { OghamOracle } from "@/components/ogham-oracle";
 import { PlanetaryHoursCompass } from "@/components/planetary-hours";
@@ -118,6 +119,7 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
         {slug === "kelt" && <OghamOracle />}
         {slug === "mezopotamya" && <PlanetaryHoursCompass />}
         {(slug === "witchcraft" || slug === "saman") && <WheelCompass />}
+        {slug === "saman" && <KumalakOracle />}
         {slug === "saman" && <DreamCompass />}
 
         {!hall.closed && hall.doors.length > 0 && (
@@ -328,6 +330,8 @@ function TraditionDoorView({
             })}
           </ul>
         )}
+
+        {door.slug.includes("kumalak") && <KumalakOracle />}
 
         {practice && (
           <section className="card-slate mt-10 max-w-4xl border border-chalk/15 p-4 sm:mt-12 sm:p-6">
