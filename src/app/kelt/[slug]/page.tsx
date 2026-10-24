@@ -15,7 +15,20 @@ export async function generateMetadata({
   const { slug } = await params;
   const door = findTraditionDoor("kelt", slug);
   if (!door) return { title: "Kelt — RuneYard" };
-  return { title: `${door.title.tr} — Kelt · RuneYard` };
+  const title = `${door.title.tr} (${door.subtitle.tr}) — Kelt Geleneği · RuneYard`;
+  const description = door.text.tr[0];
+  return {
+    title,
+    description,
+    alternates: { canonical: `/kelt/${door.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.runeyard.net/kelt/${door.slug}`,
+      type: "article",
+      images: [{ url: door.image, alt: door.title.tr }],
+    },
+  };
 }
 
 export default async function KeltDoorPage({ params }: { params: Promise<{ slug: string }> }) {

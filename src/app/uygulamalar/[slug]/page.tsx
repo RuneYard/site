@@ -15,7 +15,22 @@ export async function generateMetadata({
   const { slug } = await params;
   const app = findAppBySlug(slug);
   if (!app) return { title: "Uygulamalar — RuneYard" };
-  return { title: `${app.name} — Uygulamalar · RuneYard` };
+
+  const title = `${app.name} (${app.tagline.tr}) — iOS Uygulaması · RuneYard`;
+  const description = app.summary.tr;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/uygulamalar/${app.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.runeyard.net/uygulamalar/${app.slug}`,
+      type: "website",
+      images: [{ url: app.icon, alt: app.name }],
+    },
+  };
 }
 
 export default async function AppDoorPage({
@@ -24,6 +39,7 @@ export default async function AppDoorPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  if (!findAppBySlug(slug)) notFound();
+  const app = findAppBySlug(slug);
+  if (!app) notFound();
   return <AppDoor slug={slug} />;
 }

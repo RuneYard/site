@@ -14,15 +14,24 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const door = findTraditionDoor("witchcraft", slug);
-  if (!door) return { title: "Witchcraft — RuneYard" };
-  return { title: `${door.title.tr} — Witchcraft · RuneYard` };
+  if (!door) return { title: "Cadılık — RuneYard" };
+  const title = `${door.title.tr} (${door.subtitle.tr}) — Cadılık Zanaatı · RuneYard`;
+  const description = door.text.tr[0];
+  return {
+    title,
+    description,
+    alternates: { canonical: `/witchcraft/${door.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.runeyard.net/witchcraft/${door.slug}`,
+      type: "article",
+      images: [{ url: door.image, alt: door.title.tr }],
+    },
+  };
 }
 
-export default async function WitchcraftDoorPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function WitchcraftDoorPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   if (!findTraditionDoor("witchcraft", slug)) notFound();
   return <TraditionDoor traditionSlug="witchcraft" doorSlug={slug} />;

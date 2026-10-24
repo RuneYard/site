@@ -20,11 +20,37 @@ export async function generateMetadata({
   const { slug } = await params;
   const door = findAstrologyDoor(slug);
   if (door) {
-    return { title: `${door.title.tr} — Astroloji · RuneYard` };
+    const title = `${door.title.tr} (${door.subtitle.tr}) — Astroloji · RuneYard`;
+    const description = door.text.tr[0];
+    return {
+      title,
+      description,
+      alternates: { canonical: `/astroloji/${door.slug}` },
+      openGraph: {
+        title,
+        description,
+        url: `https://www.runeyard.net/astroloji/${door.slug}`,
+        type: "article",
+        images: [{ url: door.image, alt: door.title.tr }],
+      },
+    };
   }
   const skyNote = findExtraSkyNote(slug);
   if (skyNote) {
-    return { title: `${skyNote.data.tr.title} — Astroloji · RuneYard` };
+    const title = `${skyNote.data.tr.title} — Astroloji & Burç Yorumları · RuneYard`;
+    const description = skyNote.data.tr.lead;
+    return {
+      title,
+      description,
+      alternates: { canonical: `/astroloji/${skyNote.slug}` },
+      openGraph: {
+        title,
+        description,
+        url: `https://www.runeyard.net/astroloji/${skyNote.slug}`,
+        type: "article",
+        images: [{ url: skyNote.image, alt: skyNote.data.tr.title }],
+      },
+    };
   }
   return { title: "Astroloji — RuneYard" };
 }
@@ -35,11 +61,49 @@ export default async function AstrologyDoorPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  if (findAstrologyDoor(slug)) {
-    return <AstrologyDoor doorSlug={slug} />;
+  const door = findAstrologyDoor(slug);
+  if (door) {
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `${door.title.tr} — ${door.subtitle.tr}`,
+      description: door.text.tr[0],
+      image: `https://www.runeyard.net${door.image}`,
+      author: { "@type": "Person", name: "Mehmet Akdeniz" },
+      publisher: { "@type": "Organization", name: "RuneYard", url: "https://www.runeyard.net" },
+      mainEntityOfPage: `https://www.runeyard.net/astroloji/${door.slug}`,
+    };
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <AstrologyDoor doorSlug={slug} />
+      </>
+    );
   }
-  if (findExtraSkyNote(slug)) {
-    return <SkyNoteRoom slug={slug} />;
+  const skyNote = findExtraSkyNote(slug);
+  if (skyNote) {
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: skyNote.data.tr.title,
+      description: skyNote.data.tr.lead,
+      image: `https://www.runeyard.net${skyNote.image}`,
+      author: { "@type": "Person", name: "Mehmet Akdeniz" },
+      publisher: { "@type": "Organization", name: "RuneYard", url: "https://www.runeyard.net" },
+      mainEntityOfPage: `https://www.runeyard.net/astroloji/${skyNote.slug}`,
+    };
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <SkyNoteRoom slug={slug} />
+      </>
+    );
   }
   notFound();
 }

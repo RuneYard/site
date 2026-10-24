@@ -17,23 +17,83 @@ const body = DM_Sans({
   display: "swap",
 });
 
-const siteUrl = "https://runeyard.net";
+const siteUrl = "https://www.runeyard.net";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "RuneYard — Kış odası",
+  title: {
+    default: "RuneYard — Mehmet Akdeniz · Rünler, Astroloji, Kadim Gelenekler & Akademi",
+    template: "%s",
+  },
   description:
-    "Mehmet Akdeniz’in kış odası. Rün notları, ders duyuruları ve gökyüzü yazıları aynı duvarda asılı.",
+    "Mehmet Akdeniz’in kış odası. 24 Elder Futhark rün incelemesi, gökyüzü ve astroloji analizleri, Şamanizm, Kelt, Mezopotamya, Cadılık gelenekleri ve RuneYard Akademi eğitimleri.",
+  keywords: [
+    "RuneYard",
+    "Mehmet Akdeniz",
+    "Rünler",
+    "Elder Futhark",
+    "Rün Eğitimi",
+    "Astroloji",
+    "Boğa Dolunayı",
+    "Merkür Retrosu",
+    "Venüs Retrosu",
+    "Şamanizm Eğitimi",
+    "El Yüz Element Analizi",
+    "Kelt Ogham",
+    "Mezopotamya",
+  ],
+  authors: [{ name: "Mehmet Akdeniz", url: siteUrl }],
+  creator: "Mehmet Akdeniz",
   alternates: { canonical: "/" },
   openGraph: {
     url: siteUrl,
     siteName: "RuneYard",
-    title: "RuneYard — Kış odası",
+    title: "RuneYard — Mehmet Akdeniz · Kış Odası",
     description:
-      "Mehmet Akdeniz’in kış odası. Rün notları, ders duyuruları ve gökyüzü yazıları aynı duvarda asılı.",
+      "24 Elder Futhark rün incelemesi, gökyüzü ve astroloji analizleri, kadim gelenekler ve RuneYard Akademi eğitimleri.",
     locale: "tr_TR",
     type: "website",
+    images: [
+      {
+        url: "/runes/hall.jpg",
+        width: 1200,
+        height: 675,
+        alt: "RuneYard — Kış Odası",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "RuneYard — Mehmet Akdeniz · Kış Odası",
+    description:
+      "24 Elder Futhark rün incelemesi, gökyüzü ve astroloji analizleri, kadim gelenekler ve RuneYard Akademi eğitimleri.",
+    images: ["/runes/hall.jpg"],
+  },
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "RuneYard",
+      description:
+        "Mehmet Akdeniz’in kış odası. Rün notları, ders duyuruları, kadim gelenekler ve gökyüzü yazıları.",
+      inLanguage: ["tr-TR", "en-US", "sv-SE"],
+      publisher: {
+        "@id": `${siteUrl}/#person`,
+      },
+    },
+    {
+      "@type": "Person",
+      "@id": `${siteUrl}/#person`,
+      name: "Mehmet Akdeniz",
+      url: siteUrl,
+      jobTitle: "Eğitmen & Araştırmacı — Rün Bilgelikleri, Astroloji ve Kadim Gelenekler",
+    },
+  ],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -43,6 +103,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${display.variable} ${body.variable} h-full antialiased`}
     >
       <body className="min-h-full">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>

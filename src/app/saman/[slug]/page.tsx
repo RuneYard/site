@@ -15,7 +15,20 @@ export async function generateMetadata({
   const { slug } = await params;
   const door = findTraditionDoor("saman", slug);
   if (!door) return { title: "Şaman — RuneYard" };
-  return { title: `${door.title.tr} — Şaman · RuneYard` };
+  const title = `${door.title.tr} (${door.subtitle.tr}) — Şamanizm · RuneYard`;
+  const description = door.text.tr[0];
+  return {
+    title,
+    description,
+    alternates: { canonical: `/saman/${door.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.runeyard.net/saman/${door.slug}`,
+      type: "article",
+      images: [{ url: door.image, alt: door.title.tr }],
+    },
+  };
 }
 
 export default async function SamanDoorPage({ params }: { params: Promise<{ slug: string }> }) {

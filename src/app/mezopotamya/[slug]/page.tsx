@@ -15,14 +15,23 @@ export async function generateMetadata({
   const { slug } = await params;
   const door = findTraditionDoor("mezopotamya", slug);
   if (!door) return { title: "Mezopotamya — RuneYard" };
-  return { title: `${door.title.tr} — Mezopotamya · RuneYard` };
+  const title = `${door.title.tr} (${door.subtitle.tr}) — Mezopotamya · RuneYard`;
+  const description = door.text.tr[0];
+  return {
+    title,
+    description,
+    alternates: { canonical: `/mezopotamya/${door.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.runeyard.net/mezopotamya/${door.slug}`,
+      type: "article",
+      images: [{ url: door.image, alt: door.title.tr }],
+    },
+  };
 }
 
-export default async function MezopotamyaDoorPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function MezopotamyaDoorPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   if (!findTraditionDoor("mezopotamya", slug)) notFound();
   return <TraditionDoor traditionSlug="mezopotamya" doorSlug={slug} />;
