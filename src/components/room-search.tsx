@@ -22,7 +22,7 @@ type SearchEntry = {
 const SEARCH_UI = {
   tr: {
     buttonLabel: "Ara",
-    modalTitle: "Kış Odası Dizin & Sembol Arama (165 Oda)",
+    modalTitle: "Kış Odası Dizin & Sembol Arama (166 Oda)",
     placeholder: "Rün, burç, gezegen, bitki, ogham, şaman, eğitim, shop ara... (Örn: Fehu, Yeşil Ahit, Velvet Love)",
     closeLabel: "Kapat (ESC)",
     emptyText: "Aradığın kelimeyle eşleşen bir oda bulunamadı.",

@@ -90,7 +90,7 @@ const copy = {
       {
         href: "/witchcraft",
         glyph: "⚝",
-        badge: "XX ODA · HERBARYUM & OCAK",
+        badge: "XXI ODA · HERBARYUM & OCAK",
         title: "Witchcraft",
         line: "Yeşil Ahit: Yabani bitkiler, reçineler, dört element ve ocak bilgisi.",
         closed: false,
@@ -234,7 +234,7 @@ const copy = {
       {
         href: "/witchcraft",
         glyph: "⚝",
-        badge: "XX ROOMS · HERBARIUM & HEARTH",
+        badge: "XXI ROOMS · HERBARIUM & HEARTH",
         title: "Witchcraft",
         line: "The Green Covenant: Wild herbs, resins, the four elements, and hearth lore.",
         closed: false,
@@ -378,7 +378,7 @@ const copy = {
       {
         href: "/witchcraft",
         glyph: "⚝",
-        badge: "XX RUM · HERBARIUM & HÄRD",
+        badge: "XXI RUM · HERBARIUM & HÄRD",
         title: "Witchcraft",
         line: "Det gröna förbundet: Vilda örter, hartser, de fyra elementen och härdkunskap.",
         closed: false,

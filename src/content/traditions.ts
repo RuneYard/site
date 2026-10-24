@@ -11370,6 +11370,152 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/witchcraft/item-yesil-ahit-biyo-bolgesel-etik-5.jpg"
         ],
         "practiceImage": "/witchcraft/practice-yesil-ahit-biyo-bolgesel-etik.jpg"
+      },
+      {
+              "slug": "samhain-esik-ve-ata-ocagi",
+              "glyph": "XXI",
+              "image": "/witchcraft/samhain-esik-ve-ata-ocagi.jpg",
+              "title": {
+                      "tr": "Samhain: İncelen Perde, Sessiz Ata Sofrası ve Eşik Ritüeli",
+                      "en": "Samhain: The Thinning Veil, the Dumb Supper, and the Threshold Rite",
+                      "sv": "Samhain: Den Tunna Slöjan, det Tysta Gästabudet och Tröskelriten"
+              },
+              "subtitle": {
+                      "tr": "Modern Wicca Kurgularından Uzak, Kadim Ocak Geleneğinde Kış Eşiği, Tuz-Demir Sınırı ve Kül Mührü",
+                      "en": "An Authentic Old-Craft Hearth Rite of Winter's Threshold, Salt-and-Iron Warding, and Ancestral Hospitality",
+                      "sv": "En Ursprunglig Härdrit vid Vinterns Tröskel, Salt-och-Järngräns samt Förfädernas Bord"
+              },
+              "summary": {
+                      "tr": "Tarihsel Samhain (*Samhuinn* — Yazın Sonu) ve Kuzey’in *Kış Geceleri* (*Vetrardagur*), 20. yüzyıl modern Wicca çemberlerinden çok daha eski bir **kış eşiği, hasat kapanışı ve ata ağırlama** töresidir. Bu odada doğrudan evinde uygulayabileceğin üç aşamalı geleneksel Samhain ocak ritüeli yer alır.",
+                      "en": "Historical Samhain (*Samhuinn* — 'Summer's End') and the Northern *Winter Nights* (*Vetrardagur*) predate 20th-century Wiccan liturgy by millennia. Rooted in agrarian survival, threshold warding, and ancestral remembrance, this room presents a complete, practical three-stage traditional hearth ritual.",
+                      "sv": "Historiska Samhain (*Samhuinn* — 'Sommarens Slut') och Nordens *Vinternätter* (*Vetrardagur*) är årtusenden äldre än modern Wicca. Här presenteras en autentisk och praktiskt genomförbar trestegsrit för hemmet, tröskeln och förfädernas minne."
+              },
+              "paragraphs": {
+                      "tr": [
+                              "Eski İrlanda ve İskoç kaynaklarında (*Tochmarc Emire* ve *Cormac Sözlüğü*) **Samhain** (*Samhuinn*), yılın aydınlık yarısının (*Sam*) kapanıp karanlık ve kök yarısının (*Giam* / Kış) başladığı gerçek yılbaşı eşiğidir (31 Ekim – 1 Kasım gecesi veya Güneş’in **15° Akrep** derecesine ulaştığı astronomik eşik). Modern Wicca öğretilerindeki ‘üç kat yasası, athame ile çember açma veya boynuzlu tanrı çağrıları’ bu kadim kırsal geleneğin parçası değildir; gerçek geleneksel zanaat **ocak ateşi, kapı eşiği, tuz, demir, elma, su ve sessiz ata sofrası** üzerine kuruludur.",
+                              "Geleneksel halk kozmolojisinde Samhain gecesi ne eski yıla ne de yeni yıla aittir; iki mevsim arasındaki **‘zaman dışı çatlak’**tır. Bu çatlakta toprağın altındaki köklerle yaşayanların hanesi arasındaki perde incelir. Ancak kadim ocak bilgisinde **‘her ruh eve davet edilmez’**: Kapı eşiği kaya tuzu, ocak külü, biberiye ve bir parça **demir** ile mühürlenerek başıboş/ağır kış gölgelerine (*Sluagh*) kapatılır; penceredeki tek mum yalnızca **isimleri anılan, kan ve gönül bağı taşıyan bilge atalara** yol gösterir.",
+                              "Gecenin kalbini **Sessiz Akşam Yemeği (*Dumb Supper*)** ve **Kül Mührü (*Smooring the Hearth*)** oluşturur. Sofrada göçmüş büyükler için fazladan bir tabak (bir dilim arpa/buğday ekmeği, bir tutam tuz, enine kesilmiş bir elmanın yarısı ve bir bardak temiz su) ayrılır. Sofranın başında 15 dakika boyunca tek kelime konuşulmadan (ve tüm ekranlar kapalıyken) ataların bıraktığı dayanıklılık mirası onurlandırılır.",
+                              "Ritüelin son aşamasında koyu bir kase suyun yüzeyinde (**Kara Su Aynası / Lecanomancy**) kış boyu korunacak tek bir niyet okunur; geride bırakılması gereken yük ise kuru bir defne yaprağı üzerinde yakılıp külü sabah toprağa teslim edilir. ⚠️ **Tıbbi ve Güvenlik Uyarısı:** Mum ve ateş çalışmalarında yangın güvenliğine mutlak dikkat edin, yanan mumu asla gözetimsiz bırakmayın. Kullanılan tuz, kül ve bitkiler ritüel amaçlıdır; sağlık sorunlarında daima modern tıbba başvurun."
+                      ],
+                      "en": [
+                              "In early Gaelic sources (*Tochmarc Emire* and *Sanas Cormaic*), **Samhain** (*Samhuinn*) marks the true turn of the year when the bright half (*Sam*) closes and the dark, rootward half (*Giam* / Winter) begins—observed on the night of 31 October – 1 November or at the solar cross-quarter of **15° Scorpio**. Unlike 20th-century Wiccan ceremonies, historical folk craft centers on **the hearth fire, the threshold, salt, iron, apples, dark water, and the ancestral table**.",
+                              "In traditional lore, Samhain night belongs neither to the old year nor the new; it is the **seam between seasons** where the boundary between the living household and the dead grows thin. Crucially, traditional hearth craft never issues an open invitation to every wandering spirit: the doorway is first warded with **rock salt, wood ash, rosemary, and cold iron** to bar restless winter shadows (*Sluagh*), while a single candle in the western window guides only **named, benevolent ancestors of blood and spirit**.",
+                              "At the center of the night stands the **Dumb Supper (Silent Table)** and the **Smooring of the Hearth**. An extra plate is set at the table with bread, a pinch of salt, half of a cross-cut apple, and clean water. For fifteen minutes in complete silence, the household honors the endurance and memory of those who walked before.",
+                              "Finally, through a dark bowl of water (**Lecanomancy**) and the burning of a single bay leaf bearing what must be released into winter's earth, the old year is sealed. ⚠️ **Safety & Medical Notice:** Never leave burning candles or embers unattended; keep ancestral food offerings away from pets when placing them outdoors; and always rely on modern medicine for health matters."
+                      ],
+                      "sv": [
+                              "I tidiga keltiska källor markerar **Samhain** (*Samhuinn*) och Nordens **Vinternätter** (*Vetrardagur* / *Álfablót*) det verkliga årsskiftet då sommarhalvåret (*Sam*) slocknar och vinterhalvåret (*Giam*) tar vid—natten mellan 31 oktober och 1 november eller vid **15° Skorpionen**. Till skillnad från modern 1900-tals-Wicca vilar den gamla folktraditionen på **härdens glöd, tröskelns skydd, salt, järn, äpplen, mörkt källvatten och förfädernas tysta bord**.",
+                              "I äldre folktro tillhör Samhainnatten varken det gamla eller det nya året; den är **sprickan mellan tiderna**. En grundregel i gammal härdkonst är att **aldrig bjuda in vilka väsen som helst**: tröskeln förseglas först med **bergsalt, aska, rosmarin och kallt järn** för att hålla rastlösa vinterskuggor borta, medan ett enda ljus i fönstret lyser vägen enbart för **namngivna, välvilliga förfäder**.",
+                              "Nattens hjärta är **det Tysta Gästabudet (*Dumb Supper*)** och **Täckandet av Glöden (*Smooring*)**. En extra tallrik dukas fram med bröd, lite salt, ena halvan av ett tvärskuret äpple och friskt vatten. Under femton minuter i fullständig tystnad hedras minnet av dem som gått före.",
+                              "Sist läses vinterns riktning i en mörk vattenskål och det som ska lämnas bakom bränns på ett torkat lagerblad vars aska återlämnas till jorden i gryningen. ⚠️ **Säkerhets- & Medicinsk Varning:** Lämna aldrig levande ljus utan uppsikt och rådfråga alltid läkare vid hälsobesvär."
+                      ]
+              },
+              "chapters": {
+                      "tr": [
+                              {
+                                      "heading": "I. Hazırlık ve Eşik Mühürleme: Tuz, Kül, Demir ve Biberiye (Günbatımı)",
+                                      "body": "Günbatımından hemen önce evin zemini merkezden kapıya doğru süpürülerek eski mevsimin ağırlığı dışarı çıkarılır. Dış kapı eşiğinin iç kenarına ince bir çizgi **kaya tuzu, biraz kül ve kuru biberiye** serpilir; kapı yakınına küçük bir **demir nesne** (eski bir anahtar, demir çivi veya makas) konur. Eşiğe dokunarak şu sınır sözü söylenir: *‘Tuz toprağı tutar, demir sınırı korur; bu eşikten içeri yalnız barışla gelen ve adıyla çağrılan soyumun bilgeliği girebilir.’*"
+                              },
+                              {
+                                      "heading": "II. Pencere Feneri ve Sessiz Ata Sofrası (Dumb Supper · Gece Yarısına Doğru)",
+                                      "body": "Batıya (veya sokağa) bakan pencerenin önüne **tek bir beyaz mum veya saf balmumu mum** ile bir bardak **temiz su** konur. Masaya bir tabak ayrılır: bir parça ekmek, tuz ve **enine (yatay) kesilmiş bir elmanın** (ortasındaki beş köşeli tohum yıldızı görünecek şekilde) bir yarısı ata tabağına bırakılır; diğer yarısını sen yersin. Elektrik ışıkları kapatılır, 15 dakika konuşmadan oturulur ve göçmüş büyüklerin isimleri içten veya fısıltıyla anılarak şükran sunulur."
+                              },
+                              {
+                                      "heading": "III. Kara Su Aynası (Scrying), Kül Mührü ve Sabah Toprağa Teslim",
+                                      "body": "Koyu renkli bir kaseye soğuk su doldurulur; mum ışığı suyun yüzeyine yansıtılır. Suya **üç damla balmumu** damlatılır (veya karanlık su yüzeyine odaklanılır) ve *‘Bu kış hangi kökümü güçlendirmeliyim?’* sorusunun ilk sezgisel cevabı deftere yazılır. Ardından bu yıl bitmesi gereken bir yük **kuru bir defne yaprağına** yazılıp yanmaz bir kapta yakılır. Sabah gün doğduğunda defne külü ve ata tabağındaki lokma dışarıda bir ağaç köküne bırakılır ve **arkaya bakmadan** eve dönülür."
+                              }
+                      ],
+                      "en": [
+                              {
+                                      "heading": "I. Threshold Warding: Salt, Ash, Cold Iron, and Rosemary (At Sundown)",
+                                      "body": "Before sunset, sweep the floor toward the front door to clear the stagnant dust of the outgoing season. Lay a thin line of **rock salt, hearth ash, and dried rosemary** along the inner threshold, placing a piece of **cold iron** (an old key or iron nail) beside the doorframe. Speak the boundary formula: *'Salt holds the earth, iron keeps the ward; none may cross this threshold save peace and the named wisdom of my kin.'*"
+                              },
+                              {
+                                      "heading": "II. The Window Lantern and the Silent Ancestral Table (Dumb Supper)",
+                                      "body": "Set a **single white or beeswax candle** and a glass of **clean water** by a western window. Lay an ancestral plate at your table with bread, salt, and one half of a **horizontally cut apple** (revealing its five-pointed seed star), eating the other half yourself. Extinguish electric lights, sit in complete silence for 15 minutes, and whisper the names of your remembered dead in gratitude."
+                              },
+                              {
+                                      "heading": "III. The Dark Water Bowl, Ash Sealing, and Dawn Offering",
+                                      "body": "Fill a dark ceramic or cast-iron bowl with cold water beside the candle. Let three drops of wax fall onto the surface while asking: *'Which root must I strengthen through this winter?'* Record the first impression in your journal. Write one burden from the past year on a **dried bay leaf**, burn it to ash in a fireproof dish, and at dawn return both the ash and the ancestral bread to the base of a tree without looking back."
+                              }
+                      ],
+                      "sv": [
+                              {
+                                      "heading": "I. Tröskelskydd: Salt, Aska, Kallt Järn och Rosmarin (Vid Solnedgången)",
+                                      "body": "Före solnedgången sopas golvet mot ytterdörren för att föra ut det gångna årets tyngd. Strö en tunn linje av **bergsalt, aska och torkad rosmarin** vid tröskeln och lägg ett **järnföremål** (en gammal nyckel eller spik) intill dörren med orden: *'Salt binder jorden, järn vaktar gränsen; över denna tröskel kommer blott frid och mina namngivna förfäders visdom.'*"
+                              },
+                              {
+                                      "heading": "II. Fönsterlyktan och det Tysta Förfädersbordet (Dumb Supper)",
+                                      "body": "Ställ ett **vitt ljus eller bivaxljus** och ett glas **rent vatten** i ett fönster mot väster. Duka en tallrik med bröd, salt och ena halvan av ett **tvärskuret äpple** (så att fröstjärnan syns) åt de bortgångna, och ät själv den andra halvan. Släck lamporna, sitt i total tystnad i 15 minuter och viska namnen på dina saknade med tacksamhet."
+                              },
+                              {
+                                      "heading": "III. Den Mörka Vattenskålen, Askförseglingen och Gryningsgåvan",
+                                      "body": "Fyll en mörk skål med kallt vatten intill ljuset, låt tre droppar vax falla i vattnet och fråga: *'Vilken rot ska jag stärka under denna vinter?'* Skriv sedan det du vill lämna bakom dig på ett **torkat lagerblad**, bränn det till aska i ett eldfast kärl och lägg i gryningen askan och brödet vid roten av ett träd utan att se dig om."
+                              }
+                      ]
+              },
+              "items": {
+                      "tr": [
+                              "Eşik Mührü (Tuz, Kül ve Demir): Kapı eşiğinde başıboş kış gölgelerini (*Sluagh*) dışarıda tutan geleneksel sınır.",
+                              "Batı Penceresi Feneri (Mum & Su): Yalnızca adıyla çağrılan bilge soy atalarına yol gösteren balmumu ışığı.",
+                              "Sessiz Ata Sofrası (Dumb Supper): Ekmek, tuz ve enine kesilmiş elma yıldızıyla 15 dakikalık konuşmasız ağırlama.",
+                              "Kara Su Aynası ve Defne Külü: Koyu su kasesinde kış niyeti okuması ve eski yükün küle dönüştürülmesi.",
+                              "⚠️ Yangın ve Tıbbi Güvenlik Uyarısı: Yanan mumu ve defne yaprağını asla gözetimsiz bırakmayın; sağlık konularında daima hekime başvurun."
+                      ],
+                      "en": [
+                              "Threshold Ward (Salt, Ash & Iron): Traditional doorway boundary keeping uninvited winter shadows outside.",
+                              "Western Window Lantern (Candle & Water): Guiding beeswax light reserved strictly for named ancestors.",
+                              "The Dumb Supper (Silent Table): Bread, salt, and the five-pointed apple star shared in 15 minutes of silence.",
+                              "Dark Water Bowl & Bay Leaf Ash: Winter scrying in dark water and burning away the old year's weight.",
+                              "⚠️ Fire & Medical Safety Notice: Never leave candles or burning leaves unattended; always consult physicians for health matters."
+                      ],
+                      "sv": [
+                              "Tröskelns Försegling (Salt, Aska & Järn): Gammal gränsmarkering som håller ovälkomna vinterskuggor ute.",
+                              "Västra Fönsterljuset (Ljus & Vatten): Vägledande bivaxlåga enbart för namngivna förfäder.",
+                              "Det Tysta Gästabudet (Dumb Supper): Bröd, salt och det tvärskurna äpplets stjärna i 15 minuters tystnad.",
+                              "Mörk Vattenskål & Lagerbladsaska: Vinterskådning i mörkt vatten och förbränning av det gångna årets tyngd.",
+                              "⚠️ Brand- & Medicinsk Varning: Lämna aldrig levande ljus obevakade; sök alltid läkarvård vid sjukdom."
+                      ]
+              },
+              "practice": {
+                      "tr": {
+                              "title": "Samhain Gecesi 3 Adımlı Geleneksel Ocak ve Eşik Ritüeli",
+                              "steps": [
+                                      "1. Sınırı Çiz (Günbatımı): Kapı eşiğine kaya tuzu, biberiye ve demir bir anahtar koyarak yalnızca barışa ve adıyla andığın atalara izin ver.",
+                                      "2. Sessiz Sofrayı Kur (Gece): Pencereye mum ve su bırak; elmayı enine kesip yarısını ata tabağına koy ve 15 dakika sessizlikte soyuna şükran sun.",
+                                      "3. Külü Toprağa Teslim Et (Şafak): Bıraktığın yükü kuru defne yaprağında yakıp külünü sabah bir ağaç köküne bırak ve arkana bakmadan dön."
+                              ]
+                      },
+                      "en": {
+                              "title": "The 3-Step Traditional Samhain Hearth & Threshold Ritual",
+                              "steps": [
+                                      "1. Ward the Threshold (Sundown): Place rock salt, rosemary, and an iron key at your door so only peace and named ancestors may cross.",
+                                      "2. Keep the Silent Table (Night): Set a candle and water by the window; cut an apple horizontally, share half with the ancestral plate, and sit 15 minutes in silence.",
+                                      "3. Return the Ash to Earth (Dawn): Burn what you release on a dried bay leaf in a fireproof dish and leave the ash at a tree root at dawn without looking back."
+                              ]
+                      },
+                      "sv": {
+                              "title": "Trestegsritual för Samhain vid Härd och Tröskel",
+                              "steps": [
+                                      "1. Försegla Tröskeln (Solnedgång): Lägg bergsalt, rosmarin och en järnnyckel vid dörren så att endast frid och namngivna förfäder äger tillträde.",
+                                      "2. Håll det Tysta Bordet (Natt): Ställ ljus och vatten i fönstret; skär ett äpple på tvären, lägg halvan på förfädernas tallrik och sitt 15 minuter i tystnad.",
+                                      "3. Återlämna Askan till Jorden (Gryning): Bränn det du släpper på ett lagerblad i en eldfast skål och lägg askan vid ett träd i gryningen utan att se dig om."
+                              ]
+                      }
+              },
+              "closing": {
+                      "tr": "Yaprak toprağa düşmeden kök kışın derinliğinde güçlenmez; ocağını mühürleyen ve atasını unutmayan hane kışı aydınlık geçirir.",
+                      "en": "Until the leaf falls to the soil, the root cannot gather strength in the dark; the house that wards its threshold and remembers its dead walks brightly through winter.",
+                      "sv": "Förrän lövet faller till marken kan roten inte samla kraft i djupet; det hem som vaktar sin tröskel och minns sina döda går tryggt genom vintern."
+              },
+              "itemImages": [
+                      "/witchcraft/item-samhain-esik-ve-ata-ocagi-1.jpg",
+                      "/witchcraft/item-samhain-esik-ve-ata-ocagi-2.jpg",
+                      "/witchcraft/item-samhain-esik-ve-ata-ocagi-3.jpg",
+                      "/witchcraft/item-samhain-esik-ve-ata-ocagi-4.jpg",
+                      "/witchcraft/item-samhain-esik-ve-ata-ocagi-5.jpg"
+              ],
+              "practiceImage": "/witchcraft/practice-samhain-esik-ve-ata-ocagi.jpg"
       }
     ]
   },

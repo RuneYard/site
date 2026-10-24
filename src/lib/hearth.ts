@@ -152,7 +152,23 @@ const loreEntries: LoreEntry[] = [
     },
   },
   {
-    keywords: ["awen", "nemeton", "imbolc", "beltane", "lughnasadh", "samhain", "brigid"],
+    keywords: ["samhain", "samhuinn", "vetrardagur", "sessiz sofra", "dumb supper", "ata sofrasi", "31 ekim", "1 kasim"],
+    href: "/witchcraft/samhain-esik-ve-ata-ocagi",
+    tr: {
+      label: "XXI · Samhain: Sessiz Ata Sofrası ve Eşik Ritüeli →",
+      text: "Tarihsel Samhain (Samhuinn / Kış Geceleri), modern Wicca kurgularından çok önceye dayanan kadim kış eşiğidir: Günbatımında eşik kaya tuzu, kül, biberiye ve demirle mühürlenerek başıboş kış gölgelerine (Sluagh) kapatılır; batı penceresine tek bir balmumu mum ve su konur; sofrada enine kesilmiş elma yıldızı, ekmek ve tuz ile 15 dakikalık Sessiz Ata Sofrası (Dumb Supper) tutulur ve bırakılan yük defne yaprağında kül edilip şafakta ağaç köküne teslim edilir.",
+    },
+    en: {
+      label: "XXI · Samhain: The Dumb Supper & Threshold Rite →",
+      text: "Historical Samhain (Samhuinn) is the ancient threshold of winter: at sundown the doorway is warded with rock salt, ash, rosemary, and cold iron; a single candle and water are set at the western window for named ancestors; the Silent Table (Dumb Supper) is kept for 15 minutes with bread and a cross-cut apple; and the old year's burden is burned on a bay leaf and returned to a tree root at dawn.",
+    },
+    sv: {
+      label: "XXI · Samhain: Det Tysta Gästabudet & Tröskelriten →",
+      text: "Historiska Samhain (Samhuinn / Vinternätter) är vinterns uråldriga tröskel: vid solnedgången förseglas dörren med bergsalt, aska, rosmarin och kallt järn; ett ljus ställs i västerfönstret för namngivna förfäder; det Tysta Bordet (Dumb Supper) hålls i 15 minuter med bröd och tvärskuret äpple; och det gångna årets tyngd bränns på ett lagerblad och lämnas vid en trädrot i gryningen.",
+    },
+  },
+  {
+    keywords: ["awen", "nemeton", "imbolc", "beltane", "lughnasadh", "brigid"],
     href: "/kelt/nemeton-ve-cark",
     tr: {
       label: "Nemeton & Yılın Çarkı Odası →",
