@@ -4,6 +4,8 @@ import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { RuneCast } from "@/components/rune-cast";
+import { RuneTransliterator } from "@/components/rune-transliterator";
+import { ShareBar } from "@/components/share-bar";
 import {
   runeAetts,
   runeBySlug,
@@ -84,6 +86,9 @@ export function RuneSheet() {
 
         {/* Interactive Rune Pouch & Three Norns Cast */}
         <RuneCast />
+
+        {/* Runic Phonetic Transliterator & Inscription Studio */}
+        <RuneTransliterator />
 
         {/* Quick 24-Rune Strip */}
         <section className="mt-10 border border-chalk/15 bg-chalk/[0.02] p-5">
@@ -336,6 +341,11 @@ function RuneDoorView({ rune }: { rune: Rune }) {
         <p className="mt-10 border-l border-chalk/30 pl-5 font-display text-xl leading-8 text-chalk/80 italic">
           “{rune.closing[lang]}”
         </p>
+
+        <ShareBar
+          title={`${rune.glyph} ${rune.name} — ${rune.subtitle[lang]}`}
+          path={`/runler/${rune.slug}`}
+        />
 
         {/* Prev / All Runes / Next Navigation */}
         <nav

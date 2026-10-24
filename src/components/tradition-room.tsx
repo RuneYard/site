@@ -4,6 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
+import { OghamOracle } from "@/components/ogham-oracle";
+import { PlanetaryHoursCompass } from "@/components/planetary-hours";
+import { ShareBar } from "@/components/share-bar";
+import { WheelCompass } from "@/components/wheel-compass";
 import {
   findTraditionDoor,
   traditions,
@@ -50,6 +54,10 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
             />
           </div>
         )}
+
+        {slug === "kelt" && <OghamOracle />}
+        {slug === "mezopotamya" && <PlanetaryHoursCompass />}
+        {(slug === "witchcraft" || slug === "saman") && <WheelCompass />}
 
         {!hall.closed && hall.doors.length > 0 && (
           <ul className="mt-10 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
@@ -229,6 +237,11 @@ function TraditionDoorView({
         <p className="mt-10 max-w-2xl border-l border-chalk/25 pl-4 font-display text-xl italic text-chalk/80">
           {door.closing[lang]}
         </p>
+
+        <ShareBar
+          title={`${door.title[lang]} — ${hall.title[lang]}`}
+          path={`/${traditionSlug}/${door.slug}`}
+        />
 
         <div className="mt-10 flex flex-wrap items-center gap-3">
           {door.ctaHref && door.ctaLabel && (

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
+import { ShareBar } from "@/components/share-bar";
 import { venusNote } from "@/lib/venus-note";
 
 export function VenusNote() {
@@ -74,6 +75,8 @@ export function VenusNote() {
             </section>
           ))}
         </div>
+
+        <ShareBar title={note.title} path="/astroloji/venus-retrosu" />
 
         <div className="mt-10 flex flex-wrap gap-3">
           <Link

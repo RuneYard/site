@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ElementCompass } from "@/components/element-compass";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
+import { PlanetaryHoursCompass } from "@/components/planetary-hours";
+import { ShareBar } from "@/components/share-bar";
 import {
   astrologyDoors,
   astrologyHall,
@@ -401,6 +403,8 @@ export function AstrologyRoom() {
 
         <ElementCompass />
 
+        <PlanetaryHoursCompass />
+
         <ul className="mt-10 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
           {astrologyDoors.map((door) => (
             <li key={door.slug}>
@@ -590,6 +594,11 @@ export function AstrologyDoor({ doorSlug }: { doorSlug: string }) {
         <p className="mt-10 max-w-2xl border-l border-chalk/25 pl-4 font-display text-xl italic text-chalk/80">
           {door.closing[lang]}
         </p>
+
+        <ShareBar
+          title={`${door.title[lang]} — ${astrologyHall.title[lang]}`}
+          path={`/astroloji/${door.slug}`}
+        />
 
         <div className="mt-10 flex flex-wrap items-center gap-3">
           <Link

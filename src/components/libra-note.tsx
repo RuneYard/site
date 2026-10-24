@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
+import { ShareBar } from "@/components/share-bar";
 import { libraNote } from "@/lib/libra-note";
 
 export function LibraNote() {
@@ -62,6 +63,8 @@ export function LibraNote() {
             </section>
           ))}
         </div>
+
+        <ShareBar title={note.title} path="/astroloji/terazi-yeniay" />
 
         <div className="mt-10 flex flex-wrap gap-3">
           <Link

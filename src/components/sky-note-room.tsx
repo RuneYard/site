@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
+import { ShareBar } from "@/components/share-bar";
 import { astrologySkyNotes } from "@/content/astrology";
 import { findExtraSkyNote } from "@/content/sky-notes";
 
@@ -104,6 +105,8 @@ export function SkyNoteRoom({ slug }: { slug: string }) {
             </section>
           ))}
         </div>
+
+        <ShareBar title={note.title} path={`/astroloji/${slug}`} />
 
         <nav className="mt-12 border-t border-chalk/15 pt-8">
           <div className="grid gap-3 sm:grid-cols-2">
