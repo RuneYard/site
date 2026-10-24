@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { ElementCompass } from "@/components/element-compass";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import {
@@ -397,6 +398,8 @@ export function AstrologyRoom() {
             className="h-auto w-full object-cover"
           />
         </div>
+
+        <ElementCompass />
 
         <ul className="mt-10 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
           {astrologyDoors.map((door) => (

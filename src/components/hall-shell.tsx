@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { languageLabel, languages } from "@/lib/copy";
 import { useLanguage } from "@/components/language";
+import { RoomSearch } from "@/components/room-search";
 
 export function HallShell({ children }: { children: React.ReactNode }) {
   const { lang, choose, t } = useLanguage();
@@ -26,6 +27,7 @@ export function HallShell({ children }: { children: React.ReactNode }) {
             </span>
           </Link>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            <RoomSearch />
             <div className="flex items-center gap-2" role="group" aria-label={languageLabel[lang]}>
               {languages.map((code) => (
                 <button

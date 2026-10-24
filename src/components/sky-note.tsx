@@ -1,11 +1,105 @@
 "use client";
 
+import Link from "next/link";
 import { useSyncExternalStore } from "react";
 import { useLanguage } from "@/components/language";
 import { formatSkyClock, formatSkyDate, readSky } from "@/lib/sky";
 import { skyAdvice, skyNames } from "@/lib/sky-copy";
 
 const locale = { tr: "tr-TR", en: "en-GB", sv: "sv-SE" } as const;
+
+const ACTIVE_SKY_DISPATCHES = {
+  tr: {
+    heading: "Güncel Gökyüzü Gündemi & Burç Yorumları",
+    allLabel: "Tüm Gökyüzü Notları →",
+    items: [
+      {
+        glyph: "🌕",
+        tag: "26 EKİM · 3° BOĞA",
+        title: "Boğa Dolunayı & 12 Burç",
+        href: "/astroloji/boga-dolunayi",
+      },
+      {
+        glyph: "☿",
+        tag: "24 EKİM – 13 KASIM",
+        title: "Merkür Akrep Retrosu",
+        href: "/astroloji/merkur-retrosu",
+      },
+      {
+        glyph: "♀",
+        tag: "3 EKİM – 14 KASIM",
+        title: "Venüs Retrosu (Akrep/Terazi)",
+        href: "/astroloji/venus-retrosu",
+      },
+      {
+        glyph: "🌑",
+        tag: "9 KASIM · 17° AKREP",
+        title: "Akrep Yeniayı",
+        href: "/astroloji/akrep-yeniayi",
+      },
+    ],
+  },
+  en: {
+    heading: "Active Sky Dispatches & Horoscopes",
+    allLabel: "All Sky Notes →",
+    items: [
+      {
+        glyph: "🌕",
+        tag: "26 OCT · 3° TAURUS",
+        title: "Taurus Full Moon & 12 Signs",
+        href: "/astroloji/boga-dolunayi",
+      },
+      {
+        glyph: "☿",
+        tag: "24 OCT – 13 NOV",
+        title: "Mercury Retrograde in Scorpio",
+        href: "/astroloji/merkur-retrosu",
+      },
+      {
+        glyph: "♀",
+        tag: "3 OCT – 14 NOV",
+        title: "Venus Retrograde (Scorpio/Libra)",
+        href: "/astroloji/venus-retrosu",
+      },
+      {
+        glyph: "🌑",
+        tag: "9 NOV · 17° SCORPIO",
+        title: "Scorpio New Moon",
+        href: "/astroloji/akrep-yeniayi",
+      },
+    ],
+  },
+  sv: {
+    heading: "Aktuella Himmelsnoter & Horoskop",
+    allLabel: "Alla Himmelsnoter →",
+    items: [
+      {
+        glyph: "🌕",
+        tag: "26 OKT · 3° OXEN",
+        title: "Fullmåne i Oxen & 12 Tecken",
+        href: "/astroloji/boga-dolunayi",
+      },
+      {
+        glyph: "☿",
+        tag: "24 OKT – 13 NOV",
+        title: "Merkurius Retrograd i Skorpionen",
+        href: "/astroloji/merkur-retrosu",
+      },
+      {
+        glyph: "♀",
+        tag: "3 OKT – 14 NOV",
+        title: "Venus Retrograd (Skorpionen/Vågen)",
+        href: "/astroloji/venus-retrosu",
+      },
+      {
+        glyph: "🌑",
+        tag: "9 NOV · 17° SKORPIONEN",
+        title: "Nymåne i Skorpionen",
+        href: "/astroloji/akrep-yeniayi",
+      },
+    ],
+  },
+} as const;
 
 function subscribe(onChange: () => void) {
   const id = setInterval(onChange, 1000);
@@ -21,9 +115,10 @@ export function SkyNote() {
   const second = useSyncExternalStore(subscribe, secondNow, secondNow);
   const sky = readSky(new Date(second * 1000));
   const names = skyNames[lang];
+  const dispatch = ACTIVE_SKY_DISPATCHES[lang];
 
   return (
-    <div className="mt-8 max-w-md" suppressHydrationWarning>
+    <div className="mt-8 max-w-lg" suppressHydrationWarning>
       <time
         dateTime={sky.date.toISOString()}
         className="block text-[10px] tracking-[0.16em] text-chalk/50 uppercase"
@@ -51,6 +146,45 @@ export function SkyNote() {
       >
         {formatSkyClock(sky.date)}
       </p>
+
+      {/* Active Sky Dispatches Strip */}
+      <div className="mt-5 border-t border-chalk/12 pt-4">
+        <div className="flex items-center justify-between gap-2">
+          <span className="text-[10px] tracking-[0.18em] text-chalk/55 uppercase">
+            {dispatch.heading}
+          </span>
+          <Link
+            href="/astroloji"
+            className="text-[10px] tracking-[0.14em] text-chalk/65 uppercase transition-colors hover:text-chalk"
+          >
+            {dispatch.allLabel}
+          </Link>
+        </div>
+        <div className="mt-2.5 grid grid-cols-1 gap-2 sm:grid-cols-2">
+          {dispatch.items.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="group flex items-center justify-between border border-chalk/12 bg-chalk/[0.02] px-3 py-2 transition-colors hover:border-chalk/40 hover:bg-chalk/[0.05]"
+            >
+              <div className="min-w-0 pr-2">
+                <span className="block text-[9px] tracking-[0.16em] text-chalk/45 uppercase">
+                  {item.tag}
+                </span>
+                <span className="mt-0.5 block truncate font-display text-sm font-medium text-chalk/90 group-hover:text-chalk">
+                  {item.glyph} {item.title}
+                </span>
+              </div>
+              <span
+                aria-hidden
+                className="text-xs text-chalk/45 transition-transform group-hover:translate-x-0.5 group-hover:text-chalk/85"
+              >
+                →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

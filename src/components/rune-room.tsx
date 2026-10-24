@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
+import { RuneCast } from "@/components/rune-cast";
 import {
   runeAetts,
   runeBySlug,
@@ -80,6 +81,9 @@ export function RuneSheet() {
             </p>
           ))}
         </div>
+
+        {/* Interactive Rune Pouch & Three Norns Cast */}
+        <RuneCast />
 
         {/* Quick 24-Rune Strip */}
         <section className="mt-10 border border-chalk/15 bg-chalk/[0.02] p-5">
