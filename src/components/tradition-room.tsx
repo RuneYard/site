@@ -23,6 +23,21 @@ const WHATSAPP_LABEL = {
   sv: "WhatsApp · Kontakt",
 } as const;
 
+const MEDICAL_DISCLAIMER = {
+  tr: {
+    heading: "Tıbbi ve Yasal Bilgilendirme (Önemli Uyarı)",
+    body: "Bu odada yer alan bitkisel, geleneksel, etnobotanik ve ritüel bilgiler yalnızca tarih, folklor ve kültür araştırması kapsamındadır. Hiçbir içerik tıbbi teşhis, tedavi veya reçete yerine geçmez. Hamilelik, emzirme, kronik rahatsızlık veya düzenli ilaç kullanımı durumlarında hiçbir bitki, yağ veya karışım hekim ve eczacı onayı olmadan dahilen ya da haricen kullanılmamalıdır.",
+  },
+  en: {
+    heading: "Medical & Legal Disclaimer (Important Notice)",
+    body: "All herbal, traditional, ethnobotanical, and ritual information in this room is presented strictly for historical, folkloric, and cultural study. Nothing herein constitutes medical diagnosis, treatment, or prescription. Never ingest or apply any plant, oil, or preparation without consulting a qualified physician or pharmacist, especially during pregnancy, nursing, or when taking medication.",
+  },
+  sv: {
+    heading: "Medicinsk & Juridisk Ansvarsfriskrivning (Viktig Varning)",
+    body: "All växt-, traditions-, etnobotanisk och rituell information i detta rum presenteras uteslutande i historiskt, folkloristiskt och kulturellt studiesyfte. Inget innehåll ersätter medicinsk diagnos, behandling eller läkemedel. Rådfråga alltid läkare eller apotekare innan du använder växter, oljor eller beredningar, särskilt vid graviditet eller medicinering.",
+  },
+} as const;
+
 export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
   const { lang, t } = useLanguage();
   const hall = traditions[slug];
@@ -239,6 +254,13 @@ function TraditionDoorView({
         <p className="mt-10 max-w-2xl border-l border-chalk/25 pl-4 font-display text-xl italic text-chalk/80">
           {door.closing[lang]}
         </p>
+
+        <aside className="mt-8 max-w-2xl border border-chalk/20 bg-black/40 p-4 text-xs leading-5 text-chalk/70">
+          <p className="font-display text-sm font-medium tracking-[0.06em] text-chalk/90 uppercase">
+            ⚕ {MEDICAL_DISCLAIMER[lang].heading}
+          </p>
+          <p className="mt-1.5">{MEDICAL_DISCLAIMER[lang].body}</p>
+        </aside>
 
         <ShareBar
           title={`${door.title[lang]} — ${hall.title[lang]}`}

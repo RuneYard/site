@@ -50,9 +50,9 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
       "sv": "Schaman"
     },
     "line": {
-      "tr": "Altay’dan Kuzey’e üç dünya kozmolojisi, düngürün sesi, Seidr, erk hayvanları ve alan tutma disiplini — altı müstakil çalışma odası.",
-      "en": "From the Altai to the North: three-world cosmology, the voice of the drum, Seidr, power animals, and holding space — six study rooms.",
-      "sv": "Från Altaj till Norden: trevärldskosmologi, trummans röst, Seidr, kraftdjur och konsten att hålla rum — sex studierum."
+      "tr": "Altay’dan Kuzey’e üç dünya kozmolojisi, düngürün sesi, Seidr, erk hayvanları, Kay boğaz şarkısı ve Kutup Yıldızı ekseni — yirmi müstakil çalışma odası.",
+      "en": "From the Altai to the North: three-world cosmology, the voice of the drum, Seidr, power animals, Kay overtone chant, and the Pole Star axis — twenty study rooms.",
+      "sv": "Från Altaj till Norden: trevärldskosmologi, trummans röst, Seidr, kraftdjur, Kay-strupsång och Polstjärnans axel — tjugo studierum."
     },
     "backLabel": {
       "tr": "Şamana dön",
@@ -866,7 +866,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Batı Kapısı: Gün batımı, su elementi, duygusal derinlik, gölge ve içe dönüş.",
             "Kuzey Kapısı: Gece yarısı, toprak elementi, kadim atalar, dayanıklılık ve kış bilgeliği.",
             "Ardıç ve Üzerlik: Anadolu ve Altay geleneğinin en güçlü iki eşik ve mekan arındırıcı bitkisi.",
-            "Şamanizm Eğitimi: Sekiz haftalık canlı ders halkası; kozmoloji, ritim, yolculuk ve etik uygulama."
+            "Şamanizm Eğitimi: Sekiz haftalık canlı ders halkası; kozmoloji, ritim, yolculuk ve etik uygulama.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "East Gate: Dawn, the element of Air, mental clarity, and the high vision of the eagle.",
@@ -874,7 +875,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "West Gate: Dusk, the element of Water, emotional depth, shadow, and introspection.",
             "North Gate: Midnight, the element of Earth, ancestors, endurance, and winter wisdom.",
             "Juniper & Wild Rue: The two cornerstone cleansing plants of Anatolian and Altai tradition.",
-            "Shamanism Training: Eight-week live study circle covering cosmology, rhythm, journeying, and ethics."
+            "Shamanism Training: Eight-week live study circle covering cosmology, rhythm, journeying, and ethics.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "Östra Porten: Gryning, luftelementet, klarhet och örnens höga blick.",
@@ -882,7 +884,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Västra Porten: Skymning, vattenelementet, djup och inåtvändhet.",
             "Norra Porten: Midnatt, jordelementet, förfäder, uthållighet och vintervisdom.",
             "Enris & Harmelruta: De två främsta reningsväxterna i anatolisk och altaisk tradition.",
-            "Schamanismutbildning: Åtta veckors levande studiecirkel i kosmologi, rytm och praktik."
+            "Schamanismutbildning: Åtta veckors levande studiecirkel i kosmologi, rytm och praktik.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -1205,6 +1208,1533 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "The wheel of heaven turns in twelve years; the ember warms first the air, then the water, and last the earth.",
           "sv": "Himlens hjul vänder på tolv år; glöden värmer först luften, sedan vattnet och sist jorden."
         }
+      },
+      {
+        "slug": "gok-tengri-umay-erlik",
+        "glyph": "IX",
+        "image": "/saman/gok-tengri-umay-erlik.jpg",
+        "title": {
+          "tr": "Üçlü Kozmik Denge: Kök Tengri, Umay Ana ve Erlik Han",
+          "en": "The Triadic Cosmic Balance: Kök Tengri, Mother Umay, and Erlik Khan",
+          "sv": "Den Kosmiska Treklangen: Kök Tengri, Moder Umay och Erlik Khan"
+        },
+        "subtitle": {
+          "tr": "Orhun Yazıtlarından Altay Kamlığına Yaratılış, Yaşam Nefesi ve Eşik Yasası",
+          "en": "Creation, Life-Breath, and Threshold Law from the Orkhon Inscriptions to Altai Kam Lore",
+          "sv": "Skapelse, Livsande och Tröskellag från Orchoninskrifterna till Altaisk Kam-Tradition"
+        },
+        "summary": {
+          "tr": "Türk-Altay kozmolojisinde mutlak düşmanlık yerine; göğün düzeni (Kök Tengri), yaşamın ve rahmin koruyucusu (Umay Ana) ile yeraltının ve sınırların hakimi (Erlik Han) arasındaki dinamik denge esastır.",
+          "en": "Rather than an absolute war between good and evil, Turkic-Altai cosmology rests upon the dynamic equilibrium of Sky Order (Kök Tengri), Guardian of Womb and Breath (Mother Umay), and Lord of the Underworld (Erlik Khan).",
+          "sv": "I stället för ett absolut krig mellan gott och ont vilar den turkisk-altaiska kosmologin på jämvikten mellan Himlens Ordning (Kök Tengri), Livets Beskyddare (Moder Umay) och Underjordens Herre (Erlik Khan)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Orhun Abideleri’nde (MS 8. yüzyıl) Kültigin yazıtı şu kadim cümleyle başlar: ‘Üze kök tengri, asra yağız yer kılındukda, ekin ara kişi oğlı kılınmış’ — Üstte mavi gök, altta yağız yer yaratıldığında, ikisinin arasında insanoğlu yaratılmış. İnsan gökyüzünden kopuk bir sürgün değil, gök ile yerin tam kavşağında duran bilinçli köprüdür.",
+            "Kök Tengri (Mavi Gök), insan biçimli bir heykelle sınırlandırılmaz; o, zamanın çarkını döndüren, mevsimleri ve yıldızları nizama sokan, kişiye ‘Kut’ (yaşama sevinci ve talih cevheri) ile ‘Ülüg’ (nasip) veren sonsuz bilinçtir. Kam göğe el açtığında kendi iç düzenini göğün töresiyle (Töre) hizalamaya niyet eder.",
+            "Orta Dünya’da yeni doğan her canlının ve filizin başucunda ise ‘Umay Ana’ (Ak Ana / İduk Umay) durur. Tonyukuk yazıtında dahi bilgeliğin ardında ‘Tengri, Umay ve İduk Yer-Sub’ birlikte anılır. Kayın ağacının (Bay Kayın) dallarında yuvalanan kuşlar gibi, çocukların yaşam soluğu (Tın) Umay Ana’nın gözetimindedir.",
+            "Alt Dünya’nın efendisi Erlik Han ise Batı teolojilerindeki ‘şeytan’ değildir; toprağın altındaki madenlerin, demir ocağının, ölümün, gölgenin ve sınanmanın hakimidir. Demiri döven çekiç de, tohumu yeniden filizlendiren karanlık toprak da Erlik’in eşiğinden geçer."
+          ],
+          "en": [
+            "On the 8th-century Orkhon stelae, the Kul Tigin inscription opens with a timeless cosmological axiom: 'When the blue sky above and the dark earth below were fashioned, between the two the children of humankind were created.' The human being is not an exile from heaven, but the conscious bridge between Sky and Earth.",
+            "Kök Tengri (the Eternal Blue Sky) is never reduced to an anthropomorphic statue; Tengri is the boundless intelligence that turns the wheel of seasons and stars, bestowing 'Kut' (vital grace) and 'Ülüg' (allotted destiny). When a Kam raises hands toward the sky, the aim is to align inner order with cosmic law (Töre).",
+            "Beside every newborn child and sprouting seed in the Middle World stands Mother Umay (Ak Ana). Invoked alongside Tengri and the Sacred Earth-Waters (İduk Yer-Sub) in the inscriptions of Tonyukuk, Umay guards the life-breath (Tın) nestled in the branches of the Sacred Birch (Bay Kayın).",
+            "Erlik Khan, Lord of the Lower World, is not a dualistic devil; he is sovereign of subterranean ores, the iron forge, mortality, shadow, and initiation. Both forged iron and sprouting seed must pass through his dark earth."
+          ],
+          "sv": [
+            "På 700-talets Orchonstenar inleds Kül Tigin-inskriften med en tidlös kosmologisk sats: 'När den blå himlen därovan och den mörka jorden därnere skapades, skapades människobarnen mellan de två.' Människan är den medvetna bron mellan Himmel och Jord.",
+            "Kök Tengri (Den Eviga Blå Himlen) avbildas aldrig som en staty; Tengri är det medvetande som driver årstidernas hjul och skänker 'Kut' (livskraft) samt 'Ülüg' (lott). När en Kam lyfter händerna mot himlen stämmer han sin inre ordning efter den kosmiska lagen (Töre).",
+            "Vid varje nyfött barn och groende frö i Mellanvärlden vakar Moder Umay (Ak Ana), som åkallas tillsammans med Tengri och det Heliga Land-och-Vattnet (İduk Yer-Sub) i Tonyukuk-inskriften.",
+            "Erlik Khan, Underjordens Herre, råder över malmerna i bergets djup, järnsmedjan, dödligheten, skuggan och prövningen. Både smitt järn och groende säd måste passera genom den mörka jorden."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Orhun Yazıtlarında ‘Tengri, Umay ve İduk Yer-Sub’ Üçlemesi",
+              "body": "Tonyukuk ve Kültigin anıtları, gökyüzü (Tengri), yaşam koruyucusu (Umay) ve kutsal doğa ruhlarının (İduk Yer-Sub) ayrılmaz bir bütün olarak onurlandırıldığını taş kayıtlarla belgeler."
+            },
+            {
+              "heading": "Umay Ana’nın Yay ve Oku: Beşik Koruması",
+              "body": "Altay, Hakas ve Kırgız geleneklerinde bebeğin beşiğine küçük bir ardıç dalı ile minyatür bir ok-yay asılır; bunun Umay Ana’nın eli olduğuna ve çocuğun ‘Kut’unu koruduğuna inanılır."
+            },
+            {
+              "heading": "Erlik Han ve İlk Demirci Ocağı",
+              "body": "Altay destanlarında demircilik ve yeraltı cevherleri Erlik’in diyarıyla bağlantılıdır. Şaman cübbesindeki demir çıngıraklar (Kıngırak), gölgeyi sese dönüştüren ustalık mührüdür."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Triad of 'Tengri, Umay, and İduk Yer-Sub' in the Orkhon Stelae",
+              "body": "The monuments of Tonyukuk and Kul Tigin document in stone that the Sky (Tengri), the Guardian of Life (Umay), and the Sacred Earth-Waters (İduk Yer-Sub) were honored together as an indivisible triad."
+            },
+            {
+              "heading": "Mother Umay's Bow and Arrow: Guarding the Cradle",
+              "body": "Among Altai, Khakas, and Kyrgyz families, a sprig of juniper and a miniature bow and arrow are hung above the infant's cradle as the emblem of Mother Umay protecting the child's vital soul (Kut)."
+            },
+            {
+              "heading": "Erlik Khan and the First Iron Forge",
+              "body": "In Altai epics, metallurgy and subterranean ores are linked to Erlik's realm. The forged iron pendants on the shaman's cloak represent mastery that knows the dark and transmutes it into protective sound."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Treklangen 'Tengri, Umay och İduk Yer-Sub' i Orchonstenarna",
+              "body": "Tonyukuk- och Kül Tigin-monumenten dokumenterar i sten att Himlen (Tengri), Livets Beskyddare (Umay) och det Heliga Land-och-Vattnet (İduk Yer-Sub) ärades som en odelbar helhet."
+            },
+            {
+              "heading": "Moder Umays Pil och Båge: Vaggans Skydd",
+              "body": "Hos Altaj-, Chakas- och Kirgizfolk hängs en enkvist och en miniatyrbåge över vaggans huvudgärd som Moder Umays tecken för att skydda barnets livskraft (Kut)."
+            },
+            {
+              "heading": "Erlik Khan och den Första Järnsmedjan",
+              "body": "I altaiska epos är järnsmide och underjordens malmer knutna till Erliks sfär. Därför bär schamanens dräkt smidda järnhängen som förvandlar tyngd till skyddande klang."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Kök Tengri (Üst Dünya): Zamanın, gök kubbenin, yıldız düzeninin ve ‘Töre’nin yüce bilinci.",
+            "Umay Ana (Orta Dünya): Ana rahminin, bebeklerin, yaşam soluğunun (Tın) ve şefkatin koruyucusu.",
+            "Erlik Han (Alt Dünya): Toprak altının, madenlerin, gölgenin, ölümün ve ağır sınavların efendisi.",
+            "Kut ve Ülüg: Göğün insana bahşettiği yaşam cevheri/bereket (Kut) ve hayattaki pay/nasip (Ülüg).",
+            "Bay Kayın (Kutsal Kayın): Kökleri yerde, dalları gökte duran ve Umay Ana’nın nefesini taşıyan yaşam ağacı."
+          ],
+          "en": [
+            "Kök Tengri (Upper World): Supreme consciousness of time, the celestial vault, star order, and cosmic law (Töre).",
+            "Mother Umay (Middle World): Guardian of the womb, infants, life-breath (Tın), and nurturing protection.",
+            "Erlik Khan (Lower World): Sovereign of subterranean depths, ores, shadow, mortality, and severe testing.",
+            "Kut & Ülüg: Vital grace/charisma (Kut) and allotted share/destiny (Ülüg) bestowed upon a life.",
+            "Bay Kayın (Sacred Birch): The World Tree rooted in earth and crowned in sky, bearing Mother Umay's breath."
+          ],
+          "sv": [
+            "Kök Tengri (Övre Världen): Tidens, himlavalvets, stjärnordningens och den kosmiska lagens (Töre) medvetande.",
+            "Moder Umay (Mellanvärlden): Livmoderns, barnens, livsandens (Tın) och omtankens beskyddare.",
+            "Erlik Khan (Undre Världen): Underjordens, malmernas, skuggans, dödlighetens och prövningens herre.",
+            "Kut & Ülüg: Den livskraft/välsignelse (Kut) och livslott (Ülüg) som människan förvaltar.",
+            "Bay Kayın (Helig Björk): Världsträdet med rötter i jorden och krona i himlen."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Gök, Rahim ve Toprak Üçlü Hizalanması",
+            "steps": [
+              "Açık havada veya pencere önünde dik dur; başının tepesinden gökyüzüne uzanan berraklığı (Kök Tengri — düzen ve geniş görüş) nefes alışınla hisset.",
+              "Ellerini kalbinin ve göbek deliğinin üzerine koy; seni dünyaya getiren ana rahmini ve yaşamı besleyen şefkati (Umay Ana) selamla.",
+              "Ayak tabanlarının altındaki sert zemini ve kendi gölge yanlarını (Erlik’in sınırı — dayanıklılık ve dürüstlük) kabul ederek üç dünyayı tek omurgada birleştir."
+            ]
+          },
+          "en": {
+            "title": "Practice · Triadic Alignment of Sky, Womb, and Earth",
+            "steps": [
+              "Stand upright before an open window or beneath the sky; inhale and sense the clear expanse above your crown (Kök Tengri — order and wide vision).",
+              "Rest your hands over your heart and navel; honor the maternal lineage that brought you into life and the nurturing force that sustains creation (Mother Umay).",
+              "Feel the solid ground beneath your soles and acknowledge your own shadow and endurance (the boundary of Erlik), uniting all three realms along one spine."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Treklangens Linjering av Himmel, Livmoder och Jord",
+            "steps": [
+              "Stå upprätt under bar himmel eller vid ett öppet fönster; andas in och känn rymden ovanför hjässan (Kök Tengri — ordning och vid blick).",
+              "Lägg händerna över hjärta och navel; hedra den moderliga linje som bar dig till världen och den närande kraften (Moder Umay).",
+              "Känn det fasta underlaget under fotsulorna och erkänn din egen skugga och uthållighet (Erliks gräns), så att alla tre världar möts i en ryggrad."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Göğün yasası başının üstünde, Umay’ın şefkati nefesinde, toprağın ağırlığı tabanının altındadır; insan bu üçünün ortasında uyanır.",
+          "en": "The law of Sky stands above your head, Umay's grace lives in your breath, and the weight of Earth rests beneath your soles; between the three, the human awakens.",
+          "sv": "Himlens lag står över ditt huvud, Umays omtanke lever i din andedräkt och jordens tyngd vilar under dina fotsulor."
+        }
+      },
+      {
+        "slug": "kut-tin-sune-can",
+        "glyph": "X",
+        "image": "/saman/kut-tin-sune-can.jpg",
+        "title": {
+          "tr": "Çoklu Ruh Öğretisi: Kut, Tın, Süne ve Yula",
+          "en": "The Plural Soul Doctrine: Kut, Tın, Süne, and Yula",
+          "sv": "Läran om den Flerfaldiga Själen: Kut, Tın, Süne och Yula"
+        },
+        "subtitle": {
+          "tr": "Kuzey’in ‘Hugr, Hamr, Fylgja’ Anlayışı ile Altay’ın Dört Katmanlı Can Haritası",
+          "en": "Comparing the Norse 'Hugr, Hamr, Fylgja' with the Altai Fourfold Map of the Soul",
+          "sv": "Nordens 'Hugr, Hamr, Fylgja' Jämförd med Altajs Fyrfaldiga Själskarta"
+        },
+        "summary": {
+          "tr": "Ne Altay şamanizminde ne de İskandinav Seidr geleneğinde ‘ruh’ tek parça bir bulut değildir; nefes (Tın/Önd), yaşam cevheri (Kut/Hamingja), gölge-hafıza (Süne) ve gezgin rüya ruhu (Yula/Hugr) bir arada çalışır.",
+          "en": "In neither Altai shamanism nor Norse Seidr is the 'soul' a single monolithic entity; breath (Tın/Önd), vital luck-essence (Kut/Hamingja), shadow-memory (Süne), and the wandering dream-soul (Yula/Hugr) operate as an ensemble.",
+          "sv": "Varken i altaisk schamanism eller nordisk Seidr är 'själen' en enda odelbar enhet; andedräkt (Tın/Önd), livslycka (Kut/Hamingja), skuggminne (Süne) och drömsjäl (Yula/Hugr) samverkar."
+        },
+        "paragraphs": {
+          "tr": [
+            "Modern dilde ‘ruh’ kelimesini tekil kullanırız; oysa kadim şamanik kültürler insanın iç varlığını çok katmanlı bir ekosistem olarak gözlemlemiştir. Altay, Tuva ve Yakut (Saha) kamlarına göre insan dört temel ruhsal katmanın (Can) uyumuyla ayakta durur: Tın, Kut, Süne ve Yula (Çula).",
+            "Birincisi ‘Tın’dır: Fiziksel nefes ve kalp atışıdır (İskandinav mitolojisinde Odin’in ilk insanlara üflediği ‘Önd’ bunun karşılığıdır). İkincisi ‘Kut’tur: Gökyüzünden ve Umay Ana’dan gelen yaşam neşesi, bereket mıknatısı ve direnç enerjisidir; İskandinavların ‘Hamingja’ (kişisel talih ve koruyucu kudret) dediği cevher tam olarak budur.",
+            "Üçüncüsü ‘Süne’dir: Kemiklerle bağlı olan gölge-ruh ve karakter hafızasıdır. Dördüncüsü ise ‘Yula’dır (Çula): Uyku sırasında veya şok anında bedenden ayrılıp gezebilen ‘kuş-ruh’ veya rüya ikizidir (Kuzey geleneğindeki ‘Hugr’ ve ‘Hamr’ gibi). Şamanik çalışmada ‘ruh kaybı’, ağır bir korku veya yas sırasında ‘Yula’ veya ‘Kut’un bir parçasının o olay yerinde donup kalmasıdır.",
+            "⚠️ Tıbbi Uyarı: Geleneksel şamanizmdeki ‘Kut çağırma’ ve bütünlük çalışmaları sembolik, kültürel ve meditatif pratiklerdir; klinik depresyon, travma sonrası stres bozukluğu (TSSB) veya psikiyatrik rahatsızlıkların tıbbi/psikolojik tedavisinin yerine geçmez."
+          ],
+          "en": [
+            "Modern language speaks of 'the soul' in the singular, whereas ancient shamanic traditions observed the inner human being as a multi-layered ecosystem of four distinct soul-layers: Tın, Kut, Süne, and Yula.",
+            "First is 'Tın': physical breath and heartbeat (parallel to the Norse 'Önd'). Second is 'Kut': vital radiance, sacred luck, and magnetic life-force bestowed from the Sky and Mother Umay—matching the Old Norse concept of 'Hamingja'.",
+            "Third is 'Süne': the shadow-soul and ancestral memory bound to the bones. Fourth is 'Yula' (Chula): the free-wandering dream-double or 'bird-soul' that travels during sleep or shock (parallel to the Norse 'Hugr' and 'Hamr').",
+            "⚠️ Medical Disclaimer: Traditional shamanic concepts of 'calling back Kut' and soul-integration are cultural, symbolic, and meditative practices; they do not replace clinical psychotherapy, psychiatric care, or medical treatment."
+          ],
+          "sv": [
+            "I modernt språkbruk talar vi om 'själen' i singular, medan forntida schamanska traditioner betraktade människans inre som ett ekosystem av fyra själsskikt: Tın, Kut, Süne och Yula.",
+            "Det första är 'Tın': den fysiska andedräkten och pulsen (nordiskans 'Önd'). Det andra är 'Kut': livsglädjen, välsignelsen och livskraften från Himlen och Moder Umay—besläktad med fornnordiskans 'Hamingja'.",
+            "Det tredje är 'Süne': skuggsjälen och karaktärsminnet i benen. Det fjärde är 'Yula' (Tjula): den fria drömsjälen eller 'fågelsjälen' som färdas under sömn eller chock (likt nordiskans 'Hugr' och 'Hamr').",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Traditionella schamanska begrepp kring själsintegrering och 'Kut' är kulturella och meditativa praktiker; de ersätter aldrig klinisk psykoterapi eller medicinsk behandling."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Altay’da ‘Kut’ ve Kuzey’de ‘Hamingja’: Yaşam Mıknatısı",
+              "body": "Her iki kuzey/bozkır geleneğinde de şans tesadüf değildir; kişinin sözüne sadık kalması, doğaya saygısı ve iç bütünlüğüyle koruduğu canlı bir enerji alanıdır (Kut / Hamingja)."
+            },
+            {
+              "heading": "Yula (Rüya İkizi) ve Hugr (Düşünce Ruhu)",
+              "body": "İzlanda sagalarında bilge kişilerin bedeni uyurken ‘Hugr’unun uzak diyarlara gidip haber getirmesi ile Altay kamlarının ‘Yula’ yolculuğu aynı arketipsel haritayı paylaşır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Altai 'Kut' and Norse 'Hamingja': The Magnet of Vitality",
+              "body": "In both steppe and northern traditions, fortune is not random chance; it is a living field of vitality (Kut / Hamingja) sustained through integrity and right relation with nature."
+            },
+            {
+              "heading": "Yula (Dream-Double) and Hugr (Thought-Soul)",
+              "body": "In the Icelandic sagas, the 'Hugr' of a wise practitioner travels across land while the body sleeps—sharing the exact structural map of the Altai 'Yula' journey."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Altaisk 'Kut' och Nordisk 'Hamingja': Livskraftens Magnet",
+              "body": "I både stäppens och Nordens traditioner är lycka inte en slump, utan ett levande kraftfält (Kut / Hamingja) som vårdas genom ordhållighet och respekt för naturen."
+            },
+            {
+              "heading": "Yula (Drömdubblett) och Hugr (Tankesjäl)",
+              "body": "I de isländska sagorna färdas den vises 'Hugr' över landet medan kroppen sover—exakt samma arketypiska karta som den altaiska 'Yula'-resan."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Tın (Kuzey: Önd): Fiziksel nefes, soluk ve biyolojik yaşam ritmi.",
+            "Kut (Kuzey: Hamingja): Yaşam sevinci, bereket, karizma ve koruyucu talih cevheri.",
+            "Süne (Kuzey: Skuggi / Minni): Kemiklerde ve gölgede yaşayan karakter ve ata hafızası.",
+            "Yula / Çula (Kuzey: Hugr / Hamr): Rüyada ve trans halinde yolculuk eden özgür ikiz-ruh.",
+            "⚠️ Tıbbi Uyarı: Bu öğreti antropolojik ve meditatif niteliktedir; psikolojik veya tıbbi teşhis/tedavi yerine geçmez."
+          ],
+          "en": [
+            "Tın (Norse: Önd): Physical breath, respiration, and biological rhythm.",
+            "Kut (Norse: Hamingja): Vital joy, sacred blessing, charisma, and protective luck-force.",
+            "Süne (Norse: Skuggi / Minni): The shadow-soul and ancestral memory anchored in the bones.",
+            "Yula / Chula (Norse: Hugr / Hamr): The free dream-soul capable of journeying in sleep and trance.",
+            "⚠️ Medical Disclaimer: This teaching is anthropological and meditative; it does not replace psychological or medical care."
+          ],
+          "sv": [
+            "Tın (Fornnordiska: Önd): Fysisk andedräkt och biologisk livsrytm.",
+            "Kut (Fornnordiska: Hamingja): Livsglädje, välsignelse och skyddande lyckokraft.",
+            "Süne (Fornnordiska: Skuggi / Minni): Skuggsjälen och det förfädersminne som vilar i benen.",
+            "Yula / Tjula (Fornnordiska: Hugr / Hamr): Den fria drömsjälen som färdas i sömn och trans.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Denna lära är antropologisk och meditativ och ersätter inte medicinsk eller psykologisk vård."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Dağılan Dikkat ve ‘Yula’yı Şimdiye Çağırma",
+            "steps": [
+              "Gün içinde zihninin geçmiş bir tartışmada veya gelecek bir kaygıda asılı kaldığını fark ettiğinde otur ve sağ elini göğüs kemiğinin üzerine koy.",
+              "Burnundan derin bir nefes (Tın) alırken kendi adını sesli olarak üç kez söyle ve ‘Bütün dikkatimi, sözümü ve gücümü şu ana, bedenimin evine geri çağırıyorum’ de.",
+              "Bir bardak temiz suyu yudumlayarak enerjinin (Kut) dağılan uçlarını kendi merkezinde mühürle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Calling Back Scattered Attention and 'Yula' to the Present",
+            "steps": [
+              "When you notice your mind snagged on a past conflict or future anxiety, sit upright and place your right hand over your sternum.",
+              "Draw a slow breath (Tın) through your nose, speak your own name aloud three times, and state: 'I call my scattered attention, word, and vitality back into the house of my body, here and now.'",
+              "Drink a glass of clear water slowly to anchor your vital force (Kut) in your physical center."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Kalla Tillbaka Splittrad Uppmärksamhet och 'Yula' till Nuet",
+            "steps": [
+              "När du märker att dina tankar fastnat i en gammal konflikt eller framtida oro, sätt dig upprätt och lägg höger hand över bröstbenet.",
+              "Ta ett djupt andetag (Tın) genom näsan, uttala ditt eget namn högt tre gånger och säg: 'Jag kallar tillbaka min uppmärksamhet och min kraft till min kropps hus, här och nu.'",
+              "Drick långsamt ett glas rent vatten för att förankra din livskraft (Kut) i ditt centrum."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Nefesin (Tın) bedende, neşen (Kut) ocağında, rüya kuşun (Yula) kendi dalında olduğunda hiçbir fırtına seni köksüz bırakamaz.",
+          "en": "When your breath (Tın) is in the body, your joy (Kut) at the hearth, and your dream-bird (Yula) upon its own branch, no storm can uproot you.",
+          "sv": "När din andedräkt (Tın) är i kroppen, din glädje (Kut) vid härden och din drömfågel (Yula) på sin egen gren kan ingen storm rycka upp dig."
+        }
+      },
+      {
+        "slug": "yer-su-iyeleri",
+        "glyph": "XI",
+        "image": "/saman/yer-su-iyeleri.jpg",
+        "title": {
+          "tr": "İduk Yer-Sub: Dağ, Pınar, Orman ve Ocak İyeleri",
+          "en": "İduk Yer-Sub: Spirits of Mountain, Spring, Forest, and Hearth",
+          "sv": "İduk Yer-Sub: Bergets, Källans, Skogens och Härdens Rådare"
+        },
+        "subtitle": {
+          "tr": "Animist Coğrafya Okuması, Kuzey ‘Landvættir’ Geleneği ve Doğadan İzin Alma",
+          "en": "Animist Landscape Literacy, the Norse 'Landvættir' Tradition, and Asking Permission of Place",
+          "sv": "Animistisk Landskapsläsning, Nordisk 'Landvættir'-Tradition och att Be Platsen om Lov"
+        },
+        "summary": {
+          "tr": "Şamanik bakışta hiçbir dağ, nehir, mağara veya ağaç ‘sahipsiz hammadde’ değildir; her mekanın bir ‘İyesi’ (İskandinavca Landvættir, İsveççe Rå) vardır ve insan o mekana misafir olarak adım atar.",
+          "en": "In shamanic perception, no mountain, river, cave, or tree is 'unowned raw material'; every place possesses an 'İye' (Norse Landvættir / Swedish Rå), and a human enters always as a respectful guest.",
+          "sv": "I schamanskt seende är inget berg, vattendrag eller träd 'ägarlös råvara'; varje plats har sin 'İye' (fornnordiska Landvættir / svenska Skogsrå och Bergsrå), och människan träder in som gäst."
+        },
+        "paragraphs": {
+          "tr": [
+            "Eski Türkçede ‘İye’ (Altayca: Ee / Yakutça: İççi), bir yerin veya varlığın ‘sahibi, koruyucu ruhu ve içsel bilinci’ demektir. Orhun Yazıtları’nda ‘İduk Yer-Sub’ (Kutsal Yer-Su) olarak geçen bu kavram, doğanın duyan, hatırlayan ve karşılık veren canlı bir ağ olduğunu anlatır. İskandinav dünyasında buna ‘Landvættir’ (Yurdun Koruyucu Varlıkları), İsveç folklorunda ise ‘Skogsrå’ (Orman İyesi) ve ‘Bergsrå’ (Dağ İyesi) denir.",
+            "İzlanda’nın en eski kanun kitabı *Landnámabók*’ta, Viking gemilerinin kıyıya yaklaşırken gemi burnundaki ejderha başlarını sökmesi emredilir; amaç kıyıdaki ‘Landvættir’i ürkütmemektir. Aynı görgü Altay ve Anadolu’da binlerce yıldır yaşar: Pınardan su içmeden önce suya selam verilmesi ve dağ geçitlerindeki taş yığınlarına (Oboo) taş eklenmesi Yer-Su İyeleriyle yapılan sessiz sözleşmedir.",
+            "İyeler arasında insanın günlük hayatına en yakın olanı ‘Od İyesi’ (Ocak İyesi — Od Ana) ve ‘Ev İyesi’dir (Tomte / Vätte). Ocak ateşi asla kirli şeylerle beslenmez ve ateşe saygısızlık edilmez; çünkü ocak evin hem maddi ısısını hem de ruhsal huzurunu tutan merkezdir.",
+            "Doğada yürüyen bir uygulayıcı, bir taş, kozalak veya bitki alacağı zaman önce o yerin İyesinden izin ister, karşılığında toprağa biraz temiz su veya şükran sözü bırakır."
+          ],
+          "en": [
+            "In Old Turkic, 'İye' (Altai: Ee; Sakha: Ichchi) means the 'owner, guardian spirit, and indwelling consciousness' of a place. Recorded in the Orkhon inscriptions as 'İduk Yer-Sub' (Sacred Earth-Waters), this worldview recognizes nature as a listening, reciprocating web—called 'Landvættir' in the Norse world and 'Skogsrå' or 'Bergsrå' in Swedish lore.",
+            "In Iceland's ancient law code preserved in *Landnámabók*, ships approaching shore were required to remove the carved dragon-heads from their prows so as not to alarm the coastal Landvættir. The same etiquette endures across the Altai and Anatolia in greeting mountain springs and adding stones to high-pass cairns (Oboo).",
+            "Closest to daily human life is 'Od İyesi' (Mother of the Hearth Fire) and the Household Guardian (Tomte / Vätte). The hearth fire is never defiled, for it holds both the warmth and peace of the dwelling.",
+            "When a practitioner gathers a stone, pinecone, or herb in the wild, they first ask permission of the local İye and leave a small reciprocity offering of clean water or spoken gratitude."
+          ],
+          "sv": [
+            "På fornturkiska betyder 'İye' 'ägare, rådande ande och inneboende medvetande' hos en plats. I Orchoninskrifterna kallas detta 'İduk Yer-Sub' (Heligt Land-och-Vatten)—motsvarande nordiskans 'Landvættir' och svensk folktros 'Skogsrå', 'Bergsrå' och 'Sjörå'.",
+            "I Islands äldsta lag i *Landnámabók* påbjöds att vikingaskepp skulle ta ned drakhuvudena från stäven när de närmade sig land för att inte skrämma kustens Landvættir. Samma vördnad lever i Altaj och Anatolien vid källor och bergspass (Oboo).",
+            "Närmast människans vardag står 'Od İyesi' (Härdeldens Moder) och gårdens Tomte / Vätte. Eldstaden behandlas alltid med respekt eftersom härden bär hemmets trygghet.",
+            "När en utövare går i skogen och vill ta med sig en sten eller en ört, ber man först platsens İye/Rå om lov och lämnar lite rent vatten eller ett tack i utbyte."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "İzlanda Yasası ve ‘Landvættir’: Ejderha Başlarını İndirmek",
+              "body": "Kuzey denizcileri dahi yeni bir karaya çıkarken kibirli savaş sembollerini indirip yerin ruhlarına (Landvættir) tevazu ile yaklaşmayı yasal zorunluluk saymıştır."
+            },
+            {
+              "heading": "Dağ İyesi, Su İyesi ve Od (Ocak) İyesi",
+              "body": "Yüksek geçitlerde rüzgarı tutan Dağ İyesi, pınarların berraklığını koruyan Su İyesi ve evin bereketini bekleyen Od Ana; insanın doğadaki üç temel muhatabıdır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Icelandic Law and the 'Landvættir': Lowering the Dragon Prows",
+              "body": "Even Norse seafarers codified into law that one must lower aggressive emblems when approaching land, entering the presence of the Landvættir with humility."
+            },
+            {
+              "heading": "Guardians of Mountain, Water, and Hearth Fire",
+              "body": "The Mountain Spirit governing high passes, the Water Spirit guarding clear springs, and Mother Fire tending the hearth are the three primary interlocutors of daily life."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Isländsk Lag och 'Landvættir': Att Ta Ned Drakhuvudet",
+              "body": "Till och med nordiska sjöfarare skrev in i lagen att man måste ta ned stridssymboler när man närmar sig land och möta platsens Landvættir med ödmjukhet."
+            },
+            {
+              "heading": "Bergets, Vattnets och Härdeldens Rådare",
+              "body": "Bergsiet vid höga pass, Vatteniet vid klara källor och Eldmodern i härden utgör människans tre främsta samtalspartners i landskapet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "İduk Yer-Sub: Kutsal Yer ve Su; canlı, duyan ve hatırlayan coğrafya.",
+            "Tağ İyesi / Bergsrå: Dağların, kayalıkların ve yüksek geçitlerin koruyucu bilinci.",
+            "Suv İyesi / Sjörå: Pınarların, nehirlerin, göllerin ve yağmurun sahibi.",
+            "Orman İyesi / Skogsrå: Ağaçların, yaban hayvanlarının ve ıssız patikaların bekçisi.",
+            "Od Ana & Ev İyesi (Tomte): Evin ateşini, huzurunu ve eşiğini koruyan ruh."
+          ],
+          "en": [
+            "İduk Yer-Sub: Sacred Earth and Water; the living, listening, remembering landscape.",
+            "Tağ İyesi / Bergsrå: Guardian consciousness of mountains, crags, and high passes.",
+            "Suv İyesi / Sjörå: Keeper of springs, rivers, lakes, and rain.",
+            "Orman İyesi / Skogsrå: Warden of trees, wild creatures, and forest paths.",
+            "Od Ana & House Wight (Tomte): Guardian of the domestic fire and threshold."
+          ],
+          "sv": [
+            "İduk Yer-Sub: Heligt Land och Vatten; det levande och minnande landskapet.",
+            "Tağ İyesi / Bergsrå: Bergets, klippornas och de höga passens väktare.",
+            "Suv İyesi / Sjörå: Källornas, älvarnas och sjöarnas rådande ande.",
+            "Orman İyesi / Skogsrå: Trädens, de vilda djurens och skogsstigarnas väktare.",
+            "Od Ana & Gårdstomte / Vätte: Hemmets, eldstadens och tröskelns beskyddare."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Yeni Bir Mekana veya Ormana Girerken ‘Eşik Selamı’",
+            "steps": [
+              "Bir ormana, dağ patikasına veya kıyıya adım atarken ilk üç adımda konuşmayı bırak ve ayaklarının altındaki toprağın dokusunu dinle.",
+              "İçinden ‘Bu toprağın, suyun ve ağaçların İyelerine selam olsun; dostça geldim, zarar vermeden geçeceğim’ niyetini geçir.",
+              "Yanındaki mataranın ilk bir yudum suyunu toprağın dibine dökerek Yer-Su ile misafirlik akdini mühürle."
+            ]
+          },
+          "en": {
+            "title": "Practice · The 'Threshold Greeting' When Entering a Forest or New Landscape",
+            "steps": [
+              "When stepping onto a forest trail, mountain path, or unfamiliar shore, walk the first three paces in silence and feel the ground beneath your feet.",
+              "Inwardly state: 'Greetings to the Guardians of this land, water, and wood; I come in peace and will pass without harm.'",
+              "Pour the first sip of clear water from your flask onto the roots at the threshold to seal your guest-covenant."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Tröskelhälsning' När Du Träder In i Skog eller Nytt Landskap",
+            "steps": [
+              "När du kliver in på en skogsstig, ett bergspass eller en ny kust, gå de tre första stegen under tystnad och lyssna till marken under fötterna.",
+              "Säg tyst inom dig: 'Hälsning till denna plats, dess vatten och dess träds rådande väsen; jag kommer i frid och går fram utan att skada.'",
+              "Häll den första klunken rent vatten ur din flaska vid en rot vid stigen som tecken på gästvänskap."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Toprağa efendi gibi basan yabancı kalır; misafir gibi eğilip selam veren ise dağın ve suyun dostu olur.",
+          "en": "Whoever treads the earth like a conqueror remains a stranger; whoever bows as a guest becomes friend to mountain and stream.",
+          "sv": "Den som trampar jorden som härskare förblir främling; den som hälsar som gäst blir vän med berg och källa."
+        }
+      },
+      {
+        "slug": "kam-inisiyasyon-gecis",
+        "glyph": "XII",
+        "image": "/saman/kam-inisiyasyon-gecis.jpg",
+        "title": {
+          "tr": "Kamlık Çağrısı, ‘Yeniden Dövülme’ ve Yaralı Şifacı",
+          "en": "The Shamanic Call, 'Reforging on the Anvil', and the Wounded Healer",
+          "sv": "Kallelsen till Kam, 'Omsmidningen på Städet' och den Sårade Läkaren"
+        },
+        "subtitle": {
+          "tr": "Mircea Eliade’nin İnisiyasyon Kayıtları, Demirci Örsü ve Egonun Hizmete Dönüşmesi",
+          "en": "Mircea Eliade's Initiation Records, the Blacksmith's Forge, and Transmuting Ego into Service",
+          "sv": "Mircea Eliades Initiationsstudier, Smedensässjan och Egots Förvandling till Tjänande"
+        },
+        "summary": {
+          "tr": "Geleneksel kamlıkta ünvan hırsla alınmaz; aday kendi kibrinin sökülüp yeniden dövüldüğü derin bir içsel sınavdan geçerek ‘Yaralı Şifacı’ (Wounded Healer) olgunluğuna ulaşır.",
+          "en": "In traditional shamanism, the role is never seized through ambition; the initiate passes through a deep existential crucible where pride is dismantled on the symbolic anvil into the maturity of the Wounded Healer.",
+          "sv": "I traditionell schamanism erövras aldrig rollen genom äregirighet; novisen genomgår en inre smältdegel där högmod smids om till den Sårade Läkarens mognad."
+        },
+        "paragraphs": {
+          "tr": [
+            "Dinler tarihçisi Mircea Eliade’nin *Shamanism: Archaic Techniques of Ecstasy* eserinde belgelediği üzere, Sibirya ve Altay’da kimse ‘ben şaman olacağım’ diyerek bu yola girmez. Çağrı çoğu zaman ağır bir içsel yalnızlık, rüyalarda ataların ve hayvan rehberlerin görünmesi ve eski kimliğin kabuğuna sığamama kriziyle (‘tös basması’ / inisiyatik kriz) başlar.",
+            "Yakut ve Buryat anlatılarında adayın rüya/vizyon aleminde yeraltı demircileri tarafından örs üzerinde parçalanıp kemiklerinin tek tek sayıldığı, eksik veya fazla kemiğin (‘artık kemik’) yoklandığı ve gözlerinin dağlanarak ‘iç görü’ kazandırıldığı anlatılır. Bu korkutucu sembolizm, aslında sahte egonun, kibrin ve çıkar arzusunun ateşte eritilip topluma hizmet edecek sağlam bir çeliğe dönüştürülmesidir.",
+            "Carl Gustav Jung’un ve mitolojinin ‘Yaralı Şifacı’ (Chiron / Kam) arketipi burada doğar: Kendi karanlığından, yasından ve kırılganlığından geçmemiş hiç kimse bir başkasının yarasına yukarıdan bakmadan, şefkatle dokunamaz.",
+            "⚠️ Tıbbi Uyarı: Tarihsel antropoloji literatüründe ‘şaman hastalığı’ olarak geçen inisiyatik anlatılar kültürel ve sembolik mitlerdir; gerçek hayattaki nörolojik, epileptik veya psikiyatrik semptomlar mutlaka modern tıp hekimleri tarafından değerlendirilmeli ve tedavi edilmelidir."
+          ],
+          "en": [
+            "As historian of religions Mircea Eliade documented in *Shamanism: Archaic Techniques of Ecstasy*, in Siberia and the Altai no one enters this path merely out of personal ambition. The call typically arrives as a profound inward crisis, vivid ancestral dreams, and the shedding of one's former identity.",
+            "In Sakha and Buryat accounts, the candidate beholds their old self symbolically dismantled upon the subterranean blacksmith's anvil, their bones counted for the 'extra bone', and their eyes tempered to see beneath surfaces. This imagery represents the melting away of ego and vanity so that character is forged into tempered steel.",
+            "Here arises the archetype of the 'Wounded Healer': no one who has not walked through their own grief and vulnerability can sit beside another's pain with genuine humility.",
+            "⚠️ Medical Disclaimer: Historical anthropological accounts of 'shamanic illness' are symbolic cultural narratives; any real-life neurological, epileptic, or psychiatric symptoms must always be evaluated and treated by qualified medical physicians."
+          ],
+          "sv": [
+            "Som religionshistorikern Mircea Eliade dokumenterade i *Shamanism: Archaic Techniques of Ecstasy* väljer ingen i Sibirien eller Altaj denna väg av fåfänga. Kallelsen börjar ofta som en djup existentiell prövning där det gamla skalet rämnar.",
+            "I jakutiska och burjatiska berättelser upplever novisen i synen hur det gamla jaget smids om på den underjordiske smedens städ och benen räknas. Denna symbolik skildrar hur högmod och egennytta smälts ned till hållbart stål.",
+            "Här föds arketypen 'Den Sårade Läkaren': den som själv vandrat genom sorg och sårbarhet kan möta en medmänniska utan dömande.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Antropologiska skildringar av 'schamansk kris' är kulturella symboler; neurologiska eller psykiatriska symtom i verkliga livet ska alltid utredas och behandlas av legitimerad sjukvård."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Demirci Örsünde Yeniden Dövülmek: ‘Demirci ve Kam Bir Yuvalıdır’",
+              "body": "Yakut atasözü ‘Demirci ile Kam aynı yuvadan çıkar’ der; demirci ateşte madenin posasını, kam ise kendi nefsinin kibrini döverek temizler."
+            },
+            {
+              "heading": "Artık Kemik (Fazla Kemik) Sembolizmi",
+              "body": "Anadolu ve Altay’da kam soyundan gelenlerde sembolik bir ‘fazla kemik’ veya doğum izi aranır; bu, kişinin iki dünya arasındaki yükü taşıyacak fazladan bir omurgaya sahip olması demektir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Reforged on the Anvil: 'Smith and Shaman Are from One Nest'",
+              "body": "The Sakha proverb states, 'The blacksmith and the shaman come from the same nest': the smith purifies iron in fire, while the shaman purifies character through self-mastery."
+            },
+            {
+              "heading": "The Symbolism of the 'Extra Bone'",
+              "body": "Across Altai and Anatolian lore, an initiate is said to carry a symbolic 'extra bone'—representing the added backbone required to bear responsibility without arrogance."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Omsmidd på Städet: 'Smeden och Schamanen Är ur Samma Näste'",
+              "body": "Det jakutiska ordspråket säger att smeden och schamanen kommer ur samma bo: smeden renar järnet i elden, schamanen renar sitt sinne från högmod."
+            },
+            {
+              "heading": "Symboliken kring det 'Extra Benet'",
+              "body": "I altaisk och anatolisk tradition talas om ett symboliskt 'extra ben'—den extra ryggrad som krävs för att bära ansvar i ödmjukhet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Tös Basması (Çağrı): Kişinin eski dar yaşam kalıbına sığamadığı içsel dönüşüm eşiği.",
+            "Örs ve Çekiç: Vizyon aleminde kibrin sökülüp karakterin yeniden dövülmesi.",
+            "Artık Kemik: İki dünya arasındaki sorumluluğu taşıma kapasitesinin sembolü.",
+            "Yaralı Şifacı (Wounded Healer): Kendi yarasını tanıdığı için başkasını yargılamadan dinleyen bilge.",
+            "⚠️ Tıbbi Uyarı: Fiziksel ve ruhsal rahatsızlıklar şamanik inisiyasyon sayılarak tıbbi tedaviden alıkonulamaz; öncelik daima modern tıptır."
+          ],
+          "en": [
+            "Tös Basması (The Call): The threshold where one outgrows a superficial life.",
+            "Anvil & Hammer: Symbolic dismantling of ego and reforging of integrity.",
+            "The Extra Bone: Emblem of the extra endurance required to hold space for others.",
+            "The Wounded Healer: One who listens without judgment because they know their own scars.",
+            "⚠️ Medical Disclaimer: Physical or psychological symptoms must never be left untreated under the guise of initiation; modern medicine always comes first."
+          ],
+          "sv": [
+            "Tös Basması (Kallelsen): Tröskeln där människan växer ur en ytlig livsform.",
+            "Städ och Hammare: Den symboliska omsmidningen av ego till integritet.",
+            "Det Extra Benet: Symbol för förmågan att bära tyngd utan övermod.",
+            "Den Sårade Läkaren: Den som lyssnar utan att döma eftersom hon känner sina egna ärr.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Fysiska eller psykiska besvär ska alltid hänvisas till modern medicinsk vård."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kendi ‘Kırılma Noktanı’ Güce Dönüştürme Tefekkürü",
+            "steps": [
+              "Hayatında seni en çok zorlamış, kabuğunu kırmış ama sonunda seni daha derin ve anlayışlı bir insan yapmış olan tek bir sınavı hatırla.",
+              "O sınavın içinden geçerken hangi sahte kibrini veya çocuksu beklentini ateşte bıraktığını kağıda bir cümleyle yaz.",
+              "Bugün bir başkası benzer bir acı yaşadığında, o tecrübenin sana kazandırdığı sessiz empatiyi senin ‘şifacı kemiğin’ olarak onurlandır."
+            ]
+          },
+          "en": {
+            "title": "Practice · Contemplating Your Own Crucible of Growth",
+            "steps": [
+              "Recall one major life ordeal that broke open your old assumptions yet ultimately left you deeper, steadier, and more compassionate.",
+              "Write down in one sentence which false pride or illusion was burned away in that fire.",
+              "Honor the quiet empathy born from that experience as your 'tempered bone' whenever you listen to another person in difficulty."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Betrakta Din Egen Smältdegel",
+            "steps": [
+              "Minns en svår prövning i ditt liv som krossade gamla illusioner men gjorde dig djupare och mer lyhörd.",
+              "Skriv i en enda mening ned vilket falskt högmod som brändes bort i den elden.",
+              "Hedra den tysta medkänsla som föddes ur prövningen som din egen 'härdade ryggrad' när du lyssnar till andra."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Ateşe girmeyen demir kılıç olmaz; kendi karanlığından geçmeyen insan başkasının gecesine çıra tutamaz.",
+          "en": "Iron that refuses the fire never becomes a blade; one who has not walked through their own night cannot hold a lantern for another.",
+          "sv": "Järn som vägrar elden blir aldrig en klinga; den som inte vandrat genom sin egen natt kan inte hålla en lykta åt en annan."
+        }
+      },
+      {
+        "slug": "manyah-cupe-ve-zirh",
+        "glyph": "XIII",
+        "image": "/saman/manyah-cupe-ve-zirh.jpg",
+        "title": {
+          "tr": "Manyak: Şaman Cübbesi, Demir Pusatlar ve Kozmik Harita",
+          "en": "Manyak: The Shaman's Cloak, Iron Implements, and Cosmic Map",
+          "sv": "Manyak: Schamanens Mantel, Järnredskap och Kosmiska Karta"
+        },
+        "subtitle": {
+          "tr": "Geyik Derisi, Kuş Tüyleri, Bakır Aynalar (Küzgü) ve Sembolik Zırh",
+          "en": "Deerskin, Bird Feathers, Bronze Mirrors (Küzgü), and Symbolic Armor",
+          "sv": "Hjortskinn, Fågelfjädrar, Bronsspeglar (Küzgü) och Symbolisk Rustning"
+        },
+        "summary": {
+          "tr": "Kamın giydiği cübbe (Manyak) ve başlık (Börk) süs kostümü değildir; üzerinde güneş, ay, yılanlar, kuş tüyleri ve demir plakalar taşıyan, giyilebilir bir üç dünya kozmolojisidir.",
+          "en": "The ritual cloak (Manyak) and headdress (Börk) of a Kam are never mere costume; adorned with sun, moon, serpents, feathers, and bronze mirrors, they form a wearable cosmology of the three worlds.",
+          "sv": "Schamanens mantel (Manyak) och huvudbonad (Börk) är aldrig blott en dräkt; med sol, måne, ormar, fjädrar och bronsspeglar utgör den en bärbar kosmologi över de tre världarna."
+        },
+        "paragraphs": {
+          "tr": [
+            "Altay, Tuva ve Hakas kamlarının ritüel cübbesi olan ‘Manyak’ (veya Kaftan), üzerine rastgele demirler dikilmiş bir giysi değil; her dikişi rüyalar ve ustalar tarafından belirlenmiş taşınabilir bir evren haritasıdır. Bir kam Manyak’ını sırtına geçirdiğinde kişisel kimliğinden soyunur ve üç dünyanın elçisi konumuna girer.",
+            "Cübbenin omuzlarında ve başında yer alan kartal, baykuş veya turna tüyleri (Üst Dünya ve kuş uçuşu bilinci); sırtındaki ve göğsündeki dövme demir iskelet parçaları, çıngıraklar (Kıngırak) ve bakır/tunç aynalar (Küzgü / Toli — Orta Dünya’da enerjiyi yansıtan kalkan); etek uçlarından sarkan kumaş ve deri şeritler ise (Alt Dünya’nın yılanları ve su yolları) bütün kozmosu tek bedende toplar.",
+            "Özellikle göğüs ve sırtta taşınan yuvarlak tunç ayna (‘Toli’ veya ‘Küzgü’), şamanik geleneğin en derin sembollerinden biridir: Ayna, dışarıdan gelen bulanık veya ağır projeksiyonları geri yansıtırken, kamın kendi kalbinin temizliğini de sürekli denetlemesini hatırlatır.",
+            "Modern uygulayıcı günlük hayatta 15 kiloluk demir pusatlı bir Manyak giymez; ancak evindeki çalışma alanında veya üzerinde taşıdığı küçük bir doğal taş, gümüş/tunç bir mühür ya da sadece ritüelde giydiği sade keten/yün bir şal, zihne ‘şimdi kutsal alana giriyoruz’ sinyalini veren modern Manyak’tır."
+          ],
+          "en": [
+            "Among Altai, Tuvan, and Khakas practitioners, the ritual cloak ('Manyak') is a portable map of the universe in which every stitch carries symbolic weight. When a Kam dons the Manyak, they step out of private ego and into the office of mediator between the three worlds.",
+            "Eagle and owl feathers on the shoulders and crown evoke the Upper World; forged iron bones, bells (Kıngırak), and circular bronze mirrors (Küzgü / Toli) across the chest and spine guard the Middle World; leather fringes hanging from the hem represent the serpents and roots of the Lower World.",
+            "The circular bronze mirror ('Toli' or 'Küzgü') worn over the heart is one of the deepest emblems of inner work: it deflects chaotic outer projections while reminding the practitioner to keep their own heart polished and truthful.",
+            "Today's practitioner need not wear thirty pounds of forged iron in daily life; dedicating a simple wool or linen shawl worn exclusively during meditation or rune study serves as a modern Manyak—signaling to the nervous system that sacred time has begun."
+          ],
+          "sv": [
+            "Hos Altaj-, Tuva- och Chakas-folk är den rituella manteln ('Manyak') en bärbar världskarta. När en Kam klär sig i sin Manyak lämnar han det privata egot och träder in i tjänsten som bro mellan de tre världarna.",
+            "Örn- och ugglefjädrar vid axlar och huvudbonad hör till Övre Världen; smidda järnben, klockor (Kıngırak) och runda bronsspeglar (Küzgü / Toli) över bröstet skyddar Mellanvärlden; fransarna längst ned representerar Undre Världens rötter och ormar.",
+            "Den runda bronsspegeln ('Toli' eller 'Küzgü') över hjärtat speglar bort tunga projektioner utifrån och påminner utövaren om att hålla sitt eget sinne klart.",
+            "I vår tid räcker en enkel sjal av ull eller linne som bärs uteslutande vid meditation och studium som en modern Manyak—en tydlig signal till sinnet att man träder in i stillhetens rum."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Küzgü / Toli: Göğüsteki Tunç Ayna",
+              "body": "Sibirya, Moğol ve Altay şamanlarının göğsünde asılı duran yuvarlak metal ayna, hem ruhsal kalkan hem de hakikati olduğu gibi gösteren berrak zihin sembolüdür."
+            },
+            {
+              "heading": "Kuş Giysisi ve İskandinav ‘Valshamr’ (Şahin Pelerini)",
+              "body": "Altay Manyak’ının kuş kanadı biçimli kolları ve saçakları, İskandinav mitolojisinde Freyja’nın giydiği ‘Valshamr’ (Şahin/Kuş Pelerini) ile birebir aynı arketipsel uçuş giysisidir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Küzgü / Toli: The Bronze Mirror Over the Heart",
+              "body": "Worn across Siberia, Mongolia, and the Altai, the circular bronze mirror acts both as a reflective shield and as an emblem of clear, unclouded awareness."
+            },
+            {
+              "heading": "The Bird-Cloak and Norse 'Valshamr' (Falcon Plumage)",
+              "body": "The winged sleeves and feathered fringes of the Altai Manyak parallel Freyja's 'Valshamr' (Falcon Cloak) in Norse myth, through which consciousness traverses the worlds."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Küzgü / Toli: Bronsspegeln över Hjärtat",
+              "body": "Den runda metallspegeln som bärs i Sibirien, Mongoliet och Altaj fungerar både som sköld och som symbol för ett klart, ogrumlat medvetande."
+            },
+            {
+              "heading": "Fågeldräkten och Nordens 'Valshamr' (Falkhamn)",
+              "body": "De vingliknande ärmarna på en altaisk Manyak motsvarar direkt Frejas 'Valshamr' (falkhamn) i nordisk mytologi."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Manyak (Ritüel Cübbesi): Üzerinde üç dünyanın sembollerini taşıyan kutsal giysi.",
+            "Küzgü / Toli (Tunç Ayna): Göğüste taşınan, ağır enerjileri yansıtan ve iç berraklığı simgeleyen disk.",
+            "Börk ve Baykuş Tüyleri: Gece görüşünü ve Üst Dünya ile bağı temsil eden başlık.",
+            "Kıngırak (Demir Çıngıraklar): Sesiyle mekanın durgun enerjisini kıran dövme demir parçalar.",
+            "Valshamr (Kuzey Kuş Pelerini): Freyja’nın dünyalar arası uçuşta kullandığı şahin tüyü pelerin."
+          ],
+          "en": [
+            "Manyak (Ritual Cloak): Wearable map uniting the symbols of Upper, Middle, and Lower Worlds.",
+            "Küzgü / Toli (Bronze Mirror): Circular disc worn over the chest to reflect heavy projections.",
+            "Börk & Owl Feathers: Crown emblem of night-vision and aerial perspective.",
+            "Kıngırak (Iron Bells): Forged iron pendants whose resonance clears stagnant space.",
+            "Valshamr (Norse Falcon Cloak): Freyja's feathered mantle of inter-world flight."
+          ],
+          "sv": [
+            "Manyak (Rituell Mantel): Bärbar kosmisk karta som förenar de tre världarna.",
+            "Küzgü / Toli (Bronsspegel): Rund bronsplatta över bröstet som reflekterar tyngd och står för klarhet.",
+            "Börk & Ugglefjädrar: Huvudbonad som symboliserar mörkerseende och överblick.",
+            "Kıngırak (Järnhängen): Smidda järnföremål vars klang renar rummet.",
+            "Valshamr (Nordisk Falkhamn): Frejas fjädermantel för färder mellan världarna."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Çalışma Şalı veya ‘Eşik Giysisi’ Belirlemek",
+            "steps": [
+              "Sadece meditasyon, rün okuması veya tefekkür çalışması yaparken omuzlarına alacağın doğal lifli (yün, pamuk veya keten) sade bir şal veya gömlek seç.",
+              "Çalışmaya başlamadan önce bu örtüyü omuzlarına alırken ‘Günlük telaşı dışarıda bırakıyor, dinginliğin zırhını kuşanıyorum’ niyetini kur.",
+              "Çalışma bittiğinde şalı çıkarıp katlayarak, trans/odaklanma halinden günlük hayata net bir sınırla geri dön."
+            ]
+          },
+          "en": {
+            "title": "Practice · Dedicating a Study Shawl or 'Threshold Garment'",
+            "steps": [
+              "Choose a simple shawl or garment made of natural fiber (wool, linen, or cotton) reserved solely for meditation, study, or quiet contemplation.",
+              "As you drape it over your shoulders before practice, state inwardly: 'I lay aside daily noise and put on the stillness of the hearth.'",
+              "When your study concludes, remove and fold the garment deliberately to mark a clean return to ordinary time."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Viga en Studiesjal eller 'Tröskeldräkt'",
+            "steps": [
+              "Välj en enkel sjal eller ett plagg i naturmaterial (ull, linne eller bomull) som du använder enbart vid meditation eller runstudier.",
+              "När du lägger den över axlarna inför din stund, säg tyst: 'Jag lägger vardagens brus åt sidan och klär mig i härdens stillhet.'",
+              "När du avslutar, vik ihop sjalen medvetet för att markera en tydlig återkomst till vardagen."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Zırh sadece demirden dövülmez; temiz bir niyet ve bilinçle kuşanılan sade bir örtü, en sağlam Manyak’tır.",
+          "en": "Armor is not forged from iron alone; a simple mantle worn with clear intention is the truest Manyak.",
+          "sv": "Rustning smids inte enbart av järn; en enkel mantel buren med ren avsikt är den starkaste Manyak."
+        }
+      },
+      {
+        "slug": "agac-kultu-kayin-ardic",
+        "glyph": "XIV",
+        "image": "/saman/agac-kultu-kayin-ardic.jpg",
+        "title": {
+          "tr": "Kutsal Ağaç Kültü: Bay Kayın, Ardıç, Çam ve Çalama",
+          "en": "The Sacred Tree Cult: Silver Birch, Juniper, Larch, and Prayer Ribbons",
+          "sv": "Den Heliga Trädkulten: Glasbjörk, En, Lärk och Bönsband"
+        },
+        "subtitle": {
+          "tr": "Altay’dan İskandinavya’ya Hayat Ağacı, Tütsü Ahlakı ve Dilek Bezleri",
+          "en": "From the Altai to Scandinavia: The World Tree, Ethics of Smoke, and 'Chalama' Offerings",
+          "sv": "Från Altaj till Skandinavien: Världsträdet, Rökelsens Etik och 'Chalama'-Gåvor"
+        },
+        "summary": {
+          "tr": "Altay’da yıldırım düşmez kabul edilen Ak Kayın (Bay Kayın) ve kokusuyla mekanı arındıran Ardıç (Arçın), Kuzey’in Dişbudak/Porsuk (Yggdrasil) ve Ardıç (En) geleneğiyle aynı kutsal ormanın ağaçlarıdır.",
+          "en": "In the Altai, the white-barked Silver Birch (Bay Kayın) and purifying Juniper (Arçın) belong to the exact same sacred forest as the Norse Ash/Yew (Yggdrasil) and Nordic Juniper (En).",
+          "sv": "I Altaj tillhör den vitstammiga björken (Bay Kayın) och den renande enen (Arçın) samma heliga skog som Nordens Yggdrasil och den skandinaviska enbusken (En)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Şamanik kozmolojide ağaç, toprağın derinliklerindeki karanlık suyu emip gökyüzünün ışığına dönüştüren en büyük simyacıdır. Altay ve Sibirya halkları arasında ‘Bay Kayın’ (Zengin/Kutsal Ak Kayın), Umay Ana ile birlikte yere indiği kabul edilen en kutsal ağaçtır. Beyaz kabuğu ışığı simgeler; halk inanışına göre kayın ağacına yıldırım düşmez ve kamların davul kasnakları ile asaları bu ağaçtan yapılır.",
+            "İkinci kutsal ağaç ‘Arçın’dır (Ardıç / *Juniperus*). Hem Altay-Tuva-Kırgız dünyasında hem de İskandinavya’da (İsveççe: *En*) ardıç, kışın en sert soğuğunda bile yaprağını dökmeyen direnci ve yakıldığında yaydığı keskin, reçineli kokusuyla bir numaralı arındırma ağacıdır. İskandinav köylerinde salgın ve kış aylarında evlerin zeminine taze ardıç dalları serilir ve ardıç dumanıyla (Einerbær / Enris) eşikler temizlenirdi.",
+            "Kutsal ağaçların dallarına bağlanan renkli bez şeritlere ise Altay’da ‘Çalama’ (veya Yalaka) denir. Ancak kadim törede Çalama asla plastik poşet veya sentetik ip değildir; doğada kendiliğinden çözünebilen saf pamuk/keten bezdir ve ağacın dalını boğacak şekilde sıkıca düğümlenmez, rüzgarla nefes alacak şekilde gevşek bağlanır.",
+            "⚠️ Tıbbi Uyarı: Ardıç (Arçın) ve diğer reçineli bitkilerin dumanı (tütsü) astım, KOAH, solunum yolu hassasiyeti olanlarda ve hamilelerde solunum spazmı tetikleyebilir; kapalı odada yoğun duman solunmamalı ve ardıç uçucu yağı/tohumu böbrekleri tahriş edebileceğinden dahilen doktor onayı olmadan asla tüketilmemelidir."
+          ],
+          "en": [
+            "In shamanic cosmology, the tree is the supreme alchemist—drawing dark subterranean water through its roots and transmuting it into skyward canopy. Among Altai and Siberian peoples, 'Bay Kayın' (Sacred Silver Birch) is revered as the tree that descended with Mother Umay; its luminous white bark symbolizes purity and forms the frame of the shaman's drum.",
+            "The second pillar is 'Arçın' (Juniper / *Juniperus*). Across both the Turkic-Altai steppe and Scandinavia (Swedish: *En*), evergreen juniper is the primary guardian of purification. In Nordic homesteads, fresh juniper boughs were strewn across floors and burned on the hearth to cleanse thresholds during the dark winter months.",
+            "Cloth ribbons tied to sacred branches are called 'Chalama' (Yalaka) in the Altai. Traditional ethics strictly forbid synthetic plastic or tight knots that strangle living bark; only biodegradable cotton or linen strips are tied loosely so the branch can breathe and grow.",
+            "⚠️ Medical Disclaimer: Smoke from juniper or herbal incense can trigger bronchospasm in individuals with asthma, COPD, or respiratory sensitivities, as well as during pregnancy; always ventilate rooms well, and never ingest juniper oils or berries internally without medical supervision due to kidney toxicity."
+          ],
+          "sv": [
+            "I schamansk kosmologi är trädet den främsta alkemisten som förvandlar jordens mörka vatten till liv och krona. Hos Altaj- och Sibirienfolk vördas 'Bay Kayın' (Den Heliga Björken) som det träd som steg ned med Moder Umay.",
+            "Det andra heliga trädet är 'Arçın' (En / *Juniperus*). Både i Altaj och i Skandinavien är den vintergröna enen tröskelns främsta renare; i svenska gårdar ströddes färskt enris på golven och brändes för att rena luften under vintern.",
+            "Tygband som knyts i grenar kallas 'Chalama' i Altaj. Enligt gammal sed får man aldrig använda plast eller knyta hårt så att grenen skadas; endast naturfibrer av bomull eller linne används varsamt.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Rök från enris och andra örter kan utlösa andningsbesvär vid astma, KOL eller graviditet; vädra alltid ordentligt och inta aldrig eterisk enbärsolja invärtes utan läkares ordination då den kan irritera njurarna."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Bay Kayın: Işığın ve Umay Ana’nın Ağacı",
+              "body": "Ak kabuklu kayın ağacı, hem Altay kam dualarında hem de Kuzey bahar geleneklerinde yenilenmenin, saflığın ve gökle yer arasındaki merdivenin simgesidir."
+            },
+            {
+              "heading": "Arçın (Ardıç) ve Kuzey’in ‘Enris’ Geleneği",
+              "body": "Altay’dan İsveç’e kadar bütün kuzey kuşağında ardıç dalı, hem evin eşiğini koruyan bekçi hem de mekanın havasını tazeleyen kutsal tütsüdür."
+            },
+            {
+              "heading": "Çalama Bağlama Etiği: Ağacı Boğmadan Niyet Sunmak",
+              "body": "Gerçek şamanik gelenekte ağaca sentetik/plastik madde bağlamak ‘Yer-Su İyesi’ne saygısızlıktır; yalnızca doğada eriyen doğal lif kullanılır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Bay Kayın: Tree of Light and Mother Umay",
+              "body": "The white-barked birch stands in both Altai invocations and Northern spring customs as the living ladder between Earth and Sky."
+            },
+            {
+              "heading": "Arçın (Juniper) and the Nordic 'Enris' Tradition",
+              "body": "From the Altai mountains to Swedish farmsteads, juniper serves as the evergreen threshold guardian and purifying hearth smoke."
+            },
+            {
+              "heading": "Ethics of the Chalama: Offering Without Harming the Tree",
+              "body": "Authentic shamanic custom rejects tying plastic or synthetic waste to trees; true offerings honor the tree's biological life."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Bay Kayın: Ljusets och Moder Umays Träd",
+              "body": "Den vitstammiga björken står i både altaiska sånger och nordiska vårtraditioner som stegen mellan Jord och Himmel."
+            },
+            {
+              "heading": "Arçın (En) och den Nordiska Enristraditionen",
+              "body": "Från Altajbergen till svenska bygder har enen tjänat som gårdens väktare och renande rökelse."
+            },
+            {
+              "heading": "Chalama-Etik: Att Offra Utan att Skada Trädet",
+              "body": "Äkta naturvördnad avvisar plast och syntetiska band i naturen; varje gåva ska respektera trädets liv."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Bay Kayın (Ak Kayın / *Betula*): Umay Ana’nın ve Üst Dünya merdiveninin kutsal ağacı.",
+            "Arçın (Ardıç / *Juniperus*): Hem Altay hem İskandinavya’da mekanı arındıran herdem yeşil bekçi.",
+            "Demir Ağaç (Karaçam / *Larix*): Dayanıklılığı ve kök gücüyle şaman asalarının yapıldığı ağaç.",
+            "Çalama / Yalaka: Rüzgara ve Yer-Su İyelerine şükran için bağlanan doğal pamuk/keten şerit.",
+            "⚠️ Tıbbi Uyarı: Bitkisel tütsüler solunum hastalarında dikkatle ve mutlaka pencere açıkken çok az miktarda kullanılmalı; bitkiler tıbbi tedavi yerine kullanılmamalıdır."
+          ],
+          "en": [
+            "Bay Kayın (Silver Birch / *Betula*): Sacred tree of Mother Umay and the ladder to the Upper World.",
+            "Arçın (Juniper / *Juniperus*): Evergreen purifier of thresholds in both Altai and Nordic lore.",
+            "Iron Tree (Larch / *Larix*): Resilient conifer prized for staffs and world-pillar symbolism.",
+            "Chalama / Yalaka: Natural cotton or linen ribbon offered in gratitude to the winds and land spirits.",
+            "⚠️ Medical Disclaimer: Use herbal smoke sparingly in well-ventilated spaces; botanical lore is never a substitute for medical diagnosis or therapy."
+          ],
+          "sv": [
+            "Bay Kayın (Björk / *Betula*): Moder Umays heliga träd och stegen mot Övre Världen.",
+            "Arçın (En / *Juniperus*): Vintergrön renare av trösklar i både altaisk och nordisk sed.",
+            "Järnträdet (Lärk / *Larix*): Det tåliga träd som förknippas med världspelaren.",
+            "Chalama / Yalaka: Band av ren bomull eller linne som fästs varsamt i tacksamhet.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Använd örtrök sparsamt i välventilerade rum; växttraditioner ersätter aldrig medicinsk vård."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Bir Ağaçla Sessiz Tanışma ve Nefes Alışverişi",
+            "steps": [
+              "Parkta veya ormanda gövdesi sağlam bir kayın, çam, meşe veya ardıç ağacının önünde dur; elini gövdesine koymadan önce bir adım geride sessizce bekle.",
+              "Avuç içini ağacın kabuğuna yasla; senin verdiğin karbondioksiti onun yapraklarının alıp oksijen olarak sana geri verdiği biyolojik ve ruhsal kardeşliği 3 derin nefes boyunca hisset.",
+              "Ayrılırken dalını kırmadan, sadece kök dibine biraz temiz su bırakarak teşekkür et."
+            ]
+          },
+          "en": {
+            "title": "Practice · Silent Communion and Breath-Exchange with a Living Tree",
+            "steps": [
+              "Stand before a mature birch, pine, oak, or juniper; pause one step back in silence before touching its bark.",
+              "Rest your palm gently against the trunk and take three slow breaths, contemplating the biological and spiritual kinship between your exhalation and the tree's oxygen.",
+              "Depart without breaking a single twig, leaving only a splash of clean water at its roots in gratitude."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Stilla Möte och Andningsutbyte med ett Träd",
+            "steps": [
+              "Stanna framför en björk, tall, ek eller en; stå stilla ett steg ifrån innan du rör vid barken.",
+              "Lägg handflatan varsamt mot stammen och ta tre djupa andetag medan du minns det levande utbytet mellan din utandning och trädets syre.",
+              "Gå därifrån utan att bryta en kvist och lämna bara lite rent vatten vid roten som tack."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Ağaç göğe dua eden topraktır; onun gövdesine elini koyan, hem kökün sabrını hem yaprağın ışığını hatırlar.",
+          "en": "A tree is the earth praying toward the sky; whoever rests a hand upon its bark remembers both the patience of roots and the light of leaves.",
+          "sv": "Ett träd är jorden som ber mot himlen; den som lägger handen mot dess bark minns både rötternas tålamod och lövens ljus."
+        }
+      },
+      {
+        "slug": "bogaz-sarkisi-kay-titresim",
+        "glyph": "XV",
+        "image": "/saman/bogaz-sarkisi-kay-titresim.jpg",
+        "title": {
+          "tr": "Kay ve Höömey: Boğaz Şarkısı, Doğuşkan Sesler ve Kemik Rezonansı",
+          "en": "Kay and Khoomei: Throat Singing, Overtones, and Bone Resonance",
+          "sv": "Kay och Khoomei: Strupsång, Övertoner och Benresonans"
+        },
+        "subtitle": {
+          "tr": "Altay ‘Kayçı’ Destancılığı, Tuva/Hakas Üst-Ton (Overtone) Tekniği ve Galdr ile Kardeşliği",
+          "en": "Altai 'Kaychy' Epic Chanting, Tuvan/Khakas Overtone Technique, and Kinship with Galdr",
+          "sv": "Altaisk 'Kaychy'-Epik, Tuvinsk Övertonsteknik och Släktskapet med Nordisk Galdr"
+        },
+        "summary": {
+          "tr": "Altay ve Tuva’da insan sesi tek bir nota değil, temel bir kök sesin (drone) üzerinde rüzgarın ve nehrin doğuşkan armoniklerini (overtones) aynı anda duyuran canlı bir doğa enstrümanıdır.",
+          "en": "In the Altai and Tuva, the human voice is not a flat single note, but a living instrument capable of sounding a deep fundamental drone alongside the crystalline overtones of wind and water.",
+          "sv": "I Altaj och Tuva är människorösten inte en enda platt ton, utan ett levande instrument som samtidigt kan bära en djup bordunton och vindens och vattnets klara övertoner."
+        },
+        "paragraphs": {
+          "tr": [
+            "Altay, Tuva, Hakas ve Moğol coğrafyasında ‘Kay’ (veya Höömey / Khoomei) adı verilen gırtlak/boğaz şarkıcılığı, müzik gösterisi olmaktan çok önce doğanın seslerini taklit eden ve Yer-Su İyeleriyle konuşan kutsal bir rezonans tekniğiydi. Tuva’daki bir çoban veya kam, şelalenin kayalara çarparken çıkardığı uğultunun içinde gizli ıslık tonlarını dinleyerek kendi ses tellerinde aynı anda iki ve üç ses üretmeyi öğrenmiştir.",
+            "Altay’da destan okuyan ustalara ‘Kayçı’ denir. Kayçı, iki telli ‘Topşur’ sazını tıngırdatırken göğsünden gelen derin, hırıltılı kök sesle (Kay) saatlerce Maaday-Kara veya Alıp-Manaş destanlarını okur. Halk inanışına göre Kayçı destanı doğru ve kalpten okuduğunda, dağın İyesi ve destandaki kahramanın ruhu o meclise gelip dinler.",
+            "Bu teknikte üç ana katman vardır: Kargıraa (Alt Dünya’yı ve dağların ağırlığını titreştiren en derin göğüs/karın bas sesi), Höömey (Orta Dünya’nın nehirlerini ve rüzgarını anlatan orta harmonik ses) ve Sıgıt (Üst Dünya’daki kuşların uçuşunu ve yıldız ışığını andıran berrak ıslık üst-tonu).",
+            "İskandinav rün geleneğindeki ‘Galdr’ (rünsel ses büyüsü) ile Altay-Tuva ‘Kay’ tekniği aynı akustik yasaya dayanır: Düşünce soyuttur, fakat ses fiziksel bir dalgadır; kafatasını, göğüs kemiğini (sternum) ve odadaki havayı doğrudan titreştirerek vagus sinirini ve bilinci odak noktasına kilitler."
+          ],
+          "en": [
+            "Across the Altai, Tuva, Khakassia, and Mongolia, throat singing ('Kay' or 'Khoomei') arose not as stage entertainment, but as a sacred acoustic dialogue with the spirits of mountain and river (Yer-Sub). Listening closely to waterfalls and wind through canyon rock, herders and shamans learned to split a single vocal tone into a fundamental drone and shimmering harmonic overtones.",
+            "In the Altai, master epic bards are called 'Kaychy'. Accompanying themselves on the two-stringed 'Topshuur' lute, a Kaychy chants heroic epics in a deep guttural resonance for hours; tradition holds that when the Kay is sung with pure presence, the spirit of the mountain itself draws near to listen.",
+            "Three primary registers mirror the three worlds: Kargyraa (the deep sub-harmonic chest rumble resonating with the Lower World and mountain roots), Khoomei (the middle harmonic flow of rivers and steppe wind), and Sygyt (the piercing, flute-like upper overtone evoking birds and the Upper World).",
+            "Norse 'Galdr' (runic vocal incantation) and Altai-Tuvan 'Kay' rest upon the same physical law: while thought is abstract, sound is a mechanical wave that vibrates the cranium, sternum, and vagus nerve, anchoring consciousness in immediate presence."
+          ],
+          "sv": [
+            "I Altaj, Tuva, Chakassien och Mongoliet uppstod strupsången ('Kay' eller 'Khoomei') som en helig akustisk dialog med bergens och älvarnas rådande väsen (Yer-Sub). Genom att lyssna till vattenfall och vind i bergspassen lärde sig herdar och schamaner att frambringa både grundton och övertoner i samma andetag.",
+            "I Altaj kallas de episka sångmästarna 'Kaychy'. Till klangen av den tvåsträngade lutan 'Topshuur' sjunger en Kaychy med djup bröstresonans, och traditionen säger att själva bergets ande lyssnar när sången bärs av närvaro.",
+            "De tre huvudregistren speglar de tre världarna: Kargyraa (det djupa bröstdånet som svarar mot Undre Världen och bergets rötter), Khoomei (Mellanvärldens strömmande vatten) och Sygyt (den klara, flöjtliknande övertonen som når Övre Världen).",
+            "Fornnordisk 'Galdr' och altaisk-tuvinsk 'Kay' vilar på samma akustiska lag: ljudet är en fysisk våg som sätter bröstben, kranium och nervsystem i direkt svängning."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Kargıraa, Höömey ve Sıgıt: Sesin Üç Dünyası",
+              "body": "En pes göğüs titreşimi (Kargıraa) kökleri ve Alt Dünya’yı, orta rezonans (Höömey) bozkırı ve suyu, tiz armonik ıslık (Sıgıt) ise gökyüzünü ve kuşları temsil eder."
+            },
+            {
+              "heading": "Kayçı ve Topşur: Destanın Zamanı Durdurması",
+              "body": "Altay’da uzun kış gecelerinde Kayçı’nın Topşur eşliğinde söylediği Kay, dinleyen topluluğu sıradan zamandan çıkarıp mitolojik başlangıç zamanına (İllud Tempus) taşır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Kargyraa, Khoomei, and Sygyt: The Three Worlds in Sound",
+              "body": "The deep chest drone (Kargyraa) grounds the Lower World, the middle harmonic (Khoomei) mirrors the Middle World's waters, and the high whistle-tone (Sygyt) reaches the Upper World."
+            },
+            {
+              "heading": "The Kaychy and the Topshuur: Suspending Ordinary Time",
+              "body": "During long winter nights, the Kaychy's resonant chant transports the listening circle out of chronological time into mythic time."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Kargyraa, Khoomei och Sygyt: De Tre Världarna i Ljud",
+              "body": "Det djupa registret (Kargyraa) förankrar rötterna, mellanregistret (Khoomei) speglar vattnet och den höga flöjttonen (Sygyt) sträcker sig mot himlen."
+            },
+            {
+              "heading": "Kaychy och Topshuur: Att Stanna Tiden",
+              "body": "Under långa vinternätter lyfter Kaychyns sång lyssnarna ur vardagstiden in i mytens tidlösa rum."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Kay / Höömey: Tek bir nefes içinde hem kök sesi hem de doğuşkan armonik üst-tonları duyurma sanatı.",
+            "Kargıraa (Derin Kök Ses): Göğüs kafesini ve kemikleri titreştiren oktav altı bas rezonans.",
+            "Sıgıt (Göksel Islık): Dilin damağa değmesiyle süzülen kristal berraklığındaki üst armonik.",
+            "Kayçı ve Topşur: Altay destanlarını iki telli sazıyla okuyan söz ve ses ustası.",
+            "Akustik Köprü: Kuzey Galdr’ı ile Altay Kay tekniğinin ortak beden-zihin rezonansı."
+          ],
+          "en": [
+            "Kay / Khoomei: The art of sounding a fundamental drone and harmonic overtones within a single breath.",
+            "Kargyraa (Deep Drone): Sub-harmonic chest vibration that resonates through the bones.",
+            "Sygyt (Celestial Whistle): Crystalline high overtone shaped by tongue and palate.",
+            "Kaychy & Topshuur: The Altai epic bard and their traditional two-stringed lute.",
+            "Acoustic Kinship: The shared somatic resonance of Norse Galdr and Altai Kay."
+          ],
+          "sv": [
+            "Kay / Khoomei: Konsten att låta grundton och övertoner klinga i samma andetag.",
+            "Kargyraa (Djup Bordun): Djup bröst- och benresonans som grundar kroppen.",
+            "Sygyt (Himmelsk Flöjtton): Kristallklar överton som formas med tunga och gom.",
+            "Kaychy & Topshuur: Den altaiske epiksångaren och hans tvåsträngade luta.",
+            "Akustisk Släktskap: Den gemensamma kroppsresonansen i nordisk Galdr och altaisk Kay."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Göğüs Kemiği (Sternum) Kök Ses ve Harmonik Uğultu",
+            "steps": [
+              "Omurgan dik otur, çeneni hafifçe gevşet ve bir elini göğüs kemiğinin tam ortasına koy.",
+              "Derin bir nefes alıp ‘Mmmmm’ veya ‘Oooo’ sesiyle göğsündeki kemiğin avucunun altında belirgin biçimde titrediği en rahat pes notayı bul.",
+              "Aynı pes sesi kesmeden, dilinin ucunu üst damağına yaklaştırıp dudaklarını ‘U-İ-O-U’ şeklinde çok yavaş hareket ettirerek sesin içindeki ince, metalik üst-tonları (harmonikleri) duymaya odaklan."
+            ]
+          },
+          "en": {
+            "title": "Practice · Sternum Drone and Harmonic Overtone Listening",
+            "steps": [
+              "Sit with a tall spine, relax your jaw, and rest one palm flat against the center of your sternum.",
+              "Inhale deeply and sustain a low, comfortable 'Mmmmm' or 'Oooo' until you feel a steady vibration beneath your palm.",
+              "While holding that steady fundamental note, gently arch your tongue toward the roof of your mouth and slowly shape the vowels 'Oo-Ee-Oh-Oo', listening for the faint flute-like overtones ringing above your voice."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Bröstbensbordun och Övertonslyssnande",
+            "steps": [
+              "Sitt med rak rygg, slappna av i käken och lägg ena handflatan mitt över bröstbenet.",
+              "Andas in djupt och håll ett lugnt, lågt 'Mmmmm' eller 'Oooo' tills du känner en tydlig vibration under handen.",
+              "Håll kvar grundtonen medan du långsamt formar vokalerna 'O-I-Å-U' och lyssna efter de spröda övertonerna ovanför din röst."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Dağ rüzgarla, nehir taşla, insan ise kendi kemiklerinde yankılanan dürüst sesle konuşur.",
+          "en": "The mountain speaks through wind, the river through stone, and the human through the honest resonance of their own bones.",
+          "sv": "Berget talar genom vinden, älven genom stenen och människan genom den ärliga klangen i sina egna ben."
+        }
+      },
+      {
+        "slug": "utisetute-disarida-oturma",
+        "glyph": "XVI",
+        "image": "/saman/utisetute-disarida-oturma.jpg",
+        "title": {
+          "tr": "Útiseta: Gece Nöbeti, Höyükte Oturma ve Sessizlik Sınavı",
+          "en": "Útiseta: The Night Vigil, Sitting Out on the Mound, and the Ordeal of Silence",
+          "sv": "Útiseta: Nattvaka, Att Sitta Ute på Högen och Tystnadens Prövning"
+        },
+        "subtitle": {
+          "tr": "İskandinav ‘Dışarıda Oturma’ Geleneği, Altay Dağ İnzivası ve Korkuyu Aşmak",
+          "en": "The Old Norse Practice of 'Sitting Out', Altai Mountain Solitude, and Mastering Fear",
+          "sv": "Den Fornnordiska Sedvänjan att 'Sitta Ute', Altaisk Bergsensamhet och att Möta Mörkret"
+        },
+        "summary": {
+          "tr": "Eski İskandinavcada ‘Útiseta’ (Dışarıda Oturmak) ve Altay’da dağ başında gecelemek; bilgiyi kitaptan değil, gece karanlığında rüzgarı, kendi korkunu ve doğanın işaretlerini dinleyerek alma disiplinidir.",
+          "en": "In Old Norse, 'Útiseta' ('Sitting Out') and the Altai mountain night-vigil teach that deep counsel is gathered not from books alone, but by sitting awake in the dark listening to wind, fear, and silence.",
+          "sv": "På fornnordiska innebär 'Útiseta' ('att sitta ute') och den altaiska nattvakan på berget att söka råd genom att sitta vaken i nattens stillhet och lyssna till vinden och det egna inre."
+        },
+        "paragraphs": {
+          "tr": [
+            "Eski İskandinav kaynaklarında (örneğin *Gulatingslov* ve İzlanda sagalarında) ‘Útiseta’ (harfiyen: dışarıda oturmak), bilge kişilerin ve Völva’ların gece vakti bir yol kavşağında, kayalıkta veya ata höyüğünün (Haugr) üzerinde sabaha kadar tek başına, sessizce oturarak içgörü aramasıdır. Ortaçağda kilise yasaları bu pratiği ‘trol vekja’ (ruhları uyandırmak) diyerek yasaklamış olsa da, Útiseta’nın özü doğanın çıplak sessizliğiyle yüzleşmektir.",
+            "Altay ve Tuva kamlığında da aynı pratik ‘dağ başında geceleme’ olarak yaşar: Genç aday, ıssız bir vadide veya kutsal bir kayın ağacının altında ateş yakmadan ya da küçük bir köz başında geceyi geçirir. Gece yarısı duyulan her dal çıtırtısı, baykuş sesi veya rüzgar uğultusu önce insanın içindeki ilkel korkuyu yüzeye çıkarır.",
+            "Útiseta’nın sırrı tam buradadır: Korkudan kaçmadan ve hayal kurmadan orada oturmaya devam ettiğinde, zihnin gevezeliği yorulup susar; geriye yalnızca uyanık, berrak ve sarsılmaz bir tanıklık kalır.",
+            "Modern şehir insanı için Útiseta, gece vakti telefonunu, ekranları ve bütün yapay ışıkları kapatıp balkonda, bahçede veya karanlık bir odada 30 dakika boyunca hiçbir uyaran olmadan kendi varlığıyla baş başa oturabilme cesaretidir."
+          ],
+          "en": [
+            "In Old Norse legal codes (*Gulatingslov*) and the Icelandic sagas, 'Útiseta' (literally 'sitting out') describes the practice whereby wise men and Völur sat alone from dusk till dawn at a crossroads, on a rocky crag, or atop an ancestral mound (Haugr) to seek counsel. At its core, Útiseta is an encounter with raw, unfiltered stillness.",
+            "Across the Altai and Tuva, the parallel discipline is the solitary mountain vigil: sitting beneath a sacred birch or high ridge through the night. Every snapping twig, owl call, and shift of wind initially stirs primal fear in the nervous system.",
+            "Here lies the initiation of Útiseta: when one neither flees nor spins fantasies, mental chatter exhausts itself, leaving behind a lucid, unshakeable witnessing presence.",
+            "For the modern practitioner, Útiseta begins with the courage to switch off every screen and artificial light for thirty minutes at night, sitting on a balcony, in a garden, or beside an open window in complete silence."
+          ],
+          "sv": [
+            "I fornnordiska lagtexter (*Gulatingslagen*) och isländska sagor beskriver 'Útiseta' hur visa män och Völvor satt ensamma från skymning till gryning vid en korsväg, på en klippa eller på en ättehög (Haugr) för att söka insikt.",
+            "I Altaj och Tuva lever samma disciplin som nattvaka på berget eller under den heliga björken. Varje kvist som bryts och varje ugglerop väcker först den uråldriga vaksamheten i kroppen.",
+            "Hemligheten i Útiseta är att varken fly eller spinna fantasier; när tankarnas brus tystnar återstår en klar och orubblig närvaro.",
+            "För nutidsmänniskan börjar Útiseta med modet att stänga av alla skärmar och lampor i trettio minuter om kvällen och sitta i tystnad vid ett öppet fönster eller under natthimlen."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Yol Kavşağı ve Höyük (Haugr) Sembolizmi",
+              "body": "Kuzey geleneğinde dört yol ağzı belirsizliği ve seçimi, ata höyüğü ise geçmişin hafızasını temsil eder; her ikisi de eşik mekanlarıdır."
+            },
+            {
+              "heading": "Gece Korkusunu ‘Nöbet’e Dönüştürmek",
+              "body": "Karanlıkta uyanan korku düşman değil, duyuların keskinleşmesini sağlayan eski bir bekçidir; nefesini yavaşlatan kişi korkuyu uyanıklığa çevirir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Symbolism of the Crossroads and the Mound (Haugr)",
+              "body": "In Northern lore, the crossroads represents choice and liminality, while the burial mound represents ancestral memory."
+            },
+            {
+              "heading": "Turning Night Fear into Watchfulness",
+              "body": "The alertness that rises in darkness is an ancient evolutionary sentinel; steady breathing transforms anxious startle into calm vigilance."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Korsvägens och Ättehögens (Haugr) Symbolik",
+              "body": "I nordisk tradition representerar korsvägen vägvalet och gränslandet, medan ättehögen bär släktets och jordens minne."
+            },
+            {
+              "heading": "Att Förvandla Nattens Oro till Vaksamhet",
+              "body": "När andningen fördjupas förvandlas mörkrets anspänning till stilla, klarsynt vaka."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Útiseta (Dışarıda Oturmak): İskandinav geleneğinde gece doğada tek başına tutulan bilgelik nöbeti.",
+            "Haugr (Ata Höyüğü): Köklerin ve kadim hafızanın dinlendiği toprak yükseltisi.",
+            "Vegamót (Yol Kavşağı): Karar anlarında iç rehberliği duymak için oturulan eşik.",
+            "Karanlık Tanıklığı: Yapay ışık ve ekran olmadan zihnin kendi berraklığına kavuşması."
+          ],
+          "en": [
+            "Útiseta ('Sitting Out'): The Old Norse nocturnal vigil of solitary listening in nature.",
+            "Haugr (Ancestral Mound): Earth-barrow symbolizing lineage memory and deep time.",
+            "Vegamót (Crossroads): Liminal meeting of paths where counsel is sought at times of decision.",
+            "Witnessing the Dark: Resting the eyes from artificial light so inward perception clarifies."
+          ],
+          "sv": [
+            "Útiseta ('Att Sitta Ute'): Fornnordisk nattvaka i ensamhet och tystnad under bar himmel.",
+            "Haugr (Ättehög): Jordhög som symboliserar förfädersminne och djup tid.",
+            "Vegamót (Korsväg): Gränsplats där vägledning söks inför avgörande val.",
+            "Mörkervila: Att låta ögon och nervsystem vila från skärmar och konstgjort ljus."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · 20 Dakikalık Modern ‘Útiseta’ (Karanlık ve Sessizlik Nöbeti)",
+            "steps": [
+              "Gece yatmadan önce telefonunu başka bir odaya bırak, bütün ışıkları kapat ve pencere kenarında veya açık havada omurgan dik otur.",
+              "İlk 10 dakika zihninin sıkılmasını, bir şeylerle meşgul olma arzusunu veya karanlıktaki seslere verdiği tepkileri yargılamadan izle.",
+              "Son 10 dakikada içinden tek bir net soru sor (‘Şu an hayatımda görmezden geldiğim gerçek nedir?’) ve cevap uydurmaya çalışmadan sadece geceyi dinle."
+            ]
+          },
+          "en": {
+            "title": "Practice · A 20-Minute Modern 'Útiseta' (Nocturnal Silence Vigil)",
+            "steps": [
+              "Before sleep, leave your phone in another room, extinguish all artificial lights, and sit upright beside an open window or outdoors.",
+              "For the first ten minutes, simply observe your mind's restlessness or boredom without reaching for distraction.",
+              "In the final ten minutes, pose one honest question inwardly ('What truth am I currently avoiding?') and listen to the night without forcing an answer."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 20 Minuters Modern 'Útiseta' (Nattlig Stillhetsvaka)",
+            "steps": [
+              "Lämna telefonen i ett annat rum före sänggåendet, släck alla lampor och sitt upprätt vid ett öppet fönster eller utomhus.",
+              "Iaktta under de första tio minuterna tankarnas rastlöshet utan att döma eller söka förströelse.",
+              "Ställ under de sista tio minuterna en enda ärlig fråga inom dig ('Vilken sanning blundar jag för just nu?') och lyssna till natten utan att tvinga fram ett svar."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Gündüz gözleriyle bin şey görürsün; gece karanlığında sessizce oturduğunda ise görmen gereken tek şeyi.",
+          "en": "By daylight the eyes see a thousand things; sitting quietly in the night, you perceive the one thing that matters.",
+          "sv": "I dagsljus ser ögat tusen ting; när du sitter stilla i natten ser du det enda som är nödvändigt."
+        }
+      },
+      {
+        "slug": "alaslama-ocak-ve-tuz",
+        "glyph": "XVII",
+        "image": "/saman/alaslama-ocak-ve-tuz.jpg",
+        "title": {
+          "tr": "Alaşlama: Ateş, Tuz, Su ve Dumanla Mekan Arındırma",
+          "en": "Alashlama: Cleansing Space with Fire, Salt, Water, and Smoke",
+          "sv": "Alashlama: Att Rena Rummet med Eld, Salt, Vatten och Rök"
+        },
+        "subtitle": {
+          "tr": "Anadolu ve Altay ‘Alaş / Alaz’ Geleneği, Demir Dağlama ve Eşik Temizliği",
+          "en": "The Altai and Anatolian 'Alash / Alaz' Tradition, Quenched Iron, and Threshold Purification",
+          "sv": "Altaisk och Anatolisk 'Alash / Alaz'-Sed, Stål i Vattnet och Tröskelrening"
+        },
+        "summary": {
+          "tr": "Şamanik arındırma (‘Alaşlama’) korkuyla yapılan bir büyü değil; ateş (Alaz), kaya tuzu, kaynak suyu ve ardıç kokusuyla mekanın ve zihnin ağırlaşmış havasını yenileme sanatıdır.",
+          "en": "Shamanic space-cleansing ('Alashlama') is not superstitious fear, but the deliberate renewal of stagnant atmosphere through flame (Alaz), rock salt, clear water, and mountain juniper.",
+          "sv": "Schamansk rumsrening ('Alashlama') handlar inte om vidskeplig fruktan utan om att förnya tung atmosfär genom låga (Alaz), bergsalt, klart vatten och enris."
+        },
+        "paragraphs": {
+          "tr": [
+            "Eski Türkçede ve Altay-Tuva geleneğinde ‘Alaşlama’ (Anadolu’da ‘Alazlama’), ateşin ve kutsal dumanın arındırıcı gücüyle bir evi, hastayı veya eşyayı ağır enerjilerden temizlemek demektir. Kamlar ritüel sırasında ‘Alaş, Alaş!’ diye seslenerek Od Ana’nın (Ateş İyesinin) ışığını yardıma çağırır.",
+            "Geleneksel Alaşlama dört maddi unsuru birleştirir: Birincisi ‘Alaz’ (ateş veya balmumu alevi); ikincisi ‘Arçın / Üzerlik’ (ardıç yaprağı veya üzerlik tohumu kokusu); üçüncüsü ‘Kaya Tuzu’ (toprağın kristalleşmiş arındırıcısı); dördüncüsü ise ‘Ak Su’dur (içine bazen kızgın bir demir parçası veya kor batırılarak ‘dağlanmış’ temiz su).",
+            "İskandinav halk geleneğinde de birebir aynı uygulama vardır: Yeni doğan bebeğin yıkandığı suya veya eşiğe kor ateş अथवा çelik bıçak ucu dokundurmak (‘stål i vattnet’) ve ardıç dumanıyla odanın dört köşesini dolaşmak kuzey köylerinin en temel koruma töresiydi.",
+            "⚠️ Tıbbi Uyarı: Geleneksel ‘alazlama’ veya ‘kurşun/kor suya dökme’ ritüelleri yalnızca sembolik ve folklorik pratiklerdir; hiçbir zaman cilde sıcak cisim yaklaştırılmamalı, erimiş metal (kurşun vb.) zehirli buharı ve yanık riski nedeniyle kesinlikle kullanılmamalı ve tıbbi hastalıkların tedavisinde yalnız modern tıbba başvurulmalıdır."
+          ],
+          "en": [
+            "In Old Turkic and Altai-Tuvan tradition, 'Alashlama' (Anatolian: 'Alazlama') denotes purifying a dwelling, threshold, or object through the clarifying power of fire and aromatic smoke. Practitioners utter the ancient call 'Alash, Alash!' to invoke Mother Fire (Od Ana).",
+            "Traditional Alashlama unites four physical elements: flame ('Alaz'), mountain juniper or rue ('Arçın / Üzerlik'), unrefined rock salt (crystallized earth), and clear spring water ('Ak Su').",
+            "Scandinavian folk tradition preserves the exact counterpart: touching a glowing ember or steel blade to water ('stål i vattnet') and carrying smoldering juniper twigs around the four corners of the house to refresh the threshold.",
+            "⚠️ Medical Disclaimer: Traditional fire and water rites are strictly symbolic folklore; never bring hot objects near skin, never melt toxic metals such as lead (which releases poisonous fumes and causes severe burns), and always rely on modern medicine for health conditions."
+          ],
+          "sv": [
+            "I fornturkisk och altaisk-tuvinsk tradition betyder 'Alashlama' (anatoliska: 'Alazlama') att rena ett hem eller en tröskel med eldens och den aromatiska rökens kraft under utropet 'Alash, Alash!'.",
+            "Traditionell Alashlama förenar fyra element: lågan ('Alaz'), enris ('Arçın'), bergsalt (jordens kristall) och klart källvatten ('Ak Su').",
+            "I skandinavisk folktro finner vi exakt samma bruk: att sätta 'stål i vattnet' eller ett glödande kol i källvatten och bära rykande enris genom rummets fyra hörn.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Traditionella eld- och vattenriter är rent symboliska; för aldrig heta föremål nära huden, smält aldrig bly eller andra giftiga metaller och sök alltid legitimerad sjukvård vid sjukdom."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Alaz Ana ve ‘Alaş!’ Ünlemi",
+              "body": "Ateş İyesi Alaz Ana, karanlığı ve durgunluğu ışığa dönüştürür; ‘Alaş!’ sözü ateşin temizleyici nefesini uyandıran kadim çağrıdır."
+            },
+            {
+              "heading": "Kuzey’de ‘Suda Çelik’ (Stål i Vattnet) ve Kaya Tuzu",
+              "body": "Hem İskandinavya hem Anadolu’da suya demir/çelik veya tuz katılması, suyun hafızasını toprak ve madenle mühürleme sembolüdür."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Mother Alaz and the Call of 'Alash!'",
+              "body": "Mother Fire transmutes stagnation into warmth and light; 'Alash!' is the archaic invocation of her purifying presence."
+            },
+            {
+              "heading": "Nordic 'Steel in Water' (Stål i Vattnet) and Rock Salt",
+              "body": "Across both Scandinavia and Anatolia, placing salt or clean iron into water symbolizes grounding fluid emotion with mineral steadiness."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Eldmodern Alaz och Ropet 'Alash!'",
+              "body": "Eldmodern förvandlar stagnation till värme och klarhet; 'Alash!' är det uråldriga utrop som väcker härdens renande kraft."
+            },
+            {
+              "heading": "Nordiskt 'Stål i Vattnet' och Bergsalt",
+              "body": "Både i Norden och Anatolien symboliserar salt eller rent järn i vattnet att vattnets kraft förankras med jordens stadga."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Alaşlama / Alazlama: Ateş, duman ve su ile yapılan geleneksel mekan ve eşik arındırması.",
+            "Kaya Tuzu: Eşiğe veya su kabına konulan, durgunluğu emen mineral kristal.",
+            "Arçın ve Üzerlik: Az miktarda ve havalandırılan odada kullanılan geleneksel kokular.",
+            "Stål i Vattnet (Kuzey): Suyu çelik veya kor ile sembolik olarak güçlendirme geleneği.",
+            "⚠️ Tıbbi Uyarı: Sıcak cisimler ve duman yanık/solunum riski taşır; erimiş kurşun gibi toksik uygulamalardan kesinlikle kaçınılmalıdır."
+          ],
+          "en": [
+            "Alashlama / Alazlama: Traditional purification of space and threshold using light, water, and salt.",
+            "Rock Salt: Crystalline mineral placed at thresholds to absorb stagnation.",
+            "Arçın (Juniper): Traditional aromatic used sparingly in well-ventilated rooms.",
+            "Stål i Vattnet (Nordic): Symbolic strengthening of water with clean iron or steel.",
+            "⚠️ Medical Disclaimer: Avoid open flames, heavy smoke, and toxic practices like lead-pouring; use safe, ventilated methods only."
+          ],
+          "sv": [
+            "Alashlama / Alazlama: Traditionell rening av rum och tröskel med ljus, vatten och salt.",
+            "Bergsalt: Kristallint mineral som placeras vid tröskeln för att binda tyngd.",
+            "Arçın (Enris): Traditionell doftväxt som används varsamt i välvädrade rum.",
+            "Stål i Vattnet (Norden): Symbolisk förstärkning av vatten med rent stål.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Undvik kraftig rök och farliga metoder som blygjutning; använd endast säkra, rökfria eller välvädrade metoder."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Tuzlu Su ve Havalandırma ile Güvenli ‘Mekan Alaşlaması’",
+            "steps": [
+              "Evin bütün pencerelerini sonuna kadar açarak içerideki durgun havanın rüzgarla çıkmasına izin ver.",
+              "Küçük bir cam kaseye temiz su ve bir yemek kaşığı doğal kaya tuzu koy; duman kullanmak istemiyorsan suya bir damla ardıç veya çam kokusu damlat.",
+              "Bu kaseyi çalışma odanın veya giriş kapının yakınında bir gece bekletip ertesi sabah suyu lavabodan akıtarak mekanın yenilendiğini mühürle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Safe Smoke-Free Space Renewal with Salt Water and Fresh Air",
+            "steps": [
+              "Open the windows wide to create a cross-breeze that carries stale air out of the room.",
+              "Fill a small glass bowl with clean water and a tablespoon of natural rock salt (optionally adding a single drop of pine or juniper aroma).",
+              "Set the bowl near your threshold or desk overnight, and pour the water down the drain the next morning to seal a refreshed space."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Säker Rökfri Rumsrening med Saltvatten och Korsdrag",
+            "steps": [
+              "Öppna fönstren på vid gavel så att frisk luft skapar korsdrag genom rummet.",
+              "Häll rent vatten och en matsked naturligt bergsalt i en liten glasskål (tillsätt eventuellt en droppe tall- eller enbärsdoft).",
+              "Låt skålen stå vid din tröskel eller ditt skrivbord över natten och häll ut vattnet nästa morgon som tecken på en ny början."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Penceresi rüzgara, ocağı ışığa, kalbi doğruluğa açık olan evde hiçbir ağırlık barınamaz.",
+          "en": "In a house whose window is open to the wind, whose hearth is open to light, and whose heart is honest, no heaviness can linger.",
+          "sv": "I ett hem vars fönster står öppet för vinden och vars hjärta är ärligt kan ingen tyngd dröja kvar."
+        }
+      },
+      {
+        "slug": "kurek-kemigi-ve-kumalak",
+        "glyph": "XVIII",
+        "image": "/saman/kurek-kemigi-ve-kumalak.jpg",
+        "title": {
+          "tr": "Pilomansi ve Kumalak: Kürek Kemiği ve 41 Taş Okuması",
+          "en": "Scapulimancy and Kumalak: Shoulder-Blade Lore and the 41 Stones",
+          "sv": "Skapulimanti och Kumalak: Skulderbladsläsning och de 41 Stenarna"
+        },
+        "subtitle": {
+          "tr": "Bozkırın Kadim Kehanet Sistemleri: Yagırnı (Skapulamansi) ve 41 Kumalak Dizilimi",
+          "en": "Ancient Steppe Divination Systems: Yagyrny (Bone Reading) and the 41-Bean/Stone Grid",
+          "sv": "Stäppens Forntida Spådomskonst: Yagyrny och Matrisen med 41 Stenar"
+        },
+        "summary": {
+          "tr": "Orta Asya ve Altay kamlığında geleceği kehanet etmek yerine ‘yolun açık mı kapalı mı olduğunu’ okumak için iki kadim harita kullanılmıştır: Kürek kemiği çatlakları (Yagırnı) ve 41 taş/fasulye ile açılan Kumalak.",
+          "en": "In Central Asian and Altai lore, two ancient cartographies were used to read whether a path was open or obstructed: shoulder-blade reading (Yagyrny) and the mathematical grid of 41 stones (Kumalak).",
+          "sv": "I Centralasien och Altaj användes två uråldriga kartor för att avläsa om vägen var öppen eller stängd: skulderbladets linjer (Yagyrny) och det matematiska rutnätet med 41 stenar (Kumalak)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Kağıdın nadir olduğu bozkır ve tayga dünyasında kamlar ve bilgeler (Kumalakçı / Yagırnıcı), doğanın kendi yüzeylerini birer harita olarak okumuştur. Bunların en eskisi ‘Skapulamansi’ (Türkçe adıyla ‘Kürek Kemiği Bakımı’ / Yagırnı / Dalı) sanatıdır. Koyun veya geyiğin temizlenmiş kürek kemiği, bölgenin topografik haritası gibi görülür; üzerindeki doğal damarlar ve ışık tutulduğunda beliren yarı saydam bölgeler kışın sertliğini, göç yolunu ve su kaynaklarını okumak için incelenirdi.",
+            "İkinci büyük sistem ise ‘Kumalak’tır (Kırgız, Kazak ve Altay geleneğinde 41 adet nehir taşı, koyun kıkırdağı veya kuru fasulye tanesiyle yapılan matematiksel kehanet). Kumalakçı, 41 taşı önce üçe böler, ardından her kümeyi dörder dörder eksilterek kalan 1, 2, 3 veya 4 taşı ‘Baş (Alın), Kalp (Göğüs), Ayak (Yol) ve Sonuç’ hanelerine yerleştirir.",
+            "Kumalak’ın 3x3’lük ızgarası, İskandinav rünlerinin üç Aett (3x8) düzeni ve Mezopotamya’nın taş kehanetleriyle (Pūru) şaşırtıcı bir matematiksel akrabalık taşır: Amaç değişmez bir kader dayatmak değil, mevcut enerjinin (Kut ve Yol) tıkanıklık noktasını görmek ve doğru eylemi seçmektir.",
+            "Günümüzde bir uygulayıcı hayvan kemiği yakmak yerine, doğadan topladığı 41 adet küçük çakıl taşı veya kuru tohumla Kumalak’ın bu matematiksel kombinasyon ve odaklanma disiplinini tamamen doğa dostu biçimde çalışabilir."
+          ],
+          "en": [
+            "In a world of steppe and taiga where paper was scarce, shamans and seers read the surfaces of nature itself as maps. The oldest of these is Scapulimancy ('Yagyrny' or 'Daly' in Turkic languages), where a cleaned shoulder blade was held to the light like a topographic map: its central ridge represented the mountain spine, while translucent zones and veins indicated weather and safe passage.",
+            "The second great system is 'Kumalak'—a mathematical divination practiced across Kyrgyz, Kazakh, and Altai traditions using 41 river pebbles or dried beans. The practitioner divides the 41 stones into three piles, reduces each pile by fours, and places the remainders (1, 2, 3, or 4) onto a 3x3 grid representing Forehead (Mind/Sky), Heart (Hearth), and Foot (Path).",
+            "The 3x3 matrix of Kumalak shares a deep structural kinship with the three Aettir of the Elder Futhark and Mesopotamian lot-casting (Pūru): its purpose is never fatalism, but diagnosing where momentum flows or stalls.",
+            "Today a practitioner works purely with 41 river pebbles or seeds—preserving the meditative mathematics of Kumalak in complete harmony with living nature."
+          ],
+          "sv": [
+            "I stäppens och tajgans värld läste schamaner och vise naturens egna ytor som kartor. Den äldsta metoden var skapulimanti ('Yagyrny' eller 'Daly'), där ett rengjort skulderblad hölls mot ljuset som en topografisk karta över bergskammar och dalgångar.",
+            "Det andra stora systemet är 'Kumalak'—en matematisk divination hos kirgiziska, kazakiska och altaiska folk med 41 små älvstenar eller torkade bönor. Utövaren delar de 41 stenarna i tre högar, räknar bort fyra i taget och lägger resterna (1, 2, 3 eller 4) i ett 3x3-rutnät som speglar Panna (Tanke/Himmel), Hjärta (Härd) och Fot (Väg).",
+            "Kumalaks 3x3-matris är nära besläktad med Futharkens tre ätter och mesopotamisk lottkastning: syftet är inte ödestro, utan att se var flödet är öppet eller blockerat.",
+            "I dag arbetar man uteslutande med 41 små stenar eller frön i full samklang med naturen."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Kürek Kemiği (Yagırnı / Dalı): Kemikteki Coğrafya",
+              "body": "William of Rubruck’un 13. yüzyıl seyahatnamesinde bile ayrıntıyla anlatılan kürek kemiği okuması, kemiğin sırtındaki çıkıntıyı ‘dağ sırtı’, iki yanını ise ‘sağ ve sol vadi’ olarak okuyan görsel bir haritacılıktır."
+            },
+            {
+              "heading": "41 Kumalak ve Üç Satır: Alın, Kalp ve Yol",
+              "body": "41 taşın üçerli ve dörderli modüler aritmetikle dizildiği Kumalak tablosunda üst satır zihni ve göğü (Alın), orta satır duyguyu ve ocağı (Kalp), alt satır ise maddi adımları (Yol) gösterir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Yagyrny / Daly: Landscape in Bone",
+              "body": "Documented as early as the 13th century by William of Rubruck, shoulder-blade reading treated the bone's ridge as a mountain range and its planes as valleys."
+            },
+            {
+              "heading": "The 41 Kumalak and the Three Rows: Forehead, Heart, and Path",
+              "body": "Using modular arithmetic by fours, the upper row of Kumalak reflects thought and sky, the middle row emotion and hearth, and the lower row practical action."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Yagyrny / Daly: Landskapet i Benet",
+              "body": "Redan på 1200-talet beskrev Vilhelm av Rubruck hur stäppens vise läste skulderbladets ås som en bergskedja."
+            },
+            {
+              "heading": "De 41 Kumalak och de Tre Raderna: Panna, Hjärta och Väg",
+              "body": "Genom räkning i fyrtal visar den övre raden tanken, mellanraden hjärtat och den nedre raden det praktiska steget."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Kumalak (41 Taş / Tohum): 41 adet küçük taş veya tohumun 3x3 matriste dizildiği bozkır kehanet sistemi.",
+            "Yagırnı / Dalı (Kürek Kemiği): Kemiğin ışık geçirgenliği ve damarlarıyla yön okuma geleneği.",
+            "Üç Hane (Alın, Kalp, Yol): Kumalak diziliminde düşünce, duygu ve eylem katmanları.",
+            "Modüler Aritmetik (Dörder Eksiltme): Zihnin kontrolünü devre dışı bırakıp senkronisiteyi açığa çıkaran sayısal ritim."
+          ],
+          "en": [
+            "Kumalak (41 Stones / Seeds): Steppe divination arranging 41 pebbles or beans across a 3x3 matrix.",
+            "Yagyrny / Daly (Scapulimancy): Historical reading of ridges and translucency on bone.",
+            "Three Rows (Forehead, Heart, Path): The triad of mind, feeling, and action in a Kumalak cast.",
+            "Modular Reduction by Fours: The mathematical rhythm that bypasses conscious manipulation."
+          ],
+          "sv": [
+            "Kumalak (41 Stenar / Frön): Stäppens divinationssystem med 41 stenar i ett 3x3-mönster.",
+            "Yagyrny / Daly (Skapulimanti): Historisk läsning av linjer och genomskinlighet i ben.",
+            "Tre Rader (Panna, Hjärta, Väg): Tanke, känsla och handling i Kumalak-läggningen.",
+            "Modulär Räkning i Fyrtal: Den rytm som låter synkroniciteten framträda."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · 9 Taşlı Basit ‘Alın - Kalp - Yol’ Yön Okuması",
+            "steps": [
+              "Doğadan topladığın 9 küçük çakıl taşını (veya 9 kuru fasulye/nohut tanesini) iki avucunun arasında tutup üzerinde düşündüğün konuyu netleştir.",
+              "Taşları rastgele üç küçük kümeye ayır: Sol küme ‘Geçmiş / Kök’, orta küme ‘Şimdi / Kalp’, sağ küme ‘Adım / Yol’ olsun.",
+              "Hangi kümede tek sayı (hareket, aktif adım), hangi kümede çift sayı (bekleme, denge, sabır) çıktığına bakarak durumun ritmini tefekkür et."
+            ]
+          },
+          "en": {
+            "title": "Practice · Simple 9-Stone 'Mind - Heart - Path' Reflection",
+            "steps": [
+              "Hold 9 small river pebbles (or 9 dried beans) between your palms and formulate one clear question about a current decision.",
+              "Divide the stones intuitively into three small piles from left to right: 'Root / Past', 'Heart / Present', and 'Foot / Next Step'.",
+              "Count whether each pile holds an odd number (active movement, initiative) or an even number (balance, patience, consolidation) and reflect on the pattern."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Enkel 9-Stenars 'Tanke - Hjärta - Väg'-Reflektion",
+            "steps": [
+              "Håll 9 små stenar (eller 9 torkade bönor) mellan handflatorna och formulera en tydlig fråga kring ett vägval.",
+              "Dela intuitivt stenarna i tre små högar från vänster till höger: 'Rot / Dåtid', 'Hjärta / Nutid' och 'Fot / Nästa Steg'.",
+              "Se i vilken hög antalet är udda (rörelse, initiativ) respektive jämnt (vila, tålamod, balans) och begrunda mönstret."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Taş geleceği yaratmaz; senin içindeki sessiz pusulanın zaten bildiği yönü masanın üzerine görünür kılar.",
+          "en": "The stone does not invent the future; it lays visibly upon the cloth the direction your quiet inner compass already knows.",
+          "sv": "Stenen skapar inte framtiden; den gör den riktning synlig som din inre kompass redan anar."
+        }
+      },
+      {
+        "slug": "psikopomp-ve-yas-esigi",
+        "glyph": "XIX",
+        "image": "/saman/psikopomp-ve-yas-esigi.jpg",
+        "title": {
+          "tr": "Psikopomp: Eşik Rehberliği, Yas Törenleri ve Vedalaşma",
+          "en": "Psychopomp: Threshold Guidance, Grief Rites, and the Art of Farewell",
+          "sv": "Psykopomp: Tröskelvägledning, Sorgeriter och Konsten att Ta Farväl"
+        },
+        "subtitle": {
+          "tr": "Kırkıncı Gün (Kırk Yemeği), Bağ Çözme ve Yaşayanların Hayatına Dönmesi",
+          "en": "The Fortieth-Day Threshold, Releasing Bonds, and Returning the Living to Life",
+          "sv": "Fyrtiondedagströskeln, Att Lösa Band och att Återföra de Levande till Livet"
+        },
+        "summary": {
+          "tr": "Kamın en ağır görevlerinden biri ‘Psikopomp’ (Eşik Rehberi) olmaktır: Sadece vefat edenin anısını onurlandırmakla kalmaz, geride kalanların yasın içinde boğulmadan hayata geri dönmesini sağlar.",
+          "en": "One of the Kam's deepest duties is that of 'Psychopomp' (Threshold Guide): honoring what has passed while guiding the living safely back across the threshold of grief into life.",
+          "sv": "En av schamanens viktigaste uppgifter är rollen som 'Psykopomp' (Tröskelvägledare): att hedra det som gått och samtidigt leda de levande tillbaka från sorgen till livet."
+        },
+        "paragraphs": {
+          "tr": [
+            "Antik Yunancada ‘Psychopompos’ (Ruh Rehberi) olarak adlandırılan arketip, hem Altay kamlığında hem de İskandinav mitolojisinde (Odin ve Valkürler / Freya’nın Fólkvangr’ı) merkezi bir yere sahiptir. Geleneksel toplumlarda ölüm bir yok oluş değil, formun toprağa, soluğun (Tın) rüzgara ve anının atalar katına göç etmesidir.",
+            "Ancak şamanik bilgelikte yas törenlerinin asıl muhatabı ölüler kadar **yaşayanlardır**. Altay, Tuva ve Anadolu’da vefattan sonraki 7., 40. ve 52. günlerde yapılan anmalar (Kırk Yemeği / Aş Verme), sadece ölenin ruhunu uğurlamak için değil, geride kalan ailenin kederini toplulukça paylaşmak ve 40. günün sonunda yas perdesini kaldırıp yaşamın devam ettiğini ilan etmek için tasarlanmış derin bir psikolojik eşik yönetimidir.",
+            "Kam, yalnız ölümlerde değil; biten bir evliliğin, kapanan bir işin, terk edilen bir şehrin veya geride bırakılan bir hayat evresinin ardından da ‘Psikopomp’ (Vedalaşma Rehberi) olarak çalışır. Çünkü insan usulünce veda etmediği her geçmişi sırtında hayalet bir yük olarak taşır.",
+            "⚠️ Tıbbi Uyarı: Derin yas ve kayıp süreçleri doğal insani deneyimlerdir; ancak uzun süreli ağır yas, majör depresyon veya intihar düşüncesi söz konusu olduğunda mutlaka uzman psikiyatrist ve klinik psikolog desteği alınmalıdır."
+          ],
+          "en": [
+            "Known in classical antiquity as the 'Psychopomp' (Guide of Souls), this archetype stands at the center of both Altai shamanism and Norse myth. In traditional societies, death is understood as a transition in which form returns to earth, breath (Tın) to wind, and memory to the ancestors.",
+            "Yet in shamanic wisdom, funeral and memorial rites serve **the living** above all. Across the Altai, Tuva, and Anatolia, the 7th- and 40th-day memorials ('Fortieth-Day Feast') are structured psychological thresholds: they allow the community to hold the family's grief for forty days, and then formally lift the veil of mourning so the living may return to life without guilt.",
+            "The Psychopomp principle applies not only to physical bereavement, but to every ended marriage, closed chapter, or outgrown identity. Whatever we fail to bid farewell properly remains strapped to our shoulders as an unlaid ghost.",
+            "⚠️ Medical Disclaimer: While grief is a natural human response to loss, prolonged or debilitating grief, major depression, or thoughts of self-harm require immediate care from licensed psychologists or psychiatrists."
+          ],
+          "sv": [
+            "Arketypen 'Psykopomp' (Själaledare) har en central plats i både altaisk schamanism och nordisk mytologi. I traditionella samhällen ses döden som en övergång där formen återvänder till jorden, andedräkten (Tın) till vinden och minnet till förfäderna.",
+            "Men i schamansk visdom är sorgeriterna framför allt till för **de levande**. I Altaj, Tuva och Anatolien fungerar minnesmåltiden på den 40:e dagen som en psykologisk tröskel: gemenskapen bär sorgen tillsammans under fyrtio dagar och markerar därefter att de efterlevande har rätt att återvända till livet.",
+            "Psykopomp-principen gäller även vid livets symboliska avslut—ett avslutat förhållande, ett gammalt arbete eller ett avslutat livsskede. Det vi inte tar ett medvetet farväl av bär vi med oss som en tung skugga.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Sorg är en naturlig del av livet, men vid djup eller långvarig sorg, depression eller självskadetankar ska man alltid söka hjälp hos legitimerad psykolog eller läkare."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Kırk Gün Eşiği: Yasın Başlangıcı ve Tamamlanması",
+              "body": "Modern yas psikolojisi de kadim ‘40 gün’ geleneğini doğrular: Yas bastırılmamalı, ilk kırk gün onurlandırılmalı ama sonrasında yaşayan kişi kendi yaşam görevine geri dönmelidir."
+            },
+            {
+              "heading": "Sembolik Ölüm ve Vedalaşma: Biten Döngüyü Uğurlamak",
+              "body": "Kapanmış bir döneme teşekkür edip ipini çözmek, yeni başlayacak döneme temiz bir alan açmanın tek yoludur."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Forty-Day Threshold: Honoring and Completing Mourning",
+              "body": "Traditional forty-day rites give grief a dignified container—neither suppressing sorrow nor allowing it to consume the remaining life of the bereaved."
+            },
+            {
+              "heading": "Symbolic Farewell: Releasing Completed Cycles",
+              "body": "Thanking a finished chapter and untying its cord is the only way to clear ground for what wants to be born."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Fyrtiodagarströskeln: Att Hedra och Avsluta Sorgen",
+              "body": "Den traditionella fyrtiodagarsgränsen ger sorgen ett värdigt rum utan att låta den förlama resten av livet."
+            },
+            {
+              "heading": "Symboliskt Avsked: Att Släppa Avslutade Kapitel",
+              "body": "Att tacka ett avslutat skede och lösa knuten är det enda sättet att ge plats åt det nya."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Psikopomp (Eşik Rehberi): Geçiş anlarında vedalaşmayı ve tamamlanmayı yöneten bilinç.",
+            "Kırkıncı Gün Eşiği: Yasın toplulukla paylaşıldığı ve ardından yaşama dönüşün mühürlendiği süre.",
+            "Aş Verme ve Hayır: Kayıp acısını bir başkasını doyurarak yaşam enerjisine dönüştürme töresi.",
+            "Bağ Çözme (Vedalaşma): Biten bir ilişki veya dönemi öfkeyle değil, şükranla uğurlama.",
+            "⚠️ Tıbbi Uyarı: Ağır ve uzamış yas süreçlerinde profesyonel psikolojik/psikiyatrik destek esastır."
+          ],
+          "en": [
+            "Psychopomp (Threshold Guide): Consciousness that presides over transitions, endings, and completion.",
+            "The Fortieth-Day Threshold: Traditional period for communal mourning followed by deliberate return to life.",
+            "The Memorial Meal: Transmuting sorrow into generosity by feeding others.",
+            "Cord-Releasing (Farewell): Parting from a finished chapter with gratitude rather than bitterness.",
+            "⚠️ Medical Disclaimer: Severe or prolonged grief should always be supported by qualified mental health professionals."
+          ],
+          "sv": [
+            "Psykopomp (Tröskelvägledare): Medvetenhet som vägleder vid övergångar och avslut.",
+            "Fyrtiondedagströskeln: Traditionell tid för gemensam sorg följd av återkomst till vardagen.",
+            "Minnesmåltiden: Att omvandla saknad till omtanke genom att dela bröd med andra.",
+            "Att Lösa Knuten: Att lämna ett avslutat kapitel med tacksamhet i stället för bitterhet.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Vid svår eller utdragen sorg bör professionell psykologisk vård alltid anlitas."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kapanmış Bir Dönemi Şükranla Uğurlama Ritüeli",
+            "steps": [
+              "Hayatında fiilen bitmiş olduğu halde zihninde hala taşıdığın bir dönemi, projeyi veya kırgınlığı küçük bir kağıda tek cümleyle yaz.",
+              "Kağıda bakarak sesli olarak şu üç cümleyi söyle: ‘Seni gördüm. Bana öğrettiğin dersi aldım. Şimdi seni kendi zamanına uğurluyor ve yoluma dönüyorum.’",
+              "Kağıdı yırtıp çöpe/toprağa bırak ve ardından yüzünü soğuk suyla yıkayarak şimdiki zamana adım at."
+            ]
+          },
+          "en": {
+            "title": "Practice · A Quiet Rite of Farewell for a Completed Chapter",
+            "steps": [
+              "Write in one sentence on a slip of paper a past chapter, project, or grievance that has already ended in reality yet still lingers in your mind.",
+              "Look at the paper and speak aloud: 'I acknowledge you. I keep the lesson you taught me. Now I release you to your own time and return to my life.'",
+              "Tear the paper cleanly, dispose of it, and wash your face with cool water to mark your return to the present."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Stilla Avskedsrit för ett Avslutat Kapitel",
+            "steps": [
+              "Skriv i en enda mening på ett litet papper ned ett avslutat kapitel eller ett gammalt agg som fortfarande tar plats i dina tankar.",
+              "Se på papperet och säg högt: 'Jag ser dig. Jag behåller lärdomen du gav mig. Nu lämnar jag dig i din tid och återvänder till mitt liv.'",
+              "Riv sönder papperet, lägg bort det och skölj ansiktet i svalt vatten för att kliva in i nuet."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Ölüler mezarında, geçmiş kendi zamanında güzeldir; yaşayanın görevi ise ocağının ateşini bugün canlı tutmaktır.",
+          "en": "The past belongs in its own time; the duty of the living is to tend the fire of today.",
+          "sv": "Det förflutna vilar i sin tid; de levandes uppgift är att vårda dagens eld."
+        }
+      },
+      {
+        "slug": "kuzey-isiklari-kutup-yildizi",
+        "glyph": "XX",
+        "image": "/saman/kuzey-isiklari-kutup-yildizi.jpg",
+        "title": {
+          "tr": "Altın Kazık (Temir Kazık) ve Kuzey Işıkları",
+          "en": "The Golden Pillar (Temir Kazık) and the Northern Lights",
+          "sv": "Guldpelaren (Temir Kazık) och Norrskenet"
+        },
+        "subtitle": {
+          "tr": "Kutup Yıldızı Ekseni, Göğün Çivisi ve Kozmik Sessizlik",
+          "en": "The Pole Star Axis, the Nail of the World, and Cosmic Stillness",
+          "sv": "Polstjärnans Axel, Världens Spik och Kosmisk Stillhet"
+        },
+        "summary": {
+          "tr": "Şamanik salonun yirminci ve son kapısı, bütün gök kubbenin etrafında döndüğü hareketsiz merkeze açılır: Türklerin ‘Temir/Altın Kazık’, İskandinavların ‘Veraldar Nagli’ (Dünyanın Çivisi) dediği Kutup Yıldızı.",
+          "en": "The twentieth and final door of the Shamanic Hall opens to the motionless hub around which the entire night sky revolves: Polaris, called 'Temir/Altın Kazık' (Iron/Golden Stake) in Turkic lore and 'Veraldar Nagli' (World-Nail) in the North.",
+          "sv": "Det tjugonde och sista rummet i Schamanens hall öppnar sig mot det orörliga nav kring vilket hela natthimlen vrider sig: Polstjärnan, kallad 'Temir/Altın Kazık' i Altaj och 'Veraldar Nagli' (Världsspiken) i Norden."
+        },
+        "paragraphs": {
+          "tr": [
+            "Gece gökyüzüne saatlerce bakan kadim çobanlar, denizciler ve kamlar tek bir kozmik gerçeği fark etmiştir: Bütün yıldızlar ve takımyıldızlar gece boyunca gök kubbede büyük bir çember çizerek dönerken, kuzeydeki tek bir yıldız (Polaris / Kutup Yıldızı) yerinden hiç kıpırdamaz.",
+            "Altay, Kırgız, Uygur ve Anadolu Türkleri bu kıpırdamayan yıldıza ‘Temir Kazık’ (Demir Kazık) veya ‘Altın Kazık’ adını vermiştir; gökyüzündeki bütün yıldız atlarının bu kazığa görünmez iplerle bağlı olduğuna ve onun etrafında döndüğüne inanılır. İskandinav ve Sámi kozmolojisinde ise aynı yıldız ‘Veraldar Nagli’ (Evrenin Çivisi) veya ‘Boahji’dir; Dünya Ağacı Yggdrasil’in ve şaman çadırının orta direğinin tam tepesindeki kozmik mıhtır.",
+            "Kutup Yıldızı’nın altında dans eden Kuzey Işıkları (Aurora Borealis — Sámi dilinde *Guovssahas*, ‘Duyulabilen Işık’) ise Üst Dünya ile Orta Dünya arasındaki perdenin inceldiği sessiz görkemdir. Eski kuzey töresinde Kuzey Işıklarına karşı ıslık çalınmaz ve alay edilmez; baş eğilerek sessizce izlenir.",
+            "Şamanik yolculuğun son dersi budur: Hayatın olayları, mevsimler, sevinçler ve fırtınalar tıpkı yıldızlar gibi senin etrafında dönüp duracaktır. Eğer sen kendi içinde ‘Temir Kazık’ gibi kıpırdamayan, dürüst ve sessiz bir merkez bulursan, dışarıdaki hiçbir dönüş seni baş döndürüp yıkamaz."
+          ],
+          "en": [
+            "Watching the night sky across millennia, herders, navigators, and shamans observed one supreme astronomical truth: while every constellation wheels in a vast circle through the night, a single star in the north—Polaris, the Pole Star—never moves from its place.",
+            "Turkic peoples of the Altai, steppe, and Anatolia named this motionless star 'Temir Kazık' (the Iron Stake) or 'Altın Kazık' (the Golden Stake), picturing the horses of the constellations tethered to it as they circle the sky. In Norse and Sámi cosmology, the same star is 'Veraldar Nagli' (the Nail of the World) or 'Boahji'—the celestial pin at the crown of the World Tree and the central tent-pole.",
+            "Beneath the Pole Star shimmer the Northern Lights (Aurora Borealis—called *Guovssahas*, 'the Light That Can Be Heard', in Sámi). Traditional northern etiquette holds that one never whistles or mocks beneath the Aurora, but stands in quiet reverence.",
+            "Here is the culminating lesson of the Shamanic Hall: fortunes, seasons, and storms will wheel around your life like the constellations. When you establish the motionless 'Iron Stake' of integrity at your own center, no outer turning can unbalance you."
+          ],
+          "sv": [
+            "Genom årtusendena lade herdar, sjöfarare och schamaner märke till en avgörande astronomisk sanning: medan alla stjärnbilder vandrar i en väldig cirkel under natten, står en enda stjärna i norr—Polstjärnan (Polaris)—helt stilla.",
+            "I altaisk och turkisk kosmologi kallas denna stjärna 'Temir Kazık' (Järnpålen) eller 'Altın Kazık' (Guldpålen), vid vilken himlens stjärnhästar är tjudrade. I fornnordisk och samisk kosmologi är samma stjärna 'Veraldar Nagli' (Världsspiken) eller 'Boahji'—det kosmiska navet i toppen av Världsträdet och kåtans mittpåle.",
+            "Under Polstjärnan dansar Norrskenet (Aurora Borealis—på samiska *Guovssahas*, 'ljuset som kan höras'). Enligt gammal nordisk sed visslar eller bullrar man aldrig under norrskenet, utan möter det i stilla vördnad.",
+            "Detta är schamanismens yttersta lärdom: händelser, årstider och stormar kommer alltid att kretsa kring ditt liv. När du finner den orörliga 'Järnpålen' i din egen ryggrad kan ingen yttre virvel rubba dig."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Temir Kazık ve Veraldar Nagli: Evrenin Hareketsiz Ekseni",
+              "body": "Altay’dan İskandinavya’ya kadar Kutup Yıldızı, hem gece yolunu kaybeden yolcunun şaşmaz pusulası hem de Dünya Ağacı’nın gökyüzündeki tepesidir."
+            },
+            {
+              "heading": "Guovssahas: Kuzey Işıklarının Sessiz Görgüsü",
+              "body": "Sámi ve İskandinav geleneğinde Kuzey Işıkları ataların ve gök kubbenin nefesi sayılır; karşısında gürültü yapılmaz, derin bir huşu ile durulur."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Temir Kazık and Veraldar Nagli: The Motionless Hub of the Cosmos",
+              "body": "From the Altai to Scandinavia, the Pole Star serves both as the navigator's unfailing compass and as the celestial crown of the World Pillar."
+            },
+            {
+              "heading": "Guovssahas: The Quiet Etiquette of the Aurora",
+              "body": "In Sámi and Nordic lore, the Northern Lights are greeted with stillness and humility rather than noise."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Temir Kazık och Veraldar Nagli: Världsalltets Orörliga Nav",
+              "body": "Från Altaj till Skandinavien är Polstjärnan både vandrarens kompass och världspelarens fästpunkt i himlavalvet."
+            },
+            {
+              "heading": "Guovssahas: Norrskenets Stilla Vördnad",
+              "body": "I samisk och nordisk tradition möts norrskenet med tystnad och eftertanke."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Temir Kazık / Altın Kazık: Türk kozmolojisinde gök çarkının merkezindeki Kutup Yıldızı (Polaris).",
+            "Veraldar Nagli (Dünya Çivisi): İskandinav geleneğinde gök kubbeyi tutan kuzey ekseni.",
+            "Guovssahas (Kuzey Işıkları): Göğün manyetik ve ruhsal dansı; sessizlikle selamlanan ışık.",
+            "Hareketsiz Merkez: Dış dünyadaki her şey dönerken insanın kendi iç omurgasında sabit kalması."
+          ],
+          "en": [
+            "Temir Kazık / Altın Kazık: The Iron/Golden Stake (Polaris) at the hub of the Turkic sky-wheel.",
+            "Veraldar Nagli (World-Nail): The Norse cosmic axis holding the vault of heaven.",
+            "Guovssahas (Northern Lights): The Sámi name for the Aurora, greeted in reverent silence.",
+            "The Still Hub: Remaining inwardly anchored while outer circumstances revolve."
+          ],
+          "sv": [
+            "Temir Kazık / Altın Kazık: Järn-/Guldpålen (Polstjärnan) i den altaiska himmelskupolen.",
+            "Veraldar Nagli (Världsspiken): Den fornnordiska världsaxeln i norr.",
+            "Guovssahas (Norrskenet): Det samiska namnet på Aurora, mött i stillhet.",
+            "Det Orörliga Navet: Att förbli förankrad i sin mitt medan yttervärlden kretsar."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · İçindeki ‘Altın Kazık’ (Hareketsiz Merkez) Meditasyonu",
+            "steps": [
+              "Açık bir gecede kuzey yönüne dönerek Kutup Yıldızı’nı bul (Büyük Ayı’nın cezve kenarındaki iki yıldızın doğrultusunu 5 kat uzatarak kolayca görebilirsin).",
+              "Başının tepesinden Kutup Yıldızı’na, ayak tabanlarından ise yerin merkezine uzanan dimdik, altın bir eksen hayal et.",
+              "Günlük hayatındaki bütün telaşların bu eksenin etrafında dönen bulutlar olduğunu, senin ise tam merkezdeki sarsılmaz ‘Altın Kazık’ olduğunu hissederek 9 derin nefes al."
+            ]
+          },
+          "en": {
+            "title": "Practice · Meditation on the 'Golden Stake' (The Motionless Center)",
+            "steps": [
+              "On a clear night, face North and locate Polaris (follow the two outer stars of the Big Dipper's bowl five times their distance northward).",
+              "Visualize a straight golden axis running from Polaris through the crown of your head, down your spine, and into the heart of the earth.",
+              "Take nine slow breaths, perceiving your daily worries as clouds wheeling around the sky while you remain anchored at the motionless hub."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Meditation över 'Guldpålen' (Det Orörliga Centrumet)",
+            "steps": [
+              "Under en klar natt, vänd dig mot norr och finn Polstjärnan (följ Karlavagnens två yttersta stjärnor fem gånger deras avstånd uppåt).",
+              "Föreställ dig en rak gyllene axel som löper från Polstjärnan genom din hjässa, längs ryggraden och ned i jordens medelpunkt.",
+              "Ta nio djupa andetag och känn hur vardagens brus kretsar som moln i periferin medan du vilar stadigt i navet."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Yıldızlar döner, mevsimler geçer; kendi içindeki Demir Kazık’ı bulan insan ise hiçbir gecede yolunu kaybetmez.",
+          "en": "The stars wheel and seasons pass; whoever finds the Iron Stake within their own spine is never lost in any night.",
+          "sv": "Stjärnorna kretsar och årstiderna skiftar; den som finner Järnpålen i sin egen ryggrad går aldrig vilse i natten."
+        }
       }
     ]
   },
@@ -1217,9 +2747,9 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
       "sv": "Keltisk"
     },
     "line": {
-      "tr": "Galatya’nın Drunemeton koruluğundan İrlanda’nın Ogham taşlarına: Yılın sekiz eşiği, Üç Şiir Kazanı ve yirmi kutsal ağaç.",
-      "en": "From Galatia's Drunemeton grove to Ireland's Ogham stones: the eight thresholds of the year, the Three Cauldrons, and twenty sacred trees.",
-      "sv": "Från Galatiens Drunemeton-lund till Irlands Ogham-stenar: årets åtta trösklar, de Tre Kittlarna och tjugo heliga träd."
+      "tr": "Yirmi Ogham ağacı, meşe koruları (Nemeton), Brigid’in ocağı, Coligny takvimi, Taliesin’in kazanı ve Brehon ağaç yasaları — yirmi müstakil çalışma odası.",
+      "en": "Twenty Ogham trees, sacred oak groves (Nemeton), Brigid's hearth, the Coligny calendar, Ceridwen's cauldron, and the Brehon tree laws — twenty study rooms.",
+      "sv": "Tjugo Oghamträd, heliga eklundar (Nemeton), Brigids härd, Coligny-kalendern, Ceridwens kittel och Brehons trädlagar — tjugo studierum."
     },
     "backLabel": {
       "tr": "Kelte dön",
@@ -2088,6 +3618,1770 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "/ogham/tree-e-edad.jpg",
           "/ogham/tree-i-idad.jpg"
         ]
+      },
+      {
+        "slug": "uclu-ocak-brigid",
+        "glyph": "VII",
+        "image": "/kelt/uclu-ocak-brigid.jpg",
+        "title": {
+          "tr": "Brigid’in Üçlü Alevi: Demir Ocağı, Şiir ve Şifa Pınarı",
+          "en": "The Triple Flame of Brigid: Forge, Poetry, and Healing Well",
+          "sv": "Brigids Trefaldiga Låga: Smedja, Poesi och Hälsokälla"
+        },
+        "subtitle": {
+          "tr": "Kildare’nin Sönmeyen Ateşi, Imbolc Eşiği ve Üç Kız Kardeş Arketipi",
+          "en": "The Perpetual Fire of Kildare, the Imbolc Threshold, and the Three Sisters Archetype",
+          "sv": "Kildares Eviga Eld, Imbolc-Tröskeln och de Tre Systrarnas Arketyp"
+        },
+        "summary": {
+          "tr": "Kelt dünyasının en sevilen figürü Brigid (Yüce Olan), tek bir tanrıça değil üçlü bir ustalık ocağıdır: Şiir ve ilhamın ateşi (Imbas), demircinin örsündeki ateş ve şifalı su pınarlarının sıcaklığı.",
+          "en": "Revered across the Celtic world, Brigid ('The Exalted One') is a triadic hearth of mastery: the flame of poetic inspiration (Imbas), the blacksmith's forge, and the warmth of healing springs.",
+          "sv": "I den keltiska världen vördas Brigid ('Den Upphöjda') som en trefaldig härd av mästerskap: poesins och inspirationens eld (Imbas), smedens ässja och de läkande källornas värme."
+        },
+        "paragraphs": {
+          "tr": [
+            "Ortaçağ İrlanda sözlüğü *Cormac’s Glossary*’ye (*Sanas Cormaic*, MS 9. yüzyıl) göre baş-ozan Dagda’nın kızı Brigid aslında aynı adı taşıyan üç kız kardeştir: Şairlerin koruyucusu Brigid, demircilerin ve zanaatkarların koruyucusu Brigid ve şifacıların/ebelerin koruyucusu Brigid. Kelt düşüncesinde bu üç alan birbirinden ayrılmaz; çünkü şiir sözü biçimlendirir, demircilik maddeyi biçimlendirir, şifa ise bozulan dengeyi yeniden biçimlendirir.",
+            "İrlanda’nın Kildare (*Cill Dara* — ‘Meşe Kilisesi/Tapınağı’) bölgesinde on dokuz rahibenin nöbetleşe koruduğu ve yirminci gece ‘Brigid ateşini kendi bekler’ diyerek kor bıraktığı kutsal ateş yüzyıllar boyunca sönmeden yanmıştır. Evlerde ise 1 Şubat (Imbolc) gecesi ocak külleri düzeltilir ve kapı eşiğine ‘Brat Bríde’ (Brigid’in Pelerini) adı verilen keten/yün bir kumaş bırakılarak sabah çiğiyle bereketlenmesi beklenirdi.",
+            "Brigid’in sembolü olan sazlardan veya buğday saplarından örülmüş ‘Brigid Haçı’ (Güneş Çarkı), evin kirişine asılarak ocağı yangından, fırtınadan ve kıtlıktan koruyan mevsim mührü olarak kullanılmıştır.",
+            "⚠️ Tıbbi Uyarı: Kelt geleneğindeki Brigid pınarları ve ‘Brat Bríde’ (şifa örtüsü) anlatıları kültürel, folklorik ve sembolik miraslardır; herhangi bir fiziksel veya ruhsal rahatsızlıkta modern tıbbi teşhis ve tedavinin yerine geçmez."
+          ],
+          "en": [
+            "According to the 9th-century Irish glossary *Sanas Cormaic* (*Cormac's Glossary*), Brigid, daughter of the Dagda, was honored as three sisters of the same name: Brigid of poetry and seership, Brigid of smithcraft, and Brigid of healing and midwifery. In Celtic thought these three arts are inseparable: poetry shapes the word, smithcraft shapes matter, and healing restores broken balance.",
+            "At Kildare (*Cill Dara* — 'Church/Sanctuary of the Oak'), nineteen priestesses tended a perpetual sacred fire in rotation, leaving the embers on the twentieth night with the words, 'Brigid, tend your own fire.' On the eve of Imbolc (1 February), hearth ashes were smoothed and a strip of linen or wool ('Brat Bríde' — Brigid's Mantle) was laid outside the threshold to gather the morning dew.",
+            "Woven from rushes or straw, the four-armed Sun Wheel ('Brigid's Cross') was hung in the rafters to bless the household hearth through the turning of the year.",
+            "⚠️ Medical Disclaimer: Traditional accounts of Brigid's wells and the 'Brat Bríde' cloth are cultural, folkloric, and symbolic heritage; they never replace modern medical diagnosis or treatment."
+          ],
+          "sv": [
+            "Enligt det irländska lexikonet *Sanas Cormaic* från 800-talet vördades Dagdas dotter Brigid som tre systrar med samma namn: poesins Brigid, smideskonstens Brigid och läkekonstens Brigid. I keltiskt tänkande hör dessa tre samman: dikten formar ordet, smidet formar materien och läkekonsten återställer balansen.",
+            "I Kildare (*Cill Dara* — 'Ekens Helgedom') vaktade nitton kvinnor den heliga elden i skift, och den tjugonde natten lämnades glöden med orden: 'Brigid, vakta din egen eld.' På Imbolc-aftonen (1 februari) jämnades askan i härden och ett band av linne eller ull ('Brat Bríde') lades utanför tröskeln för att ta emot morgondaggen.",
+            "Flätat av säv eller halm hängdes det fyrarmade solhjulet ('Brigids kors') upp under takåsarna som skydd för gårdens härd.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Traditionella berättelser om Brigids källor och 'Brat Bríde' är kulturellt och symboliskt arv och ersätter aldrig modern medicinsk undersökning eller behandling."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Üç Alev: Örs, Lir ve Pınar",
+              "body": "Demircinin çekici sabrı, şairin nefesi ölçüyü, pınarın suyu ise merhameti temsil eder; gerçek ustalık bu üç ateşi aynı anda sıcak tutabilmektir."
+            },
+            {
+              "heading": "Kildare’nin Meşe Ocağı ve ‘Brat Bríde’",
+              "body": "Imbolc gecesi dışarı bırakılan doğal kumaş şeridi (Brat Bríde), kıştan çıkan toprağın ilk sabah çiğini ve yaşam gücünü sembolize eder."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Three Flames: Anvil, Harp, and Well",
+              "body": "The smith's hammer embodies patience, the poet's breath measure, and the spring water compassion; true craft keeps all three warm together."
+            },
+            {
+              "heading": "The Oak Sanctuary of Kildare and the 'Brat Bríde'",
+              "body": "Left upon the threshold on Imbolc eve, the natural cloth ribbon symbolizes receiving the first vital dew of returning spring."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Tre Lågor: Städ, Harpa och Källa",
+              "body": "Smedens hammare står för tålamod, poetens andedräkt för mått och källans vatten för omtanke."
+            },
+            {
+              "heading": "Kildares Ekhelgedom och 'Brat Bríde'",
+              "body": "Det naturliga tygband som läggs ut vid Imbolc symboliserar mötet med vårens första livgivande dagg."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Üçlü Brigid: Şiir (Imbas), Zanaat/Demircilik ve Şifa/Ocak koruyucusu.",
+            "Cill Dara (Kildare): ‘Meşe Korusu Tapınağı’; sönmeyen kutsal ateşin tutulduğu merkez.",
+            "Brat Bríde (Brigid’in Örtüsü): 1 Şubat şafağında çiğ ile temas ettirilen keten/yün şerit.",
+            "Güneş Çarkı (Brigid Haçı): Sazlardan örülen ve evin ocağını koruyan dört kollu çark.",
+            "⚠️ Tıbbi Uyarı: Geleneksel pınar ve örtü ritüelleri semboliktir; sağlık sorunlarında daima modern tıbba başvurulmalıdır."
+          ],
+          "en": [
+            "Triple Brigid: Patroness of Poetry (Imbas), Smithcraft, and the Healing Hearth.",
+            "Cill Dara (Kildare): 'Sanctuary of the Oak', seat of the perpetual sacred fire.",
+            "Brat Bríde (Brigid's Mantle): Linen or wool strip blessed by the dawn dew of February 1st.",
+            "Sun Wheel (Brigid's Cross): Woven rush emblem hung above the hearth for blessing.",
+            "⚠️ Medical Disclaimer: Traditional well and cloth customs are symbolic folklore; always consult licensed physicians for health care."
+          ],
+          "sv": [
+            "Trefaldiga Brigid: Beskyddare av poesi (Imbas), smideskonst och läkande härd.",
+            "Cill Dara (Kildare): 'Ekens Helgedom', platsen för den eviga elden.",
+            "Brat Bríde (Brigids Mantel): Band av linne eller ull som tar emot gryningsdaggen den 1 februari.",
+            "Solhjul (Brigids Kors): Flätat sävkors som hängs vid härden.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Folkliga käll- och tygbruk är symboliska; sök alltid legitimerad sjukvård vid ohälsa."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kendi Hayatındaki ‘Üçlü Alev’i Yoklama",
+            "steps": [
+              "Önüne bir mum yak ve ateşin üç katmanına bakarak kendine şu üç soruyu sor: ‘1. Zanaatım/üretimim (Demir Ocağı) sağlam mı? 2. Sözüm ve ilhamım (Şiir Ocağı) canlı mı? 3. Kendime ve çevreme şefkatim (Şifa Pınarı) akıyor mu?’",
+              "Bu üç alandan hangisinin ateşi zayıflamışsa bu hafta o alana somut bir saat ayırmaya söz ver.",
+              "Mumu üflemeden, bir kapakla söndürerek niyetini mühürle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Taking Stock of Your Own 'Triple Flame'",
+            "steps": [
+              "Light a single candle and ask yourself three questions before its flame: '1. Is my daily craft/work (the Forge) solid? 2. Is my creative voice (Poetry) alive? 3. Is my care for body and community (the Well) flowing?'",
+              "Identify which of the three flames has grown dim and dedicate one concrete hour this week to tending it.",
+              "Snuff the candle gently to seal your commitment."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Se Över Din Egen 'Trefaldiga Låga'",
+            "steps": [
+              "Tänd ett ljus och ställ dig själv tre frågor inför lågan: '1. Är mitt dagliga hantverk (Smedjan) stadigt? 2. Är min skapande röst (Poesin) levande? 3. Flödar min omtanke om kropp och medmänniskor (Källan)?'",
+              "Välj den av de tre lågorna som behöver mest omsorg och avsätt en konkret timme åt den denna vecka.",
+              "Släck ljuset varsamt med en ljussläckare för att försegla ditt löfte."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Demiri döven çekiç, sözü ören şiir ve yarayı yıkayan pınar aynı kutsal ocağın üç kıvılcımıdır.",
+          "en": "The hammer that shapes iron, the verse that shapes speech, and the well that cools fever are three sparks of one hearth.",
+          "sv": "Hammaren som formar järnet, dikten som formar ordet och källan som svalkar är tre gnistor ur samma härd."
+        }
+      },
+      {
+        "slug": "morrigan-egemenlik-ve-kuzgun",
+        "glyph": "VIII",
+        "image": "/kelt/morrigan-egemenlik-ve-kuzgun.jpg",
+        "title": {
+          "tr": "The Morrígan ve Toprağın Egemenliği (Sovereignty)",
+          "en": "The Morrígan and the Sovereignty of the Land",
+          "sv": "The Morrígan och Landets Suveränitet (Sovereignty)"
+        },
+        "subtitle": {
+          "tr": "Kuzgunun Sesi, Nehir Geçidi (Ford) Sınavı ve İrlanda’nın Üçlü Kraliçeleri",
+          "en": "The Raven's Call, the Ordeal at the River Ford, and the Triple Queens of Ireland",
+          "sv": "Korpens Röst, Prövningen vid Vadstället och Irlands Trefaldiga Drottningar"
+        },
+        "summary": {
+          "tr": "Kelt mitolojisinde ‘Egemenlik’ (Flaithius) kılıç zoruyla alınan bir mülk değil, toprağın bizzat kendisiyle yapılan ahlaki ve ruhsal sözleşmedir; The Morrígan ise insanın kendi korkusuyla yüzleştiği nehir geçidinde bekler.",
+          "en": "In Celtic myth, 'Sovereignty' (Flaithius) is never seized by brute force alone, but sealed through an ethical covenant with the land itself; The Morrígan waits at the river ford where one confronts fear and claims self-mastery.",
+          "sv": "I keltisk mytologi är 'Suveränitet' (Flaithius) aldrig något som erövras med blott våld, utan ett etiskt förbund med själva jorden; The Morrígan väntar vid vadstället där människan möter sin fruktan."
+        },
+        "paragraphs": {
+          "tr": [
+            "İrlanda’nın *Ulster Döngüsü* (*Táin Bó Cúailnge*) ve *Mag Tuired Savaşları* (*Cath Maige Tuired*) metinlerinde ‘The Morrígan’ (Büyük Kraliçe / Hayalet Kraliçe), Badb (Karga/Kuzgun) ve Macha ile birlikte üçlü bir güç oluşturur. Ancak o sadece savaş alanındaki kuzgun değildir; toprağın egemenliğini (Flaithius), sınırların korunmasını ve kehaneti temsil eder.",
+            "Kelt geleneğinde bir nehir geçidi (‘Ford’ — sığ su) en kritik inisiyasyon mekanıdır; çünkü iki yakayı birleştiren sınır çizgisidir. Efsanelerde ‘Geçitteki Çamaşırcı Kadın’ (*Bean Nighe* / Morrígan), nehir kenarında durarak kahramana kendi ölümlülüğünü ve eylemlerinin bedelini gösterir. Korkup kaçan sınavı kaybeder; gerçeğe dimdik bakan ise kendi kaderinin efendisi olur.",
+            "Aynı mitolojik döngüde İrlanda’nın üç toprak tanrıçası **Ériu, Banba ve Fódla**, adaya ayak basanlara şu şartı koşar: ‘Bu toprağa saygı gösterir ve adımızı yaşatırsanız toprak size bereket verir; kibirlilik ederseniz kendi kılıcınızla düşersiniz.’ İrlanda’nın bugünkü adı olan *Éire* doğrudan doğruya Tanrıça Ériu’ya verilen bu sözün mührüdür.",
+            "Kişisel çalışmada Morrígan ve Egemenlik (Sovereignty) arketipi, insanın başkalarını suçlamayı bırakıp kendi hayatının, sınırlarının ve gölgesinin tam sorumluluğunu (içsel krallığını/kraliçeliğini) eline almasıdır."
+          ],
+          "en": [
+            "In the Irish *Ulster Cycle* (*Táin Bó Cúailnge*) and *The Second Battle of Mag Tuired* (*Cath Maige Tuired*), 'The Morrígan' (Great Queen / Phantom Queen) forms a formidable triad with Badb (Scald-Crow) and Macha. Far more than a battlefield omen, she embodies prophecy, boundary guardianship, and the raw Sovereignty of the land (Flaithius).",
+            "In Celtic lore, a river ford is the ultimate initiatory threshold—the liminal strip of shallow water between two banks. As the 'Washer at the Ford' (*Bean Nighe*), the Morrígan confronts the hero with mortality and the true cost of their choices. Whoever flees in terror fails; whoever faces truth squarely attains sovereignty.",
+            "In the *Lebor Gabála Érenn*, the three eponymous goddesses of Ireland—**Ériu, Banba, and Fódla**—declare to the newcomers that the island will prosper only if they honor the land's name and rule with truth. Ireland's modern name, *Éire*, remains the living seal of that vow to Ériu.",
+            "In personal practice, the archetype of Sovereignty means ceasing to blame outer circumstances and claiming full, honest stewardship over one's own boundaries, word, and shadow."
+          ],
+          "sv": [
+            "I den irländska *Ulstercykeln* (*Táin Bó Cúailnge*) och *Slaget vid Mag Tuired* bildar 'The Morrígan' (Den Stora Drottningen) en triad tillsammans med Badb (Kråkan/Korpen) och Macha. Hon förkroppsligar profetia, gränsskydd och landets suveränitet (Flaithius).",
+            "I keltisk tradition är ett vadställe (Ford) den yttersta prövningsplatsen mellan två stränder. Vid vadstället ställs människan inför sanningen om sina val och sin dödlighet; den som står kvar utan att fly vinner verklig självbehärskning.",
+            "I *Lebor Gabála Érenn* möter vi även Irlands tre suveränitetsgudinnor **Ériu, Banba och Fódla**, varifrån ön fått sitt namn *Éire*—ett levande minne av att landet blomstrar endast när det möts med respekt.",
+            "I det personliga arbetet innebär Suveränitet att sluta skylla på omständigheterna och ta fullt, rakryggat ansvar för sina egna gränser, sitt ord och sin skugga."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Nehir Geçidi (The Ford): İki Yaka Arasındaki Yüzleşme",
+              "body": "Kelt destanlarında bütün büyük düellolar ve sınavlar nehirlerin sığ geçitlerinde yapılır; suyun ortası, eski benlik ile yeni benlik arasındaki eşiktir."
+            },
+            {
+              "heading": "Ériu, Banba ve Fódla: Toprakla Yapılan Sözleşme",
+              "body": "Kelt krallarında aranan ‘Fír Flathemon’ (Hükümdarın Doğruluğu) ilkesine göre, yönetici yalan söylerse toprağın bereketi çekilir; kişi kendi hayatında da dürüst oldukça içsel bereketi artar."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The River Ford: Confrontation Between Two Banks",
+              "body": "In the Celtic epics, decisive trials take place in the shallow waters of a ford—standing consciously between the old self and the new."
+            },
+            {
+              "heading": "Ériu, Banba, and Fódla: The Covenant of 'Fír Flathemon'",
+              "body": "According to the ancient Irish maxim of 'Fír Flathemon' (The Ruler's Truth), when a leader speaks falsely the land withers; when one lives in truth, the inner kingdom flourishes."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Vadstället (The Ford): Mötet Mellan Två Stränder",
+              "body": "I de keltiska eposen utkämpas de avgörande prövningarna mitt i vadställets strömmande vatten—tröskeln mellan det gamla och det nya jaget."
+            },
+            {
+              "heading": "Ériu, Banba och Fódla: 'Fír Flathemon' (Härskarens Sanning)",
+              "body": "Enligt den forniriska principen 'Fír Flathemon' vissnar landet under lögn, men blomstrar när människan lever i sanning och rättrådighet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "The Morrígan (Büyük Kraliçe): Kuzgun, kehanet, sınır koruması ve gölgeyle yüzleşme arketipi.",
+            "Badb & Macha: Savaş çığlığı (uyanış sesi) ve toprağın onuruyla ilişkili üçlü kız kardeşler.",
+            "Flaithius (Egemenlik / Sovereignty): Kişinin kendi hayatı ve sınırları üzerindeki tam öz-sorumluluğu.",
+            "Ériu, Banba, Fódla: İrlanda toprağının üç kutsal adı ve doğayla yapılan dürüstlük sözleşmesi.",
+            "Fír Flathemon (Hükümdarın Hakikati): Doğruluk ve adalet korunduğunda toprağın çiçek açması."
+          ],
+          "en": [
+            "The Morrígan (Great Queen): Archetype of the raven, prophecy, boundary defense, and shadow mastery.",
+            "Badb & Macha: The triadic sisters of awakening cry and the dignity of the land.",
+            "Flaithius (Sovereignty): Complete ethical self-stewardship over one's life and boundaries.",
+            "Ériu, Banba, Fódla: The three sovereign names of Ireland and the covenant with place.",
+            "Fír Flathemon (The Ruler's Truth): The principle that integrity brings fertility to life and land."
+          ],
+          "sv": [
+            "The Morrígan (Stora Drottningen): Arketypen för korpen, profetian, gränsskyddet och skuggmötet.",
+            "Badb & Macha: De trefaldiga systrarna för vaksamhet och landets värdighet.",
+            "Flaithius (Suveränitet): Fullt etiskt självansvar över det egna livet och dess gränser.",
+            "Ériu, Banba, Fódla: Irlands tre heliga namn och förbundet med jorden.",
+            "Fír Flathemon (Härskarens Sanning): Principen att omutlig ärlighet skapar fruktbarhet."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kendi ‘Nehir Geçidinde’ Sınır ve Egemenlik Beyanı",
+            "steps": [
+              "Hayatında şu an başkalarının beklentileri yüzünden taviz verdiğin veya ‘hayır’ diyemediğin tek bir sınırı belirle.",
+              "Ayakta dik dur, omuzlarını geriye al ve bir nehir geçidinin tam ortasında durduğunu hayal et.",
+              "Sesli ve sakin bir tonla: ‘Kendi zamanımın, emeğimin ve ruhumun egemenliği (Flaithius) bana aittir; bu sınırı öfkeyle değil, sarsılmaz bir netlikle koruyorum’ de."
+            ]
+          },
+          "en": {
+            "title": "Practice · Claiming Sovereignty at Your Own 'River Ford'",
+            "steps": [
+              "Identify one boundary in your life where you have been yielding your energy out of fear of displeasing others.",
+              "Stand tall with your shoulders back, visualizing yourself standing firm in the rushing water of a river ford.",
+              "Speak aloud in a calm, steady voice: 'The sovereignty (Flaithius) of my time, labor, and spirit belongs to me; I guard this boundary not in anger, but in unshakeable clarity.'"
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Häva Din Suveränitet vid Ditt Eget 'Vadställe'",
+            "steps": [
+              "Identifiera en gräns i ditt liv där du gett vika av rädsla för andras missnöje.",
+              "Stå rakryggad och föreställ dig att du står stadigt mitt i ett strömmande vadställe.",
+              "Säg högt med lugn röst: 'Suveräniteten (Flaithius) över min tid, mitt arbete och min ande tillhör mig; jag håller denna gräns inte i vrede, utan i orubblig klarhet.'"
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Kuzgunun sesinden korkan kaçmaya mahkumdur; kendi nehir geçidinde dimdik duran ise toprağın tacını giyer.",
+          "en": "Whoever fears the raven's cry flees the threshold; whoever stands firm in the river ford wears the crown of self-mastery.",
+          "sv": "Den som fruktar korpens rop flyr tröskeln; den som står stadigt i vadstället bär självbehärskningens krona."
+        }
+      },
+      {
+        "slug": "cernunnos-yaban-ve-dongu",
+        "glyph": "IX",
+        "image": "/kelt/cernunnos-yaban-ve-dongu.jpg",
+        "title": {
+          "tr": "Cernunnos: Ormanın Boynuzlu Efendisi ve Yabanıl Denge",
+          "en": "Cernunnos: The Horned Lord of the Forest and Wild Equilibrium",
+          "sv": "Cernunnos: Skogens Beprädda Herre och den Vilda Jämvikten"
+        },
+        "subtitle": {
+          "tr": "Gundestrup Kazanı İkonografisi, Geyik Tacı, Koç Başlı Yılan ve Torc",
+          "en": "Iconography of the Gundestrup Cauldron, Antler Crown, Ram-Horned Serpent, and Torc",
+          "sv": "Gundestrupkittelns Ikonografi, Hjortkronan, den Bagghornade Ormen och Torc-Ringen"
+        },
+        "summary": {
+          "tr": "Gundestrup Kazanı üzerinde bağdaş kurmuş halde betimlenen Cernunnos, bir elinde altın yakalık (Torc), diğer elinde koç başlı yılan tutar: Uygarlık ile yabanıl doğa arasındaki kusursuz barışın efendisidir.",
+          "en": "Seated cross-legged on the silver Gundestrup Cauldron, Cernunnos holds a golden neck-ring (Torc) in one hand and a ram-horned serpent in the other—master of the peace between culture and wild nature.",
+          "sv": "Sittande med korslagda ben på silverkitteln från Gundestrup håller Cernunnos en gyllene halsring (Torc) i ena handen och en bagghornad orm i den andra—symbolen för freden mellan kultur och vild natur."
+        },
+        "paragraphs": {
+          "tr": [
+            "Danimarka’nın Jutland yarımadasındaki bir turba bataklığında bulunan MÖ 1. yüzyıla ait gümüş **Gundestrup Kazanı** (ve Paris’teki *Pilier des Nautes* taş anıtı), Kelt dünyasının en gizemli figürlerinden birini gözler önüne serer: Başında geyik boynuzları taşıyan, kurtların ve geyiklerin ortasında derin bir meditasyon oturuşuyla (bağdaş kurarak) oturan **Cernunnos** (‘Boynuzlu Olan’).",
+            "Cernunnos’un başındaki geyik boynuzları bir silah değil, bitkisel ve mevsimsel yenilenmenin sembolüdür; çünkü kızıl geyik her yıl kış sonunda boynuzlarını toprağa bırakır ve baharda 마치 ağaç dalları gibi yeniden büyütür. Bu, bırakabilme ve yeniden filizlenebilme ustalığıdır.",
+            "Onun sağ elinde tuttuğu ‘Torc’ (burma altın/tunç boyun halkası) Kelt toplumundaki asaleti, sözü ve insani düzeni; sol elinde başından kavradığı ‘Koç Başlı Yılan’ ise yeraltının ilkel yaşam enerjisini, içgüdüyü ve doğurganlığı simgeler. Cernunnos yılanı öldürmez; onu sakin bir güçle tutar.",
+            "Bu ikonografi bize şunu öğretir: İçimizdeki doğal içgüdüleri ve yabanıl yaşam enerjisini bastırıp öldürmeye çalışmak yerine, onu bilgelik (Torc) ile dengede tuttuğumuzda hem ormanın hem de kendi doğamızın dostu oluruz."
+          ],
+          "en": [
+            "Discovered in a Jutland peat bog in Denmark, the 1st-century BCE silver **Gundestrup Cauldron** (alongside the Gallo-Roman *Pillar of the Boatmen* in Paris) preserves one of the most compelling icons of Celtic antiquity: **Cernunnos** ('The Horned One'), seated in serene cross-legged meditation surrounded by stag and wolf.",
+            "The stag antlers rising from his brow are not weapons of aggression, but emblems of perennial regeneration: every year the red stag sheds its antlers to the forest floor and regrows them like living branches in spring.",
+            "In his right hand Cernunnos holds a 'Torc'—the twisted gold or bronze neck-ring signifying nobility, oath, and conscious order; in his left hand he calmly grasps a 'Ram-Horned Serpent'—emblem of subterranean vitality, instinct, and primal earth-force. Crucially, he does not slay the serpent; he holds it in tranquil mastery.",
+            "This image teaches a timeless psychological truth: rather than repressing our natural instincts or letting them run wild, maturity lies in holding conscious order (the Torc) and primal vitality (the Serpent) in balanced communion."
+          ],
+          "sv": [
+            "Den keltiska silverkitteln från **Gundestrup** (100-talet f.Kr.), funnen i en dansk torvmosse på Jylland, samt *Båtkarlarnas pelare* i Paris visar en av forntidens mest gåtfulla gestalter: **Cernunnos** ('Den Beprädda / Hornkrönte'), sittande i stilla meditation omgiven av hjort och varg.",
+            "Hjorthornen på hans hjässa är inte vapen utan tecken på livets förnyelse: varje år fäller kronhjorten sin krona till skogsmarken och låter den växa ut på nytt som trädets grenar.",
+            "I sin högra hand håller Cernunnos en 'Torc' (den vridna halsringen av guld eller brons som står för heder, ed och medveten ordning) och i sin vänstra hand håller han lugnt en 'Bagghornad Orm' (urkraften, instinkten och jordens alstringskraft). Han dödar inte ormen utan håller den i stilla jämvikt.",
+            "Denna bild rymmer en djup psykologisk lärdom: i stället för att kväva vår naturliga livskraft eller låta drifterna löpa amok, består mognad i att förena medveten etik (Torc) med jordisk vitalitet (Ormen)."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Gundestrup Kazanı: Geyik, Kurt ve Bağdaş Oturuşu",
+              "body": "Yırtıcı kurt ile av olan geyiğin Cernunnos’un iki yanında kavga etmeden durması, doğadaki av-avcı döngüsünün ardındaki büyük ekolojik uyumu gösterir."
+            },
+            {
+              "heading": "Torc ve Koç Başlı Yılan: Kültür ile İçgüdünün Evliliği",
+              "body": "Sağ eldeki altın Torc bilinçli iradeyi, sol eldeki yılan ise toprak altı yaşam gücünü temsil eder; olgun insan ikisini de inkar etmez."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Gundestrup Cauldron: Stag, Wolf, and the Meditative Posture",
+              "body": "Flanked peacefully by predator (wolf) and prey (stag), Cernunnos embodies the ecological harmony underlying the forest's cycle of life."
+            },
+            {
+              "heading": "Torc and Ram-Horned Serpent: Wedding Order and Instinct",
+              "body": "The golden Torc in the right hand represents conscious ethics, while the serpent in the left represents raw life-force; wisdom honors both."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Gundestrupkitteln: Hjort, Varg och Meditationsställning",
+              "body": "Att rovdjur (varg) och bytesdjur (hjort) vilar sida vid sida kring Cernunnos visar den stora ekologiska balansen i skogens kretslopp."
+            },
+            {
+              "heading": "Torc och Bagghornad Orm: Föreningen av Ordning och Urkraft",
+              "body": "Halsringen i höger hand representerar det medvetna ordet, medan ormen i vänster hand representerar livskraften ur djupet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Cernunnos (‘Boynuzlu Olan’): Kelt ormanlarının, hayvanların, bereketin ve mevsimsel yenilenmenin efendisi.",
+            "Gundestrup Kazanı: MÖ 1. yüzyıldan kalan ve Cernunnos’u bağdaş kurmuş halde gösteren gümüş ritüel kazanı.",
+            "Geyik Boynuzu Tacı: Her yıl dökülüp yeniden büyüyen ağaç-boynuz; yenilenme sembolü.",
+            "Torc (Burma Boyunluk): Kelt dünyasında onur, asalet ve sözün ağırlığını simgeleyen metal halka.",
+            "Koç Başlı Yılan: Bastırılmayan, aksine bilinçle yönlendirilen ilkel yaşam enerjisi."
+          ],
+          "en": [
+            "Cernunnos ('The Horned One'): Celtic lord of the wild wood, animals, and seasonal renewal.",
+            "Gundestrup Cauldron: 1st-century BCE silver vessel depicting Cernunnos in meditative poise.",
+            "Crown of Antlers: Shed and regrown each year like branches, symbolizing the art of renewal.",
+            "Torc (Twisted Neck-Ring): Celtic emblem of dignity, sovereignty, and spoken oath.",
+            "Ram-Horned Serpent: Primal chthonic vitality held in calm awareness rather than repressed."
+          ],
+          "sv": [
+            "Cernunnos ('Den Hornkrönte'): Den keltiska vildmarkens, djurens och förnyelsens herre.",
+            "Gundestrupkitteln: Rituell silverkittel från 100-talet f.Kr. med Cernunnos i centrum.",
+            "Hjortkronan: Hornen som fälls och växer ut varje år som en bild av livets förnyelse.",
+            "Torc (Vriden Halsring): Keltiskt tecken på värdighet, löfte och inre adel.",
+            "Bagghornad Orm: Den jordiska livskraften hållen i lugn medvetenhet."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Torc ve Yılan’ (Bilinç ve İçgüdü) Denge Oturuşu",
+            "steps": [
+              "Yerde bağdaş kurarak veya sandalyede iki ayağın yere tam basacak şekilde dik otur; başının üzerinde geyik boynuzları veya ağaç dalları gibi göğe uzanan bir taç hayal et.",
+              "Sağ elini avuç içi yukarı bakacak şekilde dizine koy (Torc — bilinç, düzen ve onur); sol elini avuç içi toprağa bakacak şekilde dizine koy (Yılan — içgüdü, canlılık ve kök).",
+              "İki elinin arasındaki dengeyi hissederek 7 derin nefes al: Ne aşırı kontrolden katılaş, ne de dürtülerine kapılıp dağıl."
+            ]
+          },
+          "en": {
+            "title": "Practice · The 'Torc and Serpent' Posture of Balanced Presence",
+            "steps": [
+              "Sit cross-legged on the floor or upright in a chair with your spine tall, visualizing branching antlers rising calmly from your brow.",
+              "Rest your right hand palm-up on your knee (the Torc — conscious order and honor) and your left hand palm-down toward the earth (the Serpent — instinct and vitality).",
+              "Take seven slow breaths, balancing the two hands so that you are neither rigid with over-control nor scattered by impulse."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Torc och Orm'-Sittning för Inre Jämvikt",
+            "steps": [
+              "Sitt med korslagda ben eller rakryggad på en stol och föreställ dig en lugn hjortkrona som sträcker sig uppåt från din panna.",
+              "Vila höger hand med handflatan uppåt på knäet (Torc — medveten ordning och heder) och vänster hand med handflatan nedåt mot jorden (Ormen — livskraft och rot).",
+              "Ta sju djupa andetag och känn jämvikten mellan de två händerna: varken stel av överkontroll eller splittrad av impulser."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Yılanı öldüren canlılığını kaybeder, Torc’u unutan yolunu; bilge olan ikisini iki elinde dengede tutar.",
+          "en": "Whoever slays the serpent loses vitality, and whoever forgets the Torc loses measure; the wise hold both in quiet balance.",
+          "sv": "Den som dödar ormen förlorar sin livskraft, och den som glömmer sin Torc förlorar sitt mått; den vise håller båda i lugn balans."
+        }
+      },
+      {
+        "slug": "kutsal-pinarlar-ve-su-kultu",
+        "glyph": "X",
+        "image": "/kelt/kutsal-pinarlar-ve-su-kultu.jpg",
+        "title": {
+          "tr": "Kutsal Pınarlar (Tobar), Nehir Tanrıçaları ve Bilgelik Somonu",
+          "en": "Sacred Wells (Tobar), River Goddesses, and the Salmon of Wisdom",
+          "sv": "Heliga Källor (Tobar), Flodgudinnor och Visdomens Lax"
+        },
+        "subtitle": {
+          "tr": "Connla ve Segais Pınarları, Sequana, Boann ve Suyun Hafızası",
+          "en": "The Wells of Segais and Connla, Sequana, Boann, and the Memory of Water",
+          "sv": "Segais och Connlas Källor, Sequana, Boann och Vattnets Minne"
+        },
+        "summary": {
+          "tr": "Kelt coğrafyasında pınarlar ve nehir başları ‘Öteki Dünya’nın (Annwn / Tír na nÓg) yeryüzüne sızdığı en berrak kapılardır; Segais Pınarı’nın etrafındaki dokuz fındık ağacı ise bilgeliğin kaynağıdır.",
+          "en": "Across the Celtic lands, springs and headwaters were revered as translucent thresholds to the Otherworld; around the Well of Segais stand the nine hazel trees whose nuts feed the Salmon of Wisdom.",
+          "sv": "I de keltiska länderna vördades källor och källflöden som klara portar till Andra Världen; kring Segais källa växer de nio hasselträd vars nötter föder Visdomens Lax."
+        },
+        "paragraphs": {
+          "tr": [
+            "Avrupa’nın en büyük nehirlerinin isimleri bugün hala Kelt su tanrıçalarının adını taşır: Fransa’daki Seine Nehri **Tanrıça Sequana**’dan, Marne Nehri **Matrona**’dan, Tuna (Danube) ve Don nehirleri **Danu**’dan, İrlanda’daki Boyne Nehri ise **Boann**’dan gelir. Keltler için su, sadece H2O değil; yeraltındaki ‘Öteki Dünya’dan (Otherworld) bilgi ve şifa taşıyan canlı bir elçidir.",
+            "İrlanda mitolojisinin en güzel sembolü **Segais Pınarı**’dır (veya Connla Pınarı): Bu gizli pınarın etrafında dokuz kutsal fındık ağacı (*Coll*) yetişir. Ağaçların kıpkırmızı fındıkları pınarın suyuna dökülür ve suyun içindeki **Bilgelik Somonu** (*Bradán Feasa*) bu fındıkları yiyerek bütün evrenin bilgisini üzerinde benekler halinde toplar. Genç Fionn mac Cumhaill, ustası için bu somonu pişirirken başparmağını yakıp ağzına götürdüğünde bütün o sezgisel bilgeliğe (Imbas) uyanır.",
+            "İskoçya ve İrlanda’daki yüzlerce kutsal pınarın (*Tobar* / *Clootie Wells*) başındaki fındık, üvez veya alıç ağaçlarına ziyaretçiler doğada çözünebilen küçük keten şeritler (*Clootie*) bağlar ve pınara gümüş bir para veya parlak bir çakıl taşı bırakır.",
+            "⚠️ Tıbbi Uyarı: Doğal pınar ve kaynak suları mikrobiyolojik veya mineral kirlilik taşıyabilir; denetlenmemiş açık kaynak suları doğrudan içilmemeli ve göze/açık yaraya sürülmemelidir."
+          ],
+          "en": [
+            "Many of Europe's greatest rivers still bear the names of Celtic water goddesses: the Seine in France from **Sequana**, the Marne from **Matrona**, the Danube from **Danu**, and Ireland's River Boyne from **Boann**. To the Celts, water was a living messenger rising from the subterranean Otherworld.",
+            "At the heart of Irish myth lies the **Well of Segais** (or Well of Connla), encircled by nine sacred hazel trees (*Coll*). Their crimson nuts drop into the crystal pool, where they are eaten by the **Salmon of Wisdom** (*Bradán Feasa*), concentrating universal knowledge in the spots upon its skin. When the young Fionn mac Cumhaill burned his thumb while tending the cooking salmon and placed his thumb to his lips, he awakened to poetic omniscience (Imbas).",
+            "At traditional holy wells (*Tobar* / *Clootie Wells*) across Ireland and Scotland, visitors still approach in silence around the sun's path (Deiseil) and leave biodegradable linen strips or a white pebble in gratitude.",
+            "⚠️ Medical Disclaimer: Untested natural springs and surface waters may harbor microbial or mineral contaminants; never drink untreated wild water or apply it to eyes or open wounds."
+          ],
+          "sv": [
+            "Många av Europas stora floder bär än i dag namn efter keltiska vattengudinnor: Seine efter **Sequana**, Marne efter **Matrona**, Donau efter **Danu** och Irlands Boyne efter **Boann**. För kelterna var källvattnet en levande budbärare från djupet.",
+            "I irländsk mytologi står **Segais källa** (eller Connlas källa) i centrum, omgiven av nio heliga hasselträd (*Coll*). När de röda hasselnötterna faller i källan äts de av **Visdomens Lax** (*Bradán Feasa*). När den unge Fionn mac Cumhaill brände tummen på laxen medan han tillagade den åt sin mästare och förde tummen till munnen, vaknade hans intuitiva seende (Imbas).",
+            "Vid traditionella heliga källor (*Tobar*) i Irland och Skottland går besökaren än i dag medsols (Deiseil) runt källan i tystnad och lämnar en vit sten i tacksamhet.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Okontrollerat naturvatten kan innehålla bakterier eller föroreningar; drick aldrig orenat vildvatten och använd det inte i ögon eller sår."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Dokuz Fındık Ağacı ve Bilgelik Somonu (Bradán Feasa)",
+              "body": "Fındık ağacı Kelt Ogham alfabesinde (Coll — ᚄ) yoğunlaştırılmış bilgeliği, akıntıya karşı yüzen somon ise engelleri aşarak kaynağa dönen azmi temsil eder."
+            },
+            {
+              "heading": "Sequana ve Boann: Nehirlerin Kutsal Kaynakları",
+              "body": "Arkeologların Seine Nehri’nin kaynağında (Fontes Sequanae) bulduğu yüzlerce ahşap ve bronz adak, Keltlerin suya duyduğu derin şükranın kanıtıdır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Nine Hazels and the Salmon of Wisdom (Bradán Feasa)",
+              "body": "In the Ogham alphabet, Hazel (Coll — ᚄ) embodies concentrated wisdom, while the salmon swimming upstream represents tireless return to the source."
+            },
+            {
+              "heading": "Sequana and Boann: Sanctuaries at the Headwaters",
+              "body": "Archaeological discoveries at the source of the Seine (Fontes Sequanae) reveal centuries of carved wooden and bronze votives offered in gratitude to the healing waters."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "De Nio Hasslarna och Visdomens Lax (Bradán Feasa)",
+              "body": "I Ogham-alfabetet står Hasseln (Coll — ᚄ) för koncentrerad visdom, medan laxen som simmar motströms symboliserar uthålligheten att nå källan."
+            },
+            {
+              "heading": "Sequana och Boann: Helgedomar vid Källflödena",
+              "body": "Arkeologiska fynd vid Seines källa (Fontes Sequanae) vittnar om århundraden av vördnad och tacksamhet inför det levande vattnet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Segais / Connla Pınarı: Etrafında dokuz bilgelik fındığının yetiştiği mitolojik kaynak.",
+            "Bradán Feasa (Bilgelik Somonu): Kutsal fındıklarla beslenen ve akıntıya karşı kaynağa yüzen balık.",
+            "Boann & Sequana: Boyne ve Seine nehirlerine adını veren Kelt su tanrıçaları.",
+            "Tobar / Clootie Well: İrlanda ve İskoçya’daki geleneksel kutsal su kaynakları.",
+            "⚠️ Tıbbi Uyarı: Kontrol edilmemiş doğal kaynak suları içilmemeli ve tıbbi tedavi amacıyla kullanılmamalıdır."
+          ],
+          "en": [
+            "Well of Segais / Connla: Mythic spring encircled by the nine hazels of poetic wisdom.",
+            "Bradán Feasa (Salmon of Wisdom): The sacred fish that feeds upon the fallen hazelnuts of Segais.",
+            "Boann & Sequana: Celtic river goddesses whose names live on in the Boyne and the Seine.",
+            "Tobar / Clootie Well: Traditional sacred springs of Ireland and Scotland.",
+            "⚠️ Medical Disclaimer: Never consume untreated wild spring water or use folk water rites in place of medical care."
+          ],
+          "sv": [
+            "Segais / Connlas Källa: Den mytiska källan omgiven av nio visdomshasslar.",
+            "Bradán Feasa (Visdomens Lax): Den heliga laxen som bär kunskapens fläckar.",
+            "Boann & Sequana: Keltiska flodgudinnor som gett namn åt Boyne och Seine.",
+            "Tobar / Helig Källa: Traditionella källplatser i Irland och Skottland.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Drick endast kontrollerat dricksvatten och ersätt aldrig läkarvård med folkliga källbruk."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Sabah İlk Su ile ‘Segais Pınarı’ Niyeti",
+            "steps": [
+              "Sabah uyandığında içeceğin ilk bardak temiz suyu iki elinin arasına al ve suyun binlerce yıldır buluttan toprağa, topraktan pınara yaptığı yolculuğu düşün.",
+              "Suya bakarak bugün zihninin hangi konuda ‘Bilgelik Somonu’ gibi berrak ve akıntıya karşı dirençli olmasını istediğini tek bir cümleyle fısılda.",
+              "Suyu acele etmeden, üç yudumda farkındalıkla iç."
+            ]
+          },
+          "en": {
+            "title": "Practice · Morning 'Well of Segais' Intention with Clean Water",
+            "steps": [
+              "Upon waking, hold your first glass of clean drinking water between both palms and reflect on water's ancient cycle from cloud to mountain spring.",
+              "Speak quietly over the glass one area of your life where you seek clear, upstream perseverance like the Salmon of Wisdom.",
+              "Drink the water slowly in three mindful sips."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Morgonens 'Segais Källa'-Avsikt med Rent Vatten",
+            "steps": [
+              "Håll morgonens första glas rent dricksvatten mellan båda handflatorna och minns vattnets långa kretslopp från moln till källa.",
+              "Formulera tyst en fråga där du i dag behöver klarhet och uthållighet att simma motströms likt Visdomens Lax.",
+              "Drick vattnet långsamt i tre medvetna klunkar."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Somon bilgeliği akıntıya kapılarak değil, suyun doğduğu ilk pınara doğru yüzerek bulur.",
+          "en": "The salmon finds wisdom not by drifting with the current, but by swimming back to the clear spring where the river begins.",
+          "sv": "Laxen finner inte visdomen genom att driva med strömmen, utan genom att simma tillbaka till källan där floden föds."
+        }
+      },
+      {
+        "slug": "coligny-takvimi-kutsal-zaman",
+        "glyph": "XI",
+        "image": "/kelt/coligny-takvimi-kutsal-zaman.jpg",
+        "title": {
+          "tr": "Coligny Takvimi: Kelt Ay-Güneş Zamanı ve ‘Atenoux’",
+          "en": "The Coligny Calendar: Celtic Lunisolar Time and 'Atenoux'",
+          "sv": "Coligny-Kalendern: Keltisk Mån-Soltid och 'Atenoux'"
+        },
+        "subtitle": {
+          "tr": "MÖ 2. Yüzyıl Tunç Takvim Tableti, MAT / ANMAT Ayları ve Karanlıktan Doğuş",
+          "en": "The Ancient Gaulish Bronze Tablet, MAT / ANMAT Months, and Time Born from Night",
+          "sv": "Den Forngalliska Bronstavlan, MAT / ANMAT-Månader och Tiden Född ur Natten"
+        },
+        "summary": {
+          "tr": "Fransa’da bulunan MÖ 2. yüzyıla ait bronz Coligny Takvimi, Kelt druidlerinn zamanı Güneş ve Ay’ın beş yıllık döngüsüyle nasıl kusursuzca ölçtüğünü ve her günü ‘geceden’ başlattığını kanıtlayan arkeolojik şaheserdir.",
+          "en": "Unearthed in France, the ancient bronze Coligny Calendar demonstrates how Celtic druids harmonized lunar and solar cycles across five-year epochs and began every day and season from the stillness of night.",
+          "sv": "Den forntida bronstavlan från Coligny i Frankrike visar hur keltiska druider förenade månens och solens cykler över femårsperioder och lät varje dygn födas ur nattens stillhet."
+        },
+        "paragraphs": {
+          "tr": [
+            "1897 yılında Fransa’nın Lyon kenti yakınlarındaki Coligny’de, 73 parçaya bölünmüş devasa bir bronz levha bulundu. Galyalı Keltler tarafından MÖ 2. yüzyılda (veya MS 1–2. yüzyıl başında) Galyaca dilinde kazınmış olan **Coligny Takvimi**, Batı Avrupa’nın en eski ve en sofistike astronomik zaman haritasıdır.",
+            "Jül Sezar, *Galya Savaşı* (*De Bello Gallico*, VI.18) eserinde Keltlerin zamanı gündüzlerle değil **gecelerle** saydığını, ayları ve yılları da gece karanlığından başlattığını yazmıştı. Çünkü Kelt kozmolojisinde tohum önce karanlık toprakta, bebek önce karanlık rahimde, gün ise önce gecenin sessizliğinde doğar.",
+            "Coligny Takvimi’nde her ay 29 veya 30 gündür ve tam ortasındaki **‘ATENOUX’** (Dönüş / Yenilenme Gecesi — Dolunay veya Karanlık Ay eşiği) kelimesiyle iki adet 15 günlük yarıma (Aydınlık Yarı ve Karanlık Yarı) bölünür. Ayrıca aylar **MAT** (Uğurlu / Tam / Eyleme Uygun — 30 gün) ve **ANMAT** (Tam Olmayan / İçe Dönüş ve Sakınma Zamanı — 29 gün) olarak işaretlenmiştir.",
+            "Bu kadim sistem bize modern hız çağının unuttuğu bir sırrı hatırlatır: Yılın her ayı ve ayın her haftası aynı hızda koşmak için değildir; bazı zamanlar dışarıda iş kurmak (MAT), bazı zamanlar ise durup dinlenmek ve iç hazırlık yapmak (ANMAT) içindir."
+          ],
+          "en": [
+            "In 1897 at Coligny near Lyon, France, archaeologists uncovered the fragments of a monumental bronze plaque engraved in the Gaulish language: the **Coligny Calendar**, Western Europe's most sophisticated surviving pre-Christian lunisolar time-map.",
+            "Julius Caesar recorded in *De Bello Gallico* (VI.18) that the Celts measured time not by days, but by **nights** (*spatia omnis temporis non numero dierum, sed noctium finiunt*), so that day always follows night. In Celtic cosmology, the seed germinates first in dark earth, the child forms in the dark womb, and waking action is born out of the stillness of night.",
+            "On the Coligny plaque, each 29- or 30-day month is divided into two fifteen-day halves by the engraved word **'ATENOUX'** ('The Returning Night'—the mid-month hinge). Months are further designated as **MAT** ('Auspicious / Complete'—30 days suited to outward enterprise) or **ANMAT** ('Incomplete / Inward'—29 days suited to caution, rest, and preparation).",
+            "This bronze calendar restores a truth lost to modern haste: not every week or month is meant for relentless expansion; wisdom alternates between outward action (MAT) and inward restoration (ANMAT)."
+          ],
+          "sv": [
+            "År 1897 fann arkeologer i Coligny nära Lyon i Frankrike fragmenten av en monumental bronstavla med inskrifter på galliska: **Coligny-kalendern**, Västeuropas mest avancerade bevarade förkristna mån-solkalender.",
+            "Redan Julius Caesar noterade i *De Bello Gallico* (VI.18) att kelterna räknade tiden i **nätter** snarare än dagar, så att dagen alltid följer på natten. I keltisk kosmologi gror fröet först i den mörka jorden, och handlingen föds ur nattens vila.",
+            "På Coligny-tavlan delas varje månad i två femtondagarshalvor genom ordet **'ATENOUX'** ('Den Återvändande Natten' vid månadens mitt). Månaderna betecknas dessutom som **MAT** ('Fullbordad / Gynnsam' — 30 dagar för yttre handling) eller **ANMAT** ('Ofullbordad / Inåtvänd' — 29 dagar för eftertanke och återhämtning).",
+            "Denna uråldriga kalender påminner oss om att livets rytm kräver växling mellan yttre skapande (MAT) och inre vila (ANMAT)."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Geceyle Başlayan Gün: Tohumun Karanlıkta Uyanışı",
+              "body": "Keltlerde yeni gün gece yarısında değil, gün batımında (alacakaranlıkta) başlar; bu yüzden Samhain ve Beltane kutlamaları hep bir önceki akşamın ateşleriyle açılır."
+            },
+            {
+              "heading": "ATENOUX: Ayın İki Yarısı Arasındaki Eşik",
+              "body": "Coligny bronz levhasında her ayın 15. gününden sonra yer alan ‘ATENOUX’ kaydı, genişleme fazından içe dönüş fazına geçişi gösteren kozmik menteşedir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Day Begins at Dusk: The Seed in the Dark",
+              "body": "Because the Celtic day began at sunset, all great seasonal thresholds—such as Samhain Eve and Beltane Eve—open with the lighting of hearth fires on the preceding night."
+            },
+            {
+              "heading": "ATENOUX: The Mid-Month Hinge",
+              "body": "Marked halfway through every month on the Coligny bronze, 'ATENOUX' signals the pivot from waxing outward momentum to waning inward integration."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Dygnet Börjar i Skymningen: Fröet i Mörkret",
+              "body": "Eftersom det keltiska dygnet började vid solnedgången inleds alla stora årshögtider—som Samhain och Beltane—med eldar på aftonen före."
+            },
+            {
+              "heading": "ATENOUX: Månadens Vändpunkt",
+              "body": "Ordet 'ATENOUX' mitt i varje månad på Coligny-bronset markerar vändpunkten mellan utåtriktad och inåtriktad fas."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Coligny Takvimi: Fransa’da bulunan, 62 kameri ayı (5 yıllık döngüyü) gösteren antik Galyaca bronz levha.",
+            "Atenoux (‘Dönüş Gecesi’): Her ayın ortasında birinci yarıdan ikinci yarıya geçişi işaretleyen eşik.",
+            "MAT (Tam / Açık Zaman): 30 günlük aylar; dışa dönük eylem, sözleşme ve başlangıçlar için uygun dönem.",
+            "ANMAT (İçe Dönük Zaman): 29 günlük aylar; dinlenme, onarım ve sabır gerektiren dönem.",
+            "Gece Sayımı (Noctes): Günleri gündüzden değil, bir önceki gecenin sessizliğinden başlatma disiplini."
+          ],
+          "en": [
+            "Coligny Calendar: Ancient Gaulish bronze tablet mapping a 5-year (62-month) lunisolar cycle.",
+            "Atenoux ('Returning Night'): The mid-month threshold dividing the bright half and dark half of each moon.",
+            "MAT (Complete / Outward Time): 30-day months favorable for beginnings, journeys, and agreements.",
+            "ANMAT (Inward Time): 29-day months calling for restraint, repair, and quiet study.",
+            "Counting by Nights: The Celtic discipline of initiating each day at the preceding sunset."
+          ],
+          "sv": [
+            "Coligny-Kalendern: Forngallisk bronstavla som kartlägger en 5-årig mån-solcykel (62 månader).",
+            "Atenoux ('Återvändande Natt'): Tröskeln mitt i månaden som skiljer månadens två halvor.",
+            "MAT (Fullbordad / Yttre Tid): 30-dagarsmånader lämpade för handling och nya steg.",
+            "ANMAT (Inåtvänd Tid): 29-dagarsmånader lämpade för eftertanke, vila och förberedelse.",
+            "Natträkning: Seden att låta morgondagen börja redan vid kvällens solnedgång."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Günü Bir Önceki Akşamdan Başlatma (Kelt ‘Gece Tohumu’)",
+            "steps": [
+              "Yarınki gününün sabah alarm çaldığında değil, **bu akşam güneş battığında** başladığını kabul et.",
+              "Uyumadan önce masanın üstünü topla ve yarın yapacağın en önemli tek işi bir kağıda yazarak ‘tohumu karanlık toprağa’ bırak.",
+              "Sabah uyandığında telaşla güne yetişmeye çalışmak yerine, gece boyunca filizlenmiş hazır bir güne sakinlikle adım at."
+            ]
+          },
+          "en": {
+            "title": "Practice · Beginning Tomorrow at Tonight's Sunset (The Celtic 'Night-Seed')",
+            "steps": [
+              "Recognize that tomorrow does not begin when your morning alarm rings, but **tonight at sunset**.",
+              "Before sleeping, clear your desk and write down the single most important task of tomorrow on a card—planting the seed into the quiet earth of night.",
+              "Wake in the morning not in frantic haste, but stepping calmly into a day whose root has already been prepared."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Låta Morgondagen Börja vid Kvällens Solnedgång ('Nattfröet')",
+            "steps": [
+              "Utgå ifrån att morgondagen inte börjar när väckarklockan ringer, utan **i kväll när solen går ned**.",
+              "Gör ordning på ditt skrivbord före sänggåendet och skriv ned morgondagens viktigaste uppgift på ett kort—så att fröet läggs i nattens jord.",
+              "Vakna nästa morgon utan brådska och kliv in i en dag vars rot redan är förberedd."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Gündüz sadece meyvedir; kök ve tohum her zaman bir önceki gecenin karanlığında hazırlanır.",
+          "en": "Daylight is only the fruit; the root and seed are always prepared in the silence of the preceding night.",
+          "sv": "Dagen är blott frukten; roten och fröet förbereds alltid i föregående natts stillhet."
+        }
+      },
+      {
+        "slug": "bard-ovad-druid-uclusu",
+        "glyph": "XII",
+        "image": "/kelt/bard-ovad-druid-uclusu.jpg",
+        "title": {
+          "tr": "Üçlü Bilgelik Derecesi: Bard, Ovate (Vates) ve Druid",
+          "en": "The Threefold Order of Wisdom: Bard, Ovate (Vates), and Druid",
+          "sv": "Visdomens Trefaldiga Orden: Bard, Ovate (Vates) och Druid"
+        },
+        "subtitle": {
+          "tr": "Strabon ve Diodorus’un Kayıtları, 20 Yıllık Sözlü Eğitim ve Meşe Bilgisi",
+          "en": "Records of Strabo and Diodorus, the Twenty-Year Oral Training, and Knowledge of the Oak",
+          "sv": "Strabons och Diodorus Skrifter, Tjugo År av Muntlig Skolning och Ekens Kunskap"
+        },
+        "summary": {
+          "tr": "Antik kaynaklara göre Kelt bilgelik okulu üç basamaktan oluşurdu: Şiir, müzik ve hafızayı tutan **Bard**; doğa gözlemi, şifa ve kehaneti okuyan **Ovate (Vates)**; felsefe, hukuk ve kozmolojiyi yöneten **Druid**.",
+          "en": "Classical sources record that Celtic wisdom schools were structured in three concentric rings: the **Bard** (keeper of poetry, music, and memory), the **Ovate / Vates** (natural philosopher, healer, and seer), and the **Druid** (teacher of cosmology, ethics, and law).",
+          "sv": "Enligt antika källor bestod den keltiska visdomsskolan av tre ringar: **Barden** (poesins, musikens och minnets bevarare), **Ovaten / Vates** (naturforskaren och siaren) och **Druiden** (kosmologins, etikens och lagens mästare)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Antik Yunan ve Roma tarihçileri **Strabon** (*Geographica*, IV.4.4), **Diodorus Siculus** ve **Ammianus Marcellinus**, Kelt toplumundaki entelektüel ve ruhsal bilgelerin tek tip olmadığını, üç uzmanlık halkasına ayrıldığını açıkça kaydetmiştir: **Bardoi (Bardlar)**, **Ouateis / Vates (Ovatlar)** ve **Druidai (Druidler)**.",
+            "Birinci halka **Bard**’dır (İrlandaca *Filid* / *Bard*): Görevi tarihi, soy kütüklerini, doğa şiirlerini ve kahramanlık destanlarını müzik ve ritimle hafızada tutmaktır. Bir Bard yüzlerce şiiri ezbere bilir; çünkü Keltler kutsal bilginin ölü harflerle kağıtta donmasını istememiş, canlı nefesle insandan insana aktarılmasını şart koşmuştur.",
+            "İkinci halka **Ovate**’dir (Latince *Vates* / İrlandaca *Fáith*): Ormanın, kuş uçuşlarının (Ornithomancy), bitkilerin, mevsim dönüşlerinin ve rüyaların doğa bilimcisidir. Üçüncü halka ise **Druid**’dir (Eski Keltçe *Dru-wid-s*: ‘Meşeyi Bilen’ veya ‘Derin/Sağlam Bilen’): Yirmi yıl süren sözlü eğitimi tamamlayan Druid; hem doğa felsefecisi hem de kabileler arasındaki savaşları tek sözüyle durdurabilen yüksek yargıçtır (*Brehon*).",
+            "Bu üçlü mimari bugün de kusursuz bir gelişim haritasıdır: İnsan önce kendi dilini, hafızasını ve sanatsal ifadesini (Bard) terbiye eder; sonra doğayı, bedeni ve işaretleri (Ovate) okumayı öğrenir; en sonunda ise adalet, etik ve bilgelikle (Druid) topluma rehberlik eder."
+          ],
+          "en": [
+            "Ancient Greek and Roman historians—**Strabo** (*Geographica*, IV.4.4), **Diodorus Siculus**, and **Ammianus Marcellinus**—explicitly recorded that Celtic men and women of learning were organized into three distinct colleges: **Bardoi (Bards)**, **Ouateis / Vates (Ovates)**, and **Druidai (Druids)**.",
+            "The first ring is the **Bard** (Irish *Filid* / *Bard*): custodian of oral history, genealogy, and lyric song. Because the Celts held that sacred teachings should live in human breath and memory rather than lie inert on parchment, Bards trained their minds to hold hundreds of poems intact.",
+            "The second ring is the **Ovate** (Latin *Vates* / Irish *Fáith*): observer of forest ecology, herbal lore, the flight of birds, and seasonal omens. The third ring is the **Druid** (from Proto-Celtic *Dru-wid-s*, 'Oak-Knower' or 'Profound Seer'): completing up to twenty years of training, Druids served as natural philosophers and peacemakers (*Brehons*) capable of halting battles between armies.",
+            "This triad remains a timeless curriculum for human cultivation: first refine your speech, memory, and creative voice (Bard); second learn to read living nature and its cycles (Ovate); third embody justice, ethics, and calm mediation (Druid)."
+          ],
+          "sv": [
+            "Antika historiker som **Strabon** (*Geographica*, IV.4.4), **Diodorus Siculus** och **Ammianus Marcellinus** beskriver hur de keltiska lärda var indelade i tre tydliga grader: **Bardoi (Barder)**, **Ouateis / Vates (Ovater)** och **Druidai (Druider)**.",
+            "Den första ringen är **Barden**: bäraren av poesi, musik och muntlig historia. Eftersom kelterna ansåg att levande visdom måste bäras i minnet och andedräkten snarare än i döda bokstäver, tränade barderna sitt minne till fulländning.",
+            "Den andra ringen är **Ovaten** (*Vates*): kännaren av naturens kretslopp, örter, fåglars flykt och drömmar. Den tredje ringen är **Druiden** (av keltiskans *Dru-wid-s*, 'Den som känner eken' eller 'Den djupt vetande'): efter upp till tjugo års muntliga studier verkade druiden som filosof och fredsmäklare (*Brehon*).",
+            "Denna trefaldiga ordning är än i dag en förebildlig väg: först förädla ordet och minnet (Bard), därefter lära känna naturens rytmer (Ovate) och slutligen verka för rättrådighet och balans (Druid)."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Dru-wid-s: ‘Meşe Ağacını Bilen’ Etimolojisi",
+              "body": "Yaşlı Plinius ve dilbilimcilerin gösterdiği üzere *Dru-wid* kelimesi ‘Meşe’ (*deru*) ve ‘Bilmek/Görmek’ (*weid*) köklerinin birleşimidir: Hem meşe gibi kök salmış bilgiyi hem de ormanın dilini bilmeyi anlatır."
+            },
+            {
+              "heading": "Neden Yazmadılar? Canlı Hafızanın Disiplini",
+              "body": "Galyalılar günlük hesaplarda Yunan harflerini kullandıkları halde felsefi öğretilerini yazıya dökmemiştir; amaç bilginin ezberlenip yaşayan karakter haline gelmesiydi."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Dru-wid-s: Etymology of the 'Oak-Knower'",
+              "body": "Linguists trace *Dru-wid* to the roots *deru-* ('oak / steadfast') and *weid-* ('to see / to know')—signifying wisdom rooted as deeply as the oak."
+            },
+            {
+              "heading": "Why Oral Transmission? The Discipline of Living Memory",
+              "body": "Although the Gauls used Greek letters for mundane accounts, they committed sacred philosophy to memory so that knowledge would be embodied rather than merely archived."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Dru-wid-s: Etymologin Bakom 'Ek-Kännaren'",
+              "body": "Språkforskare härleder *Dru-wid* till rötterna *deru-* ('ek / stadig') och *weid-* ('att se / veta')—en visdom lika djupt rotad som eken."
+            },
+            {
+              "heading": "Det Levande Minnets Disciplin",
+              "body": "Genom att bevara den filosofiska läran muntligt försäkrade man sig om att kunskapen levde i människans karaktär och inte bara på pergament."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Bard (Ozan / Hafıza): Şiir, ses, müzik ve sözlü tarih disiplini; birinci basamak.",
+            "Ovate / Vates (Doğa Gözlemcisi): Bitki bilgisi, gökyüzü işaretleri, rüya ve doğa döngüleri; ikinci basamak.",
+            "Druid (Meşe Bilgesi / Yargıç): Kozmoloji, etik, barış hakemliği (*Brehon*) ve derin felsefe; üçüncü basamak.",
+            "Dru-wid-s: Hint-Avrupa kökünde ‘Meşeyi / Derin Hakikati Bilen’ anlamındaki unvan.",
+            "Yirmi Yıllık Çember: Bilginin aceleyle değil, mevsimlerle sindirilerek kazanılması."
+          ],
+          "en": [
+            "Bard (Keeper of Song & Memory): First ring; mastery of verse, cadence, and oral memory.",
+            "Ovate / Vates (Observer of Nature): Second ring; study of plants, cycles, augury, and healing lore.",
+            "Druid (Oak-Knower & Mediator): Third ring; cosmology, ethics, and peaceful arbitration (*Brehon*).",
+            "Dru-wid-s: Proto-Celtic compound meaning 'Knower of the Oak' or 'Deep Vision'.",
+            "Twenty-Year Circle: The patience required to let wisdom mature across seasons."
+          ],
+          "sv": [
+            "Bard (Sångens och Minnets Väktare): Första graden; poesi, rytm och muntlig tradition.",
+            "Ovate / Vates (Naturiakttagare): Andra graden; växtkännedom, årstidstecken och läkekonst.",
+            "Druid (Ek-Kännare & Domare): Tredje graden; kosmologi, etik och fredlig medling (*Brehon*).",
+            "Dru-wid-s: Urkeltiskt ord med betydelsen 'Den som känner eken / djup insikt'.",
+            "Tjugoårscirkeln: Tålamodet att låta kunskap mogna i takt med årstiderna."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · İçindeki ‘Bard, Ovate ve Druid’i Çalıştırma Günü",
+            "steps": [
+              "**Bard Adımı:** Bugün hoşuna giden dört satırlık anlamlı bir şiiri veya Hávamál/Ogham dörtlüğünü kağıda bakmadan ezberleyip sesli oku.",
+              "**Ovate Adımı:** Dışarı çıktığında rüzgarın yönünü, bulutların şeklini ve gördüğün ilk kuşun hareketini 5 dakika boyunca telefonuna bakmadan gözlemle.",
+              "**Druid Adımı:** Gün içinde tanık olduğun bir tartışmada taraf tutmak yerine, her iki tarafın da haklı olduğu noktayı gören adil bir hakem (Brehon) gözüyle düşün."
+            ]
+          },
+          "en": {
+            "title": "Practice · Activating Your Inner 'Bard, Ovate, and Druid'",
+            "steps": [
+              "**The Bard Step:** Memorize four lines of meaningful verse today and recite them aloud from memory.",
+              "**The Ovate Step:** Step outdoors for five minutes without a phone and observe wind direction, cloud formations, and the behavior of local birds.",
+              "**The Druid Step:** In any disagreement you witness today, practice looking through the eyes of a fair mediator (Brehon) who seeks truth rather than victory."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Väcka Din Inre 'Bard, Ovate och Druid'",
+            "steps": [
+              "**Bardens Steg:** Lär dig fyra rader av en meningsfull dikt utantill i dag och läs dem högt ur minnet.",
+              "**Ovatens Steg:** Gå ut i fem minuter utan telefon och iaktta vindriktning, moln och fåglarnas rörelser.",
+              "**Druidens Steg:** I varje meningsskiljaktighet du möter i dag, öva på att se saken ur en opartisk fredsmäklares (Brehon) perspektiv."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Sözü güzelleştiren Bard, doğayı dinleyen Ovate, adaleti ayakta tutan ise Druid’dir.",
+          "en": "The Bard refines the word, the Ovate listens to the forest, and the Druid upholds the peace.",
+          "sv": "Barden förädlar ordet, Ovaten lyssnar till skogen och Druiden bär rättvisan."
+        }
+      },
+      {
+        "slug": "tuatha-de-danann-dort-hazine",
+        "glyph": "XIII",
+        "image": "/kelt/tuatha-de-danann-dort-hazine.jpg",
+        "title": {
+          "tr": "Tuatha Dé Danann ve İrlanda’nın Dört Kutsal Hazinesi",
+          "en": "The Tuatha Dé Danann and the Four Sacred Treasures of Ireland",
+          "sv": "Tuatha Dé Danann och Irlands Fyra Heliga Skatter"
+        },
+        "subtitle": {
+          "tr": "Fál Taşı, Lugh’un Mızrağı, Nuada’nın Kılıcı ve Dagda’nın Kazanı",
+          "en": "The Stone of Fál, the Spear of Lugh, the Sword of Nuada, and the Cauldron of the Dagda",
+          "sv": "Fáls Sten, Lughs Spjut, Nuadas Svärd och Dagdas Kittel"
+        },
+        "summary": {
+          "tr": "İrlanda mitolojisinde Tanrıça Danu’nun halkı (Tuatha Dé Danann), kuzeydeki dört bilgelik şehrinden dört kutsal tılsımla gelir; bu dört hazine dört yönün ve dört temel insan erdeminin anahtarıdır.",
+          "en": "In Irish myth, the people of the Goddess Danu (Tuatha Dé Danann) bring four sacred talismans from four northern cities of wisdom—archetypes of the four directions and four cardinal human virtues.",
+          "sv": "I irländsk mytologi för gudinnan Danus folk (Tuatha Dé Danann) med sig fyra heliga klenoder från fyra nordliga visdomsstäder—arketyper för de fyra väderstrecken och människans fyra grunddygder."
+        },
+        "paragraphs": {
+          "tr": [
+            "Ortaçağ İrlanda derlemesi *Lebor Gabála Érenn* (*İrlanda’nın İstilalar Kitabı*) ve *Cath Maige Tuired* metinlerine göre, Tanrıça Danu’nun bilge halkı olan **Tuatha Dé Danann**, İrlanda’ya sis bulutları içinde inmeden önce kuzeydeki dört efsanevi adada/şehirde (**Falias, Gorias, Findias ve Murias**) bilgelik, sanat ve doğa yasalarını öğrenmiş ve yanlarında **Dört Kutsal Hazine** (*Four Treasures of Ireland*) getirmiştir.",
+            "Birincisi **Falias** şehrinden getirilen **Lia Fáil**’dir (Kader Taşı / Toprak): Tara Tepesi’ne dikilen bu taş, yalnızca gerçek ve dürüst hükümdar üzerine bastığında kükreyerek onay verir. İkincisi **Gorias** şehrinden getirilen **Lugh’un Mızrağı**’dır (Ateş / İrade): Hedefini asla şaşırmayan odaklanmış niyettir.",
+            "Üçüncüsü **Findias** şehrinden getirilen **Nuada’nın Işık Kılıcı**’dır (*Claíomh Solais* — Hava / Hakikat): Kınından çıktığında hiçbir yalanın karşısında duramadığı berrak ayırt etme gücüdür. Dördüncüsü ise **Murias** şehrinden getirilen **Dagda’nın Kazanı**’dır (*Coire Ansic* — Su / Cömertlik): Yanından hiçbir misafirin aç ayrılmadığı tükenmez bereket ve şefkat kabıdır.",
+            "Bu dört hazine, daha sonra Avrupa tarot ve hermetik geleneğindeki dört serinin (Tılsım/Taş, Değnek/Mızrak, Kılıç ve Kupa/Kazan) en eski Kelt arketipini oluşturmuştur."
+          ],
+          "en": [
+            "According to the medieval Irish *Lebor Gabála Érenn* (*Book of Invasions*) and *Cath Maige Tuired*, before arriving in Ireland the **Tuatha Dé Danann** ('Peoples of the Goddess Danu') studied poetry, natural law, and craft in four mythical northern cities—**Falias, Gorias, Findias, and Murias**—bringing from them the **Four Sacred Treasures**.",
+            "First, from **Falias**, came the **Lia Fáil** (Stone of Destiny / Earth): set upon the Hill of Tara, it cried out beneath the feet of a rightful, truthful sovereign. Second, from **Gorias**, came the **Spear of Lugh** (Fire / Will): focused intention that never misses its mark.",
+            "Third, from **Findias**, came the **Sword of Light of Nuada** (*Claíomh Solais* — Air / Truth): clear discernment before which no falsehood can stand. Fourth, from **Murias**, came the **Cauldron of the Dagda** (*Coire Ansic* — Water / Generosity): the inexhaustible vessel from which no company ever departed unsatisfied.",
+            "Together, Stone, Spear, Sword, and Cauldron form the ancient Celtic quaternity of grounded truth, focused will, lucid intellect, and generous hospitality."
+          ],
+          "sv": [
+            "Enligt de medeltida irländska texterna *Lebor Gabála Érenn* och *Cath Maige Tuired* lärde sig **Tuatha Dé Danann** ('Gudinnan Danus folk') visdom och hantverk i fyra mytiska städer i norr—**Falias, Gorias, Findias och Murias**—och förde därifrån med sig **Irlands Fyra Skatter**.",
+            "Från **Falias** kom **Lia Fáil** (Ödesstenen / Jord): rest på Taras kulle ropade den högt när en sannfärdig härskare satte sin fot på den. Från **Gorias** kom **Lughs Spjut** (Eld / Vilja): den fokuserade avsikt som aldrig missar sitt mål.",
+            "Från **Findias** kom **Nuadas Ljussvärd** (*Claíomh Solais* — Luft / Sanning): det klara omdöme som skär genom varje bländverk. Från **Murias** kom **Dagdas Kittel** (*Coire Ansic* — Vatten / Givmildhet): kärlet från vilket ingen gäst någonsin gick hungrig.",
+            "Sten, Spjut, Svärd och Kittel utgör den keltiska fyrfalden av förankrad sanning, fokuserad vilja, klar tanke och generös gästfrihet."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Dört Kuzey Şehri ve Dört Ustalar",
+              "body": "Falias’ta Morfessa, Gorias’ta Esras, Findias’ta Uiscias ve Murias’ta Semias; dört elementin ustalığını öğreten dört kadim öğretmendir."
+            },
+            {
+              "heading": "Dagda’nın Kazanı ve Lia Fáil: Cömertlik ile Doğruluk",
+              "body": "Kelt etiğinde kılıç ve mızrak (güç) tek başına yetmez; toprağın onayı (Lia Fáil) ve halkı doyuran kazan (Dagda) olmadan gerçek liderlik kurulamaz."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Four Northern Cities and Their Four Masters",
+              "body": "Morfessa in Falias, Esras in Gorias, Uiscias in Findias, and Semias in Murias stand as the four archetypal teachers of elemental mastery."
+            },
+            {
+              "heading": "The Cauldron and the Stone: Generosity Wedded to Integrity",
+              "body": "In Celtic ethics, the Spear and Sword (strength) are never enough; true sovereignty requires the Stone's truthfulness and the Cauldron's generosity."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "De Fyra Nordliga Städerna och Deras Mästare",
+              "body": "Morfessa i Falias, Esras i Gorias, Uiscias i Findias och Semias i Murias står som lärare i de fyra elementens visdom."
+            },
+            {
+              "heading": "Kitteln och Stenen: Givmildhet Förenad med Sanning",
+              "body": "I keltisk etik räcker aldrig spjut och svärd (styrka) ensamma; äkta ledarskap vilar på Stenens sanning och Kittelns omtanke."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Lia Fáil (Kader Taşı · Falias · Kuzey/Toprak): Gerçekliği ve meşruiyeti doğrulayan dikili taş.",
+            "Lugh’un Mızrağı (Gorias · Güney/Ateş): Dağılmayan dikkat ve hedefe kilitlenen irade.",
+            "Nuada’nın Işık Kılıcı (Findias · Doğu/Hava): Yanılsamayı kesen berrak akıl ve hakikat.",
+            "Dagda’nın Kazanı (Murias · Batı/Su): Kimsenin yanından boş dönmediği bereket ve şefkat ocağı.",
+            "Tuatha Dé Danann: Tanrıça Danu’nun sanat, şiir ve bilgelikte usta halkı."
+          ],
+          "en": [
+            "Lia Fáil (Stone of Destiny · Falias · North/Earth): Standing stone that confirms integrity and grounded truth.",
+            "Spear of Lugh (Gorias · South/Fire): Undivided focus and directed willpower.",
+            "Sword of Nuada (Findias · East/Air): Clear discernment that cuts through illusion.",
+            "Cauldron of the Dagda (Murias · West/Water): Vessel of hospitality, nourishment, and abundance.",
+            "Tuatha Dé Danann: The mythic tribe of the Goddess Danu skilled in art, wisdom, and craft."
+          ],
+          "sv": [
+            "Lia Fáil (Ödesstenen · Falias · Norr/Jord): Den resta sten som bekräftar sanning och rättrådighet.",
+            "Lughs Spjut (Gorias · Söder/Eld): Odelat fokus och riktad handlingskraft.",
+            "Nuadas Ljussvärd (Findias · Öster/Luft): Klart omdöme som genomskådar illusioner.",
+            "Dagdas Kittel (Murias · Väster/Vatten): Gästfrihetens och överflödets outtömliga kärl.",
+            "Tuatha Dé Danann: Gudinnan Danus visdomsfolk inom dikt, konst och naturkunskap."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Çalışma Masanda ‘Dört Hazine’ Pusulası Kurmak",
+            "steps": [
+              "Çalışma masanın dört köşesine sembolik olarak dört küçük nesne yerleştir: Kuzeye küçük bir taş (Lia Fáil — sabır ve gerçeklik), Doğuya bir kalem (Nuada’nın Kılıcı — net düşünce), Güneye bir mum (Lugh’un Mızrağı — odaklanmış irade), Batıya ise bir bardak su (Dagda’nın Kazanı — şükran ve cömertlik).",
+              "Bir işe başlarken bu dört nitelikten hangisine bugün daha çok ihtiyacın olduğuna bak.",
+              "İlgili nesneye dokunarak o niteliği bugünkü çalışmana davet et."
+            ]
+          },
+          "en": {
+            "title": "Practice · Setting the 'Four Treasures' Compass on Your Desk",
+            "steps": [
+              "Place four simple everyday emblems at the corners of your workspace: a small stone in the North (Lia Fáil — grounded truth), a pen in the East (Sword of Nuada — clear thought), a candle in the South (Spear of Lugh — focused will), and a cup of water in the West (Cauldron of the Dagda — generosity).",
+              "Before starting your day's work, notice which of the four qualities you need most today.",
+              "Touch that object briefly to anchor its virtue in your work."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Lägga 'De Fyra Skatternas' Kompass på Skrivbordet",
+            "steps": [
+              "Placera fyra enkla vardagsföremål i hörnen av din arbetsplats: en liten sten i norr (Lia Fáil — stadga), en penna i öster (Nuadas Svärd — klar tanke), ett ljus i söder (Lughs Spjut — fokus) och ett glas vatten i väster (Dagdas Kittel — givmildhet).",
+              "Se före dagens arbete vilken av dessa fyra egenskaper du behöver mest i dag.",
+              "Rör kort vid föremålet för att bjuda in den kvaliteten i ditt arbete."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Taşın sağlamlığı, mızrağın odağı, kılıcın doğruluğu ve kazanın cömertliği bir araya geldiğinde insan kendi ülkesinin bilgesi olur.",
+          "en": "When the steadiness of the Stone, the focus of the Spear, the clarity of the Sword, and the generosity of the Cauldron unite, a person governs their life in wisdom.",
+          "sv": "När Stenens stadga, Spjutets fokus, Svärdets klarhet och Kittelns givmildhet möts styr människan sitt liv i visdom."
+        }
+      },
+      {
+        "slug": "ogma-sozun-altin-zinciri",
+        "glyph": "XIV",
+        "image": "/kelt/ogma-sozun-altin-zinciri.jpg",
+        "title": {
+          "tr": "Ogma Grianainech: Ogham’ın Mucidi ve Sözün Altın Zincirleri",
+          "en": "Ogma Grianainech: Inventor of Ogham and the Golden Chains of Speech",
+          "sv": "Ogma Grianainech: Oghams Skapare och Ordets Gyllene Kedjor"
+        },
+        "subtitle": {
+          "tr": "Samsatlı Lukianos’un ‘Ogmios’ Kaydı, Güneş Yüzlü Bilge ve Belagat Sanatı",
+          "en": "Lucian of Samosata's Account of 'Ogmios', the Sun-Faced Sage, and Sacred Eloquence",
+          "sv": "Lukianos från Samosatas Skildring av 'Ogmios', Den Solansiktade Vise och Vältalighetens Konst"
+        },
+        "summary": {
+          "tr": "Ogham ağaç alfabesinin mucidi kabul edilen Ogma (Galyaca: Ogmios), insanları kaba kuvvetle değil, dilinin ucundan onların kulaklarına uzanan ince altın ve kehribar zincirlerle (tatlı ve doğru sözle) kendine bağlar.",
+          "en": "Credited with inventing the Ogham tree alphabet, Ogma (Gaulish: Ogmios) leads humanity not by brute force, but by fine chains of gold and amber linking his tongue to the ears of willing listeners.",
+          "sv": "Ogham-alfabetets skapare Ogma (galliska: Ogmios) leder människorna inte med rå styrka, utan med fina kedjor av guld och bärnsten som löper från hans tunga till lyssnarnas öron."
+        },
+        "paragraphs": {
+          "tr": [
+            "Ortaçağ İrlanda el yazması *Auraicept na n-Éces* (*Bilgelerin El Kitabı*), Ogham alfabesinin Tuatha Dé Danann’ın şampiyonu ve şairi **Ogma mac Elathan** (*Ogma Grianainech* — ‘Güneş Yüzlü Ogma’) tarafından yüksek bilgeliğin mührü olarak icat edildiğini kaydeder. Ogma hem en güçlü güreşçi hem de en derin dil ustasıdır.",
+            "MS 2. yüzyılda yaşamış Anadolu (Samsat / Adıyaman) doğumlu yazar **Lukianos** (*Lucian of Samosata*), Galya’da gördüğü bir Kelt Ogmios tasvirini şaşkınlıkla anlatır: Ogmios yaşlı, bilge ve güler yüzlü bir Herkül gibi resmedilmiştir; ancak insanları sopa veya okla değil, **dilinin ucundan çıkan ve dinleyenlerin kulaklarına bağlanan ince altın ve kehribar zincirlerle** peşinden götürmektedir ve insanlar bu zincirlerden kaçmak şöyle dursun, neşeyle onu takip etmektedir.",
+            "Oradaki bir Kelt rahibi Lukianos’a şu açıklamayı yapar: ‘Biz Keltler gerçek gücün kasta değil, olgunlaşmış sözde ve belagatte (hitabette) olduğuna inanırız; bu yüzden bilgelik yaş aldıkça keskinleşir.’",
+            "Ogma’nın öğretisi açıktır: Bağırarak, zorlayarak veya korkutarak kurulan otorite kırılgandır; dürüst, ölçülü ve kalbe dokunan sözün ‘altın zinciri’ ise bütün kapıları kırmadan açar."
+          ],
+          "en": [
+            "The medieval Irish grammatical treatise *Auraicept na n-Éces* (*The Scholars' Primer*) records that the Ogham alphabet was created by **Ogma mac Elathan** (*Ogma Grianainech* — 'Sun-Faced Ogma'), champion and master poet of the Tuatha Dé Danann, as a vessel for high learning.",
+            "In the 2nd century CE, the writer **Lucian of Samosata** (born in Commagene, Anatolia) described a remarkable Celtic painting of **Ogmios** he witnessed in Gaul: Ogmios was portrayed as an aged, smiling sage drawing a multitude of joyful people behind him by **delicate chains of gold and amber fastened from the tip of his tongue to their ears**.",
+            "A Celtic philosopher explained the image to Lucian: 'We Celts do not consider the power of speech to reside in youth or muscle, but in ripe wisdom; thus our Ogmios draws hearts willingly through the golden chains of truthful eloquence.'",
+            "Ogma's lesson endures: authority imposed through shouting or coercion is brittle, whereas speech forged in truth, measure, and warmth opens every door without violence."
+          ],
+          "sv": [
+            "Den medeltida irländska handskriften *Auraicept na n-Éces* (*De Lärdas Handbok*) berättar att Ogham-skriften skapades av **Ogma mac Elathan** (*Ogma Grianainech* — 'Ogma med solansiktet') som ett kärl för djup kunskap.",
+            "Under 100-talet e.Kr. beskrev författaren **Lukianos från Samosata** en keltisk målning av **Ogmios** som han sett i Gallien: Ogmios framställdes som en åldrad, leende vis man som drog en skara glada människor efter sig med **tunna kedjor av guld och bärnsten fästa mellan hans tunga och deras öron**.",
+            "En keltisk lärd förklarade bilden för Lukianos: 'Vi kelter anser att den sanna styrkan inte bor i musklerna utan i det mogna ordet; därför vinner vår Ogmios människornas hjärtan genom vältalighetens gyllene kedjor.'",
+            "Ogmas lärdom är tidlös: auktoritet som byggs på tvång och hårda ord är skör, medan det sanna och välavvägda ordet öppnar dörrar utan våld."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Samsatlı Lukianos’un ‘Herakles Ogmios’ Tanıklığı",
+              "body": "Anadolulu düşünür Lukianos sayesinde Keltlerin söz ve yazı tanrısı Ogmios’u nasıl ‘dilden kulağa uzanan altın ve kehribar zincirlerle’ betimlediğini bugün tüm ayrıntısıyla biliyoruz."
+            },
+            {
+              "heading": "Grianainech: ‘Güneş Yüzlü’ Doğruluk",
+              "body": "Ogma’nın lakabı olan *Grianainech* (Güneş Yüzlü), gizli kapaklı kurnazlığı değil, güneş gibi açık ve ısıtan sözü temsil eder."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Lucian of Samosata's Witness to 'Ogmios'",
+              "body": "Through the 2nd-century treatise *Heracles* by the Anatolian-born Lucian, we possess an eyewitness account of how Gaulish Celts pictured the god of eloquence."
+            },
+            {
+              "heading": "Grianainech: 'Sun-Faced' Clarity",
+              "body": "Ogma's epithet *Grianainech* ('Sun-Faced') signifies speech that is candid, radiant, and free of deceit."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Lukianos från Samosatas Vittnesbörd om 'Ogmios'",
+              "body": "Tack vare Lukianos skrift *Herakles* vet vi exakt hur de galliska kelterna avbildade ordets och skriftens gudom."
+            },
+            {
+              "heading": "Grianainech: 'Solansiktets' Öppenhet",
+              "body": "Tillnamnet *Grianainech* ('Solansikte') står för ett tal som är öppet, värmande och fritt från svek."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Ogma mac Elathan: İrlanda mitolojisinde Ogham alfabesinin mucidi olan ozan-şampiyon.",
+            "Ogmios (Galya): Dilden kulaklara uzanan altın ve kehribar zincirlerle betimlenen belagat tanrısı.",
+            "Grianainech (‘Güneş Yüzlü’): Ogma’nın aydınlık, dürüst ve sıcak hitabetini anlatan unvan.",
+            "Auraicept na n-Éces: Ogham yazısının kökenini ve dil felsefesini anlatan ortaçağ İrlanda metni.",
+            "Altın ve Kehribar Zincir: Zorbalık yerine ikna, nezaket ve hakikatle kurulan bağ."
+          ],
+          "en": [
+            "Ogma mac Elathan: Poet-champion of the Tuatha Dé Danann and creator of the Ogham script.",
+            "Ogmios (Gaul): Celtic deity of eloquence depicted with chains of gold and amber from tongue to ear.",
+            "Grianainech ('Sun-Faced'): Epithet of radiant, forthright, warming speech.",
+            "Auraicept na n-Éces: Medieval Irish text preserving the philosophy of Ogham.",
+            "Chains of Gold & Amber: Persuasion rooted in truth and grace rather than coercion."
+          ],
+          "sv": [
+            "Ogma mac Elathan: Skald och kämpe hos Tuatha Dé Danann samt Ogham-skriftens upphovsman.",
+            "Ogmios (Gallien): Vältalighetens gudom avbildad med kedjor av guld och bärnsten från tunga till öra.",
+            "Grianainech ('Solansikte'): Tillnamn för det klara, uppriktiga och värmande ordet.",
+            "Auraicept na n-Éces: Medeltida irländsk skrift om Ogham och språkets filosofi.",
+            "Kedjor av Guld & Bärnsten: Övertygelse som vilar på sanning och vänlighet i stället för tvång."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Ogma’nın Altın Zinciri’ (Sözü Yumuşatma ve Güçlendirme) Pratiği",
+            "steps": [
+              "Bugün zor bir konuşma veya müzakere yapmadan önce derin bir nefes al ve dilinin ucunda sert bir demir değil, sıcak bir altın ve kehribar zincir olduğunu hayal et.",
+              "Karşındaki kişiyi yenmeye veya susturmaya çalışmak yerine, ses tonunu yavaşlat ve önce onun söylediği şeydeki haklı payı teslim et.",
+              "Sözünü kısa, abartısız ve ‘Güneş Yüzlü’ (açık ve dürüst) kurarak tepkiyi izle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Speaking with 'Ogma's Golden Chain'",
+            "steps": [
+              "Before entering a difficult conversation today, pause and visualize a fine chain of warm gold and amber—rather than cold iron—extending from your words.",
+              "Lower the speed of your voice, drop defensive sharpness, and acknowledge what is true in the other person's view first.",
+              "Speak your point concisely and 'Sun-Faced' (with warmth and candor), observing how the atmosphere shifts."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Tala med 'Ogmas Gyllene Kedja'",
+            "steps": [
+              "Inför ett krävande samtal i dag, stanna upp och föreställ dig en fin kedja av varmt guld och bärnsten—inte kallt järn—som bär dina ord.",
+              "Sänk tempot i din röst, släpp behovet av att överrösta och erkänn först det som är rimligt i den andres synvinkel.",
+              "Framför ditt ärende kort, ärligt och med 'Solansikte' (värme och tydlighet)."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Demir zincir bedeni tutsak eder ve ilk fırsatta kırılır; doğru ve tatlı sözün altın zinciri ise gönülleri özgürce birleştirir.",
+          "en": "Chains of iron bind the body and invite rebellion; the golden chain of honest, gracious speech unites hearts in freedom.",
+          "sv": "Järnkedjor binder kroppen och väcker motstånd; det sanna ordets gyllene kedja förenar sinnen i frihet."
+        }
+      },
+      {
+        "slug": "taliesin-ceridwen-kazani-awen",
+        "glyph": "XV",
+        "image": "/kelt/taliesin-ceridwen-kazani-awen.jpg",
+        "title": {
+          "tr": "Ceridwen’in Kazanı, Taliesin ve ‘Awen’ (Akıcı İlham)",
+          "en": "The Cauldron of Ceridwen, Taliesin, and 'Awen' (Flowing Inspiration)",
+          "sv": "Ceridwens Kittel, Taliesin och 'Awen' (Flödande Inspiration)"
+        },
+        "subtitle": {
+          "tr": "Gal Mitolojisinde Bir Yıl Bir Gün Kaynayan Kazan, Üç Damla ve Şekil Değiştirme",
+          "en": "The Welsh Cauldron Brewed for a Year and a Day, the Three Drops, and Shape-Shifting",
+          "sv": "Den Walesiska Kitteln som Kokade i Ett År och En Dag, De Tre Dropparna och Hamnskiftet"
+        },
+        "summary": {
+          "tr": "Gal (*Mabinogion*) geleneğinde büyücü Ceridwen’in bir yıl bir gün boyunca kaynattığı ‘Awen’ (İlham) kazanından sıçrayan üç damla, çırak Gwion Bach’ı baş-ozan **Taliesin**’e (‘Parlayan Alın’) dönüştürür.",
+          "en": "In Welsh myth (*Hanes Taliesin*), three scalding drops from Ceridwen's cauldron—tended for a year and a day—awaken young Gwion Bach to 'Awen' (poetic inspiration) and rebirth him as **Taliesin** ('Radiant Brow').",
+          "sv": "I walesisk mytologi (*Hanes Taliesin*) ger tre heta droppar ur Ceridwens kittel—vaktad under ett år och en dag—den unge Gwion Bach 'Awen' (poetisk ingivelse) och låter honom återfödas som **Taliesin** ('Strålande Panna')."
+        },
+        "paragraphs": {
+          "tr": [
+            "Gal edebiyatının ve Kelt bard geleneğinin taç mücevheri **Hanes Taliesin** (*Taliesin’in Öyküsü* / *Llyfr Taliesin*) metnidir. Öyküye göre Bala Gölü (*Llyn Tegid*) kıyısında yaşayan bilge kadın **Ceridwen**, oğlu için ‘Awen’ (Şiirsel İlham ve Kehanet Ruhu) kazandıracak bir iksir hazırlamaya karar verir. Kazan tam **bir yıl ve bir gün** boyunca durmadan kaynamalıdır; kazanın altındaki ateşi körükleme görevi ise genç **Gwion Bach**’a verilir.",
+            "Yılın son gününde kazandaki iksir olgunlaştığında, kaynayan sıvıdan **üç sıcak damla** Gwion Bach’ın başparmağına sıçrar. Parmağını soğutmak için ağzına götürdüğü anda bütün doğanın bilgisi ve ‘Awen’ onun bilincine akar; geri kalan kazan ise zehirli olduğu için çatlayıp ikiye ayrılır.",
+            "Ardından Kelt mitolojisinin en ünlü ‘şekil değiştirme’ (metamorfizm) kovalamacası başlar: Gwion bir **yabani tavşan** olur, Ceridwen bir **tazı**; Gwion nehre atlayıp bir **somon balığı** olur, Ceridwen bir **su samuru**; Gwion havaya yükselip bir **kuş** olur, Ceridwen bir **şahin**; sonunda Gwion harman yerindeki bir **buğday tanesi** olur, Ceridwen ise siyah bir **tavuk** olup onu yutar ve dokuz ay sonra onu baş-ozan **Taliesin** (‘Parlayan Alın’) olarak yeniden doğurur.",
+            "Bu eşsiz mit, gerçek ustalığın (Awen) dört elementten — Toprak (Tavşan), Su (Somon), Hava (Kuş) ve Tohum/Ateş (Buğday) — geçerek ve egonun eski kabuğunu geride bırakarak doğduğunu anlatır."
+          ],
+          "en": [
+            "The crown jewel of Welsh bardic tradition is **Hanes Taliesin** (*The Tale of Taliesin*). Dwelling beside Lake Tegid (*Llyn Tegid*), the wise enchantress **Ceridwen** sets a cauldron boiling to brew thethree drops of **Awen** (poetic and prophetic inspiration). The cauldron must simmer uninterrupted for **a year and a day**, and young **Gwion Bach** is tasked with stirring the brew and tending the fire.",
+            "On the final day, **three scalding drops** of the concentrated essence leap from the cauldron onto Gwion's thumb. Thrusting his thumb to his mouth to cool the burn, he receives the full illumination of Awen, while the remaining cauldron cracks asunder.",
+            "There follows the classic Celtic metamorphosis chase across the elements: Gwion becomes a **hare** upon the earth, Ceridwen a **greyhound**; Gwion leaps into the river as a **salmon**, Ceridwen pursues as an **otter**; Gwion rises into the air as a **bird**, Ceridwen as a **hawk**; finally Gwion becomes a single **grain of wheat** on a winnowing floor, and Ceridwen, as a black **hen**, swallows him—bearing him nine months later as the chief bard **Taliesin** ('Radiant Brow').",
+            "This myth encodes the law of genuine initiation: mastery requires a full cycle of patient tending (a year and a day) and passage through Earth (Hare), Water (Salmon), Air (Bird), and Seed (Wheat)."
+          ],
+          "sv": [
+            "Kronjuvelen i den walesiska bardtraditionen är **Hanes Taliesin** (*Berättelsen om Taliesin*). Vid sjön Tegid sätter den visa **Ceridwen** en kittel över elden för att brygga **Awen** (poetisk och profetisk inspiration). Brygden måste sjuda oavbrutet i **ett år och en dag**, och den unge **Gwion Bach** får i uppdrag att vakta elden och röra i kitteln.",
+            "På den sista dagen stänker **tre brännheta droppar** ur kitteln på Gwions tumme. När han för tummen till munnen för att lindra svedan strömmar Awen in i hans medvetande, medan resten av kitteln rämnar.",
+            "Därefter följer det berömda keltiska hamnskiftet genom elementen: Gwion blir en **hare** på marken och Ceridwen en **vinthund**; Gwion kastar sig i floden som en **lax** och Ceridwen blir en **utter**; Gwion stiger mot skyn som en **fågel** och Ceridwen som en **hök**; till sist blir Gwion ett **vetekorn** på logen, som Ceridwen i skepnad av en svart **höna** sväljer—för att nio månader senare föda honom på nytt som mästerskalden **Taliesin** ('Strålande Panna').",
+            "Myten visar att äkta mästerskap kräver ett helt års trogen vaka vid elden och en färd genom Jord (Hare), Vatten (Lax), Luft (Fågel) och Frö (Vetekorn)."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Bir Yıl ve Bir Gün: Ustalığın Sabır Süresi",
+              "body": "Ceridwen’in kazanı bir gecede kaynamaz; dört mevsimin tamamı (bir yıl) ve fazladan bir eşik günü boyunca ateşi sönmeden beklemek gerekir."
+            },
+            {
+              "heading": "Dört Hayvan ve Dört Element Dönüşümü",
+              "body": "Tavşan (Toprak), Somon (Su), Kuş (Hava) ve Buğday Tanesi (Tohum/Yeniden Doğuş); Taliesin’in ‘Ben rüzgardım, ben su damlasıydım’ diyebilmesinin sırrıdır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "A Year and a Day: The Measure of Patient Craft",
+              "body": "Ceridwen's cauldron cannot be rushed; true inspiration distills only after the fire has been tended through all four seasons plus a threshold day."
+            },
+            {
+              "heading": "The Fourfold Metamorphosis Across the Elements",
+              "body": "Hare (Earth), Salmon (Water), Bird (Air), and Grain of Wheat (Seed/Rebirth) allow Taliesin to sing, 'I have been a drop in the air, I have been a shining star.'"
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Ett År och En Dag: Tålamodets Mått",
+              "body": "Ceridwens kittel kan inte skyndas på; de tre dropparna mognar först när elden vårdats genom alla fyra årstider och en tröskeldag."
+            },
+            {
+              "heading": "Hamnskiftet Genom de Fyra Elementen",
+              "body": "Hare (Jord), Lax (Vatten), Fågel (Luft) och Vetekorn (Frö) ger Taliesin förmågan att känna igen sig själv i hela skapelsen."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Awen (Galce: ‘Akıcı Ruh / İlham’): Üç ışık huzmesiyle (/|\\) sembolize edilen yaratıcı ve şiirsel nefes.",
+            "Ceridwen’in Kazanı (Pair Dadeni): Bir yıl bir gün kaynayan dönüşüm ve bilgelik kazanı.",
+            "Üç Damla: Kazanın tüm özünü taşıyan üç kıvılcım (Sevgi, Bilgelik ve Hakikat / /|\\).",
+            "Taliesin (‘Parlayan Alın’): Dört elementten geçerek yeniden doğan Gal baş-ozanı.",
+            "Metamorfizm (Şekil Değiştirme): Bilincin kendini sadece dar bir egoyla değil, tüm doğayla bir görmesi."
+          ],
+          "en": [
+            "Awen (Welsh: 'Flowing Spirit / Inspiration'): Poetic illumination symbolized by three rays of light (/|\\).",
+            "Cauldron of Ceridwen: The vessel of transformation tended for a year and a day.",
+            "The Three Drops: Concentrated essence of wisdom, love, and truth (/|\\).",
+            "Taliesin ('Radiant Brow'): The archetypal Welsh chief of bards reborn from the cauldron.",
+            "Elemental Metamorphosis: Expanding consciousness beyond narrow ego into kinship with all forms."
+          ],
+          "sv": [
+            "Awen (Walesiska: 'Flödande Ande / Inspiration'): Skapande ingivelse tecknad som tre ljusstrålar (/|\\).",
+            "Ceridwens Kittel: Förvandlingens kärl som kokar i ett år och en dag.",
+            "De Tre Dropparna: Den koncentrerade essensen av visdom, kärlek och sanning (/|\\).",
+            "Taliesin ('Strålande Panna'): Den walesiska bardtraditionens främsta gestalt.",
+            "Elementärt Hamnskifte: Att vidga medvetandet bortom det trånga egot."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Awen’ (/|\\) Üç Sesli Nefes ve Alın Parlatma",
+            "steps": [
+              "Dik otur, gözlerini kapat ve kaşlarının arasındaki alın bölgesini (‘Taliesin — Parlayan Alın’) gevşet.",
+              "Derin bir nefes al ve verirken Gal ozanlarının kadim kelimesi olan **‘A - O - U - E - N’** (Awen) sesini üç aşamada (Aaa - Ooo - Uuueeennn) göğsünden alnına doğru titreştirerek uzat.",
+              "Üç tekrardan sonra sessizlikte durarak zihnine düşen ilk berrak fikri (üç damladan birini) defterine kaydet."
+            ]
+          },
+          "en": {
+            "title": "Practice · The Threefold 'Awen' (/|\\) Vocal Breath and Brow Clearing",
+            "steps": [
+              "Sit upright, close your eyes, and soften the space across your forehead ('Taliesin — the Radiant Brow').",
+              "Inhale deeply and on the exhalation intone the ancient bardic word **'A - O - W - E - N'** in three flowing waves (Aaa — Ooo — Wwennn), feeling the vibration rise from chest to brow.",
+              "After three repetitions, sit in silence and write down the first clear insight that surfaces."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Trefaldigt 'Awen' (/|\\)-Andetag och Klar Panna",
+            "steps": [
+              "Sitt upprätt, slut ögonen och låt pannan ('Taliesin — den Strålande Pannan') slappna av.",
+              "Andas in djupt och låt på utandningen det bardiska ordet **'A - O - U - E - N'** (Awen) klinga i tre mjuka vågor från bröstet upp mot pannan.",
+              "Sitt i tystnad efter tre upprepningar och anteckna den första klara tanke som stiger upp."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Kazan bir yıl kaynar, bilgelik ise üç damlada gelir; önemli olan ateşi bir yıl boyunca söndürmeden bekleyebilmektir.",
+          "en": "The cauldron simmers for a year, yet wisdom arrives in three drops; the secret lies in keeping the fire alive until the day of distillation.",
+          "sv": "Kitteln sjuder i ett år, men visdomen kommer i tre droppar; hemligheten är att hålla elden vid liv ända till slutet."
+        }
+      },
+      {
+        "slug": "ince-yerler-sidhe-ve-annwn",
+        "glyph": "XVI",
+        "image": "/kelt/ince-yerler-sidhe-ve-annwn.jpg",
+        "title": {
+          "tr": "İnce Yerler (Thin Places): Sídhe Höyükleri, Annwn ve Tír na nÓg",
+          "en": "Thin Places: The Sídhe Mounds, Annwn, and Tír na nÓg",
+          "sv": "Tunna Platser (Thin Places): Sídhe-Högarna, Annwn och Tír na nÓg"
+        },
+        "subtitle": {
+          "tr": "İki Dünya Arasındaki Perdenin İnceldiği Saatler, Alacakaranlık ve Eşik Görgüsü",
+          "en": "Where the Veil Grows Translucent: Twilight, Tidal Shores, and Threshold Etiquette",
+          "sv": "När Slöjan Mellan Världarna Tunnats Ut: Skymning, Tidvattenstrand och Tröskelvett"
+        },
+        "summary": {
+          "tr": "Kelt kozmolojisinde ‘Öteki Dünya’ (İrlandaca Tír na nÓg / Galce Annwn) bulutların çok uzağında değil, bu dünyanın hemen bitişiğindedir; şafak, alacakaranlık, sisli kıyılar ve kadim höyükler (Sídhe) iki alemin birbirine değdiği ‘İnce Yerler’dir.",
+          "en": "In Celtic cosmology, the Otherworld (Irish Tír na nÓg / Welsh Annwn) is not locked away in a distant heaven, but lies interwoven with this world; dawn, twilight, misty headlands, and ancient mounds (Sídhe) are 'Thin Places' where the veil grows translucent.",
+          "sv": "I keltisk kosmologi ligger Andra Världen (iriska Tír na nÓg / walesiska Annwn) inte långt borta i fjärran, utan vägg i vägg med vår egen värld; gryning, skymning, dimhöljda kuster och forntida högar (Sídhe) är 'Tunna Platser'."
+        },
+        "paragraphs": {
+          "tr": [
+            "Kelt maneviyatının dünyaya armağan ettiği en şiirsel kavramlardan biri **‘Thin Places’** (İnce Yerler / Perdenin İnceldiği Eşikler) anlayışıdır. Bir Kelt atasözü şöyle der: *‘Cennet (Öteki Dünya) ile yeryüzü arasındaki mesafe sadece üç ayak (bir adım) kadardır; ama ince yerlerde bu mesafe daha da kısalır.’*",
+            "İrlanda geleneğinde **Aos Sí** (Höyük Halkı / Barış Halkı), Brú na Bóinne (Newgrange) gibi neolitik geçit mezarların ve yeşil tepelerin (*Sídhe*) altında, zamanın bizimkinden farklı aktığı **Tír na nÓg** (Gençlik Diyarı) veya **Mag Mell** (Neşe Ovası) aleminde yaşar. Gal mitolojisinde bu alemin adı **Annwn**’dur (Derinlik / Öte Dünya) ve orası korkutucu bir cehennem değil, şiirin, müziğin ve arı doğanın kaynağının korunduğu aynadaki dünyadır.",
+            "Keltler özellikle ‘arada kalan’ (liminal) zaman ve mekanlara büyük dikkatle yaklaşmıştır: **Ne gece ne gündüz** (şafak ve alacakaranlık), **ne kara ne deniz** (gelgit kıyı şeridi), **ne bu yıl ne gelecek yıl** (Samhain ve Beltane geceleri) ve **ne içerisi ne dışarısı** (kapı eşiği ve çit sınırı).",
+            "İnce bir yerde yürürken gürültü yapılmaz, doğaya çöp bırakılmaz ve kibirli konuşulmaz; çünkü orada insan kendi bilincinin derin katmanıyla (ve toprağın hafızasıyla) yüz yüzedir."
+          ],
+          "en": [
+            "One of the most enduring insights of Celtic spirituality is the perception of **'Thin Places'**—landscapes and hours where the boundary between the everyday world and timeless depth becomes almost transparent. As the traditional Celtic saying goes, *'Heaven and earth are only three feet apart, but in the thin places that distance is even shorter.'*",
+            "In Irish lore, the **Aos Sí** ('People of the Mounds') dwell beneath Neolithic passage tombs like Brú na Bóinne (Newgrange) and green hills (*Sídhe*), within **Tír na nÓg** (Land of Youth) or **Mag Mell** (Plain of Delight). In Welsh tradition this realm is **Annwn**—not a place of torment, but a luminous mirror-world where music, renewal, and ancestral memory abide.",
+            "Celtic wisdom pays special heed to **liminal** ('in-between') thresholds: **neither day nor night** (dawn and twilight / the gloaming), **neither land nor sea** (the tidal shore), **neither old year nor new** (Samhain and Beltane), and **neither indoors nor outdoors** (the lintel and hedgerow).",
+            "When walking through a thin place, one drops loud chatter and arrogance, stepping lightly in respectful awareness of the deep memory of the land."
+          ],
+          "sv": [
+            "En av den keltiska andlighetens vackraste insikter är begreppet **'Thin Places' (Tunna Platser)**—platser och stunder där gränsen mellan vardagens yta och det tidlösa djupet blir nästan genomskinlig. Som det keltiska ordstävet lyder: *'Det är bara tre fot mellan himmel och jord, men på de tunna platserna är avståndet ännu kortare.'*",
+            "I irländsk tradition bor **Aos Sí** ('Högarnas folk') under neolitiska gånggrifter som Brú na Bóinne (Newgrange) och gröna kullar (*Sídhe*), i **Tír na nÓg** (Ungdomens Land). I walesisk mytologi kallas denna sfär **Annwn**—en klar spegelvärld där musik, poesi och ursprunglig livskraft bevaras.",
+            "Keltisk visdom fäster särskild vikt vid **liminala** ('mellanliggande') trösklar: **varken natt eller dag** (gryning och skymning), **varken land eller hav** (tidvattenstranden), **varken gammalt år eller nytt** (Samhain och Beltane).",
+            "När man vandrar genom en tunn plats sänker man rösten och går varsamt, i medveten vördnad inför landskapets minne."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Liminalite: ‘Ne Orası Ne Burası’ Olan Eşiklerin Gücü",
+              "body": "Kelt bilmecelerinde en güçlü anlar hep iki zıddın birleştiği çizgidedir: Şafak sökmeden hemen önceki lacivert dakika ve dalganın kıyıya vurup geri çekildiği ıslak kum."
+            },
+            {
+              "heading": "Sídhe ve Alıç Ağacı Görgüsü",
+              "body": "İrlanda kırsalında bugün bile tek başına duran bir ‘Peri Alıcı’ (*Fairy Thorn* / *Sceach Gheal*) ağacını veya eski bir taş çemberi yıkmak uğursuzluk sayılır; bu folklorik saygı, binlerce tarihi höyüğü ve ağacı iş makinelerinden korumuştur."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Liminality: The Power of 'Neither Here Nor There'",
+              "body": "In Celtic riddles, the most potent moments occur along the seam between opposites: the indigo hush before sunrise and the wet sand between tide-marks."
+            },
+            {
+              "heading": "Etiquette of the Sídhe and the Lone Hawthorn",
+              "body": "Even in modern Ireland, disturbing an ancient stone ring-fort (*Ráth*) or cutting a solitary hawthorn (*Sceach Gheal*) is shunned—a folk reverence that has preserved countless archaeological sanctuaries."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Liminalitet: Kraften i 'Varken Här eller Där'",
+              "body": "I keltiska gåtor ligger den största kraften alltid i skarven mellan två tillstånd: den blå timmen före soluppgången och den våta sanden mellan ebb och flod."
+            },
+            {
+              "heading": "Vördnaden för Sídhe och den Ensamma Hagtornsbusken",
+              "body": "På den irländska landsbygden undviker man än i dag att skada en forntida ringborg (*Ráth*) eller ett ensamt hagtornsträd—en folklig respekt som skyddat tusentals fornminnen."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Thin Places (İnce Yerler): Görünür dünya ile derin ruhsal hafıza arasındaki perdenin inceldiği mekanlar.",
+            "Sídhe (Şi): Kadim taş höyükler ve doğanın el değmemiş huzur noktaları.",
+            "Tír na nÓg & Annwn: İrlanda ve Gal geleneğinde zamanın ötesindeki berrak Öteki Dünya.",
+            "Alacakaranlık (Ciaróg / Gloaming): Gündüz zihninin susup sezgisel gözün açıldığı eşik saati.",
+            "Gelgit Kıyısı (Littoral Zone): Hem denize hem karaya ait olan, yürüyüş ve tefekkür sınırı."
+          ],
+          "en": [
+            "Thin Places: Landscapes and hours where the veil between ordinary time and deep presence grows thin.",
+            "Sídhe (Shee): Ancient earthen mounds and quiet sanctuaries of the land.",
+            "Tír na nÓg & Annwn: The Irish and Welsh names for the luminous, timeless Otherworld.",
+            "The Gloaming (Twilight): The liminal hour between sunset and full night when intuition sharpens.",
+            "The Tidal Shore: The boundary belonging to both sea and land, ideal for contemplative walking."
+          ],
+          "sv": [
+            "Thin Places (Tunna Platser): Platser och stunder där slöjan mellan vardagstid och djup närvaro tunnas ut.",
+            "Sídhe: Forntida kullar, gånggrifter och ostörda naturhelgedomar.",
+            "Tír na nÓg & Annwn: De irländska och walesiska namnen på den tidlösa Andra Världen.",
+            "Skymningstimmen (The Gloaming): Gränstimmen efter solnedgången då det inre seendet klarnar.",
+            "Strandlinjen: Gränslandet mellan hav och fastland."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Alacakaranlıkta (Gloaming) ‘İnce Zaman’ Yürüyüşü",
+            "steps": [
+              "Güneş tam battıktan sonraki 20 dakikalık alacakaranlık (mavi saat) diliminde telefonunu evde bırakarak ağaçlık bir yolda veya su kıyısında yürüyüşe çık.",
+              "Gözlerin azalan ışığa alışırken etrafındaki ağaçların ve tepelerin keskin hatlarının nasıl yumuşadığını, seslerin ise nasıl berraklaştığını fark et.",
+              "Yürüyüş boyunca içinden hiçbir günlük hesap yapmadan, sadece ‘iki zamanın arasındaki’ o dingin boşluğu soluyarak eve dön."
+            ]
+          },
+          "en": {
+            "title": "Practice · A Silent Walk in the 'Gloaming' (The Twilight Threshold)",
+            "steps": [
+              "During the twenty minutes immediately following sunset (the blue hour), leave your phone behind and walk slowly along a tree-lined path or shoreline.",
+              "As your eyes adjust to the fading light, notice how sharp visual edges soften while natural sounds grow remarkably clear.",
+              "Walk without rehearsing daily tasks, simply breathing the quiet interval 'between two times' before returning home."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · En Tyst Vandring i 'Skymningstimmen' (Mellantiden)",
+            "steps": [
+              "Under de tjugo minuterna direkt efter solnedgången (blå timmen), lämna telefonen hemma och gå långsamt längs en skogsstig eller strand.",
+              "När ögonen vänjer sig vid det avtagande ljuset, lägg märke till hur skarpa konturer mjuknar medan naturens ljud blir tydligare.",
+              "Vandra utan att planera morgondagen och andas in stillheten 'mellan två tider' innan du vänder hemåt."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Öteki Dünya yıldızların ardında saklı değildir; yavaşlayıp alacakaranlığı dinleyen göz için bir nefes uzağındadır.",
+          "en": "The Otherworld is not hidden beyond distant stars; to the eye that slows down at twilight, it stands one breath away.",
+          "sv": "Andra Världen är inte gömd bakom avlägsna stjärnor; för den som saktar ned i skymningen är den bara ett andetag bort."
+        }
+      },
+      {
+        "slug": "druid-bitkileri-vervain-okseotu",
+        "glyph": "XVII",
+        "image": "/kelt/druid-bitkileri-vervain-okseotu.jpg",
+        "title": {
+          "tr": "Druid Herbolojisi: Ökseotu (All-Heal), Mine Çiçeği ve Yaban Elması",
+          "en": "Druid Herbal Lore: Mistletoe (All-Heal), Vervain, and the Wild Apple",
+          "sv": "Druidisk Örtlära: Mistel (All-Heal), Järnört och Vildapel"
+        },
+        "subtitle": {
+          "tr": "Yaşlı Plinius’un Kayıtları, Altın Orak, Ayın Altıncı Günü ve Kutsal Bitkiler",
+          "en": "Pliny the Elder's Account, the Golden Sickle, the Sixth Day of the Moon, and Sacred Flora",
+          "sv": "Plinius den Äldres Skildring, Den Gyllene Skäran, Månens Sjätte Dag och Heliga Växter"
+        },
+        "summary": {
+          "tr": "Druidlerin botanik bilgisinde meşe dalında gökle yer arasında asılı duran Ökseotu (*Viscum album*) ve sunak taşlarını yıkayan Mine Çiçeği (*Verbena*) en yüksek onura sahipti — ancak bugün bu bitkilerin farmakolojik sınırlarını bilmek şarttır.",
+          "en": "In Druidic botanical lore, Mistletoe (*Viscum album*) growing suspended between sky and earth upon the oak and Vervain (*Verbena*) used to wash altar stones held supreme honor—yet modern study requires strict awareness of their pharmacological toxicology.",
+          "sv": "I druidernas växtlära hade Misteln (*Viscum album*) som växer mellan himmel och jord i ekens krona och Järnörten (*Verbena*) högst rang—men i dag kräver detta arv tydlig kunskap om växternas giftighet."
+        },
+        "paragraphs": {
+          "tr": [
+            "Romalı doğa tarihçisi **Yaşlı Plinius** (*Naturalis Historia*, XVI.95), Galyalı druidlerin en kutsal saydığı bitkiyi ayrıntısıyla kaydetmiştir: **Meşe ağacının üzerinde yetişen Ökseotu** (*Viscum album* — Kelt dilinde ‘Her Şeyi İyileştiren’ / *All-Heal*). Ökseotu toprakta kök salmaz; kışın bütün meşe yaprakları döküldüğünde dahi meşenin yüksek dalında, gök ile yer arasında yemyeşil ve altın-beyaz meyveleriyle canlı kalır.",
+            "Plinius’un kaydına göre druidler ökseotunu yeni ayın **altıncı gününde** (Coligny takvim döngüsünün başlangıcında), beyaz keten giysiler içinde **altın bir orakla** (demir değdirmeden) keser ve bitki toprağa düşmeden beyaz bir örtü içinde yakalardı. İkinci kutsal Druid bitkisi ise **Mine Çiçeği** (*Verbena officinalis* — *Vervain* / ‘Sunak Otu’) idi: Demir değmeden toplanan mine çiçeği suyla ıslatılıp ritüel öncesinde sunak taşlarını ve çalışma alanını silmek için kullanılırdı.",
+            "Üçüncü kutsal ağaç/meyve ise Keltlerin ‘Avalon’ (*Ynys Afallon* — Elma Adası) mitine adını veren **Yaban Elması**’dır (*Quert* — Ogham’da ᚊ): Elmayı enlemesine (ekvatorundan) ikiye kestiğinizde, çekirdek yuvasının tam ortasında kusursuz bir **beş köşeli yıldız (Pentagram)** belirdiğini görürsünüz.",
+            "⚠️ Tıbbi Uyarı (Çok Önemli): Tarihsel Druid metinlerinde geçen **Ökseotu (Viscum album) meyveleri ve yaprakları viskotoksin ve lektin içerir; çiğ tüketildiğinde veya ev yapımı çay olarak içildiğinde ciddi zehirlenmeye, kalp ritim bozukluğuna ve karaciğer hasarına yol açabilir.** Mine çiçeği (Verbena) ise hamilelikte rahim kasılmalarını tetikleyebilir. Bu bitkiler yalnızca tarihsel/botanik kültür ve dış mekan sembolizmi olarak incelenmeli, asla dahilen tüketilmemelidir!"
+          ],
+          "en": [
+            "The Roman natural philosopher **Pliny the Elder** (*Naturalis Historia*, XVI.95) left the most famous classical account of Druidic plant lore: **Mistletoe growing upon the Oak** (*Viscum album*—called in Celtic 'All-Heal'). Rooted not in soil but high upon the branch between heaven and earth, mistletoe remains vibrant green with pearl-white berries even when the winter oak stands bare.",
+            "Pliny records that on the **sixth day of the moon** (which opened the Celtic lunar month and cycle), druids clad in white linen climbed the oak, cut the mistletoe with a **golden sickle** (avoiding cold iron), and caught it in a white cloak before it touched the ground. A second sacred plant recorded by Pliny was **Vervain** (*Verbena officinalis* / *Hierobotane*), steeped in water to sweep and purify altar stones before rites.",
+            "A third botanical emblem is the **Wild Apple** (*Quert* — ᚊ in Ogham), which gave its name to the mythic Isle of **Avalon** (*Ynys Afallon* — 'Isle of Apples'): when an apple is sliced horizontally across its equator, its seed chambers reveal a perfect **five-pointed star (Pentagram)**.",
+            "⚠️ Medical Disclaimer (Critical Safety Warning): **Mistletoe (*Viscum album*) berries and leaves contain toxic viscotoxins and lectins; ingesting raw berries or homemade teas can cause severe poisoning, cardiac arrhythmia, and liver damage.** Vervain (*Verbena*) is contraindicated during pregnancy. Study these plants strictly for their historical and symbolic heritage; never ingest toxic wild plants or replace medical care with folklore!"
+          ],
+          "sv": [
+            "Den romerske naturforskaren **Plinius den äldre** (*Naturalis Historia*, XVI.95) nedtecknade den mest kända antika skildringen av druidernas botanik: **Misteln som växer på eken** (*Viscum album*—som på keltiska kallades 'Den som läker allt'). Utan rötter i jorden förblir misteln grön med pärlvita bär högt uppe i ekens krona mitt i vintern.",
+            "Enligt Plinius skar druiderna misteln på **månens sjätte dag** med en **gyllene skära** och fångade upp den i en vit mantel innan den rörde vid marken. En annan helig växt hos druiderna var **Järnört** (*Verbena officinalis* / *Vervain*), som lades i källvatten för att tvätta altarstenar inför riter.",
+            "Ett tredje botaniskt tecken är **Vildapeln** (*Quert* — ᚊ i Ogham), som gett namn åt den mytiska ön **Avalon** (*Ynys Afallon* — 'Äpplenas Ö'): när man skär ett äpple vågrätt på mitten framträder en fulländad **femuddig stjärna (Pentagram)** i kärnhuset.",
+            "⚠️ Medicinsk Ansvarsfriskrivning (Viktig Säkerhetsvarning): **Mistelns (*Viscum album*) bär och blad innehåller giftiga viskotoxiner och lektiner; att äta bären eller dricka hemgjorda dekokter kan orsaka allvarlig förgiftning och hjärtpåverkan.** Järnört (*Verbena*) ska undvikas vid graviditet. Studera dessa växter enbart ur kulturhistoriskt och symboliskt perspektiv och inta aldrig giftiga växter!"
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Gökle Yer Arasındaki Bitki: Meşe Ökseotu",
+              "body": "Kökü toprağa değmeden meşe dalında yaşayan ve kış ortasında yeşil kalan ökseotu, druidler için ‘ölümsüz yaşam cevheri’nin görsel sembolüydü."
+            },
+            {
+              "heading": "Elmanın İçindeki Beş Köşeli Yıldız: Avalon’un Mührü",
+              "body": "Keltlerde elma dalı (*Silver Branch*) Öteki Dünya’ya geçiş pasaportudur; elmanın enine kesitindeki beş köşeli çekirdek yıldızı doğanın kendi geometrisidir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Plant Between Sky and Earth: Oak Mistletoe",
+              "body": "Living suspended in air without touching soil and fruiting at midwinter, mistletoe served the Druids as a visual emblem of undying life."
+            },
+            {
+              "heading": "The Five-Pointed Star Inside the Apple: Seal of Avalon",
+              "body": "In Celtic myth, a silver apple branch is the passport to the Otherworld; slicing an apple crosswise reveals nature's own five-pointed star at its core."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Växten Mellan Himmel och Jord: Ekmisteln",
+              "body": "Eftersom misteln lever i luften utan att röra jorden och bär frukt midvintertid blev den för druiderna en bild av odödlig livskraft."
+            },
+            {
+              "heading": "Den Femuddiga Stjärnan i Äpplet: Avalons Sigill",
+              "body": "I keltisk myt är äppelkvisten passet till Andra Världen, och tvärsnittet genom äpplet visar naturens egen femuddiga stjärna."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "⚠️ Tıbbi Uyarı: Ökseotu (*Viscum album*) toksiktir; meyvesi veya yaprağı kesinlikle yenmemeli ve çay olarak içilmemelidir!",
+            "Ökseotu (All-Heal): Yaşlı Plinius’un kaydettiği, meşe dalında yetişen sembolik kış ortası bitkisi.",
+            "Mine Çiçeği (Vervain / *Verbena officinalis*): Antik çağda sunak taşlarını temizlemekte kullanılan ‘kutsal ot’.",
+            "Su Otu (Samolus valerandi / Brooklime): Plinius’un kaydettiği, akarsu kenarlarında yetişen üçüncü Druid bitkisi.",
+            "Elma (Quert · ᚊ · Avalon): Enine kesildiğinde çekirdeklerinde beş köşeli yıldız taşıyan bilgelik meyvesi."
+          ],
+          "en": [
+            "⚠️ Medical Disclaimer: Mistletoe (*Viscum album*) is toxic; never ingest its berries or leaves or brew homemade preparations!",
+            "Mistletoe (All-Heal): Pliny's midwinter epiphyte of the oak, emblem of life between sky and earth.",
+            "Vervain (*Verbena officinalis*): The classical 'Altar Herb' used to wash sacred stones.",
+            "Selago & Samolus: Clubmoss and brooklime recorded by Pliny in the Druidic herbal canon.",
+            "Apple (Quert · ᚊ · Avalon): Fruit of regeneration bearing a five-pointed star in cross-section."
+          ],
+          "sv": [
+            "⚠️ Medicinsk Ansvarsfriskrivning: Mistel (*Viscum album*) är giftig; ät aldrig bär eller blad och drick aldrig hemgjorda mistelberedningar!",
+            "Mistel (All-Heal): Plinius midvinterväxt i eken, symbol för livet mellan himmel och jord.",
+            "Järnört (Vervain / *Verbena officinalis*): Den klassiska 'altarörten' som användes för att rena heliga stenar.",
+            "Selago & Samolus: Lummer och bäckpunge som nämns av Plinius i den druidiska växtläran.",
+            "Äpple (Quert · ᚊ · Avalon): Förnyelsens frukt som gömmer en femuddig stjärna i sitt kärnhus."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Elmanın İçindeki Beş Köşeli Yıldız (Avalon Tefekkürü)",
+            "steps": [
+              "Bir elmayı al, sapından tabanına doğru (boyuna) değil, tam ortasından **enlemesine (ekvator çizgisinden)** bıçakla ikiye kes.",
+              "Elmanın iki yarısının ortasında beliren kusursuz **beş köşeli çekirdek yıldızına** bak: Beş yaprağın toprağı, suyu, havayı, ateşi ve ruhu nasıl tek meyvede birleştirdiğini tefekkür et.",
+              "Çekirdeklerden birini saksıya veya toprağa dikmek üzere ayır, elmayı ise şükranla paylaşarak ye."
+            ]
+          },
+          "en": {
+            "title": "Practice · Contemplating the Five-Pointed Star Inside the Apple (Avalon Meditation)",
+            "steps": [
+              "Take a fresh apple and slice it cleanly in half **horizontally across its equator** (rather than top-to-bottom).",
+              "Behold the natural **five-pointed star** formed by the seed chambers at the center—contemplating how Earth, Water, Air, Fire, and Spirit converge within a single fruit.",
+              "Save the seeds to plant in soil, and eat the apple mindfully in gratitude for the orchard's gift."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Betrakta den Femuddiga Stjärnan i Äpplet (Avalon-Kontemplation)",
+            "steps": [
+              "Ta ett äpple och skär det rakt igenom **vågrätt längs ekvatorn** (i stället för uppifrån och ned).",
+              "Betrakta den naturliga **femuddiga stjärnan** som bildas av kärnhusen i mitten—en påminnelse om hur Jord, Vatten, Luft, Eld och Ande möts i en enda frukt.",
+              "Spara kärnorna för att så i jord och ät äpplet med medveten tacksamhet."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Bilgelik, zehirli olanla şifalı olanı ayırt eden bilgide ve elmanın kalbindeki gizli yıldızı gören gözdedir.",
+          "en": "Wisdom lies in the knowledge that distinguishes toxin from nourishment, and in the eye that perceives the hidden star at the heart of the apple.",
+          "sv": "Visdom ligger i kunskapen som skiljer gift från näring och i ögat som ser den dolda stjärnan i äpplets hjärta."
+        }
+      },
+      {
+        "slug": "carmina-gadelica-caim-cemberi",
+        "glyph": "XVIII",
+        "image": "/kelt/carmina-gadelica-caim-cemberi.jpg",
+        "title": {
+          "tr": "Carmina Gadelica ve ‘Caim’ (Kuşatan Koruma Çemberi)",
+          "en": "Carmina Gadelica and the 'Caim' (The Encircling Ward)",
+          "sv": "Carmina Gadelica och 'Caim' (Den Omslutande Skyddscirkeln)"
+        },
+        "subtitle": {
+          "tr": "İskoç Yaylalarının Sözlü Duaları, ‘Smooring’ (Ateşi Külle Örtme) ve Saat Yönü Çember",
+          "en": "Oral Prayers of the Scottish Highlands, 'Smooring the Fire', and the Sunwise Circle",
+          "sv": "Muntliga Böner från Skotska Högländerna, 'Smooring the Fire' och Medsols Cirkel"
+        },
+        "summary": {
+          "tr": "19. yüzyılda Alexander Carmichael’ın İskoçya adalarından derlediği *Carmina Gadelica*, Kelt ocak kültürünün iki canlı mücevherini korumuştur: Sağ işaret parmağıyla saat yönünde çizilen **Caim** koruma çemberi ve gece ateşini külle örtme (**Smooring the Fire**) duası.",
+          "en": "Collected across the Scottish Hebrides in the 19th century by Alexander Carmichael, the *Carmina Gadelica* preserves two jewels of Celtic hearth craft: the sunwise **Caim** (encircling prayer) and **Smooring the Fire** at nightfall.",
+          "sv": "Nedtecknad på Hebriderna under 1800-talet av Alexander Carmichael bevarar *Carmina Gadelica* två skatter ur den keltiska härdkulturen: den medsols dragna **Caim**-cirkeln och seden att täcka nattglöden med aska (**Smooring the Fire**)."
+        },
+        "paragraphs": {
+          "tr": [
+            "İskoç folklor araştırmacısı **Alexander Carmichael** (1832–1912), onlarca yıl boyunca Dış Hebridler ve İskoç Yaylalarındaki (*Highlands*) yaşlı balıkçıların, çobanların ve bilge kadınların kulübelerini dolaşarak Galce (*Gàidhlig*) sözlü duaları, tılsımları ve ocak ilahilerini altı ciltlik **Carmina Gadelica** (*Gallerin Ezgileri*) eserinde kayıt altına almıştır.",
+            "Bu derlemenin en güçlü pratiklerinden biri **‘Caim’** (Galce: *Caim* veya *Cuairt* — ‘Kuşatma / Koruyucu Çember’) ritüelidir: Kişi bir tehlike, korku veya yolculuk anında sağ elinin işaret parmağını uzatır ve kendi etrafında **saat yönünde (Deiseil — Güneşin dönüş yönünde)** tam bir daire çizerek ‘İçeride huzur ve hakikat, dışarıda kaos’ sınırını kurar.",
+            "İkinci günlük ocak ritüeli ise **‘Smooring the Fire’** (Galce: *Smàladh an Teine* — Ateşi Gece İçin Külle Örtmek) uygulamasıdır: Gece yatmadan önce turba ocağındaki korlar üç eşit dilime ayrılır ve üzerleri sıcak külle örtülür ki ateş gece boyu sönmeden sabahı beklesin. Bu işlem yapılırken her akşam *‘Ateşi bu gece şefkatle örtüyorum; bu evin içindekileri sabaha kadar korusun’* dizeleri okunurdu.",
+            "Hem Caim çemberi hem de ateşi külle örtme disiplini, modern insanın gece yatmadan önce sinir sistemini güvende hissettiren ve sınırlarını toparlayan en sade psikolojik eşik araçlarıdır."
+          ],
+          "en": [
+            "Throughout the late 19th century, Scottish folklorist **Alexander Carmichael** (1832–1912) traveled from croft to croft across the Outer Hebrides and Highlands, recording in Scottish Gaelic (*Gàidhlig*) hundreds of ancient oral blessings, charms, and hearth songs in the six volumes of **Carmina Gadelica** (*Hymns of the Gaels*).",
+            "One of the most beloved practices preserved in these volumes is the **'Caim'** (*Cuairt* — 'The Encircling'): in moments of threshold, travel, or unease, the practitioner extends the right index finger and turns a full circle **sunwise (Deiseil — clockwise)** around themselves, establishing a quiet sanctuary of composure within.",
+            "The companion nightly rite is **'Smooring the Fire'** (Gaelic: *Smàladh an Teine*): before retiring to sleep, the glowing peat embers on the hearth were divided into three sections and banked carefully under warm ash so the fire would slumber safely without dying until dawn, accompanied by a spoken hearth blessing.",
+            "Together, drawing the Caim and 'smooring' one's inner fire before sleep offer a profound somatic practice for closing the day's overstimulation and resting in secure boundaries."
+          ],
+          "sv": [
+            "Under 1800-talets senare hälft vandrade den skotske folklivsforskaren **Alexander Carmichael** (1832–1912) mellan torp och fiskelägen på Yttre Hebriderna och i Högländerna och räddade hundratals gaeliska (*Gàidhlig*) muntliga välsignelser och härdsånger i det sex band starka verket **Carmina Gadelica**.",
+            "En av de mest levande praktikerna i denna samling är **'Caim'** (*Cuairt* — 'Omslutningen'): vid oro, uppbrott eller tröskelstunder sträcker utövaren ut höger pekfinger och ritar en hel cirkel **medsols (Deiseil)** runt sig själv för att markera ett fridfullt inre rum.",
+            "Den andra kvällsriten är **'Smooring the Fire'** (gaeliska: *Smàladh an Teine* — att täcka elden för natten): före sänggåendet delades torvglöden i tre delar och täcktes varsamt med varm aska så att elden skulle slumra tryggt utan att slockna till gryningen.",
+            "Att dra sin Caim och 'täcka sin inre glöd' inför natten är än i dag ett enkelt och verksamt sätt att lugna nervsystemet och sätta punkt för dagens brus."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Deiseil: Güneşin Yönünde Dönerek Çizilen ‘Caim’",
+              "body": "Kelt geleneğinde saat yönü (*Deiseil*) güneşin gökyüzündeki doğal akışıyla uyumu temsil eder; Caim çemberi kişiyi dünyadan koparmaz, kendi merkezinde güvende tutar."
+            },
+            {
+              "heading": "Smàladh an Teine: Gece Korunu Külle Saklamak",
+              "body": "Koru açıkta bırakırsan çabuk yanıp biter; üzerini ince bir kül tabakasıyla örtersen sabaha kadar sönmeden kalır. İnsanın kendi enerjisini gece dinlendirmesi de tıpkı böyledir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Deiseil: Turning Sunwise in the 'Caim'",
+              "body": "In Gaelic custom, turning clockwise (*Deiseil*) aligns human motion with the sun's path across the sky, establishing a calm boundary without hostility."
+            },
+            {
+              "heading": "Smàladh an Teine: Banking the Embers Overnight",
+              "body": "Left uncovered, embers burn out quickly; banked beneath a gentle layer of ash, they endure till morning—a metaphor for conserving one's vital energy through nightly rest."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Deiseil: Att Vända Sig Medsols i 'Caim'",
+              "body": "I gaelisk tradition innebär rörelsen medsols (*Deiseil*) att gå i samklang med solens bana över himlen och skapa en lugn gräns."
+            },
+            {
+              "heading": "Smàladh an Teine: Att Bevara Glöden Under Askan",
+              "body": "En glöd som lämnas öppen brinner snabbt ut, men täckt under ett tunt lager aska lever den till morgonen—precis som människans kraft när den får vila."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Carmina Gadelica: İskoç Yaylaları ve Hebrid adalarının kadim Galce sözlü dua ve ocak hazinesi.",
+            "Caim (Koruma Çemberi): Sağ işaret parmağıyla saat yönünde çizilen görünmez sınır halkası.",
+            "Deiseil (Güneş Yönü): Saat yönünde, doğanın ve güneşin akışıyla uyumlu dönüş.",
+            "Smooring the Fire (Smàladh an Teine): Gece yatmadan önce ocağın korlarını külle örterek sabaha saklama.",
+            "Beannachadh Taighe (Ev Kutsaması): Eşiklerin, ocağın ve uykunun huzurla mühürlenmesi."
+          ],
+          "en": [
+            "Carmina Gadelica: Monumental collection of Scottish Gaelic oral prayers, blessings, and lore.",
+            "Caim (The Encircling): Protective circle traced sunwise around oneself with the right forefinger.",
+            "Deiseil (Sunwise Motion): Turning clockwise in harmony with the solar arc.",
+            "Smooring the Fire (Smàladh an Teine): Banking the hearth embers under ash for the night.",
+            "Beannachadh Taighe (House Blessing): Sealing threshold, hearth, and sleep in peace."
+          ],
+          "sv": [
+            "Carmina Gadelica: Den stora samlingen av skotsk-gaeliska muntliga böner och härdsånger.",
+            "Caim (Skyddscirkel): Osynlig gränscirkel som dras medsols med höger pekfinger.",
+            "Deiseil (Medsols): Rörelse i solens riktning som tecken på harmoni.",
+            "Smooring the Fire (Smàladh an Teine): Att täcka härdens glöd med aska inför natten.",
+            "Beannachadh Taighe (Husvälsignelse): Att försegla tröskel, härd och sömn i frid."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Gece Yatmadan Önce ‘Caim Çemberi’ ve ‘Koru Örtme’",
+            "steps": [
+              "Gece yatmadan önce odanın ortasında dur, sağ işaret parmağını uzat ve kendi etrafında saat yönünde (sağdan sola doğru) tam bir çember çizerek ‘Caim’ sınırını kur.",
+              "İçinden: ‘Günün gürültüsü bu çemberin dışında kalsın; bu çemberin içinde yalnızca dinlenme, berraklık ve huzur dursun’ de.",
+              "Odanın son ışığını kapatırken, içindeki yaşam enerjisini (korunu) sabaha kadar dinlenmek üzere sıcak bir külle örttüğünü hayal ederek yatağa geç."
+            ]
+          },
+          "en": {
+            "title": "Practice · Nightly 'Caim Circle' and 'Banking the Inner Ember'",
+            "steps": [
+              "Before going to sleep, stand quietly in your room, extend your right index finger, and trace a slow clockwise (Deiseil) circle around your body to set your Caim.",
+              "Speak inwardly: 'Let the noise of the day remain outside this circle; within this circle let quiet, clarity, and deep rest abide.'",
+              "As you switch off the final light, visualize banking your inner ember beneath warm, protective ash until morning."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Kvällens 'Caim-Cirkel' och att 'Täcka den Inre Glöden'",
+            "steps": [
+              "Stå stilla i rummet före sänggåendet, sträck ut höger pekfinger och dra långsamt en cirkel medsols (Deiseil) runt dig själv.",
+              "Säg tyst inom dig: 'Må dagens brus stanna utanför denna cirkel; här inne råder vila, klarhet och trygghet.'",
+              "När du släcker sista lampan, föreställ dig att du täcker din inre glöd med varm aska så att den vilar tryggt till gryningen."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Koru külle örten sabah ateşini hazır bulur; sınırını Caim ile çizen geceyi huzurla uyur.",
+          "en": "Whoever banks the ember finds a living fire at dawn; whoever draws the Caim sleeps in an unshakeable house.",
+          "sv": "Den som täcker glöden med aska finner levande eld i gryningen; den som drar sin Caim vilar tryggt genom natten."
+        }
+      },
+      {
+        "slug": "immram-mistik-deniz-yolculugu",
+        "glyph": "XIX",
+        "image": "/kelt/immram-mistik-deniz-yolculugu.jpg",
+        "title": {
+          "tr": "Immram: Batı Okyanusuna Mistik Deniz Yolculuğu",
+          "en": "Immram: The Mythic Sea-Voyage into the Western Ocean",
+          "sv": "Immram: Den Mytiska Sjöresan mot Västerhavet"
+        },
+        "subtitle": {
+          "tr": "Bran’ın Yolculuğu (Immram Brain), Kürekleri Bırakmak ve Bilinmeyene Güvenmek",
+          "en": "The Voyage of Bran (Immram Brain), Drawing In the Oars, and Navigating the Islands of the Mind",
+          "sv": "Brans Sjöresa (Immram Brain), Att Ta In Årorna och Sinnets Arketypiska Öar"
+        },
+        "summary": {
+          "tr": "İrlanda edebiyatındaki ‘Immram’ (Deniz Yolculuğu) anlatılarında kahraman bir yeri fethetmek için değil, Batı Okyanusu’ndaki gizemli adalarda kendi ruhunun halleriyle (Ağlayanlar Adası, Gülenler Adası, Kristal Sütun) yüzleşmek için yelken açar.",
+          "en": "In the Irish 'Immram' (Sea-Voyage) tales, mariners set sail into the Western Ocean not for conquest, but to encounter archetypal islands—the Island of Weeping, the Island of Joy, the Pillar of Silver—reflecting the states of the human soul.",
+          "sv": "I de forniriska 'Immram'-berättelserna (Sjöresorna) seglar sjöfararna ut på Västerhavet inte för erövring, utan för att möta arketypiska öar—Gråtens Ö, Glädjens Ö, Silverpelaren—som speglar själens egna tillstånd."
+        },
+        "paragraphs": {
+          "tr": [
+            "Eski İrlanda geleneğinde iki tür kutsal yolculuk anlatısı vardır: **Echtrae** (Öteki Dünya Macerası) ve **Immram** (harfiyen: ‘Kürek Çekmek / Denizde Yolculuk’ — örneğin *Immram Brain*, *Immram Curaig Maíle Dúin* ve *Navigatio Sancti Brendani*). Bir Immram’da gemi (*Curragh* — deri kaplı ahşap tekne), insan bilincinin uçsuz bucaksız okyanustaki kabuğudur.",
+            "Bu yolculukların en çarpıcı anı, gemicilerin bir noktada **kürekleri teknenin içine çekip dümeni rüzgara ve okyanus akıntısına teslim etmeleridir**. Çünkü Batı’daki Kutsal Adalar haritayla veya kas gücüyle zorla bulunamaz; yalnızca içsel hizalanmayla karşınıza çıkar.",
+            "*Immram Brain* ve *Máel Dúin* destanlarında gemiciler sırasıyla **Ağlayanlar Adası**, **Neşe/Gülenler Adası**, **Demirciler Adası**, **Denizin Ortasındaki Gümüş Sütun** ve **Kadınlar/Gençlik Adası** gibi arketipsel adalara uğrar. Her ada aslında insan zihninin bir duygusal tuzağı veya bilgelik durağıdır: Keder adasında inen kederde boğulur, sahte neşe adasında inen yolunu unutur; bilge yolcu ise her adayı görür ama hedefine ulaşana dek gemisinde kalır.",
+            "Immram bize hayat yolculuğunda ne zaman kürek çekeceğimizi (gayret), ne zaman kürekleri içeri alıp akışa güveneceğimizi (tevekkül) ve uğradığımız duygusal adalarda neden takılıp kalmamamız gerektiğini öğretir."
+          ],
+          "en": [
+            "Old Irish literature preserves a luminous genre of sacred voyage tales known as the **Immram** (literally 'Rowing About / Sea-Voyage'—including *Immram Brain*, *Immram Curaig Maíle Dúin*, and the *Navigatio Sancti Brendani*). In an Immram, the hide-covered boat (*Curragh*) is the vessel of human consciousness upon the vast ocean of existence.",
+            "A defining moment in these voyages occurs when the crew **draws the oars inside the boat and lets the wind and current steer the hull**. For the Blessed Isles of the West cannot be seized by brute calculation; they appear only when effort and surrender come into harmony.",
+            "Across *Immram Brain* and *Máel Dúin*, the voyagers pass a sequence of symbolic islands: the **Island of Weeping**, the **Island of Laughter**, the **Island of Smiths**, the **Silver Pillar in the Sea**, and the **Land of Women**. Each island represents an emotional state or spiritual test: whoever steps ashore on the Island of Grief or Indolence forgets the voyage, while the wise navigator observes each island and sails onward.",
+            "The Immram teaches the art of life-navigation: knowing when to row with discipline, when to ship the oars in trust, and how not to remain marooned on temporary islands of mood."
+          ],
+          "sv": [
+            "Den forniriska litteraturen rymmer en unik genre av heliga sjöresor kallad **Immram** (bokstavligen 'Att ro omkring / Sjöresa'—såsom *Immram Brain*, *Immram Curaig Maíle Dúin* och *Brendans sjöresa*). I en Immram är den skinnklädda båten (*Curragh*) en bild av människans medvetande på tillvarons hav.",
+            "Ett avgörande ögonblick i dessa berättelser inträffar när besättningen **tar in årorna i båten och låter vinden och strömmen föra farkosten**. De välsignade öarna i väster kan nämligen inte tvingas fram med blott muskelkraft, utan visar sig när ansträngning och tillit möts.",
+            "Under färden i *Immram Brain* och *Máel Dúin* passerar sjöfararna en rad symboliska öar: **Gråtens Ö**, **Skrattets Ö**, **Smedernas Ö** och **Silverpelaren i Havet**. Varje ö speglar ett känslotillstånd; den kloke sjöfararen iakttar varje ö och dess lärdom utan att bli kvar som fånge på stranden.",
+            "Immram lär oss livets seglingskonst: att veta när vi ska ro med kraft, när vi ska vila på årorna i tillit och hur vi undviker att kasta ankar vid tillfälliga sinnesstämningar."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Bran mac Febail ve Gümüş Elma Dalı",
+              "body": "*Immram Brain* destanında Bran’ı yolculuğa çağıran işaret, kristal çiçekler açmış gümüş bir elma dalının müziğidir; içsel çağrı her zaman bir güzellik ve özlem sesiyle başlar."
+            },
+            {
+              "heading": "Duygu Adalarında Takılıp Kalmamak",
+              "body": "Öfke, keder veya rehavet adalarının her biri geçici birer duraktır; yolcunun görevi adayı gözlemleyip yeniden açık denize açılmaktır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Bran mac Febail and the Silver Apple Branch",
+              "body": "In *Immram Brain*, Bran is summoned to the sea by the music of a silver branch bearing crystal blossoms—reminding us that the deepest quests begin with beauty and wonder."
+            },
+            {
+              "heading": "NotDropping Anchor on Temporary Islands",
+              "body": "Anger, sorrow, and complacency are passing islands along the route; the navigator acknowledges them without mistaking a stopover for home."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Bran mac Febail och Silverkvisten",
+              "body": "I *Immram Brain* kallas Bran ut på havet av klangen från en äppelkvist av silver med kristallblommor—varje stor inre resa börjar med förundran."
+            },
+            {
+              "heading": "Att Inte Kasta Ankar vid Tillfälliga Öar",
+              "body": "Vrede, sorg och bekvämlighet är öar vi passerar; sjöfararens konst är att lossa förtöjningen och segla vidare."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Immram (‘Denizde Kürek Çekmek’): İrlanda geleneğinde ruhun okyanustaki inisiyatik adalar yolculuğu.",
+            "Curragh (Deri Tekne): İnsanın bu dünyadaki bedenini ve iradesini temsil eden sade gemi.",
+            "Immram Brain & Máel Dúin: En ünlü antik İrlanda mistik deniz yolculuğu metinleri.",
+            "Kürekleri İçeri Almak: Aşırı kontrol hırsını bırakıp hayatın doğal akışına alan açma anı.",
+            "Arketipsel Adalar: Yolculuk boyunca karşılaşılan keder, öfke, rehavet ve bilgelik durakları."
+          ],
+          "en": [
+            "Immram ('Rowing About'): The Old Irish genre of initiatory sea-voyages across the Western Ocean.",
+            "Curragh (Hide Boat): The simple, resilient vessel symbolizing body and conscious attention.",
+            "Immram Brain & Máel Dúin: Classic Irish voyage narratives of the Otherworld islands.",
+            "Shipping the Oars: The threshold where anxious over-control yields to deeper alignment.",
+            "Archetypal Islands: Symbolic encounters with grief, anger, wonder, and stillness along the way."
+          ],
+          "sv": [
+            "Immram ('Sjöresa'): Forniriska berättelser om invigningsresor över Västerhavet.",
+            "Curragh (Skinnbåt): Den enkla men tåliga farkost som bär resenären över djupet.",
+            "Immram Brain & Máel Dúin: De klassiska irländska skildringarna av Andra Världens öar.",
+            "Att Ta In Årorna: Ögonblicket då krampaktig kontroll övergår i lyhörd tillit.",
+            "Arketypiska Öar: Möten med sorg, vrede, förundran och stillhet längs färden."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Hangi Adada Demir Attım?’ İçgörü Çalışması",
+            "steps": [
+              "Son bir aydır zihninin en çok vakit geçirdiği duyguyu bir ‘Ada’ olarak adlandır (örneğin ‘Endişe Adası’, ‘Erteleme Adası’, ‘Kırgınlık Adası’ veya ‘Üretim Adası’).",
+              "Kendine dürüstçe sor: ‘Bu ada benim nihai evim mi, yoksa sadece uğradığım geçici bir kıyı mı?’",
+              "Eğer seni oyalayan bir adaysa, içinden ‘Halatı çözüyor ve yeniden açık denize çıkıyorum’ diyerek derin bir nefesle dikkati bugünkü somut adımına çevir."
+            ]
+          },
+          "en": {
+            "title": "Practice · 'Upon Which Island Have I Dropped Anchor?' Reflection",
+            "steps": [
+              "Name the predominant mood or mental habit of your past month as an 'Island' (e.g., 'The Island of Worry', 'The Island of Delay', 'The Island of Old Grievance').",
+              "Ask yourself honestly: 'Is this island my true destination, or merely a passing shore where I have lingered too long?'",
+              "Inwardly untie the mooring rope, take a deep breath, and turn your bow back toward open water by taking one concrete action today."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Vid Vilken Ö Har Jag Kastat Ankar?'",
+            "steps": [
+              "Ge den sinnesstämning som dominerat din senaste månad namnet på en 'Ö' (till exempel 'Orons Ö', 'Uppskjutandets Ö' eller 'Det Gamla Aggets Ö').",
+              "Fråga dig själv ärligt: 'Är denna ö mitt sanna mål, eller bara en tillfällig kust där jag dröjt kvar för länge?'",
+              "Lossa mentalt förtöjningen med ett djupt andetag och styr ut mot öppet vatten genom en konkret handling i dag."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Her ada görülmesi gereken bir derstir; fakat gerçek denizci hiçbir geçici kıyıyı kendi vatanı sanmaz.",
+          "en": "Every island along the way holds a lesson; yet the true mariner never mistakes a passing shore for home.",
+          "sv": "Varje ö bär en lärdom, men den sanne sjöfararen förväxlar aldrig en tillfällig strand med sitt hem."
+        }
+      },
+      {
+        "slug": "brehon-yasalari-agac-haklari",
+        "glyph": "XX",
+        "image": "/kelt/brehon-yasalari-agac-haklari.jpg",
+        "title": {
+          "tr": "Brehon Yasaları ve ‘Críth Gablach’: Ağaçların Yasal Hakları",
+          "en": "The Brehon Laws and 'Airig Fedo': The Legal Rights of Trees",
+          "sv": "Brehonlagarna och 'Airig Fedo': Trädens Juridiska Rättigheter"
+        },
+        "subtitle": {
+          "tr": "8. Yüzyıl İrlanda Ağaç Yasası (*Bretha Comaithchesa*), 28 Ağaç Sınıfı ve Doğa Hukuku",
+          "en": "The 8th-Century Irish Tree Law (*Bretha Comaithchesa*), the 28 Tree Ranks, and Ecological Justice",
+          "sv": "700-talets Irländska Trädlag (*Bretha Comaithchesa*), De 28 Trädklasserna och Naturrätt"
+        },
+        "summary": {
+          "tr": "Kelt salonunun yirminci ve son kapısı, dünya hukuk tarihinin en ileri ekolojik metnine açılır: MS 8. yüzyılda yazıya geçirilen İrlanda **Brehon Yasaları** (*Bretha Comaithchesa*), Ogham ağaçlarını dört yasal sınıfa ayırmış ve meşe veya porsuk ağacına zarar verene bir soyluya zarar vermiş gibi ağır tazminat yüklemiştir.",
+          "en": "The twentieth and final door of the Celtic Hall opens to one of the most remarkable ecological documents in legal history: the 8th-century Irish **Brehon Laws** (*Bretha Comaithchesa*), which granted legal honor-price (*Dire*) to twenty-eight trees and shrubs.",
+          "sv": "Det tjugonde och sista rummet i den Keltiska hallen öppnar sig mot ett av rättshistoriens mest förunderliga ekologiska dokument: de irländska **Brehonlagarna** (*Bretha Comaithchesa*) från 700-talet, som gav tjugoåtta träd och buskar ett lagskyddat hederspris (*Dire*)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Antik Kelt toplumunda druidler ve hukukçular (**Brehon**’lar — Eski İrlandaca *Brithem*) tarafından yüzyıllarca sözlü olarak korunduktan sonra MS 7–8. yüzyıllarda parşömene aktarılan **Senchas Már** (Brehon Yasaları), doğayı sadece şiirde değil, **mahkeme salonunda da yasal hak sahibi bir özne** olarak tanımıştır.",
+            "Bu külliyatın içinde yer alan **Bretha Comaithchesa** (*Komşuluk Yargıları*) adlı yasa metni, İrlanda’daki 28 ağaç ve çalı türünü değerlerine göre dört sınıfa (yirmi Ogham ağacının hukuki karşılığına) ayırır. Birinci sınıf **‘Airig Fedo’**dur (Ormanın Soyluları / Başbuğları): **Meşe (*Dair*), Fındık (*Coll*), Çobanpüskülü (*Tinne*), Porsuk (*Ioho*), Dişbudak (*Nion*), Çam (*Ailm*) ve Yaban Elması (*Quert*)**.",
+            "Yasaya göre ‘Ormanın Soyluları’ndan (*Airig Fedo*) birini izinsiz kesen veya kabuğunu soyan kişi, bir kabile soylusunu yaralamış gibi **iki buçuk süt ineği (*bó*) değerinde ‘Onur Bedeli’ (*Dire*)** ödemek ve ayrıca ağaç tamamen iyileşene veya yerine yenisi yetişene kadar bakımını üstlenmek zorundaydı! İkinci sınıf ağaçlar **Aithig Fedo** (Ormanın Halkı — Kızılağaç, Söğüt, Alıç, Huş, Üvez), üçüncü sınıf **Fodla Fedo** (Alt Orman), dördüncü sınıf ise **Losa Fedo** (Çalılar — Böğürtlen, Eğrelti, Süpürgeotu) idi.",
+            "Kelt salonunun son dersi budur: Ruhsallık sadece gözünü kapatıp ormanı hayal etmek değildir; toprağın, ağacın, suyun ve komşunun hakkını somut bir adalet ve onurla (*Enech*) korumaktır."
+          ],
+          "en": [
+            "Preserved orally for centuries by Celtic jurists and druids (**Brehons** — Old Irish *Brithem*) before being committed to parchment in the 7th and 8th centuries CE, the **Senchas Már** (the Irish Brehon Law tracts) recognized living nature not merely in poetry, but **as a bearer of legal rights in court**.",
+            "Within the tract **Bretha Comaithchesa** (*Judgments of Neighborhood*), twenty-eight native trees and shrubs—mirroring the Ogham alphabet—are classified into four legal ranks. The highest rank is the **'Airig Fedo'** ('Nobles / Chieftains of the Wood'): **Oak (*Dair*), Hazel (*Coll*), Holly (*Tinne*), Yew (*Ioho*), Ash (*Nion*), Scots Pine (*Ailm*), and Wild Apple (*Quert*)**.",
+            "Under Brehon law, anyone who unlawfully felled or stripped bark from one of the 'Nobles of the Wood' had to pay an **honor-price (*Dire*) equivalent to two and a half milch cows**—the same legal structure used for injury to a human noble—and was further required to tend or replace the damaged tree until its canopy healed. Below the Nobles stood the **Aithig Fedo** ('Commoners of the Wood'—Alder, Willow, Hawthorn, Birch, Rowan), the **Fodla Fedo** ('Lower Divisions'), and the **Losa Fedo** ('Bushes'—Blackthorn, Bracken, Heather, Gorse).",
+            "Here is the culminating lesson of the Celtic Hall: reverence for nature is complete only when poetry becomes ethics, and ethics becomes concrete protection of the living earth."
+          ],
+          "sv": [
+            "Sedan de bevarats muntligt i århundraden av keltiska lagmän och druider (**Brehoner** — forniriska *Brithem*) nedtecknades **Senchas Már** (Brehonlagarna) på pergament under 600- och 700-talen. Här erkändes naturen inte bara i poesin, utan **som bärare av juridiska rättigheter i domstolen**.",
+            "I lagtexten **Bretha Comaithchesa** (*Grannskapsdomarna*) delas tjugoåtta inhemska träd och buskar—motsvarande Ogham-alfabetet—in i fyra samhällsklasser. Den högsta klassen är **'Airig Fedo'** ('Skogens Ädlingar / Hövdingar'): **Ek (*Dair*), Hassel (*Coll*), Järnek (*Tinne*), Idegran (*Ioho*), Ask (*Nion*), Tall (*Ailm*) och Vildapel (*Quert*)**.",
+            "Enligt lagen måste den som olovligen fällde eller skadade barken på en av 'Skogens Ädlingar' betala ett **hederspris (*Dire*) motsvarande två och en halv mjölkkor** och dessutom vårda eller ersätta trädet tills skadan läkts. Därefter följde **Aithig Fedo** ('Skogens Allmoge'—Al, Pil, Hagtorn, Björk, Rönn), **Fodla Fedo** ('Lägre Träd') och **Losa Fedo** ('Buskar'—Slån, Ormbunke, Ljung).",
+            "Detta är den Keltiska hallens sista lärdom: sann naturvördnad stannar inte vid drömmar, utan förvandlas till konkret rättvisa och ansvar för den levande jorden."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Airig Fedo: Ormanın Yedi Soylu Ağacı",
+              "body": "Meşe (palamudu ve kerestesi için), Fındık (besini ve bilgeliği için), Porsuk (uzun ömrü ve kap kacağı için) ve Elma (meyvesi için) yasada dokunulmaz bir onur derecesine (*Enech*) sahipti."
+            },
+            {
+              "heading": "Cezalandırma Değil, Onarım Hukuku (Restorative Justice)",
+              "body": "Brehon yasalarında amaç suçluyu zindana atmak değil; bozulan doğa veya toplum dengesini ‘Dire’ (onur tazminatı) ve yeniden dikimle onarmaktı."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Airig Fedo: The Seven Nobles of the Wood",
+              "body": "Oak (for its acorns and timber), Hazel (for its nuts and wattles), Yew (for its noble vessels), and Apple (for its fruit and bark) each carried a legally protected honor-price (*Enech*)."
+            },
+            {
+              "heading": "Restorative Rather Than Punitive Justice",
+              "body": "Brehon jurisprudence sought not vengeance, but restoration of the broken fabric of neighborhood and ecology through restitution (*Dire*) and replanting."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Airig Fedo: Skogens Sju Ädlingar",
+              "body": "Eken, Hasseln, Idegranen och Vildapeln bar var och en ett lagstadgat hedersvärde (*Enech*) i kraft av vad de gav åt både människor och djur."
+            },
+            {
+              "heading": "Återställande i Stället för Hämnd",
+              "body": "Brehonrätten syftade till att läka skadan i grannskapet och ekosystemet genom gottgörelse (*Dire*) och nyplantering."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Brehon Yasaları (Fénechas): Erken ortaçağ İrlanda’sının doğa ve toplum uyumuna dayalı kadim hukuk sistemi.",
+            "Bretha Comaithchesa: Ağaçların yasal haklarını ve zarar tazminatlarını düzenleyen 8. yüzyıl yasası.",
+            "Airig Fedo (Ormanın Soyluları): Meşe, Fındık, Porsuk, Dişbudak, Çam, Çobanpüskülü ve Elma.",
+            "Aithig Fedo (Ormanın Halkı): Kızılağaç, Söğüt, Huş, Karaağaç, Alıç ve Üvez.",
+            "Enech (‘Yüz / Onur’): Sadece insanların değil, kutsal ağaçların da sahip olduğu yasal saygınlık."
+          ],
+          "en": [
+            "Brehon Laws (Fénechas): Early medieval Irish legal corpus rooted in Druidic oral jurisprudence.",
+            "Bretha Comaithchesa: The 8th-century law tract codifying the legal rights and ranks of 28 trees.",
+            "Airig Fedo (Nobles of the Wood): Oak, Hazel, Holly, Yew, Ash, Pine, and Wild Apple.",
+            "Aithig Fedo (Commoners of the Wood): Alder, Willow, Birch, Elm, Hawthorn, and Rowan.",
+            "Enech ('Face / Honor-Price'): The legal dignity accorded to both human persons and noble trees."
+          ],
+          "sv": [
+            "Brehonlagarna (Fénechas): Fornirisk rättstradition med rötter i druidernas muntliga lagkunskap.",
+            "Bretha Comaithchesa: 700-talets lagtext som fastställer rättigheter och rang för 28 trädarter.",
+            "Airig Fedo (Skogens Ädlingar): Ek, Hassel, Järnek, Idegran, Ask, Tall och Vildapel.",
+            "Aithig Fedo (Skogens Allmoge): Al, Pil, Björk, Alm, Hagtorn och Rönn.",
+            "Enech ('Ansikte / Hederspris'): Den juridiska värdighet som tillerkändes både människor och ädla träd."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kendi ‘Brehon Sözleşmeni’ (Doğa Onarım Borcunu) İmzalamak",
+            "steps": [
+              "Bugüne kadar tükettiğin kağıtlar, ahşap eşyalar ve ısınma enerjisi karşılığında ‘Ormanın Soyluları’na (*Airig Fedo*) olan gerçek borcunu düşün.",
+              "Bu mevsim içinde kendi ellerinle toprağa en az bir fidan dikmeye veya güvenilir bir ağaçlandırma vakfına bir koruluk fidan bağışlamaya somut olarak söz ver.",
+              "Yaşadığın sokaktaki veya bahçedeki en yaşlı ağacı kendi ‘Airig Fedo’ (Orman Soylusu) komşun ilan et ve her geçişinde onu bir komşu gibi selamla."
+            ]
+          },
+          "en": {
+            "title": "Practice · Signing Your Own 'Brehon Covenant' (Ecological Restitution)",
+            "steps": [
+              "Reflect on the paper, timber, and shelter that the 'Nobles of the Wood' (*Airig Fedo*) have provided throughout your life.",
+              "Make a concrete vow this season either to plant a native tree with your own hands or to sponsor a grove of native saplings as your personal *Dire* (restitution).",
+              "Choose the oldest living tree on your street or local park, recognize it as an honored neighbor under Brehon law, and greet it whenever you pass."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Underteckna Ditt Eget 'Brehon-Förbund' med Skogen",
+            "steps": [
+              "Betänk allt det papper, virke och skydd som 'Skogens Ädlingar' (*Airig Fedo*) har gett dig genom livet.",
+              "Avge ett konkret löfte denna årstid att antingen plantera ett inhemskt träd med egna händer eller bekosta en dunge nya trädplantor som ditt eget *Dire* (återgäldande).",
+              "Välj ut det äldsta trädet på din gata eller i din närmaste park, betrakta det som en ärad granne enligt Brehonlagen och hälsa det när du går förbi."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Ağaca mahkemede bile onur hakkı tanıyan bir gelenek, insanın doğanın efendisi değil, yalnızca onun komşusu olduğunu unutmamıştır.",
+          "en": "A civilization that granted legal honor-price to an oak tree understood that humanity is not the master of the forest, but its neighbor.",
+          "sv": "En kultur som gav eken ett juridiskt hederspris i domstolen glömde aldrig att människan inte är skogens härskare, utan dess granne."
+        }
       }
     ]
   },
@@ -2100,9 +5394,9 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
       "sv": "Mesopotamien"
     },
     "line": {
-      "tr": "Sümer, Babil ve Anadolu Harran mirası: MUL.APIN yıldız katalogları, Abzu’nun suları, İnanna’nın yedi kapısı ve Elli İsim.",
-      "en": "The heritage of Sumer, Babylon, and Anatolian Harran: MUL.APIN star catalogues, the waters of Abzu, Inanna's Seven Gates, and the Fifty Names.",
-      "sv": "Arvet från Sumer, Babylon och anatoliska Harran: MUL.APIN-stjärnkataloger, Abzus vatten, Inannas sju portar och de Femtio Namnen."
+      "tr": "MUL.APIN ve Enûma Anu Enlil yıldız katalogları, Abzu’nun derin suları, Gılgamış, Yedi Apkallu bilgesi ve Şamaş’ın adaleti — yirmi müstakil çalışma odası.",
+      "en": "The MUL.APIN and Enûma Anu Enlil star catalogues, deep waters of the Abzu, Gilgamesh, the Seven Apkallu sages, and the justice of Shamash — twenty study rooms.",
+      "sv": "MUL.APIN och Enûma Anu Enlils stjärnkataloger, Abzus djupa vatten, Gilgamesh, de Sju Apkallu-vise och Shamashs rättvisa — tjugo studierum."
     },
     "backLabel": {
       "tr": "Mezopotamyaya dön",
@@ -3263,6 +6557,1510 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "en": "Enter Astrology Hall",
           "sv": "Gå till Astrologirummet"
         }
+      },
+      {
+        "slug": "enuma-elis-kozmik-duzen",
+        "glyph": "IX",
+        "image": "/mezopotamya/enuma-elis-kozmik-duzen.jpg",
+        "title": {
+          "tr": "Enûma Eliş: Kaostan Kozmosa ve ‘Adlandırma’ Yasası",
+          "en": "Enûma Eliš: From Chaos to Cosmos and the Law of Naming",
+          "sv": "Enûma Eliš: Från Kaos till Kosmos och 'Namngivandets' Lag"
+        },
+        "subtitle": {
+          "tr": "Yedi Kil Tablette Babil Yaratılış Destanı, Tiamat, Apsu ve Kader Tabletleri",
+          "en": "The Seven Tablets of the Babylonian Creation Epic, Tiamat, Apsu, and the Tablets of Destiny",
+          "sv": "Det Babyloniska Skapelseeposets Sju Lertavlor, Tiamat, Apsu och Ödestavlorna"
+        },
+        "summary": {
+          "tr": "Adını ilk kelimelerinden (‘Enûma Eliş’ — ‘Yukarıda Gök Henüz Adlandırılmadığında’) alan Babil yaratılış destanı, evrenin ham kaostan (Tiamat ve Apsu) ölçüye, takvime ve ‘Adlandırma’ (bilinç) yoluyla düzene geçişini anlatır.",
+          "en": "Named after its opening words ('Enûma Eliš' — 'When on High the Heaven Had Not Yet Been Named'), the Babylonian creation epic chronicles how raw chaos (Tiamat) is ordered into calendar, measure, and cosmos through conscious naming.",
+          "sv": "Uppkallat efter sina inledningsord ('Enûma Eliš' — 'När Himlen Därovan Ännu Inte Hade Fått Namn') skildrar det babyloniska skapelseeposet hur ursprungligt kaos (Tiamat) förvandlas till mått, kalender och kosmos genom medvetet namngivande."
+        },
+        "paragraphs": {
+          "tr": [
+            "Ninova’daki Asurbanipal Kütüphanesi’nde bulunan yedi kil tabletten oluşan **Enûma Eliş**, Mezopotamya kozmolojisinin temel taşıdır. Destan çarpıcı bir felsefi gözlemle başlar: *‘Yukarıda gökyüzü henüz adlandırılmadığında, aşağıda sağlam toprak henüz bir isimle çağrılmadığında...’* Mezopotamya düşüncesinde bir şeye ‘isim vermek’ (*šumu nabû*), onu belirsizliğin kaosundan çıkarıp bilinçli düzene sokmaktır.",
+            "Başlangıçta yalnızca tatlı yeraltı suları (**Apsu**) ile tuzlu okyanus suları (**Tiamat**) birbirine karışmış halde durmaktadır. Daha sonra doğan genç tanrılar (hareket, ses ve bilinç) gürültü çıkarınca, ilkel kaos (Tiamat) ile kozmik düzen (**Marduk**) karşı karşıya gelir.",
+            "Marduk, dört rüzgarı ve fırtına ağını kullanarak Tiamat’ın kaosunu yatıştırır; onun gövdesinin bir yarısından gök kubbeyi, diğer yarısından yeryüzünü kurar; Dicle ve Fırat nehirlerini onun gözlerinden akıtır ve gökyüzüne 360 günü yöneten takımyıldız konaklarını (*Manzāzu*) yerleştirir. Göğsüne ise evrenin yasalarını tutan **Kader Tabletleri**’ni (*Ṭuppi Šīmāti*) mühürler.",
+            "Enûma Eliş’in içsel dersi açıktır: İnsan kendi içindeki dağınık korkuyu ve kaosu (Tiamat) doğru adlandırdığında, takvimini ve sınırlarını kurduğunda kaos düşman olmaktan çıkar; üzerinde yaşayacağı sağlam bir dünyaya dönüşür."
+          ],
+          "en": [
+            "Preserved on seven clay tablets unearthed in the Library of Ashurbanipal at Nineveh, **Enûma Eliš** is the cornerstone of Mesopotamian cosmology. It opens with a profound philosophical premise: *'When on high the heaven had not yet been named, and firm ground below had not yet been called by name...'* In Babylonian thought, to 'name' (*šumu nabû*) a reality is to call it forth from formless potential into intelligible order.",
+            "In the beginning, only the sweet subterranean waters (**Apsu**) and the salt ocean (**Tiamat**) mingled in silence. When the younger gods of motion and speech arose, primordial chaos (Tiamat) and cosmic order (**Marduk**) met in decisive confrontation.",
+            "Harnessing the four winds, Marduk stills Tiamat's tempest, fashions the vault of sky and the foundation of earth from her form, sets the Tigris and Euphrates flowing, and establishes the constellations (*Manzāzu*) to govern the 360-day year—sealing the **Tablets of Destiny** (*Ṭuppi Šīmāti*) upon his breast.",
+            "In personal practice, Enûma Eliš teaches that unformed anxiety (Tiamat) ceases to overwhelm us the moment we name it clearly, establish measure, and give our days a conscious rhythm."
+          ],
+          "sv": [
+            "Bevarat på sju lertavlor ur Assurbanipals bibliotek i Nineve utgör **Enûma Eliš** hörnstenen i mesopotamisk kosmologi. Eposet börjar med en djup filosofisk insikt: *'När himlen därovan ännu inte hade fått namn, och den fasta jorden därnere ännu inte kallats vid namn...'* I babyloniskt tänkande innebär att 'ge namn' (*šumu nabû*) att lyfta något ur formlöshet till begriplig ordning.",
+            "I begynnelsen blandades endast det söta grundvattnet (**Apsu**) och det salta urhavet (**Tiamat**) i tystnad. När de yngre gudarna för rörelse och röst trädde fram ställdes urkaoset (Tiamat) mot den kosmiska ordningen (**Marduk**).",
+            "Med de fyra vindarnas hjälp stillar Marduk stormen, formar himlavalv och jord, låter Eufrat och Tigris strömma och fastställer stjärnbildernas stationer (*Manzāzu*) för att mäta året—medan han fäster **Ödestavlorna** (*Ṭuppi Šīmāti*) vid sitt bröst.",
+            "För det inre arbetet lär Enûma Eliš att en obestämd oro (Tiamat) förlorar sin makt i samma stund som vi ger den ett ärligt namn, ett mått och en konkret ordning."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Adlandırılmamış Olan Kaostur: Sözün Kozmolojisi",
+              "body": "Sümer ve Babil’de bir duyguyu, korkuyu veya amacı doğru kelimelerle adlandırmak, onun üzerindeki ilk egemenlik adımıdır."
+            },
+            {
+              "heading": "Ṭuppi Šīmāti: Göğüsteki Kader Tabletleri",
+              "body": "Kader Tabletleri keyfi bir zorbalık aracı değil; yıldızların, mevsimlerin ve toplumsal adaletin birbirine bağlı olduğu kozmik anayasadır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "What Is Unnamed Remains Chaos: The Cosmology of the Word",
+              "body": "In Sumerian and Akkadian thought, accurately naming an emotion, fear, or aim is the first act of bringing it into order."
+            },
+            {
+              "heading": "Ṭuppi Šīmāti: The Tablets of Destiny",
+              "body": "The Tablets of Destiny represent not blind fatalism, but the cosmic constitution binding stars, seasons, and ethical order."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Det Onämnda Förblir Kaos: Ordets Kosmologi",
+              "body": "I sumerisk och akkadisk tradition är det första steget mot klarhet alltid att nämna en fruktan eller en uppgift vid dess rätta namn."
+            },
+            {
+              "heading": "Ṭuppi Šīmāti: Ödestavlorna vid Bröstet",
+              "body": "Ödestavlorna symboliserar världsalltets lagbundenhet där stjärnor, årstider och mänskligt ansvar hänger samman."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Enûma Eliş (‘Yukarıda Henüz...’): Yedi kil tabletten oluşan Babil yaratılış ve kozmik düzen destanı.",
+            "Apsu & Tiamat: Başlangıçtaki tatlı yeraltı suları ve tuzlu ilkel okyanus (form öncesi potansiyel).",
+            "Marduk: Kaosu ölçüye, takvime ve mimariye dönüştüren kozmik irade.",
+            "Ṭuppi Šīmāti (Kader Tabletleri): Evrenin işleyiş yasalarını taşıyan kutsal kil mühür.",
+            "Manzāzu (Yıldız Konakları): Zamanı ölçmek için gök kubbeye yerleştirilen takımyıldız durakları."
+          ],
+          "en": [
+            "Enûma Eliš ('When on High...'): The seven-tablet Babylonian epic of creation and cosmic order.",
+            "Apsu & Tiamat: Primordial sweet groundwater and salt ocean mingling before form.",
+            "Marduk: The ordering intelligence that establishes calendar, measure, and horizon.",
+            "Ṭuppi Šīmāti (Tablets of Destiny): The clay seals of cosmic law worn over the chest.",
+            "Manzāzu (Star-Stations): The constellations set in the sky to measure the year."
+          ],
+          "sv": [
+            "Enûma Eliš ('När Därovan...'): Det babyloniska skapelseeposet på sju kilskriftstavlor.",
+            "Apsu & Tiamat: Ursprungligt sötvatten och salt urhav före formens skapelse.",
+            "Marduk: Den ordnande kraft som skapar mått, kalender och horisont.",
+            "Ṭuppi Šīmāti (Ödestavlorna): De heliga lertavlorna för kosmisk lag.",
+            "Manzāzu (Stjärnstationer): Stjärnbildernas fasta platser som mäter tidens gång."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · İçindeki Kaosu ‘Adlandırarak’ Düzene Sokma",
+            "steps": [
+              "Zihnini bunaltan, adını koyamadığın belirsiz bir stresi veya karmaşayı düşün (içindeki şekilsiz Tiamat dalgası).",
+              "Bir kağıt al ve bu karmaşayı tam olarak **üç somut maddeye** bölerek adlandır (‘1. Şu karar bekliyor, 2. Şu konuşma yapılacak, 3. Şu hesap kapatılacak’).",
+              "Belirsiz bulutun somut bir listeye dönüştüğü anda zihninin nasıl sakinleştiğini gözlemle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Ordering Inner Chaos Through 'Precise Naming'",
+            "steps": [
+              "Bring to mind a vague, overwhelming feeling of stress or disorder currently clouding your attention.",
+              "Take a sheet of paper and divide that amorphous cloud into **three konkret, named tasks** ('1. Decide X, 2. Speak to Y, 3. Complete Z').",
+              "Notice how the nervous system settles the instant formless anxiety is given a clear name and measure."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Ordna Inre Kaos Genom 'Exakt Namngivande'",
+            "steps": [
+              "Tänk på en vag, överväldigande känsla av stress eller oreda som tynger dina tankar just nu.",
+              "Ta ett papper och dela upp detta obestämda moln i **tre konkreta, namngivna punkter** ('1. Besluta X, 2. Tala med Y, 3. Avsluta Z').",
+              "Lägg märke till hur sinnet stillnar i samma ögonblick som det formlösa får namn och mått."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Adlandırılmamış korku okyanus kadar büyür; adı konmuş ve ölçülmüş sorun ise üzerinden geçilen bir köprü olur.",
+          "en": "Unnamed fear swells like an ocean; once named and measured, it becomes solid ground beneath your feet.",
+          "sv": "Onämnd fruktan växer som ett urhav; när den får namn och mått blir den fast mark under fötterna."
+        }
+      },
+      {
+        "slug": "asipu-ve-asu-iki-sifaci",
+        "glyph": "X",
+        "image": "/mezopotamya/asipu-ve-asu-iki-sifaci.jpg",
+        "title": {
+          "tr": "Āšipu ve Asû: Babil’de Bütünsel Şifanın İki Sütunu",
+          "en": "Āšipu and Asû: The Two Pillars of Wholeness in Babylon",
+          "sv": "Āšipu och Asû: Läkekonstens Två Pelare i Babylon"
+        },
+        "subtitle": {
+          "tr": "Klinik Hekim (Asû) ile Ruhsal/Çevresel Uzman (Āšipu) Arasındaki Tarihsel İşbirliği",
+          "en": "The Historical Partnership Between the Empirical Physician (Asû) and the Spiritual Counselor (Āšipu)",
+          "sv": "Det Historiska Samarbetet Mellan den Empiriske Läkaren (Asû) och Själavårdaren (Āšipu)"
+        },
+        "summary": {
+          "tr": "Antik Mezopotamya tıbbında şifa iki ayrı uzmanın omuz omuza çalışmasıyla yürütülürdü: Bitkisel merhem, sargı ve cerrahi uygulayan **Asû** (Hekim) ile hastanın korkusunu, vicdanını ve ev ortamını onaran **Āšipu** (Ruhsal Danışman).",
+          "en": "In ancient Mesopotamian medicine, healing rested upon the collaboration of two distinct specialists: the **Asû** (empirical physician of bandages, salves, and herbs) and the **Āšipu** (counselor of conscience, environment, and spiritual equilibrium).",
+          "sv": "I det forntida Mesopotamien vilade läkekonsten på samarbetet mellan två specialister: **Asû** (den praktiske läkaren med förband och örtsalvor) och **Āšipu** (rådgivaren för samvete, livsmiljö och inre balans)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Çivi yazılı tıp arşivleri (özellikle Ninova ve Asur’da bulunan yüzlerce tanı ve reçete tableti), Mezopotamya’da hastalıkların tek boyutlu görülmediğini kanıtlar. Bir kişi hastalandığında başucuna birbiriyle kavga etmeyen, aksine birbirini tamamlayan iki uzman gelirdi: **Asû** ve **Āšipu** (*Mašmaššu*).",
+            "**Asû**, ampirik tıp hekimiydi: Yaraları susam yağı, bal, sedir reçinesi ve şarapla temizler; kırıkları sarar; bitkisel infüzyonlar hazırlar ve neşter kullanırdı. **Āšipu** ise *Sakikkû* (*Teşhis El Kitabı*) tabletlerini okuyan çevresel ve psikolojik/ruhsal uzmandı: Hastanın ailesiyle küslüğü olup olmadığını, bir yemini bozup bozmadığını, evinin havasını ve uykusunu inceler; telkin ve arınma ritüelleriyle hastanın moral gücünü ayağa kaldırırdı.",
+            "Babil kil tabletlerinde en etkileyici detay, Asû ile Āšipu’nun aynı reçete tabletinde yan yana yer almasıdır: Fiziksel bedeni Asû’nun ilacı iyileştirirken, hastanın iyileşme iradesini ve iç huzurunu Āšipu’nun sözü desteklerdi.",
+            "⚠️ Tıbbi Uyarı: Antik Mezopotamya’nın ‘Asû ve Āšipu’ işbirliği bize bugün bile **fiziksel hastalıkta önce modern tıp hekimine (günümüzün Asû’suna) başvurmanın temel şart olduğunu**, ruhsal ve meditatif çalışmaların ise yalnızca tıbbi tedavinin yanında moral ve iç huzur desteği sunabileceğini öğretir."
+          ],
+          "en": [
+            "Cuneiform medical archives from Nineveh and Assur reveal that Mesopotamian society never reduced human illness to a single dimension. When sickness struck, two complementary specialists worked side by side without rivalry: the **Asû** and the **Āšipu** (*Mašmaššu*).",
+            "The **Asû** was the clinical practitioner: dressing wounds with sesame oil, honey, and cedar resin, setting fractures, and administering botanical remedies. The **Āšipu**, trained in the forty-tablet diagnostic corpus *Sakikkû*, examined the patient's relational, ethical, and psychological landscape—asking whether an oath had been broken, whether family strife lingered, and restoring morale through symbolic reconciliation.",
+            "Remarkably, cuneiform tablets frequently record the prescriptions of the Asû and the liturgy of the Āšipu side by side: while the Asû treated the physical tissue, the Āšipu steadied the patient's mind and household.",
+            "⚠️ Medical Disclaimer: The Babylonian partnership of Asû and Āšipu reminds us that **physical or psychological illness must always be entrusted first to modern medical physicians (today's Asû)**, while contemplative practices serve only as supportive encouragement for peace of mind."
+          ],
+          "sv": [
+            "Kilskriftsarkiven från Nineve och Assur visar att man i Mesopotamien aldrig såg människan som enbart en mekanisk kropp. Vid sjukdom samarbetade två yrkesgrupper sida vid sida: **Asû** och **Āšipu** (*Mašmaššu*).",
+            "**Asû** var den kliniske läkaren: han tvättade sår med sesamolja, honung och cederharts, spjälade benbrott och beredde växtmediciner. **Āšipu**, skolad i det fyrtio tavlor stora verket *Sakikkû*, undersökte patientens livssituation, relationer och samvete för att återställa hopp och sinnesro.",
+            "På lertavlorna står ofta Asûs medicinska ordinationer sida vid sida med Āšipus samtal: medan Asû läkte den fysiska vävnaden, stärkte Āšipu livsviljan.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Det babyloniska samarbetet mellan Asû och Āšipu påminner oss om att **sjukdom alltid i första hand ska behandlas av modern legitimerad läkarvård (vår tids Asû)**, medan kontemplativa praktiker endast utgör ett stöd för inre ro."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Sakikkû: 40 Tabletlik Babil Teşhis Külliyatı",
+              "body": "MÖ 11. yüzyılda bilge Esagil-kin-apli tarafından derlenen *Sakikkû* serisi, hastayı tepeden tırnağa gözlemleyen sistematik bir klinik ve bütünsel kayıt sistemidir."
+            },
+            {
+              "heading": "Neden İki Uzman? Beden ve Zihin Bütünlüğü",
+              "body": "Babil bilgesi biliyordu ki kırık bir kemiği sadece dua kaynatmaz (sargı gerekir); ama vicdan azabı ve korku içindeki bir hastaya da sadece merhem yetmez (içsel barış gerekir)."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Sakikkû: The 40-Tablet Babylonian Diagnostic Handbook",
+              "body": "Compiled in the 11th century BCE by the scholar Esagil-kin-apli of Borsippa, *Sakikkû* organized systematic head-to-foot observation alongside environmental context."
+            },
+            {
+              "heading": "Why Two Specialists? Honoring Both Tissue and Conscience",
+              "body": "Babylonian wisdom recognized that a broken bone requires a splint, not merely a prayer—yet a troubled heart requires reconciliation alongside medicine."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Sakikkû: Den Babyloniska Handboken på 40 Tavlor",
+              "body": "Sammanställd på 1000-talet f.Kr. av den lärde Esagil-kin-apli utgör *Sakikkû* en systematisk observation av människan från hjässa till fot."
+            },
+            {
+              "heading": "Varför Två Specialister? Kropp och Samvete i Samklang",
+              "body": "Babylonisk visdom visste att ett brutet ben kräver spjäla och inte bara bön, men att ett tyngt hjärta också behöver försoning."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Asû (Klinik Hekim): Bitkisel droglar, bal, susam yağı, sargı ve fiziksel tedavi uzmanı.",
+            "Āšipu / Mašmaššu (Bütünsel Danışman): Moral, etik barışma, nefes ve mekan arındırma uzmanı.",
+            "Sakikkû (Teşhis Serisi): Esagil-kin-apli’nin derlediği 40 tabletlik Babil gözlem külliyatı.",
+            "Gula / Ninkarrak: Köpeğiyle birlikte betimlenen Mezopotamya şifa ve hekimlik tanrıçası.",
+            "⚠️ Tıbbi Uyarı: Her türlü sağlık sorununda öncelik daima modern tıp hekimlerinindir (Asû); ruhsal çalışmalar yalnız destekleyicidir."
+          ],
+          "en": [
+            "Asû (Empirical Physician): Specialist in physical remedies, wound care, honey, sesame oil, and bandages.",
+            "Āšipu / Mašmaššu (Holistic Counselor): Specialist in morale, ethical reconciliation, and household harmony.",
+            "Sakikkû (Diagnostic Corpus): The 40-tablet observation handbook compiled by Esagil-kin-apli.",
+            "Gula / Ninkarrak: Mesopotamian goddess of healing and physicians, accompanied by her sacred dog.",
+            "⚠️ Medical Disclaimer: Always consult licensed medical doctors (the modern Asû) for any health condition."
+          ],
+          "sv": [
+            "Asû (Empirisk Läkare): Specialist på fysisk sårvård, förband, honung, sesamolja och läkeväxter.",
+            "Āšipu / Mašmaššu (Helhetsrådgivare): Specialist på livsmod, försoning och hemmets harmoni.",
+            "Sakikkû (Diagnostisk Serie): Esagil-kin-aplis verk i 40 lertavlor.",
+            "Gula / Ninkarrak: Mesopotamiens läkegudinna, avbildad med sin trogna hund.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Vänd dig alltid i första hand till modern sjukvård (vår tids Asû) vid ohälsa."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Asû ve Āšipu’ Çift Kanatlı Öz-Bakım Kontrolü",
+            "steps": [
+              "Kendini yorgun veya rahatsız hissettiğinde durumu iki sütunda değerlendir: **1. Asû Sütunu (Fiziksel):** ‘Doktor kontrolümü yaptırdım mı, suyumu içtim mi, uykumu aldım mı?’",
+              "**2. Āšipu Sütunu (Ruhsal/Etik):** ‘İçimde tuttuğum bir kırgınlık, bozduğum bir söz veya odamda temizlenmemiş bir dağınıklık var mı?’",
+              "Fiziksel ihtiyacı fiziksel araçla (tıp ve dinlenme), ruhsal ihtiyacı ise içsel dürüstlükle karşılayarak iki kanadı dengede tut."
+            ]
+          },
+          "en": {
+            "title": "Practice · The Two-Column 'Asû and Āšipu' Self-Care Check",
+            "steps": [
+              "When you feel depleted, draw two columns on paper: **1. The Asû Column (Physical):** 'Have I consulted my physician, slept enough, hydrated, and nourished my body?'",
+              "**2. The Āšipu Column (Inner/Relational):** 'Am I carrying an unspoken resentment, an unkept promise, or a cluttered living space?'",
+              "Give physical needs physical care (modern medicine and rest), and give inner burdens honest resolution."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Asû och Āšipu'-Kontroll i Två Spalter",
+            "steps": [
+              "När du känner dig utmattad, rita två spalter på ett papper: **1. Asû-spalten (Fysiskt):** 'Har jag sökt läkare, sovit ordentligt och druckit vatten?'",
+              "**2. Āšipu-spalten (Inre/Etiskt):** 'Bär jag på ett outtalat agg, ett obrutet löfte eller oreda i mitt hem?'",
+              "Möt fysiska behov med medicinsk omsorg och vila, och möt inre tyngd med ärlig försoning."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Yarayı saran hekimin eli (Asû) ile kalbi ferahlatan bilgenin sözü (Āšipu) birleştiğinde şifa tamamlanır.",
+          "en": "When the physician's hand (Asû) tends the body and the counselor's word (Āšipu) quiets the heart, wholeness is restored.",
+          "sv": "När läkarens hand (Asû) vårdar kroppen och rådgivarens ord (Āšipu) ger hjärtat frid möts de två vingarna."
+        }
+      },
+      {
+        "slug": "gilgamis-olumsuzluk-ve-bilgelik",
+        "glyph": "XI",
+        "image": "/mezopotamya/gilgamis-olumsuzluk-ve-bilgelik.jpg",
+        "title": {
+          "tr": "Gılgamış Destanı: Dostluk, Yas ve Gerçek Ölümsüzlük",
+          "en": "The Epic of Gilgamesh: Friendship, Grief, and True Immortality",
+          "sv": "Gilgamesheposet: Vänskap, Sorg och Sann Odödlighet"
+        },
+        "subtitle": {
+          "tr": "Sîn-lēqi-unninni’nin On İki Tableti, Enkidu, Siduri’nin Öğüdü ve Deniz Dibindeki Ot",
+          "en": "The Twelve Tablets of Sîn-lēqi-unninni, Enkidu, the Counsel of Siduri, and the Walls of Uruk",
+          "sv": "Sîn-lēqi-unninnis Tolv Lertavlor, Enkidu, Siduris Råd och Uruks Murar"
+        },
+        "summary": {
+          "tr": "İnsanlık tarihinin en eski büyük edebi şaheseri olan Gılgamış Destanı (*Ša naqba īmuru* — ‘Derinliği Gören O Kişi’), bedensel ölümsüzlük peşinde koşan bir kralın sonunda ‘gerçek ölümsüzlüğün iyi yaşanmış bir hayat ve geride bırakılan sağlam eser’ olduğunu anlamasını anlatır.",
+          "en": "Humanity's oldest literary masterpiece (*Ša naqba īmuru* — 'He Who Saw the Deep') follows a restless king who seeks physical immortality across the waters of death, only to discover that true immortality lies in friendship, present joy, and enduring work.",
+          "sv": "Mänsklighetens äldsta litterära mästerverk (*Ša naqba īmuru* — 'Han som såg djupet') skildrar hur en rastlös kung söker evigt kroppsligt liv, men till slut inser att sann odödlighet bor i vänskap, närvaro och det bestående verk vi lämnar efter oss."
+        },
+        "paragraphs": {
+          "tr": [
+            "Standart Babil versiyonu MÖ 12. yüzyılda usta yazman **Sîn-lēqi-unninni** tarafından on iki kil tablete düzenlenen **Gılgamış Destanı**, ilk satırında kahramanını şöyle tanıtır: *‘Ša naqba īmuru’* — **‘Derinliği (Nagbu / Abzu’yu) gören, gizli olanı öğrenen kişi.’** Uruk Kralı Gılgamış üçte iki tanrı, üçte bir insandır; ancak başlangıçta kibirli ve huzursuzdur.",
+            "Tanrılar onun kibrini dengelemek için bozkırda hayvanlarla yaşayan yabanıl insan **Enkidu**’yu yaratır. Gılgamış ile Enkidu önce güreşir, birbirlerinin gücüne saygı duyar ve ayrılmaz iki dost olurlar. Ancak Enkidu’nun ölümüyle Gılgamış ilk kez **ölüm korkusu ve derin yasla** sarsılır; dostunun başucunda yedi gün yedi gece ağladıktan sonra ölümsüzlüğün sırrını bulmak üzere dünyanın ucundaki tufan bilgesi **Utnapiştim**’e doğru yola çıkar.",
+            "Yolculuk sırasında okyanus kıyısındaki bilge meyhaneci kadın **Siduri**, Gılgamış’a dünya edebiyatının en bilge öğütlerinden birini verir: *‘Gılgamış, nereye koşuyorsun? Aradığın sonsuz yaşamı bulamayacaksın. Sen karnını doyur, gece gündüz sevin, giysilerin temiz olsun, başını yıka, elini tutan küçük çocuğa bak ve eşin senin koynunda mutlu olsun; çünkü insanlığın payı budur.’*",
+            "Gılgamış denizin dibinden ‘Yaşlıyı Gençleştiren Dikenli Ot’u çıkarsa da, bir su başında yıkanırken bir yılan otu kapıp derisini değiştirerek uzaklaşır. Gılgamış Uruk’a eli boş dönmez: Şehrin sağlam pişmiş tuğladan surlarına bakar ve **insanın gerçek ölümsüzlüğünün dostluk, şimdiki anın hakkını vermek ve gelecek kuşaklara sağlam bir eser (duvar ve söz) bırakmak olduğunu** idrak eder."
+          ],
+          "en": [
+            "Standardized on twelve clay tablets in the 12th century BCE by the master scribe **Sîn-lēqi-unninni**, the **Epic of Gilgamesh** opens with its ancient title: *'Ša naqba īmuru'* — **'He who saw the Deep (the Nagbu / Abzu), who learned what was hidden.'** Gilgamesh, King of Uruk, begins his reign arrogant and restless.",
+            "To balance him, the gods fashion **Enkidu**, a wild man raised among the gazelles of the steppe. After wrestling at the threshold, Gilgamesh and Enkidu become inseparable brothers. When Enkidu dies, Gilgamesh is shattered by grief and terror of mortality, setting out across the Waters of Death to question the flood-survivor **Utnapishtim**.",
+            "By the shore of the cosmic sea, the wise tavern-keeper **Siduri** offers Gilgamesh timeless counsel: *'Gilgamesh, whither do you rove? The endless life you seek you shall not find. Let your belly be full, rejoice day and night, let your garments be fresh, wash your head, cherish the little child that holds your hand, and let your spouse rejoice in your embrace—for this is the lot of humankind.'*",
+            "Though Gilgamesh retrieves the thorny plant of rejuvenation from the sea floor, a serpent sheds its skin and carries the plant away while he bathes in a cool pool. Returning to Uruk, Gilgamesh beholds the baked-brick walls of his city and awakens to wisdom: **human immortality is not endless biological survival, but love, conscious living, and the enduring work we leave for those who come after.**"
+          ],
+          "sv": [
+            "Sammanställt på tolv lertavlor under 1100-talet f.Kr. av skrivarmästaren **Sîn-lēqi-unninni** inleds **Gilgamesheposet** med sin ursprungliga titel: *'Ša naqba īmuru'* — **'Han som såg Djupet (Nagbu / Abzu).'**",
+            "För att balansera den övermodige kungen Gilgamesh i Uruk skapar gudarna **Enkidu**, som vuxit upp bland stäppens vilda djur. Efter en tvekamp blir Gilgamesh och Enkidu oskiljaktiga vänner. När Enkidu dör skakas Gilgamesh av sorg och ger sig ut över Dödens Vatten för att finna den odödlige **Utnapishtim**.",
+            "Vid världshavets kust ger den visa värdshusvärdinnan **Siduri** honom ett av världslitteraturens mest tidlösa råd: *'Gilgamesh, vart ilar du? Det eviga liv du söker finner du ej. Låt dina kläder vara rena, tvätta ditt huvud i vatten, gläds åt barnet som håller din hand och låt din livskamrat glädjas i din famn—ty detta är människans lott.'*",
+            "Även om Gilgamesh hämtar föryngringens taggiga ört från havsbottnen stjäl en orm örten medan han badar i en källa. När han återvänder till Uruk och ser stadens murar av bränt tegel mognar hans insikt: **människans odödlighet ligger i kärleken, det levda ögonblicket och det hållbara verk hon bygger åt kommande släkten.**"
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Enkidu: Uygar İnsan ile Yabanıl Doğanın Kardeşliği",
+              "body": "Şehirli kral Gılgamış ile bozkırın çocuğu Enkidu’nun dostluğu, insanın ancak kendi doğal/yabanıl yanıyla barıştığında tam bir insan olabileceğini gösterir."
+            },
+            {
+              "heading": "Siduri’nin Öğüdü ve Uruk’un Surları",
+              "body": "Yılanın gençlik otunu alması bir yenilgi değil, Gılgamış’ın çocuksu ölümsüzlük fantezisinden uyanıp Uruk’un gerçek inşacısı ve bilgesi haline gelmesidir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Enkidu: The Kinship of City and Wilderness",
+              "body": "The bond between urban king Gilgamesh and steppe-born Enkidu reveals that human wholeness requires befriending our untamed natural depth."
+            },
+            {
+              "heading": "Siduri's Counsel and the Baked Bricks of Uruk",
+              "body": "Losing the thorny plant to the serpent frees Gilgamesh from adolescent fantasy, returning him to Uruk as a mature builder and recorder of wisdom."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Enkidu: Förbundet Mellan Stad och Vildmark",
+              "body": "Vänskapen mellan stadskungen Gilgamesh och stäppens son Enkidu visar att människan blir hel först när kultur och natur möts."
+            },
+            {
+              "heading": "Siduris Råd och Uruks Tegelmurar",
+              "body": "När ormen tar örten befrias Gilgamesh från sin illusion och återvänder som en vis byggmästare."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Ša naqba īmuru (‘Derinliği Gören’): Gılgamış Destanı’nın Babilce orijinal adı.",
+            "Gılgamış & Enkidu: Kültür (Uruk) ile Doğa (Bozkır) arasındaki dönüştürücü dostluk.",
+            "Siduri (Kıyıdaki Bilge Kadın): İnsana şimdiki hayatın, temizliğin ve ailenin kıymetini hatırlatan ses.",
+            "Utnapiştim (Ziusudra): Tufandan sağ çıkan ve Gılgamış’a uyanıklık sınavı veren kadim bilge.",
+            "Uruk Surları: Fiziksel ölümsüzlük yerine topluma bırakılan kalıcı eser ve adalet."
+          ],
+          "en": [
+            "Ša naqba īmuru ('He Who Saw the Deep'): The original Akkadian title of the Epic of Gilgamesh.",
+            "Gilgamesh & Enkidu: The transformative brotherhood of civilization and wild nature.",
+            "Siduri (Keeper at the Shore): The voice of grounded wisdom honoring daily life and love.",
+            "Utnapishtim (Ziusudra): The sage beyond the Waters of Death who tests Gilgamesh with wakefulness.",
+            "The Walls of Uruk: Enduring craftsmanship and service left for future generations."
+          ],
+          "sv": [
+            "Ša naqba īmuru ('Han som såg djupet'): Gilgamesheposets akkadiska originaltitel.",
+            "Gilgamesh & Enkidu: Det förvandlande brödraskapet mellan kultur och vild natur.",
+            "Siduri (Kustens Visa Kvinna): Rösten som påminner om vardagens, renhetens och närhetens värde.",
+            "Utnapishtim (Ziusudra): Den vise bortom Dödens Vatten som prövar Gilgameshs vaksamhet.",
+            "Uruks Murar: Det bestående verk och den rättvisa som överlever människan."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Siduri’nin Öğüdü’ ve Kendi Uruk Duvarını Tefekkür",
+            "steps": [
+              "Bugün henüz sahip olmadığın uzak hedefler yüzünden elindeki anı ertelediğini fark ettiğinde dur ve Siduri’nin dört basit sorusunu kendine sor: ‘Bugün temiz suyumu içtim mi, üstümü başımı özenle giydim mi, sevdiklerimin yüzüne gerçekten baktım mı?’",
+              "Ardından kendine sor: ‘Benden sonra bu dünyada kalacak olan sağlam tuğlam (Uruk duvarım / iyi izim) nedir?’",
+              "Bugün o kalıcı esere veya bir insanın hayatına tek bir sağlam tuğla koy."
+            ]
+          },
+          "en": {
+            "title": "Practice · 'Siduri's Counsel' and Laying One Brick of Your Uruk Wall",
+            "steps": [
+              "Pause from chasing distant anxieties today and honor Siduri's simple checklist: wear clean clothes, wash with fresh water, share an unhurried meal, and look warmly into the eyes of those you love.",
+              "Ask yourself: 'What is the enduring baked brick (my wall of Uruk—a craft, a kindness, or a teaching) that will outlast me?'",
+              "Lay one concrete brick of that work today with full attention."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Siduris Råd' och en Tegelsten i Din Egen Mur",
+            "steps": [
+              "Stanna upp i dag mitt i jakten på framtiden och följ Siduris enkla visdom: bär rena kläder, skölj ansiktet i friskt vatten och ge din fulla uppmärksamhet åt en människa du håller av.",
+              "Fråga dig själv: 'Vilken hållbar tegelsten (mitt Uruk-verk—ett hantverk, en omtanke eller en kunskap) vill jag lämna efter mig?'",
+              "Lägg en konkret sten till det verket i dag."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Yılan gençlik otunu alır, fakat bilgenin ördüğü sağlam duvar ve söylediği doğru söz binlerce yıl ayakta kalır.",
+          "en": "The serpent takes the herb of youth, yet the honest wall built by the wise stands for millennia.",
+          "sv": "Ormen tar ungdomens ört, men den mur som byggts i visdom och sanning står kvar genom årtusendena."
+        }
+      },
+      {
+        "slug": "enuma-anu-enlil-gok-kehaneti",
+        "glyph": "XII",
+        "image": "/mezopotamya/enuma-anu-enlil-gok-kehaneti.jpg",
+        "title": {
+          "tr": "Enûma Anu Enlil: 70 Tabletlik Babil Gökyüzü Gözlem Külliyatı",
+          "en": "Enûma Anu Enlil: The 70-Tablet Babylonian Celestial Compendium",
+          "sv": "Enûma Anu Enlil: Det Babyloniska Stjärnverket på 70 Lertavlor"
+        },
+        "subtitle": {
+          "tr": "Ay Tutulmaları, Haleler, Saros Döngüsünün Keşfi ve ‘Gökyüzü Yazısı’ (*Šiṭir Šamê*)",
+          "en": "Lunar Eclipses, Haloes, Discovery of the Saros Cycle, and 'Heavenly Writing' (*Šiṭir Šamê*)",
+          "sv": "Månförmörkelser, Halofenomen, Upptäckten av Saroscykeln och 'Himmelsskriften' (*Šiṭir Šamê*)"
+        },
+        "summary": {
+          "tr": "Mezopotamya astronom-rahipleri (*Ṭupšar Enûma Anu Enlil*) gökyüzünü ‘Tanrıların Çivi Yazısı’ (*Šiṭir Šamê*) olarak okumuş ve 70 kil tabletten oluşan dev külliyatla tutulmaları önceden hesaplayan **Saros Döngüsü**’nü keşfetmiştir.",
+          "en": "Mesopotamian astronomer-scribes (*Ṭupšar Enûma Anu Enlil*) read the night sky as 'Heavenly Writing' (*Šiṭir Šamê*), compiling a 70-tablet corpus that led directly to the mathematical discovery of the **Saros Eclipse Cycle**.",
+          "sv": "Mesopotamiens astronom-skrivare (*Ṭupšar Enûma Anu Enlil*) läste natthimlen som 'Himmelens Kilskrift' (*Šiṭir Šamê*) och sammanställde ett verk på 70 lertavlor som ledde till upptäckten av den matematiska **Saroscykeln**."
+        },
+        "paragraphs": {
+          "tr": [
+            "Babil yıldız biliminin en anıtsal eseri, tam **70 kil tabletten** ve yaklaşık 7.000 gökyüzü gözlem kaydından oluşan **Enûma Anu Enlil** serisidir. Bu seride uzmanlaşan bilginlere resmi olarak *Ṭupšar Enûma Anu Enlil* (‘Enûma Anu Enlil Yazmanı / Astronom-Astrolog’) unvanı verilirdi.",
+            "Babilliler gece gökyüzüne **‘Šiṭir Šamê’** (*Gökyüzünün Yazısı*) veya **‘Šiṭir Burūmê’** (*Yıldızlı Kubbenin Nakşı*) adını vermiştir. Onlara göre nasıl ki yazman kil tablete çivi yazısı işaretleri basıyorsa, kozmik akıl da gökyüzüne Ay’ın haleleri, gezegen kavuşumları ve tutulmalarla okunabilir işaretler yazmaktadır.",
+            "Yüzyıllar boyunca her gece Ziggurat’ın tepesinde tutulan bu kesintisiz Astronomik Günlükler (*Astronomical Diaries*) sayesinde Babil bilginleri bilim tarihinin en büyük keşiflerinden birine imza atmıştır: **18 yıl, 11 gün ve 8 saatlik (223 kameri aylık) ‘Saros Tutulma Döngüsü’**! Bu sayede Ay ve Güneş tutulmalarının ne zaman gerçekleşeceğini matematiksel olarak önceden hesaplamışlardır.",
+            "Önemli olan şudur: Babil’de bir tutulma veya gökyüzü işareti ‘kaçınılmaz bir felaket’ değil, **‘erken uyarı sinyali’** sayılırdı; eğer kral ve halk adaleti düzeltir ve *Namburbû* (çözüm ve dengeleme) adımlarını atarsa işaretin ağır etkisi zararsızca geçerdi."
+          ],
+          "en": [
+            "The monumental canon of Babylonian celestial science is **Enûma Anu Enlil**—a compendium of **70 clay tablets** containing nearly 7,000 observations of the Moon, Sun, weather, and planets. Scholars who mastered this canon held the title *Ṭupšar Enûma Anu Enlil* ('Scribe of Enûma Anu Enlil').",
+            "The Babylonians called the starry firmament **'Šiṭir Šamê'** (*The Writing of Heaven*) or **'Šiṭir Burūmê'** (*Inscriptions of the Starry Vault*). Just as a scribe impressed cuneiform wedges into wet clay, the cosmic order inscribed readable signs across the sky through lunar haloes, planetary conjunctions, and eclipses.",
+            "By maintaining uninterrupted nightly **Astronomical Diaries** atop the ziggurats across centuries, Chaldean astronomers achieved one of the greatest breakthroughs in the history of science: the discovery of the **Saros Cycle of 223 synodic months (18 years, 11 days, and 8 hours)**, enabling them to predict lunar and solar eclipses mathematically.",
+            "Crucially, in Babylonian thought a celestial sign was never an inescapable doom, but an **early counsel**: through ethical rectification and *Namburbû* (balancing rites), its heavy potential could be averted."
+          ],
+          "sv": [
+            "Det största monumentet inom babylonisk stjärnkunskap är **Enûma Anu Enlil**—ett verk på **70 lertavlor** med omkring 7 000 observationer av månen, solen och planeterna. De lärda som behärskade detta verk bar titeln *Ṭupšar Enûma Anu Enlil*.",
+            "Babylonierna kallade stjärnhimlen **'Šiṭir Šamê'** (*Himmelens Skrift*). Liksom skrivaren tryckte in kilskriftstecken i våt lera, tecknade den kosmiska ordningen läsbara mönster på himlavalvet genom mångårdar, konjunktioner och förmörkelser.",
+            "Genom att föra oavbrutna nattliga **Astronomiska Dagböcker** på zigguraternas krön under århundraden gjorde de kaldeiska astronomerna en av vetenskapshistoriens största upptäckter: **Saroscykeln på 223 synodiska månader (18 år, 11 dagar och 8 timmar)**, varmed förmörkelser kunde beräknas i förväg.",
+            "I babyloniskt tänkande var ett himmelstecken aldrig ett oundvikligt öde, utan en **tidig varning**: genom rättrådigt handlande och *Namburbû* (utjämnande åtgärder) kunde tyngden vändas till balans."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Šiṭir Šamê: ‘Gökyüzünün Çivi Yazısı’",
+              "body": "Yıldızları rastgele noktalar olarak değil, okunmayı bekleyen kozmik bir metin (*Šiṭir Šamê*) olarak görmek, hem klasik astrolojinin hem de modern astronominin temelini atmıştır."
+            },
+            {
+              "heading": "Saros Döngüsü: 223 Kameri Ayın Matematiksel Mucizesi",
+              "body": "Gözlemlerini kil tabletlere sabırla kaydeden Keldani astronomlar, tutulmaların 18 yıl 11 günde bir aynı geometriyle tekrarlandığını bularak korkuyu öngörüye dönüştürmüştür."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Šiṭir Šamê: 'The Cuneiform of the Sky'",
+              "body": "Viewing the constellations not as random sparks, but as a coherent cosmic text (*Šiṭir Šamê*), laid the foundation for both classical astrology and mathematical astronomy."
+            },
+            {
+              "heading": "The Saros Cycle: The 223-Month Mathematical Breakthrough",
+              "body": "Through centuries of patient clay-tablet records, Babylonian observers discovered that eclipses repeat their geometry every 18 years and 11 days—turning fear into foresight."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Šiṭir Šamê: 'Himmelens Kilskrift'",
+              "body": "Att betrakta stjärnhimlen som en sammanhängande kosmisk text (*Šiṭir Šamê*) lade grunden för både klassisk astrologi och matematisk astronomi."
+            },
+            {
+              "heading": "Saroscykeln: Genombrottet med 223 Månvarv",
+              "body": "Genom århundraden av tålmodiga anteckningar på lertavlor upptäckte babylonierna att förmörkelser återkommer med samma geometri vart artonde år."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Enûma Anu Enlil: 70 kil tabletten oluşan Babil gökyüzü, Ay, Güneş ve gezegen gözlem külliyatı.",
+            "Šiṭir Šamê (‘Gökyüzü Yazısı’): Yıldızlı gök kubbenin okunabilir kozmik bir tablet olarak görülmesi.",
+            "Ṭupšar Enûma Anu Enlil: Ziggurat gözlemevlerinde nöbet tutan Babil astronom-astrologları.",
+            "Saros Döngüsü (223 Kameri Ay): Babillilerin keşfettiği 18 yıl 11 günlük tutulma tekrar periyodu.",
+            "Namburbû: Olumsuz bir gökyüzü işaretini bilinçli eylem ve arınmayla dengeleme yöntemi."
+          ],
+          "en": [
+            "Enûma Anu Enlil: The 70-tablet Babylonian compendium of lunar, solar, and planetary observations.",
+            "Šiṭir Šamê ('Heavenly Writing'): The night sky understood as a readable cosmic tablet.",
+            "Ṭupšar Enûma Anu Enlil: The astronomer-scribes who kept nightly watch on the ziggurats.",
+            "Saros Cycle (223 Synodic Months): The 18-year, 11-day eclipse periodicity discovered in Babylon.",
+            "Namburbû: Conscious ethical and ritual action taken to harmonize an ominous sign."
+          ],
+          "sv": [
+            "Enûma Anu Enlil: Det babyloniska stjärnverket i 70 lertavlor.",
+            "Šiṭir Šamê ('Himmelsskrift'): Natthimlen sedd som en läsbar kosmisk tavla.",
+            "Ṭupšar Enûma Anu Enlil: De astronom-skrivare som höll nattvakt på zigguraterna.",
+            "Saroscykeln (223 Månvarv): Den 18 år och 11 dagar långa förmörkelsecykel som upptäcktes i Babylon.",
+            "Namburbû: Medveten handling för att möta och balansera ett svårt tecken."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kendi ‘18 Yıllık Saros Döngünü’ (Hayat Tekrarını) Okumak",
+            "steps": [
+              "Bugünkü yaşından **18 yıl (veya 9 yıl — yarım döngü) öncesine** git ve o yıl hayatında hangi ana temanın, kararın veya dönüm noktasının yaşandığını hatırla.",
+              "Babil astronomlarının tutulmaları 18 yıllık döngüyle okuması gibi, o yılki temanın bugün daha olgun bir seviyede yeniden karşına çıkıp çıkmadığına bak.",
+              "O gün acemilikle verdiğin tepki yerine, bugün bilgelikle hangi yeni adımı (Namburbû) atacağını defterine yaz."
+            ]
+          },
+          "en": {
+            "title": "Practice · Reading Your Personal '18-Year Saros Cycle'",
+            "steps": [
+              "Look back **18 years (or 9 years, the half-cycle)** from your current age and recall the central theme, threshold, or decision of that year.",
+              "Just as Babylonian astronomers tracked the return of eclipse geometry every 18 years, observe how a parallel theme may be returning in your life today at a higher turn of the spiral.",
+              "Write down one wiser, more conscious choice (your personal *Namburbû*) you can make in this cycle."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Läsa Din Egen '18-Åriga Saroscykel'",
+            "steps": [
+              "Blika tillbaka **18 år (eller 9 år — halvcykeln)** från din nuvarande ålder och minns vilket huvudtema eller vägval som präglade ditt liv då.",
+              "Se hur ett liknande livstema nu kan återkomma på ett mognare varv i spiralen, likt förmörkelsernas 18-åriga rytm.",
+              "Skriv ned vilket klokare val (ditt eget *Namburbû*) du väljer att göra denna gång."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Gökyüzü korkutmak için değil, hazırlıklı olalım diye konuşur; yıldızların yazısını okuyan fırtınaya şaşırmaz.",
+          "en": "The sky speaks not to terrify, but to prepare; whoever reads the writing of the stars is never ambushed by the season.",
+          "sv": "Himlen talar inte för att skrämma, utan för att förbereda; den som läser stjärnornas skrift överraskas inte av skiftet."
+        }
+      },
+      {
+        "slug": "nisaba-ve-nabu-civi-yazisi",
+        "glyph": "XIII",
+        "image": "/mezopotamya/nisaba-ve-nabu-civi-yazisi.jpg",
+        "title": {
+          "tr": "Nisaba ve Nabû: Kamış Kalem, Kil Tablet ve Yazının Kutsallığı",
+          "en": "Nisaba and Nabû: The Reed Stylus, the Clay Tablet, and Sacred Writing",
+          "sv": "Nisaba och Nabû: Rörpennan, Lertavlan och Skriftens Helgd"
+        },
+        "subtitle": {
+          "tr": "Edubba (Tablet Evi) Okulları, Lapis Lazuli Levha ve Sözü Kile Mühürlemek",
+          "en": "The Edubba ('Tablet House') Schools, the Tablet of Lapis Lazuli, and Sealing the Word in Clay",
+          "sv": "Edubba-Skolorna ('Tavlornas Hus'), Tavlan av Lapis Lazuli och Ordet i Lera"
+        },
+        "summary": {
+          "tr": "İnsanlık tarihinde yazıyı ilk icat eden Sümerler, bu sanatı başlangıçta tahıl ve yıldız tanrıçası **Nisaba**’nın, Babil döneminde ise bilgelik tanrısı **Nabû**’nun emaneti saymıştır; yazı unutuşa karşı dikilen en sağlam anıttır.",
+          "en": "The Sumerians who first invented writing revered the craft as the gift of the goddess **Nisaba** (and later the Babylonian god **Nabû**); to write with care is to build a monument against oblivion.",
+          "sv": "Sumererna som uppfann skriften vördade konsten som en gåva från gudinnan **Nisaba** (och senare den babyloniske guden **Nabû**); att skriva med omsorg är att resa ett minnesmärke mot glömskan."
+        },
+        "paragraphs": {
+          "tr": [
+            "MÖ 3200 civarında Uruk şehrinde ıslak kile kamış ucuyla (*Qanû*) basılan ilk işaretler, insanlık bilincinin en büyük sıçramasını başlattı: Artık bir insanın düşüncesi, kendi nefesi dursa bile binlerce yıl sonraki bir başka insanla konuşabiliyordu. Sümerler yazının ve hesabın koruyucu tanrıçası olarak **Nisaba**’yı (Nidaba) onurlandırdı.",
+            "İlahilerde Nisaba, dizlerinin üzerinde **saf lacivert taşından (Lapis Lazuli) bir tablet (*Dub Za-gìn*)** tutan, gökyüzündeki yıldızların sayısını ve toprağın tahıl ölçüsünü altın bir kamış kalemle kaydeden bilge kadın olarak betimlenir. Sümer okul mekteplerinde (**Edubba** — ‘Tablet Evi’) öğrenciler her kompozisyonun sonunu şu cümleyle bitirirdi: *‘Nisaba’ya övgüler olsun!’* (*Nisaba za-mí*).",
+            "Babil döneminde ise yazmanlık ve kader kayıtları, Marduk’un oğlu ve Borsippa’daki *Ezida* tapınağının efendisi **Nabû**’ya (Merkür gezegeninin yöneticisine) bağlandı. Kamış kalem sadece ticari bir araç değil; göğün ve yerin oranlarını tutan kutsal kama (*Santakku*) idi.",
+            "Bugün bir çalışma defteri (*Läkebok* veya Rün/Gökyüzü günlüğü) tutmak, Nisaba ve Nabû’nun 5.000 yıllık *Edubba* geleneğini sürdürmektir: Yazılmayan içgörü rüzgarda dağılır, kağıda/kile mühürlenen söz ise kök salar."
+          ],
+          "en": [
+            "Around 3200 BCE in Uruk, the first reed stylus (*Qanû*) pressed into wet river clay launched the greatest leap in human memory: a thought could now speak clearly across millennia. The Sumerians honored **Nisaba** (Nidaba) as the patron goddess of writing, accounting, and celestial measure.",
+            "In Sumerian hymns, Nisaba holds upon her knees a **tablet of pure lapis lazuli (*Dub Za-gìn*)**, consulting the starry sky as she records cosmic proportions with a golden stylus. In the scribal academies (**Edubba** — 'House of Tablets'), every student concluded their clay tablet with the colophon: *'Praise be to Nisaba!'* (*Nisaba za-mí*).",
+            "In the Babylonian era, the scribal craft and the keeping of the Tablets of Destiny passed to **Nabû**, lord of the *Ezida* temple in Borsippa and regent of the planet Mercury. The wedge-shaped stylus mark (*Santakku*) was revered as the visible trace of cosmic order.",
+            "Keeping a dedicated physical study notebook today continues the 5,000-year *Edubba* lineage of Nisaba and Nabû: unrecorded insight scatters like smoke, whereas the written word takes root."
+          ],
+          "sv": [
+            "Omkring 3200 f.Kr. i Uruk trycktes den första rörpennan (*Qanû*) mot våt flodlera och inledde det största språnget i mänsklighetens minne: en tanke kunde nu färdas genom årtusenden. Sumererna ärade **Nisaba** (Nidaba) som skriftens, räknekonstens och stjärnmåttens gudinna.",
+            "I sumeriska hymner håller Nisaba en **tavla av ren lapis lazuli (*Dub Za-gìn*)** i sitt knä medan hon läser stjärnhimlen och tecknar ned dess mått med ett gyllene stift. I skrivarskolorna (**Edubba** — 'Tavlornas Hus') avslutade eleverna varje lertavla med orden: *'Lovad vare Nisaba!'* (*Nisaba za-mí*).",
+            "Under babylonisk tid knöts skrivarkonsten till **Nabû**, visdomens gud och planeten Merkurius härskare. Att föra en fysisk studie- och observationsbok i dag är att föra vidare det femtusenåriga arvet från Edubba.",
+            "Det som aldrig tecknas ned skingras lätt som rök, men det ord som anförtros åt sidan slår rot."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Nisaba’nın Lapis Lazuli Tableti (*Dub Za-gìn*)",
+              "body": "Gök kubbenin gece laciverdini simgeleyen Lapis Lazuli tablet, gökyüzündeki yıldız haritası ile yeryüzündeki yazı arasındaki birebir aynalığı anlatır."
+            },
+            {
+              "heading": "Edubba (Tablet Evi): Kil Yoğurmaktan Bilgelik Yoğurmaya",
+              "body": "Sümer okullarında öğrenci önce ıslak kili pürüzsüzce yoğurmayı öğrenirdi; çünkü zihnin tablosu düzleşmeden üzerine doğru harf basılamaz."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Nisaba's Tablet of Lapis Lazuli (*Dub Za-gìn*)",
+              "body": "Deep blue speckled with golden pyrite, the lapis lazuli tablet mirrors the night sky itself—linking earthly writing with the stars."
+            },
+            {
+              "heading": "The Edubba ('House of Tablets'): Preparing the Clay of the Mind",
+              "body": "Before a student scribe wrote a single sign, they learned to knead and smooth raw clay free of air bubbles—just as the mind must be quieted before clear thought is inscribed."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Nisabas Tavla av Lapis Lazuli (*Dub Za-gìn*)",
+              "body": "Den djupblå lapis lazuli-stenen med sina gyllene stänk speglar själva natthimlen och förenar jordisk skrift med stjärnornas ordning."
+            },
+            {
+              "heading": "Edubba ('Tavlornas Hus'): Att Jämna Sinnets Lera",
+              "body": "Innan eleven skrev ett enda tecken fick han lära sig att knåda och släta ut leran—liksom sinnet måste stillas innan en klar tanke kan skrivas."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Nisaba (Nidaba): Sümer’in yazı, matematik, mimari ve yıldız kayıtları tanrıçası.",
+            "Nabû: Babil’in bilgelik, yazmanlık, kader kayıtları ve Merkür gezegeni tanrısı.",
+            "Edubba (‘Tablet Evi’): Sümer ve Babil’in yazmanlık, astronomi ve edebiyat akademisi.",
+            "Dub Za-gìn (Lapis Lazuli Tablet): Nisaba’nın yıldızları ve oranları kaydettiği göksel levha.",
+            "Nisaba za-mí (‘Nisaba’ya Övgüler Olsun’): Sümer kil tabletlerinin sonuna düşülen geleneksel şükran mührü."
+          ],
+          "en": [
+            "Nisaba (Nidaba): Sumerian goddess of writing, mathematics, grain measure, and star-lore.",
+            "Nabû: Babylonian god of scribes, wisdom, the stylus, and the planet Mercury.",
+            "Edubba ('House of Tablets'): The scribal school where literature, astronomy, and law were copied.",
+            "Dub Za-gìn (Lapis Lazuli Tablet): Nisaba's celestial tablet of starry proportions.",
+            "Nisaba za-mí ('Praise to Nisaba'): Traditional closing seal inscribed at the foot of Sumerian tablets."
+          ],
+          "sv": [
+            "Nisaba (Nidaba): Sumers gudinna för skrift, matematik, kornmått och stjärnkunskap.",
+            "Nabû: Babylons gud för skrivarkonst, visdom och planeten Merkurius.",
+            "Edubba ('Tavlornas Hus'): Den mesopotamiska akademin för litteratur och astronomi.",
+            "Dub Za-gìn (Tavla av Lapis Lazuli): Nisabas himmelska tavla över kosmiska mått.",
+            "Nisaba za-mí ('Lovad vare Nisaba'): Det klassiska slutordet på sumeriska lertavlor."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Edubba’ Disipliniyle Günlük Üç Satır Mühürlemek",
+            "steps": [
+              "Dijital ekranlar yerine gerçek bir kalem ve kağıt (kendi tabletin) al; yazmaya başlamadan önce masanı tıpkı ıslak bir kil tableti düzeltir gibi pürüzsüzce topla.",
+              "Bugün öğrendiğin bir gerçeği, gördüğün bir gökyüzü/doğa işaretini ve yarınki niyetini üç net cümle halinde el yazınla yaz.",
+              "Sayfanın altına Sümer yazmanları gibi küçük bir şükran işareti koyarak bilgiyi unutuşa karşı mühürle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Inscribing Three Lines in the Spirit of the 'Edubba'",
+            "steps": [
+              "Set aside digital screens and take up pen and paper; clear your desk surface just as a scribe smooths wet clay before writing.",
+              "Write by hand three concise sentences: one truth you learned today, one sign you observed in nature or sky, and one clear intention for tomorrow.",
+              "Place a small closing mark at the bottom of the page in gratitude for the memory that endures."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Skriva Tre Rader i 'Edubbas' Anda",
+            "steps": [
+              "Lägg undan alla skärmar och ta fram penna och papper; gör rent på skrivbordet liksom skrivaren slätar ut den våta leran.",
+              "Skriv för hand tre korta meningar: en insikt du vunnit i dag, ett tecken du sett i naturen eller på himlen och en avsikt för morgondagen.",
+              "Sätt ett litet sigill längst ned på sidan i tacksamhet över minnets gåva."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Söz rüzgarda uçar, fakat kalemin sabırla kazıdığı harf zamanın nehrini aşar.",
+          "en": "Spoken words scatter on the wind, but the line inscribed with patient care crosses the river of time.",
+          "sv": "Det talade ordet flyger med vinden, men den rad som ristas med tålamod färdas över tidens flod."
+        }
+      },
+      {
+        "slug": "ziqiqu-babil-ruya-kitabi",
+        "glyph": "XIV",
+        "image": "/mezopotamya/ziqiqu-babil-ruya-kitabi.jpg",
+        "title": {
+          "tr": "Zaqīqu ve İškar Zaqīqu: Babil Rüya Kitabı ve Gece Elçileri",
+          "en": "Zaqīqu and Iškar Zaqīqu: The Babylonian Dream Book and Night Messengers",
+          "sv": "Zaqīqu och Iškar Zaqīqu: Den Babyloniska Drömboken och Nattens Budbärare"
+        },
+        "subtitle": {
+          "tr": "Asurbanipal Kütüphanesi’nin On Bir Tabletlik Rüya Külliyatı ve ‘Toprak Parçası’ Ritüeli",
+          "en": "The Eleven-Tablet Dream Compendium of Nineveh and the Rite of the 'Clod of Earth'",
+          "sv": "Nineves Drömverk på Elva Lertavlor och Riten med 'Jordkokan'"
+        },
+        "summary": {
+          "tr": "Mezopotamya’da rüya tanrısı **Zaqīqu** (Anzagar) hafif bir gece esintisi gibi uyuyanın zihnine dokunur; Asurbanipal Kütüphanesi’nde bulunan 11 tabletlik **İškar Zaqīqu** ise insanlık tarihinin en eski rüya yorum ve rüya sağaltım külliyatıdır.",
+          "en": "In Mesopotamia, the dream god **Zaqīqu** touches the sleeping mind like a gentle night breeze; the eleven-tablet **Iškar Zaqīqu** from Nineveh preserves humanity's oldest systematic book of dream interpretation and release.",
+          "sv": "I Mesopotamien vidrör drömguden **Zaqīqu** det sovande sinnet som en stilla nattbris; det elva tavlor stora verket **Iškar Zaqīqu** från Nineve utgör en av världens äldsta drömböcker."
+        },
+        "paragraphs": {
+          "tr": [
+            "Akadca dilinde **‘Zaqīqu’** (Sümerce: *Lil* / *Anzagar*) kelimesi hem ‘hafif esinti, nefes’ hem de ‘rüya ruhu / rüya tanrısı’ anlamına gelir. Babillilere göre Güneş Tanrısı Şamaş’ın ve gece nöbetçisi Sin’in (Ay’ın) elçisi olan Zaqīqu, insanın gündüz zırhı uykuyla indiğinde zihne bir meltem gibi girerek sembolik mesajlar bırakır.",
+            "Asurbanipal Kütüphanesi’nde keşfedilen ve asorolog A. Leo Oppenheim tarafından incelenen 11 kil tabletlik **İškar Zaqīqu** (*Zaqīqu Serisi / Babil Rüya Kitabı*), binlerce rüya sembolünü ve bunların psikolojik/kadersel karşılıklarını sınıflandırır. Örneğin rüyada uçmak, nehir geçmek, bir ağaç dikmek veya mühür taşımak ayrıntılı olarak okunurdu.",
+            "Daha da etkileyici olanı, Babillilerin kötü veya korkutucu bir rüya gördüklerinde çaresizliğe kapılmamasıydı: Sabah uyanır uyanmaz yerden küçük bir **kil/toprak topağı (*Kirbānu*)** alır, gördükleri ağır rüyayı o toprak parçasına fısıldayarak aktarır ve toprağı akan suya (veya ateşe) bırakarak suyun onu çözüp temizlemesini sağlarlardı.",
+            "Sabah ilk iş olarak korkulu bir rüyayı toprağa veya suya anlatıp zihinden çözmek, bugün bile bilinçaltı yükünü boşaltmanın en zarif arketipsel yoludur."
+          ],
+          "en": [
+            "In Akkadian, the word **'Zaqīqu'** (Sumerian: *Anzagar*) means both 'gentle breeze, breath' and the 'God of Dreams'. To the Babylonians, when the waking armor of the mind is laid down in sleep, Zaqīqu enters like a night wind bearing symbolic messages.",
+            "Unearthed in the Royal Library of Ashurbanipal at Nineveh and translated by Assyriologist A. Leo Oppenheim, the eleven-tablet **Iškar Zaqīqu** (*The Babylonian Dream Book*) catalogues hundreds of dream motifs—flying, crossing rivers, carrying cylinder seals, or climbing trees.",
+            "Even more practical is the Babylonian method for resolving a troubling nightmare: upon waking, the dreamer took a small **clod of earth or clay (*Kirbānu*)**, whispered the entire disturbing dream into the clay, and cast it into running water so that as the clay dissolved, the psychological burden dissolved with it.",
+            "In Akkadian, the verb **'Pašāru'** means both 'to interpret/relate a dream' and 'to untie, dissolve, and release'—teaching us that naming a shadow and handing it back to the elements sets the waking mind free."
+          ],
+          "sv": [
+            "På akkadiska betyder ordet **'Zaqīqu'** (sumeriska: *Anzagar*) både 'stilla bris, andedräkt' och 'drömmarnas gud'. När dagsmedvetandets rustning läggs ned i sömnen sveper Zaqīqu in som en nattvind med symboliska budskap.",
+            "I Assurbanipals bibliotek i Nineve fann arkeologerna det elva lertavlor stora verket **Iškar Zaqīqu** (*Den Babyloniska Drömboken*), som systematiskt beskriver drömsymboler som att flyga, korsa floder, bära sigill eller plantera träd.",
+            "Särskilt värdefull är babyloniernas metod för att hantera en tung eller orolig dröm: direkt vid uppvaknandet tog man en liten **klump lera eller jord (*Kirbānu*)**, viskade drömmens tyngd in i leran och lade den i rinnande vatten så att oron löstes upp i takt med leran.",
+            "Det akkadiska verbet **'Pašāru'** betyder både 'att tolka en dröm' och 'att lösa upp en knut'—genom att ge drömmen ord och överlämna den till vattnet befrias dagen."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Zaqīqu: Gece Esintisi Olarak Gelen Rüya",
+              "body": "Rüyanın ‘esinti’ (*Zaqīqu*) kelimesiyle adlandırılması, rüyayı zorla yakalayamayacağımızı, yalnızca pencereyi açık ve zihni sakin tutarak ağırlayabileceğimizi anlatır."
+            },
+            {
+              "heading": "Kirbānu (Kil Topağı) ve Akan Su Çözümü",
+              "body": "Babil rüya tabletlerinde korkulu bir rüyadan sonra yapılan ‘toprak topağını suda eritme’ uygulaması, kabusun ağırlığını somut olarak boşaltan psikolojik bir deşarj tekniğidir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Zaqīqu: The Dream as a Night Breeze",
+              "body": "Naming the dream-spirit 'breeze' (*Zaqīqu*) reminds us that dreams cannot be forced; we can only quiet the bedroom and welcome them."
+            },
+            {
+              "heading": "Kirbānu (The Clod of Clay) and Dissolution in Water",
+              "body": "Transferring an anxious dream into a pinch of earth or salt and watching it dissolve in water provides immediate somatic closure upon waking."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Zaqīqu: Drömmen som en Nattbris",
+              "body": "Att drömmen bär samma namn som nattvinden (*Zaqīqu*) påminner oss om att drömmar inte kan tvingas fram, bara tas emot i ett stilla rum."
+            },
+            {
+              "heading": "Kirbānu (Jordkokan) och Upplösningen i Vatten",
+              "body": "Att viska en mardröm i en nypa jord eller salt och låta den lösas upp i vatten ger omedelbar psykologisk avlastning på morgonen."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Zaqīqu (Sümerce Anzagar / Mamu): Mezopotamya’nın rüya ve hafif gece meltemi tanrısı.",
+            "İškar Zaqīqu: Ninova’da bulunan 11 kil tabletlik antik Babil Rüya Kitabı.",
+            "Şamaş ve Sin: Rüyadaki gerçeği aydınlatan Güneş ve gece nöbetini tutan Ay.",
+            "Kirbānu (Toprak Topağı): Ağır bir rüyanın fısıldanıp suda eritildiği kil parçası.",
+            "Pašāru (‘Çözmek / Yorumlamak’): Akadca’da hem bir düğümü/rüyayı yorumlamak hem de yükünü çözüp dağıtmak."
+          ],
+          "en": [
+            "Zaqīqu (Sumerian Anzagar / Mamu): Mesopotamian deity of dreams and the gentle night wind.",
+            "Iškar Zaqīqu: The 11-tablet Babylonian Dream Book from the Library of Ashurbanipal.",
+            "Kirbānu (Clod of Clay): A pinch of earth into which a heavy dream was whispered and dissolved in water.",
+            "Pašāru ('To Untie / Interpret'): The Akkadian principle that relating and releasing a dream dissolves its weight."
+          ],
+          "sv": [
+            "Zaqīqu (Sumeriska Anzagar / Mamu): Mesopotamiens gud för drömmar och nattens lätta vind.",
+            "Iškar Zaqīqu: Den babyloniska drömboken på 11 lertavlor från Nineve.",
+            "Kirbānu (Lerkoka): En nypa jord i vilken en tung dröm viskades för att sedan lösas upp i vatten.",
+            "Pašāru ('Att Lösa Upp / Tolka'): Den akkadiska principen att drömmens knut löses upp när den uttalas."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Ağır Bir Rüyayı ‘Pašāru’ (Suda Çözme) Tekniği",
+            "steps": [
+              "Sabah huzursuz veya karmaşık bir rüyayla uyandığında, kimseyle konuşmadan önce banyoya veya mutfağa git ve musluğu aç (veya bir kase suyun yanına bir tutam tuz al).",
+              "Tuz tanelerini (antik *Kirbānu* / toprak kristali yerine) parmaklarının arasında tutarak rüyanın sende bıraktığı ağırlığı kısaca fısılda.",
+              "Tuzu akan suya bırakıp erimesini izlerken: ‘Tuzun suda eridiği gibi bu gölge de çözülüp dağılsın; günüm berrak olsun’ de."
+            ]
+          },
+          "en": {
+            "title": "Practice · Morning 'Pašāru' (Dissolving a Heavy Dream in Water)",
+            "steps": [
+              "When you wake from an unsettling dream, step to running water (or a bowl of water) before checking your phone or speaking.",
+              "Hold a pinch of natural salt (standing in for the ancient *Kirbānu* earth-clod) between your fingers and whisper the heavy feeling of the dream into it.",
+              "Drop the salt into the water and watch it dissolve completely while stating: 'As this mineral dissolves in clear water, let the shadow of the night be untied (Pašāru).'"
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Morgonens 'Pašāru' (Att Lösa Upp en Tung Dröm i Vatten)",
+            "steps": [
+              "Om du vaknar ur en tung eller orolig dröm, gå till rinnande vatten innan du ser på telefonen.",
+              "Håll en nypa naturligt salt (som motsvarighet till den forntida *Kirbānu*-leran) mellan fingrarna och viska kort drömmens tyngd till saltet.",
+              "Släpp ned saltet i vattnet och se det lösas upp medan du säger: 'Liksom detta salt löses i klart vatten, må nattens skugga lösas upp (Pašāru).'"
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Gece esintisiyle (Zaqīqu) gelen mesaj dinlenir, ağırlığı ise sabah suyunda çözülüp (Pašāru) toprağa geri verilir.",
+          "en": "What arrives on the night breeze (Zaqīqu) is listened to for its counsel, and its heaviness is untied (Pašāru) in the morning water.",
+          "sv": "Det som kommer med nattbrisen (Zaqīqu) lyssnar vi till, och dess tyngd löser vi upp (Pašāru) i morgonens klara vatten."
+        }
+      },
+      {
+        "slug": "imago-mundi-babil-haritasi",
+        "glyph": "XV",
+        "image": "/mezopotamya/imago-mundi-babil-haritasi.jpg",
+        "title": {
+          "tr": "Imago Mundi: Babil Dünya Haritası ve ‘Acı Deniz’ (*Marratu*)",
+          "en": "Imago Mundi: The Babylonian Map of the World and the 'Bitter Sea' (*Marratu*)",
+          "sv": "Imago Mundi: Den Babyloniska Världskartan och det 'Bittra Havet' (*Marratu*)"
+        },
+        "subtitle": {
+          "tr": "MÖ 6. Yüzyıl Kil Haritası, Sekiz Bilinmeyen Bölge (*Nagû*) ve Merkez Bilinci",
+          "en": "The 6th-Century BCE Clay Cosmography, the Eight Outer Regions (*Nagû*), and Horizon Consciousness",
+          "sv": "500-talets f.Kr. Kosmografiska Lertavla, De Åtta Yttre Regionerna (*Nagû*) och Horisontens Gräns"
+        },
+        "summary": {
+          "tr": "Sippar’da bulunan ve bugün British Museum’da korunan **Babil Dünya Haritası** (*Imago Mundi*), bilinen dünyanın etrafını kuşatan ‘Acı Nehir/Okyanus’u (*Marratu*) ve onun ötesindeki sekiz gizemli üçgen bölgeyi (*Nagû*) gösteren en eski kozmik haritadır.",
+          "en": "Unearthed at Sippar and housed in the British Museum, the **Babylonian Map of the World** (*Imago Mundi*) is humanity's oldest surviving world map—depicting the known land encircled by the 'Bitter River' (*Marratu*) and eight mysterious outer triangles (*Nagû*).",
+          "sv": "Funnen i Sippar och bevarad på British Museum är **Den Babyloniska Världskartan** (*Imago Mundi*) världens äldsta bevarade världskarta—med det kända landet omgivet av den 'Bittra Floden' (*Marratu*) och åtta gåtfulla yttre trianglar (*Nagû*)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Güney Irak’taki antik Sippar kentinde keşfedilen MÖ 6. yüzyıla ait avuç içi büyüklüğündeki bir kil tablet, insanlık tarihinin **ilk bütünsel Dünya Haritası**’dır (*Babylonian Map of the World* / *Imago Mundi*). Haritanın tam ortasında Fırat Nehri akar, nehrin üzerinde Babil ve komşu bölgeler (Asur, Urartu, Susa) yer alır.",
+            "Bütün bilinen kara parçasını çift halkalı bir daire kuşatır: Tablette bu halkaya **‘İd Marratu’** (*Acı Nehir / Tuzlu Okyanus*) adı verilmiştir. Ancak haritayı asıl büyüleyici kılan şey, bu Acı Okyanus’un **dışına** doğru uzanan **sekiz adet üçgen ada/bölgedir (*Nagû*)**.",
+            "Tabletin çivi yazılı açıklamasında bu uzak bölgeler (*Nagû*) hakkında şöyle yazar: *‘Güneşin doğduğu yer... Boynuzlu boğaların koştuğu yer... Kanatlı kuşun bile uçarak ulaşamadığı, içini sadece tanrıların ve Gılgamış gibi kahramanların gördüğü uzak kıyılar.’*",
+            "Imago Mundi bize içsel coğrafyamızın haritasını verir: Hepimizin bildiği güvenli bir ‘merkez şehri’ vardır; onun hemen dışında korktuğumuz ‘Acı Deniz’ (*Marratu* — konfor alanının sınırı) uzanır; potansiyelimizin gizli adaları (*Nagû*) ise ancak o tuzlu sınırı geçmeye cesaret ettiğimizde görünür olur."
+          ],
+          "en": [
+            "Discovered at ancient Sippar on the Euphrates, a palm-sized 6th-century BCE clay tablet preserves humanity's oldest schematic **Map of the World** (*Imago Mundi*). Down its center flows the Euphrates through Babylon, flanked by neighboring lands including Assyria, Urartu, and Elam.",
+            "Surrounding the entire known landmass is a double circular ring labeled in cuneiform **'Íd Marratu'** (*The Bitter River / Salt Ocean*). Yet the most striking feature of the tablet lies **beyond** the Bitter Sea: **eight triangular promontories or islands (*Nagû*)** radiating outward like points of a star.",
+            "The accompanying cuneiform text describes these outer *Nagû* as realms of wonder and threshold—*'where the winged bird cannot complete its flight'* and *'where the Sun rises'*—visited only by mythic voyagers like Gilgamesh and Utnapishtim.",
+            "Psychologically, the *Imago Mundi* is a mirror of human growth: at the center lies our familiar city; around it flows the 'Bitter Sea' (*Marratu*—the ring of discomfort and uncertainty); and beyond that ring wait the *Nagû*—the undiscovered horizons of our capability."
+          ],
+          "sv": [
+            "Funnen i det forntida Sippar vid Eufrat bevarar en handflatestor lertavla från 500-talet f.Kr. mänsklighetens äldsta **Världskarta** (*Imago Mundi*). Genom dess mitt flyter Eufrat genom Babylon, omgiven av grannländer som Assyrien, Urartu och Elam.",
+            "Runt hela det kända fastlandet löper en dubbel cirkel som i kilskrift kallas **'Íd Marratu'** (*Den Bittra Floden / Urhavet*). Men det mest fascinerande på tavlan ligger **utanför** det Bittra Havet: **åtta trekantiga öar eller uddar (*Nagû*)** som strålar ut likt en åttauddig stjärna.",
+            "Kilskriftstexten beskriver dessa yttre *Nagû* som gränsländer vid gryningen dit endast hjältar som Gilgamesh nått.",
+            "Rent psykologiskt är *Imago Mundi* en karta över människans växt: i mitten ligger vår trygga vardag; runt den flyter det 'Bittra Havet' (*Marratu*—osäkerhetens tröskel); och bortom detta väntar *Nagû*—de outforskade öarna av vår egen förmåga."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Marratu (Acı Deniz): Konfor Alanının Sınırı",
+              "body": "Bilinen dünya ile bilinmeyen adalar (*Nagû*) arasındaki tuzlu okyanus, yeni bir ustalık kazanmadan önce geçmemiz gereken belirsizlik eşiğidir."
+            },
+            {
+              "heading": "Sekiz Nagû: Keşfedilmeyi Bekleyen Kıyılar",
+              "body": "Haritadaki sekiz üçgen uç, sekiz rüzgar yönünü ve insan bilincinin henüz keşfetmediği sekiz ufku simgeler."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Marratu (The Bitter Sea): The Ring Around the Familiar",
+              "body": "Between the known world and the outer islands (*Nagû*) flows the salt ring of uncertainty that every learner must cross."
+            },
+            {
+              "heading": "The Eight Nagû: Horizons Beyond the Map",
+              "body": "Radiating like an eight-pointed star (*MUL / DINGIR*), the outer triangles remind us that reality is always larger than our current map."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Marratu (Det Bittra Havet): Ringen Kring det Bekanta",
+              "body": "Mellan den välkända staden och de yttre öarna (*Nagû*) ligger osäkerhetens salta vatten som varje sökare måste korsa."
+            },
+            {
+              "heading": "De Åtta Nagû: Horisonter Bortom Kartan",
+              "body": "De åtta trianglarna som strålar utåt påminner oss om att verkligheten alltid är större än vår nuvarande karta."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Imago Mundi (Babil Dünya Haritası): Sippar’da bulunan MÖ 6. yüzyıl kil kozmografya tableti.",
+            "Marratu (‘Acı Nehir / Okyanus’): Bilinen dünyayı çember şeklinde kuşatan kozmik sınır denizi.",
+            "Nagû (Uzak Bölgeler): Okyanusun ötesinde yıldız köşeleri gibi uzanan sekiz gizemli diyar.",
+            "Sippar (Güneş Şehri): Haritanın bulunduğu ve Şamaş tapınağının yükseldiği kadim bilgelik kenti."
+          ],
+          "en": [
+            "Imago Mundi (Babylonian World Map): 6th-century BCE clay tablet from Sippar mapping cosmos and earth.",
+            "Marratu ('Bitter River / Ocean'): The circular cosmic sea enclosing the familiar world.",
+            "Nagû (Outer Regions): Eight triangular realms extending beyond the Bitter Sea toward the stars.",
+            "Sippar (City of the Sun): Ancient seat of Shamash where the tablet was preserved."
+          ],
+          "sv": [
+            "Imago Mundi (Babyloniska Världskartan): Lertavla från 500-talet f.Kr. funnen i Sippar.",
+            "Marratu ('Den Bittra Floden / Urhavet'): Det ringformade världshav som omsluter det kända landet.",
+            "Nagû (Yttre Regioner): Åtta trekantiga tröskelområden bortom det Bittra Havet.",
+            "Sippar (Solens Stad): Den forntida lärdomsstad där tavlan bevarades."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kendi ‘Imago Mundi’ (Bilinen ve Bilinmeyen) Haritanı Çizmek",
+            "steps": [
+              "Boş bir kağıdın ortasına iç içe iki daire çiz: İç dairenin içine şu an çok iyi bildiğin yeteneklerini ve güvenli alanını (‘Babil ve Fırat’) yaz.",
+              "İki dairenin arasındaki halkaya ‘Marratu (Acı Deniz)’ adını ver ve yeni bir adım atarken seni durduran temel çekinceni oraya yaz.",
+              "Dış dairenin etrafına üç küçük üçgen (*Nagû*) çiz ve bu yıl Acı Deniz’i aşarak keşfetmek istediğin üç yeni ufku bu üçgenlerin içine mühürle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Drawing Your Personal 'Imago Mundi' (Map of the Known and Unknown)",
+            "steps": [
+              "On a blank page, draw a double circle: inside the inner circle write the skills and habits that currently feel safe and familiar ('Babylon and the Euphrates').",
+              "In the ring between the circles ('Marratu — the Bitter Sea'), write the single hesitation or discomfort that keeps you from expanding.",
+              "Draw three triangles (*Nagû*) pointing outward from the ring, and write inside them three new skills or horizons you commit to exploring this year."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Rita Din Egen 'Imago Mundi' (Karta över Känt och Okänt)",
+            "steps": [
+              "Rita en dubbel cirkel mitt på ett papper: skriv i den inre cirkeln det du redan behärskar och känner dig trygg i ('Babylon och Eufrat').",
+              "Skriv i ringen mellan cirklarna ('Marratu — det Bittra Havet') den tvekan eller bekvämlighet som håller dig tillbaka.",
+              "Rita tre trianglar (*Nagû*) som pekar utåt från ringen och skriv i dem tre nya kunskaper eller horisonter du vill utforska i år."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Kıyıdaki güvenli şehirde kalmak rahattır; fakat yıldız adaları (Nagû) yalnızca Acı Deniz’i geçenlere açılır.",
+          "en": "The familiar city is comfortable, yet the star-islands (Nagû) reveal themselves only to those willing to row across the Bitter Sea.",
+          "sv": "Den välkända staden är trygg, men stjärnöarna (Nagû) öppnar sig endast för den som vågar korsa det Bittra Havet."
+        }
+      },
+      {
+        "slug": "lamassu-ve-esik-muhafizlari",
+        "glyph": "XVI",
+        "image": "/mezopotamya/lamassu-ve-esik-muhafizlari.jpg",
+        "title": {
+          "tr": "Lamassu ve Šēdu: Beş Ayaklı Eşik Muhafızları ve Dört Erdem",
+          "en": "Lamassu and Šēdu: The Five-Legged Threshold Guardians and the Four Virtues",
+          "sv": "Lamassu och Šēdu: De Fembenta Tröskelväktarna och de Fyra Dygderna"
+        },
+        "subtitle": {
+          "tr": "İnsan Başlı, Kartal Kanatlı, Boğa/Aslan Gövdeli Kapı Bekçileri ve Bakır Temel Figürleri",
+          "en": "Human-Headed, Eagle-Winged, Bull- and Lion-Bodied Gate Keepers of Mesopotamia",
+          "sv": "Människohövdade, Örnvingade, Tjur- och Lejonkroppade Portväktare i Mesopotamien"
+        },
+        "summary": {
+          "tr": "Asur ve Babil saraylarının kapılarını bekleyen dev taş **Lamassu** (*Aladlammu*) heykelleri dört kutsal gücü tek bedende birleştirir: İnsan aklı, kartal görüşü, boğa sabrı ve aslan cesareti.",
+          "en": "Standing guard at the gates of Assyrian and Babylonian citadels, the monumental stone **Lamassu** (*Aladlammu*) unites four cosmic powers in a single form: Human intellect, Eagle vision, Bull endurance, and Lion courage.",
+          "sv": "Vid portarna till Assyriens och Babylons borgar förenar de monumentala stenstatyerna av **Lamassu** (*Aladlammu*) fyra kosmiska krafter i en gestalt: Människans förnuft, Örnens överblick, Tjurens tålamod och Lejonets mod."
+        },
+        "paragraphs": {
+          "tr": [
+            "Ninova, Dur-Şarrukin (Horsabad) ve Nimrud kapılarında yükselen devasa taş **Lamassu** (Sümerce: *Aladlammu*) ve **Šēdu** heykelleri, Mezopotamya mimarisinin en görkemli eşik muhafızlarıdır. Bu varlıklar birer canavar değil, insanı ve mekanı kaostan koruyan yüksek koruyucu ruhlardır.",
+            "Bir Lamassu’nun anatomisi, daha sonra Hezekiel vizyonuna, dört İncil sembolüne ve Batı astrolojisinin dört sabit burcuna (Kova, Akrep/Kartal, Boğa, Aslan) ilham veren **Dört Sabit Erdemin** birleşimidir: **Sakallı İnsan Başı** (bilgelik, söz ve akıl), **Kartal Kanatları** (yüksek bakış açısı ve özgürlük), **Boğa Gövdesi** (sarsılmaz sabır ve toprak gücü) ve **Aslan Pençeleri** (cesaret ve sınır koruması).",
+            "Asur heykeltıraşları Lamassu’ları çok ince bir optik sırla **beş bacaklı** yontmuştur: Heykele tam karşıdan baktığınızda ön iki ayağı yan yana durur (**nöbette sabit ve hareketsizdir**); yanından geçerken baktığınızda ise dört ayağı yürür haldedir (**seninle birlikte hareket eder**).",
+            "Ayrıca Mezopotamya evlerinde kapı eşiklerinin ve oda köşelerinin altına küçük kil veya bakır koruyucu figürinler gömülür ve üzerlerine *‘Kötülük dışarıda dursun, iyilik ve bereket içeri girsin’* yazılırdı."
+          ],
+          "en": [
+            "Towering at the gateways of Nineveh, Dur-Sharrukin (Khorsabad), and Nimrud, the colossal stone **Lamassu** (Sumerian: *Aladlammu*) and **Šēdu** are the supreme threshold guardians of Mesopotamian sacred architecture—protective spirits standing between the ordered city and outer chaos.",
+            "The anatomy of the Lamassu synthesizes the **Four Fixed Powers** (which later echoed in Ezekiel's cherubim and the four fixed signs of the zodiac—Aquarius, Scorpio/Eagle, Taurus, and Leo): the **Crowned Human Head** (reason, speech, and counsel), **Eagle Wings** (elevated perspective), the **Body of a Bull** (grounded endurance), and the **Claws/Flanks of a Lion** (fearless guardianship).",
+            "Assyrian sculptors carved these gate guardians with a brilliant architectural secret—**five legs**: when viewed directly from the front, the Lamassu stands planted on two forelegs in motionless vigilance; when viewed from the side as one walks through the gate, four legs stride forward in active accompaniment.",
+            "Beneath domestic thresholds and room corners, Mesopotamian builders also buried small clay or bronze apotropaic figurines inscribed: *'Let chaos halt without; let peace and blessing enter within.'*"
+          ],
+          "sv": [
+            "Vid stadsportarna i Nineve, Dur-Sharrukin och Nimrud reser sig de väldiga stenstatyerna av **Lamassu** (sumeriska: *Aladlammu*) och **Šēdu**—de främsta tröskelväktarna i mesopotamisk arkitektur, satta att vakta gränsen mellan stadens ordning och yttervärldens kaos.",
+            "Lamassus gestalt förenar **De Fyra Fasta Krafterna** (som senare återkommer i zodiakens fyra fasta tecken—Vattumannen, Skorpionen/Örnen, Oxen och Lejonet): **Människans Krönta Huvud** (visdom och ord), **Örnens Vingar** (hög blick), **Tjurens Kropp** (jordfast uthållighet) och **Lejonets Tassar** (orädd vaksamhet).",
+            "De assyriska bildhuggarna gav sina portväktare en genial optisk detalj—**fem ben**: sedd rakt framifrån står Lamassu orubbligt stilla på två framben i vakt; sedd från sidan när man passerar genom porten går den framåt på fyra ben.",
+            "Under hemmens trösklar grävde man även ned små skyddsfigurer av lera eller brons med inskriften: *'Må ofärd stanna utanför; må frid och välsignelse träda in.'*"
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Beşinci Bacağın Sırrı: Hem Sabit Durmak Hem Yürümek",
+              "body": "Karşıdan bakınca sarsılmaz bir kaya gibi duran, yandan bakınca ise adım atan Lamassu; bilge insanın hem ilkelerinde sabit hem de hayatta esnek olmasını simgeler."
+            },
+            {
+              "heading": "Dört Sabit Güç: İnsan, Kartal, Boğa ve Aslan",
+              "body": "Zodyak’ın dört sabit burcuyla (Kova, Akrep/Kartal, Boğa, Aslan) birebir örtüşen Lamassu, bir mekanı dört elementin en sağlam formuyla mühürler."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Secret of the Fifth Leg: Stillness and Motion United",
+              "body": "Standing immovable when faced head-on yet striding forward in profile, the five-legged Lamassu embodies principles that never waver alongside action that never stagnates."
+            },
+            {
+              "heading": "The Tetramorph of the Four Fixed Signs",
+              "body": "Uniting Human (Air), Eagle (Water/Sky), Bull (Earth), and Lion (Fire), the Lamassu anchors all four elemental pillars at the threshold."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Det Femte Benets Hemlighet: Stillhet och Rörelse i Ett",
+              "body": "Orubblig framifrån men vandrande från sidan påminner den fembenta Lamassu om att stå fast i sina principer och samtidigt röra sig framåt i livet."
+            },
+            {
+              "heading": "De Fyra Fasta Elementen vid Porten",
+              "body": "Genom att förena Människa (Luft), Örn (Himmel/Vatten), Tjur (Jord) och Lejon (Eld) förankrar Lamassu alla fyra elementen vid tröskeln."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Lamassu (Sümerce Lamma / Aladlammu): İnsan başlı, kanatlı boğa/aslan formundaki koruyucu eşik muhafızı.",
+            "Šēdu (Alad): İnsanın yaşam enerjisini ve vakarını koruyan refakatçi ruh.",
+            "Dört Sabit Nitelik: İnsan Aklı (Hava), Kartal Kanadı (Su/Gök), Boğa Sabrı (Toprak), Aslan Cesareti (Ateş).",
+            "Beş Bacaklı Yontu: Karşıdan sabit nöbeti, yandan ise kesintisiz yürüyüşü gösteren mimari ustalık."
+          ],
+          "en": [
+            "Lamassu (Sumerian Lamma / Aladlammu): Protective human-headed, winged bull or lion guarding the gate.",
+            "Šēdu (Alad): Tutelary spirit of vital dignity and personal protection.",
+            "The Four Fixed Virtues: Human Wisdom, Eagle Vision, Bull Patience, and Lion Courage.",
+            "Five-Legged Relief: Sculptural mastery showing both stationary guard and forward stride."
+          ],
+          "sv": [
+            "Lamassu (Sumeriska Lamma / Aladlammu): Skyddande portväktare med människohuvud, örnvingar och tjur-/lejonkropp.",
+            "Šēdu (Alad): Skyddsande för livskraft och personlig värdighet.",
+            "De Fyra Fasta Dygderna: Människans Förnuft, Örnens Överblick, Tjurens Tålamod och Lejonets Mod.",
+            "Fembent Relief: Bildhuggarkonst som förenar stillastående vakt och framåtskridande."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Kapı Eşiğinde ‘Dört Lamassu Niyeti’ Kurmak",
+            "steps": [
+              "Sabah evinin kapısından dışarı adım atarken (veya akşam eve girerken) eşikte iki saniye dur.",
+              "İçinden dört Lamassu erdemini kuşan: ‘Başım İnsan gibi bilge, bakışım Kartal gibi yüksek, adımlarım Boğa gibi sabırlı, kalbim Aslan gibi cesur olsun.’",
+              "Eşikten bu dörtlü bütünlükle geç."
+            ]
+          },
+          "en": {
+            "title": "Practice · Crossing Your Doorway with the 'Fourfold Lamassu Alignment'",
+            "steps": [
+              "As you step across the threshold of your home in the morning (or upon returning at dusk), pause for two seconds in the doorframe.",
+              "Align inwardly with the four virtues of the Lamassu: 'May my mind be clear as the Sage, my perspective wide as the Eagle, my patience steady as the Bull, and my heart brave as the Lion.'",
+              "Step across the threshold in composed strength."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Korsa Tröskeln med 'Lamassus Fyra Dygder'",
+            "steps": [
+              "Stanna till i två sekunder på tröskeln när du går hemifrån på morgonen eller kommer hem på kvällen.",
+              "Samla dig i Lamassus fyra egenskaper: 'Må min tanke vara klar som den Vise, min blick vid som Örnen, mitt steg stadigt som Tjuren och mitt hjärta modigt som Lejonet.'",
+              "Kliv över tröskeln i lugn närvaro."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Eşiğini akıl, yüksek görüş, sabır ve cesaretle bekleyen eve kaos adım atamaz.",
+          "en": "No chaos can breach a threshold guarded by reason, wide vision, patience, and courage.",
+          "sv": "Inget kaos kan bryta igenom en tröskel som vaktas av förnuft, överblick, tålamod och mod."
+        }
+      },
+      {
+        "slug": "surpu-ve-maqlu-ates-arinmasi",
+        "glyph": "XVII",
+        "image": "/mezopotamya/surpu-ve-maqlu-ates-arinmasi.jpg",
+        "title": {
+          "tr": "Šurpu ve Maqlû: Babil’de Ateşle Çözülme ve ‘Soğan Soyma’ Etiği",
+          "en": "Šurpu and Maqlû: Babylonian Fire-Release and the Ethics of 'Peeling the Onion'",
+          "sv": "Šurpu och Maqlû: Babylonisk Eldfrigörelse och 'Lökskalandets' Etik"
+        },
+        "subtitle": {
+          "tr": "Ateş Tanrısı Girra (Gibil), Yemin Çözme ve Vicdan Muhasebesi Tabletleri",
+          "en": "The Fire God Girra (Gibil), Untying Oaths, and the Tablets of Conscience",
+          "sv": "Eldguden Girra (Gibil), Att Lösa Eder och Samvetsprövningens Lertavlor"
+        },
+        "summary": {
+          "tr": "Asur ve Babil’in iki büyük arınma serisi olan **Šurpu** ve **Maqlû** (‘Yakma’), insanın kendi üzerine aldığı düğümleri ateşte sembolik olarak bir **soğanın kabuklarını soyar gibi** veya bir **hurma lifini çözer gibi** çözmesini ve derin bir vicdan muhasebesi yapmasını öğretir.",
+          "en": "Preserved on clay tablets from Nineveh, the Babylonian purification series **Šurpu** and **Maqlû** ('Burning') combine a rigorous ethical inventory of conscience with the somatic release of **peeling an onion** and **untying knotted wool**.",
+          "sv": "De babyloniska reningsserierna **Šurpu** och **Maqlû** ('Bränning') från Nineve förenar en djupgående etisk samvetsransakan med den konkreta symbolhandlingen att **skala en lök** och **knyta upp knuten ull**."
+        },
+        "paragraphs": {
+          "tr": [
+            "Ninova arşivlerinde korunan dokuz tabletlik **Šurpu** ve sekiz tabletlik **Maqlû** serileri, Mezopotamya’da ağırlaşmış bir hayatı hafifletmenin en derin psikolojik ve ritüel metinleridir. Özellikle **Šurpu Tableti II**, dünya dinler tarihinin en kapsamlı **etik vicdan muhasebesi listesini** içerir.",
+            "Tablette Āšipu (danışman), danışanın adına şu soruları tek tek sorar: *‘Acaba annesini veya babasını mı kırdı? Komşusuna sınır kazığında haksızlık mı etti? Yanlış terazi mi kullandı? Diliyle ‘evet’ derken kalbiyle ‘hayır’ mı dedi? Bir mahkumu özgür bırakabilecekken sustu mu?’* Babillilere göre insanın iç huzurunu bağlayan asıl ‘büyü’, kendi yaptığı bu etik ihlallerin ve tutmadığı sözlerin (*Māmītu*) vicdanda yarattığı düğümdür.",
+            "Bu yüzleşmenin ardından **Šurpu Tableti V–VI**’da unutulmaz bir sembolik eylem uygulanır: Danışan eline **bir baş soğan**, **bir salkım hurma** ve **bir parça yün ip** alır. Soğanın katmanlarını tek tek soyup ocak ateşine (**Ateş Tanrısı Girra / Gibil’e**) atarken şu sözler okunur: *‘Bu soğanın soyulup ateşte yandığı ve bir daha toprağa dikilip filizlenemeyeceği gibi; içimdeki keder, kırılmış yemin ve ağırlık da öylece soyulup çözülsün!’*",
+            "Bir baş soğanın katmanlarını soyarak zihindeki suçluluk ve kaygı katmanlarını somutlaştırmak, 3.000 yıl önce Babil’de uygulanan eşsiz bir somatik psikodramadır."
+          ],
+          "en": [
+            "Among the clay archives of Nineveh stand two great liturgical series—the nine-tablet **Šurpu** and eight-tablet **Maqlû**—designed to lift heavy psychological and spiritual stagnation. **Šurpu Tablet II** preserves one of antiquity's most searching **ethical inventories of conscience**.",
+            "In this tablet, the counselor (Āšipu) asks on the petitioner's behalf: *'Has he estranged father from son, or friend from companion? Did he use false scales? Did he say \"yes\" with his mouth while saying \"no\" in his heart? Did he fail to free a captive when he had the power?'* In Babylonian insight, the heaviest 'curse' (*Māmītu*) is the inner knot created when our actions betray truth and fairness.",
+            "Following this honest inventory, **Šurpu Tablets V–VI** enact a vivid somatic release: the petitioner holds **an onion**, **a cluster of dates**, and **a strand of knotted wool**. As they peel the layers of the onion one by one before the flame of the **Fire God Girra (Gibil)**, they recite: *'Just as this onion is peeled and its skin takes no root again, so may the knot, the broken oath, and the sorrow be peeled away from my heart!'*",
+            "Three millennia before modern somatic therapy, Babylonian practitioners understood that physically peeling a bulb or untying a cord signals directly to the nervous system that an inner burden has been released."
+          ],
+          "sv": [
+            "I arkiven från Nineve finns två stora rituella verk—**Šurpu** på nio tavlor och **Maqlû** på åtta tavlor—avsedda att lyfta tung livsleda och inre låsning. **Šurpu Tavla II** rymmer en av forntidens mest inträngande **etiska samvetsprövningar**.",
+            "Här ställs frågorna rakt och ärligt: *'Har han sått split mellan vänner? Har han använt falska vikter? Har han sagt \"ja\" med sin mun medan han sade \"nej\" i sitt hjärta?'* För babylonierna uppstod den tyngsta bindningen (*Māmītu*) när människan svek sitt eget samvete och sitt ord.",
+            "Efter denna rannsakan följer i **Šurpu Tavla V–VI** en konkret symbolhandling: den sökande håller **en lök**, **en klase dadlar** och **en tråd av knuten ull**. Medan man skalar lökens skikt ett efter ett inför **Eldguden Girras (Gibils)** låga uttalas orden: *'Liksom denna lök skalas och aldrig mer slår rot i jorden, så må tyngden, det brutna löftet och sorgen skalas bort från mitt sinne!'*",
+            "Tre årtusenden före modern kroppsorienterad terapi visste Babylons vise att handen som knyter upp en knut eller skalar ett skal hjälper hjärnan att släppa taget."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Šurpu Tablet II: Diliyle ‘Evet’ Derken Kalbiyle ‘Hayır’ Demek",
+              "body": "Babil etiği ikiyüzlülüğü en ağır enerji kaçağı sayar; söz ile kalbin yeniden birleşmesi arınmanın ilk şartıdır."
+            },
+            {
+              "heading": "Soğan, Hurma ve Yün İp: Somut Çözülme Sembolleri",
+              "body": "Soyut bir kaygıyı zihinde çözmek zordur; fakat elde tutulan bir ipin düğümünü çözmek veya soğanın kabuğunu soymak beynin motor merkezlerine ‘düğüm çözüldü’ sinyali gönderir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Šurpu Tablet II: Saying 'Yes' with the Mouth and 'No' in the Heart",
+              "body": "Babylonian ethics identified self-division—speaking one thing while intending another—as a primary source of inner exhaustion."
+            },
+            {
+              "heading": "The Onion, the Date Cluster, and the Knotted Wool",
+              "body": "Giving abstract guilt or worry a tangible physical form that can be peeled and untied allows the mind to experience concrete closure."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Šurpu Tavla II: Att Säga 'Ja' med Munnen och 'Nej' i Hjärtat",
+              "body": "Babylonisk etik såg kluvenheten mellan tunga och hjärta som den största källan till inre dränering."
+            },
+            {
+              "heading": "Löken, Dadelklasen och Ulltråden",
+              "body": "Genom att ge en abstrakt oro en fysisk form som kan skalas av eller knytas upp får sinnet ett påtagligt avslut."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Šurpu & Maqlû (‘Yakma’): Babil’in dokuz ve sekiz tabletlik etik ve ruhsal arınma külliyatları.",
+            "Girra / Gibil: Karanlığı aydınlatan ve madenleri saflaştıran Mezopotamya Ateş Tanrısı.",
+            "Māmītu (Yemin / Düğüm): Tutulmamış bir sözün veya haksızlığın vicdanda oluşturduğu bağ.",
+            "Soğan Soyma Sembolizmi: Üst üste binmiş kaygı ve suçluluk katmanlarını tek tek soyup bırakma.",
+            "Kalp ve Dil Birliği: ‘Diliyle evet derken kalbiyle hayır dememe’ dürüstlüğü."
+          ],
+          "en": [
+            "Šurpu & Maqlû ('Burning'): The nine- and eight-tablet Babylonian compendia of ethical and ritual release.",
+            "Girra / Gibil: Mesopotamian god of purifying fire and the smith's kiln.",
+            "Māmītu (Binding Oath / Knot): The psychological weight of an unkept promise or ethical breach.",
+            "Peeling the Onion: The Šurpu Tablet V rite of stripping away layered anxiety skin by skin.",
+            "Unity of Mouth and Heart: Integrity in which spoken word matches inward truth."
+          ],
+          "sv": [
+            "Šurpu & Maqlû ('Bränning'): De babyloniska tavlorna för etisk självrannsakan och frigörelse.",
+            "Girra / Gibil: Mesopotamiens gud för den renande elden och ugnen.",
+            "Māmītu (Bunden Ed / Knut): Den inre tyngden av ett brutet ord eller en orätt.",
+            "Att Skala Löken: Riten i Šurpu Tavla V där skikt av oro skalas bort ett efter ett.",
+            "Enhet Mellan Mun och Hjärta: Ärligheten att låta det uttalade ordet stämma med det inre."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Šurpu’ Soğan Kabuğu veya Düğüm Çözme Pratiği",
+            "steps": [
+              "Elinde küçük bir pamuk ip (veya mutfakta yemek yaparken soyduğun bir kuru soğan) tut ve üzerinde birikmiş üç ayrı stresi üç katman/düğüm olarak düşün.",
+              "Soğanın dışındaki kuru kabukları tek tek soyarken (veya ipteki üç düğümü parmaklarınla çözerken) Babil’in kadim cümlesini tekrarla: ‘Bu kabuğun soyulduğu / bu düğümün çözüldüğü gibi, üzerimdeki gereksiz yük de çözülsün.’",
+              "Soyduğun kabuğu çöpe bırak ve ellerini soğuk suyla yıka."
+            ]
+          },
+          "en": {
+            "title": "Practice · The 'Šurpu' Rite of Peeling Layers or Untying Three Knots",
+            "steps": [
+              "Take a short piece of natural string and tie three loose knots in it (or hold an onion while preparing a meal), letting each knot or outer skin represent a layer of accumulated stress.",
+              "As you untie each knot with your fingers (or peel away the dry outer skins), speak the ancient Babylonian formula: 'As this layer is peeled and this knot untied, so I release the weight I no longer need to carry.'",
+              "Wash your hands in cool water and make amends for any unspoken word."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Šurpu'-Övningen att Lösa Tre Knutar eller Skala Skikt",
+            "steps": [
+              "Ta en bit bomullssnöre och slå tre lösa knutar på det (eller håll en lök när du lagar mat), där varje knut eller torrt skal står för ett skikt av samlad stress.",
+              "Medan du knyter upp varje knut (eller skalar av det torra skalet), säg med den babyloniska formeln: 'Liksom detta skal lossnar och denna knut löses upp, släpper jag den tyngd jag inte längre behöver bära.'",
+              "Skölj händerna i svalt vatten och ställ till rätta det som behöver sägas ärligt."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Dilinin söylediği ile kalbinin bildiği bir olduğunda, hiçbir düğüm (Māmītu) seni bağlayamaz.",
+          "en": "When what your mouth speaks and what your heart knows are one, no knot (Māmītu) can bind you.",
+          "sv": "När det din mun talar och det ditt hjärta vet är ett kan ingen knut (Māmītu) binda dig."
+        }
+      },
+      {
+        "slug": "akitu-bahar-ekinoksu-ve-tevazu",
+        "glyph": "XVIII",
+        "image": "/mezopotamya/akitu-bahar-ekinoksu-ve-tevazu.jpg",
+        "title": {
+          "tr": "Akītu: Babil Bahar Yeni Yılı ve Kralın Tevazu Sınavı",
+          "en": "Akītu: The Babylonian Spring New Year and the Ordeal of Humility",
+          "sv": "Akītu: Det Babyloniska Vårnyåret och Ödmjukhetens Prövning"
+        },
+        "subtitle": {
+          "tr": "Nisanu Ayının On İki Günü, Kralın Asa ve Tacını Bırakması ve Kozmik Yenilenme",
+          "en": "The Twelve Days of Nisanu, the Stripping of the King's Regalia, and Cosmic Renewal",
+          "sv": "De Tolv Dagarna i Månaden Nisanu, Kungens Nedlagda Krona och Kosmisk Förnyelse"
+        },
+        "summary": {
+          "tr": "Mezopotamya’da yıl, kışın karanlığında değil Bahar Ekinoksunda (**Akītu** festivaliyle, *Nisanu* ayının ilk yeni ayında) başlardı; törenin beşinci gününde Babil Kralı bile tacını çıkarıp diz çöker ve halka zulmetmediğine dair hesap verirdi.",
+          "en": "In Mesopotamia, the New Year began at the Spring Equinox with the twelve-day **Akītu** festival; on the fifth day, even the King of Babylon was stripped of crown and scepter, brought to his knees, and required to answer for his justice.",
+          "sv": "I Mesopotamien började det nya året vid vårdagjämningen med den tolv dagar långa **Akītu**-högtiden; på den femte dagen fråntogs till och med Babylons kung sin krona och spira för att på knä avlägga räkenskap för sin rättvisa."
+        },
+        "paragraphs": {
+          "tr": [
+            "Sümer’de *Á-ki-ti* (Arpa Hasadı ve Ekim Festivali) olarak başlayan ve Babil’de **12 gün süren ‘Akītu’ Yeni Yıl Töreni**’ne dönüşen bahar ekinoksu kutlaması, antik dünyanın en derin toplumsal ve kozmik yenilenme ritüeliydi. İlk dört gün şehir arındırılır ve tapınakta *Enûma Eliş* yaratılış destanı okunurdu.",
+            "Ancak törenin en sarsıcı anı **beşinci günde** yaşanırdı: Kudretli Babil Kralı Esagila tapınağına girdiğinde, Başrahip (*Šešgallu*) kralın elindeki **asayı, yüzüğü, silahı ve kraliyet tacını alır**, bunları sunağın üzerine koyar; ardından kralı diz çöktürüp kulağını çeker ve yanağına bir tokat vururdu! Eğer kralın gözlerinden yaş gelirse (kibirlenmeyip tevazu gösterirse), Marduk’un ondan razı olduğu anlaşılırdı.",
+            "Diz çökmüş kral şu tarihi yemini ederdi: *‘Günah işlemedim, Babil’i ihmal etmedim, bana emanet edilen halkın yanağına vurmadım, onları aşağılamadım ve sınırlarını korudum.’* Ancak bu özeleştiriden sonra asası ve tacı kendisine geri verilirdi.",
+            "Akītu’nun beşinci günü, her insanın yılda en az bir kez (bahar başında) kendi unvanını, egosunu ve kibrini masanın üzerine bırakıp kendi vicdanına ‘Bana emanet edilen hayata ve insanlara adil davrandım mı?’ diye hesap vermesidir."
+          ],
+          "en": [
+            "Originating in Sumer as the *Á-ki-ti* festival of barley and spring sowing, the twelve-day Babylonian **Akītu** celebrated in the first month of **Nisanu** (around the vernal equinox) was antiquity's grandest rite of cosmic and civic renewal. During the opening days, the city was purified and the creation epic *Enûma Eliš* was chanted.",
+            "Yet the most extraordinary moment arrived on the **fifth day**: when the King of Babylon entered the sanctuary of Esagila, the High Priest (*Šešgallu*) **stripped the king of his scepter, ring, weapon, and royal crown**, laid them before the altar, brought the monarch to his knees, and struck his cheek! If tears came to the king's eyes—showing genuine humility rather than arrogance—the sign was auspicious.",
+            "Kneeling without his regalia, the king spoke his Negative Confession: *'I have not sinned, I have not neglected the city, I have not struck the cheek of the people entrusted to my care, nor humiliated them.'* Only after this reckoning were his crown and scepter restored.",
+            "The fifth day of Akītu teaches a timeless practice: at the turn of each season or year, we must voluntarily lay down our titles and pride, examine how we have treated those in our care, and renew our stewardship in humility."
+          ],
+          "sv": [
+            "Med rötter i det sumeriska *Á-ki-ti* utvecklades det tolv dagar långa babyloniska **Akītu**-firandet i månaden **Nisanu** (kring vårdagjämningen) till forntidens främsta högtid för kosmisk och samhällelig förnyelse. Under de första dagarna renades staden och skapelseeposet *Enûma Eliš* reciterades.",
+            "Det mest omvälvande ögonblicket inträffade på **den femte dagen**: när Babylons kung trädde in i Esagila-helgedomen **tog översteprästen (*Šešgallu*) ifrån kungen hans spira, ring, vapen och kungakrona**, lät honom falla på knä och gav honom ett slag på kinden! Om tårar steg i kungens ögon—som tecken på uppriktig ödmjukhet utan högmod—var tecknet gott.",
+            "Knäböjande utan sina regalier uttalade kungen sin räkenskap: *'Jag har inte försummat staden, jag har inte slagit eller förödmjukat det folk som anförtrotts i min vård.'* Först efter denna prövning återfick han krona och spira.",
+            "Akītus femte dag rymmer en tidlös visdom: vid varje ny årscykel behöver vi frivilligt lägga ned våra titlar och vårt högmod, rannsaka hur vi burit vårt ansvar och förnya vårt uppdrag i ödmjukhet."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Tacın Alındığı Gün: Gücün Tevazu İle Sıfırlanması",
+              "body": "Kralın yılda bir kez tüm yetki sembollerinden soyundurulması, hiçbir dünyevi makamın adaletten ve doğa yasasından üstün olmadığını hatırlatan anayasal bir dengeydi."
+            },
+            {
+              "heading": "12 Gün ve 12 Ay: Yılın Tohumunu Atmak",
+              "body": "Akītu’nun 12 günü, başlayacak olan yeni yılın 12 ayının provasıydı; şehir kavgayı bırakıp düzeni yenilediğinde bütün yıl bereketle mühürlenirdi."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Day the Crown Is Laid Down: Power Reset Through Humility",
+              "body": "Stripping the monarch of his insignia once a year affirmed that no human office stands above ethical law and accountability."
+            },
+            {
+              "heading": "Twelve Days for Twelve Months: Seeding the Year",
+              "body": "The twelve days of Akītu mirrored the twelve months ahead—reconciling debts and restoring order before the new agricultural cycle began."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Dagen Då Kronan Läggs Ned: Maktens Nollställning i Ödmjukhet",
+              "body": "Att kungen en gång om året fråntogs sina makttecken visade att inget mänskligt ämbete står över rättrådigheten."
+            },
+            {
+              "heading": "Tolv Dagar för Tolv Månader: Att Så det Nya Året",
+              "body": "Akītus tolv dagar speglade årets tolv kommande månader och gav rum att göra upp skulder och förnya ordningen."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Akītu (Sümerce Á-ki-ti): Bahar ekinoksunda (*Nisanu* ayında) kutlanan 12 günlük Mezopotamya Yeni Yılı.",
+            "Nisanu (Nisan): Babil takviminin Koç burcu ve bahar filiziyle başlayan birinci ayı.",
+            "Beşinci Gün Sınavı: Kralın tacını ve asasını bırakıp vicdan ve adalet hesabı verdiği gün.",
+            "Šešgallu (Başrahip): Krala bile adaleti ve faniliği hatırlatan tapınak büyüğü.",
+            "Bīt Akīti (Akītu Evi): Şehrin dışında doğayla yeniden buluşulan festival bahçesi."
+          ],
+          "en": [
+            "Akītu (Sumerian Á-ki-ti): The 12-day Mesopotamian New Year festival held at the Spring Equinox.",
+            "Nisanu: The first month of the Babylonian year, opening with the vernal new moon.",
+            "The Fifth-Day Reckoning: The rite in which the king laid down crown and scepter in humility.",
+            "Šešgallu (High Priest): Keeper of the sanctuary who reminded even the ruler of accountability.",
+            "Bīt Akīti (Akītu House): The sanctuary outside the city walls where the spring procession culminated."
+          ],
+          "sv": [
+            "Akītu (Sumeriska Á-ki-ti): Den 12 dagar långa mesopotamiska nyårshögtiden vid vårdagjämningen.",
+            "Nisanu: Den första månaden i den babyloniska kalendern.",
+            "Femtedagsprövningen: Riten där kungen lade ned krona och spira för att avlägga räkenskap.",
+            "Šešgallu (Överstepräst): Helgedomens väktare som påminde även härskaren om ansvar.",
+            "Bīt Akīti (Akītu-Huset): Helgedomen utanför stadsmuren där vårprocessionen mötte naturen."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Yıllık / Mevsimlik ‘Akītu Beşinci Gün’ Öz-Hesaplaşması",
+            "steps": [
+              "Üzerindeki statüyü, iş unvanını ve haklı çıkma arzusunu (kendi sembolik tacını ve asanı) 10 dakikalığına bir kenara bırak.",
+              "Kendi vicdanının önünde dürüstçe şu üç soruyu cevapla: ‘1. Bana güvenen insanları kırdım mı? 2. Kendi bedenimi ve sağlığımı ihmal ettim mi? 3. Elimdeki imkanı adil kullandım mı?’",
+              "Eksik bıraktığın yeri düzeltmeye söz vererek ‘tacını’ (öz-saygını ve sorumluluğunu) daha temiz bir bilinçle yeniden giy."
+            ]
+          },
+          "en": {
+            "title": "Practice · The 'Fifth Day of Akītu' Seasonal Self-Reckoning",
+            "steps": [
+              "For ten minutes, mentally set aside your job title, status, and desire to be right (your symbolic crown and scepter).",
+              "Ask your own conscience three honest questions: '1. Have I humiliated or neglected anyone entrusted to my care? 2. Have I neglected my own body and hearth? 3. Have I kept my word?'",
+              "Resolve to make amends where needed, and then pick up your responsibility ('crown') again with clean humility."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Akītus Femte Dag' — Årstidens Självrannsakan",
+            "steps": [
+              "Lägg under tio minuter mentalt ifrån dig dina titlar, din roll och ditt behov av att ha rätt (din symboliska krona och spira).",
+              "Ställ dig själv tre ärliga frågor inför ditt samvete: '1. Har jag försummat eller sårat någon som anförtrotts min omtanke? 2. Har jag vårdat min kropp och mitt hem? 3. Har jag hållit mitt ord?'",
+              "Bestäm dig för att ställa det som brustit till rätta och bär sedan ditt ansvar ('kronan') med ny ödmjukhet."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Tacını yılda bir kez tevazu ile yere koyabilen insan, geri kalan üç yüz altmış dört gün onu onurla taşır.",
+          "en": "Whoever can lay down their crown in humility once a year wears it with genuine honor the other three hundred and sixty-four days.",
+          "sv": "Den som en gång om året kan lägga ned sin krona i ödmjukhet bär den med sann heder under årets övriga dagar."
+        }
+      },
+      {
+        "slug": "eridu-yedi-bilgesi-apkallu",
+        "glyph": "XIX",
+        "image": "/mezopotamya/eridu-yedi-bilgesi-apkallu.jpg",
+        "title": {
+          "tr": "Yedi Apkallu (Abgal): Eridu’nun Tufan Öncesi Yedi Bilgesi",
+          "en": "The Seven Apkallu (Abgal): The Antediluvian Sages of Eridu",
+          "sv": "De Sju Apkallu (Abgal): Eridus Sju Vise Före Floden"
+        },
+        "subtitle": {
+          "tr": "Adapa (Uanna), Enki’nin Tatlı Sularından Çıkan Sanatlar ve Kozmik Medeniyet",
+          "en": "Adapa (Uanna), the Arts Drawn from Enki's Sweet Waters, and the Bucket and Cone",
+          "sv": "Adapa (Uanna), Konsterna ur Enkis Djupa Vatten samt Hinken och Kotten"
+        },
+        "summary": {
+          "tr": "Mezopotamya geleneğinde insanlığa yazıyı, mimariyi, tarımı, tıbbı ve yıldız bilimini öğretenler savaşçılar değil; Enki’nin (Ea) derin tatlı su okyanusundan (Abzu) yükselen **Yedi Apkallu** (Sümerce: *Abgal*) bilgesidir.",
+          "en": "In Mesopotamian tradition, civilization—writing, architecture, medicine, and astronomy—was brought to humanity not by conquerors, but by the **Seven Apkallu** (Sumerian: *Abgal*), sages sent from the deep sweet waters (Abzu) of Enki at Eridu.",
+          "sv": "I mesopotamisk tradition skänktes kulturens konster—skrift, byggnadskonst, läkekonst och stjärnkunskap—inte av krigare, utan av **De Sju Apkallu** (sumeriska: *Abgal*), de vise som steg upp ur Enkis djupa sötvatten (Abzu) i Eridu."
+        },
+        "paragraphs": {
+          "tr": [
+            "Sümer ve Babil tarihyazımında (ve Babilli rahip Berossos’un *Babyloniaca* eserinde), Büyük Tufan’dan önce en eski şehir olan **Eridu**’ya (Abzu’nun kapısına) Enki/Ea tarafından gönderilen **Yedi Büyük Bilge**’den (**Yedi Apkallu** / Sümerce *Abgal*) söz edilir.",
+            "Bu yedi bilgenin birincisi ve en ünlüsü **Uanna**’dır (**Adapa** — Berossos’un kaydında *Oannes*): Derin bilgelik sularından (Abzu) çıktığını simgelemek üzere **balık pelerini giymiş bir bilge** veya **elinde arınma kovası (*Banduddû*) ve çam kozalağı (*Mullilu*) taşıyan kanatlı insan** olarak kabartmalara işlenmiştir. Uanna ve ardındaki altı Apkallu, insanlığa kan dökerek değil; geometriyi, tapınak mimarisini, sulama kanallarını, bitki bilgisini ve adil yasaları öğreterek uygarlığı kurmuştur.",
+            "Birinci bilge **Adapa**’nın kendi destanında (*Adapa ve Güney Rüzgarı*), Enki’nin ona ‘bilgeliği verdiği ama sonsuz bedensel ömrü vermediği’ anlatılır. Gökyüzü Tanrısı Anu’nun huzuruna çıkan Adapa, dürüstlüğüyle Anu’nun saygısını kazanır ve ölümlü insanın payının ‘bilgelik ve uyanıklık’ olduğunu mühürler.",
+            "Asur saray kabartmalarında elinde çam kozalağı (*Mullilu*) ve su kovası (*Banduddû*) tutan Apkallu figürleri, bilginin kibirle değil, doğanın tohumu (kozalak) ve Abzu’nun berrak suyuyla (kova) insanı uyandırdığını hatırlatır."
+          ],
+          "en": [
+            "In Sumerian and Babylonian historiography (and in the *Babyloniaca* of the Babylonian priest Berossus), before the Great Flood seven luminous teachers—the **Seven Apkallu** (Sumerian: *Abgal*)—rose from the sanctuary of **Eridu** at the command of Enki/Ea to instruct humankind in the arts of civilization.",
+            "First and foremost among them was **Uanna** (**Adapa**—called *Oannes* by Berossus). On Mesopotamian reliefs and cylinder seals, the Apkallu are depicted either cloaked in the scales of the deep-water carp (symbolizing their origin in the Abzu) or as winged sages holding in one hand the **ritual bucket (*Banduddû*)** and in the other the **purifying pine cone or date-spathe (*Mullilu*)**.",
+            "In the myth of **Adapa and the South Wind**, Enki grants Adapa vast wisdom (*nemequ*) though not physical immortality. Ascending to the heaven of Anu, Adapa wins respect through his candor—establishing the archetype of 'wise Adapa' (*emqu Adapa*) as the measure of human intelligence.",
+            "The iconic bucket and cone held by the Apkallu embody the twin duties of every scholar: drawing deep water from the source (*Banduddû*) and pollinating the living world with fruitful action (*Mullilu*)."
+          ],
+          "sv": [
+            "I sumerisk och babylonisk historieskrivning (samt hos den babyloniske prästen Berossos) berättas hur **De Sju Vise** (**Apkallu** / sumeriska *Abgal*) före den stora floden sändes ut från den uråldriga staden **Eridu** av visdomsguden Enki/Ea för att undervisa människorna.",
+            "Den främste av dessa sju var **Uanna** (**Adapa**—kallad *Oannes* hos Berossos). På assyriska och babyloniska reliefer avbildas Apkallu antingen i fiskmantel (som tecken på deras ursprung i Abzus djup) eller som bevingade vise med en **vattenhink (*Banduddû*)** i vänster hand och en **tallkotte eller dadelblomma (*Mullilu*)** i höger hand.",
+            "I berättelsen om **Adapa och Sydvinden** får Adapa djup visdom (*nemequ*) av Enki men inte evigt kroppsligt liv. Hans namn levde vidare i uttrycket 'vis som Adapa'—urbilden för mänsklig urskillning.",
+            "Hinken och kotten i Apkalluns händer sammanfattar varje sökares dubbla uppgift: att hämta djup kunskap ur källan (*Banduddû*) och att befrukta världen genom konkret handling (*Mullilu*)."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Kova (Banduddû) ve Çam Kozalağı (Mullilu) Sembolizmi",
+              "body": "Apkallu kabartmalarında sol eldeki kova Abzu’nun bilgelik suyunu, sağ eldeki çam kozalağı ise hayat ağacını dölleyen ve bilinci uyandıran tohumu temsil eder."
+            },
+            {
+              "heading": "Adapa: Gökyüzüne Çıkan İlk Ölümlü Bilge",
+              "body": "Adapa miti, insanın tanrılaşmaya çalışmak yerine ‘Adapa gibi bilge’ (*emqu Adapa*) olarak kendi insanlık onurunu gerçekleştirmesini öğütler."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Symbolism of the Bucket (Banduddû) and Cone (Mullilu)",
+              "body": "In Assyrian reliefs, the bucket in the left hand holds the deep waters of the Abzu (receptive wisdom), while the pine cone in the right hand blesses and pollinates the Sacred Tree (active service)."
+            },
+            {
+              "heading": "Adapa: The Archetype of the Wise Mortal",
+              "body": "The tale of Adapa teaches that human dignity lies not in escaping mortality, but in cultivating lucid wisdom on earth."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Hinken (Banduddû) och Kotten (Mullilu)",
+              "body": "Hinken i vänster hand bär Abzus djupa visdomsvatten (mottagande studium), medan kotten i höger hand välsignar Livets Träd (aktivt skapande)."
+            },
+            {
+              "heading": "Adapa: Urbilden för den Vise Dödliga",
+              "body": "Myten om Adapa lär att människans storhet ligger i att bruka sitt förnuft och sin vaksamhet här på jorden."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Yedi Apkallu (Sümerce Abgal): Tufan öncesinde Eridu’dan çıkarak insanlığa sanat ve bilimi öğreten yedi bilge.",
+            "Uanna / Adapa (Oannes): Yedi bilgenin ilki; Eridu’nun baş-bilgesi ve ‘bilge insan’ arketipi.",
+            "Banduddû (Su Kovası): Apkallu’nun sol elinde taşıdığı, Abzu’nun derin bilgelik suyunu simgeleyen kap.",
+            "Mullilu (Arındırıcı Kozalak): Sağ elde tutulan, Hayat Ağacı’na ve bilince tutulan çam kozalağı / hurma çiçeği.",
+            "Eridu: Mezopotamya’da bilgeliğin ve Abzu tapınağının (*E-abzu*) kurulduğu ilk şehir."
+          ],
+          "en": [
+            "Seven Apkallu (Sumerian Abgal): The seven antediluvian sages who taught humanity the arts of civilization.",
+            "Uanna / Adapa (Oannes): First of the Seven Sages and steward of Eridu.",
+            "Banduddû (Ritual Bucket): Vessel of Abzu-water held in the sage's left hand (receptive study).",
+            "Mullilu (Purifying Cone): Pine cone or date-spathe held in the right hand (active blessing and craft).",
+            "Eridu: The oldest city of Southern Mesopotamia and seat of Enki's *E-abzu* temple."
+          ],
+          "sv": [
+            "De Sju Apkallu (Sumeriska Abgal): De sju urtida vise som lärde människan kulturens och vetenskapens grunder.",
+            "Uanna / Adapa (Oannes): Den förste av de sju vise från Eridu.",
+            "Banduddû (Vattenhink): Kärlet med Abzu-vatten i den vises vänstra hand.",
+            "Mullilu (Renande Kotte): Tallkotten i höger hand som symbol för livskraft och välsignelse.",
+            "Eridu: Mesopotamiens äldsta stad och platsen för Enkis *E-abzu*-helgedom."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Su Kovası ve Çam Kozalağı’ (Almak ve Üretmek) Tefekkürü",
+            "steps": [
+              "Apkallu bilgesinin iki elindeki iki sembolü kendi hayatında yokla: **Sol El (Banduddû / Su Kovası):** ‘Bugün zihnimi hangi derin ve temiz kaynaktan (kitap, doğa, sessizlik) besliyorum?’",
+              "**Sağ El (Mullilu / Kozalak):** ‘Öğrendiğim bu bilgiyi çevreme ve işime nasıl somut bir tohum/fayda olarak sunuyorum?’",
+              "Sadece tüketen veya sadece tükenen olmamak için bugün hem bir sayfa derin bilgi oku (Kova) hem de bir somut üretim yap (Kozalak)."
+            ]
+          },
+          "en": {
+            "title": "Practice · Balancing the 'Bucket and the Cone' (Study and Service)",
+            "steps": [
+              "Contemplate the two implements of the Apkallu in your own daily life: **Left Hand (Banduddû / The Bucket):** 'From what deep, unpolluted well of knowledge or silence am I filling my mind today?'",
+              "**Right Hand (Mullilu / The Cone):** 'How am I applying what I know to nourish and uplift the work and people around me?'",
+              "Today, dedicate twenty minutes to deep study (filling the Bucket) and one concrete act of craftsmanship or help (offering the Cone)."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Jämvikten Mellan 'Hinken och Kotten' (Kunskap och Handling)",
+            "steps": [
+              "Se på Apkalluns två redskap i din egen vardag: **Vänster Hand (Banduddû / Hinken):** 'Ur vilken ren och djup källa (studier, natur, tystnad) fyller jag mitt sinne i dag?'",
+              "**Höger Hand (Mullilu / Kotten):** 'Hur omsätter jag det jag lärt mig till konkret nytta för min omgivning?'",
+              "Avsätt i dag både en stund åt fördjupat lärande (Hinken) och en konkret skapande handling (Kotten)."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Sol elinde Abzu’nun suyunu taşıyan, sağ elindeki kozalakla çorak toprağı yeşertir.",
+          "en": "Whoever carries the water of the Abzu in the left hand makes the dry earth blossom with the cone in the right.",
+          "sv": "Den som bär Abzus klara vatten i vänster hand får den torra jorden att grönska med kotten i den högra."
+        }
+      },
+      {
+        "slug": "samas-kittum-ve-kozmik-adalet",
+        "glyph": "XX",
+        "image": "/mezopotamya/samas-kittum-ve-kozmik-adalet.jpg",
+        "title": {
+          "tr": "Şamaş (Utu), ‘Kittum u Mīšarum’ ve Kozmik Adalet",
+          "en": "Shamash (Utu), 'Kittum u Mīšarum', and Cosmic Justice",
+          "sv": "Shamash (Utu), 'Kittum u Mīšarum' och Kosmisk Rättvisa"
+        },
+        "subtitle": {
+          "tr": "Her Şeyi Gören Güneş, Hammurabi Dikilitaşı ve Hakikat ile Merhametin Terazisi",
+          "en": "The All-Seeing Sun, the Stele of Hammurabi, and the Balance of Truth and Equity",
+          "sv": "Den Allseende Solen, Hammurabis Stele och Balansen Mellan Sanning och Billighet"
+        },
+        "summary": {
+          "tr": "Mezopotamya salonunun yirminci ve son kapısı, Güneş Tanrısı **Şamaş**’ın (Sümerce: *Utu*) önüne açılır: Onun yasası **‘Kittum’** (sarsılmaz kozmik hakikat/doğruluk) ile **‘Mīšarum’**un (insani adalet ve borçları sıfırlayan merhametin) kusursuz birliğidir.",
+          "en": "The twentieth and final door of the Mesopotamian Hall opens before the Sun God **Shamash** (Sumerian: *Utu*): his law unites **'Kittum'** (immutable cosmic truth) with **'Mīšarum'** (living equity, fairness, and compassionate restoration).",
+          "sv": "Det tjugonde och sista rummet i Mesopotamiens hall öppnar sig inför Solguden **Shamash** (sumeriska: *Utu*): hans lag förenar **'Kittum'** (orubblig kosmisk sanning) med **'Mīšarum'** (levande rättvisa, billighet och barmhärtighet)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Sümer’de **Utu**, Akad ve Babil’de **Şamaş** olarak onurlandırılan Güneş Tanrısı, sabahları Doğu Dağlarının (*Mašu*) kapılarını testeresiyle keserek doğar ve gökyüzünü boydan boya geçerken yeryüzündeki hiçbir çatının, hiçbir gizli anlaşmanın ve hiçbir mahkemenin ondan saklanamadığı **‘Her Şeyi Gören Göz’** olur.",
+            "Ünlü **Hammurabi Kanunları Dikilitaşı**’nın (MÖ 18. yüzyıl, bazalt stel) en tepesinde Kral Hammurabi kendi gücünü övmez; tahtta oturan Güneş Tanrısı Şamaş’ın önünde saygıyla ayakta durur ve Şamaş’ın elinden **‘Halkayık (Halkalı Çember) ve Ölçü Çubuğu’**nu (*Rod and Ring* — doğru ölçü ve sınır sembollerini) teslim alır. Dikilitaşın amacı açıkça yazılmıştır: *‘Güçlünün zayıfı ezmemesi, yetime ve dula adalet sağlanması için.’*",
+            "Babil hukuk ve ahlak felsefesi iki kavramın dengesi üzerine kuruludur: Birincisi **‘Kittum’**dur (*Sabit Hakikat, Doğruluk ve Kozmik Yasa* — Güneşin her gün şaşmadan doğması gibi değişmez doğruluk). İkincisi ise **‘Mīšarum’**dur (*Düzeltme, Hakkaniyet ve Merhamet* — borç kölesi olmuş yoksulların borçlarının silinip hayata yeniden başlatılması).",
+            "Mezopotamya salonunun son sözü budur: Yıldızları okumak, rüyaları çözmek ve tabletleri bilmek güzeldir; fakat **Kittum** (dürüstlük) ve **Mīšarum** (zayıfı koruyan adalet) olmadan hiçbir ruhsal bilgi Şamaş’ın güneşinin altında ayakta kalamaz."
+          ],
+          "en": [
+            "Revered as **Utu** in Sumer and **Shamash** in Akkad and Babylon, the Sun God rises each dawn through the twin peaks of Mount *Mašu*, crossing the vault of heaven as the **All-Seeing Eye** from whom no hidden contract, false weight, or injustice can be concealed.",
+            "At the summit of the famous black basalt **Stele of Hammurabi** (18th century BCE), King Hammurabi stands in humble reverence before the enthroned Shamash, receiving from the Sun God's hand the **Rod and Ring**—the architect's measuring rod and coiled cord of just proportion. The prologue states the monument's purpose in timeless words: *'So that the strong may not oppress the weak, and justice be given to the orphan and the widow.'*",
+            "Babylonian legal and ethical philosophy rests upon the twin pillars of **'Kittum u Mīšarum'**: **Kittum** is steadfast truth, mathematical accuracy, and cosmic law—unwavering as the sunrise; **Mīšarum** is equity, compassionate rectification, and the lifting of crushing debt so that the vulnerable may stand upright again.",
+            "Here is the culminating teaching of the Mesopotamian Hall: reading the stars, interpreting dreams, and mastering clay tablets mean nothing unless wedded to **Kittum** (honesty) and **Mīšarum** (fairness toward the vulnerable) beneath the open light of the Sun."
+          ],
+          "sv": [
+            "Vördad som **Utu** i Sumer och **Shamash** i Akkad och Babylon stiger Solguden varje gryning upp mellan *Mašu*-bergens tvillingtoppar och färdas över himlavalvet som det **Allseende Ögat**, för vilket inget falskt mått eller svek i mörkret kan döljas.",
+            "Längst upp på den berömda svarta basaltstelen med **Hammurabis lagar** (1700-talet f.Kr.) står kung Hammurabi i vördnad inför den tronande Shamash och tar ur solgudens hand emot **Staven och Ringen** (*Rod and Ring*)—byggmästarens mätstav och mätsnöre. I prologen anges lagens syfte med odödliga ord: *'För att den starke inte ska förtrycka den svage.'*",
+            "Babylonisk rätts- och moralfilosofi vilar på dubbelbegreppet **'Kittum u Mīšarum'**: **Kittum** är den fasta sanningen, det ärliga måttet och den kosmiska ordningen; **Mīšarum** är billigheten, omtanken och återställandet av balansen så att den utsatte kan resa sig.",
+            "Detta är den Mesopotamiska hallens slutord: stjärnkunskap, drömtydning och lertavlor får sitt sanna värde först när de förenas med **Kittum** (omutlig ärlighet) och **Mīšarum** (rättvisa mot den svage) under solens öppna ljus."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Halka ve Ölçü Çubuğu (Rod and Ring): Mimarın İpi",
+              "body": "Şamaş’ın elinde tuttuğu çember ve çubuk, antik mimarların temel kazarken kullandığı ölçü ipi ve cetveldir; adalet göz kararıyla değil, şaşmaz ölçüyle kurulur."
+            },
+            {
+              "heading": "Kittum ve Mīšarum: Yasa ile Merhametin Dengesi",
+              "body": "Sadece katı kural (Kittum) acımasızlık doğurabilir, sadece gevşek af ise düzeni bozar; Babil bilgeliği değişmez doğruluk (Kittum) ile insani hakkaniyeti (Mīšarum) tek terazide birleştirir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Rod and Ring: The Architect's Cord of Measure",
+              "body": "Held in the hand of Shamash, the rod and ring represent the builder's straightedge and measuring line—signifying that justice is built upon fair, transparent measure."
+            },
+            {
+              "heading": "Kittum and Mīšarum: Wedding Law to Compassion",
+              "body": "Rigid rule alone becomes cruelty, while unprincipled leniency breeds chaos; Babylonian wisdom joins unchanging truth (Kittum) with humane equity (Mīšarum)."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Staven och Ringen: Byggmästarens Mått",
+              "body": "Staven och ringen i Shamashs hand är arkitektens mätstav och mätsnöre—en bild av att rättvisa byggs med raka mått och klara gränser."
+            },
+            {
+              "heading": "Kittum och Mīšarum: Lag Förenad med Medmänsklighet",
+              "body": "Blott hård lag blir obarmhärtig, medan godtycke skapar kaos; babylonisk visdom förenar fast sanning (Kittum) med mänsklig rättvisa (Mīšarum)."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Şamaş (Sümerce Utu): Güneşin, aydınlığın, yeminlerin ve her şeyi gören adaletin efendisi.",
+            "Kittum: Evrensel doğruluk, sarsılmaz hakikat ve kozmik düzen.",
+            "Mīšarum: Toplumsal hakkaniyet, zayıfı koruma ve bozulan dengeyi onarma ilkesi.",
+            "Halka ve Çubuk (Rod & Ring): Doğru ölçüyü ve adil sınırı simgeleyen kadim Mezopotamya amblemi.",
+            "Büyük Şamaş İlahisi: Dürüst tüccarı ve doğru sözlü insanı öven 200 satırlık Babil bilgelik şiiri."
+          ],
+          "en": [
+            "Shamash (Sumerian Utu): Solar deity of light, oaths, clear vision, and universal justice.",
+            "Kittum: Immutable truth, honest measure, and cosmic order.",
+            "Mīšarum: Living equity, protection of the vulnerable, and restoration of balance.",
+            "Rod & Ring: Ancient Mesopotamian emblem of the measuring rod and cord of just proportion.",
+            "Great Hymn to Shamash: The 200-line Babylonian wisdom poem praising the honest merchant and truthful judge."
+          ],
+          "sv": [
+            "Shamash (Sumeriska Utu): Solens, ljusets, edernas och den allseende rättvisans gudom.",
+            "Kittum: Orubblig sanning, rätt mått och kosmisk lag.",
+            "Mīšarum: Levande billighet, skydd för den svage och återställd jämvikt.",
+            "Stav & Ring (Rod & Ring): Mesopotamiskt tecken för mätstaven och mätsnöret.",
+            "Den Stora Shamash-Hymnen: Den 200 rader långa babyloniska visdomsdikten om ärligt mått och sanning."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Gün Ortasında ‘Şamaş’ın Güneşi Altında’ Dürüstlük Tartısı",
+            "steps": [
+              "Öğle vakti güneş en tepedeyken pencereden ışığa bak veya güneşe çık.",
+              "Bugün elindeki bir işi veya insanlarla olan bir hesabını iki kefede tart: **1. Kittum (Doğruluk):** ‘Bu işte tamamen şeffaf ve dürüst müyüm, güneşin altında saklayacağım bir şey var mı?’",
+              "**2. Mīšarum (Hakkaniyet):** ‘Gücümün yettiği yerde karşımdaki insana adil ve merhametli davranıyor muyum?’ İki kefeyi eşitleyen adımı hemen bugün at."
+            ]
+          },
+          "en": {
+            "title": "Practice · The Midday 'Scales of Shamash' Integrity Check",
+            "steps": [
+              "At midday when the sun stands highest, step into the light or face an open window.",
+              "Weigh a current transaction or relationship on the twin scales of Shamash: **1. Kittum (Truth):** 'Is my conduct here completely transparent—would I be proud of it in full sunlight?'",
+              "**2. Mīšarum (Equity):** 'Where I hold the advantage, am I treating the other person with fairness and generosity?' Take one concrete action today to balance the scales."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Middagstidens 'Shamash-Våg' för Ärlighet och Rättvisa",
+            "steps": [
+              "Mitt på dagen när solen står som högst, ställ dig i dagsljuset eller vid ett fönster.",
+              "Väg en aktuell fråga eller relation i Shamashs två vågskålar: **1. Kittum (Sanning):** 'Är mitt handlande här helt öppet och ärligt—tål det fullt solljus?'",
+              "**2. Mīšarum (Billighet):** 'Där jag har övertaget, handlar jag rättvist och storsint mot den andre?' Ta ett konkret steg i dag för att ställa vågen i jämvikt."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Güneş (Şamaş) her çatıdan içeri bakar; gizlisi saklısı olmayan ve ölçüsü doğru olan insan ise ışığın altında başı dik yürür.",
+          "en": "The Sun (Shamash) looks through every roof; whoever keeps an honest measure and nothing hidden walks upright in the light.",
+          "sv": "Solen (Shamash) ser in genom varje tak; den som håller rätt mått och inget döljer vandrar rakryggad i ljuset."
+        }
       }
     ]
   },
@@ -3275,9 +8073,9 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
       "sv": "Witchcraft"
     },
     "line": {
-      "tr": "Yeşil Ahit ve Ocak Bilgisi: Dioscorides’ten bugüne aktar ilmi, Anadolu reçineleri, dört element, su gözlemi ve doğa etiği.",
-      "en": "The Green Covenant and Hearth Lore: authentic herbalism from Dioscorides to field craft, Anatolian resins, the four elements, and natural ethics.",
-      "sv": "Det Gröna Förbundet och Härdkunskap: autentisk örtlära från Dioskorides till fältpraktik, anatoliska hartser, de fyra elementen och naturetik."
+      "tr": "Yeşil Ahit: Dokuz Kutsal Ot, reçineler, mutfak ve apotek simyası, Galdrastafir mühürleri, toksikoloji sınırı ve Onurlu Hasat etiği — yirmi müstakil çalışma odası.",
+      "en": "The Green Covenant: Nine Sacred Herbs, resins, kitchen and apothecary craft, Galdrastafir staves, toxicological safety, and the Honorable Harvest — twenty study rooms.",
+      "sv": "Det Gröna Förbundet: De Nio Heliga Örterna, hartser, köks- och apotekskonst, Galdrastafir, toxikologisk säkerhet och Den Hedervärda Skörden — tjugo studierum."
     },
     "backLabel": {
       "tr": "Witchcrafta dön",
@@ -3374,7 +8172,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Maserasyon (Yağda Bekletme): Bitkilerin zeytinyağı içinde güneş veya gölgede haftalarca bekletilerek merhem bazına dönüştürülmesi.",
             "Kaya Tuzu ve Sirke: Eşik ve yüzey temizliğinde durgunluğu çözen iki temel doğal arındırıcı.",
             "Biberiye ve Defne: Ocak başında ve kapı girişinde zihinsel berraklığı ve hane huzurunu koruyan iki Akdeniz bitkisi.",
-            "Dövme Demir: Geleneksel folklor ve ocak kültüründe toprağın ağırlığını ve sınır korumasını temsil eden element."
+            "Dövme Demir: Geleneksel folklor ve ocak kültüründe toprağın ağırlığını ve sınır korumasını temsil eden element.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "Infusion (Steeping): Pouring hot water over leaves and flowers in a covered vessel for 7–10 minutes to retain volatile oils.",
@@ -3382,7 +8181,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Maceration (Oil Extraction): Steeping botanicals in olive oil over weeks to create salve and balm bases.",
             "Rock Salt & Vinegar: The two classic household purifiers for threshold and surface clearing.",
             "Rosemary & Bay Laurel: Mediterranean hearth plants guarding mental clarity and domestic peace.",
-            "Wrought Iron: Traditional folk emblem of grounded weight and protective boundary at the lintel."
+            "Wrought Iron: Traditional folk emblem of grounded weight and protective boundary at the lintel.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "Infusion (Örtte under lock): Hett vatten över blad och blommor i täckt kärl under 7–10 minuter för att bevara eteriska oljor.",
@@ -3390,7 +8190,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Maceration (Oljeutdrag): Växter som får dra i olivolja under flera veckor som bas för salvor.",
             "Bergsalt & Vinäger: De två klassiska reningsmedlen för tröskel och hem.",
             "Rosmarin & Lagerblad: Medelhavstraditionens härdväxter för klarhet och husfrid.",
-            "Smidesjärn: Traditionellt folkligt tecken för jordad tyngd och gränsskydd vid dörrposten."
+            "Smidesjärn: Traditionellt folkligt tecken för jordad tyngd och gränsskydd vid dörrposten.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -3515,7 +8316,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Sarı Kantaron (Hypericum perforatum · St. John’s Wort): Yaz gündönümünde (21 Haziran) toplanan güneş otu; zeytinyağında 40 gün bekletilerek kızıl yara ve sinir balsamı yapılır.",
             "Biberiye (Rosmarinus officinalis · Rosemary): Rozmarinik asit zengini ‘deniz şebnemi’; zihni berraklaştırır, hafızayı güçlendirir ve kapı eşiğinde koruyucu kalkan kurar.",
             "Civanperçemi (Achillea millefolium · Yarrow): Adını Akhilleus’tan alan ‘bin yapraklı’ yara otu; kan durdurucu, terletici ve kişisel sınırları sağlamlaştırıcı kır bitkisi.",
-            "Kara Mürver (Sambucus nigra · Elder): Avrupa ve İskandinav folklorunda ‘Mürver Ana’ (Hyldemoer) olarak saygı gören, çiçeği ve meyvesi kış şifası olan eşik ağacı."
+            "Kara Mürver (Sambucus nigra · Elder): Avrupa ve İskandinav folklorunda ‘Mürver Ana’ (Hyldemoer) olarak saygı gören, çiçeği ve meyvesi kış şifası olan eşik ağacı.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "Mugwort (Artemisia vulgaris): The ancient traveler's and threshold herb rich in cineole; used in foot baths, smoke bundles, and dream pillows.",
@@ -3523,7 +8325,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "St. John's Wort (Hypericum perforatum): The midsummer solar herb harvested around June 21; infused in olive oil for 40 days to yield a ruby-red balm for wounds and nerves.",
             "Rosemary (Rosmarinus officinalis): 'Dew of the Sea' rich in rosmarinic acid; sharpens memory, clarifies study spaces, and guards the household threshold.",
             "Yarrow (Achillea millefolium): Named for Achilles, the 'thousand-leaved' woundwort used since antiquity to staunch bleeding and fortify personal boundaries.",
-            "Black Elder (Sambucus nigra): Revered in Nordic and European folklore as the 'Elder Mother' (Hyldemoer); a guardian threshold tree whose blossoms and berries heal in winter."
+            "Black Elder (Sambucus nigra): Revered in Nordic and European folklore as the 'Elder Mother' (Hyldemoer); a guardian threshold tree whose blossoms and berries heal in winter.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "Gråbo (Artemisia vulgaris · Mugwort): Den uråldriga vandrar- och tröskelörten; använd i fotbad, rökelseknippen och drömkuddar.",
@@ -3531,7 +8334,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Äkta Johannesört (Hypericum perforatum): Sommarsolståndets solört som får dra i olivolja i 40 dagar till ett djuprött balsam för sår och nerver.",
             "Rosmarin (Rosmarinus officinalis): 'Havets dagg' rik på rosmarinsyra; skärper minnet, renar luften och vaktar hemmets tröskel.",
             "Röllika (Achillea millefolium): 'Tusenbladig' sårläkares ört som sedan antiken använts för att stilla blod och stärka gränser.",
-            "Fläder (Sambucus nigra): Vördad i nordisk folktro som 'Hyldemoer' (Flädermor); ett beskyddande gårdsträd vars blommor och bär ger läkedom under vintern."
+            "Fläder (Sambucus nigra): Vördad i nordisk folktro som 'Hyldemoer' (Flädermor); ett beskyddande gårdsträd vars blommor och bär ger läkedom under vintern.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -3664,7 +8468,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Anadolu Sığlası (Liquidambar orientalis): Muğla’nın endemik günlük ağacı; kalp ferahlığı ve onarım.",
             "Çam Sakızı (Colophonium): Orman reçinesi; canlılık, dayanıklılık ve kış arındırması.",
             "Toros Sediri (Cedrus libani): Sümer’den Anadolu’ya uzanan sarsılmaz merkez ve koruma ağacı.",
-            "Defne (Laurus nobilis): Antakya/Daphne’nin kadim ağacı; berrak görü, odak ve zafer çelengi."
+            "Defne (Laurus nobilis): Antakya/Daphne’nin kadim ağacı; berrak görü, odak ve zafer çelengi.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "Frankincense (Boswellia sacra): Golden tear resin; mental clarity, deepened breath, and elevated focus.",
@@ -3672,7 +8477,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Anatolian Storax (Liquidambar orientalis): Endemic sweetgum of Muğla; warmth, balm, and heart steadiness.",
             "Pine Pitch (Colophonium): Forest resin; vitality, resilience, and winter purification.",
             "Taurus Cedar (Cedrus libani): Enduring sanctuary wood celebrated from Sumerian tablets to Anatolia.",
-            "Bay Laurel (Laurus nobilis): Sacred tree of ancient Daphne (Antioch); clear sight and focused will."
+            "Bay Laurel (Laurus nobilis): Sacred tree of ancient Daphne (Antioch); clear sight and focused will.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "Olibanum (Boswellia sacra): Gyllene tårar av harts; klarhet, djup andedräkt och höjt fokus.",
@@ -3680,7 +8486,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Anatolisk Storax (Liquidambar orientalis): Muğlas endemiska ambraträd; värme och hjärtats ro.",
             "Tallkåda (Colophonium): Skogsharts; livskraft, uthållighet och vinterrening.",
             "Taurusceder (Cedrus libani): Heligt träslag omtalat från sumeriska tavlor till Anatolien.",
-            "Lager (Laurus nobilis): Det heliga trädet från antika Daphne (Antiochia); klar syn och fokus."
+            "Lager (Laurus nobilis): Det heliga trädet från antika Daphne (Antiochia); klar syn och fokus.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -3805,7 +8612,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Ateş (Güney · Sıcak ve Kuru): Balmumu alevi ve reçineler; irade, cesaret, dönüşüm ve canlılık.",
             "Su (Batı · Soğuk ve Nemli): Kaynak suyu ve çiçekler; sezgi, duygusal akış, hafıza ve şifa.",
             "Büyüyen Ay (Hilal → Dolunay): Özsuyun yapraklara yükseldiği, kurma ve büyütme evresi.",
-            "Küçülen Ay (Dolunay → Karanlık Ay): Özsuyun köklere indiği, budama, sadeleşme ve arınma evresi."
+            "Küçülen Ay (Dolunay → Karanlık Ay): Özsuyun köklere indiği, budama, sadeleşme ve arınma evresi.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "Earth (North · Cold & Dry): Rock salt, stone, and roots; physical stability, patience, and form.",
@@ -3813,7 +8621,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Fire (South · Warm & Dry): Beeswax flame and resins; will, courage, vitality, and transmutation.",
             "Water (West · Cold & Moist): Spring water and blossoms; intuition, memory, emotional flow, and healing.",
             "Waxing Moon (Crescent → Full): Rising sap; the phase for building, planting, and gathering aerial herbs.",
-            "Waning Moon (Full → Dark): Descending sap; the phase for pruning, root harvest, and clearing."
+            "Waning Moon (Full → Dark): Descending sap; the phase for pruning, root harvest, and clearing.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "Jord (Norr · Kallt & Torrt): Bergsalt, sten och rötter; fysisk stadga, tålamod och form.",
@@ -3821,7 +8630,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Eld (Söder · Varmt & Torrt): Bivaxlåga och hartser; vilja, mod, livskraft och förvandling.",
             "Vatten (Väster · Kallt & Fuktigt): Källvatten och blommor; intuition, minne, flöde och läkedom.",
             "Tilltagande Måne (Skära → Full): Stigande sav; tid för uppbyggnad och skörd av blad och blommor.",
-            "Avtagande Måne (Full → Mörk): Sjunkande sav; tid för beskärning, rotskörd och rening."
+            "Avtagande Måne (Full → Mörk): Sjunkande sav; tid för beskärning, rotskörd och rening.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -3951,7 +8761,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Yumuşak Odak (Periferik Bakış): Gözü yormadan yüzeyin arkasına bakarak analitik zihni dinlendirme.",
             "Oneiromanti (Rüya Kaydı): Uyandığın ilk üç dakika içinde rüyadaki temel sembolleri yorumsuz yazma disiplini.",
             "Ayevî Saat (Alacakaranlık): Güneş battıktan hemen sonraki veya şafaktan hemen önceki en dingin gözlem vakti.",
-            "Suyu Toprağa Dökmek: Gözlem bittikten sonra kasedeki suyu lavaboya değil, bir saksıya veya ağacın dibine dökme geleneği."
+            "Suyu Toprağa Dökmek: Gözlem bittikten sonra kasedeki suyu lavaboya değil, bir saksıya veya ağacın dibine dökme geleneği.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "Lecanomancy (Water Gazing): Quieting the mind by gazing softly into spring water held in a dark bowl.",
@@ -3959,7 +8770,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Soft Focus (Peripheral Gaze): Relaxing rigid focal tension to allow intuitive perception to surface.",
             "Oneiromancy (Dream Ledger): Recording core dream symbols within the first three minutes of waking without premature analysis.",
             "Twilight Threshold: The quietest hours just after sunset or before dawn favored for still observation.",
-            "Returning Water to Earth: Pouring the observation water at the base of a living plant or tree when finished."
+            "Returning Water to Earth: Pouring the observation water at the base of a living plant or tree when finished.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "Lekanomanti (Vattenbetraktande): Att stilla sinnet genom att se mjukt ned i källvatten i en mörk skål.",
@@ -3967,7 +8779,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Mjuk Blick (Perifert Seende): Att släppa spänd fokusering så att det inre seendet kan träda fram.",
             "Oneiromanti (Drömdagbok): Att anteckna drömmens grundsymboler under de första minuterna efter uppvaknandet.",
             "Skymningströskeln: De stilla timmarna strax efter solnedgång eller före gryning.",
-            "Att Återge Vattnet till Jorden: Att hälla ut vattnet vid roten av ett träd eller en krukväxt efter avslutat arbete."
+            "Att Återge Vattnet till Jorden: Att hälla ut vattnet vid roten av ett träd eller en krukväxt efter avslutat arbete.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -4091,7 +8904,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Balmumu Mühür: Yazılan bir kararı veya çalışma notunu kapatıp sabitleyen doğal arı mumu.",
             "Ardıç · Defne · Kaya Tuzu: Hane ve yolculuk korumasında kullanılan en eski üçlü karışım.",
             "İrade Etiği: Başkasının iradesine dokunmama, yalnızca kendi merkezini ve sınırını koruma yasası.",
-            "Toprağa İade: Görevini tamamlayan tüm doğal malzemeleri çöpe atmayıp toprağa geri verme disiplini."
+            "Toprağa İade: Görevini tamamlayan tüm doğal malzemeleri çöpe atmayıp toprağa geri verme disiplini.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "Nodus (Threefold Knot): Anchoring breath and resolve along a natural wool or linen cord.",
@@ -4099,7 +8913,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Beeswax Seal: Pure beeswax pressed over a written resolve to mark completion.",
             "Juniper · Bay · Rock Salt: The classic triad for threshold and travel protection.",
             "Ethic of Free Will: The law of never encroaching upon another's will, tending only one's own center.",
-            "Return to the Soil: Burying spent herbs and natural materials cleanly at the roots of a tree."
+            "Return to the Soil: Burying spent herbs and natural materials cleanly at the roots of a tree.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "Nodus (Trefaldig Knut): Att förankra andedräkt och beslut längs ett snöre av ull eller lin.",
@@ -4107,7 +8922,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Bivaxsigill: Rent bivax som förseglar ett nedskrivet beslut.",
             "En · Lager · Bergsalt: Den klassiska triaden för tröskel- och färdskydd.",
             "Den Fria Viljans Etik: Lagen att aldrig ingripa i en annans vilja, utan vårda sitt eget centrum.",
-            "Återbördande till Jorden: Att lägga använda örter och naturmaterial tillbaka vid trädets rötter."
+            "Återbördande till Jorden: Att lägga använda örter och naturmaterial tillbaka vid trädets rötter.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -4232,7 +9048,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Biberiye ve Gül Dikeni: Şişelerin içine konulan, arındırıcı ve sınır çizici bitkisel koruyucular.",
             "Nazar / Göz Taşı: Kem gözü ve kıskanç bakışı daha eşikteyken kırıp yansıtan mavi cam mühür.",
             "Kurşun ve Balmumu Dökümü: Suda ani soğuyan erimiş madenin şekli üzerinden ağırlığı çözme ve arındırma geleneği.",
-            "Eşik Tuz Kavanozu: Modern bir evde kapı girişine konulan kaya tuzu, biberiye ve demir anahtar kavanozu."
+            "Eşik Tuz Kavanozu: Modern bir evde kapı girişine konulan kaya tuzu, biberiye ve demir anahtar kavanozu.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "🏺 Bellarmine Witch Bottle: 17th-century stoneware jug buried beneath the hearth with iron nails and rosemary as a household ward.",
@@ -4240,7 +9057,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Rosemary and Hawthorn Thorns: Botanical guardians placed inside protection vessels to cleanse and hold boundaries.",
             "Nazar / Blue Eye Bead: Blue glass seal that reflects and shatters envious glare at the doorway.",
             "Molybdomancy (Lead/Wax Pouring): Dropping molten metal or wax into cold water to release shock and stagnant weight.",
-            "Threshold Salt Jar: A contemporary hearth jar of rock salt, rosemary, and an old iron key placed near the entrance."
+            "Threshold Salt Jar: A contemporary hearth jar of rock salt, rosemary, and an old iron key placed near the entrance.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "🏺 Bellarmine-häxflaska: 1600-talskrus av stengods nedgrävt under härden med järnspikar och rosmarin som gårdsskydd.",
@@ -4248,7 +9066,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Rosmarin och HagtornsTaggar: Växtväktare som läggs i skyddskärl för att rena och hålla gränsen.",
             "Nazar / Blå Ögonpärla: Blått glassigill som speglar och bryter avundsjuka blickar vid dörren.",
             "Bly- och Vaxstöpning: Att gjuta smält metall eller bivax i kallt vatten för att lösa upp tyngd och oro.",
-            "Tröskelns Saltburk: En enkel glasburk med bergsalt, rosmarin och en gammal järnnyckel vid hemmets ingång."
+            "Tröskelns Saltburk: En enkel glasburk med bergsalt, rosmarin och en gammal järnnyckel vid hemmets ingång.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -4373,7 +9192,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Cunning Folk (Britanya): Radyestezi, şifalı otlar ve koruyucu tılsımlarla halka hizmet eden kırsal uzmanlar.",
             "Benandanti (Kuzey İtalya): Mevsim dönümlerinde rezene dalıyla köyün bereketini koruyan ‘İyi Yürüyenler’.",
             "Ocaklı ve El Verme (Anadolu): Şifa ve aktar bilgisinin usta-çırak ahlakıyla ocaktan ocağa aktarılması.",
-            "Herbaryum (Kurutulmuş Bitki Atlası): Bitkileri toplandığı yer, tarih ve etkiyle deftere yapıştırarak tanıma disiplini."
+            "Herbaryum (Kurutulmuş Bitki Atlası): Bitkileri toplandığı yer, tarih ve etkiyle deftere yapıştırarak tanıma disiplini.",
+            "⚠️ Tıbbi Uyarı: Bitkisel, tütsü ve geleneksel şifa bilgileri yalnızca kültürel/tarihsel amaçlıdır; tıbbi teşhis ve tedavi yerine geçmez."
           ],
           "en": [
             "📜 Läkebok / Receipt Book: Handwritten family notebook of herbal remedies, salve ratios, and seasonal notes.",
@@ -4381,7 +9201,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Cunning Folk (Britain): Rural practitioners serving villages through herbalism, dowsing, and protective charms.",
             "Benandanti (Northern Italy): The 'Good Walkers' born with the caul who guarded the harvest at the seasonal turns.",
             "Ocaklı & El Verme (Anatolia): Hearth-lineages transmitting herbal and healing craft from master to apprentice.",
-            "Herbarium (Pressed Plant Atlas): The discipline of pressing, labeling, and studying local flora by date and habitat."
+            "Herbarium (Pressed Plant Atlas): The discipline of pressing, labeling, and studying local flora by date and habitat.",
+            "⚠️ Medical Disclaimer: Herbal, incense, and traditional healing lore is for cultural/historical study only and never replaces medical diagnosis or care."
           ],
           "sv": [
             "📜 Läkebok / Receptbok: Handskriven familjebok med örtrecept, salvproportioner och årstidsanteckningar.",
@@ -4389,7 +9210,8 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "Cunning Folk (Storbritannien): Landsbygdens utövare inom örtlära, slagruta och skyddande amuletter.",
             "Benandanti (Norra Italien): 'De goda vandrarna' som värnade skörden vid årstidernas vändpunkter.",
             "Ocaklı & El Verme (Anatolien): Härdlinjer där läkekonst och örtkunskap förs vidare från mästare till lärling.",
-            "Herbarium (Växtatlas): Disciplinen att pressa, namnge och studera lokala växter efter växtplats och tid."
+            "Herbarium (Växtatlas): Disciplinen att pressa, namnge och studera lokala växter efter växtplats och tid.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ört-, rökelse- och läketraditioner är endast för kulturhistoriskt studium och ersätter aldrig medicinsk vård."
           ]
         },
         "practice": {
@@ -4422,6 +9244,1509 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
           "tr": "Gerçek bilgelik gösterişte değil; otu tanıyan gözde, ölçüyü bilen elde ve temiz tutulan defterdedir.",
           "en": "True wisdom lies not in spectacle, but in the eye that knows the herb, the hand that keeps the measure, and the well-kept book.",
           "sv": "Sann visdom ligger inte i skådespel, utan i ögat som känner örten, handen som håller måttet och den välförda boken."
+        }
+      },
+      {
+        "slug": "dokuz-kutsal-ot-lacnunga",
+        "glyph": "IX",
+        "image": "/witchcraft/dokuz-kutsal-ot-lacnunga.jpg",
+        "title": {
+          "tr": "Dokuz Kutsal Ot (*Nigun Wyrta Galdor*) ve *Lacnunga* Yazması",
+          "en": "The Nine Sacred Herbs (*Nigun Wyrta Galdor*) and the *Lacnunga* Manuscript",
+          "sv": "De Nio Heliga Örterna (*Nigun Wyrta Galdor*) och *Lacnunga*-Handskriften"
+        },
+        "subtitle": {
+          "tr": "10. Yüzyıl Anglo-Sakson Herbaryum Metni: Pelin, Sinir Otu, Papatya ve Rezene",
+          "en": "The 10th-Century Anglo-Saxon Herbal Text: Mugwort, Plantain, Chamomile, and Fennel",
+          "sv": "900-talets Anglosaxiska Örttext: Gråbo, Groblad, Kamomill och Fänkål"
+        },
+        "summary": {
+          "tr": "British Library’de korunan MS 10. yüzyıla ait **Lacnunga** el yazmasındaki *Dokuz Ot İlahisi* (*Nine Herbs Charm*), Kuzey Avrupa bitki geleneğinin en eski yazılı belgesidir — Pelin, Sinir Otu, Papatya ve Rezene gibi dokuz yol kenarı bitkisinin direncini anlatır.",
+          "en": "Preserved in the British Library's 10th-century **Lacnunga** manuscript, the *Nine Herbs Charm* (*Nigun Wyrta Galdor*) is Northern Europe's oldest vernacular herbal poem—celebrating the resilience of nine wayside plants alongside Woden's nine glory-twigs.",
+          "sv": "Bevarad i British Librarys handskrift **Lacnunga** från 900-talet är *De Nio Örternas Sång* (*Nigun Wyrta Galdor*) Nordeuropas äldsta bevarade örtdikt på folkspråk—och förenar nio läkeväxter med Odens nio ärekvistar."
+        },
+        "paragraphs": {
+          "tr": [
+            "MS 1000 yılı civarında Eski İngilizce (Anglo-Sakson) dilinde kaleme alınmış olan **Lacnunga** (Harley MS 585) tıp ve bitki yazması, Avrupa ‘Yeşil Ahit’ geleneğinin en değerli tarihsel hazinelerinden birini barındırır: **Nigun Wyrta Galdor** (*Dokuz Otun Şarkısı / Nine Herbs Charm*). Metinde Woden’ın (Odin’in) dokuz zafer dalı (*wuldortanas*) ile dokuz şifalı bitkinin gücü bir arada anılır.",
+            "Şiir birinci bitki olan **Muggwyrt** (**Yabani Pelin / Mugwort** — *Artemisia vulgaris*) ile başlar: *‘Hatırla Pelin, neyi bildirdiğini... Sen yolların en yaşlısısın!’* İkinci bitki ise tekerleklerin ve ayakların altında ezildiği halde asla kırılmayıp yeniden doğrulan **Wegbrade** (**Sinir Otu / Plantain** — *Plantago major*) bitkisidir: *‘Üzerinden arabalar geçti, kadınlar geçti, gelinler geçti, boğalar soludu; yine de sen hepsine direndin!’*",
+            "Listeyi **Stime** (Su Teresi), **Attorlaðe** (Zehirkesen), **Mægðe** (**Alman Papatyası** — *Matricaria chamomilla*), **Wergulu** (**Isırgan Otu** — *Urtica dioica*), **Wudu-sur-æppel** (**Yaban Elması**), **Fille** (**Kekik** — *Thymus*) ve **Finule** (**Rezene** — *Foeniculum vulgare*) tamamlar.",
+            "⚠️ Tıbbi Uyarı: *Lacnunga* el yazmasındaki ‘Dokuz Kutsal Ot’ tarihsel bir etnobotanik ve edebiyat metnidir. Özellikle **Yabani Pelin (*Artemisia vulgaris*) tujon içerir ve hamilelikte kesinlikle kullanılmamalıdır**; papatya ve rezene ise papatyagiller (*Asteraceae*) veya maydanozgiller (*Apiaceae*) alerjisi olanlarda reaksiyon yapabilir. Hiçbir bitki modern tıbbi teşhis ve tedavinin yerine geçmez."
+          ],
+          "en": [
+            "Inscribed around 1000 CE in Old English within the **Lacnunga** manuscript (Harley MS 585), the **Nigun Wyrta Galdor** (*Nine Herbs Charm*) stands as a foundational monument of Northern European green lore—linking botanical observation with the nine 'glory-twigs' (*wuldortanas*) of Woden (Odin).",
+            "The poem opens by addressing **Muggwyrt** (**Mugwort** — *Artemisia vulgaris*): *'Remember, Mugwort, what you made known... oldest of worts!'* Second comes **Wegbrade** (**Waybread / Broadleaf Plantain** — *Plantago major*), praised for its unbreakable resilience along rutted tracks: *'Chariots rolled over you, queens rode over you, brides stepped upon you, bulls snorted over you—yet you withstood them all!'*",
+            "Completing the nine are **Stime** (Watercress), **Attorlaðe** (Betony/Cockspur), **Mægðe** (**Chamomile** — *Matricaria chamomilla*), **Wergulu** (**Stinging Nettle** — *Urtica dioica*), **Wudu-sur-æppel** (**Crab Apple**), **Fille** (**Thyme** — *Thymus*), and **Finule** (**Fennel** — *Foeniculum vulgare*).",
+            "⚠️ Medical Disclaimer: The *Nine Herbs Charm* is a historical ethnobotanical text, not a medical prescription. **Mugwort (*Artemisia vulgaris*) contains thujone and must never be used during pregnancy or with seizure disorders**; chamomile and fennel may trigger allergic reactions in sensitive individuals. Always consult a physician for medical treatment."
+          ],
+          "sv": [
+            "Nedtecknad omkring år 1000 på fornengelska i handskriften **Lacnunga** (Harley MS 585) utgör **Nigun Wyrta Galdor** (*De Nio Örternas Sång*) ett unikt kulturhistoriskt dokument där nio väg- och trädgårdsörter besjungs sida vid sida med Wodens (Odens) nio runkvistar (*wuldortanas*).",
+            "Dikten inleds med en hälsning till **Muggwyrt** (**Gråbo** — *Artemisia vulgaris*): *'Minns, Gråbo, vad du kungjorde... du äldsta av örter!'* Därefter tilltalas **Wegbrade** (**Groblad** — *Plantago major*), som växer mitt på hårdtrampade stigar: *'Vagnar rullade över dig, kvinnor red över dig, tjurar frustade över dig—ändå stod du emot allt!'*",
+            "De nio fullbordas av **Stime** (Källfräne), **Attorlaðe** (Humlesuga), **Mægðe** (**Kamomill** — *Matricaria chamomilla*), **Wergulu** (**Brännässla** — *Urtica dioica*), **Wudu-sur-æppel** (**Vildapel**), **Fille** (**Timjan** — *Thymus*) och **Finule** (**Fänkål** — *Foeniculum vulgare*).",
+            "⚠️ Medicinsk Ansvarsfriskrivning: *De Nio Örternas Sång* är en kulturhistorisk och etnobotanisk text, inte medicinsk rådgivning. **Gråbo (*Artemisia vulgaris*) innehåller tujon och får aldrig användas under graviditet eller vid epilepsi.** Rådgör alltid med läkare vid sjukdom."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Sinir Otu (Wegbrade): ‘Ezilse de Kırılmayan’ Direnç",
+              "body": "Patikaların tam ortasında büyüyen ve binlerce adımın altında ezilmesine rağmen yaprağını kaybetmeyen Sinir Otu (*Plantago major*), kuzey herbolojisinde dayanıklılığın baş öğretmenidir."
+            },
+            {
+              "heading": "Woden’ın Dokuz Dalı (*Wuldortanas*)",
+              "body": "Metinde Woden’ın dokuz rün/zafer çubuğuyla dokuz bitkiyi kutsaması, İskandinav rün geleneği ile Anglo-Sakson bitki bilgisinin aynı kökten beslendiğini kanıtlar."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Wegbrade (Waybread / Plantain): Resilience Under the Wheel",
+              "body": "Growing directly in compacted footpaths where cartwheels crush it daily, Broadleaf Plantain (*Plantago major*) teaches the northern virtue of flexible, unyielding endurance."
+            },
+            {
+              "heading": "Woden's Nine Glory-Twigs (*Wuldortanas*)",
+              "body": "The poem's explicit reference to Woden smiting the serpent with nine runic twigs bridges Norse rune lore and Anglo-Saxon herbalism."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Wegbrade (Groblad): Motståndskraften Under Hjulet",
+              "body": "Grobladet (*Plantago major*) som växer mitt på trampade stigar utan att brytas är i nordisk växtlära den främsta bilden av seg uthållighet."
+            },
+            {
+              "heading": "Wodens Nio Ärekvistar (*Wuldortanas*)",
+              "body": "Diktens hänvisning till hur Woden tar upp nio kvistar förenar den nordiska runtraditionen med den gamla läkeörtskunskapen."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "⚠️ Tıbbi Uyarı: Pelin otu (*Artemisia*) hamilelerde ve epilepsi hastalarında kontrendikedir; bitkisel bilgiler tıbbi tavsiye değildir.",
+            "Muggwyrt (Yabani Pelin · *Artemisia vulgaris*): ‘Otların en yaşlısı’ olarak selamlanan yol bekçisi.",
+            "Wegbrade (Sinir Otu · *Plantago major*): Tekerleklerin altında ezilse de yeniden doğrulan direnç bitkisi.",
+            "Mægðe & Wergulu (Papatya ve Isırgan): Sakinleştirici çiçek ve demirce zengin bahar yaprağı.",
+            "Fille & Finule (Kekik ve Rezene): Bilge Rab’bin bahçesinden insanlığa hediye sayılan iki kokulu ot."
+          ],
+          "en": [
+            "⚠️ Medical Disclaimer: Mugwort (*Artemisia*) is contraindicated in pregnancy; historical herbal texts do not replace modern medical care.",
+            "Muggwyrt (Mugwort · *Artemisia vulgaris*): Saluted as 'oldest of worts' and guardian of the wayside.",
+            "Wegbrade (Plantain · *Plantago major*): The 'Mother of Worts' that withstands the passing wheel.",
+            "Mægðe & Wergulu (Chamomile & Nettle): Gentle blossom and mineral-rich spring green.",
+            "Fille & Finule (Thyme & Fennel): Aromatic herbs of the kitchen hearth and monastic garden."
+          ],
+          "sv": [
+            "⚠️ Medicinsk Ansvarsfriskrivning: Gråbo (*Artemisia*) ska aldrig intas vid graviditet; historiska örttexter ersätter inte sjukvård.",
+            "Muggwyrt (Gråbo · *Artemisia vulgaris*): Hälsad som 'äldst av örter' vid vägkanten.",
+            "Wegbrade (Groblad · *Plantago major*): Den tåliga stigväxt som reser sig efter varje vagnshjul.",
+            "Mægðe & Wergulu (Kamomill & Nässla): Mild blomma och järnrik vårväxt.",
+            "Fille & Finule (Timjan & Fänkål): Doftande örter från kloster- och gårdsträdgårdar."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Yolda Yürürken ‘Wegbrade’ (Sinir Otu) Direncini Gözlemlemek",
+            "steps": [
+              "Bir parkta veya kaldırım kenarında yürürken, insanların sürekli bastığı sert toprağın arasından başını çıkarmış olan geniş damarlı **Sinir Otu** (*Plantago major*) veya karahindiba yaprağını bul.",
+              "Koparmadan önünde eğil ve *Lacnunga*’nın bin yıllık dizesini hatırla: ‘Üzerinden arabalar geçti, yine de sen direndin.’",
+              "Hayatın ağırlığı altında ezildiğini hissettiğin anlarda Sinir Otu’nun esnek ve köklü direncini kendi omurgana örnek al."
+            ]
+          },
+          "en": {
+            "title": "Practice · Observing the Resilience of 'Wegbrade' (Wayside Plantain)",
+            "steps": [
+              "On your next walk along a footpath or park trail, spot the ribbed oval leaves of **Broadleaf Plantain** (*Plantago major*) growing right where footsteps tread.",
+              "Without plucking the plant, pause and recall the thousand-year-old line from the *Lacnunga*: 'Chariots rolled over you, yet you withstood them all.'",
+              "Draw quiet inspiration from how a humble plant survives heavy pressure by staying low, flexible, and deeply rooted."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Betrakta 'Wegbrades' (Grobladets) Uthållighet vid Stigen",
+            "steps": [
+              "Under din nästa promenad, lägg märke till **Grobladets** (*Plantago major*) segt ådrade blad som växer mitt på den hårdtrampade gångstigen.",
+              "Stanna upp utan att rycka upp växten och minns den tusenåriga raden ur *Lacnunga*: 'Vagnar rullade över dig, ändå stod du emot allt.'",
+              "Hämta kraft ur hur grobladet klarar trycket genom att vara mjukt, segt och djupt rotat."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Kaldırım taşının çatlağında yeşeren ot, saray bahçesindeki çiçekten daha derin bir hayatta kalma sırrı taşır.",
+          "en": "The herb that thrives in the trampled footpath holds a deeper secret of endurance than the pampered flower.",
+          "sv": "Örten som grönskar mitt på den trampade stigen bär en djupare hemlighet om uthållighet än den skyddade prydnadsblomman."
+        }
+      },
+      {
+        "slug": "gece-bitkileri-toksikoloji-siniri",
+        "glyph": "X",
+        "image": "/witchcraft/gece-bitkileri-toksikoloji-siniri.jpg",
+        "title": {
+          "tr": "Satürn’ün Bahçesi ve Toksikoloji Sınırı: Zehir ile İlacı Ayırmak",
+          "en": "The Garden of Saturn and the Boundary of Toxicology",
+          "sv": "Saturnus Trädgård och Toxikologins Gräns: Att Skilja Gift från Läkeört"
+        },
+        "subtitle": {
+          "tr": "Patlıcangiller (*Solanaceae*) Tarihi, ‘Uçma Merhemi’ Efsanesinin Farmakolojisi ve Kesin Güvenlik Yasası",
+          "en": "History of the Nightshades (*Solanaceae*), Pharmacology of the 'Flying Ointment' Myth, and Strict Safety Law",
+          "sv": "Potatisväxternas (*Solanaceae*) Historia, Farmakologin Bakom 'Flygsalvan' och Absolut Säkerhetslag"
+        },
+        "summary": {
+          "tr": "Tarihsel cadılık literatüründe adı geçen ‘Gece Bitkileri’ (Güzelavratotu, Banotu, Adamotu, Tatula) Ortaçağ ve Rönesans’ta anestezik ve halüsinojenik tropan alkaloidleri yüzünden ‘uçma merhemi’ efsanelerini doğurmuştur — gerçek bir bitki uzmanı bu bitkileri **asla kullanmaması ve dokunmaması gereken ölümcül toksinler** olarak tanır.",
+          "en": "The 'Night Plants' of historical witchcraft lore (Belladonna, Henbane, Mandrake, Datura) gave rise to medieval 'flying ointment' legends due to their tropane alkaloids—a true herbalist studies this history strictly as **toxicological literacy, recognizing these plants as lethal poisons never to be touched or used**.",
+          "sv": "De 'Nattväxter' som omtalas i äldre häxprocesser (Belladonna, Bolmört, Alruna, Spikklubba) gav upphov till myterna om 'flygsalva' genom sina tropanalkaloider—en sann örtkännare studerar denna historia enbart som **toxikologisk kunskap för att känna igen och aldrig någonsin röra eller använda dessa dödligt giftiga växter**."
+        },
+        "paragraphs": {
+          "tr": [
+            "⚠️ **ÖNCELİKLİ TIBBİ VE YASAL UYARI:** Bu odada adı geçen **Güzelavratotu (*Atropa belladonna*), Siyah Banotu (*Hyoscyamus niger*), Adamotu (*Mandragora officinarum*), Tatula (*Datura stramonium*), Kurtboğan (*Aconitum*) ve Baldıran (*Conium maculatum*)** bitkileri yüksek oranda **atropin, skopolamin, hiyosiyamin ve akonitin** gibi **ÖLÜMCÜL NÖROTOKSİK VE KARDİYOTOKSİK ALKALOİDLER** içerir. Bu bitkilerin yenmesi, çayı, tütsüsü veya **cilde merhem olarak sürülmesi** solunum felci, deliryum, kalp durması ve **ölümle** sonuçlanır. Bu oda yalnızca **tarihsel farmakoloji, antropoloji ve doğada zehirli bitkileri tanıyıp uzak durma (toksikoloji okuryazarlığı)** amacıyla yazılmıştır!",
+            "16. yüzyılda İtalyan hekim **Giambattista della Porta** (*Magia Naturalis*, 1558) ve Johann Weyer, engizisyon mahkemelerinde ‘gece süpürgeyle uçtuklarını’ iddia eden bazı köylülerin aslında *Solanaceae* (Patlıcangiller) familyasından bitkiler içeren tehlikeli yağlar süründüklerini ve bu bitkilerdeki **skopolamin ile atropinin** deriden emilerek ağır bir deliryum, taşikardi ve ‘havada uçma halüsinasyonu’ yarattığını bilimsel olarak açıklamıştır.",
+            "Paracelsus’un ünlü *‘Her şey zehirdir; zehir ile ilacı ayıran yalnızca dozdur’* sözü modern farmakolojinin temelini atmıştır; ancak tropan alkaloidli gece bitkilerinde etkili doz ile **ölümcül doz birbirine o kadar yakındır ki**, modern tıp bile bu maddeleri ancak laboratuvarda saflaştırılmış mikrogram ölçeklerinde (örneğin göz damlası veya ameliyat öncesi ilaç olarak) kullanır.",
+            "Gerçek ‘Yeşil Ahit’ ve Ocak bilgeliği, tehlikeli olanla flört etmek değil; doğadaki zehirli bitkileri botanik olarak kusursuz tanıyıp çocukları, hayvanları ve ev halkını onlardan korumaktır."
+          ],
+          "en": [
+            "⚠️ **CRITICAL MEDICAL & TOXICOLOGICAL WARNING:** The plants discussed historically in this room—**Deadly Nightshade (*Atropa belladonna*), Black Henbane (*Hyoscyamus niger*), Mandrake (*Mandragora officinarum*), Thornapple (*Datura stramonium*), Monkshood (*Aconitum*), and Hemlock (*Conium maculatum*)**—contain **LETHAL NEUROTOXIC AND CARDIOTOXIC ALKALOIDS** (atropine, scopolamine, hyoscyamine, aconitine). Ingesting, burning, or **applying these plants to the skin** causes respiratory paralysis, severe delirium, cardiac arrest, and **death**. This room is presented **exclusively for historical pharmacology, anthropology, and field identification to avoid poisoning**!",
+            "In the 16th century, Renaissance physicians **Giambattista della Porta** (*Magia Naturalis*, 1558) and **Johann Weyer** demonstrated that confessions of 'flying through the night air' during the witch trials were not physical flight, but toxic delirium induced by transdermal absorption of *Solanaceae* tropane alkaloids (**scopolamine and atropine**).",
+            "While modern hospital medicine isolates microscopic, laboratory-measured derivatives of atropine or scopolamine under strict clinical monitoring, in raw plants the margin between delirium and fatal poisoning is razor-thin.",
+            "True Green Craft and hearth wisdom never romanticize poison; the first duty of an herbalist is toxicological literacy—identifying poisonous flora in the wild so that children, animals, and households remain completely safe."
+          ],
+          "sv": [
+            "⚠️ **KRITISK MEDICINSK OCH TOXIKOLOGISK VARNING:** De växter som behandlas historiskt i detta rum—**Belladonna (*Atropa belladonna*), Bolmört (*Hyoscyamus niger*), Alruna (*Mandragora officinarum*), Spikklubba (*Datura stramonium*), Stormhatt (*Aconitum*) och Odört (*Conium maculatum*)**—innehåller **DÖDLIGT GIFTIGA NEUROTOXINER OCH HJÄRTGIFTER** (atropin, skopolamin, hyoscyamin, akonitin). Att förtära, röka eller **stryka dessa växter på huden** leder till andningsförlamning, svårt delirium, hjärtstillestånd och **döden**. Detta rum är uteslutande avsett för **kulturhistoria och botanisk säkerhetskunskap så att man i naturen kan känna igen och undvika giftväxter**!",
+            "Redan på 1500-talet visade renässansläkarna **Giambattista della Porta** (*Magia Naturalis*, 1558) och **Johann Weyer** att berättelserna om 'nattliga luftfärder' under häxprocesserna berodde på svår förgiftning och hallucinationer orsakade av tropanalkaloider (**skopolamin och atropin**) ur nattskatteväxter.",
+            "I modern sjukhusvård kan renframställt atropin användas i mikroskopiska doser under läkarkontroll, men i vilda växter ligger gränsen mellan påverkan och dödlig förgiftning extremt nära varandra.",
+            "Sann örtkunskap romantiserar aldrig gift; den läkekunniges första plikt är att känna igen farliga växter i markerna för att skydda människor och djur."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Bilimsel Açıklama: ‘Uçma’ Efsanesi Nereden Çıktı?",
+              "body": "Ortaçağda ‘uçma merhemi’ (*unguentum pharelis*) efsaneleri doğaüstü bir fiziksel uçuş değil, tropan alkaloidlerinin (skopolamin) vestibüler sistemi ve beyni zehirleyerek yarattığı tehlikeli bir komaydı."
+            },
+            {
+              "heading": "Toksikoloji Okuryazarlığı: Bilge Otçunun İlk Görevi",
+              "body": "Anadolu’da ‘Deli Ot / Güzelavratotu’, İskandinavya’da ‘Bolmört’ (Banotu) olarak bilinen bu bitkileri doğada gördüğünde tanımak ve kesinlikle el sürmemek, bitki bilgisinin en birinci güvenlik kuralıdır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Historical Pharmacology: Demystifying the 'Flying Ointment'",
+              "body": "Renaissance scholars proved that tales of nocturnal flight stemmed from toxic anticholinergic delirium affecting the inner ear and central nervous system, not supernatural levitation."
+            },
+            {
+              "heading": "Toxicological Literacy: The First Duty of the Herbalist",
+              "body": "Knowing how to recognize Deadly Nightshade (*Belladonna*) or Henbane (Swedish *Bolmört*) in the field—so as never to harvest or touch them—is the bedrock of safe botanical study."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Historisk Farmakologi: Förklaringen Bakom Myten om 'Flygsalvan'",
+              "body": "Renässansens läkare visade att föreställningen om nattlig flykt var ett livsfarligt förgiftningstillstånd i nervsystemet och balansorganet."
+            },
+            {
+              "heading": "Toxikologisk Kunskap: Örtkännarens Första Plikt",
+              "body": "Att kunna identifiera Bolmört (*Hyoscyamus niger*) och Stormhatt (*Aconitum*) i naturen för att lämna dem helt orörda är grunden för all säker växtkunskap."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "⚠️ KESİN TIBBİ UYARI: *Atropa belladonna*, *Hyoscyamus*, *Datura*, *Mandragora* ve *Aconitum* ölümcül derecede zehirlidir; dahilen veya haricen (cilde sürülerek) ASLA kullanılmaz!",
+            "Tropan Alkaloidleri (Atropin & Skopolamin): Tarihsel ‘uçma’ sanrılarına ve ölümcül zehirlenmelere yol açan kimyasal bileşikler.",
+            "Giambattista della Porta & Johann Weyer: 16. yüzyılda cadı mahkemelerindeki sanrıları farmakolojik olarak açıklayan Rönesans bilginleri.",
+            "Güvenli Alternatif (Rüya Otu): Tehlikeli toksinler yerine yastık kenarında yalnızca kokusu kullanılan zararsız **Lavanta** (*Lavandula*) veya **Melisa** (*Melissa officinalis*)."
+          ],
+          "en": [
+            "⚠️ STRICT MEDICAL WARNING: *Atropa belladonna*, *Hyoscyamus*, *Datura*, *Mandragora*, and *Aconitum* are deadly poisons; NEVER ingest, burn, or apply them to skin!",
+            "Tropane Alkaloids (Atropine & Scopolamine): Potent anticholinergic compounds responsible for historical delirium and fatal toxicity.",
+            "Giambattista della Porta & Johann Weyer: 16th-century physicians who offered pharmacological explanations during the European witch trials.",
+            "Safe Nocturnal Alternative: Using gentle, non-toxic **Lavender** (*Lavandula*) or **Lemon Balm** (*Melissa officinalis*) in a bedside scent sachet."
+          ],
+          "sv": [
+            "⚠️ ABSOLUT MEDICINSK VARNING: *Atropa belladonna*, *Hyoscyamus* (Bolmört), *Datura*, *Mandragora* och *Aconitum* (Stormhatt) är dödligt giftiga och får ALDRIG användas invärtes eller utvärtes!",
+            "Tropanalkaloider (Atropin & Skopolamin): De ämnen som orsakade historiska förgiftningstillstånd.",
+            "Giambattista della Porta & Johann Weyer: 1500-talsläkare som gav medicinska förklaringar under häxprocessernas tid.",
+            "Säkert Kvällsalternativ: En doftpåse med mild, helt ofarlig **Lavendel** (*Lavandula*) och **Citronmeliss** (*Melissa officinalis*) vid huvudkudden."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Güvenli ‘Gece ve Rüya’ Yastık Kesesi (Lavanta ve Melisa)",
+            "steps": [
+              "Ortaçağın tehlikeli ve zehirli yanılgılarından tamamen uzak durarak, küçük bir pamuklu kese içine 1 tatlı kaşığı kurutulmuş **Lavanta çiçeği** ve 1 tatlı kaşığı **Melisa (Oğulotu)** yaprağı koy.",
+              "Keseyi yastığının kenarına (cildine sürtmeden, sadece hafif kokusu gelecek şekilde) yerleştir.",
+              "Uyumadan önce ‘Bedenim güvende, zihnim berrak, rüyalarım huzurlu’ niyetiyle 3 derin nefes al."
+            ]
+          },
+          "en": {
+            "title": "Practice · Crafting a Safe Bedside Dream Sachet (Lavender & Lemon Balm)",
+            "steps": [
+              "Honoring strict botanical safety, place one teaspoon of dried **Lavender blossoms** and one teaspoon of dried **Lemon Balm** (*Melissa officinalis*) into a small cotton pouch.",
+              "Set the pouch beside your pillow so its gentle aroma calms the senses before sleep.",
+              "Take three slow breaths, affirming: 'My body is protected, my mind is clear, and my rest is peaceful.'"
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Säker Doftpåse för Kvällsro (Lavendel och Citronmeliss)",
+            "steps": [
+              "Med full respekt för botanisk säkerhet, lägg en tesked torkade **Lavendelblommor** och en tesked torkad **Citronmeliss** (*Melissa officinalis*) i en liten bomullspåse.",
+              "Placera påsen bredvid din huvudkudde så att dess milda doft ger ro inför sömnen.",
+              "Ta tre djupa andetag med orden: 'Min kropp är trygg, mitt sinne är klart och min sömn är fridfull.'"
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Gerçek bilgelik zehirle gösteriş yapmakta değil; doğanın sınırına saygı duyup yaşamı ve sağlığı korumaktadır.",
+          "en": "True wisdom never flirts with poison; it knows the boundaries of nature and guards the safety of life.",
+          "sv": "Sann visdom leker aldrig med gift; den känner naturens gränser och värnar livets trygghet."
+        }
+      },
+      {
+        "slug": "ocak-simyasi-ekmek-tuz-bal",
+        "glyph": "XI",
+        "image": "/witchcraft/ocak-simyasi-ekmek-tuz-bal.jpg",
+        "title": {
+          "tr": "Ocak Simyası (Kitchen Hearth): Ekmek, Tuz, Bal ve Biberiye",
+          "en": "Hearth Alchemy (Kitchen Craft): Bread, Salt, Honey, and Rosemary",
+          "sv": "Härdens Alkemi (Kökskonst): Bröd, Salt, Honung och Rosmarin"
+        },
+        "subtitle": {
+          "tr": "Ekşi Mayanın Canlılığı, Saat Yönünde Karıştırma (*Deiseil*) ve Sofra Kutsallığı",
+          "en": "Living Sourdough, Stirring Sunwise (*Deiseil*), and the Sanctity of the Table",
+          "sv": "Den Levande Surdegen, Att Röra Medsols (*Deiseil*) och Bordets Helgd"
+        },
+        "summary": {
+          "tr": "Geleneksel ocak bilgisinde mutfak sıradan bir yemek odası değil, dört elementin her gün birleştiği en temel simya laboratuvarıdır: Toprak (Tahıl ve Tuz), Su (Çorba ve Maya), Ateş (Fırın) ve Hava (Buhar ve Koku).",
+          "en": "In traditional hearth lore, the kitchen is not a mundane utility room, but the primary alchemical laboratory where the four elements unite daily: Earth (Grain & Salt), Water (Broth & Leaven), Fire (Oven), and Air (Steam & Aroma).",
+          "sv": "I traditionell härdkunskap är köket inte bara ett vardagsrum, utan det främsta alkemiska rummet där de fyra elementen möts varje dag: Jord (Säd & Salt), Vatten (Spad & Jäst), Eld (Ugn) och Luft (Ånga & Doft)."
+        },
+        "paragraphs": {
+          "tr": [
+            "Kuzey Avrupa ve Anadolu halk geleneğinde evin en kutsal sunağı gizli bir mahzen değil, **mutfak ocağıdır**. Çünkü insanın ağzından içeri giren her lokma doğrudan kanına, nefesine ve düşüncesine dönüşür. Bir yemeği öfkeyle ve aceleyle pişirmek ile şükranla ve dikkatle pişirmek arasındaki farkı her sofra hisseder.",
+            "Ocak simyasının üç ölümsüz maddesi vardır: **Ekmek (Tahıl ve Ekşi Maya)**, **Tuz** ve **Bal**. Ekşi maya, havadaki ve undaki canlı mikroorganizmaların suyla uyanmasıdır; eskiden köylerde nesilden nesile aktarılan ana maya (*Mother Dough*) tıpkı sönmeyen ocak ateşi gibi korunur ve hamurun üzerine pişmeden önce bereket için bir artı/rünsel mühür çizilirdi.",
+            "Yeni bir eve taşınıldığında içeriye ilk olarak **Ekmek ve Tuz** götürülür: Ekmek evin asla aç kalmamasını, tuz ise bozulmayan sadakati ve korunmayı simgeler. Üçüncü madde olan **Bal** ise binlerce yıl bozulmadan kalabilen tek doğal gıdadır; güneşin çiçeklerde yoğunlaşmış sıvı altınıdır.",
+            "⚠️ Tıbbi Uyarı: Mutfak otları (biberiye, kekik, adaçayı, defne) yemeklik ölçülerde güvenlidir; ancak **1 yaşından küçük bebeklere botulizm riski nedeniyle kesinlikle bal verilmemeli**, hipertansiyon/böbrek hastalarında tuz kısıtlamasına ve çölyak/diyabet hastalarında tıbbi diyet kurallarına titizlikle uyulmalıdır."
+          ],
+          "en": [
+            "Across Northern European and Anatolian folk traditions, the most sacred altar of the house is the **kitchen hearth**. Every morsel prepared at the stove becomes human blood, breath, and thought; every household feels the difference between a meal thrown together in anger and bread baked in quiet gratitude.",
+            "Three substances stand as pillars of hearth alchemy: **Bread (Grain and Living Sourdough)**, **Salt**, and **Honey**. Traditional sourdough starter (*Mother Dough*) was tended across generations like a perpetual flame, and before a loaf entered the oven, a cross or protective mark was scored into its crust so the dough could rise freely.",
+            "When crossing the threshold of a new home, the first gifts brought inside are **Bread and Salt**: bread so the house may never know hunger, salt so its peace may never spoil. The third pillar, **Honey**, is the only natural food that remains unspoiled across millennia—liquid sunlight gathered from a thousand blossoms.",
+            "⚠️ Medical Disclaimer: Culinary herbs (rosemary, thyme, sage, bay) are safe in normal food amounts; however, **never give honey to infants under 12 months of age due to the risk of infant botulism**, and always follow medical dietary restrictions for hypertension, diabetes, or food allergies."
+          ],
+          "sv": [
+            "I både nordisk och anatolisk folktradition är hemmets heligaste plats **kökshärden**. Varje tugga som lagas vid spisen förvandlas till kropp, andedräkt och tanke; varje hem känner skillnaden mellan mat som lagats i stress och bröd som bakats i lugn omtanke.",
+            "Tre ämnen utgör härdalkemins grundpelare: **Bröd (Säd och Surdeg)**, **Salt** och **Honung**. En levande surdeg vårdades förr i gårdarna från generation till generation likt den eviga härdelden, och innan limpan sattes i ugnen ristades ett skyddstecken i skorpan.",
+            "När man flyttar in i ett nytt hem bärs **Bröd och Salt** in allra först: bröd för att huset aldrig ska lida nöd, salt för att tilliten aldrig ska ruttna. Den tredje pelaren, **Honung**, är det enda naturliga livsmedel som kan bevaras i årtusenden—flytande solljus samlat ur sommarens blommor.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Kryddörter i vanlig matlagning är säkra, men **ge aldrig honung till barn under ett års ålder på grund av risken för spädbarnsbotulism**, och följ alltid medicinska kostråd vid allergier, diabetes eller högt blodtryck."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Tencereyi Saat Yönünde (*Deiseil*) Karıştırmak",
+              "body": "İskoç ve İskandinav mutfak geleneğinde çorba veya hamur karıştırılırken tahta kaşık saat yönünde çevrilerek ‘eve sağlık ve dirlik gelsin’ niyeti tutulurdu."
+            },
+            {
+              "heading": "Biberiye (*Rosmarinus*): Hafıza ve Sadakat Otu",
+              "body": "*‘Biberiye hafıza içindir’* (Ophelia, *Hamlet*): Akdeniz’den Kuzey Avrupa’ya kadar mutfak penceresinde yetiştirilen biberiye, hem yemeği lezzetlendirir hem de kokusuyla zihni uyandırır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Stirring the Pot Sunwise (*Deiseil*)",
+              "body": "In Scottish and Nordic kitchen custom, soup and porridge were stirred clockwise with a wooden spoon while speaking a quiet blessing for household health."
+            },
+            {
+              "heading": "Rosemary (*Rosmarinus*): The Herb of Remembrance",
+              "body": "*'There's rosemary, that's for remembrance'*: grown on kitchen windowsills across Europe, rosemary seasons the pot while sharpening wakeful memory."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Att Röra i Grytan Medsols (*Deiseil*)",
+              "body": "I skotsk och nordisk kökssed rörde man i grytan medsols med träslev medan man önskade hälsa och sammanhållning åt gården."
+            },
+            {
+              "heading": "Rosmarin (*Rosmarinus*): Minnets och Trofasthetens Ört",
+              "body": "Odlad i köksfönstret ger rosmarin både kraft åt maten och klarhet åt minnet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Ekmek ve Tuz: Yeni bir evin ve sofranın bereket ile sadakat mührü.",
+            "Bal: Binlerce yıl bozulmayan, güneş enerjisini taşıyan altın nektar.",
+            "Tahta Kaşık: Metalin sertliği yerine ağacın sıcaklığıyla kazanı karıştıran ocak asası.",
+            "Biberiye, Kekik ve Defne: Mutfak ocağının üç temel koruyucu ve canlandırıcı aromatik bitkisi.",
+            "⚠️ Tıbbi Uyarı: 1 yaş altı bebeklere bal verilmemeli; gıda alerjisi ve kronik hastalıklarda hekim diyetine uyulmalıdır."
+          ],
+          "en": [
+            "Bread & Salt: The ancient housewarming seal of nourishment and incorruptible fidelity.",
+            "Honey: Imperishable golden nectar carrying the concentrated warmth of summer blossoms.",
+            "The Wooden Spoon: The humble hearth-wand that stirs the pot without scratching the vessel.",
+            "Rosemary, Thyme & Bay: The classic culinary triad of clarity, warmth, and endurance.",
+            "⚠️ Medical Disclaimer: Never feed honey to infants under 1 year old; adhere to physician-prescribed diets for chronic conditions."
+          ],
+          "sv": [
+            "Bröd & Salt: Det klassiska inflyttningstecknet för näring och beständig trofasthet.",
+            "Honung: Oförgänglig gyllene nektar som bär sommarens samlade solkraft.",
+            "Träsleven: Härdens enkla stav som rör om i kitteln med träets värme.",
+            "Rosmarin, Timjan & Lagerblad: Kökets tre klassiska örter för klarhet och styrka.",
+            "⚠️ Medicinsk Ansvarsfriskrivning: Ge aldrig honung till spädbarn under 1 år; följ alltid läkares kostråd."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Bilinçli Çay/Çorba Karıştırma ve Sofra Mührü",
+            "steps": [
+              "Bugün kendin veya ailen için bir çay demlerken ya da tencerede çorba pişirirken telefonunu mutfaktan çıkar.",
+              "Yemeği tahta kaşıkla saat yönünde yavaşça üç kez karıştırırken içinden: ‘Bu ocağın ısısı, bu toprağın tuzu ve bu suyun berraklığı yiyen herkese sağlık, huzur ve kuvvet olsun’ niyetini geçir.",
+              "İlk lokmayı yemeden önce 3 saniye sessizce durup emeği geçen toprağa ve ellere teşekkür et."
+            ]
+          },
+          "en": {
+            "title": "Practice · Mindful Sunwise Stirring and Sealing the Meal",
+            "steps": [
+              "While brewing tea or simmering soup today, leave your phone outside the kitchen and bring your full attention to the stove.",
+              "Stir the pot slowly three times clockwise (sunwise) with a wooden spoon, stating inwardly: 'May the warmth of this hearth and the gift of the earth bring strength and peace to all who share this table.'",
+              "Before taking the first bite, pause for three seconds of silent gratitude."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Medveten Medsols Omrörning och Måltidens Sigill",
+            "steps": [
+              "När du brygger te eller kokar soppa i dag, lämna telefonen utanför köket och var helt närvarande vid spisen.",
+              "Rör långsamt tre varv medsols med en träslev och säg tyst: 'Må denna härds värme och jordens gåva ge styrka och frid åt alla vid detta bord.'",
+              "Stanna upp i tre sekunders tyst tacksamhet innan måltiden börjar."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Simya kurşunu altına çevirmek değil; unu, suyu ve sevgiyi aynı sofrada ekmeğe dönüştürmektir.",
+          "en": "True alchemy is not turning lead into gold, but turning flour, water, fire, and care into shared bread.",
+          "sv": "Sann alkemi är inte att förvandla bly till guld, utan att förvandla mjöl, vatten, eld och omtanke till delat bröd."
+        }
+      },
+      {
+        "slug": "besom-supurge-ve-esik-bekciligi",
+        "glyph": "XII",
+        "image": "/witchcraft/besom-supurge-ve-esik-bekciligi.jpg",
+        "title": {
+          "tr": "Besom (Çalı Süpürgesi), Demir At Nalı ve Eşik Bekçiliği",
+          "en": "The Besom, Forged Iron, and Threshold Guardianship",
+          "sv": "Besom (Björkkvasten), Smitt Järn och Tröskelns Väktare"
+        },
+        "subtitle": {
+          "tr": "Huş Dalları, Dişbudak Sapı, Söğüt Bağı ve ‘İçeriden Dışarıya’ Süpürme Yasası",
+          "en": "Birch Twigs, Ash Staff, Willow Binding, and the Lore of Sweeping the Hearth",
+          "sv": "Björkris, Askskaft, Videband och Konsten att Sopa Härden Ren"
+        },
+        "summary": {
+          "tr": "Geleneksel ‘Besom’ (yuvarlak çalı süpürgesi) üç kutsal ağacın evliliğidir: **Dişbudak** sapı, **Huş** çalıları ve **Söğüt** bağı — hem fiziksel tozu hem de mekandaki durgunluğu temizleyen eşik bekçisidir.",
+          "en": "The traditional **Besom** (round twig broom) is a marriage of three sacred trees: an **Ash** handle, **Birch** twigs, and a **Willow** binding—serving both to sweep physical dust and to clear stagnant energy from the threshold.",
+          "sv": "Den traditionella **Besom**-kvasten är ett förbund mellan tre heliga träd: skaft av **Ask**, ris av **Björk** och band av **Vide (Pil)**—ett redskap som sopar bort både fysiskt damm och tung stämning vid tröskeln."
+        },
+        "paragraphs": {
+          "tr": [
+            "Avrupa folklorunda ‘cadı süpürgesi’ olarak karikatürize edilen **Besom** (yuvarlak çalı süpürgesi), gerçekte kırsal evlerin ve şifacı ocaklarının en onurlu temizlik ve sınır aracıydı. Geleneksel bir Besom rastgele odunlardan değil, Ogham ve Kuzey geleneğinin **üç kutsal ağacının birleşimiyle** yapılırdı:",
+            "Süpürgenin ortasındaki sağlam sap **Dişbudak** (*Ash* / *Fraxinus* — Dünya Ağacı Yggdrasil’in ağacı, koruma ve omurga) ağacından yontulur; süpüren çalı demeti **Huş** (*Birch* / *Betula* — Berkana rünü, arınma ve yeni başlangıç) dallarından toplanır; çalıları sapa bağlayan halka ise esnek **Söğüt** (*Willow* — su elementi ve esneklik) kabuğundan örülürdü.",
+            "Kuzey ve Britanya ev görgüsünde süpürmenin bile bir yönü vardır: Yeni bir eve taşınıldığında önce yeni bir süpürge, ekmek ve tuz girer; ancak güneş battıktan sonra evin içindeki bereketi dışarı atmamak için kapı eşiğinden dışarı doğru süpürülmez, ocağa doğru toplanırdı. Ayrıca süpürge kullanılmadığında fırça kısmı yukarı gelecek şekilde kapı arkasına dik konarak eşiği koruyan bir nöbetçi sayılırdı.",
+            "Kapı eşiğinin üstüne uçları yukarı bakacak şekilde (bereket kasesi gibi) asılan **Dövme Demir At Nalı** ve delikli **Hag Stone** (Perili Taş / *Adder Stone*) ise eşik bekçiliğinin maden ve taş ayağını tamamlar."
+          ],
+          "en": [
+            "Long before it was caricatured in popular folklore, the **Besom** (round heath or birch broom) was an honored implement of rural housecraft and ritual space-clearing. A traditional besom was crafted by uniting **three sacred trees** of the Northern and Celtic forest:",
+            "The central shaft was hewn from **Ash** (*Fraxinus*—tree of the world-axis and steadfast protection); the brush was bundled from **Birch** twigs (*Betula*—tree of the rune Berkana, purification, and spring beginnings); and the binding wythe was woven from pliant **Willow** (*Salix*—tree of water and lunar flexibility).",
+            "In British and Scandinavian household lore, even sweeping followed mindful custom: before beginning a ritual or welcoming a new season, the hearthstone was swept clean. When not in use, the besom was stood bristles-up behind the door to act as a quiet sentinel of the threshold.",
+            "Alongside the besom stood two mineral guardians of the lintel: a **Forged Iron Horseshoe** hung points-up (like a cup to hold good fortune) and a naturally perforated river or sea flint known as a **Hag Stone** (*Adder Stone*)."
+          ],
+          "sv": [
+            "Långt innan kvasten blev en karikatyr i folktron var **Besom** (den runda björk- eller ljungkvasten) ett aktat redskap vid gårdens härd. En traditionell kvast bands genom att förena **tre heliga träd** ur den nordiska och keltiska skogen:",
+            "Skaftet täljdes av **Ask** (*Fraxinus*—världsträdets virke som ger ryggrad och skydd); själva kvasten bands av **Björkris** (*Betula*—Berkana-runans träd för rening och nystart); och bandet som höll riset samman flätades av seg **Vide / Pil** (*Salix*—vattnets och smidighetens träd).",
+            "I gammal nordisk och brittisk gårdssed sopade man aldrig dammet rakt ut genom ytterdörren efter solnedgången för att inte sopa ut gårdens lycka, utan samlade det mot härden. När kvasten vilade ställdes den vid dörren som tröskelns tysta vakt.",
+            "Vid dörrposten hängde ofta två andra väktare: en **Smidd Hästsko av Järn** med skänklarna uppåt (som en skål för god lycka) och en naturligt hålad sten som formats av rinnande vatten (**Hag Stone** / *Orre-sten* / *Maransten*)."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Üç Ağacın Birliği: Dişbudak, Huş ve Söğüt",
+              "body": "Dişbudak (Hava/Gök direği), Huş (Toprak/Bahar arınması) ve Söğüt (Su/Ay esnekliği) tek bir süpürgede birleşerek evi üç elementle temizler."
+            },
+            {
+              "heading": "Hag Stone (Doğal Delikli Taş) ve Dövme Demir",
+              "body": "Akarsuyun veya denizin sabırla ortasını deldiği doğal bir çakmaktaşı (*Hag Stone*) ile demircinin ateşinde dövülmüş demir nal, Kuzey Avrupa’da bin yıldır kapı kirişlerinin iki sade bekçisidir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Marriage of Three Trees: Ash, Birch, and Willow",
+              "body": "Ash provides the upright spine, Birch provides the purifying sweep, and Willow provides the flexible bond—uniting three elemental trees in one tool."
+            },
+            {
+              "heading": "The Hag Stone and Forged Iron at the Lintel",
+              "body": "A stone pierced naturally by running water (*Hag Stone*) and iron tempered on the smith's anvil represent the union of water's patience and fire's strength at the doorway."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Tre Träd i Ett Redskap: Ask, Björk och Vide",
+              "body": "Asken ger stadgan, björken renar golvet och videt binder samman—tre träd som tillsammans bär hemmets ordning."
+            },
+            {
+              "heading": "Hålstenen (Hag Stone) och det Smidda Järnet",
+              "body": "En flinta eller strandsten som vattnet nött ett naturligt hål genom och det smidda järnet vid dörrposten förenar vattnets tålamod med eldens styrka."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Besom (Geleneksel Çalı Süpürgesi): Dişbudak sap, huş çalısı ve söğüt bağından yapılan yuvarlak süpürge.",
+            "Huş Dalı (Birch · Berkana): Eski yılın tozunu süpürüp yeni başlangıca yer açan ağaç.",
+            "Hag Stone (Delikli Taş / Mare-Stone): Suyun doğal olarak ortasını deldiği, eşiğe asılan nehir/deniz taşı.",
+            "Dövme Demir (Cold Iron): Toprağın ve ateşin sağlamlığını kapı eşiğinde tutan metal.",
+            "Süpürge üzerinden Atlama (Handfasting): Kelt ve Britanya düğünlerinde eski hayattan yeni yuvaya geçişi simgeleyen eşik adımı."
+          ],
+          "en": [
+            "Besom (Traditional Twig Broom): Round broom crafted from ash wood, birch twigs, and willow withes.",
+            "Birch Twigs (Berkana): Emblem of sweeping out the old season and welcoming renewal.",
+            "Hag Stone (Adder Stone): A pebble pierced naturally by water, hung by the threshold for clear sight.",
+            "Forged Iron Horseshoe: Hung points-upward above the lintel to hold household blessing.",
+            "Jumping the Besom: Traditional British and Celtic wedding threshold rite marking entry into a new life."
+          ],
+          "sv": [
+            "Besom (Björkkvast): Rund kvast bunden av askskaft, björkris och videband.",
+            "Björkris (Berkana): Symbol för att sopa ut vinterns tyngd och bjuda in vårens ljus.",
+            "Hag Stone (Hålsten): Sten med ett naturligt hål nött av vatten, upphängd vid tröskeln.",
+            "Smitt Järn (Hästsko): Upphängd med öppningen uppåt för att bevara husets lycka.",
+            "Att Hoppa Över Kvasten: Gammal tröskelrit vid bröllop som markerar klivet in i ett nytt hem."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Bilinçli Oda Süpürme ve Eşik Düzenleme",
+            "steps": [
+              "Çalışma odanı veya evinin girişini süpürmeye başlamadan önce pencereyi aç.",
+              "Süpürürken sadece yerdeki fiziksel tozu değil; o hafta odada konuşulmuş gergin sözleri ve ertelemeleri de süpürüp topladığını imgele.",
+              "Kapı girişindeki ayakkabıları ve dağınıklığı tamamen kaldırarak eşiği ferah ve davetkar bırak."
+            ]
+          },
+          "en": {
+            "title": "Practice · Mindful Threshold Sweeping",
+            "steps": [
+              "Open a window and take up your broom to sweep the entrance hall or study space by hand.",
+              "As you sweep, visualize gathering not only physical dust, but also the week's mental clutter, spoken tension, and procrastination.",
+              "Clear all shoes and obstacles from the doorway so the threshold stands clean, open, and ordered."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Medveten Tröskelsopning",
+            "steps": [
+              "Öppna ett fönster och sopa hallen eller ditt arbetsrum för hand med lugna drag.",
+              "Föreställ dig att du tillsammans med dammet även sopar ut veckans trötthet, hårda ord och uppskjutna tankar.",
+              "Ställ undan skor och hinder vid dörren så att tröskeln lämnas fri och välkomnande."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Tapınak da, zihin de önce süpürgeyle temizlenir; eşiği temiz olmayanın ocağı berrak yanmaz.",
+          "en": "Both sanctuary and mind begin with a clean sweep; where the threshold is cluttered, the hearth cannot breathe.",
+          "sv": "Både helgedom och sinne börjar med en ren tröskel; där ingången är belamrad kan härden inte andas."
+        }
+      },
+      {
+        "slug": "ip-dugum-ve-ruzgar-zanaati",
+        "glyph": "XIII",
+        "image": "/witchcraft/ip-dugum-ve-ruzgar-zanaati.jpg",
+        "title": {
+          "tr": "Kordon ve Düğüm Zanaatı (Cord & Knot Craft): Dokuz Düğüm ve Rüzgar Bağı",
+          "en": "Cord and Knot Craft: The Nine Knots and the Northern Wind-Cord",
+          "sv": "Tråd- och Knutkonst: De Nio Knutarna och Nordens Vindknutar"
+        },
+        "subtitle": {
+          "tr": "İskandinav/Fin ‘Rüzgar Düğümleri’, Keten/Yün İp ve Niyeti Somutlaştırma",
+          "en": "Scandinavian and Finnish 'Wind Knots', Natural Linen/Wool, and Anchoring Intention",
+          "sv": "Skandinaviska och Finska 'Vindknutar', Linne och Ull samt Att Förankra Avsikten"
+        },
+        "summary": {
+          "tr": "Mezopotamya’dan İskandinav denizcilerine kadar ‘Düğüm Zanaatı’ (*Knot Magic*), soyut bir sözü veya hedefi doğal bir keten/yün ip üzerinde dokunulabilir bir hafıza mührüne dönüştürme disiplinidir.",
+          "en": "From ancient Babylonian wool threads to Scandinavian mariners' cords, **Knot Craft** is the tactile art of anchoring a spoken commitment into natural fiber—and untying it when the time for action arrives.",
+          "sv": "Från forntida babyloniska ulltrådar till nordiska sjöfarares tampar är **Knutkonst** det handfasta hantverket att fästa ett uttalat löfte i naturfiber—och att lösa knuten när handlingens stund är inne."
+        },
+        "paragraphs": {
+          "tr": [
+            "İnsanlık tarihinin en eski kayıt sistemlerinden ve odaklanma araçlarından biri **ip ve düğümdür**. Antik Babil tabletlerinde şifa veya koruma için yedi ya da dokuz düğümlü kırmızı/beyaz yün iplerden söz edilirken; İskandinav, Sámi ve Fin denizcilik tarihinde bilge kadınların gemicilere **üç düğümlü ‘Rüzgar İpi’ (*Wind Knots*)** verdiği meşhurdur (Olaus Magnus’un 1555 tarihli *Historia de Gentibus Septentrionalibus* eserinde ayrıntıyla anlatılır).",
+            "Efsaneye göre gemiciler denizde rüzgarsız kaldıklarında birinci düğümü çözer ve tatlı bir esinti başlardı; ikinci düğümü çözdüklerinde yelkenleri dolduran güçlü bir rüzgar çıkardı; üçüncü düğümü çözmek ise fırtına çağıracağı için yasaktı. Bu sembolizm bize **gücün ölçülü kullanılmasını**: Birinci düğümün başlangıç, ikincinin kararlı ilerleyiş, üçüncünün ise aşırılıktan sakınma olduğunu öğretir.",
+            "Britanya ve Kuzey Avrupa halk geleneğinde ayrıca **‘Dokuz Düğüm’** (*Nine Knots*) ritmi kullanılarak bir çalışma kordonu (*Cingulum* veya bileklik/defter ayracı) örülür. Düğümler sıradan sırayla (1-2-3...) değil, enerjinin dengeli dağılması için simetrik sırayla (**1 — 9 — 2 — 8 — 3 — 7 — 4 — 6 — 5**, son düğüm tam merkezde!) atılır.",
+            "Doğal keten, pamuk veya yün bir ipe bilinçli bir sözle düğüm atmak, o sözü parmak uçlarınızla fiziksel dünyaya kilitlemektir; zamanı geldiğinde o düğümü çözmek ise saklanan o odak enerjisini eyleme serbest bırakmaktır."
+          ],
+          "en": [
+            "Among humanity's oldest mnemonic and meditative tools is the **knotted cord**. While Mesopotamian tablets describe seven- and nine-knotted woolen threads for protection, Northern European maritime lore is famous for the **Three Wind Knots** given by wise practitioners of the Nordic and Finnish coasts to seafarers (recorded in detail by Olaus Magnus in *Historia de Gentibus Septentrionalibus*, 1555).",
+            "When becalmed at sea, untying the first knot raised a gentle breeze; untying the second brought a strong, steady wind to fill the sails; untying the third unleashed a tempest and was therefore kept bound in restraint. This triad teaches the **law of measure**: the first knot is initiation, the second is steady momentum, and the third is knowing one's limit.",
+            "In British and continental folk craft, a working cord of **Nine Knots** is tied not sequentially from one end, but symmetrically from the outer ends inward toward the center (**1 — 9 — 2 — 8 — 3 — 7 — 4 — 6 — 5**), so that the final fifth knot seals the exact midpoint.",
+            "Tying a knot in natural linen, wool, or cotton while speaking a clear commitment gives physical form to an abstract intention; untying it releases that stored focus into concrete action."
+          ],
+          "sv": [
+            "Ett av mänsklighetens äldsta minnes- och fokusredskap är **den knutna tråden**. Medan mesopotamiska lertavlor talar om sju eller nio knutar på ulltråd, är den nordiska, samiska och finska kusttraditionen berömd för **De Tre Vindknutarna**—utförligt skildrade av Olaus Magnus i *Historia om de nordiska folken* (1555).",
+            "När sjöfararna låg i stiltje löste de den första knuten för att få en mild bris; när de löste den andra knuten fylldes seglen av en stadig förlig vind; den tredje knuten fick aldrig lösas eftersom den väckte full storm. Denna triad lär ut **måttets visdom**: den första knuten är starten, den andra är den uthålliga färden och den tredje är gränsen mot övermod.",
+            "I europeisk folktradition knyts även en arbetstråd med **Nio Knutar** i symmetrisk ordning utifrån och in mot mitten (**1 — 9 — 2 — 8 — 3 — 7 — 4 — 6 — 5**), så att den sista femte knuten förseglar själva hjärtpunkten.",
+            "Att slå en medveten knut på ett snöre av lin, ull eller bomull ger tanken fysisk form i handen; att lösa upp knuten frigör fokus till konkret handling."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Olaus Magnus ve Kuzey’in ‘Üç Rüzgar Düğümü’",
+              "body": "16. yüzyıl İsveç başpiskoposu Olaus Magnus’un kaydettiği üç düğümlü gemici ipi, Kuzey deniz folklorunun en ünlü sembolüdür: İhtiyacın kadar rüzgar iste, fırtınayı kışkırtma."
+            },
+            {
+              "heading": "Simetrik Dokuz Düğüm Sırası (1-9-2-8-3-7-4-6-5)",
+              "body": "İpin önce iki ucuna (1 ve 9), sonra kademeli olarak merkeze (5) doğru düğüm atmak, başlangıç ile sonucu en baştan belirleyip tam ortada buluşma geometrisidir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Olaus Magnus and the Northern 'Three Wind Knots'",
+              "body": "Recorded in 1555 by the Swedish scholar Olaus Magnus, the mariner's three-knotted cord embodies northern practical wisdom: call enough wind to sail, never enough to wreck the ship."
+            },
+            {
+              "heading": "The Symmetrical Nine-Knot Cadence (1-9-2-8-3-7-4-6-5)",
+              "body": "Setting the two outer boundary knots first (1 and 9) and working inward to the center (5) establishes beginning and goal before sealing the heart of the work."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Olaus Magnus och Nordens 'Tre Vindknutar'",
+              "body": "Olaus Magnus klassiska skildring från 1555 visar den nordiska sjömansvisdomen: be om lagom vind för seglen, men utmana aldrig stormen."
+            },
+            {
+              "heading": "Den Symmetriska Nioknutsrytmen (1-9-2-8-3-7-4-6-5)",
+              "body": "Genom att först sätta yttergränserna (1 och 9) och sedan vandra inåt mot mitten (5) förenas början och mål i en sluten helhet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Rüzgar Düğümleri (Wind Knots): İskandinav ve Fin deniz folklorunda rüzgarın ölçüsünü tutan üç düğümlü ip.",
+            "Simetrik Dokuz Düğüm: İpin uçlarından merkezdeki 5. düğüme doğru ilerleyen geleneksel odaklanma dizisi.",
+            "Doğal Lif Kuralı: Yalnızca yün, keten, kenevir veya pamuk ip kullanılır (sentetik naylon kullanılmaz).",
+            "Bağlama ve Çözme (Ligatura & Solutio): Niyeti sabitlemek için düğüm atma, engeli kaldırmak için düğüm çözme."
+          ],
+          "en": [
+            "Wind Knots: The three-knotted mariner's cord of Scandinavian, Sámi, and Finnish coastal lore.",
+            "Symmetrical Nine Knots: Traditional sequence tying from the outer ends to the central fifth knot.",
+            "Natural Fiber Ethic: Using only wool, linen, hemp, or cotton cord.",
+            "Binding & Loosing (Ligatura & Solutio): Tying to consolidate focus; untying to release momentum."
+          ],
+          "sv": [
+            "Vindknutar (Wind Knots): Nordisk, samisk och finsk kusttradition med tre knutar på en tamp.",
+            "Symmetriska Nio Knutar: Traditionell rytm som knyts från ändarna in mot den femte mittknuten.",
+            "Naturfiberregeln: Att arbeta uteslutande med ull, lin, hampa eller bomull.",
+            "Att Binda och Lösa: Att slå en knut för att samla fokus och att lösa den för att frigöra handling."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · ‘Üç Rüzgar Düğümü’ ile Bir Hedefi Başlatma",
+            "steps": [
+              "Yaklaşık 30 cm uzunluğunda doğal bir pamuk, keten veya yün ip al; tamamlamak istediğin bir projeyi veya çalışmayı düşün.",
+              "İpin üzerine eşit aralıklarla **üç gevşek düğüm** at: 1. düğümü atarken ‘Niyetimi kuruyorum’, 2. düğümü atarken ‘Emeğimi veriyorum’, 3. düğümü atarken ‘Sonucu tamamlıyorum’ de.",
+              "Projeye başladığın gün 1. düğümü, yarıladığın gün 2. düğümü, bitirdiğin gün ise 3. düğümü çözerek ipi düzleştir."
+            ]
+          },
+          "en": {
+            "title": "Practice · The 'Three Wind Knots' for Completing a Project",
+            "steps": [
+              "Take a 30 cm length of natural linen, wool, or cotton cord and name one specific project or study goal you wish to complete.",
+              "Tie **three loose knots** along the cord: with the 1st knot state, 'I set the beginning'; with the 2nd, 'I sustain the effort'; with the 3rd, 'I bring the work to completion.'",
+              "Keep the cord on your desk: untie the 1st knot when you begin, the 2nd at the halfway mark, and the 3rd on the day you finish."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 'Tre Vindknutar' för att Genomföra ett Arbete",
+            "steps": [
+              "Ta en cirka 30 cm lång tråd av lin, ull eller bomull och formulera ett konkret arbete eller mål du vill fullborda.",
+              "Slå **tre lösa knutar** längs tråden: vid 1:a knuten säger du 'Jag sätter början', vid 2:a knuten 'Jag håller arbetet vid liv' och vid 3:e knuten 'Jag för verket i hamn'.",
+              "Ha tråden på ditt skrivbord: lös den första knuten när du börjar, den andra halvvägs och den tredje den dag arbetet är slutfört."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Söz havada uçar, fakat parmakların keten ipe attığı bilinçli düğüm hedef tamamlanana dek nöbet tutar.",
+          "en": "Spoken words drift on the air, but a conscious knot tied in linen keeps watch until the work is done.",
+          "sv": "Det talade ordet flyger i vinden, men en medveten knut i linne håller vakt tills verket är i hamn."
+        }
+      },
+      {
+        "slug": "ay-bahcesi-tohum-ve-kok",
+        "glyph": "XIV",
+        "image": "/witchcraft/ay-bahcesi-tohum-ve-kok.jpg",
+        "title": {
+          "tr": "Ay Bahçeciliği (Lunar Gardening): Özsu Akışı, Tohum ve Kök",
+          "en": "Lunar Gardening: Sap Flow, Seed, and Root",
+          "sv": "Månträdgård (Lunar Gardening): Savflöde, Frö och Rot"
+        },
+        "subtitle": {
+          "tr": "Büyüyen Ayda Yaprak ve Çiçek, Küçülen Ayda Kök ve Budama Takvimi",
+          "en": "Sowing Leaf and Flower by the Waxing Moon, Root and Pruning by the Waning Moon",
+          "sv": "Att Så Blad och Blomma i Tilltagande Måne, Rot och Beskärning i Avtagande Måne"
+        },
+        "summary": {
+          "tr": "Yaşlı Plinius’tan geleneksel çiftçi takvimlerine kadar ‘Ay Bahçeciliği’ basit bir gözleme dayanır: Ay okyanuslarda gelgit yaratabiliyorsa, bitkilerin gövdesindeki su ve özsu akışını da ritmik olarak yukarı (yaprağa) ve aşağı (köke) çeker.",
+          "en": "From Pliny the Elder to traditional farmers' almanacs, **Lunar Gardening** rests on a clear observation: just as the Moon moves the ocean tides, its cycle draws plant sap rhythmically upward into leaf and blossom, then downward into the root.",
+          "sv": "Från Plinius den äldre till gamla bondepraktikor vilar **Månträdgården** på en enkel iakttagelse: liksom månen styr havets tidvatten drar dess faser växtens sav rytmiskt uppåt mot blad och blomma och sedan nedåt mot roten."
+        },
+        "paragraphs": {
+          "tr": [
+            "Antik Roma’da **Columella** ve **Yaşlı Plinius**, Ortaçağ manastır bahçelerinde ise bitki ustaları ekim ve hasat zamanlarını sadece Güneş mevsimine göre değil, **Ay’ın dört evresine** göre düzenlemiştir. Çünkü bitkinin yüzde sekseni sudur ve Ay’ın çekim gücü ile gece ışığı toprağın nemini ve bitki özsuyunu doğrudan etkiler.",
+            "Temel kural son derece sadedir: **Yeniay’dan Dolunay’a kadar olan Büyüyen Ay (Waxing Moon)** evresinde bitkinin özsuyu ve enerjisi **yukarıya — gövdeye, yapraklara, çiçeklere ve toprak üstü meyvelere** doğru yükselir. Bu yüzden fesleğen, nane, marul, biberiye, domates ve çiçek tohumları büyüyen ayda ekilir; aromatik yapraklar ve çiçekler ise **Dolunay’a yakın sabah saatlerinde** (uçucu yağlar zirvedeyken) toplanır.",
+            "**Dolunay’dan Yeniay’a kadar olan Küçülen Ay (Waning Moon)** evresinde ise özsu ve enerji **aşağıya — toprağın altındaki köklere** çekilir. Bu yüzden havuç, patates, sarımsak, soğan ve şifalı kökler küçülen ayda ekilir veya sökülür; ağaç budaması, yabani ot temizliği ve kompost hazırlığı da özsuyun çekildiği bu sakin evrede yapılır.",
+            "**Karanlık Ay (Balsamik Evre — Yeniaydan önceki son 2 gün)** ise ne ekim ne de hasat zamanıdır; toprağın çapalandığı, dinlendirildiği ve bir sonraki döngüye hazırlandığı nadas saatidir."
+          ],
+          "en": [
+            "In classical antiquity **Columella** and **Pliny the Elder**, and later monastic and cottage gardeners across Europe, timed their sowing, grafting, and harvesting not only by the solar seasons, but by the **four phases of the Moon**.",
+            "The foundational principle is straightforward: during the **Waxing Moon (from New Moon to Full Moon)**, moisture and vital sap rise **upward into stems, leaves, blossoms, and above-ground fruits**. Thus leafy herbs (basil, mint, rosemary, sage), grains, and flowers are sown during the waxing phase, and aromatic leaves and flowers are harvested near the **Full Moon** when essential oils peak in the upper canopy.",
+            "During the **Waning Moon (from Full Moon to New Moon)**, sap draws **downward into the roots**. Root crops (garlic, onions, carrots, medicinal roots) are planted or harvested in the waning half, and pruning or transplanting is performed when sap pressure in the branches is low.",
+            "During the **Dark Moon (the final two days before the New Moon)**, the garden rests: no seeds are sown, and attention turns to weeding, composting, and preparing the soil."
+          ],
+          "sv": [
+            "Under antiken hos **Columella** och **Plinius den äldre**, och senare i kloster- och gårdsträdgårdar över hela Europa, följde man inte bara solens årstider utan även **månens fyra faser** vid sådd, ympning och skörd.",
+            "Grundregeln är enkel: under **Tilltagande Måne (från Nymåne till Fullmåne)** stiger saven och livskraften **uppåt i stjälkar, blad, blommor och frukter ovan jord**. Därför sås bladkryddor (basilika, mynta, salvia, rosmarin) och blommor under tilltagande måne, och aromatiska blad skördas nära **Fullmånen**.",
+            "Under **Avtagande Måne (från Fullmåne till Nymåne)** drar sig saven **nedåt mot rötterna i jorden**. Då sätter och skördar man rotfrukter, lök och vitlök, och beskär träd när savtrycket i grenarna är lågt.",
+            "Under **Mörkmånen (de sista två dygnen före Nymåne)** får jorden vila: då sår man inte, utan rensar ogräs, sköter komposten och förbereder bäddarna."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Yukarı Çekiş (Büyüyen Ay) ve Aşağı Çekiş (Küçülen Ay)",
+              "body": "Toprak üstünde büyüyen (yaprak ve çiçek) bitkileri Ay büyürken, toprak altında büyüyen (yumru ve kök) bitkileri ise Ay küçülürken ekmek bin yıllık bahçe pusulasıdır."
+            },
+            {
+              "heading": "Hasat Saati: Çiğ Kuruduktan Sonra, Öğle Güneşinden Önce",
+              "body": "Şifalı ve aromatik yapraklar (kekik, adaçayı, lavanta) sabah çiği yapraktan kalktıktan hemen sonra, ancak öğle güneşi uçucu yağları uçurmadan önce toplanır."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Upward Draw (Waxing) and Downward Draw (Waning)",
+              "body": "Planting above-ground crops as the Moon waxes and below-ground roots as the Moon wanes aligns human labor with the natural rhythm of sap and soil moisture."
+            },
+            {
+              "heading": "The Hour of Harvest: After the Dew Dries, Before High Noon",
+              "body": "Aromatic herbs (thyme, lavender, sage) yield their richest volatile oils in the mid-morning—after morning dew has evaporated so leaves do not mold, yet before the midday sun disperses their scent."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Uppåtstigande Sav (Tilltagande) och Nedåtdragande Sav (Avtagande)",
+              "body": "Att så växter som bär skörd ovan jord i ny (tilltagande måne) och rotväxter i nedan (avtagande måne) är bondepraktikans mest klassiska regel."
+            },
+            {
+              "heading": "Skördetimmen: När Daggen Torkat men Före Middagshettan",
+              "body": "Doftande läke- och kryddörter skördas under förmiddagen när daggen precis torkat upp men innan middagssolen drivit bort de eteriska oljorna."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Yeniay — İlk Dördün: Yapraklı yeşillikler, tahıllar ve tek yıllık çiçeklerin tohum ekimi.",
+            "İlk Dördün — Dolunay: Meyve veren bitkilerin ekimi ve aromatik çiçek/yaprak hasadı.",
+            "Dolunay — Son Dördün: Kök bitkilerin (soğan, sarımsak, kökler) ekimi, ağaç dikimi ve budama.",
+            "Karanlık Ay (Nadas): Toprağı dinlendirme, kuru yaprakları temizleme ve kompost zamanı.",
+            "Sabah Hasadı: Uçucu yağların yaprakta en yoğun olduğu kuşluk vakti."
+          ],
+          "en": [
+            "New Moon to First Quarter: Sowing leafy greens, culinary herbs, and annual flowers.",
+            "First Quarter to Full Moon: Sowing fruiting plants and harvesting aromatic blossoms and leaves.",
+            "Full Moon to Last Quarter: Planting bulbs and root crops, transplanting, and pruning.",
+            "Dark Moon (Fallow Rest): Weeding, turning compost, and resting the soil.",
+            "Mid-Morning Harvest: Gathering herbs after the dew lifts and before midday heat."
+          ],
+          "sv": [
+            "Nymåne till Första Kvarteret: Sådd av bladgrönsaker, kryddörter och ettåriga blommor.",
+            "Första Kvarteret till Fullmåne: Sådd av fruktbärande växter och skörd av blad och blommor.",
+            "Fullmåne till Sista Kvarteret: Plantering av lök, vitlök och rotväxter samt beskärning.",
+            "Mörkmåne (Jordvila): Ogräsrensning, kompostvård och förberedelse av jorden.",
+            "Förmiddagsskörd: Den tidpunkt då bladens eteriska oljor är som rikast."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Pencere Önünde ‘Yeniaydan Dolunaya’ Tek Saksı Gözlemi",
+            "steps": [
+              "Bir sonraki **Yeniay’dan hemen sonraki gün**, küçük bir toprak saksıya fesleğen, maydanoz veya biberiye tohumu/fidesi dik.",
+              "Bitkiyi sularken gökyüzündeki Ay’ın hangi evrede olduğunu (RuneYard’ın üst barındaki canlı Ay göstergesinden) takip et.",
+              "Dolunay gününde bitkinin bir yaprağını parmaklarının arasında hafifçe ovalayıp kokusunun gücünü gözlemle."
+            ]
+          },
+          "en": {
+            "title": "Practice · A Single-Pot Windowsill Observation Across One Lunar Month",
+            "steps": [
+              "On the day after the next **New Moon**, sow basil, parsley, or rosemary in a small clay pot on your windowsill.",
+              "Each time you water the pot, note the current lunar phase in the live sky bar at the top of RuneYard.",
+              "On the day of the **Full Moon**, gently rub a single leaf between your fingers and notice the richness of its aroma."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Följa en Kruka i Fönstret Genom ett Månvarv",
+            "steps": [
+              "Dagen efter nästa **Nymåne**, så basilika, persilja eller rosmarin i en liten lerkruka på fönsterbrädan.",
+              "Varje gång du vattnar krukan, se efter vilken fas månen befinner sig i via himmelsraden högst upp på RuneYard.",
+              "På **Fullmånedagen**, gnid försiktigt ett blad mellan fingrarna och känn styrkan i dess doft."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Ay denizi kıyılara, özsuyu ise kökten yaprağa çağırır; bahçıvanın ustalığı doğru günde tohum atmaktır.",
+          "en": "The Moon calls the tide to the shore and the sap to the leaf; the gardener's craft is knowing which day belongs to the seed and which to the root.",
+          "sv": "Månen kallar tidvattnet till stranden och saven till bladet; odlarens konst är att veta vilken dag som tillhör fröet och vilken som tillhör roten."
+        }
+      },
+      {
+        "slug": "merhem-ve-gunes-infuzyonu",
+        "glyph": "XV",
+        "image": "/witchcraft/merhem-ve-gunes-infuzyonu.jpg",
+        "title": {
+          "tr": "Apotek Zanaatı: Güneş İnfüzyonu (Maserasyon) ve Balmumu Merhemi",
+          "en": "Apothecary Craft: Solar Oil Infusion (Maceration) and Beeswax Salve",
+          "sv": "Apotekshantverk: Solinfusion i Olja (Maceration) och Bivaxsalva"
+        },
+        "subtitle": {
+          "tr": "Sarı Kantaron, Aynısefa (*Calendula*), Soğuk Sıkım Zeytinyağı ve Doğal Merhem Oranı",
+          "en": "Calendula, St. John's Wort, Cold-Pressed Olive Oil, and the Classic 1:5 Salve Ratio",
+          "sv": "Ringblomma (*Calendula*), Johannesört, Kallpressad Olivolja och Salvmåttet 1:5"
+        },
+        "summary": {
+          "tr": "Geleneksel ‘Apotek’ (Ev Aktarlığı) bilgisinde en saf bakım ürünleri fabrikada değil, güneş ışığında demlenen bitkisel yağlar (maserasyon) ile saf arı balmumunun **1’e 5 oranında** birleşmesiyle hazırlanır — ancak foto-toksisite ve hijyen kurallarını bilmek şarttır.",
+          "en": "In traditional home apothecary lore, gentle skin balms are crafted by uniting solar-infused botanical oils (macerations) with pure beeswax in a **1-to-5 ratio**—guided always by strict hygiene and phototoxicity awareness.",
+          "sv": "I den traditionella läkebokskulturen bereds milda hudsalvor genom att förena örtutdrag i olja (maceration) med rent bivax i **proportionen 1 till 5**—alltid med strikt kännedom om hygien och fototoxicitet."
+        },
+        "paragraphs": {
+          "tr": [
+            "Yüzyıllar boyunca Anadolu’nun ‘Ocaklı’ kadınları ve Kuzey Avrupa’nın ‘Kloka Gummor’ (Bilge Kadınlar) geleneği, yaz güneşinin gücünü kış aylarına saklamak için **‘Maserasyon’ (Yağda Güneş İnfüzyonu)** yöntemini kullanmıştır. Bu yöntemin iki kraliçesi **Aynısefa çiçeği** (*Calendula officinalis*) ve **Sarı Kantaron çiçeğidir** (*Hypericum perforatum* — Kuzey’de Yaz Gündönümü / *Midsommar* otu).",
+            "Tamamen kuru (üzerinde hiç su/çiğ kalmamış) çiçekler cam bir kavanoza konur ve üzerini örtecek kadar saf soğuk sıkım zeytinyağı eklenir. Kavanoz 3 ila 4 hafta boyunca sıcak ortamda bekletilip her gün hafifçe çalkalandığında, bitkinin yağda çözünen özleri zeytinyağına geçer (Sarı Kantaron yağa yakut kırmızısı rengini verir). Ardından tülbentle süzülen bu yağ, benmari usulü eritilmiş **saf arı balmumu** ile (**1 ölçü balmumu : 5 ölçü bitkisel yağ** oranında) karıştırılarak kavanoza döküldüğünde geleneksel el/dudak bakım merhemi (*Salve*) ortaya çıkar.",
+            "⚠️ **ÖNEMLİ TIBBİ VE FOTO-TOKSİSİTE UYARISI:** **1.** Sarı Kantaron (*Hypericum perforatum*) yağı cilde sürüldükten sonra **doğrudan güneş ışığına çıkılırsa ciddi güneş yanığı ve cilt lekelerine (foto-toksisite / hiperisin reaksiyonu) yol açar**; yalnızca akşamları kullanılmalıdır. **2.** Sarı Kantaron çayı/ekstresi **antidepresanlar, kan sulandırıcılar ve doğum kontrol ilaçları dahil pek çok tıbbi ilaçla tehlikeli etkileşime girer**. **3.** Ev yapımı yağlarda bitki ıslak bırakılırsa *Clostridium botulinum* veya küf üreyebilir. Açık yaralara, derin yanıklara ve enfeksiyonlara ev yapımı merhem sürülmez; daima hekim ve eczacıya başvurulur!"
+          ],
+          "en": [
+            "For centuries, Anatolian hearth-healers and Scandinavian 'Kloka Gummor' (Wise Women) preserved the warmth of summer blossoms for winter care through **Oil Maceration (Solar Infusion)**. Two blossoms stood at the center of this craft: **Calendula / Marigold** (*Calendula officinalis*) and **St. John's Wort** (*Hypericum perforatum*—the classic Nordic Midsummer herb).",
+            "Wilted or dried blossoms (completely free of surface moisture) are placed in a clean glass jar and covered fully with cold-pressed olive oil. Left to steep for three to four weeks and shaken daily, the lipid-soluble compounds infuse into the oil. Strained through fine linen and gently warmed in a double boiler (*bain-marie*) with **pure beeswax at a ratio of 1 part beeswax to 5 parts oil**, the liquid cools into a golden traditional salve.",
+            "⚠️ **CRITICAL MEDICAL & PHOTOTOXICITY DISCLAIMER:** **1.** **St. John's Wort (*Hypericum perforatum*) oil is phototoxic**: applying it to skin exposed to sunlight can cause severe blistering sunburn and hyperpigmentation. **2.** Taken internally, St. John's Wort **interacts dangerously with antidepressants (SSRIs), blood thinners, contraceptives, and transplant medications**. **3.** Any moisture trapped in homemade oil infusions can breed mold or *Clostridium botulinum*. Never apply homemade salves to open wounds, burns, or infections; always consult a physician or pharmacist!"
+          ],
+          "sv": [
+            "Genom århundradena har nordiska 'Kloka Gummor' och anatoliska örtkännare bevarat sommarens blomkraft inför vintern genom **Oljemaceration (Örtutdrag i Olja)**. Två blommor har stått i centrum för detta hantverk: **Ringblomma** (*Calendula officinalis*) och **Johannesört** (*Hypericum perforatum*—midsommartidens klassiska solört).",
+            "Torkade blommor (helt fria från fukt och dagg) läggs i en ren glasburk och täcks med kallpressad olivolja. Efter tre till fyra veckors dragning silas oljan genom linneduk och smälts varsamt i vattenbad tillsammans med **rent bivax i förhållandet 1 del bivax till 5 delar olja**, varpå den stelnar till en gyllene salva.",
+            "⚠️ **VIKTIG MEDICINSK OCH FOTOTOXISK VARNING:** **1.** **Johannesörtolja (*Hypericum perforatum*) är fototoxisk**: om huden utsätts för solljus efter insmörjning kan svåra brännskadeliknande reaktioner uppstå. **2.** Invärtes bruk av johannesört **påverkar nedbrytningen av många läkemedel (bland annat antidepressiva medel, blodförtunnande och p-piller)**. **3.** Fukt i hemgjorda oljor kan orsaka mögel eller bakterietillväxt. Stryk aldrig hemgjord salva i öppna sår eller brännskador; rådgör alltid med läkare eller apotekspersonal!"
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Altın Oran: 1 Ölçü Balmumu + 5 Ölçü Yağ",
+              "body": "20 gram saf rendelenmiş arı balmumu ile 100 ml bitkisel yağ (toplam 1:5 oranı), ne çok sert ne de çok sıvı olan klasik merhem kıvamını verir."
+            },
+            {
+              "heading": "Kuru Bitki Kuralı: Yağın İçinde Su Olmamalı",
+              "body": "Taze toplanmış çiçeğin içindeki su yağda küflenme yapar; bu yüzden çiçekler yağa konulmadan önce gölgede 24 saat soldurularak nemi tamamen uçurulur."
+            }
+          ],
+          "en": [
+            {
+              "heading": "The Classic Measure: 1 Part Beeswax to 5 Parts Oil",
+              "body": "Combining 20 grams of grated pure beeswax with 100 ml of carrier oil in a gentle double boiler yields a firm, breathable balm."
+            },
+            {
+              "heading": "The Moisture Rule: Why Blossoms Must Be Dry",
+              "body": "Water introduced into oil causes spoilage and microbial growth; traditional herbalists always wilt or dry blossoms before maceration."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Det Klassiska Måttet: 1 Del Bivax till 5 Delar Olja",
+              "body": "20 gram rent bivax smält i 100 ml olja över vattenbad ger en fast men mjuk salva för torra händer."
+            },
+            {
+              "heading": "Torrhetsregeln: Inget Vatten i Oljan",
+              "body": "Vatten i olja leder till härskning och bakterier; därför använder man alltid väl torkade växtdelar vid oljeutdrag."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "⚠️ Tıbbi Uyarı: Sarı Kantaron yağı sürüldükten sonra güneşe çıkılmaz (foto-toksik); açık yaraya sürülmez ve ilaçlarla etkileşime dikkat edilir!",
+            "Calendula (Aynısefa · *Calendula officinalis*): Güneşin altın-turuncu taç yapraklarını taşıyan nazik cilt çiçeği.",
+            "Maserasyon (İnfüzyon Yağı): Kuru bitkilerin zeytinyağı içinde 3-4 hafta bekletilerek özünün alınması.",
+            "Arı Balmumu (Cera Alba / Flava): Merheme kıvam veren ve cildi koruyan doğal arı mucizesi.",
+            "Benmari (Çift Kap) Tekniği: Yağı ve balmumunu doğrudan ateşe değdirmeden su buharı ısısıyla nazikçe eritme."
+          ],
+          "en": [
+            "⚠️ Medical Disclaimer: St. John's Wort is phototoxic in sunlight and interacts with many prescription drugs; never apply homemade balms to open wounds!",
+            "Calendula (*Calendula officinalis*): Golden marigold petals prized for gentle topical skin comfort.",
+            "Maceration (Infused Oil): Steeping dried botanicals in carrier oil to extract lipid-soluble compounds.",
+            "Pure Beeswax (*Cera Flava*): Natural hive wax that solidifies oil into a protective balm.",
+            "Bain-Marie (Double Boiler): Gentle indirect water-bath heating that protects delicate oils from scorching."
+          ],
+          "sv": [
+            "⚠️ Medicinsk Ansvarsfriskrivning: Johannesört ger solkänslighet (fototoxicitet) och interagerar med läkemedel; använd aldrig hemgjorda salvor i öppna sår!",
+            "Ringblomma (*Calendula officinalis*): Gyllene kronblad som traditionellt använts för mild hudvård.",
+            "Maceration (Oljeutdrag): Att låta torkade växter dra i kallpressad olja under 3–4 veckor.",
+            "Rent Bivax (*Cera Flava*): Bikupans vax som ger salvan stadga och skydd.",
+            "Vattenbad (Bain-Marie): Skonsam uppvärmning som skyddar oljan från att brännas."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · 2 Malzemeli Güvenli ‘Kış Dudak ve El Balmumu’ Hazırlığı",
+            "steps": [
+              "Hiçbir alerjik bitki riski almadan, mutfağında küçük bir cam kaseyi sıcak su dolu bir tencerenin (benmari) üzerine oturt.",
+              "Kaseye **1 yemek kaşığı (yaklaşık 10 gr) saf arı balmumu pastili** ve **5 yemek kaşığı (50 ml) organik soğuk sıkım zeytinyağı** koyup balmumu eriyene kadar tahta çubukla karıştır.",
+              "Karışımı küçük, temiz bir cam kavanoza dök; soğuyup donduğunda kış soğuğunda kuruyan ellerin ve dudakların için en saf doğal koruyucun hazırdır."
+            ]
+          },
+          "en": {
+            "title": "Practice · Crafting a Pure 2-Ingredient 'Winter Hand & Lip Balm'",
+            "steps": [
+              "Avoiding any allergenic botanical risk, set a clean heatproof glass bowl over a small pot of simmering water (a double boiler).",
+              "Combine **1 tablespoon (approx. 10 g) of pure beeswax pastilles** with **5 tablespoons (50 ml) of cold-pressed olive or sweet almond oil**, stirring with a clean wooden stick until just melted.",
+              "Pour into a sterilized glass jar and let cool completely—creating a pure, unscented balm for dry hands and lips in winter."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Säker 2-Ingrediens 'Vintersalva för Händer och Läppar'",
+            "steps": [
+              "Utan några allergiframkallande örttillsatser, ställ en ren värmetålig glasskål över en kastrull med sjudande vatten (vattenbad).",
+              "Smält samman **1 matsked (cirka 10 g) rent bivax** med **5 matskedar (50 ml) kallpressad olivolja eller mandelolja** under omrörning med en träpinne.",
+              "Häll upp i en väl rengjord glasburk och låt svalna—en helt ren, oparfymerad bivaxsalva för torra vinterhänder."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Yaz güneşini zeytinyağında, arının emeğini balmumunda saklayan el, kışın ayazından korkmaz.",
+          "en": "Whoever preserves summer sunlight in olive oil and the bee's labor in wax meets the winter frost prepared.",
+          "sv": "Den som bevarar sommarsolen i olivolja och biets arbete i vax möter vinterkylan väl rustad."
+        }
+      },
+      {
+        "slug": "balmumu-alevi-ve-isik-odagi",
+        "glyph": "XVI",
+        "image": "/witchcraft/balmumu-alevi-ve-isik-odagi.jpg",
+        "title": {
+          "tr": "Balmumu Alevi, ‘Need-Fire’ ve Ateş Tefekkürü (*Pyromancy*)",
+          "en": "The Beeswax Flame, the 'Need-Fire', and Flame Contemplation",
+          "sv": "Bivaxlågan, 'Gnidelden' (Nödelden) och Eldbetraktelse"
+        },
+        "subtitle": {
+          "tr": "Arının Güneş Mumundan İskandinav ‘Vårdljus’ (Bekçi Işığı) Geleneğine Odaklanma",
+          "en": "From Solar Hive Wax to the Nordic 'Gnideld' (Friction-Fire) and Single-Pointed Focus",
+          "sv": "Från Bikupans Solvax till Nordisk 'Gnideld' och Enpunktsfokus"
+        },
+        "summary": {
+          "tr": "Petrol türevi parafin yerine arının binlerce çiçekten topladığı **saf balmumu** (*Beeswax*) yakmak, odanın içinde gerçek güneş enerjisini uyandırmaktır; tek bir alev noktasına göz kırpmadan bakmak (*Trataka / Pyromancy*) ise dağılan zihni merkeze toplar.",
+          "en": "Burning pure **beeswax** rather than petroleum paraffin kindles stored summer sunlight in the room; gazing steadily at a single flame (*Pyromancy / Trataka*) gathers scattered attention into laser-like clarity.",
+          "sv": "Att tända rent **bivax** i stället för paraffin väcker lagrat sommarsolljus i rummet; att vila blicken stadigt vid en enda låga samlar ett splittrat sinne till skarp klarhet."
+        },
+        "paragraphs": {
+          "tr": [
+            "Elektriğin olmadığı binlerce yıl boyunca gece karanlığında yakılan tek bir mum veya çıra alevi, insanın odak noktasını tutan en değerli yoldaşıydı. Geleneksel ocak zanaatında sentetik boyalı parafin mumlar yerine **%100 saf arı balmumu** (*Cera Flava*) tercih edilir; çünkü balmumu arının yaz güneşinden ve çiçek nektarlarından ürettiği saf ışık kristali olup yanarken is çıkarmaz, aksine mekana hafif bir bal ve propolis kokusu yayar.",
+            "İskandinav ve Kelt folklorunda salgın veya kriz dönemlerinde köydeki bütün eski ocak ateşleri söndürülür ve iki kuru meşe/dişbudak odununun birbirine sürtülmesiyle sıfırdan **‘Need-Fire’** (Eski İngilizce: *Niedfyr* / İsveççe: *Gnideld* — ‘Sürtme Ateşi / Zorunluluk Ateşi’) yakılırdı. Her ev kendi ocağını bu yeni, temiz ateşten yeniden tutuştururdu.",
+            "Bireysel çalışmada ise mum alevi bir ‘dilek otomatı’ değil, **optik ve zihinsel bir büyüteçtir**. Dağınık ışık odayı aydınlatır, odaklanmış ışık (lazer/büyüteç) ise ateşi yakar. Mumu yakarken niyetini tek bir cümleye indirmek ve alevin altın merkezine 3 dakika sessizce bakmak, beynin dikkat ağlarını o hedefe kilitler.",
+            "⚠️ Güvenlik Uyarısı: Yanan bir mum asla gözetimsiz bırakılmamalı, perde/kuru bitki yakınında yakılmamalı ve uyumadan önce mutlaka söndürülmelidir."
+          ],
+          "en": [
+            "For millennia before electric light, a single candle or rushlight in the dark was the practitioner's supreme anchor of concentration. Traditional hearth craft favors **100% pure beeswax** (*Cera Flava*) over synthetic dyed paraffin: forged by bees from summer blossoms and sunlight, beeswax burns cleanly with a warm golden spectrum and a faint scent of honey.",
+            "In Scandinavian and Celtic custom, at times of crisis or seasonal threshold every hearth fire in the parish was extinguished, and a fresh **'Need-Fire'** (Old English: *Niedfyr* / Swedish: *Gnideld* — 'Friction-Fire') was kindled from scratch by turning dry oak and ash wood together. Every household then relit its hearth from that clean, shared spark.",
+            "In personal study, a candle is not a superstitious wishing-machine, but an **optical lens for the mind**. Diffuse light merely illuminates a room; focused light kindles fire. Distilling your intention into a single sentence and gazing quietly at the flame for three minutes trains the nervous system in undivided presence.",
+            "⚠️ Safety Warning: Never leave a burning candle unattended, keep flames clear of curtains or dried herbs, and always extinguish candles before sleeping."
+          ],
+          "sv": [
+            "Under årtusenden före det elektriska ljuset var ett enda tänt vaxljus i mörkret människans främsta ankare för eftertanke. Traditionell härdkonst väljer **100 % rent bivax** (*Cera Flava*) framför syntetiskt paraffin: skapat av bina ur sommarens blommor brinner bivaxet rent med ett varmt gyllene sken och en svag doft av honung.",
+            "I skandinavisk och keltisk folktradition släckte man vid svåra prövningar eller årsskiften alla gamla härdeldar i bygden för att genom friktion mellan torrt trä gnida fram en helt ny **'Gnideld' (Nödeld / Vrideld)**, varifrån varje gård sedan tände sin nya eld.",
+            "I det personliga arbetet är ljuset inte en önskeautomat, utan en **optisk brännpunkt för uppmärksamheten**. Genom att sammanfatta sin avsikt i en enda mening och betrakta lågan under tystnad i tre minuter tränas sinnet i odelad närvaro.",
+            "⚠️ Säkerhetsvarning: Lämna aldrig ett brinnande ljus utan uppsikt, håll lågan borta från torra växter och textilier och släck alltid ljuset innan du lämnar rummet."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Gnideld / Need-Fire: Eski Ateşi Söndürüp Sıfırdan Başlamak",
+              "body": "Kuzey geleneğindeki *Gnideld* (Sürtme Ateşi), hayat yorulduğunda eski alışkanlık ateşlerini söndürüp iradeyle tertemiz bir ilk kıvılcım çakmanın sembolüdür."
+            },
+            {
+              "heading": "Üflemeden Söndürmek: Ateş Elementine Saygı",
+              "body": "Kadim gelenekte mum alevi nefesle üflenerek dağıtılmaz; bir mum söndürücü (*snuffer*) veya metal kaşık ucuyla oksijeni kesilerek saygıyla dinlendirilir."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Gnideld / Need-Fire: Extinguishing the Old to Kindle the New",
+              "body": "The Northern custom of the *Gnideld* teaches that when life grows stagnant, we must deliberately extinguish worn-out habits and strike a clean spark through disciplined effort."
+            },
+            {
+              "heading": "Snuffing Rather Than Blowing: Etiquette of the Flame",
+              "body": "In traditional practice, a ritual flame is not blown out with scattered breath, but gently snuffed with a metal snuffer or spoon."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Gnideld / Nödeld: Att Släcka det Gamla för att Tända det Nya",
+              "body": "Den nordiska seden med *Gnideld* påminner oss om att vi ibland måste släcka utslitna vanor och gnida fram en ny, ren gnista genom medveten ansträngning."
+            },
+            {
+              "heading": "Att Släcka Utan att Blåsa: Vördnad för Lågan",
+              "body": "Enligt gammal sed blåser man inte ut ljuset, utan kväver lågan varsamt med en ljussläckare eller sked."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Saf Arı Balmumu (Beeswax): Güneş ve çiçek özünden oluşan, is çıkarmayan doğal mum.",
+            "Gnideld / Need-Fire: İki ağacın sürtülmesiyle sıfırdan yakılan Kuzey yenilenme ateşi.",
+            "Alevin Üç Katmanı: En alttaki mavi kök (oksijen/hava), ortadaki karanlık çekirdek (tohum) ve üstteki altın taç (ışık).",
+            "Alev Odaklanması (Trataka): Tek bir ışık noktasına bakarak zihinsel dağınıklığı toplama disiplini.",
+            "⚠️ Güvenlik Uyarısı: Açık alev yanıcı maddelerden uzak tutulmalı ve odadan çıkarken mutlaka söndürülmelidir."
+          ],
+          "en": [
+            "Pure Beeswax Candle: Clean-burning natural wax carrying the warmth of summer nectar.",
+            "Gnideld / Need-Fire: Traditional Northern friction-fire kindled to renew the community's hearths.",
+            "Three Zones of the Flame: The blue base (air/root), the dark core (seed), and the golden crown (light).",
+            "Single-Pointed Gaze (Trataka): Stilling mental chatter by resting the eyes on a steady flame.",
+            "⚠️ Fire Safety: Always use a stable non-flammable holder and extinguish flames before leaving the room."
+          ],
+          "sv": [
+            "Rent Bivaxljus: Naturligt vax som brinner rent med sommarens sparade solvärme.",
+            "Gnideld (Nödeld): Fornnordisk eld som vreds fram ur torrt trä för att förnya gårdarnas härdar.",
+            "Lågans Tre Skikt: Den blå basen (luft/rot), den mörka kärnan (frö) och den gyllene kronan (ljus).",
+            "Lågbetraktelse (Trataka): Att stilla tankarnas brus genom att vila blicken i en lugn låga.",
+            "⚠️ Brandsäkerhet: Använd alltid en stadig ljusstake och släck ljuset med ljussläckare."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · 3 Dakikalık ‘Balmumu Alevi’ Zihin Toplama Çalışması",
+            "steps": [
+              "Akşam odanın ışıklarını kıs, göz hizandan bir karış aşağıda duran güvenli bir şamdana saf bir balmumu mumu yerleştir ve yak.",
+              "Alevin içindeki üç katmana (alttaki mavi halka, ortadaki koyu çekirdek, üstteki sarı alev) 1 dakika boyunca sakin nefeslerle bak.",
+              "Gözlerini kapat ve göz kapaklarının ardında kalan ‘ardıl ışık izini’ (*afterimage*) iki kaşının ortasında izleyerek odaklanmanı mühürle; ardından mumu bir kapak/kaşıkla söndür."
+            ]
+          },
+          "en": {
+            "title": "Practice · 3-Minute 'Beeswax Flame' Concentration Exercise",
+            "steps": [
+              "Dim the room lights, set a pure beeswax candle in a sturdy holder slightly below eye level, and light the wick.",
+              "Breathe slowly for one minute while observing the three distinct zones of the flame: the blue ring at the base, the dark inner core, and the luminous golden mantle.",
+              "Close your eyes and watch the glowing retinal afterimage at the center of your brow for one minute before gently snuffing the flame."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 3 Minuters Fokusövning med 'Bivaxlågan'",
+            "steps": [
+              "Dämpa belysningen i rummet, sätt ett rent bivaxljus i en stadig ljusstake strax under ögonhöjd och tänd veken.",
+              "Andas lugnt under en minut medan du betraktar lågans tre skikt: den blå ringen längst ned, den mörka kärnan i mitten och det gyllene skenet överst.",
+              "Slut ögonen och följ den lysande efterbilden bakom ögonlocken under en minut innan du släcker ljuset varsamt med en ljussläckare."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Bin yere dağılan ışık sadece gölge yapar; tek bir fitilde toplanan alev ise karanlığı yarar.",
+          "en": "Light scattered in a thousand directions casts only faint shadows; light gathered onto a single wick pierces the night.",
+          "sv": "Ljus som sprids åt tusen håll kastar bara matta skuggor; ljus som samlas vid en enda veke skär genom mörkret."
+        }
+      },
+      {
+        "slug": "siyah-ayna-ve-su-tefekkuru",
+        "glyph": "XVII",
+        "image": "/witchcraft/siyah-ayna-ve-su-tefekkuru.jpg",
+        "title": {
+          "tr": "Su ve Ayna Tefekkürü (*Hydromancy & Catoptromancy*): Durgun Yüzeyde İçgörü",
+          "en": "Water and Mirror Contemplation (*Hydromancy & Catoptromancy*): Stillness of the Dark Bowl",
+          "sv": "Vatten- och Spegelbetraktelse (*Hydromanti & Katoptromanti*): Den Mörka Skålens Stillhet"
+        },
+        "subtitle": {
+          "tr": "Koyu Kasedeki Kaynak Suyu, Obsidyen Ayna ve Gözün Odak Değiştirmesi",
+          "en": "Spring Water in a Dark Vessel, Polished Obsidian, and the Art of the Soft Gaze",
+          "sv": "Källvatten i Mörk Skål, Polerad Obsidian och Konsten att Vila Blicken"
+        },
+        "summary": {
+          "tr": "Mezopotamya’dan Kuzey Avrupa’ya kadar koyu renkli bir kasedeki durgun suya (*Hydromancy*) veya cilalı siyah obsidyen taşına bakmak, dışarıda hayalet aramak değil; görsel gürültüyü susturup kendi derin sezgini dinleme sanatıdır.",
+          "en": "From Babylonian water-bowls to polished volcanic obsidian, gazing into a still dark surface is not about chasing phantoms, but quieting visual noise so deep intuitive insight can rise to the surface.",
+          "sv": "Från babyloniska vattenskålar till polerad vulkanisk obsidian handlar betraktelsen av en stilla mörk yta inte om att jaga syner, utan om att dämpa det visuella bruset så att den djupa intuitionen kan höras."
+        },
+        "paragraphs": {
+          "tr": [
+            "Antik Babil’de *Bārû* rahiplerinin su dolu kasede yağ ve ışık yansımalarını okuması (*Lekanomansi*), Keltlerin karanlık orman pınarlarına bakması ve Rönesans’ta cilalı siyah **Obsidyen** (volkanik cam) aynaların kullanılması aynı nörolojik ve meditatif prensibe dayanır: **Duyusal yoksunluk (Ganzfeld etkisi) yoluyla içgörüyü uyandırmak.**",
+            "Gün boyu gözlerimiz binlerce yazı, ekran, renk ve hareketle bombardımana tutulur; bu sırada beynin analitik sol yarımküresi sürekli nesneleri etiketlemekle meşguldür. Loş bir odada, içi temiz su dolu **koyu renkli (siyah veya lacivert) bir seramik kaseye** baktığınızda ise üzerinde tutunacak hiçbir harf veya resim yoktur.",
+            "Göz durgun siyah suya birkaç dakika boyunca yumuşak bir bakışla (odaklanmayı gevşeterek) baktığında, dış dünyayı tarayan beta dalgaları yavaşlar ve zihin tıpkı uykuya dalmadan hemen önceki **alfa ve teta (hipnagojik) eşiğine** geçer. İşte o sessizlikte, haftalardır çözemediğiniz bir sorunun cevabı veya bastırdığınız bir gerçek berrak bir iç ses ya da sembol olarak yüzeye çıkar.",
+            "Su tefekküründe kural şudur: **Su bulanıkken dibi görünmez; zihni zorlayarak karıştırmayı bıraktığında su kendiliğinden durulur.**"
+          ],
+          "en": [
+            "Across antiquity—from Mesopotamian *Lekanomancy* (reading still water in a bowl) and Celtic forest pools to Renaissance mirrors of polished black **Obsidian** (volcanic glass)—contemplatives have used dark reflective surfaces to trigger a well-documented perceptual shift: **quieting outer visual chatter so inward perception clarifies**.",
+            "Throughout the waking day, our eyes are bombarded by text, screens, and sharp edges, keeping the analytical mind busy labeling objects. When you sit in a dim room before a **dark ceramic bowl filled with clear water**, the eye encounters no letters, notifications, or clutter.",
+            "Resting a relaxed, unfocused **'soft gaze'** upon the dark water for several minutes allows rapid beta brainwaves to subside into the calm **alpha-theta threshold**. In that hush, the answer to a question you have been overthinking often surfaces effortlessly as a clear realization or symbol.",
+            "The foundational law of the water-bowl is simple: **while water is stirred, the bottom cannot be seen; the moment you stop agitating the surface, the sediment settles by itself.**"
+          ],
+          "sv": [
+            "Genom hela forntiden—från Mesopotamiens vattenskålar och kelternas mörka skogskällor till renässansens speglar av polerad svart **Obsidian** (naturligt vulkanglas)—har mörka speglande ytor använts för ett och samma syfte: **att låta det yttre seendet vila så att det inre klarnar**.",
+            "Under dagen överöses våra ögon av texter, skärmar och rörelser. När du i ett dämpat rum sätter dig framför en **mörk keramikskål fylld med klart vatten** möter ögat inga bokstäver eller krav.",
+            "Genom att låta en avslappnad **'mjuk blick'** vila i det mörka vattnet under några minuter sjunker hjärnans rastlösa aktivitet ned mot det lugna gränslandet mellan vaka och dröm. I den stillheten stiger ofta svaret på en fråga upp av sig självt.",
+            "Vattenskålens grundlag är enkel: **så länge vattnet rörs om syns inte bottnen; i samma stund som du slutar röra i ytan lägger sig grumlet av sig självt.**"
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Koyu Kase ve Tek Mum Işığı Geometrisi",
+              "body": "Kaseye doğrudan mumun kendisi yansıtılmaz; mum kasenin arkasına veya yanına konur ki suyun yüzeyi gözü yormayan derin, kadifemsi bir gece göğü gibi dursun."
+            },
+            {
+              "heading": "Yumuşak Bakış (Soft Gaze): Görmeye Çalışmamak",
+              "body": "Suda bir şekil ‘görmek için’ gözlerini kısarak zorlayan kişi sadece göz yorgunluğu yaşar; bakışı ufka bakar gibi gevşeten kişi ise kendi iç berraklığını duyar."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Geometry of the Dark Bowl and Indirect Candlelight",
+              "body": "The candle is placed slightly behind or to the side of the bowl so the flame does not glare directly into the eyes, leaving the water dark and velvety as a night pond."
+            },
+            {
+              "heading": "The Soft Gaze: Looking Without Straining",
+              "body": "Straining to 'see' images only fatigues the optic nerve; softening the eyes as if looking through the water toward a distant horizon opens quiet insight."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Den Mörka Skålen och det Indirekta Ljusets Geometri",
+              "body": "Ljuset placeras snett bakom skålen så att lågan inte bländar ögat, utan lämnar vattenytan djup och sammetsmörk som en skogstjärn om natten."
+            },
+            {
+              "heading": "Den Mjuka Blicken: Att Se Utan att Anstränga Sig",
+              "body": "Den som spänner ögonen för att tvinga fram bilder blir bara trött; den som låter blicken vila mjukt som mot en fjärran horisont finner klarhet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Hidromansi (Su Tefekkürü): Koyu renkli bir kasedeki durgun suya bakarak yapılan derin odaklanma.",
+            "Obsidyen (Volkanik Cam): Doğanın ateş ve topraktan ürettiği doğal siyah ayna taşı.",
+            "Hipnagojik Eşik (Alfa/Teta): Görsel uyaranlar sustuğunda uyanan yaratıcı ve sezgisel bilinç hali.",
+            "Yumuşak Bakış (Periferik Görüş): Göz kaslarını kasmadan, yüzeyi geniş ve sakin bir şekilde izleme.",
+            "Berraklaşma Yasası: Suyu (ve zihni) karıştırmayı bıraktığında tortunun kendiliğinden dibe çökmesi."
+          ],
+          "en": [
+            "Hydromancy (Water Contemplation): Meditative gazing into still water held in a dark vessel.",
+            "Black Obsidian (Volcanic Glass): Natural silica glass forged by earth-fire, used since antiquity as a dark mirror.",
+            "The Alpha-Theta Threshold: The calm meditative state awakened when visual overstimulation ceases.",
+            "The Soft Gaze: Relaxing the ocular muscles into receptive peripheral awareness.",
+            "The Law of Settling: Allowing mental sediment to sink naturally by ceasing agitation."
+          ],
+          "sv": [
+            "Hydromanti (Vattenbetraktelse): Meditativt seende i stilla vatten i en mörk skål.",
+            "Svart Obsidian (Vulkanglas): Naturligt glas fött ur jordens eld, använt som mörk spegel sedan forntiden.",
+            "Grioningsläget (Alfa/Teta): Det lugna medvetandetillstånd som vaknar när synintrycken stillas.",
+            "Den Mjuka Blicken: Att slappna av i ögonmusklerna och vila i vid närvaro.",
+            "Klargörandets Lag: Att låta tankarnas grummel sjunka till botten genom att sluta röra om."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · 10 Dakikalık ‘Siyah Kase ve Durgun Su’ Tefekkürü",
+            "steps": [
+              "Akşam sessizliğinde koyu renkli (siyah, lacivert veya koyu yeşil) çukur bir kaseyi temiz suyla doldurup masana koy; arkasına gözünü almayacak şekilde tek bir mum yak.",
+              "Başlamadan önce suya parmak ucunla hafifçe dokun: Dalgaların nasıl yayıldığını ve sen dokunmayı bıraktığında suyun nasıl **kendiliğinden** ayna gibi dümdüz olduğunu izle.",
+              "Durgunlaşan suya gözlerini kasmadan 5–7 dakika boyunca bakarak zihnindeki sorunun cevabının tıpkı suyun durulması gibi sessizce yüzeye çıkmasına izin ver."
+            ]
+          },
+          "en": {
+            "title": "Practice · 10-Minute 'Dark Bowl and Still Water' Contemplation",
+            "steps": [
+              "In a quiet evening room, fill a dark ceramic bowl (black, deep blue, or dark stoneware) with clean water and place a single candle behind it out of direct glare.",
+              "Touch the center of the water once with your fingertip: watch the ripples travel to the rim, and observe how—once you stop touching it—the water returns to a mirror-still surface on its own.",
+              "Rest a soft, relaxed gaze on the still water for five to seven minutes, allowing your mind to settle until one clear insight remains."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · 10 Minuters Betraktelse vid 'Den Mörka Vattenskålen'",
+            "steps": [
+              "Fyll på kvällen en mörk skål (svart, mörkblå eller mörk keramik) med rent vatten och ställ ett tänt ljus bakom skålen så att det inte bländar.",
+              "Rör en enda gång vid vattenytan med fingertoppen: se hur ringarna sprider sig och hur vattnet—när du tar bort handen—helt av sig självt återgår till spegelblank ro.",
+              "Vila blicken mjukt i det stilla vattnet under fem till sju minuter och låt ditt eget sinne klarna på samma sätt."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Bulanık suyu parmağınla karıştırarak berraklaştıramazsın; elini çekip beklediğinde tortu çöker ve ayna açılır.",
+          "en": "You cannot clear muddy water by stirring it with your finger; withdraw your hand and wait, and the water becomes a mirror.",
+          "sv": "Du kan inte göra grumligt vatten klart genom att röra i det med handen; dra tillbaka handen och vänta, så blir vattnet en spegel."
+        }
+      },
+      {
+        "slug": "trolldom-galdrabok-ve-galdrastafir",
+        "glyph": "XVIII",
+        "image": "/witchcraft/trolldom-galdrabok-ve-galdrastafir.jpg",
+        "title": {
+          "tr": "İskandinav ‘Trolldom’ ve İzlanda ‘Galdrastafir’ Mühürleri",
+          "en": "Scandinavian 'Trolldom' and Icelandic 'Galdrastafir' Staves",
+          "sv": "Skandinavisk 'Trolldom' och Isländska 'Galdrastafir'"
+        },
+        "subtitle": {
+          "tr": "1600 Tarihli *Galdrabók* Yazması, *Vegvísir*, *Ægishjálmur* ve Kuzey Çizgi Sanatı",
+          "en": "The 1600 *Galdrabók* Manuscript, *Vegvísir*, *Ægishjálmur*, and Northern Stave Geometry",
+          "sv": "1600-talets *Galdrabók*, *Vegvísir*, *Ægishjálmur* och Nordisk Stavgeometri"
+        },
+        "summary": {
+          "tr": "İsveç ve Norveç’in *Svartkonstböcker* (Kara/Gizli Sanat Defterleri) ile İzlanda’nın **Galdrabók** (MS 1600) geleneği, Elder Futhark rünlerinden doğan simetrik **Galdrastafir** (Büyülü Çizgi/Asa) mühürlerini korumuştur.",
+          "en": "Preserved in Swedish and Norwegian *Svartkonstböcker* ('Black Books' of rural healers) and the Icelandic **Galdrabók** (c. 1600), the northern tradition developed **Galdrastafir**—symmetrical eight-spoked staves radiating from a single center.",
+          "sv": "Bevarad i svenska och norska *Svartkonstböcker* och den isländska **Galdrabók** (cirka 1600) rymmer den nordiska traditionen **Galdrastafir**—symmetriska åttaarmade tecken som strålar ut från ett fast centrum."
+        },
+        "paragraphs": {
+          "tr": [
+            "İskandinav halk büyücülüğü ve şifacılığı (**Trolldom** / **Sejd**), Viking Çağı’ndan sonra kaybolmamış; 16. ve 19. yüzyıllar arasında İzlanda’da **Galdrabók** (*Büyü Kitabı*) ve İsveç/Norveç köylerinde **Svartkonstböcker** (*Bilge Kişilerin El Defterleri*) içinde yaşamaya devam etmiştir. Stockholm’deki *Nordiska Museet* arşivlerinde bugün bile bu el yazması köylü defterlerinin orijinalleri korunmaktadır.",
+            "Bu kuzey geleneğinin en özgün görsel mirası İzlanda’nın **‘Galdrastafir’** (*Galdr Çubukları / Büyülü Mühürler*) sanatıdır. Bir Galdrastafur, merkezdeki bir noktadan sekiz yöne simetrik olarak uzanan rünsel kolların (staves) birleşmesiyle oluşan geometrik bir pusuladır.",
+            "En ünlü iki mühür şunlardır: Birincisi, 1860 tarihli İzlanda *Huld El Yazması*’nda geçen **Vegvísir** (*Yol Gösterici / Rün Pusulası*): *‘Bu işareti üzerinde taşıyan kişi, fırtınada veya karda bilmediği bir yolda bile yönünü kaybetmez.’* İkincisi ise *Völsunga Saga* ve *Galdrabók*’ta geçen **Ægishjálmur** (*Dehşet/Korku Miğferi — Awe-Helm*): İki kaşın arasına (**alın merkezine**) çizilen ve kişinin kendi korkusunu yenip sınırlarını sarsılmaz bir vakarla korumasını simgeleyen sekiz kollu mühürdür.",
+            "Bir Galdrastafur çizmek, kağıdın üzerinde sekiz yönlü bir denge merkezi kurmaktır: Merkezden dışarıya doğru çizilen her kol, içerdeki niyetin dış dünyadaki sekiz rüzgara karşı dengeli duruşunu mühürler."
+          ],
+          "en": [
+            "Scandinavian folk magic and healing lore (**Trolldom**) did not vanish with the close of the Viking Age; between the 16th and 19th centuries it lived on in handwritten Icelandic grimoires such as the **Galdrabók** (*Book of Galdr*, now housed in Stockholm) and the rural **Svartkonstböcker** kept by Nordic *Kloka* (Wise Folk).",
+            "The distinctive visual art of this northern lineage is the Icelandic **'Galdrastafir'** (*Galdr-Staves*). A Galdrastafur is a radial geometric seal in which runic arms extend symmetrically outward from a central hub toward the eight directions.",
+            "Two staves stand preeminent: first, the **Vegvísir** (*The Wayfinder*), recorded in the 1860 Icelandic *Huld Manuscript* with the promise: *'If this sign is carried, one will never lose one's way in storms or bad weather, even when the path is unknown.'* Second, the **Ægishjálmur** (*Helm of Awe*), attested in the Poetic Edda (*Fáfnismál*) and the *Galdrabók*—an eight-armed cross traced between the eyebrows as an emblem of unshakeable composure and boundary defense.",
+            "Drawing a Galdrastafur from the center outward is a somatic geometry lesson: every spoke begins at the still center of the self and extends outward to meet the eight winds in balanced poise."
+          ],
+          "sv": [
+            "Den nordiska folkliga läke- och visdomstraditionen (**Trolldom**) försvann inte med vikingatidens slut; mellan 1500- och 1800-talen levde den vidare i den isländska handskriften **Galdrabók** (som i dag bevaras i Stockholm) och i de handskrivna **Svartkonstböcker** som fördes av bygdens *Kloka Gummor och Gubbar*.",
+            "Det mest särpräglade bildspråket i denna nordiska tradition är de isländska **'Galdrastafir'** (*Galdr-stavarna*). En Galdrastafur är ett geometriskt sigill där åtta armar strålar ut symmetriskt från en gemensam mittpunkt mot de åtta väderstrecken.",
+            "Två stavar är särskilt berömda: **Vegvísir** (*Vägvisaren*), upptecknad i det isländska *Huld-manuskriptet* (1860) med orden: *'Om detta tecken bärs går man aldrig vilse i storm eller oväder, även om vägen är okänd.'* Det andra är **Ægishjálmur** (*Skräckhjälmen*), nämnd redan i den Poetiska Eddan (*Fáfnismál*) och i *Galdrabók*—ett åttaarmat kors som tecknas mellan ögonbrynen som symbol för orubbligt mod och integritet.",
+            "Att rita en Galdrastafur inifrån mitten och utåt är en övning i inre geometri: varje arm utgår från din egen mittpunkt och möter de åtta vindarna i balans."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Vegvísir (Yol Gösterici): Sekiz Rüzgarda Yönünü Kaybetmemek",
+              "body": "Huld El Yazması’ndaki Vegvísir’in sekiz kolu birbirinden farklı uçlara sahiptir; çünkü hayatta her yönün (Kuzeyin soğuğu, Güneyin sıcağı, Doğunun şafağı, Batının denizi) kendine özgü bir sınavı ve anahtarı vardır."
+            },
+            {
+              "heading": "Ægishjálmur: İki Kaşın Arasındaki ‘Vakar Miğferi’",
+              "body": "Poetik Edda’daki *Fáfnismál* ve İzlanda yazmalarında Ægishjálmur bir metal başlık değil, tam iki kaşın arasındaki odak noktasına (*tallbein*) yerleştirilen içsel cesaret mührüdür."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Vegvísir (The Wayfinder): Keeping Course in the Eight Winds",
+              "body": "In the Huld Manuscript, each of the eight staves of the Vegvísir bears a distinct terminal glyph—reflecting that each direction and season of life requires its own distinct response."
+            },
+            {
+              "heading": "Ægishjálmur: The 'Helm of Awe' Between the Brows",
+              "body": "In Eddic lore and Icelandic manuscripts, the Ægishjálmur is not a heavy iron helmet, but a radial seal of presence carried at the brow-center."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Vegvísir (Vägvisaren): Att Hålla Kursen i Åtta Vindar",
+              "body": "I Huld-manuskriptet har var och en av Vegvísirs åtta armar en egen krona—en bild av att livets åtta riktningar kräver olika nycklar."
+            },
+            {
+              "heading": "Ægishjálmur: Modets Sigill Mellan Ögonbrynen",
+              "body": "I eddadikten och i *Galdrabók* är Ægishjálmur inte en tung järnhjälm, utan en inre sköld av samlad vaksamhet mitt i pannan."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Galdrabók (MS ~1600): 47 adet rünsel mühür ve dua içeren en ünlü İzlanda el yazması (Stockholm’de korunur).",
+            "Trolldom & Svartkonstböcker: İskandinav köylerindeki bilge kadın ve erkeklerin (*Kloka*) el defterleri.",
+            "Galdrastafir (‘Galdr Çubukları’): İzlanda geleneğinde rün kollarının simetrik birleşimiyle çizilen mühürler.",
+            "Vegvísir (‘Yol Gösterici’): Fırtınalı zamanlarda kişinin kendi iç pusulasını kaybetmemesini simgeleyen mühür.",
+            "Ægishjálmur (‘Vakar Miğferi’): İki kaşın arasına imgeleme yoluyla yerleştirilen sekiz kollu cesaret mührü."
+          ],
+          "en": [
+            "Galdrabók (c. 1600): The foundational Icelandic manuscript of 47 staves and invocations preserved in Stockholm.",
+            "Trolldom & Svartkonstböcker: The handwritten notebooks of Scandinavian rural healers and wise folk.",
+            "Galdrastafir ('Galdr-Staves'): Radial geometric sigils evolved from runic stave-craft.",
+            "Vegvísir ('Wayfinder'): Eight-spoked Icelandic compass stave for holding one's true course in storms.",
+            "Ægishjálmur ('Helm of Awe'): Eight-armed radial stave of courage and composure centered between the brows."
+          ],
+          "sv": [
+            "Galdrabók (ca 1600): Den berömda isländska handskriften med 47 stavar och formler, bevarad i Stockholm.",
+            "Trolldom & Svartkonstböcker: De skandinaviska kloka gummornas och gubbarnas handskrivna böcker.",
+            "Galdrastafir ('Galdr-stavar'): Isländska radiella stavsigill med rötter i runtraditionen.",
+            "Vegvísir ('Vägvisaren'): Åttaarmig kompasstav för att inte förlora riktningen i oväder.",
+            "Ægishjálmur ('Skräckhjälmen'): Åttaarmat stavkors för mod och gränsskydd, knutet till pannans mitt."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Merkezden Dışarıya ‘Sekiz Kollu Denge Pusulası’ Çizmek",
+            "steps": [
+              "Defterine önce tek bir merkez noktası koy; bu nokta senin ‘şimdi ve buradaki’ sarsılmaz merkezin olsun.",
+              "Bu merkezden dışarıya doğru önce **Artı (+)** şeklinde dört ana yönü (Kuzey, Güney, Doğu, Batı), ardından **Çarpı (×)** şeklinde dört ara yönü çizerek **sekiz kollu Ægishjálmur iskeletini** kur.",
+              "Her kolun ucuna yarımdaire bir kalkan yay çizerek ‘Merkezimde sabit, sekiz yönde uyanığım’ cümlesini mühürle."
+            ]
+          },
+          "en": {
+            "title": "Practice · Drawing the Eight-Spoked Compass from the Center Outward",
+            "steps": [
+              "Place the tip of your pen at the center of a blank page—marking your still, present center.",
+              "Draw four straight lines outward from that center in an upright cross (+) for the four cardinal directions, then four diagonal lines (×) to form the **eight-spoked wheel**.",
+              "Cap the tip of each spoke with a small crescent shield-arc while affirming: 'Anchored at my center, awake toward all eight winds.'"
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Rita den Åttaarmade Kompassen Inifrån och Ut",
+            "steps": [
+              "Sätt pennspetsen mitt på ett blankt blad som symbol för din egen fasta mittpunkt här och nu.",
+              "Dra fyra linjer utåt från mitten som ett rakt kors (+) för de fyra huvudväderstrecken, och därefter fyra diagonala linjer (×) så att en **åttaarmad stjärna** bildas.",
+              "Avsluta varje arm med en liten halvmåneformad sköld medan du säger: 'Förankrad i min mitt, vaken mot alla åtta vindar.'"
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Dışarıdaki fırtına ne kadar sert eserse essin, kendi merkez noktasından çizilen pusulayı silemez.",
+          "en": "However fiercely the outer storm blows, it cannot erase a compass drawn from your own center.",
+          "sv": "Hur hårt stormen än viner därute kan den inte sudda ut en kompass som ritats utifrån din egen mittpunkt."
+        }
+      },
+      {
+        "slug": "esik-sisesi-ve-koruyucu-kavanoz",
+        "glyph": "XIX",
+        "image": "/witchcraft/esik-sisesi-ve-koruyucu-kavanoz.jpg",
+        "title": {
+          "tr": "Eşik Şişeleri (*Witch Bottles*) ve Toprak Altı Mühür Arkeolojisi",
+          "en": "Threshold Bottles (*Witch Bottles*) and the Archaeology of Household Wards",
+          "sv": "Tröskelflaskor (*Witch Bottles*) och Husfridens Arkeologi"
+        },
+        "subtitle": {
+          "tr": "17. Yüzyıl Arkeolojik ‘Bellarmine’ Testileri, Biberiye, Tuz ve Ev Koruması",
+          "en": "17th-Century Archaeological 'Bellarmine' Stoneware, Rosemary, Salt, and Hearth Protection",
+          "sv": "1600-talets Arkeologiska 'Bellarmine'-Krus, Rosmarin, Salt och Härdens Skydd"
+        },
+        "summary": {
+          "tr": "İngiltere ve Kuzey Avrupa’da eski evlerin ocak taşları ve kapı eşiklerinin altında arkeologlar tarafından yüzlercesi bulunan **‘Eşik Şişeleri’** (*Witch Bottles*), evi ve ocağı dışarıdaki kaosa karşı toprakla mühürleyen somut bir halk mimarisidir.",
+          "en": "Unearthed by archaeologists beneath hundreds of 17th-century hearthstones and lintels across Britain and Northern Europe, **Threshold Bottles** (*Witch Bottles*) represent a tangible folk architecture of household protection.",
+          "sv": "Framgrävda av arkeologer under hundratals eldstäder och dörrtrösklar från 1600- och 1700-talen i Nordeuropa utgör **Tröskelflaskor** (*Witch Bottles*) ett handfast folkligt hantverk för att värna gårdens frid."
+        },
+        "paragraphs": {
+          "tr": [
+            "Britanya, Kuzey Avrupa ve Amerika’daki 16. ve 18. yüzyıldan kalma tarihi taş evlerde yapılan arkeolojik kazılarda (Londra Müzesi ve Cambridge Üniversitesi araştırmalarında), şömine/ocak taşlarının (*hearthstone*) veya ön kapı eşiğinin tam altına ters çevrilerek gömülmüş yüzlerce taş testi (**Bellarmine / Bartmann testileri**) ve cam şişe bulunmuştur.",
+            "Tarihçilerin **‘Witch Bottle’** (gerçekte: *Apotropaik Ev/Ocak Koruma Şişesi*) adını verdiği bu kaplar, kötü niyetli bir saldırı aracı değil; tam tersine evi, çocukları ve ocağı dışarıdan gelebilecek kem gözden ve ağırlıklardan korumak için **Cunning Folk** (kırsal bilgeler) tarafından hazırlanan savunma tılsımlarıydı.",
+            "Modern ve doğa dostu ocak geleneğinde bu kadim uygulama tamamen temiz, bitkisel ve mineral malzemelerle bir **‘Ocak Bereket ve Koruma Kavanozu’** olarak yaşatılır: Küçük bir cam şişenin veya kavanozun içine **Kaya Tuzu** (toprağın kristali), **Biberiye ve Lavanta** (berraklık ve huzur), **Sedir veya Çam reçinesi** (dayanıklılık) ve **Defne yaprağı** (zafer ve sükunet) katmanlar halinde dizilip ağzı balmumuyla mühürlenir.",
+            "Bu küçük kavanozu kitaplığınızda veya giriş kapınızın yakınında tutmak, ‘Bu evin sınırları bilinçle, temizlikle ve şükranla korunmaktadır’ niyetinin gözle görülür bir çipasıdır."
+          ],
+          "en": [
+            "Archaeological excavations of 16th- to 18th-century cottages across Britain and Northern Europe (documented extensively by the Museum of London and Cambridge archaeologists) have uncovered hundreds of stoneware jugs (**Bellarmine / Bartmann jugs**) and glass bottles buried beneath the **hearthstone** or the **front threshold**.",
+            "Known in archaeological literature as **'Witch Bottles'** (more accurately: *apotropaic household ward bottles*), these vessels were crafted by rural **Cunning Folk** not to harm, but to shield the household, livestock, and hearth from envy and discord.",
+            "In contemporary hearth craft, this historical custom is practiced cleanly and non-toxically as a **Botanical & Mineral Threshold Jar**: layering **Rock Salt** (crystalline earth), **Rosemary and Lavender** (remembrance and peace), **Pine or Cedar resin** (endurance), and **Bay Leaf** (steadfastness) inside a small glass vessel sealed with pure beeswax.",
+            "Placed quietly on a bookshelf near the front door or beside the hearth, the jar serves as a physical anchor reminding everyone who lives there that the home is a place of peace, clear boundaries, and gratitude."
+          ],
+          "sv": [
+            "Vid arkeologiska utgrävningar av 1500- till 1700-talshus i Storbritannien och Nordeuropa har man funnit hundratals stengodskrus (**Bellarmine- / Bartmannkrus**) och glasflaskor som lagts ned direkt under **härdstenen** eller **ytterdörrens tröskel**.",
+            "Dessa kärl—som i arkeologin kallas **'Witch Bottles'** (egentligen *apotropeiska husfridskärl*)—ställdes i ordning av bygdens kloka för att skydda hemmet, barnen och härden mot avund och ofrid.",
+            "I nutida härdkultur lever detta bruk vidare i helt ren, växt- och mineralbaserad form som en **Tröskel- och Husfridsburk**: i en liten glasburk varvas **Bergsalt** (jordens kristall), **Rosmarin och Lavendel** (klarhet och ro), **Tall- eller Cederkåda** (uthållighet) och **Lagerblad** (styrka), varpå locket förseglas med rent bivax.",
+            "Ställd på en hylla i hallen eller vid bokhyllan fungerar burken som en synlig påminnelse om att hemmet hålls rent, tryggt och fredat."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "Neden Ocak Taşının Altı? Evin Kalbi ve Eşiği",
+              "body": "Arkeologların bu şişeleri hep iki noktada — **kapı eşiğinde** ve **şömine ocağının altında** — bulması tesadüf değildir; kapı evin dış dünyayla sınırıdır, ocak ise evin atan kalbidir."
+            },
+            {
+              "heading": "Katmanlı Mineral ve Bitki Mimarisi",
+              "body": "Şişenin en altına konulan tuz toprağı, ortadaki aromatik otlar havayı ve suyu, kapağa damlatılan sıcak balmumu ise ateşi temsil ederek dört elementi tek bir cam kapta toplar."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Why Beneath the Hearthstone and Threshold?",
+              "body": "Archaeologists consistently find these vessels in two locations—the **doorway** (the outer boundary) and the **hearth** (the vital center)—the two architectural poles of every home."
+            },
+            {
+              "heading": "Four Elements in One Vessel",
+              "body": "Salt at the base anchors Earth, fragrant herbs in the center hold Air and Water, and melted beeswax on the lid seals the jar with Fire."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Varför Under Härdstenen och Tröskeln?",
+              "body": "Att arkeologerna nästan alltid finner dessa kärl vid **tröskeln** och **eldstaden** visar hemmets två poler: gränsen utåt och hjärtat inåt."
+            },
+            {
+              "heading": "Fyra Element i Ett Kärl",
+              "body": "Saltet i botten bär Jorden, örterna i mitten bär Luften och Vattnet, och det varma bivaxet på locket förseglar med Elden."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Eşik / Ocak Şişesi (Apotropaic Bottle): 16.–18. yüzyıl mimarisinde ocak taşı ve eşik altına konulan koruyucu kap.",
+            "Bellarmine / Bartmann Testisi: Üzerinde sakallı muhafız yüzü kabartması bulunan geleneksel taş testi.",
+            "Birinci Katman (Kaya Tuzu & Çakıl Taşı): Topraklama ve sarsılmaz temel.",
+            "İkinci Katman (Biberiye, Defne, Ardıç): Zihinsel berraklık ve temiz nefes.",
+            "Üçüncü Katman (Balmumu Mührü): Niyeti kavanozun içinde sabitleyen güneş mührü."
+          ],
+          "en": [
+            "Apotropaic Threshold Bottle: Historical vessel placed at the hearth or doorway to guard the household.",
+            "Bellarmine / Bartmann Jug: 17th-century salt-glazed stoneware jug stamped with a bearded guardian face.",
+            "Base Layer (Rock Salt & River Pebble): Grounding mineral foundation.",
+            "Middle Layer (Rosemary, Bay, Juniper): Botanical emblems of clarity, vitality, and peace.",
+            "Crown Seal (Beeswax): Warm hive wax sealing the intention of household harmony."
+          ],
+          "sv": [
+            "Tröskelflaska (Apotropeiskt Kärl): Historiskt skyddskärl nedlagt vid eldstad eller dörrpost.",
+            "Bellarmine- / Bartmannkrus: Stengodskrus från 1600-talet prytt med ett skäggigt väktaransikte.",
+            "Bottenlager (Bergsalt & Sten): Grundande mineralbotten.",
+            "Mellanlager (Rosmarin, Lagerblad, En): Växter för klarhet, uthållighet och husfrid.",
+            "Sigill (Bivax): Rent bivax som förseglar burkens avsikt."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Ev İçin ‘Dört Katmanlı Ocak ve Eşik Kavanozu’ Hazırlamak",
+            "steps": [
+              "Küçük, kapaklı şeffaf bir cam kavanoz al ve en alt tabanına 1 yemek kaşığı **doğal kaya tuzu** (toprak ve arınma temeli) döşeyecek şekilde koy.",
+              "Üzerine kurutulmuş **biberiye** (hafıza ve sadakat), **lavanta** (huzur) ve üzerine evin için tek kelimelik dileğini yazdığın bir **kuru defne yaprağı** yerleştir.",
+              "Kavanozun kapağını kapatıp giriş kapına veya çalışma masana koy; her gördüğünde evinin huzur ve sınır bilincini hatırla."
+            ]
+          },
+          "en": {
+            "title": "Practice · Assembling a Clean 'Four-Layer Hearth & Threshold Jar'",
+            "steps": [
+              "Take a small clean glass jar with a lid and pour a one-centimeter base layer of **unrefined rock salt** at the bottom.",
+              "Layer dried **rosemary** (for remembrance and loyalty), **lavender** (for calm), and a single **dried bay leaf** on which you have written one word of blessing for your home.",
+              "Close the lid and place the jar on a shelf near your entranceway as a quiet emblem of a well-tended threshold."
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Ställa i Ordning en 'Husfridsburk i Fyra Skikt'",
+            "steps": [
+              "Ta en liten ren glasburk med lock och lägg ett bottenlager av **naturligt bergsalt** (cirka en matsked).",
+              "Lägg därpå torkad **rosmarin** (minne och trofasthet), **lavendel** (ro) och ett **torkat lagerblad** där du skrivit ett enda ord som du önskar ditt hem.",
+              "Skruva på locket och ställ burken vid din ingång eller ditt arbetsbord som ett tyst tecken på en välvårdad tröskel."
+            ]
+          }
+        },
+        "closing": {
+          "tr": "Duvar evi rüzgardan korur; eşiğe konulan bilinç ve şükran ise evi içeriden aydınlatır.",
+          "en": "Stone walls shelter a house from the wind; conscious gratitude at the threshold shelters the peace within.",
+          "sv": "Väggar skyddar huset mot vinden; medveten tacksamhet vid tröskeln bevarar friden därinne."
+        }
+      },
+      {
+        "slug": "yesil-ahit-biyo-bolgesel-etik",
+        "glyph": "XX",
+        "image": "/witchcraft/yesil-ahit-biyo-bolgesel-etik.jpg",
+        "title": {
+          "tr": "Yeşil Ahit ve Biyo-Bölgesel Etik: ‘Onurlu Hasat’ Yasası",
+          "en": "The Green Covenant and Bioregional Ethics: The 'Honorable Harvest'",
+          "sv": "Det Gröna Förbundet och Bioregional Etik: 'Den Hedervärda Skörden'"
+        },
+        "subtitle": {
+          "tr": "Üçte Bir Kuralı, İlk Gördüğünü Bırakmak ve Yaşadığın Toprağın Florasını Tanımak",
+          "en": "The One-Third Rule, Never Taking the First Plant, and Knowing Your Local Flora",
+          "sv": "Tredjedelsregeln, Att Lämna den Första Växten och att Känna Sin Egen Bygds Flora"
+        },
+        "summary": {
+          "tr": "Witchcraft (Yeşil Ahit) salonunun yirminci ve son kapısı, doğayla yapılan en temel ahlaki sözleşmeye açılır: Uzak kıtalardan nesli tükenen bitkileri getirtmek yerine kendi coğrafyanın otunu tanımak ve doğadan asla **‘ilk gördüğünü’ veya ‘üçte birinden fazlasını’** almamak.",
+          "en": "The twentieth and final door of the Witchcraft (Green Covenant) Hall opens to the foundational ethical pact with living nature: knowing the native flora of your own bioregion rather than exploiting endangered distant species, and practicing the **Honorable Harvest**.",
+          "sv": "Det tjugonde och sista rummet i Witchcraft-hallen (Det Gröna Förbundet) öppnar sig mot det grundläggande etiska förbundet med naturen: att lära känna de växter som växer i din egen hembygd och att alltid följa **Den Hedervärda Skördens** lag."
+        },
+        "paragraphs": {
+          "tr": [
+            "Modern tüketim kültürü ruhsallığı bile bir alışveriş nesnesine dönüştürme tehlikesi taşır: Binlerce kilometre uzaktan nesli tehlike altındaki ağaçları (örneğin aşırı hasat edilen Palo Santo veya Beyaz Adaçayı) getirtip yakarken, kendi kapısının önündeki Anadolu adaçayını, Toros sedirini, kuzey ardıcını, ıhlamuru veya kekiği tanımamak ‘Yeşil Ahit’in ruhuna aykırıdır.",
+            "**Biyo-Bölgesel Herboloji (Bioregional Animism)** şu gerçeğe dayanır: Senin ayaklarının bastığı toprağın suyunu içen, senin soluduğun rüzgarla büyüyen yerel bitkiler, senin bedeninle ve mevsiminle en derin biyolojik uyuma sahiptir.",
+            "Geleneksel otçuların ve yerli bilgelik kültürlerinin (Robin Wall Kimmerer’in *Braiding Sweetgrass* eserinde de özetlediği) **‘Onurlu Hasat’ (*Honorable Harvest*)** yasası dört altın kuraldan oluşur: **1.** Doğada karşılaştığın **ilk bitkiyi asla koparma** (o, türün tohum nöbetçisidir). **2.** İzin iste ve gerçekten ihtiyacın olup olmadığını sor. **3.** Bir öbekteki bitkilerin **en fazla üçte birini (hatta onda birini)** al; geri kalanını arılara, kuşlara ve gelecek yıla bırak. **4.** Kökü sökmeden makasla temiz kes ve karşılığında toprağa su, kompost veya tohum ver.",
+            "⚠️ Tıbbi ve Ekolojik Uyarı: Doğadan %100 emin olmadığınız hiçbir yabani bitkiyi veya mantarı kesinlikle toplamayın ve tüketmeyin; koruma altındaki endemik türlere asla dokunmayın ve sağlık sorunlarında daima modern tıp hekimlerine başvurun."
+          ],
+          "en": [
+            "Modern consumer culture risks turning even spirituality into a commodity—importing overharvested botanicals from thousands of miles away while remaining blind to the sage, thyme, linden, pine, juniper, or birch growing right outside one's own door.",
+            "**Bioregional Herbalism** rests on a clear ecological truth: the trees and herbs rooted in the same soil, rain, and seasonal light where you live are your closest biological neighbors. Learning their names and seasonal rhythms grounds your practice in living reality.",
+            "Across traditional European folk craft and indigenous ecological wisdom (illuminated by botanist Robin Wall Kimmerer in *Braiding Sweetgrass*), the **'Honorable Harvest'** follows four non-negotiable laws: **1. Never take the first plant** you find (it stands as sentinel for the patch). **2. Ask permission and harvest only what you truly need.** **3. Never take more than one-third** (better still, one-tenth) of a healthy stand, leaving the rest for bees, birds, and next year's seed. **4. Give back** to the land through stewardship, planting, and gratitude.",
+            "⚠️ Medical & Ecological Disclaimer: Never forage or ingest any wild plant or mushroom unless identified with 100% certainty by an expert; never disturb protected or endangered native species; and always rely on licensed medical physicians for health care."
+          ],
+          "sv": [
+            "I dagens konsumtionskultur finns risken att även andlighet förvandlas till slit-och-släng—där man importerar hotade växter från andra kontinenter men går förbi röllikan, nässlan, tallen, enen, linden eller timjanen utanför sin egen knut.",
+            "**Bioregional Örtkunskap** vilar på en enkel ekologisk insikt: de träd och örter som delar samma jord, regn och årstidsljus som du är dina närmaste biologiska grannar.",
+            "I både gammal nordisk sed och urfolkens ekologiska visdom (som botanikern Robin Wall Kimmerer beskriver som **'The Honorable Harvest' — Den Hedervärda Skörden**) gäller fyra gyllene regler: **1. Ta aldrig den första växten** du ser (den står som väktare för återväxten). **2. Be om lov och skörda bara det du verkligen behöver.** **3. Ta aldrig mer än högst en tredjedel** (helst bara en tiondel) av ett bestånd, så att bin, fåglar och nästa års frön får sin del. **4. Ge tillbaka** till marken genom omsorg och nyplantering.",
+            "⚠️ Medicinsk och Ekologisk Ansvarsfriskrivning: Plocka eller förtär aldrig en vild växt eller svamp om du inte är 100 % säker på arten; rör aldrig fridlysta växter (enligt Allemansrätten och artskyddet) och sök alltid legitimerad läkarvård vid sjukdom."
+          ]
+        },
+        "chapters": {
+          "tr": [
+            {
+              "heading": "İlk Gördüğünü Bırakmak: Tohum Nöbetçisi Kuralı",
+              "body": "Ormanda aradığın bitkinin ilk örneğini gördüğünde onu selamlayıp geçmek, hem açgözlülüğü terbiye eder hem de o bitkinin o bölgede tükenmemesini garanti altına alır."
+            },
+            {
+              "heading": "Kendi Coğrafyanın Tütsüsü ve Çayı: Yerel Bilgelik",
+              "body": "Anadolu’da adaçayı, kekik, defne ve günlük reçinesi (sığla); İskandinavya’da ardıç, çam, huş ve süpürgeotu — her toprağın kendi nefesi kendine yeter."
+            }
+          ],
+          "en": [
+            {
+              "heading": "Never Take the First: The Sentinel Rule",
+              "body": "Greeting the first plant you encounter and walking past it without harvesting trains the heart in restraint and ensures the survival of the stand."
+            },
+            {
+              "heading": "The Sufficiency of Local Flora",
+              "body": "Whether Anatolian sage, bay, and sweetgum resin (*Liquidambar*) or Nordic juniper, pine, and heather—every landscape holds its own complete apothecary of scent and season."
+            }
+          ],
+          "sv": [
+            {
+              "heading": "Lämna den Första: Fröväktarens Regel",
+              "body": "Att hälsa det första exemplaret du finner i skogen och gå vidare utan att plocka det tränar sinnet i måttfullhet och tryggar växtplatsens framtid."
+            },
+            {
+              "heading": "Hembygdens Egen Doft och Kraft",
+              "body": "I Norden räcker en, tall, björk, ljung och hemmaodlad rosmarin eller timjan; i Medelhavet och Anatolien salvia, lager och timjan—varje landskap bär sin egen fullhet."
+            }
+          ]
+        },
+        "items": {
+          "tr": [
+            "Onurlu Hasat (Honorable Harvest): İlk bitkiyi bırakma, izin isteme ve sadece ihtiyacı kadar alma töresi.",
+            "Biyo-Bölgesel Bağ (Bioregionalism): Yaşadığın şehrin ve iklimin yerel ağaçlarını ve otlarını tanıma disiplini.",
+            "Üçte Bir Kuralı: Arıların, kuşların ve tohumun payını asla elinden almama sınırı.",
+            "Anadolu Sığla / Günlük (*Liquidambar orientalis*) & Kuzey Ardıç (*Juniperus*): Yerel ve kadim kokular.",
+            "⚠️ Tıbbi & Ekolojik Uyarı: Tanımadığınız yabani bitki/mantarları asla toplamayın; endemik türleri koruyun ve tedavide modern tıbba başvurun."
+          ],
+          "en": [
+            "The Honorable Harvest: Leaving the first plant, taking only what is needed, and reciprocating care.",
+            "Bioregional Literacy: Knowing the native trees, herbs, and pollinators within walking distance of your home.",
+            "The Pollinator's Share: Leaving the majority of every stand untouched for bees, birds, and seed.",
+            "Native Aromatics: Favoring locally abundant herbs or home-grown rosemary, thyme, and lavender over threatened imports.",
+            "⚠️ Medical & Ecological Warning: Never ingest unidentified wild flora/fungi, protect rare species, and consult physicians for medical care."
+          ],
+          "sv": [
+            "Den Hedervärda Skörden: Att lämna den första växten, ta varsamt och ge tillbaka till naturen.",
+            "Bioregional Kunskap: Att känna igen de fem vanligaste träden och vilda växterna i dina egna kvarter.",
+            "Binas och Fåglarnas Andel: Att lämna merparten av varje bestånd orört för pollinerare och frösättning.",
+            "Hemmaodlade Örter: Att själv odla timjan, rosmarin, salvia och lavendel i kruka eller täppa.",
+            "⚠️ Medicinsk & Ekologisk Varning: Ät aldrig okända vilda växter/svampar, respektera fridlysta arter och anlita alltid sjukvård vid ohälsa."
+          ]
+        },
+        "practice": {
+          "tr": {
+            "title": "Uygulama · Yaşadığın Sokaktaki ‘5 Yerel Bitki ve Ağacı’ Haritalamak",
+            "steps": [
+              "Bugün evinden çıktığında eline hiçbir şey koparmadan, evinin 500 metre çevresinde yaşayan **5 yerel ağacın ve yabani otun** gerçek adını öğren.",
+              "Balkonuna veya bahçene o bölgenin arılarını besleyecek yerel bir **Lavanta, Biberiye veya Kekik** saksısı koyarak doğadan alan değil, doğayı doyuran taraf ol.",
+              "Defterinin son sayfasına kendi Yeşil Ahit sözünü yaz: ‘Bastığım toprağı tanıyacak, ilk çiçeği arıya bırakacak ve doğadan aldığım her nefesin hakkını vereceğim.’"
+            ]
+          },
+          "en": {
+            "title": "Practice · Mapping 'Five Native Neighbors' and Planting for Pollinators",
+            "steps": [
+              "Walk within 500 meters of your home today without plucking a single leaf, and learn the exact botanical names of **five native trees or wayside plants** sharing your neighborhood.",
+              "Place a pot of **Rosemary, Thyme, or Lavender** on your windowsill or balcony specifically to feed local bees—shifting from taker to giver.",
+              "Inscribe your personal Green Covenant in your notebook: 'I will know the land beneath my feet, leave the first blossom for the bee, and give back more than I take.'"
+            ]
+          },
+          "sv": {
+            "title": "Praktik · Att Kartlägga 'Fem Växtgrannar' och Plantera för Bina",
+            "steps": [
+              "Gå en runda inom 500 meter från ditt hem i dag utan att plocka ett enda blad, och lär dig de rätta namnen på **fem träd eller vilda växter** i ditt grannskap.",
+              "Ställ ut en kruka med **Timjan, Rosmarin eller Lavendel** på fönsterbrädan eller balkongen som mat åt humlor och bin—så att du ger tillbaka till kretsloppet.",
+              "Skriv in ditt eget Gröna Förbund längst bak i din anteckningsbok: 'Jag ska känna marken under mina fötter, lämna den första blomman åt biet och vårda det levande.'"
+            ]
+          }
+        },
+        "closing": {
+          "tr": "İlk gördüğü çiçeği koparmayıp arıya bırakan insan, bütün ormanın gerçek dostudur.",
+          "en": "Whoever leaves the first blossom standing for the bee walks as a true friend of the whole forest.",
+          "sv": "Den som lämnar den första blomman åt biet vandrar som en sann vän genom hela skogen."
         }
       }
     ]
