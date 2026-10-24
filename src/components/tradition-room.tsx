@@ -10,6 +10,8 @@ import { useLanguage } from "@/components/language";
 import { OghamOracle } from "@/components/ogham-oracle";
 import { PlanetaryHoursCompass } from "@/components/planetary-hours";
 import { ShareBar } from "@/components/share-bar";
+import { ScholarSeal, ShopBridge, type BridgeContext } from "@/components/shop-bridge";
+import { DrumPulseResonator } from "@/components/sound-resonator";
 import { WheelCompass } from "@/components/wheel-compass";
 import {
   findTraditionDoor,
@@ -121,6 +123,7 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
         {(slug === "witchcraft" || slug === "saman") && <WheelCompass />}
         {slug === "saman" && <KumalakOracle />}
         {slug === "saman" && <DreamCompass />}
+        {(slug === "saman" || slug === "witchcraft") && <DrumPulseResonator />}
 
         {!hall.closed && hall.doors.length > 0 && (
           <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -160,6 +163,13 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
               </li>
             ))}
           </ul>
+        )}
+
+        {slug !== "shop" && (
+          <>
+            <ScholarSeal context={slug as BridgeContext} />
+            <ShopBridge context={slug as BridgeContext} />
+          </>
         )}
 
         <Link
@@ -382,6 +392,17 @@ function TraditionDoorView({
           </p>
           <p className="mt-1.5">{MEDICAL_DISCLAIMER[lang].body}</p>
         </aside>
+
+        {(traditionSlug === "saman" || traditionSlug === "witchcraft") && (
+          <DrumPulseResonator />
+        )}
+
+        {traditionSlug !== "shop" && (
+          <>
+            <ScholarSeal context={traditionSlug as BridgeContext} />
+            <ShopBridge context={traditionSlug as BridgeContext} />
+          </>
+        )}
 
         <ShareBar
           title={`${cleanText(door.title[lang])} — ${hall.title[lang]}`}

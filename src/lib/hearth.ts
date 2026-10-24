@@ -1,5 +1,8 @@
 import type { Lang } from "@/lib/copy";
+import { astrologyDoors } from "@/content/astrology";
 import { runes as runeSheets } from "@/content/runes";
+import { shopProducts } from "@/content/shop";
+import { traditions } from "@/content/traditions";
 
 export type HearthVoice = "not" | "model";
 
@@ -725,6 +728,108 @@ export function answerFromNotes(
       href: "/astroloji/harita-nasil-okunur",
       linkLabel: "☉ Harita Nasıl Okunur Odası →",
     };
+  }
+
+  // 10. Dynamic Search across all 19 Shopier Products & Consultations + 101 Tradition/Astrology Rooms
+  const tokens = text
+    .split(/[^a-z0-9]+/)
+    .filter((w) => w.length >= 3);
+
+  if (tokens.length > 0) {
+    // 10a. Check Shopier Products first if product/shop keywords match
+    let bestProduct: (typeof shopProducts)[number] | null = null;
+    let bestProdScore = 0;
+
+    for (const prod of shopProducts) {
+      const titleFold = fold(`${prod.title.tr} ${prod.title.en} ${prod.slug}`);
+      const subFold = fold(`${prod.subtitle.tr} ${prod.summary.tr}`);
+      let score = 0;
+      for (const tok of tokens) {
+        if (titleFold.includes(tok)) score += 4;
+        else if (subFold.includes(tok)) score += 1;
+      }
+      if (score > bestProdScore) {
+        bestProdScore = score;
+        bestProduct = prod;
+      }
+    }
+
+    if (bestProduct && bestProdScore >= 4) {
+      const pTitle = bestProduct.title[lang];
+      const pSummary = bestProduct.summary[lang];
+      return {
+        answer: `${bestProduct.glyph} ${pTitle} (${bestProduct.price}) — ${pSummary}`,
+        href: `/shop/${bestProduct.slug}`,
+        linkLabel:
+          lang === "en"
+            ? `⚱ Inspect ${pTitle} in Shop →`
+            : lang === "sv"
+              ? `⚱ Se ${pTitle} i Shop →`
+              : `⚱ ${pTitle} Eserini İncele (Shopier) →`,
+      };
+    }
+
+    // 10b. Check all 81 Tradition Rooms (saman, kelt, mezopotamya, witchcraft) & 20 Astrology Rooms
+    let bestRoom: {
+      href: string;
+      title: string;
+      summary: string;
+      glyph: string;
+    } | null = null;
+    let bestRoomScore = 0;
+
+    for (const tKey of ["saman", "kelt", "mezopotamya", "witchcraft"] as const) {
+      for (const door of traditions[tKey].doors) {
+        const titleFold = fold(`${door.title.tr} ${door.title.en} ${door.slug}`);
+        const subFold = fold(`${door.subtitle.tr} ${door.summary.tr}`);
+        let score = 0;
+        for (const tok of tokens) {
+          if (titleFold.includes(tok)) score += 4;
+          else if (subFold.includes(tok)) score += 2;
+        }
+        if (score > bestRoomScore) {
+          bestRoomScore = score;
+          bestRoom = {
+            href: `/${tKey}/${door.slug}`,
+            title: door.title[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
+            summary: door.summary[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
+            glyph: door.glyph,
+          };
+        }
+      }
+    }
+
+    for (const door of astrologyDoors) {
+      const titleFold = fold(`${door.title.tr} ${door.title.en} ${door.slug}`);
+      const subFold = fold(`${door.subtitle.tr} ${door.summary.tr}`);
+      let score = 0;
+      for (const tok of tokens) {
+        if (titleFold.includes(tok)) score += 4;
+        else if (subFold.includes(tok)) score += 2;
+      }
+      if (score > bestRoomScore) {
+        bestRoomScore = score;
+        bestRoom = {
+          href: `/astroloji/${door.slug}`,
+          title: door.title[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
+          summary: door.summary[lang].replace(/\*\*/g, "").replace(/\*/g, ""),
+          glyph: door.glyph,
+        };
+      }
+    }
+
+    if (bestRoom && bestRoomScore >= 3) {
+      return {
+        answer: `${bestRoom.glyph} ${bestRoom.title} — ${bestRoom.summary}`,
+        href: bestRoom.href,
+        linkLabel:
+          lang === "en"
+            ? `${bestRoom.glyph} Enter ${bestRoom.title} →`
+            : lang === "sv"
+              ? `${bestRoom.glyph} Gå till ${bestRoom.title} →`
+              : `${bestRoom.glyph} ${bestRoom.title} Odasına Git →`,
+      };
+    }
   }
 
   if (lang === "en") {

@@ -8,6 +8,7 @@ import { useLanguage } from "@/components/language";
 import { RuneCast } from "@/components/rune-cast";
 import { RuneTransliterator } from "@/components/rune-transliterator";
 import { ShareBar } from "@/components/share-bar";
+import { ScholarSeal, ShopBridge } from "@/components/shop-bridge";
 import { havamalBySlug } from "@/content/havamal";
 import {
   runeAetts,
@@ -186,6 +187,9 @@ export function RuneSheet() {
             );
           })}
         </div>
+
+        <ScholarSeal context="runes" />
+        <ShopBridge context="runes" />
 
         <Link
           href="/"
@@ -413,6 +417,9 @@ function RuneDoorView({ rune }: { rune: Rune }) {
         <p className="mt-10 border-l border-chalk/30 pl-5 font-display text-xl leading-8 text-chalk/80 italic">
           “{rune.closing[lang]}”
         </p>
+
+        <ScholarSeal context="runes" />
+        <ShopBridge context="runes" />
 
         <ShareBar
           title={`${rune.glyph} ${rune.name} — ${rune.subtitle[lang]}`}

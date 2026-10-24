@@ -6,6 +6,7 @@ import { useState } from "react";
 import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { ShareBar } from "@/components/share-bar";
+import { IntentionMatcher } from "@/components/shop-bridge";
 import {
   getShopProduct,
   shopHall,
@@ -198,6 +199,8 @@ export function ShopRoom() {
               </div>
             </section>
           )}
+
+        <IntentionMatcher />
 
         {/* Category Filter Tabs */}
         <div

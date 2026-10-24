@@ -9,6 +9,7 @@ import { HallShell } from "@/components/hall-shell";
 import { useLanguage } from "@/components/language";
 import { PlanetaryHoursCompass } from "@/components/planetary-hours";
 import { ShareBar } from "@/components/share-bar";
+import { ScholarSeal, ShopBridge } from "@/components/shop-bridge";
 import {
   astrologyDoors,
   astrologyHall,
@@ -502,6 +503,9 @@ export function AstrologyRoom() {
           </ul>
         </section>
 
+        <ScholarSeal context="astrology" />
+        <ShopBridge context="astrology" />
+
         <Link
           href="/"
           className="mt-10 inline-block border border-chalk/30 px-6 py-3 font-display text-sm tracking-[0.14em] text-chalk uppercase transition-colors hover:border-chalk/60"
@@ -706,6 +710,9 @@ export function AstrologyDoor({ doorSlug }: { doorSlug: string }) {
         <p className="mt-10 max-w-2xl border-l border-chalk/25 pl-4 font-display text-xl italic text-chalk/80">
           {renderInlineText(door.closing[lang])}
         </p>
+
+        <ScholarSeal context="astrology" />
+        <ShopBridge context="astrology" />
 
         <ShareBar
           title={`${cleanText(door.title[lang])} — ${astrologyHall.title[lang]}`}

@@ -6,28 +6,37 @@ import { useLanguage } from "@/components/language";
 
 const COPY = {
   tr: {
-    badge: "404 · Sisli Eşik · Tiwaz (ᛏ) Pusulası",
-    title: "Bu Patika Sislerin Arasında Kaybolmuş",
-    body: "Aradığın taş oda taşınmış veya hiç oyulmamış olabilir. Kuzey denizcilerinin fırtınada baktığı Kutup Yıldızı (Tiwaz · ᛏ) gibi, aşağıdaki kapılardan Kış Odası’nın merkez ocağına güvenle dönebilirsin.",
-    homeBtn: "Kış Odası Ana Salonuna Dön →",
-    runesBtn: "24 Rün Kapısı",
-    skyBtn: "Gökyüzü Notları",
+    badge: "404 · SİSLİ EŞİK",
+    title: "Bu Eşikte Henüz Bir Kapı Yok",
+    body: "Aradığın oda yer değiştirmiş veya yanlış bir geçide adım atmış olabilirsin. Kuzey yıldızını ve ocağın ateşini takip ederek ana salonlara dönebilirsin.",
+    home: "← Ana Hole Dön",
+    runes: "ᚠ Rünler Salonu",
+    astrology: "☉ Astroloji Salonu",
+    witchcraft: "⚝ Witchcraft & Yeşil Ahit",
+    shop: "⚱ Shop · Atölye (Shopier)",
+    hearth: "🔥 Ocağa Sor",
   },
   en: {
-    badge: "404 · Misty Threshold · Tiwaz (ᛏ) Compass",
-    title: "This Path Has Vanished Into the Mist",
-    body: "The stone room you sought may have moved or was never carved. Like the Pole Star (Tiwaz · ᛏ) that guided northern seafarers through fog, the doors below will lead you safely back to the Winter Hall.",
-    homeBtn: "Return to the Winter Hall →",
-    runesBtn: "24 Rune Doors",
-    skyBtn: "Sky Dispatches",
+    badge: "404 · MISTY THRESHOLD",
+    title: "No Door Stands at This Threshold",
+    body: "The room you seek may have shifted or the path was misread. Follow the North Star and the hearth fire back to the main halls.",
+    home: "← Back to Main Hall",
+    runes: "ᚠ Runes Hall",
+    astrology: "☉ Astrology Hall",
+    witchcraft: "⚝ Witchcraft & Green Covenant",
+    shop: "⚱ Shop · Workshop",
+    hearth: "🔥 Ask the Hearth",
   },
   sv: {
-    badge: "404 · Dimmig Tröskel · Tiwaz (ᛏ) Kompass",
-    title: "Denna Stig Har Försvunnit i Dimman",
-    body: "Stenrummet du sökte kan ha flyttats eller aldrig ristats. Liksom Polstjärnan (Tiwaz · ᛏ) ledde nordiska sjöfarare genom dimman visar portarna nedan vägen tillbaka till Vinterrummet.",
-    homeBtn: "Återvänd till Vinterrummet →",
-    runesBtn: "24 Runportar",
-    skyBtn: "Himmelsnoter",
+    badge: "404 · DIMMIG TRÖSKEL",
+    title: "Ingen Dörr Står Vid Denna Tröskel",
+    body: "Rummet du söker kan ha flyttats eller stigen lästs fel. Följ Polstjärnan och härdens eld tillbaka till huvudsalen.",
+    home: "← Tillbaka till Hallen",
+    runes: "ᚠ Runornas Sal",
+    astrology: "☉ Astrologisalen",
+    witchcraft: "⚝ Witchcraft & Gröna Förbundet",
+    shop: "⚱ Shop · Ateljé",
+    hearth: "🔥 Fråga Härden",
   },
 } as const;
 
@@ -39,43 +48,68 @@ export default function NotFound() {
     <HallShell>
       <main
         id="icerik"
-        className="mx-auto flex min-h-[72vh] w-full max-w-3xl flex-col items-start justify-center px-6 py-20 sm:px-8"
+        className="mx-auto flex min-h-[72vh] w-full max-w-3xl flex-col justify-center px-6 py-20 text-center"
       >
-        <p className="text-[10px] tracking-[0.22em] text-chalk/55 uppercase">
+        <div className="mx-auto flex h-20 w-20 items-center justify-center border border-amber/45 bg-soot font-display text-4xl text-amber">
+          ᛉ
+        </div>
+        <p className="mt-5 text-[11px] font-semibold tracking-[0.24em] text-amber uppercase">
           {c.badge}
         </p>
-        <div className="mt-4 flex items-baseline gap-4">
-          <span
-            aria-hidden
-            className="font-display text-6xl leading-none text-chalk/80 sm:text-7xl"
-          >
-            ᛏ
-          </span>
-          <h1 className="font-display text-4xl font-medium tracking-[-0.02em] text-chalk sm:text-5xl">
-            {c.title}
-          </h1>
-        </div>
-        <p className="mt-5 max-w-xl text-base leading-7 text-chalk/80">
+        <h1 className="mt-3 font-display text-4xl font-medium tracking-[-0.02em] text-chalk sm:text-5xl">
+          {c.title}
+        </h1>
+        <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-chalk/75">
           {c.body}
         </p>
-        <div className="mt-8 flex flex-wrap gap-3">
+
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link
             href="/"
-            className="border border-chalk/55 bg-chalk/[0.08] px-6 py-3 font-display text-xs tracking-[0.16em] text-chalk uppercase transition-colors hover:border-chalk"
+            className="border border-[#e5be73] bg-[#d4a857] px-6 py-3 text-xs font-bold tracking-[0.2em] text-[#141a1c] uppercase hover:bg-[#e5be73] transition"
           >
-            {c.homeBtn}
+            {c.home}
           </Link>
           <Link
-            href="/runler"
-            className="border border-chalk/25 px-5 py-3 font-display text-xs tracking-[0.16em] text-chalk/80 uppercase transition-colors hover:border-chalk/60 hover:text-chalk"
+            href="/#ocak"
+            className="border border-amber/50 bg-amber/10 px-5 py-3 text-xs font-medium tracking-[0.18em] text-amber uppercase hover:bg-amber hover:text-ink transition"
           >
-            ᚠ {c.runesBtn}
+            {c.hearth}
+          </Link>
+        </div>
+
+        <div className="mt-10 grid grid-cols-1 gap-3 border-t border-chalk/12 pt-8 sm:grid-cols-2">
+          <Link
+            href="/runler"
+            className="card-slate border border-chalk/15 p-4 text-left hover:border-amber/50 transition"
+          >
+            <span className="font-display text-lg text-chalk hover:text-amber">
+              {c.runes} →
+            </span>
           </Link>
           <Link
             href="/astroloji"
-            className="border border-chalk/25 px-5 py-3 font-display text-xs tracking-[0.16em] text-chalk/80 uppercase transition-colors hover:border-chalk/60 hover:text-chalk"
+            className="card-slate border border-chalk/15 p-4 text-left hover:border-amber/50 transition"
           >
-            ☉ {c.skyBtn}
+            <span className="font-display text-lg text-chalk hover:text-amber">
+              {c.astrology} →
+            </span>
+          </Link>
+          <Link
+            href="/witchcraft"
+            className="card-slate border border-chalk/15 p-4 text-left hover:border-amber/50 transition"
+          >
+            <span className="font-display text-lg text-chalk hover:text-amber">
+              {c.witchcraft} →
+            </span>
+          </Link>
+          <Link
+            href="/shop"
+            className="card-slate border border-chalk/15 p-4 text-left hover:border-amber/50 transition"
+          >
+            <span className="font-display text-lg text-chalk hover:text-amber">
+              {c.shop} →
+            </span>
           </Link>
         </div>
       </main>

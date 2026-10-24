@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
 import { useLanguage } from "@/components/language";
+import { runes } from "@/content/runes";
 import { formatSkyClock, formatSkyDate, readSky } from "@/lib/sky";
 import { skyAdvice, skyNames } from "@/lib/sky-copy";
 
@@ -117,6 +118,75 @@ export function SkyNote() {
   const names = skyNames[lang];
   const dispatch = ACTIVE_SKY_DISPATCHES[lang];
 
+  const daySeed =
+    sky.date.getUTCFullYear() * 366 +
+    sky.date.getUTCMonth() * 31 +
+    sky.date.getUTCDate();
+  const dailyRune = runes[daySeed % runes.length];
+
+  const hourWorkMap: Record<
+    string,
+    { href: string; label: Record<"tr" | "en" | "sv", string> }
+  > = {
+    sun: {
+      href: "/shop/golden-divine-oil",
+      label: {
+        tr: "Güneş Saati Eseri: Golden Divine Oil",
+        en: "Solar Hour Work: Golden Divine Oil",
+        sv: "Soltimmens Verk: Golden Divine Oil",
+      },
+    },
+    moon: {
+      href: "/shop/silver-moon-elixir",
+      label: {
+        tr: "Ay Saati Eseri: Silver Moon Elixir",
+        en: "Lunar Hour Work: Silver Moon Elixir",
+        sv: "Måntimmens Verk: Silver Moon Elixir",
+      },
+    },
+    venus: {
+      href: "/shop/velvet-love-oil",
+      label: {
+        tr: "Venüs Saati Eseri: Velvet Love Oil",
+        en: "Venus Hour Work: Velvet Love Oil",
+        sv: "Venustimmens Verk: Velvet Love Oil",
+      },
+    },
+    mercury: {
+      href: "/shop/yesil-ahit-ekitap",
+      label: {
+        tr: "Merkür Saati Eseri: Yeşil Ahit e-Kitap",
+        en: "Mercury Hour Work: Green Covenant e-Book",
+        sv: "Merkuriustimmens Verk: Gröna Förbundets e-bok",
+      },
+    },
+    mars: {
+      href: "/shop/sacred-shield-oil",
+      label: {
+        tr: "Mars Saati Eseri: Sacred Shield Oil",
+        en: "Mars Hour Work: Sacred Shield Oil",
+        sv: "Marstimmens Verk: Sacred Shield Oil",
+      },
+    },
+    jupiter: {
+      href: "/shop/celestial-elixir-oil",
+      label: {
+        tr: "Jüpiter Saati Eseri: Celestial Elixir",
+        en: "Jupiter Hour Work: Celestial Elixir",
+        sv: "Jupitertimmens Verk: Celestial Elixir",
+      },
+    },
+    saturn: {
+      href: "/shop/black-salt",
+      label: {
+        tr: "Satürn Saati Eseri: Black Salt",
+        en: "Saturn Hour Work: Black Salt",
+        sv: "Saturnustimmens Verk: Black Salt",
+      },
+    },
+  };
+  const currentHourWork = hourWorkMap[sky.hour] ?? hourWorkMap.sun;
+
   return (
     <div className="mt-8 max-w-lg" suppressHydrationWarning>
       <time
@@ -146,6 +216,30 @@ export function SkyNote() {
       >
         {formatSkyClock(sky.date)}
       </p>
+
+      {/* Daily Guardian Rune & Planetary Hour Work */}
+      <div className="mt-4 flex flex-wrap gap-2">
+        <Link
+          href={`/runler/${dailyRune.slug}`}
+          className="inline-flex items-center gap-2 border border-amber/35 bg-amber/10 px-3 py-1.5 text-[11px] tracking-[0.14em] text-amber uppercase hover:bg-amber hover:text-ink transition"
+        >
+          <span>{dailyRune.glyph}</span>
+          <span>
+            {lang === "en"
+              ? `Daily Rune: ${dailyRune.name}`
+              : lang === "sv"
+                ? `Dagens Runa: ${dailyRune.name}`
+                : `Günün Rünü: ${dailyRune.name}`}
+          </span>
+        </Link>
+        <Link
+          href={currentHourWork.href}
+          className="inline-flex items-center gap-2 border border-chalk/20 bg-soot/65 px-3 py-1.5 text-[11px] tracking-[0.14em] text-chalk/85 uppercase hover:border-amber hover:text-amber transition"
+        >
+          <span>⚱</span>
+          <span>{currentHourWork.label[lang]}</span>
+        </Link>
+      </div>
 
       {/* Active Sky Dispatches Strip */}
       <div className="mt-5 border-t border-chalk/12 pt-4">

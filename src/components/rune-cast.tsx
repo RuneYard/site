@@ -215,7 +215,7 @@ export function RuneCast() {
         <button
           type="button"
           onClick={() => handleCast(mode)}
-          className="border border-chalk/50 bg-chalk/[0.08] px-6 py-2.5 font-display text-xs tracking-[0.18em] text-chalk uppercase transition-colors hover:border-chalk hover:bg-chalk/[0.14]"
+          className="border border-[#e5be73] bg-[#d4a857] px-6 py-2.5 font-display text-xs font-bold tracking-[0.18em] text-[#141a1c] uppercase shadow-[0_2px_14px_rgba(212,168,87,0.3)] transition-colors hover:bg-[#e5be73]"
         >
           {drawn
             ? ui.recastBtn
@@ -337,20 +337,41 @@ export function RuneCast() {
           <div className="mt-6 flex flex-wrap items-center gap-4 border-t border-chalk/10 pt-4 text-xs">
             <Link
               href="/uygulamalar/rune-yard"
-              className="font-display tracking-[0.14em] text-chalk/70 uppercase transition-colors hover:text-chalk"
+              className="font-display tracking-[0.14em] text-amber uppercase transition-colors hover:underline"
             >
               {ui.appBridge}
             </Link>
             <span className="text-chalk/25">·</span>
             <Link
               href="/egitim/rune-bilgeligi"
-              className="font-display tracking-[0.14em] text-chalk/70 uppercase transition-colors hover:text-chalk"
+              className="font-display tracking-[0.14em] text-amber uppercase transition-colors hover:underline"
             >
               {ui.courseBridge}
             </Link>
           </div>
         </div>
       )}
+
+      <div className="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border border-amber/30 bg-ink/65 p-4">
+        <div>
+          <span className="text-[10px] font-semibold tracking-[0.2em] text-amber uppercase">
+            ⌘ {lang === "en" ? "EXCLUSIVE TO RUNE YARD MOBILE APP" : lang === "sv" ? "EXKLUSIVT I RUNE YARD-APPEN" : "RUNE YARD MOBİL UYGULAMASINA ÖZEL"}
+          </span>
+          <p className="mt-1 text-xs leading-5 text-chalk/75">
+            {lang === "en"
+              ? "Personal Bindrune (Combined Stave) seal design and daily runic journaling are available exclusively inside the Rune Yard mobile application."
+              : lang === "sv"
+                ? "Personlig Bindrunedesign och daglig runjournal finns exklusivt i mobilappen Rune Yard."
+                : "Kişisel Bindrune (Bağlama Rün) tılsımı çizimi ve günlük rün defteri yalnızca Rune Yard mobil uygulamasına özeldir."}
+          </p>
+        </div>
+        <Link
+          href="/uygulamalar/rune-yard"
+          className="shrink-0 border border-amber/60 bg-amber/15 px-4 py-2 text-[11px] font-semibold tracking-[0.16em] text-amber uppercase hover:bg-amber hover:text-ink transition text-center"
+        >
+          {ui.appBridge}
+        </Link>
+      </div>
     </section>
   );
 }
