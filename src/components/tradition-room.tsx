@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { DreamCompass } from "@/components/dream-compass";
@@ -15,6 +15,7 @@ import { ScholarSeal, ShopBridge, type BridgeContext } from "@/components/shop-b
 import { DrumPulseResonator } from "@/components/sound-resonator";
 import { SymbolicTwins } from "@/components/symbolic-twins";
 import { WheelCompass } from "@/components/wheel-compass";
+import type { Lang } from "@/lib/copy";
 import {
   findTraditionDoor,
   traditions,
@@ -62,6 +63,153 @@ const MEDICAL_DISCLAIMER = {
   },
 } as const;
 
+type ShelfDef = {
+  id: string;
+  label: Record<Lang, string>;
+  match: (door: TraditionSubDoor, index: number) => boolean;
+};
+
+const HALL_SHELVES: Record<Exclude<TraditionSlug, "shop">, readonly ShelfDef[]> = {
+  mezopotamya: [
+    {
+      id: "enki-marduk",
+      label: {
+        tr: "Enki, Abzu & Marduk’un 50 İsmi",
+        en: "Enki, Abzu & Marduk's 50 Names",
+        sv: "Enki, Abzu & Marduks 50 Namn",
+      },
+      match: (d) =>
+        /abzu|asalluhi|marukka|marduk|enki|me-yasalari|esagila/i.test(d.slug),
+    },
+    {
+      id: "stars-cycles",
+      label: {
+        tr: "Yıldız İlmi, Ay & Göksel Çağlar",
+        en: "Astral Science, Moon & Celestial Ages",
+        sv: "Stjärnkunskap, Måne & Tidsåldrar",
+      },
+      match: (d) =>
+        /ziggurat|yildiz|nanna|inanna|gezegen|dekan|caglar|nibiru|akitu/i.test(d.slug),
+    },
+    {
+      id: "purification-ward",
+      label: {
+        tr: "Arınma, Korunma & Mühürler",
+        en: "Purification, Warding & Seals",
+        sv: "Rening, Beskydd & Sigill",
+      },
+      match: (d) =>
+        /maqlu|surpu|lamassu|muhur|pazuzu|tutsu|recine|kur/i.test(d.slug),
+    },
+    {
+      id: "law-myth",
+      label: {
+        tr: "Kozmik Yasa, Kader & Destanlar",
+        en: "Cosmic Law, Destiny & Epics",
+        sv: "Kosmisk Lag, Öde & Epos",
+      },
+      match: (d) =>
+        /enuma|kader|gilgamis|samas|kittum|tufan/i.test(d.slug),
+    },
+  ],
+  saman: [
+    {
+      id: "cosmology",
+      label: {
+        tr: "Üç Dünya, Gök & Hayat Ağacı",
+        en: "Three Worlds, Sky & World Tree",
+        sv: "Tre Världar, Himmel & Världsträd",
+      },
+      match: (_, i) => i < 5,
+    },
+    {
+      id: "drum-trance",
+      label: {
+        tr: "Davul, Ses, Nefes & Seiðr",
+        en: "Drum, Sound, Breath & Seiðr",
+        sv: "Trumma, Ljud, Andedräkt & Sejd",
+      },
+      match: (_, i) => i >= 5 && i < 10,
+    },
+    {
+      id: "nature-hearth",
+      label: {
+        tr: "Yer-Su İyeleri, Ocak & Erk Hayvanları",
+        en: "Land Spirits, Hearth & Power Animals",
+        sv: "Rådande Väsen, Härd & Kraftdjur",
+      },
+      match: (_, i) => i >= 10 && i < 15,
+    },
+    {
+      id: "divination-initiation",
+      label: {
+        tr: "Kumalak, Rüya & İnisiyasyon",
+        en: "Kumalak, Dream & Initiation",
+        sv: "Kumalak, Dröm & Initiation",
+      },
+      match: (_, i) => i >= 15,
+    },
+  ],
+  kelt: [
+    {
+      id: "ogham-trees",
+      label: {
+        tr: "Ogham & 20 Kutsal Ağaç (Aicme)",
+        en: "Ogham & 20 Sacred Trees (Aicme)",
+        sv: "Ogham & 20 Heliga Träd (Aicme)",
+      },
+      match: (d) => /aicme|ogham|agac|fid/i.test(d.slug),
+    },
+    {
+      id: "awen-nemeton",
+      label: {
+        tr: "Nemeton, Awen & Üç Kazan",
+        en: "Nemeton, Awen & Three Cauldrons",
+        sv: "Nemeton, Awen & Tre Kitteln",
+      },
+      match: (_, i) => i < 7,
+    },
+    {
+      id: "wheel-thresholds",
+      label: {
+        tr: "Mevsim Eşikleri, Pınarlar & Töre",
+        en: "Seasonal Thresholds, Wells & Lore",
+        sv: "Årstidströsklar, Källor & Sed",
+      },
+      match: (d, i) => i >= 7 && !/aicme|ogham/i.test(d.slug),
+    },
+  ],
+  witchcraft: [
+    {
+      id: "hearth-home",
+      label: {
+        tr: "Ocak, Hane & Eşik Koruma",
+        en: "Hearth, Home & Threshold Warding",
+        sv: "Härd, Hem & Tröskelskydd",
+      },
+      match: (d) => /hane|mutfak|esik|dugum|ayna|su|mum/i.test(d.slug),
+    },
+    {
+      id: "herbs-trees",
+      label: {
+        tr: "Bitki İlmi, Ağaçlar & Reçineler",
+        en: "Herbalism, Trees & Resins",
+        sv: "Örtkunskap, Träd & Hartser",
+      },
+      match: (d) => /kir|aktar|agac|recine|merhem|tentur|yesil-ahit/i.test(d.slug),
+    },
+    {
+      id: "wheel-moon",
+      label: {
+        tr: "Yılın Çarkı, Samhain & Ay Evreleri",
+        en: "Wheel of the Year, Samhain & Moon",
+        sv: "Årshjulet, Samhain & Månfaser",
+      },
+      match: (d, i) => /samhain|cark|ay|mevsim/i.test(d.slug) || i >= 14,
+    },
+  ],
+};
+
 function renderInlineText(text: string): ReactNode {
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
   return parts.map((part, i) => {
@@ -91,11 +239,123 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
   const { lang, t } = useLanguage();
   const hall = traditions[slug];
 
+  const [activeTool, setActiveTool] = useState<string>("rooms");
+  const [selectedShelf, setSelectedShelf] = useState<string>("all");
+  const [roomFilter, setRoomFilter] = useState<string>("");
+
+  const shelves = slug !== "shop" ? HALL_SHELVES[slug] : [];
+
+  const filteredDoors = useMemo(() => {
+    const q = roomFilter.trim().toLocaleLowerCase("tr");
+    const activeShelfObj = shelves.find((s) => s.id === selectedShelf);
+
+    return hall.doors.filter((door, index) => {
+      if (activeShelfObj && !activeShelfObj.match(door, index)) return false;
+      if (!q) return true;
+      const hay = `${door.glyph} ${door.title[lang]} ${door.subtitle[lang]} ${door.summary[lang]}`.toLocaleLowerCase(
+        "tr",
+      );
+      return hay.includes(q);
+    });
+  }, [hall.doors, shelves, selectedShelf, roomFilter, lang]);
+
+  const toolTabs = useMemo(() => {
+    const tabs: { id: string; label: string }[] = [
+      {
+        id: "rooms",
+        label:
+          lang === "en"
+            ? `📚 Archive Rooms (${hall.doors.length})`
+            : lang === "sv"
+              ? `📚 Arkivrum (${hall.doors.length})`
+              : `📚 Külliyat Odaları (${hall.doors.length})`,
+      },
+    ];
+    if (slug === "mezopotamya") {
+      tabs.push({
+        id: "marduk50",
+        label:
+          lang === "en"
+            ? "𒀭 Marduk’s 50 Sacred Names Atlas"
+            : lang === "sv"
+              ? "𒀭 Marduks 50 Heliga Namn-Atlas"
+              : "𒀭 Marduk’un 50 Kutsal İsmi Atlası",
+      });
+      tabs.push({
+        id: "planetary",
+        label:
+          lang === "en"
+            ? "⏳ Planetary Hours Compass"
+            : lang === "sv"
+              ? "⏳ Planettimmars Kompass"
+              : "⏳ Gezegen Saatleri Pusulası",
+      });
+    } else if (slug === "kelt") {
+      tabs.push({
+        id: "ogham",
+        label:
+          lang === "en"
+            ? "ᚁ Ogham Tree Oracle"
+            : lang === "sv"
+              ? "ᚁ Ogham Trädorakel"
+              : "ᚁ Ogham Ağaç Kehaneti",
+      });
+    } else if (slug === "saman") {
+      tabs.push({
+        id: "kumalak",
+        label:
+          lang === "en"
+            ? "🎲 41-Stone Kumalak"
+            : lang === "sv"
+              ? "🎲 41-Stenars Kumalak"
+              : "🎲 41 Taş Kumalak",
+      });
+      tabs.push({
+        id: "dream",
+        label:
+          lang === "en"
+            ? "🌙 Dream Compass"
+            : lang === "sv"
+              ? "🌙 Drömkompass"
+              : "🌙 Rüya Pusulası",
+      });
+      tabs.push({
+        id: "drum",
+        label:
+          lang === "en"
+            ? "🥁 Drum Pulse Resonator"
+            : lang === "sv"
+              ? "🥁 Trumresonator"
+              : "🥁 Şaman Davulu Rezonatörü",
+      });
+    } else if (slug === "witchcraft") {
+      tabs.push({
+        id: "wheel",
+        label:
+          lang === "en"
+            ? "☸ Wheel of the Year Compass"
+            : lang === "sv"
+              ? "☸ Årshjulets Kompass"
+              : "☸ Mevsim Çarkı Pusulası",
+      });
+      tabs.push({
+        id: "drum",
+        label:
+          lang === "en"
+            ? "🕯 Rhythm & Focus Resonator"
+            : lang === "sv"
+              ? "🕯 Rytm- & Fokusresonator"
+              : "🕯 Ritim & Odak Rezonatörü",
+      });
+    }
+    return tabs;
+  }, [slug, lang, hall.doors.length]);
+
   return (
     <HallShell>
-      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-5xl px-4 py-12 sm:px-8 sm:py-16">
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-5xl px-4 py-8 sm:px-8 sm:py-14">
         <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">runeyard.net</p>
-        <div className="mt-4 flex flex-wrap items-baseline justify-between gap-4">
+        <div className="mt-3 flex flex-wrap items-baseline justify-between gap-4">
           <h1 className="font-display text-4xl font-medium tracking-[-0.025em] sm:text-6xl">
             {hall.title[lang]}
           </h1>
@@ -105,10 +365,12 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
             </span>
           )}
         </div>
-        <p className="mt-4 max-w-2xl text-base leading-7 text-chalk/75">{hall.line[lang]}</p>
+        <p className="mt-3 max-w-2xl text-sm sm:text-base leading-7 text-chalk/75">
+          {hall.line[lang]}
+        </p>
 
         {hall.image && (
-          <div className="mt-8 overflow-hidden border border-chalk/12 bg-ink/60">
+          <div className="mt-6 overflow-hidden border border-chalk/12 bg-ink/60">
             <Image
               src={hall.image}
               alt={hall.title[lang]}
@@ -120,52 +382,133 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
           </div>
         )}
 
-        {slug === "kelt" && <OghamOracle />}
-        {slug === "mezopotamya" && <PlanetaryHoursCompass />}
-        {slug === "mezopotamya" && <MardukFiftyNamesAtlas />}
-        {(slug === "witchcraft" || slug === "saman") && <WheelCompass />}
-        {slug === "saman" && <KumalakOracle />}
-        {slug === "saman" && <DreamCompass />}
-        {(slug === "saman" || slug === "witchcraft") && <DrumPulseResonator />}
-
-        {!hall.closed && hall.doors.length > 0 && (
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {hall.doors.map((door) => (
-              <li key={door.slug}>
-                <Link
-                  href={`/${slug}/${door.slug}`}
-                  className="card-slate group flex h-full min-h-52 flex-col justify-between border border-chalk/10 p-4 text-chalk transition-colors hover:border-chalk/35 sm:p-5"
+        {/* Interactive Workbench Switcher (Keeps page clean and uncluttered!) */}
+        {!hall.closed && toolTabs.length > 1 && (
+          <div className="mt-7 border border-amber/30 bg-black/45 p-3 sm:p-4">
+            <p className="text-[10px] tracking-[0.2em] text-amber/85 uppercase">
+              {lang === "en"
+                ? "Hall View & Interactive Instruments"
+                : lang === "sv"
+                  ? "Hallvy & Interaktiva Verktyg"
+                  : "Salon Görünümü & İnteraktif Çalışma Araçları"}
+            </p>
+            <div className="mt-2.5 flex flex-wrap gap-2">
+              {toolTabs.map((tab) => (
+                <button
+                  key={tab.id}
+                  type="button"
+                  onClick={() => setActiveTool(tab.id)}
+                  className={`border px-3.5 py-2 text-xs tracking-[0.08em] transition-colors ${
+                    activeTool === tab.id
+                      ? "border-amber bg-amber/20 text-amber font-medium"
+                      : "border-chalk/20 bg-ink/80 text-chalk/75 hover:border-chalk/45 hover:text-chalk"
+                  }`}
                 >
-                  <div>
-                    {door.image && (
-                      <div className="mb-4 overflow-hidden border border-chalk/10 bg-ink/80">
-                        <Image
-                          src={door.image}
-                          alt={door.title[lang]}
-                          width={600}
-                          height={220}
-                          className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                        />
-                      </div>
-                    )}
-                    <span aria-hidden className="font-display text-2xl leading-none text-bronze">
-                      {door.glyph}
+                  {tab.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Active Interactive Tool View */}
+        {activeTool === "marduk50" && <MardukFiftyNamesAtlas />}
+        {activeTool === "planetary" && <PlanetaryHoursCompass />}
+        {activeTool === "ogham" && <OghamOracle />}
+        {activeTool === "kumalak" && <KumalakOracle />}
+        {activeTool === "dream" && <DreamCompass />}
+        {activeTool === "wheel" && <WheelCompass />}
+        {activeTool === "drum" && <DrumPulseResonator />}
+
+        {/* Thematic Shelf Filter & Instant Search Bar */}
+        {!hall.closed && hall.doors.length > 0 && (
+          <section className="mt-8">
+            <div className="flex flex-col gap-3 border-b border-chalk/15 pb-4 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:flex-wrap sm:pb-0 no-scrollbar">
+                <button
+                  type="button"
+                  onClick={() => setSelectedShelf("all")}
+                  className={`shrink-0 rounded-full border px-3 py-1.5 text-xs transition-colors ${
+                    selectedShelf === "all"
+                      ? "border-amber bg-amber/20 text-amber font-medium"
+                      : "border-chalk/15 bg-black/35 text-chalk/70 hover:border-chalk/35"
+                  }`}
+                >
+                  {lang === "en"
+                    ? `All (${hall.doors.length})`
+                    : lang === "sv"
+                      ? `Alla (${hall.doors.length})`
+                      : `Tümü (${hall.doors.length})`}
+                </button>
+                {shelves.map((shelf) => (
+                  <button
+                    key={shelf.id}
+                    type="button"
+                    onClick={() => setSelectedShelf(shelf.id)}
+                    className={`shrink-0 rounded-full border px-3 py-1.5 text-xs transition-colors ${
+                      selectedShelf === shelf.id
+                        ? "border-amber bg-amber/20 text-amber font-medium"
+                        : "border-chalk/15 bg-black/35 text-chalk/70 hover:border-chalk/35"
+                    }`}
+                  >
+                    {shelf.label[lang]}
+                  </button>
+                ))}
+              </div>
+
+              <input
+                type="search"
+                value={roomFilter}
+                onChange={(e) => setRoomFilter(e.target.value)}
+                placeholder={
+                  lang === "en"
+                    ? "Filter rooms in this hall..."
+                    : lang === "sv"
+                      ? "Filtrera rum i denna hall..."
+                      : "Bu salonda konu veya kavram filtrele..."
+                }
+                className="w-full sm:w-64 border border-chalk/25 bg-black/50 px-3.5 py-1.5 text-xs text-chalk placeholder:text-chalk/40 focus:border-amber focus:outline-none"
+              />
+            </div>
+
+            <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {filteredDoors.map((door) => (
+                <li key={door.slug}>
+                  <Link
+                    href={`/${slug}/${door.slug}`}
+                    className="card-slate group flex h-full min-h-48 flex-col justify-between border border-chalk/12 p-4 text-chalk transition-colors hover:border-amber/50 sm:p-5"
+                  >
+                    <div>
+                      {door.image && (
+                        <div className="mb-3.5 overflow-hidden border border-chalk/10 bg-ink/80">
+                          <Image
+                            src={door.image}
+                            alt={door.title[lang]}
+                            width={600}
+                            height={220}
+                            className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                          />
+                        </div>
+                      )}
+                      <span aria-hidden className="font-display text-2xl leading-none text-bronze">
+                        {door.glyph}
+                      </span>
+                      <h2 className="mt-2.5 font-display text-xl sm:text-2xl font-medium tracking-[0.01em] text-chalk group-hover:text-amber transition-colors">
+                        {cleanText(door.title[lang])}
+                      </h2>
+                      <p className="mt-2 text-sm leading-6 text-chalk/70 line-clamp-3">
+                        {renderInlineText(door.summary[lang])}
+                      </p>
+                    </div>
+                    <span className="mt-4 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.2em] text-chalk/50 uppercase group-hover:text-amber">
+                      <span>{t.open}</span>
+                      <span aria-hidden>→</span>
                     </span>
-                    <h2 className="mt-3 font-display text-2xl font-medium tracking-[0.01em] text-chalk">
-                      {cleanText(door.title[lang])}
-                    </h2>
-                    <p className="mt-2 text-sm leading-6 text-chalk/70">
-                      {renderInlineText(door.summary[lang])}
-                    </p>
-                  </div>
-                  <span className="mt-5 flex items-center justify-between border-t border-chalk/10 pt-3 text-[10px] tracking-[0.2em] text-chalk/50 uppercase group-hover:text-chalk/85">
-                    <span>{t.open}</span>
-                    <span aria-hidden>→</span>
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         {slug !== "shop" && (
@@ -220,6 +563,7 @@ function TraditionDoorView({
 }) {
   const { lang } = useLanguage();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
+  const [showRoomList, setShowRoomList] = useState(false);
   const hall = traditions[traditionSlug];
   const chapters = door.chapters[lang];
   const items = door.items?.[lang];
@@ -232,22 +576,64 @@ function TraditionDoorView({
 
   return (
     <HallShell>
-      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-4xl px-4 py-12 sm:px-8 sm:py-20">
-        <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">
-          runeyard.net · {hall.title[lang]}
-        </p>
-        <h1 className="mt-4 flex flex-wrap items-baseline gap-x-3 font-display text-3xl font-medium tracking-[-0.025em] sm:gap-x-4 sm:text-6xl">
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-4xl px-4 py-8 sm:px-8 sm:py-16">
+        {/* Top Breadcrumb + Quick Sibling Room Switcher */}
+        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-chalk/12 pb-3">
+          <div className="flex items-center gap-2 text-[10px] tracking-[0.2em] text-chalk/60 uppercase">
+            <Link href={`/${traditionSlug}`} className="hover:text-amber">
+              ← {hall.title[lang]}
+            </Link>
+            <span>·</span>
+            <span className="text-amber/85">
+              {door.glyph} ({currentIdx + 1} / {hall.doors.length})
+            </span>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setShowRoomList((prev) => !prev)}
+            className="border border-chalk/20 bg-black/40 px-3 py-1 text-[10px] tracking-[0.16em] text-chalk/80 uppercase hover:border-amber/60 hover:text-amber"
+          >
+            {lang === "en"
+              ? `All ${hall.doors.length} Rooms ▾`
+              : lang === "sv"
+                ? `Alla ${hall.doors.length} Rum ▾`
+                : `Salondaki Tüm Odalar (${hall.doors.length}) ▾`}
+          </button>
+        </div>
+
+        {showRoomList && (
+          <div className="mt-3 grid max-h-64 grid-cols-1 gap-1.5 overflow-y-auto border border-amber/30 bg-ink/95 p-3 sm:grid-cols-2">
+            {hall.doors.map((d) => (
+              <Link
+                key={d.slug}
+                href={`/${traditionSlug}/${d.slug}`}
+                onClick={() => setShowRoomList(false)}
+                className={`px-3 py-2 text-xs transition-colors ${
+                  d.slug === door.slug
+                    ? "border border-amber/60 bg-amber/15 text-amber font-medium"
+                    : "border border-chalk/10 bg-black/30 text-chalk/75 hover:border-chalk/35 hover:text-chalk"
+                }`}
+              >
+                <span className="mr-2 font-display text-bronze">{d.glyph}</span>
+                <span>{cleanText(d.title[lang])}</span>
+              </Link>
+            ))}
+          </div>
+        )}
+
+        <h1 className="mt-5 flex flex-wrap items-baseline gap-x-3 font-display text-3xl font-medium tracking-[-0.025em] sm:gap-x-4 sm:text-5xl">
           <span aria-hidden className="text-[0.8em] text-bronze">
             {door.glyph}
           </span>
           <span>{cleanText(door.title[lang])}</span>
         </h1>
-        <p className="mt-3 max-w-2xl font-display text-xl font-medium tracking-[-0.015em] text-chalk/75 sm:text-2xl">
+        <p className="mt-3 max-w-2xl font-display text-lg font-medium tracking-[-0.015em] text-chalk/75 sm:text-2xl">
           {renderInlineText(door.subtitle[lang])}
         </p>
 
         {door.image && (
-          <div className="mt-7 sm:mt-8">
+          <div className="mt-6 sm:mt-8">
             <button
               type="button"
               onClick={() =>
@@ -255,25 +641,22 @@ function TraditionDoorView({
               }
               className="group block w-full overflow-hidden border border-chalk/15 bg-ink/60 text-left transition-colors hover:border-bronze/60"
             >
-              <div className="overflow-x-auto sm:overflow-visible">
-                <Image
-                  src={door.image}
-                  alt={cleanText(door.title[lang])}
-                  width={1200}
-                  height={440}
-                  priority
-                  className="h-auto min-w-[540px] w-full object-cover sm:min-w-0"
-                />
-              </div>
+              <Image
+                src={door.image}
+                alt={cleanText(door.title[lang])}
+                width={1200}
+                height={440}
+                priority
+                className="h-auto w-full object-cover"
+              />
               <div className="flex items-center justify-between border-t border-chalk/10 bg-ink/85 px-3 py-1.5 text-[11px] text-chalk/65 group-hover:text-chalk">
                 <span>{ZOOM_HINT[lang]}</span>
-                <span className="text-bronze sm:hidden">↔ Kaydır / Büyüt</span>
               </div>
             </button>
           </div>
         )}
 
-        <div className="mt-8 max-w-2xl space-y-5">
+        <div className="mt-7 max-w-2xl space-y-5">
           {door.paragraphs[lang].map((paragraph) => (
             <p key={paragraph} className="text-base leading-7 text-chalk/85 sm:text-lg sm:leading-8">
               {renderInlineText(paragraph)}
@@ -369,18 +752,15 @@ function TraditionDoorView({
                 }
                 className="my-4 block w-full overflow-hidden border border-chalk/12 bg-ink/80 text-left transition-colors hover:border-bronze/60 sm:my-5"
               >
-                <div className="overflow-x-auto sm:overflow-visible">
-                  <Image
-                    src={door.practiceImage}
-                    alt={cleanText(practice.title)}
-                    width={1080}
-                    height={380}
-                    className="h-auto min-w-[580px] w-full object-cover sm:min-w-0"
-                  />
-                </div>
+                <Image
+                  src={door.practiceImage}
+                  alt={cleanText(practice.title)}
+                  width={1080}
+                  height={380}
+                  className="h-auto w-full object-cover"
+                />
                 <div className="flex items-center justify-between border-t border-chalk/10 bg-ink/85 px-3 py-1.5 text-[11px] text-chalk/65">
                   <span>{ZOOM_HINT[lang]}</span>
-                  <span className="text-bronze sm:hidden">↔ Kaydır / Büyüt</span>
                 </div>
               </button>
             )}
@@ -516,7 +896,7 @@ function TraditionDoorView({
               <img
                 src={lightbox.src}
                 alt={lightbox.alt}
-                className="h-auto min-w-[680px] w-full object-contain sm:min-w-0"
+                className="mx-auto h-auto max-w-none sm:max-w-full"
               />
             </div>
           </div>

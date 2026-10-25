@@ -10,7 +10,17 @@
   --color-bronze: #a8824a;
   --color-moss: #1a2620;
   --color-amber: #d8ae5e;
+  --color-gold: #d8ae5e;
+  --color-parchment: #efe8d8;
   --color-soot: #111715;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 html {

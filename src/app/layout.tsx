@@ -23,25 +23,32 @@ const siteUrl = "https://www.runeyard.net";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "RuneYard — Mehmet Akdeniz · Rünler, Astroloji, Kadim Gelenekler & Akademi",
+    default:
+      "RuneYard — Mehmet Akdeniz · Rune (Rün) Alfabesi, 24 Elder Futhark Anlamları, Astroloji & Kadim Gelenekler",
     template: "%s",
   },
   description:
-    "Mehmet Akdeniz’in kış odası. 24 Elder Futhark rün incelemesi, gökyüzü ve astroloji analizleri, Şamanizm, Kelt, Mezopotamya, Cadılık gelenekleri ve RuneYard Akademi eğitimleri.",
+    "Mehmet Akdeniz’in kış odası. 24 Elder Futhark Rune (Rün) alfabesi, taşları ve anlamları, interaktif rune çekimi ve isim çevirici, astroloji analizleri, Şamanizm, Kelt, Mezopotamya (Marduk’un 50 İsmi) ve Cadılık külliyatı.",
   keywords: [
+    "Rune",
+    "Rune Nedir",
+    "Rune Anlamları",
+    "Rune Alfabesi",
+    "Rune Taşları",
+    "Rune Sembolleri",
+    "Rün",
+    "Rünler",
+    "Rün Anlamları",
+    "Elder Futhark",
     "RuneYard",
     "Mehmet Akdeniz",
-    "Rünler",
-    "Elder Futhark",
     "Rün Eğitimi",
     "Astroloji",
-    "Boğa Dolunayı",
-    "Merkür Retrosu",
-    "Venüs Retrosu",
     "Şamanizm Eğitimi",
     "El Yüz Element Analizi",
     "Kelt Ogham",
     "Mezopotamya",
+    "Marduk 50 İsim",
   ],
   authors: [{ name: "Mehmet Akdeniz", url: siteUrl }],
   creator: "Mehmet Akdeniz",
@@ -49,9 +56,9 @@ export const metadata: Metadata = {
   openGraph: {
     url: siteUrl,
     siteName: "RuneYard",
-    title: "RuneYard — Mehmet Akdeniz · Kış Odası",
+    title: "RuneYard — Mehmet Akdeniz · Rune (Rün) Alfabesi & Kadim Bilgelik Külliyatı",
     description:
-      "24 Elder Futhark rün incelemesi, gökyüzü ve astroloji analizleri, kadim gelenekler ve RuneYard Akademi eğitimleri.",
+      "24 Elder Futhark Rune (Rün) anlamları ve sembolleri, interaktif rune açılımı, gökyüzü analizleri ve kadim gelenekler kütüphanesi.",
     locale: "tr_TR",
     type: "website",
     images: [
@@ -59,15 +66,15 @@ export const metadata: Metadata = {
         url: "/runes/hall.jpg",
         width: 1200,
         height: 675,
-        alt: "RuneYard — Kış Odası",
+        alt: "RuneYard — 24 Elder Futhark Rune Alfabesi ve Kış Odası",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "RuneYard — Mehmet Akdeniz · Kış Odası",
+    title: "RuneYard — Mehmet Akdeniz · Rune (Rün) Alfabesi & Kadim Bilgelik",
     description:
-      "24 Elder Futhark rün incelemesi, gökyüzü ve astroloji analizleri, kadim gelenekler ve RuneYard Akademi eğitimleri.",
+      "24 Elder Futhark Rune (Rün) anlamları ve sembolleri, interaktif rune açılımı, gökyüzü analizleri ve kadim gelenekler kütüphanesi.",
     images: ["/runes/hall.jpg"],
   },
 };

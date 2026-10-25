@@ -55,6 +55,112 @@ export const dailyLoreHall = {
 
 export const dailyLoreEntries: DailyLoreEntry[] = [
   {
+    slug: "rune-nedir-elder-futhark-24-rune-alfabesi-ve-anlamlari",
+    glyph: "ᚠ",
+    traditionTag: {
+      tr: "RUNE (RÜN) KÜLLİYATI · ELDER FUTHARK 24 RUNE REHBERİ",
+      en: "RUNE CORPUS · ELDER FUTHARK 24 RUNES MASTER GUIDE",
+      sv: "RUNKORPUS · ÄLDRE FUTHARK 24 RUNOR HUVUDGUIDE",
+    },
+    keywords: [
+      "rune",
+      "rün",
+      "rune nedir",
+      "rune anlamları",
+      "rune alfabesi",
+      "rune taşları",
+      "elder futhark",
+      "24 rune",
+      "fehu",
+      "ansuz",
+      "algiz",
+      "othala",
+    ],
+    title: {
+      tr: "Rune (Rün) Nedir? Elder Futhark 24 Rune Alfabesi, Rune Taşları ve Anlamları Başvuru Rehberi",
+      en: "What Is a Rune? The Elder Futhark 24 Rune Alphabet, Rune Stones & Meanings Reference Guide",
+      sv: "Vad är en Runa? Den Äldre Futharkens 24 Runor, Runstenar och Betydelser",
+    },
+    subtitle: {
+      tr: "Fehu’dan Othala’ya 3 Aett Düzeni, Tarihsel Rün Şiirleri, Bindrune (Bağlama Rune) ve Etik Tefekkür Disiplini",
+      en: "The 3 Aettir from Fehu to Othala, Historical Rune Poems, Bindrunes & Ethical Contemplation Discipline",
+      sv: "De 3 Ätterna från Fehu till Othala, Historiska Rundikter, Bindrunor och Etisk Kontemplation",
+    },
+    summary: {
+      tr: "**Rune (Rün)**, Proto-Cermen *\*rūnō* (‘sır, fısıltı, gizli bilgelik meclisi’) kökünden doğan ve **Elder Futhark (Yaşlı Futhark)** dizgesinde **24 kadim damga** olarak taş, ahşap ve metale kazınan Kuzey sembol sistemidir. Her bir **rune taşı**, yalnızca bir ses değeri değil; doğa yasasını ve karakter sınavını temsil eden başlı başına bir kozmik ilkedir.",
+      en: "A **Rune** (from Proto-Germanic *\*rūnō*, 'secret, whisper, counsel') is both a phonetic character and a self-contained cosmological principle carved into stone, wood, and metal across the **24-rune Elder Futhark** system.",
+      sv: "En **runa** (från urgermanska *\*rūnō*, 'hemlighet, viskning, rådslag') är både ett ljudtecken och en kosmologisk princip ristad i sten, trä och metall i den **24-runiga Äldre Futharken**.",
+    },
+    paragraphs: {
+      tr: [
+        "Türkçede hem **Rune** hem de **Rün** olarak adlandırılan bu kadim işaretler, MS 2. yüzyıldan 8. yüzyıla uzanan **Elder Futhark (Yaşlı Futhark)** alfabesinde **24 temel sembol** olarak sistemleşmiştir. ‘Futhark’ adı, dizgenin ilk altı rune damgasının ses değerlerinden (**F-U-Þ-A-R-K**: *Fehu, Uruz, Thurisaz, Ansuz, Raidho, Kenaz*) gelir.",
+        "24 Rune, her biri **8 rün** barındıran **üç Aett (Aile / Sekizlik Kuşak)** halinde okunur: **1. Freyr’in Aett’i** (*Fehu – Wunjo*) yaşam enerjisi, üretim, söz ve zanaat ateşini; **2. Heimdall’ın (Hagal) Aett’i** (*Hagalaz – Sowilo*) kriz, sabır, hasat, korunma (*Algiz*) ve güneş berraklığını; **3. Tyr’ün Aett’i** (*Tiwaz – Othala*) ise adil liderlik, sezgi (*Laguz*), dönüşüm (*Dagaz*) ve atalardan kalan öz mirası (*Othala*) işler.",
+        "Tarihsel **Eski İngiliz, Eski İzlanda ve Eski Norveç Rün Şiirleri** (*Rune Poems*) ile *Hávamál* (138–145. kıtalar), rune ilminin üç aşamalı bir disiplin olduğunu vurgular: **Ráða** (damgayı doğru okumak ve anlamak), **Rísta** (geometriyi bilinçle çizmek) ve **Fá** (öz-farkındalıkla içselleştirmek). RuneYard külliyatında 24 rune taşının tamamı birincil kaynakları, gölge yüzleri ve tefekkür pratikleriyle tek tek incelenir.",
+      ],
+      en: [
+        "The **Elder Futhark** comprises **24 runes** attested from the 2nd to the 8th centuries CE across Scandinavia and Germanic Europe. Its name derives from the opening six runes (**F-U-Þ-A-R-K**: *Fehu, Uruz, Thurisaz, Ansuz, Raidho, Kenaz*).",
+        "The 24 runes are structured into **three Aettir (Families of Eight)**: **Freyr's Aett** (*Fehu – Wunjo*), **Heimdall's Aett** (*Hagalaz – Sowilo*), and **Tyr's Aett** (*Tiwaz – Othala*).",
+        "Grounded in the historical Anglo-Saxon, Icelandic, and Norwegian Rune Poems alongside *Hávamál*, each rune serves as an ethical mirror for character refinement and natural timing.",
+      ],
+      sv: [
+        "Den **Äldre Futharken** består av **24 runor** belagda från 100-talet till 700-talet e.Kr. Namnet Futhark kommer från de sex första runorna (**F-U-Þ-A-R-K**).",
+        "De 24 runorna är indelade i **tre ätter om åtta runor var**: Frejs ätt (*Fehu – Wunjo*), Heimdalls ätt (*Hagalaz – Sowilo*) och Tyrs ätt (*Tiwaz – Othala*).",
+        "Med stöd i de historiska rundikterna och *Hávamál* fungerar varje runa som en etisk spegel för självinsikt och naturliga cykler.",
+      ],
+    },
+    keyPoints: {
+      tr: [
+        "Elder Futhark (Yaşlı Futhark): 24 Rune, 3 Aett (Freyr, Heimdall, Tyr sekizlikleri)",
+        "1. Aett: ᚠ Fehu, ᚢ Uruz, ᚦ Thurisaz, ᚨ Ansuz, ᚱ Raidho, ᚲ Kenaz, ᚷ Gebo, ᚹ Wunjo",
+        "2. Aett: ᚺ Hagalaz, ᚾ Nauthiz, ᛁ Isa, ᛃ Jera, ᛇ Eihwaz, ᛈ Perthro, ᛉ Algiz, ᛋ Sowilo",
+        "3. Aett: ᛏ Tiwaz, ᛒ Berkano, ᛖ Ehwaz, ᛗ Mannaz, ᛚ Laguz, ᛜ Ingwaz, ᛞ Dagaz, ᛟ Othala",
+      ],
+      en: [
+        "Elder Futhark: 24 Runes across 3 Aettir (Freyr, Heimdall, Tyr)",
+        "1st Aett: Fehu, Uruz, Thurisaz, Ansuz, Raidho, Kenaz, Gebo, Wunjo",
+        "2nd Aett: Hagalaz, Nauthiz, Isa, Jera, Eihwaz, Perthro, Algiz, Sowilo",
+        "3rd Aett: Tiwaz, Berkano, Ehwaz, Mannaz, Laguz, Ingwaz, Dagaz, Othala",
+      ],
+      sv: [
+        "Äldre Futhark: 24 runor i 3 ätter (Frej, Heimdall, Tyr)",
+        "1:a ätten: Fehu, Uruz, Thurisaz, Ansuz, Raidho, Kenaz, Gebo, Wunjo",
+        "2:a ätten: Hagalaz, Nauthiz, Isa, Jera, Eihwaz, Perthro, Algiz, Sowilo",
+        "3:e ätten: Tiwaz, Berkano, Ehwaz, Mannaz, Laguz, Ingwaz, Dagaz, Othala",
+      ],
+    },
+    practice: {
+      tr: {
+        title: "24 Rune Günlük Tefekkür ve Okuma Disiplini",
+        steps: [
+          "Her gün sırayla tek bir Elder Futhark rune damgasını (/runler salonundaki 24 Rune tablosundan) seçip dikey ve çapraz hatlarını inceleyin.",
+          "Seçtiğiniz rune’ün aydınlık ilkesini ve gölge sınavını (ör. Fehu’da üretken dolaşım vs. istifçilik; Algiz’de uyanık sınır vs. korku) kendi gününüzde gözlemleyin.",
+          "Bindrune (Bağlama Rune) çalışırken en fazla 2 veya 3 uyumlu rune damgasını ortak bir dikey eksen etrafında sade bir geometriyle birleştirin.",
+        ],
+      },
+      en: {
+        title: "24-Rune Daily Contemplation & Study Discipline",
+        steps: [
+          "Select one Elder Futhark rune each day from the /runler hall and study its stave and branches.",
+          "Reflect on both its luminous principle and its shadow challenge in your daily conduct.",
+          "When composing a Bindrune, combine no more than 2 or 3 harmonious runes along a clean central vertical axis.",
+        ],
+      },
+      sv: {
+        title: "Daglig Kontemplationsdisciplin med de 24 Runorna",
+        steps: [
+          "Välj en runa ur den Äldre Futharken varje dag och studera dess huvudstav och bistavar.",
+          "Reflektera över både dess ljusa princip och dess skuggutmaning i vardagen.",
+          "Vid konstruktion av en bindruna, förena högst 2 eller 3 harmoniska runor längs en gemensam vertikal axel.",
+        ],
+      },
+    },
+    closing: {
+      tr: "Rune (Rün) taşı konuşmaz; onu okuyan zihnin kendi hakikatini ne kadar dürüstçe tarttığını gösterir.",
+      en: "The rune stone does not flatter; it reveals how honestly the mind weighs its own truth.",
+      sv: "Runstenen smickrar inte; den visar hur ärligt sinnet väger sin egen sanning.",
+    },
+  },
+  {
     slug: "sitchin-enki-kayip-kitabi-ve-abzu",
     glyph: "𒀭",
     traditionTag: {

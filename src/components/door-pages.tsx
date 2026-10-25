@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AcademyPathfinder } from "@/components/academy-pathfinder";
@@ -407,21 +407,64 @@ function cleanText(text: string): string {
   return text.replace(/\*\*/g, "").replace(/\*/g, "").trim();
 }
 
+const ASTRO_SHELVES = [
+  {
+    id: "foundations",
+    label: { tr: "Temel Harita & Evler", en: "Chart Foundations & Houses", sv: "Karta & Hus" },
+    minIdx: 0,
+    maxIdx: 5,
+  },
+  {
+    id: "planets",
+    label: { tr: "Gezegenler & Açılar", en: "Planets & Aspects", sv: "Planeter & Aspekter" },
+    minIdx: 6,
+    maxIdx: 11,
+  },
+  {
+    id: "karmic",
+    label: { tr: "Kadim & Karmik Katmanlar", en: "Ancient & Karmic Layers", sv: "Uråldriga & Karmiska Skikt" },
+    minIdx: 12,
+    maxIdx: 17,
+  },
+  {
+    id: "cycles",
+    label: { tr: "Döngüler & Gökyüzü Zamanı", en: "Cycles & Sky Timing", sv: "Cykler & Himmelstid" },
+    minIdx: 18,
+    maxIdx: 99,
+  },
+];
+
 export function AstrologyRoom() {
   const { lang, t } = useLanguage();
+  const [activeTool, setActiveTool] = useState<"rooms" | "compass" | "hours">("rooms");
+  const [selectedShelf, setSelectedShelf] = useState<string>("all");
+  const [searchQuery, setSearchQuery] = useState<string>("");
+
+  const filteredDoors = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    return astrologyDoors.filter((door, idx) => {
+      if (selectedShelf !== "all") {
+        const shelf = ASTRO_SHELVES.find((s) => s.id === selectedShelf);
+        if (shelf && (idx < shelf.minIdx || idx > shelf.maxIdx)) return false;
+      }
+      if (!q) return true;
+      const haystack = `${door.glyph} ${door.title[lang]} ${door.subtitle[lang]} ${door.summary[lang]}`.toLowerCase();
+      return haystack.includes(q);
+    });
+  }, [selectedShelf, searchQuery, lang]);
 
   return (
     <HallShell>
-      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-5xl px-4 py-12 sm:px-8 sm:py-16">
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-5xl px-4 py-8 sm:px-8 sm:py-16">
         <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">runeyard.net · XX</p>
-        <h1 className="mt-4 font-display text-4xl font-medium tracking-[-0.025em] sm:text-6xl">
+        <h1 className="mt-3 font-display text-3xl font-medium tracking-[-0.025em] sm:mt-4 sm:text-6xl">
           {astrologyHall.title[lang]}
         </h1>
-        <p className="mt-4 max-w-2xl text-base leading-7 text-chalk/75">
+        <p className="mt-3 max-w-2xl text-sm leading-6 text-chalk/75 sm:mt-4 sm:text-base sm:leading-7">
           {astrologyHall.line[lang]}
         </p>
 
-        <div className="mt-8 overflow-hidden border border-chalk/12 bg-ink/60">
+        <div className="mt-6 overflow-hidden border border-chalk/12 bg-ink/60 sm:mt-8">
           <Image
             src={astrologyHall.image}
             alt={astrologyHall.title[lang]}
@@ -432,12 +475,116 @@ export function AstrologyRoom() {
           />
         </div>
 
-        <ElementCompass />
+        {/* Interactive Workbench Switcher */}
+        <section className="mt-7 border border-bronze/25 bg-slate/45 p-3 sm:mt-9 sm:p-4">
+          <div className="flex flex-col gap-2.5 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-[10px] tracking-[0.22em] text-bronze uppercase">
+              {lang === "tr"
+                ? "Astroloji Çalışma Masası & Odalar"
+                : lang === "sv"
+                ? "Astrologisk Arbetsbänk & Rum"
+                : "Astrology Workbench & Rooms"}
+            </p>
+            <div className="no-scrollbar flex items-center gap-1.5 overflow-x-auto pb-0.5">
+              <button
+                type="button"
+                onClick={() => setActiveTool("rooms")}
+                className={`shrink-0 border px-3 py-1.5 text-xs tracking-[0.12em] uppercase transition-colors ${
+                  activeTool === "rooms"
+                    ? "border-bronze bg-bronze/20 text-chalk"
+                    : "border-chalk/15 bg-ink/60 text-chalk/70 hover:border-chalk/40 hover:text-chalk"
+                }`}
+              >
+                📚 {lang === "tr" ? "Astroloji Odaları" : lang === "sv" ? "Astrologirum" : "Astrology Rooms"} ({astrologyDoors.length})
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveTool(activeTool === "compass" ? "rooms" : "compass")}
+                className={`shrink-0 border px-3 py-1.5 text-xs tracking-[0.12em] uppercase transition-colors ${
+                  activeTool === "compass"
+                    ? "border-bronze bg-bronze/20 text-chalk"
+                    : "border-chalk/15 bg-ink/60 text-chalk/70 hover:border-chalk/40 hover:text-chalk"
+                }`}
+              >
+                🧭 {lang === "tr" ? "Element Pusulası" : lang === "sv" ? "Elementkompass" : "Element Compass"}
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveTool(activeTool === "hours" ? "rooms" : "hours")}
+                className={`shrink-0 border px-3 py-1.5 text-xs tracking-[0.12em] uppercase transition-colors ${
+                  activeTool === "hours"
+                    ? "border-bronze bg-bronze/20 text-chalk"
+                    : "border-chalk/15 bg-ink/60 text-chalk/70 hover:border-chalk/40 hover:text-chalk"
+                }`}
+              >
+                ⏳ {lang === "tr" ? "Gezegen Saatleri" : lang === "sv" ? "Planettimmar" : "Planetary Hours"}
+              </button>
+            </div>
+          </div>
 
-        <PlanetaryHoursCompass />
+          {activeTool === "compass" && (
+            <div className="mt-4 border-t border-chalk/12 pt-2">
+              <ElementCompass />
+            </div>
+          )}
+          {activeTool === "hours" && (
+            <div className="mt-4 border-t border-chalk/12 pt-2">
+              <PlanetaryHoursCompass />
+            </div>
+          )}
+        </section>
 
-        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {astrologyDoors.map((door) => (
+        {/* Shelf Filter + Instant Search Bar */}
+        <section className="mt-7 border border-chalk/12 bg-ink/75 p-3.5 sm:mt-8 sm:p-4">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="no-scrollbar flex items-center gap-1.5 overflow-x-auto pb-1 sm:flex-wrap sm:pb-0">
+              <button
+                type="button"
+                onClick={() => setSelectedShelf("all")}
+                className={`shrink-0 border px-3 py-1.5 text-[11px] tracking-[0.14em] uppercase transition-colors ${
+                  selectedShelf === "all"
+                    ? "border-bronze bg-bronze/20 text-chalk"
+                    : "border-chalk/15 bg-slate/40 text-chalk/65 hover:border-chalk/35 hover:text-chalk"
+                }`}
+              >
+                {lang === "tr" ? "Tüm Odalar" : lang === "sv" ? "Alla Rum" : "All Rooms"} ({astrologyDoors.length})
+              </button>
+              {ASTRO_SHELVES.map((shelf) => (
+                <button
+                  key={shelf.id}
+                  type="button"
+                  onClick={() => setSelectedShelf(shelf.id)}
+                  className={`shrink-0 border px-3 py-1.5 text-[11px] tracking-[0.12em] uppercase transition-colors ${
+                    selectedShelf === shelf.id
+                      ? "border-bronze bg-bronze/20 text-chalk"
+                      : "border-chalk/15 bg-slate/40 text-chalk/65 hover:border-chalk/35 hover:text-chalk"
+                  }`}
+                >
+                  {shelf.label[lang]}
+                </button>
+              ))}
+            </div>
+
+            <div className="relative w-full sm:w-64">
+              <input
+                type="search"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder={
+                  lang === "tr"
+                    ? "Astroloji odalarında ara..."
+                    : lang === "sv"
+                    ? "Sök i astrologirum..."
+                    : "Filter astrology rooms..."
+                }
+                className="w-full border border-chalk/20 bg-slate/60 px-3 py-1.5 text-xs text-chalk placeholder:text-chalk/40 focus:border-bronze focus:outline-none"
+              />
+            </div>
+          </div>
+        </section>
+
+        <ul className="mt-6 grid gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3">
+          {filteredDoors.map((door) => (
             <li key={door.slug}>
               <Link
                 href={`/astroloji/${door.slug}`}
@@ -533,6 +680,7 @@ function splitItem(item: string): { head: string | null; body: string } {
 export function AstrologyDoor({ doorSlug }: { doorSlug: string }) {
   const { lang } = useLanguage();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const door = findAstrologyDoor(doorSlug);
   if (!door) return null;
 
@@ -556,22 +704,68 @@ export function AstrologyDoor({ doorSlug }: { doorSlug: string }) {
 
   return (
     <HallShell>
-      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-4xl px-4 py-12 sm:px-8 sm:py-20">
+      <main id="icerik" className="mx-auto min-h-[70vh] w-full max-w-4xl px-4 py-8 sm:px-8 sm:py-16">
+        {/* Top Breadcrumb + Quick Sibling Room Switcher */}
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-2 border-b border-chalk/12 pb-3">
+          <div className="flex flex-wrap items-center gap-2 text-xs text-chalk/65">
+            <Link href="/astroloji" className="text-bronze hover:underline">
+              ← {astrologyHall.title[lang]}
+            </Link>
+            <span className="text-chalk/30">/</span>
+            <span className="text-chalk/85">
+              {currentIdx + 1} / {astrologyDoors.length}
+            </span>
+          </div>
+
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => setDrawerOpen((v) => !v)}
+              className="border border-chalk/20 bg-slate/50 px-3 py-1.5 text-[11px] tracking-[0.12em] text-chalk/80 uppercase transition-colors hover:border-bronze hover:text-chalk"
+            >
+              {lang === "tr"
+                ? `Salondaki Tüm Odalar (${astrologyDoors.length}) ▾`
+                : lang === "sv"
+                ? `Alla rum i salen (${astrologyDoors.length}) ▾`
+                : `All Rooms in Hall (${astrologyDoors.length}) ▾`}
+            </button>
+            {drawerOpen && (
+              <div className="absolute right-0 z-30 mt-1 max-h-80 w-72 overflow-y-auto border border-bronze/40 bg-ink p-2 shadow-2xl sm:w-80">
+                {astrologyDoors.map((d, i) => (
+                  <Link
+                    key={d.slug}
+                    href={`/astroloji/${d.slug}`}
+                    onClick={() => setDrawerOpen(false)}
+                    className={`flex items-center gap-2 px-2.5 py-2 text-xs transition-colors ${
+                      d.slug === door.slug
+                        ? "bg-bronze/20 font-medium text-bronze"
+                        : "text-chalk/75 hover:bg-slate/60 hover:text-chalk"
+                    }`}
+                  >
+                    <span className="w-6 shrink-0 text-[10px] text-bronze/80">{i + 1}.</span>
+                    <span className="truncate">{cleanText(d.title[lang])}</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
         <p className="text-[10px] tracking-[0.22em] text-chalk/60 uppercase">
           runeyard.net · {astrologyHall.title[lang]}
         </p>
-        <h1 className="mt-4 flex flex-wrap items-baseline gap-x-3 font-display text-3xl font-medium tracking-[-0.025em] sm:gap-x-4 sm:text-6xl">
+        <h1 className="mt-3 flex flex-wrap items-baseline gap-x-3 font-display text-2xl font-medium tracking-[-0.025em] sm:mt-4 sm:gap-x-4 sm:text-5xl">
           <span aria-hidden className="text-[0.8em] text-bronze">
             {door.glyph}
           </span>
           <span>{cleanText(door.title[lang])}</span>
         </h1>
-        <p className="mt-3 max-w-2xl font-display text-xl font-medium tracking-[-0.015em] text-chalk/75 sm:text-2xl">
+        <p className="mt-2.5 max-w-2xl font-display text-lg font-medium tracking-[-0.015em] text-chalk/75 sm:mt-3 sm:text-2xl">
           {renderInlineText(door.subtitle[lang])}
         </p>
 
         {door.image && (
-          <div className="mt-7 sm:mt-8">
+          <div className="mt-6 sm:mt-8">
             <button
               type="button"
               onClick={() =>
@@ -579,19 +773,17 @@ export function AstrologyDoor({ doorSlug }: { doorSlug: string }) {
               }
               className="group block w-full overflow-hidden border border-chalk/15 bg-ink/60 text-left transition-colors hover:border-bronze/60"
             >
-              <div className="overflow-x-auto sm:overflow-visible">
-                <Image
-                  src={door.image}
-                  alt={cleanText(door.title[lang])}
-                  width={1200}
-                  height={440}
-                  priority
-                  className="h-auto min-w-[540px] w-full object-cover sm:min-w-0"
-                />
-              </div>
+              <Image
+                src={door.image}
+                alt={cleanText(door.title[lang])}
+                width={1200}
+                height={440}
+                priority
+                className="h-auto w-full object-cover"
+              />
               <div className="flex items-center justify-between border-t border-chalk/10 bg-ink/85 px-3 py-1.5 text-[11px] text-chalk/65 group-hover:text-chalk">
                 <span>{zoomHint}</span>
-                <span className="text-bronze sm:hidden">↔ Kaydır / Büyüt</span>
+                <span className="text-bronze">🔍 Büyüt</span>
               </div>
             </button>
           </div>
@@ -684,18 +876,16 @@ export function AstrologyDoor({ doorSlug }: { doorSlug: string }) {
                 }
                 className="my-4 block w-full overflow-hidden border border-chalk/12 bg-ink/80 text-left transition-colors hover:border-bronze/60 sm:my-5"
               >
-                <div className="overflow-x-auto sm:overflow-visible">
-                  <Image
-                    src={door.practiceImage}
-                    alt={cleanText(practice.title)}
-                    width={1080}
-                    height={380}
-                    className="h-auto min-w-[580px] w-full object-cover sm:min-w-0"
-                  />
-                </div>
+                <Image
+                  src={door.practiceImage}
+                  alt={cleanText(practice.title)}
+                  width={1080}
+                  height={380}
+                  className="h-auto w-full object-cover"
+                />
                 <div className="flex items-center justify-between border-t border-chalk/10 bg-ink/85 px-3 py-1.5 text-[11px] text-chalk/65">
                   <span>{zoomHint}</span>
-                  <span className="text-bronze sm:hidden">↔ Kaydır / Büyüt</span>
+                  <span className="text-bronze">🔍 Büyüt</span>
                 </div>
               </button>
             )}

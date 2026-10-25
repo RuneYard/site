@@ -13,16 +13,16 @@ export default function Home() {
 
   return (
     <HallShell>
-      <section className="px-6 py-10 sm:px-8 lg:min-h-[calc(100svh-180px)] lg:py-12">
-        <div className="mx-auto grid w-full max-w-[1600px] gap-8 lg:min-h-[calc(100svh-280px)] lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-x-14">
+      <section className="px-4 py-8 sm:px-8 sm:py-10 lg:min-h-[calc(100svh-180px)] lg:py-12">
+        <div className="mx-auto grid w-full max-w-[1600px] gap-7 lg:min-h-[calc(100svh-280px)] lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-x-14">
           <div className="order-1 lg:col-start-1 lg:row-start-1">
-            <h1 className="font-display text-5xl leading-[0.92] font-medium tracking-[-0.025em] sm:text-7xl">
+            <h1 className="font-display text-4xl leading-[0.95] font-medium tracking-[-0.025em] sm:text-7xl">
               Mehmet Akdeniz
             </h1>
-            <p className="mt-2 font-display text-2xl font-medium tracking-[0.16em] uppercase sm:text-[1.55rem]">
+            <p className="mt-2 font-display text-xl font-medium tracking-[0.16em] uppercase sm:text-[1.55rem]">
               RuneYard
             </p>
-            <p className="mt-6 max-w-md text-lg leading-relaxed tracking-[0.012em] text-chalk/85">
+            <p className="mt-4 max-w-md text-base sm:text-lg leading-relaxed tracking-[0.012em] text-chalk/85">
               {t.lines[0]}
               <br />
               {t.lines[1]}
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </section>
 
-      <main id="icerik" className="px-6 pt-8 pb-16 sm:px-8">
+      <main id="icerik" className="px-4 pt-6 pb-14 sm:px-8 sm:pt-8 sm:pb-16">
         <div className="mx-auto w-full max-w-[1600px]">
           <h2 className="mb-4 font-display text-sm font-medium tracking-[0.22em] text-amber/90 uppercase">
             {t.hall}
@@ -148,10 +148,10 @@ export default function Home() {
                 <span className="text-[10px] font-semibold tracking-[0.22em] text-amber uppercase">
                   🔥{" "}
                   {lang === "en"
-                    ? "XVI DAILY HEARTH LEAVES · SITCHIN, ENKI & MARDUK"
+                    ? "DAILY HEARTH LEAVES · RUNES, ENKI & MARDUK'S 50 NAMES"
                     : lang === "sv"
-                      ? "XVI DAGLIGA HÄRDBLAD · SITCHIN, ENKI & MARDUK"
-                      : "XVI GÜNLÜK OCAK YAPRAĞI · SİTCHİN, ENKİ & MARDUK"}
+                      ? "DAGLIGA HÄRDBLAD · RUNOR, ENKI & MARDUKS 50 NAMN"
+                      : "GÜNLÜK OCAK YAPRAKLARI · RÜNLER, ENKİ & MARDUK’UN 50 İSMİ"}
                 </span>
                 <span className="mt-1.5 block font-display text-2xl font-medium text-chalk transition-colors group-hover:text-amber sm:text-3xl">
                   {lang === "en"
@@ -162,10 +162,10 @@ export default function Home() {
                 </span>
                 <span className="mt-1 block text-sm text-chalk/75">
                   {lang === "en"
-                    ? "Primary-source studies: Zecharia Sitchin’s Lost Book of Enki, Marduk-Ra & the Age of Aries, Altai Od Ana, Huld Manuscript, and 36 Decans."
+                    ? "Primary-source studies: Elder Futhark Rune Guide, Enki & the Abzu, Marduk’s 50 Names, Altai Od Ana, Huld Manuscript, and 36 Decans."
                     : lang === "sv"
-                      ? "Primärkällstudier: Zecharia Sitchins Enkis förlorade bok, Marduk-Ra & Vädurens tidsålder, Od Ana och Huld-handskriften."
-                      : "Zecharia Sitchin’in Enki’nin Kayıp Kitabı, Marduk-Ra ve Koç Çağı, Od Ana, 1860 Huld El Yazması, Babil Akītu Yemini, Vörðr ve Yada Taşı."}
+                      ? "Primärkällstudier: Äldre Futhark-runguiden, Enki & Abzu, Marduks 50 namn, Od Ana och Huld-handskriften."
+                      : "Elder Futhark Rune (Rün) Rehberi, Enki ve Abzu Bilgeliği, Marduk’un 50 İsmi, Od Ana, 1860 Huld El Yazması, Babil Akītu Yemini, Vörðr ve Yada Taşı."}
                 </span>
               </div>
               <span className="shrink-0 border border-amber/50 bg-amber/15 px-4 py-2.5 font-display text-xs font-semibold tracking-[0.18em] text-amber uppercase transition-colors group-hover:bg-amber group-hover:text-ink">
