@@ -7,6 +7,7 @@ import { DreamCompass } from "@/components/dream-compass";
 import { HallShell } from "@/components/hall-shell";
 import { KumalakOracle } from "@/components/kumalak-oracle";
 import { useLanguage } from "@/components/language";
+import { MardukFiftyNamesAtlas } from "@/components/marduk-fifty-names";
 import { OghamOracle } from "@/components/ogham-oracle";
 import { PlanetaryHoursCompass } from "@/components/planetary-hours";
 import { ShareBar } from "@/components/share-bar";
@@ -121,6 +122,7 @@ export function TraditionRoom({ slug }: { slug: TraditionSlug }) {
 
         {slug === "kelt" && <OghamOracle />}
         {slug === "mezopotamya" && <PlanetaryHoursCompass />}
+        {slug === "mezopotamya" && <MardukFiftyNamesAtlas />}
         {(slug === "witchcraft" || slug === "saman") && <WheelCompass />}
         {slug === "saman" && <KumalakOracle />}
         {slug === "saman" && <DreamCompass />}
@@ -343,6 +345,13 @@ function TraditionDoorView({
         )}
 
         {door.slug.includes("kumalak") && <KumalakOracle />}
+        {(door.slug === "mardukun-50-kutsal-ismi" ||
+          door.slug === "marukka-maruttuku" ||
+          door.slug === "abzu-ve-asalluhi") && (
+          <MardukFiftyNamesAtlas
+            initialNumber={door.slug === "marukka-maruttuku" ? 3 : 1}
+          />
+        )}
 
         {practice && (
           <section className="card-slate mt-10 max-w-4xl border border-chalk/15 p-4 sm:mt-12 sm:p-6">

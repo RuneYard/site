@@ -8521,108 +8521,108 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
             "glyph": "XXI",
             "image": "/mezopotamya/abzu-asalluhi.jpg",
             "title": {
-                  "tr": "XXI · Sitchin Anlatılarında Enki (E.A) ve Marduk: Abzu, 12. Gezegen ve Koç Çağı",
-                  "en": "XXI · Enki (E.A) and Marduk in Sitchin's Chronicles: Abzu, the 12th Planet & Age of Aries",
-                  "sv": "XXI · Enki (E.A) och Marduk i Sitchins Krönikor: Abzu, 12:e Planeten & Vädurens Tidsålder"
+                  "tr": "XXI · Enki (E.A) ve Marduk: Abzu Bilgeliği, Kozmik Veraset ve Koç Çağı",
+                  "en": "XXI · Enki (E.A) and Marduk: Abzu Wisdom, Cosmic Succession & the Age of Aries",
+                  "sv": "XXI · Enki (E.A) och Marduk: Abzu-visdom, Kosmiskt Arv & Vädurens Tidsålder"
             },
             "subtitle": {
-                  "tr": "Zecharia Sitchin’in ‘Dünya Tarihçesi’ ve ‘Enki’nin Kayıp Kitabı’ Perspektifiyle E.A’nın Bilgeliği, Enlil-Enki İkiliği ve Marduk’un (Ra) Göksel Egemenliği",
-                  "en": "Through Zecharia Sitchin's 'Earth Chronicles' and 'The Lost Book of Enki': E.A's Wisdom, the Enki-Enlil Polarity, and Marduk's (Ra) Celestial Sovereignty",
-                  "sv": "Ur Zecharia Sitchins 'Earth Chronicles' och 'Enkis Förlorade Bok': E.A:s Visdom, Enki-Enlil-polariteten och Marduks (Ra) Himmelska Suveränitet"
+                  "tr": "Eridu’nun Su Evi’nden (E-Abzu) Babil’in Kapısına (Bâb-ilim): Enki-Enlil İkiliği, Çift Yılan Mührü ve Marduk’un Göksel Egemenliği",
+                  "en": "From the House of Water (E-Abzu) in Eridu to the Gate of the Gods (Bâb-ilim): The Enki-Enlil Polarity, Entwined Serpents & Marduk's Sovereignty",
+                  "sv": "Från Vattnets Hus (E-Abzu) i Eridu till Gudarnas Port (Bâb-ilim): Enki-Enlil-polariteten, Dubbelormen & Marduks Suveränitet"
             },
             "summary": {
-                  "tr": "Sümer tabletlerinin Sitchin okumasında başbilimci Enki (E.A) ile komutan Enlil arasındaki kozmik gerilim, insanlığın (Lulu Amelu) mühürlenmesi, sarmal çift yılan sembolü ve Enki’nin ilk oğlu Marduk’un (Ra) Boğa Çağı’ndan Koç Çağı’na geçişteki Babil egemenliği.",
-                  "en": "In Sitchin's reading of the Sumerian tablets: the cosmic polarity between chief scientist Enki (E.A) and commander Enlil, the fashioning of humanity (Lulu Amelu), the entwined serpent emblem, and firstborn Marduk's (Ra) rise in the Age of Aries.",
-                  "sv": "I Sitchins läsning av de sumeriska tavlorna: spänningen mellan vetenskapsmannen Enki (E.A) och befälhavaren Enlil, människans skapelse (Lulu Amelu), dubbelormen och Marduks (Ra) uppgång i Vädurens tidsålder."
+                  "tr": "Sümer ve Babil tabletlerinde bilgelik efendisi Enki (E.A) ile yasa koyucu Enlil arasındaki arketipsel gerilim, insanlığın (Lulu Amelu) bilgelikle mühürlenmesi, sarmal çift yılan sembolü ve Enki’nin ilk oğlu Marduk’un Boğa Çağı’ndan Koç Çağı’na geçişteki yükselişi.",
+                  "en": "Across Sumerian and Babylonian tablets: the archetypal polarity between wisdom-master Enki (E.A) and lawgiver Enlil, the fashioning of conscious humanity, the entwined serpent emblem, and firstborn Marduk's rise in the Age of Aries.",
+                  "sv": "I de sumeriska och babyloniska tavlorna: spänningen mellan visdomsmästaren Enki (E.A) och lagstiftaren Enlil, människans skapelse, dubbelormen och Marduks uppgång i Vädurens tidsålder."
             },
             "paragraphs": {
                   "tr": [
-                        "Mezopotamya çivi yazılı tabletlerini (özellikle *Atra-Hasis*, *Enûma Eliš* ve *Eridu Yaratılış* metinlerini) karşılaştırmalı mitoloji ve antik astronomi ekseninde yorumlayan **Zecharia Sitchin** (*Dünya Tarihçesi / The Earth Chronicles* serisi ve *Enki’nin Kayıp Kitabı*), Sümer panteonunu soyut doğa kişileştirmeleri olarak değil; **Anu**’nun liderliğindeki **Anunnaki** (‘Gökten Yere İnenler’) meclisinin tarihsel ve kozmik kroniği olarak okur.",
-                        "Bu kroniğin kalbinde Anu’nun iki büyük oğlu arasındaki arketipsel ikilik yatar: İlk gelen başbilimci, denizci, mühendis ve **Abzu**’nun (derin suların ve maden yataklarının) efendisi **E.A / Enki** (‘Evi Su Olan’ / ‘Yeryüzünün Efendisi’) ile meşru veraset yasası gereği sonradan gelip başkomutanlık makamını devralan **Enlil** (‘Emirlerin Efendisi’). Enlil disiplini, katı yasayı ve hiyerarşiyi temsil ederken; **Enki** merhameti, genetik ve zanaatsal ustalığı, bilimi ve insanlığın korunmasını temsil eder.",
-                        "Sitchin’in *12. Gezegen* ve *Enki’nin Kayıp Kitabı* anlatısında Enki, ağır emek yükü altında ezilen Igigi’lerin isyanı üzerine kız kardeşi **Ninhursag (Ninmah)** ve oğlu **Ningişzida (Thoth)** ile birlikte Abzu’daki *Şimti Evi*’nde (‘Nefesin/Kaderin Belirlendiği Ev’) **Lulu Amelu**’yu (ilk bilinçli insanı) kendi öz mühürleriyle şekillendirir. Enki’nin amblemi olan **birbirine dolanmış çift yılan (DNA sarmalı ve şifa/bilgelik asası)** insanlığa idrak ve özgür irade bilincini verir; Büyük Tufan yaklaşırken de **Ziusudra**’ya kamış duvarın arkasından seslenerek insan soyunu yok olmaktan kurtaran yine Enki’dir.",
-                        "Enki’nin bu yarım kalan meşruiyet davasını devralan figür ise onun resmî eşi **Damkina**’dan doğan ilk oğlu **Marduk**’tur (Sitchin’e göre Mısır’daki karşılığı **Ra / Amen-Ra**). Babası Enki’nin bilgeliğini devralan ancak Enliloğullarına karşı hakkını doğrudan talep eden Marduk, gökyüzündeki **Ekinoks Presesyonu (Burç Çağları)** saati Enlil’in **Boğa Çağı**’ndan kendi burcu olan **Koç Çağı**’na (MÖ 2100 civarı) girdiğinde harekete geçer. *Bâb-ilim*’i (Babil — ‘Tanrıların Kapısı’) dünyanın ekseni olarak kurar ve *Enûma Eliš* tabletlerinde anlatıldığı üzere **50 İlahi Unvanı (Ellilik Makamını)** devralarak yeni çağın başhükümdarı olur."
+                        "Mezopotamya çivi yazılı külliyatı (özellikle *Atra-Hasis*, *Enûma Eliš* ve *Eridu Yaratılış* metinleri), göksel meclis **Anunnaki**’nin ve yer-gök düzeninin tarihsel-kozmik kroniğini anlatır. Geleneksel filolojik okumaların yanı sıra bazı modern karşılaştırmalı teorilerde (örneğin Z. Sitchin’in antik astronomi hipotezlerinde) bu metinler, kozmik döngülerin ve uygarlık aktarımının kayıtları olarak da tartışılmıştır.",
+                        "Bu kroniğin kalbinde iki büyük güç arasındaki arketipsel ikilik yatar: Eridu’daki **Abzu**’nun (tatlı su okyanusunun, yeraltı pınarlarının ve bilgelik sırlarının) efendisi **E.A / Enki** (‘Evi Su Olan’) ile Nippur’daki E-kur’dan hükmeden **Enlil** (‘Rüzgârın ve Emirlerin Efendisi’). Enlil katı disiplini ve değişmez meclis hükmünü temsil ederken; **Enki** merhameti, zanaatsal ve yaşamsal ustalığı, yaratıcı çözümü ve insanlığın korunmasını temsil eder.",
+                        "*Atra-Hasis* ve yaratılış anlatılarında Enki, ağır yük altında ezilen alt tanrıların (Igigi) isyanı üzerine **Ninhursag (Ninmah)** ile birlikte kil ve ilahi öz-nefesi birleştirerek bilinçli insanı (**Lulu / Awīlu**) şekillendirir. Enki’nin ve soyunun sembolü olan **birbirine dolanmış çift yılan**, yaşam sarmalını, şifayı ve uyanmış idraki simgeler; Büyük Tufan yaklaşırken de **Ziusudra / Utnapiştim**’e kamış duvarın arkasından seslenerek yaşam tohumunu kurtaran yine Enki’dir.",
+                        "Enki’nin Eridu’daki kadim bilgeliğini evrensel egemenliğe taşıyan figür ise eşi **Damgalnuna (Damkina)**’dan doğan ilk oğlu **Marduk**’tur (Mısır’daki güneşsel karşılığıyla **Ra / Amen-Ra**). Gökyüzündeki **Ekinoks Presesyonu (Burç Çağları)** saati Enlil’in **Boğa Çağı**’ndan kendi burcu olan **Koç Çağı**’na döndüğünde Marduk, *Bâb-ilim*’i (Babil — ‘Tanrıların Kapısı’) kozmik merkez olarak kurar ve *Enûma Eliš*’in Yedinci Tabletinde babası Enki ve Enlil dahil tüm meclisin **50 Kutsal İsmini** kendi üzerinde birleştirir."
                   ],
                   "en": [
-                        "Reading the cuneiform tablets of Sumer and Babylon (*Atra-Hasis*, *Enûma Eliš*, and the *Eridu Genesis*) through ancient astronomy and comparative myth, **Zecharia Sitchin** (*The Earth Chronicles* and *The Lost Book of Enki*) interpreted the Mesopotamian pantheon as the chronicle of the **Anunnaki** under King **Anu**.",
-                        "At the center of Sitchin's narrative stands the polarity between Anu's two sons: **E.A / Enki** ('He Whose House Is Water'), the firstborn chief scientist and master of the **Abzu**, and **Enlil** ('Lord of the Command'), the legal heir who assumed supreme command. Where Enlil embodies strict decree, **Enki** embodies wisdom, craftsmanship, and compassion for humanity.",
-                        "Working alongside **Ninhursag** and **Ningishzida (Thoth)** in the *House of Shimti*, Enki fashioned **Lulu Amelu** (conscious humanity). Marked by his emblem of the **Entwined Serpents (the double helix of life and wisdom)**, Enki granted humankind intelligence and later whispered the dimensions of the rescue vessel through a reed wall to **Ziusudra**, saving humanity from the Deluge.",
-                        "The champion who rose to reclaim Enki's bypassed birthright was his firstborn son by **Damkina**: **Marduk** (identified by Sitchin with Egyptian **Ra / Amen-Ra**). Tracking the astronomical **Precession of the Equinoxes**, Marduk declared that Enlil's **Age of Taurus** had ended and the **Age of Aries (the Ram of Marduk)** had dawned, establishing **Bâb-ilim (Babylon)** and receiving the **Fifty Names** of sovereignty."
+                        "The cuneiform corpus of Sumer and Babylon (*Atra-Hasis*, *Enûma Eliš*, and the *Eridu Genesis*) preserves a multi-layered cosmic chronicle of heaven, earth, and the **Anunnaki** assembly—studied both in classical Assyriology and in modern comparative astronomical theories (such as those of Z. Sitchin).",
+                        "At the center of this tradition stands the polarity between two great powers: **E.A / Enki** ('He Whose House Is Water'), lord of the **Abzu** in Eridu, and **Enlil** ('Lord of Wind and Command') ruling from Nippur. Where Enlil embodies strict decree and hierarchy, **Enki** embodies fathomless wisdom, craftsmanship, and protective compassion for humanity.",
+                        "Alongside **Ninhursag**, Enki fashioned conscious humanity by uniting earthly clay with divine breath and memory. Marked by the emblem of the **Entwined Serpents (the double helix of life and healing)**, Enki granted humankind discernment and later whispered the dimensions of the ark through a reed wall to **Ziusudra**, preserving the seed of life through the Deluge.",
+                        "The heir who carried Eridu's wisdom into universal sovereignty was Enki and **Damkina**'s firstborn son **Marduk** (resonating with solar **Ra**). As the precessional clock shifted from the **Age of Taurus** into the **Age of Aries (the Ram)**, Marduk established **Bâb-ilim (Babylon)** as the cosmic axis and received the **Fifty Sacred Names** in Tablet VII of *Enûma Eliš*."
                   ],
                   "sv": [
-                        "Genom att läsa de sumeriska och babyloniska kilskriftstavlorna ur ett astronomiskt perspektiv tolkade **Zecharia Sitchin** (*The Earth Chronicles* och *Enkis Förlorade Bok*) panteonet som krönikan om **Anunnaki** under kung **Anu**.",
-                        "I centrum står spänningen mellan Anus två söner: **E.A / Enki** ('Han Vars Hus Är Vatten'), den förstfödde vetenskapsmannen och **Abzus** mästare, och **Enlil** ('Befallningens Herre'). Där Enlil står för sträng lag står **Enki** för visdom, skaparkraft och beskydd av människan.",
-                        "I *Shimtis Hus* formade Enki tillsammans med **Ninhursag** och **Ningishzida** den medvetna människan (**Lulu Amelu**). Med sitt emblem **Dubbelormen** skänkte Enki människan insikt och viskade senare arkens mått genom en vassvägg till **Ziusudra**.",
-                        "Den som återkrävde Enkis förstfödslorätt var hans son med **Damkina**: **Marduk** (Egyptens **Ra**). När vårdagjämningspunkten skiftade från Enlils **Oxens tidsålder** till **Vädurens tidsålder (Marduks tecken)** grundade Marduk **Bâb-ilim (Babylon)** och mottog de **Femtio Namnen**."
+                        "De sumeriska och babyloniska kilskriftstexterna (*Atra-Hasis*, *Enûma Eliš* och *Eridu-berättelsen*) rymmer en mångbottnad kosmisk krönika som lästs såväl filologiskt som i moderna komparativa teorier (bl.a. hos Z. Sitchin).",
+                        "I centrum står polariteten mellan två urkrafter: **E.A / Enki** ('Han Vars Hus Är Vatten'), mästare över **Abzu** i Eridu, och **Enlil** ('Vindens och Befallningens Herre') i Nippur. Där Enlil står för sträng lag står **Enki** för djup visdom, skaparkraft och beskydd av människan.",
+                        "Tillsammans med **Ninhursag** formade Enki den medvetna människan av lera och gudomlig livsande. Med sitt emblem **Dubbelormen** skänkte Enki människan insikt och viskade senare arkens mått genom en vassvägg till **Ziusudra**.",
+                        "Den som förenade Eridus visdom med kosmisk suveränitet var Enkis och **Damkinas** son **Marduk**. När vårdagjämningspunkten skiftade från **Oxens tidsålder** till **Vädurens tidsålder** grundade Marduk **Bâb-ilim (Babylon)** och mottog de **Femtio Heliga Namnen** i *Enûma Eliš* sjunde tavla."
                   ]
             },
             "chapters": {
                   "tr": [
                         {
                               "heading": "E.A (Enki), Abzu ve Sarmal Çift Yılan Mührü",
-                              "body": "Sitchin’in analizinde Enki yalnızca su tanrısı değil; yaşamın kodlarını (*Me* tabletlerini) ve bilgelik sırlarını koruyan başsimyacıdır. Onun sembolü olan **birbirine dolanmış iki yılan**, daha sonra Hermes’in Kadüsesine ve modern tıbbın sembolüne dönüşmüştür. Enki’nin yönü **Derinlik, Bilgelik, Yaratıcı Çözüm ve Şefkat** yönüdür."
+                              "body": "Enki yalnızca tatlı suların efendisi değil; uygarlığın ilahi yasalarını (*ME* tabletlerini) ve şifa sırlarını koruyan başsimyacıdır. Mezopotamya mühürlerindeki **birbirine dolanmış iki yılan**, yaşam enerjisinin yükselmesini ve bilgelikle iyileşmeyi simgeler."
                         },
                         {
-                              "heading": "Marduk (Ra), Koç Çağı ve Bâb-ilim’in Yükselişi",
-                              "body": "Sitchin’e göre Marduk’un mücadelesi kör bir güç savaşı değil, **Göksel Zamanın (Zodyak Çağlarının) Okunmasıdır**. Boğa Çağı kapanıp Koç Çağı doğduğunda Marduk hem Mısır’da (*Ra* kimliğiyle) hem Babil’de (*Marduk / Bel* kimliğiyle) sürgünlere rağmen geri dönerek babası Enki’nin kendisine devrettiği **50 Me / 50 İsim** ile meşru liderliği kurmuştur."
+                              "heading": "Marduk, Koç Çağı ve Bâb-ilim’in Yükselişi",
+                              "body": "Marduk’un yükselişi kör bir güç savaşı değil, **Göksel Zamanın (Zodyak Çağlarının) Okunmasıdır**. Boğa Çağı kapanıp Koç Çağı doğduğunda Marduk, babası Enki’nin kendisine devrettiği bilgelik ve **50 Kutsal İsim** ile kaos sularını düzene kavuşturmuştur."
                         },
                         {
-                              "heading": "Enûma Eliš’te Kozmik Savaş: Nibiru / Marduk ve Tiamat",
-                              "body": "Sitchin, Babil Yaratılış Destanı *Enûma Eliš*’i iki katmanlı okur: Birinci katman güneş sisteminin erken döneminde **Nibiru (Marduk)** gezegeninin **Tiamat** ile karşılaşarak Dünya’yı (*Ki*) ve Asteroit Kuşağı’nı (*Dövülmüş Bilezik*) oluşturmasıdır. İkinci katman ise Prens Marduk’un 12 takımyıldızı ve yeni çağ takvimini nizam etmesidir."
+                              "heading": "Enûma Eliš’te Kozmik Düzen: Nebiru ve Tiamat",
+                              "body": "Babil Yaratılış Destanı *Enûma Eliš* hem ilksel kozmik çarpışmayı ve gök-yer mimarisinin kuruluşunu (modern astronomik teorilerde Nibiru ve Tiamat yörünge okumalarını), hem de insan bilincinin içsel kaostan kozmik düzene geçişini anlatır."
                         }
                   ],
                   "en": [
                         {
                               "heading": "E.A (Enki), the Abzu, and the Entwined Serpent Seal",
-                              "body": "In Sitchin's reading, Enki is the master of life's codes and keeper of the **Me** blueprints. His emblem of the **two entwined serpents** later became the Caduceus of Hermes. Enki's orientation is **Depth, Ingenuity, Compassion, and Preservation of Life**."
+                              "body": "Enki is keeper of the sweet-water **Abzu** and the civilizational **ME** blueprints. The Mesopotamian seal of **two entwined serpents** represents ascending life force, antidote wisdom, and healing."
                         },
                         {
-                              "heading": "Marduk (Ra), the Age of Aries, and the Rise of Babylon",
-                              "body": "Marduk's struggle revolves around **Precessional Time**: recognizing when the cosmic clock shifted from Taurus (Enlil) to Aries (Marduk). Despite exile, Marduk returned to establish **Babylon (Bâb-ilim)** and received the **Fifty Names** from his father Enki."
+                              "heading": "Marduk, the Age of Aries, and the Rise of Babylon",
+                              "body": "Marduk's ascent reflects the reading of **Precessional Time**: as Taurus gave way to Aries, Marduk united his father Enki's wisdom with active sovereignty through the **Fifty Sacred Names**."
                         },
                         {
-                              "heading": "Celestial Mechanics in Enûma Eliš: Nibiru and Tiamat",
-                              "body": "Sitchin reads *Enûma Eliš* on two levels: first as the primordial celestial encounter in which **Nibiru/Marduk** cleaved **Tiamat** to form Earth (*Ki*) and the Asteroid Belt; second as Prince Marduk's ordering of the twelve zodiacal stations."
+                              "heading": "Cosmic Order in Enûma Eliš: Nebiru and Tiamat",
+                              "body": "*Enûma Eliš* operates on two levels at once: the ordering of celestial mechanics (interpreted in comparative theories through Nibiru and Tiamat) and the awakening of consciousness out of primordial chaos."
                         }
                   ],
                   "sv": [
                         {
                               "heading": "E.A (Enki), Abzu och Dubbelormens Sigill",
-                              "body": "I Sitchins tolkning är Enki mästaren över livets koder och **Me**-lagarna. Hans tecken **de två slingrande ormarna** blev senare läkekonstens stav. Enkis riktning är **Djup, Uppfinningsrikedom och Livets Bevarande**."
+                              "body": "Enki är väktare av sötvattensdjupet **Abzu** och **ME**-lagarna. Det mesopotamiska sigillet med **två slingrande ormar** symboliserar livskraft och läkedom."
                         },
                         {
-                              "heading": "Marduk (Ra), Vädurens Tidsålder och Babylons Uppgång",
-                              "body": "Marduks kamp handlar om att läsa **det kosmiska uret (precessionen)** när tiden skiftade från Oxen (Enlil) till Väduren (Marduk). Han grundade **Bâb-ilim (Babylon)** och mottog de **Femtio Namnen** av sin far Enki."
+                              "heading": "Marduk, Vädurens Tidsålder och Babylons Uppgång",
+                              "body": "Marduks uppgång speglar läsningen av **det kosmiska uret** när tiden skiftade från Oxen till Väduren och han mottog de **Femtio Heliga Namnen**."
                         },
                         {
-                              "heading": "Himmelsk Mekanik i Enûma Eliš: Nibiru och Tiamat",
-                              "body": "Sitchin läser *Enûma Eliš* både som den urtida himmelska kollisionen mellan **Nibiru/Marduk** och **Tiamat** som skapade Jorden (*Ki*), och som prins Marduks ordnande av zodiakens tolv stationer."
+                              "heading": "Kosmisk Ordning i Enûma Eliš: Nebiru och Tiamat",
+                              "body": "*Enûma Eliš* skildrar både himlavalvets ordnande och hur mänskligt medvetande reser sig ur det ursprungliga kaoset."
                         }
                   ]
             },
             "items": {
                   "tr": [
                         "E.A / Enki (Sayısal Mührü: 40): Abzu’nun, tatlı suların, bilimin, zanaatın ve insanlığın koruyucu bilgeliğinin efendisi.",
-                        "Enlil (Sayısal Mührü: 50): Nippur’daki E-kur (‘Dağ Evi’) merkezinden hükmeden disiplin ve meclis komutanı.",
-                        "Marduk / Ra (Sayısal Mührü: 10 → 50): Enki ve Damkina’nın ilk oğlu; Koç Çağı’yla birlikte 50 unvanı alarak Babil’in başhükümdarı olan güç.",
-                        "Ningişzida (Thoth): Enki’nin diğer bilge oğlu; Mısır ve Mezopotamya’da astronomi, takvim ve sarmal yılan sırlarının muhafızı.",
-                        "Şimti Evi & Lulu Amelu: İnsanın kil/toprak ve göksel öz mührüyle (*Şimti* — nefes/kader) bilinçli varlık olarak uyandırılması.",
-                        "Kamış Duvarın Fısıltısı: Enki’nin Ziusudra’nın kamış kulübesinin duvarına konuşarak insanlığı Tufan’dan kurtaran ince zekası."
+                        "Enlil (Sayısal Mührü: 50): Nippur’daki E-kur (‘Dağ Evi’) merkezinden hükmeden disiplin ve meclis yasası.",
+                        "Marduk (Sayısal Mührü: 10 → 50): Enki ve Damgalnuna’nın ilk oğlu; 50 kutsal ismi alarak kozmik düzeni kuran egemen irade.",
+                        "Ningişzida: Enki’nin bilge oğlu; astronomi, yeraltı kökleri ve sarmal çift yılan sırlarının muhafızı.",
+                        "Lulu / Awīlu: İnsanın kil ve ilahi nefes/hafıza mührüyle bilinçli varlık olarak uyandırılması.",
+                        "Kamış Duvarın Fısıltısı: Enki’nin Ziusudra’nın kamış kulübesinin duvarına konuşarak yaşam tohumunu Tufan’dan kurtaran ince bilgeliği."
                   ],
                   "en": [
                         "E.A / Enki (Sacred Number: 40): Lord of the Abzu, sweet waters, science, craft, and protective wisdom.",
-                        "Enlil (Sacred Number: 50): Lord of the Command ruling from E-kur in Nippur, embodying strict law.",
-                        "Marduk / Ra (Sacred Number: 10 → 50): Firstborn of Enki and Damkina who claimed supreme sovereignty in the Age of Aries.",
-                        "Ningishzida (Thoth): Wise son of Enki, keeper of astronomy, the calendar, and the entwined serpents.",
-                        "House of Shimti & Lulu Amelu: The awakening of conscious humanity sealed with earthly clay and celestial spark.",
-                        "Whisper Through the Reed Wall: Enki's ingenious counsel to Ziusudra that preserved human life through the Deluge."
+                        "Enlil (Sacred Number: 50): Lord of Wind and Decree ruling from E-kur in Nippur.",
+                        "Marduk (Sacred Number: 10 → 50): Firstborn of Enki and Damgalnuna who received the Fifty Sacred Names.",
+                        "Ningishzida: Wise son of Enki, guardian of stellar measure and the entwined serpents.",
+                        "Lulu / Awīlu: The awakening of conscious humanity sealed with earthly clay and divine breath.",
+                        "Whisper Through the Reed Wall: Enki's ingenious counsel to Ziusudra that preserved life through the Deluge."
                   ],
                   "sv": [
                         "E.A / Enki (Heligt Tal: 40): Abzus, det söta vattnets, vetenskapens och människans beskyddande herre.",
-                        "Enlil (Heligt Tal: 50): Befallningens herre i Nippur, symbol för sträng lag och ordning.",
-                        "Marduk / Ra (Heligt Tal: 10 → 50): Enkis och Damkinas förstfödde som mottog de femtio namnen i Vädurens tidsålder.",
-                        "Ningishzida (Thoth): Enkis vise son, väktare av astronomi, kalender och dubbelormens hemlighet.",
-                        "Shimtis Hus & Lulu Amelu: Människans uppvaknande genom föreningen av jordisk lera och himmelsk gnista.",
-                        "Viskningen genom Vassväggen: Enkis kloka råd till Ziusudra som räddade mänskligheten undan floden."
+                        "Enlil (Heligt Tal: 50): Vindens och påbudets herre i Nippur.",
+                        "Marduk (Heligt Tal: 10 → 50): Enkis och Damgalnunas förstfödde som mottog de femtio heliga namnen.",
+                        "Ningishzida: Enkis vise son, väktare av stjärnmått och dubbelormens hemlighet.",
+                        "Lulu / Awīlu: Människans uppvaknande genom föreningen av jordisk lera och gudomlig andedräkt.",
+                        "Viskningen genom Vassväggen: Enkis kloka råd till Ziusudra som räddade livet undan floden."
                   ]
             },
             "practice": {
@@ -8657,6 +8657,514 @@ export const traditions: Record<TraditionSlug, TraditionHall> = {
                   "sv": "Utan Enkis djupa vatten torkar viljan ut; utan Marduks eld väntar visdomen på stranden."
             },
             "practiceImage": "/mezopotamya/practice-abzu-ve-asalluhi.jpg"
+      },
+      {
+            "slug": "mardukun-50-kutsal-ismi",
+            "glyph": "XXII",
+            "image": "/mezopotamya/marukka-maruttuku.jpg",
+            "title": {
+                  "tr": "XXII · Marduk’un 50 Kutsal İsmi: Enûma Eliš VII, Yedi Kozmik Kapı ve Yaşayan Bilgelik Külliyatı",
+                  "en": "XXII · The 50 Sacred Names of Marduk: Enûma Eliš VII, the Seven Cosmic Gates & Living Wisdom Corpus",
+                  "sv": "XXII · Marduks 50 Heliga Namn: Enûma Eliš VII, de Sju Kosmiska Portarna & Levande Visdomskorpus"
+            },
+            "subtitle": {
+                  "tr": "1. İsim Asalluḫi’den 48. İsim Ea (Enki), 49. İsim Nebiru ve 50. Mühür Hamšâ’ya (Kunukku) Uzanan 50 Arketipsel Bilinç Basamağı",
+                  "en": "Fifty Archetypal Stations of Consciousness from 1st Name Asalluḫi to 48th Name Ea (Enki), 49th Name Nebiru & 50th Seal Hamšâ (Kunukku)",
+                  "sv": "Femtio Arketypiska Medvetandesteg från 1:a Namnet Asalluḫi till 48:e Namnet Ea (Enki), 49:e Namnet Nebiru & 50:e Sigillet Hamšâ (Kunukku)"
+            },
+            "summary": {
+                  "tr": "Babil Yaratılış Destanı Enûma Eliš’in Yedinci Tabletinde mühürlenen 50 Kutsal İsim; dışsal bir yakarış değil, insanın içsel kaosunu (Tiamat’ı) aşarak arınma, irade, şefkat, söz, adalet ve bilgelikte bütünleşmesini anlatan 7 Kapılı bir inisiyasyon haritasıdır.",
+                  "en": "Sealed in Tablet VII of Enûma Eliš, the Fifty Sacred Names form a Seven-Gated map of inner transformation—guiding human consciousness from purification and boundary-building to creative word, solar justice, and the deep wisdom of the Apsû.",
+                  "sv": "Förseglade i Enûma Eliš sjunde tavla utgör de Femtio Heliga Namnen en karta genom Sju Portar – från rening och gränssättning till skapande ord, solär rättvisa och Apsûs djupa visdom."
+            },
+            "paragraphs": {
+                  "tr": [
+                        "Babil Yaratılış Destanı *Enûma Eliš*’in ilk altı tableti kozmosun doğuşunu, kaos okyanusu Tiamat’ın aşılmasını, yıldız yörüngelerinin dizilişini ve insanın yaratılışını anlatır. Ancak destanın gerçek ruhsal zirvesi **Yedinci Tablet**’tir: Burada göksel meclis toplanır ve Marduk’un varlığında birleşen **50 Kutsal İsmi (Šumū Ḫamšâ)** tek tek ilan eder.",
+                        "Mezopotamya tapınak geleneğinde **‘İsim’ (Šumu)** yalnızca bir etiket değil; o varlığın öz frekansı, işlevi ve kozmik yasasıdır. Daha önce Nippur’da Enlil’e ait olan **50 sayısı**, Yedinci Tablette Eridu’nun su bilgeliği (Asalluḫi / Ea) ile Babil’in güneşsel iradesinin birleşmesiyle yeni bir anlam kazanır: Her isim; bir elementin, bir yönün, bir kutsal geometrinin, bir doğa rehberinin ve bir **etik denge yasasının** anahtarıdır.",
+                        "Bu külliyatta 50 isim **Yedi Kozmik Kapı** halinde okunur: **I. Kapı (1–4)** arınma, merkez ve koruma kalkanını; **II. Kapı (5–10)** gök-yer yasasını ve ilk ışığı; **III. Kapı (11–17)** bereket, bilge öğüt, yenilenme ve öz-denetim tacını; **IV. Kapı (18–26)** kutsal sözü, kalp görüsünü ve yaşam sularının kanallarını; **V. Kapı (27–35)** fırtınada gemiyi yüzdüren kaptanı ve gök-yer halatını (*Durmāḫu*); **VI. Kapı (36–44)** Kaderler Tableti’nin geri alınışını ve ateş, şimşek, güneş ve ay güçlerini; **VII. Kapı (45–50)** ise Baba Enlil’in (47), Baba Ea’nın (48), Kozmik Kavşak **Nebiru**’nun (49) ve Tamamlanma Mührü **Hamšâ / Kunukku**’nun (50) birliğini açar.",
+                        "Aşağıdaki interaktif **50 Kutsal İsim Atlası**’nda her bir mührün çivi yazılı formunu, kökenini, arketipsel okumasını, özel altın kutsal geometri mührünü, bitki-taş-hayvan sembolizmini, etik yasasını ve günlük farkındalık aynasını doğrudan inceleyebilirsin."
+                  ],
+                  "en": [
+                        "While the first six tablets of the Babylonian Creation Epic *Enûma Eliš* recount the ordering of the cosmos and the fashioning of humankind, the spiritual summit of the epic stands in **Tablet VII**: here the assembly of the gods proclaims the **Fifty Sacred Names (Šumū Ḫamšâ)**.",
+                        "In Mesopotamian temple philosophy, a **Name (Šumu)** is never a mere label—it is an ontological function, a cosmic law, and a state of consciousness. The sacred number **50**, once the numerical rank of Enlil, becomes in Tablet VII the synthesis uniting the deep water-wisdom of Eridu (Asalluḫi / Ea) with solar sovereignty.",
+                        "Structured across **Seven Cosmic Gates**, the fifty names trace a complete arc of inner maturation: **Gate I (1–4)** establishes purification, axis, and protection; **Gate II (5–10)** opens sky-earth law and inner radiance; **Gate III (11–17)** cultivates boundaries, counsel, renewal, and self-mastery; **Gate IV (18–26)** awakens the creative word, heart-vision, and the channels of abundance; **Gate V (27–35)** anchors the mountain over chaos, steers the vessel, and binds heaven to earth (*Durmāḫu*); **Gate VI (36–44)** reclaims the Tablet of Destinies and integrates fire, thunder, sun, and moon; and **Gate VII (45–50)** culminates in Father Enlil (47), Father Ea (48), the Cosmic Crossing **Nebiru** (49), and the Seal of Wholeness **Hamšâ / Kunukku** (50).",
+                        "In the interactive **Atlas of the 50 Sacred Names** below, you can explore every seal's cuneiform sign, Tablet VII lineage, archetypal reading, custom sacred geometry emblem, symbolic dossier, ethical law, and daily awareness mirror."
+                  ],
+                  "sv": [
+                        "Medan de första sex tavlorna i det babyloniska skapelseeposet *Enûma Eliš* skildrar världsordningens tillblivelse, utgör **Sjunde Tavlan** verkets andliga krön: här förkunnar gudarnas församling de **Femtio Heliga Namnen (Šumū Ḫamšâ)**.",
+                        "I mesopotamisk tempelfilosofi är ett **Namn (Šumu)** aldrig blott en etikett utan en kosmisk funktion och ett medvetandetillstånd. Det heliga talet **50** förenar här Eridus djupa vattenvisdom (Asalluḫi / Ea) med Babylons solära vilja.",
+                        "Genom **Sju Kosmiska Portar** bildar de femtio namnen en sammanhängande inre mognadsväg: från rening och skydd i **Port I (1–4)** till himmel-jord-lag i **Port II (5–10)**, odling och självbehärskning i **Port III (11–17)**, ordets och vattnets kanaler i **Port IV (18–26)**, skeppskonst och världsaxel i **Port V (27–35)**, återtagandet av Ödestavlan i **Port VI (36–44)** samt fullbordan i Fader Enlil (47), Fader Ea (48), Korsvägen **Nebiru** (49) och Helhetens Sigill **Hamšâ / Kunukku** (50) i **Port VII**.",
+                        "I den interaktiva **Atlasen över Marduks 50 Heliga Namn** nedan kan du utforska varje sigills kilskrift, ursprung, arketypiska läsning, heliga geometri, symboliska akt, etiska lag och dagliga medvetandespegel."
+                  ]
+            },
+            "chapters": {
+                  "tr": [
+                        {
+                              "heading": "Yedi Kozmik Kapı Mimarisinde 1’den 50’ye Yükseliş",
+                              "body": "Yolculuk 1. isim **Asalluḫi** (suyla arınma ve düğüm çözme) ile başlar; çünkü tortu temizlenmeden hiçbir yasa inşa edilemez. Ardından 48. isimde **Ea (Enki)** ile bilgelik pınarına dönülür, 49. isim **Nebiru** ile kozmik kavşak geçilir ve 50. isim **Hamšâ (Kunukku)** ile bütünlük mühürlenir."
+                        },
+                        {
+                              "heading": "Enûma Eliš VII:145–148 · Bilgelik Vasiyeti",
+                              "body": "Yedinci Tabletin kapanış dizeleri bu 50 ismin nasıl korunacağını açıkça söyler: *‘İlk olanlar bunları tutsun, bilge ve bilen birlikte tefekkür etsin; baba oğula aktarsın, çobanın ve yöneticinin kulağı bu yasalara açık olsun.’*"
+                        }
+                  ],
+                  "en": [
+                        {
+                              "heading": "Ascending from 1 to 50 Through the Seven Cosmic Gates",
+                              "body": "The path begins at the 1st name **Asalluḫi** (purification and untying knots), returns to the fountainhead of wisdom at the 48th name **Ea (Enki)**, crosses the pivot of the heavens at the 49th name **Nebiru**, and seals wholeness at the 50th name **Hamšâ (Kunukku)**."
+                        },
+                        {
+                              "heading": "Enûma Eliš VII:145–148 · The Testament of Contemplation",
+                              "body": "The closing lines of Tablet VII state how these fifty names are to be approached: *'Let them be held in remembrance; let the wise and the knowing ponder them together, and let the father repeat them and teach the son.'*"
+                        }
+                  ],
+                  "sv": [
+                        {
+                              "heading": "Vandringen från 1 till 50 genom de Sju Kosmiska Portarna",
+                              "body": "Vägen börjar vid det 1:a namnet **Asalluḫi** (rening och upplösning av knutar), återvänder till visdomens källa vid det 48:e namnet **Ea (Enki)**, passerar korsvägen **Nebiru** (49) och fullbordas i **Hamšâ / Kunukku** (50)."
+                        },
+                        {
+                              "heading": "Enûma Eliš VII:145–148 · Visdomens Testamente",
+                              "body": "Sjunde tavlans slutrader anger hur de femtio namnen ska bäras: *'Må de bevaras i minnet, må den vise och den kunnige begrunda dem tillsammans.'*"
+                        }
+                  ]
+            },
+            "items": {
+                  "tr": [
+                        "I. Kapı (1–4): Asalluḫi, Marduk, Marukka, Marutukku — Arınma, merkez ve koruyucu ateş kalkanı.",
+                        "II. Kapı (5–10): Barašakušu’dan Namru’ya — Krizde hız, gök-yer yasası, vicdan ve parlak sezgi.",
+                        "III. & IV. Kapılar (11–26): Asaru, Tutu, Šazu ve Enbilulu — Toprak bereketi, yenilenme, kalp görüsü ve yaşam suları.",
+                        "V. & VI. Kapılar (27–44): Sirsir, Malah, Irqingu, Gibil, Šamaš, Sin, Ninurta — Kaos üzerinde dağ, dümen, Kader Tableti ve gezegensel ustalık.",
+                        "VII. Kapı (45–50): Tukulti, Šarilu, Enlil, Ea (Enki), Nebiru ve Hamšâ (Kunukku) — Güven sütunu, Abzu bilgeliği, Kozmik Kavşak ve 50. Tamamlanma Mührü."
+                  ],
+                  "en": [
+                        "Gate I (1–4): Asalluḫi, Marduk, Marukka, Marutukku — Purification, axis, foundation, and fiery shield.",
+                        "Gate II (5–10): Barašakušu to Namru — Swift aid, sky-earth law, inner mentor, and radiant clarity.",
+                        "Gates III & IV (11–26): Asaru, Tutu, Šazu, Enbilulu — Boundaries, renewal, heart-vision, and living watercourses.",
+                        "Gates V & VI (27–44): Sirsir, Malah, Irqingu, Gibil, Šamaš, Sin, Ninurta — Mountain over chaos, helm, Tablet of Destiny, and planetary mastery.",
+                        "Gate VII (45–50): Tukulti, Šarilu, Enlil, Ea (Enki), Nebiru & Hamšâ (Kunukku) — Pillar of trust, Abzu wisdom, Cosmic Crossing, and the 50th Seal."
+                  ],
+                  "sv": [
+                        "Port I (1–4): Asalluḫi, Marduk, Marukka, Marutukku — Rening, axel, grund och eldsköld.",
+                        "Port II (5–10): Barašakušu till Namru — Handlingskraft, himmel-jord-lag, samvete och klarhet.",
+                        "Port III & IV (11–26): Asaru, Tutu, Šazu, Enbilulu — Gränser, förnyelse, hjärtsyn och levande vattenkanaler.",
+                        "Port V & VI (27–44): Sirsir, Malah, Irqingu, Gibil, Šamaš, Sin, Ninurta — Berg över kaos, roder, Ödestavla och planetärt mästerskap.",
+                        "Port VII (45–50): Tukulti, Šarilu, Enlil, Ea (Enki), Nebiru & Hamšâ (Kunukku) — Tillitens pelare, Abzu-visdom, Kosmisk Korsväg och det 50:e Sigillet."
+                  ]
+            },
+            "practice": {
+                  "tr": {
+                        "title": "Uygulama · 50 Kutsal İsim Atlası ile ‘Günlük Farkındalık Aynası’ Çalışması",
+                        "steps": [
+                              "Aşağıdaki 50 İsim Atlası’nda yer alan **‘Bilinç Aynası Seç (Rastgele Mühür)’** düğmesine tıkla veya bugün içinde bulunduğun duruma en uygun Kapıyı (I–VII) seç.",
+                              "Seçilen ismin **Kutsal Geometri Mührünü**, **Arketipsel Okumasını** ve **Etik / Topraklama İlkesini** sakin bir nefesle oku.",
+                              "Kartın en altındaki **‘Günlük Farkındalık Aynası’** cümlesini gün boyu kendi kararlarında bir pusula olarak hatırla."
+                        ]
+                  },
+                  "en": {
+                        "title": "Practice · Contemplating the 'Daily Mirror of Awareness' with the 50 Names Atlas",
+                        "steps": [
+                              "In the 50 Sacred Names Atlas below, click **'Draw Mirror of Awareness (Random Seal)'** or choose the Gate (I–VII) that speaks to your current threshold.",
+                              "Read the seal's **Sacred Geometry**, **Archetypal Reading**, and **Ethical & Grounding Principle** with a slow, steady breath.",
+                              "Carry the **'Daily Mirror of Awareness'** sentence at the bottom of the seal as your quiet compass throughout the day."
+                        ]
+                  },
+                  "sv": {
+                        "title": "Praktik · Kontemplation med 'Daglig Medvetandespegel' i 50-Namnsatlasen",
+                        "steps": [
+                              "Klicka på **'Välj Medvetandespegel (Slumpmässigt Sigill)'** i atlasen nedan eller välj den Port (I–VII) som svarar mot din nuvarande livssituation.",
+                              "Läs sigillets **Heliga Geometri**, **Arketypiska Läsning** och **Etiska & Grundande Princip** i lugn och ro.",
+                              "Bär med dig meningen under **'Daglig Medvetandespegel'** som en inre kompass under dagen."
+                        ]
+                  }
+            },
+            "closing": {
+                  "tr": "Elli isim gökyüzünde uzak bir yankı değil, kendi kalbini arındıran insanın içinde uyanan elli bilgelik mührüdür.",
+                  "en": "The fifty names are not a distant echo in the sky, but fifty seals of wisdom awakening within the purified human heart.",
+                  "sv": "De femtio namnen är inte ett avlägset eko i skyn utan femtio visdomssigill som vaknar i ett renat människohjärta."
+            },
+            "practiceImage": "/mezopotamya/practice-marukka-maruttuku.jpg"
+      },
+      {
+            "slug": "enkinin-me-yasalari-ve-abzu-tabletleri",
+            "glyph": "XXIII",
+            "image": "/mezopotamya/abzu-asalluhi.jpg",
+            "title": {
+                  "tr": "XXIII · Enki’nin ‘ME’ Yasaları ve Abzu Tabletleri: Uygarlığın, Bilincin ve Zanaatın Kozmik Kodları",
+                  "en": "XXIII · Enki's 'ME' Decrees and the Abzu Tablets: Cosmic Blueprints of Civilization, Consciousness & Craft",
+                  "sv": "XXIII · Enkis 'ME'-Lagar och Abzu-Tavlorna: Civilisationens, Medvetandets & Hantverkets Kosmiska Koder"
+            },
+            "subtitle": {
+                  "tr": "Eridu’nun Tatlı Su Okyanusunda Korunan 100’den Fazla İlahi Arketip: Hakikat (Níg-gi-na), Zanaat, Müzik, Muhakeme ve İniş-Çıkış Yasası",
+                  "en": "More Than a Hundred Divine Archetypes Kept in the Sweet Waters of Eridu: Truth (Níg-gi-na), Craft, Music, Judgment & the Law of Descent and Ascent",
+                  "sv": "Över Hundra Gudomliga Arketyper Bevarade i Eridus Sötvatten: Sanning (Níg-gi-na), Hantverk, Musik, Omdöme & Nedstigandets och Uppstigningens Lag"
+            },
+            "summary": {
+                  "tr": "Sümer kozmolojisinde ‘ME’ (Akadca parṣu), evrenin ve insan uygarlığının çalışmasını sağlayan kozmik yazılımlar ve arketipsel kalıplardır. Enki’nin Eridu’daki E-Abzu tapınağında saklanan bu yasalar; sanattan adalete, yeraltına inişten yeniden yükselişe kadar yaşamın tüm ilkelerini içerir.",
+                  "en": "In Sumerian cosmology, the 'ME' (Akkadian parṣu) are the fundamental cosmic blueprints and archetypal laws governing civilization and consciousness, guarded by Enki in the E-Abzu sanctuary of Eridu.",
+                  "sv": "I sumerisk kosmologi är 'ME' (akkadiskans parṣu) de kosmiska grundmönster och urformer som bär civilisation och medvetande, bevarade av Enki i E-Abzu i Eridu."
+            },
+            "paragraphs": {
+                  "tr": [
+                        "Sümer çivi yazılı metinlerinin en derin felsefi kavramı **ME** (𒈨 — Akadca *parṣu*) kavramıdır. **ME**; ne sadece yazılı bir kanun maddesi ne de soyut bir düşüncedir: Bir kuşun nasıl uçacağını, bir demircinin madeni nasıl döveceğini, bir yargıcın adaleti nasıl tartacağını ve bir kalbin kederden sonra nasıl teselli bulacağını belirleyen **canlı kozmik kalıp ve arketipsel özdür**.",
+                        "*Enki ve Dünya Düzeni* (*Enki and the World Order*) ile *İnanna ve Enki* tabletlerinde anlatıldığı üzere, bu ilahi kalıpların ana muhafızı Eridu’daki **E-Abzu** (‘Su Evi’) tapınağında oturan bilgelik efendisi **Enki (E.A)**’dir. İnanna’nın Uruk şehrine taşıdığı listede 100’den fazla ME sayılır: **Doğruluk (*Níg-gi-na*)**, **Adil Yargı (*Di-ku5*)**, **Bilgelik (*Geštú*)**, **Marangozluk, Bakırcılık, Yazı ve Kâtiplik (*Nam-dub-sar*)**, **Müzik Aletleri**, **Korku ve Dehşetle Yüzleşme**, **Yeraltına İniş (*Kur-ra ed-de*)** ve **Yeraltından Çıkış (*Kur-ta ed-de*)**.",
+                        "Listenin en çarpıcı sırrı şudur: Enki’nin ME’leri arasında yalnızca ‘taç, taht, zafer ve neşe’ yoktur; **‘yanılgı, ağıt, yorgunluk ve yeraltına iniş’** de birer ME olarak kayıtlıdır. Çünkü Mezopotamya bilgeliğine göre insan bilinci yalnızca aydınlıkta değil, iniş ve çıkışın (*katabasis* ve *anabasis*) tam döngüsünü deneyimleyerek olgunlaşır.",
+                        "*Enûma Eliš* VII:140–142’de Baba Ea (Enki), *‘Benim tüm ME/parṣu yasalarımı artık oğlum yönetip icra etsin’* diyerek bu kozmik kodları **48. İsim (Ea)** makamında Marduk’a devreder."
+                  ],
+                  "en": [
+                        "At the philosophical core of Sumerian literature stands the concept of the **ME** (𒈨 — Akkadian *parṣu*). A **ME** is neither a mere statute nor a passive idea: it is a **living cosmic blueprint and archetypal code** that enables arts, institutions, ethics, and states of consciousness to exist and function.",
+                        "As preserved in *Enki and the World Order* and *Inanna and Enki*, the chief custodian of the ME is **Enki (E.A)** within the watery sanctuary of **E-Abzu** in Eridu. The canonical list of over one hundred ME encompasses **Truth (*Níg-gi-na*)**, **Righteous Judgment**, **Perceptive Ear / Wisdom (*Geštú*)**, **Scribal Art (*Nam-dub-sar*)**, **Metallurgy, Carpentry, Sacred Music**, and the twin laws of **Descent into the Underworld (*Kur-ra ed-de*)** and **Ascent from the Underworld (*Kur-ta ed-de*)**.",
+                        "Crucially, the ME include not only crowns, victory, and joy, but also lamentation, weariness, and shadow-descent—because Mesopotamian wisdom recognizes that consciousness matures only by mastering the full cycle of descent and return.",
+                        "In *Enûma Eliš* VII:140–142, Father Ea seals the **48th Name** by entrusting all of his *parṣī* (ME decrees) to Marduk, uniting Eridu's blueprints with living action."
+                  ],
+                  "sv": [
+                        "I kärnan av den sumeriska filosofin står begreppet **ME** (𒈨 — akkadiskans *parṣu*). Ett **ME** är inte blott en regel utan en **levande kosmisk grundkod och arketyp** som gör konst, rättvisa, hantverk och medvetande möjliga.",
+                        "I texterna *Enki och Världsordningen* samt *Inanna och Enki* vaktas dessa över hundra ME av **Enki (E.A)** i helgedomen **E-Abzu** i Eridu: bland dem finns **Sanning (*Níg-gi-na*)**, **Rättvis Dom**, **Lyssnande Visdom (*Geštú*)**, **Skrivkonst (*Nam-dub-sar*)**, **Smide, Musik** samt de två avgörande lagarna **Nedstigande i Underjorden** och **Uppstigning ur Underjorden**.",
+                        "Att även klagan, prövning och nedstigande räknas bland ME visar djupet i mesopotamisk visdom: människan blir hel först när hon behärskar både nedstigandets och återkomstens lag.",
+                        "I *Enûma Eliš* VII:140–142 överlämnar Fader Ea alla sina *parṣī* (ME-lagar) i det **48:e Namnet**."
+                  ]
+            },
+            "chapters": {
+                  "tr": [
+                        {
+                              "heading": "Geštú: ‘Geniş Kulak’ ve Dinleyerek Bilen Bilgelik",
+                              "body": "Sümercede bilgelik kelimesi (*Geštú*) doğrudan **‘kulak’** işaretiyle yazılır. Enki’nin bilgeliği çok konuşmakta değil, suyun derinliği gibi evreni ve kalbi **geniş bir kulakla dinlemekte** yatar."
+                        },
+                        {
+                              "heading": "İniş ve Çıkış ME’si: Neden İkisi Birliktedir?",
+                              "body": "Enki’nin ME listesinde ‘Yeraltına İniş’ ile ‘Yeraltından Çıkış’ iki ayrı ama ayrılmaz yasadır: Kendi gölgesine veya bir hayat krizine inen kişi, yanında ‘Çıkış Yasasını’ (bilinçli farkındalık ve etik sınırı) taşıyorsa oradan yenilenerek döner."
+                        }
+                  ],
+                  "en": [
+                        {
+                              "heading": "Geštú: The 'Wide Ear' of Listening Wisdom",
+                              "body": "In Sumerian cuneiform, the word for wisdom and intelligence (*Geštú*) is written with the sign for **'ear'**. Enki's wisdom begins not in speaking, but in deep, spacious listening."
+                        },
+                        {
+                              "heading": "The Twin ME of Descent and Ascent",
+                              "body": "In Enki's list, 'Descent into the Underworld' and 'Ascent from the Underworld' stand side by side: whoever enters a season of trial while holding the law of return emerges wiser rather than lost."
+                        }
+                  ],
+                  "sv": [
+                        {
+                              "heading": "Geštú: Det 'Vida Örat' som Visdomens Tecken",
+                              "body": "På sumeriska skrivs ordet för visdom (*Geštú*) med kilskriftstecknet för **'öra'**: Enkis visdom börjar i konsten att lyssna djupt."
+                        },
+                        {
+                              "heading": "Nedstigandets och Uppstigningens Tvilling-ME",
+                              "body": "I Enkis lista står 'Nedstigande i Underjorden' och 'Uppstigning ur Underjorden' sida vid sida: den som går genom prövningen med medvetenhet bär återkomstens nyckel."
+                        }
+                  ]
+            },
+            "items": {
+                  "tr": [
+                        "ME (𒈨 / Parṣu): Evrenin, doğanın ve uygarlığın işleyişini sağlayan arketipsel yasalar ve kozmik kodlar.",
+                        "Geštú (Geniş Kulak): Mezopotamya’da bilgeliğin sembolü olan derin dinleme ve kavrama yetisi.",
+                        "Níg-gi-na (Hakikat ve İstikrar): Enki’nin ME listesinin merkezindeki doğruluk ve sarsılmaz gerçeklik ilkesi.",
+                        "Nam-dub-sar & Zanaat ME’leri: Yazı, metalürji, mimari, şifa ve müziğin kutsal birer bilinç disiplini olarak görülmesi.",
+                        "İniş ve Çıkış Yasası: Kriz ve gölge evrelerinden (Kur) bilgelikle geri dönme sanatı."
+                  ],
+                  "en": [
+                        "ME (𒈨 / Parṣu): The archetypal blueprints governing cosmos, craft, and human society.",
+                        "Geštú (The Wide Ear): Deep listening as the Sumerian definition of wisdom and intelligence.",
+                        "Níg-gi-na (Truth & Constancy): The core ethical ME of truthfulness and stability.",
+                        "Nam-dub-sar & Craft ME: Writing, metallurgy, architecture, healing, and music honored as sacred disciplines.",
+                        "Law of Descent & Ascent: Navigating life's underworld thresholds and returning renewed."
+                  ],
+                  "sv": [
+                        "ME (𒈨 / Parṣu): De arketypiska grundmönster som styr kosmos, hantverk och samhälle.",
+                        "Geštú (Det Vida Örat): Djupt lyssnande som sumeriskans ord för visdom.",
+                        "Níg-gi-na (Sanning & Beständighet): Den etiska grundkoden i Enkis ME-lista.",
+                        "Nam-dub-sar & Hantverkets ME: Skrivkonst, smide, byggkonst, läkedom och musik som heliga discipliner.",
+                        "Nedstigandets & Uppstigningens Lag: Konsten att vandra genom prövningens djup och återvända hel."
+                  ]
+            },
+            "practice": {
+                  "tr": {
+                        "title": "Uygulama · Kendi Yaşamında ‘Üç Temel ME Yasasını’ Aktive Etmek",
+                        "steps": [
+                              "1. Geštú (Geniş Kulak): Bugün bir insanı veya kendi iç sesini dinlerken hemen cevap yetiştirme dürtüsünü bırak; su gibi sessizce dinleyerek sözün altındaki gerçek ihtiyacı duy.",
+                              "2. Zanaat ME’si: Bugün yaptığın işi (yazı yazmak, yemek yapmak, üretmek veya düzenlemek) sıradan bir angarya gibi değil, Enki’nin atölyesindeki kutsal bir zanaat gibi özenle icra et.",
+                              "3. Níg-gi-na (Doğruluk): Gün bitmeden kendine şu soruyu sor: ‘Bugün söylediğim söz ile kalbimdeki gerçek niyet aynı hizada mıydı?’"
+                        ]
+                  },
+                  "en": {
+                        "title": "Practice · Activating 'Three Core ME Blueprints' in Daily Life",
+                        "steps": [
+                              "1. Geštú (The Wide Ear): In one conversation today, set aside the urge to reply quickly and listen like deep water until you hear the unspoken core.",
+                              "2. The Craft ME: Perform one tangible task today—writing, building, cooking, or organizing—with the mindfulness of a temple artisan.",
+                              "3. Níg-gi-na (Truth): Before sleep, ask yourself: 'Were my spoken words and my quietest intention aligned today?'"
+                        ]
+                  },
+                  "sv": {
+                        "title": "Praktik · Att Förkroppsliga 'Tre Grundläggande ME-Lagar' i Vardagen",
+                        "steps": [
+                              "1. Geštú (Det Vida Örat): Lyssna i dag i ett samtal utan brådska att svara, likt stilla vatten som speglar helheten.",
+                              "2. Hantverkets ME: Utför en praktisk uppgift i dag med samma omsorg som en mästare i tempelverkstaden.",
+                              "3. Níg-gi-na (Sanning): Fråga dig själv före sömnen: 'Stämde mina ord överens med mitt hjärtas avsikt i dag?'"
+                        ]
+                  }
+            },
+            "closing": {
+                  "tr": "Bilgelik kılıçla fethedilmez; kulağını suyun derinliğine verip yaşamın yasasını (ME) dinleyen kalbe akar.",
+                  "en": "Wisdom is never conquered by the sword; it flows into the heart that bends its ear to the deep law (ME) of life.",
+                  "sv": "Visdom erövras aldrig med svärd; den strömmar till det hjärta som böjer sitt öra till livets djupa lag (ME)."
+            },
+            "practiceImage": "/mezopotamya/practice-abzu-ve-asalluhi.jpg"
+      },
+      {
+            "slug": "kozmik-caglar-ve-nibiru-kavsayi",
+            "glyph": "XXIV",
+            "image": "/mezopotamya/ziggurat-yildizlar.jpg",
+            "title": {
+                  "tr": "XXIV · Göksel Çağlar (Boğa, Koç, Balık, Kova) ve 49. İsim Nebiru: Kozmik Kavşak ve Zamanın Okunuşu",
+                  "en": "XXIV · The Celestial Ages (Taurus, Aries, Pisces, Aquarius) and 49th Name Nebiru: The Cosmic Crossing",
+                  "sv": "XXIV · De Himmelska Tidsåldrarna (Oxen, Väduren, Fiskarna, Vattumannen) och 49:e Namnet Nebiru"
+            },
+            "subtitle": {
+                  "tr": "MUL.APIN’den Enûma Eliš V ve VII’ye: Ekinoks Presesyonu, Üç Göksel Yol (Anu, Enlil, Ea) ve Kavşak Yıldızı Nebiru",
+                  "en": "From MUL.APIN to Enûma Eliš Tablets V and VII: Precession of the Equinoxes, the Three Celestial Paths (Anu, Enlil, Ea) & the Pivot Star Nebiru",
+                  "sv": "Från MUL.APIN till Enûma Eliš Tavla V och VII: Dagjämningsprecessionen, de Tre Himmelsvägarna (Anu, Enlil, Ea) & Korsvägsstjärnan Nebiru"
+            },
+            "summary": {
+                  "tr": "Mezopotamya astronomi-astroloji geleneğinde gökyüzü üç kuşağa (Anu, Enlil ve Ea yollarına) ayrılır; 49. kutsal isim Nebiru ise gök ve yerin geçiş kavşağını (nēberu) ve bir çağdan diğerine geçişteki merkez kutup bilincini temsil eder.",
+                  "en": "In Mesopotamian astral science, the sky is divided into the Three Paths of Anu, Enlil, and Ea, while the 49th Sacred Name Nebiru holds the cosmic crossing (nēberu) where epochs and stellar orbits turn.",
+                  "sv": "I mesopotamisk stjärnkunskap delas himlen i Anus, Enlils och Eas tre vägar, medan det 49:e heliga namnet Nebiru vaktar den kosmiska korsvägen (nēberu)."
+            },
+            "paragraphs": {
+                  "tr": [
+                        "Babil astronomi külliyatı **MUL.APIN** ve *Enûma Eliš*’in Beşinci Tableti, gökyüzünü gelişigüzel bir yıldız kümesi olarak değil, kusursuz çalışan bir **kozmik saat** olarak okur. Gökkubbe üç ana kuşağa ayrılır: Kuzey göklerini kapsayan **Enlil Yolu**, ekvator kuşağını kapsayan **Anu Yolu** ve güney ufkunu/derin suları kapsayan **Ea (Enki) Yolu**. Her yıla ve her büyük tarihsel döneme 36 takımyıldız (her ayda üçer yıldız: *Astrolabe* sistemi) nöbetleşe rehberlik eder.",
+                        "Bu büyük göksel saatin en derin sırrı, ilkbahar ekinoksunun burçlar kuşağında yaklaşık her **2.160 yılda bir** geriye doğru bir burç kaymasıdır (**Ekinoks Presesyonu**): Sümer’in yükseliş dönemindeki **Boğa Çağı** (*GU4.AN.NA* — Gök Boğası, yaklaşık MÖ 4300–2150), Babil ve Marduk’un yükselişiyle **Koç Çağı**’na (*LÚ.ḪUN.GÁ* / Koç, yaklaşık MÖ 2150–MS 1) devredilmiş; ardından **Balık Çağı**’ndan geçerek günümüzde Enki’nin (*GU.LA* — Su Döken / Kova takımyıldızı) arketipiyle yankılanan **Kova Çağı** eşiğine ulaşmıştır.",
+                        "*Enûma Eliš* VII:124–131’de **49. Kutsal İsim** olarak mühürlenen **Nebiru** (Akadca *nēberu*: ‘geçit, feribot iskelesi, kavşak noktası’), gök ve yerin tam bu geçiş kavşağını tutan merkez yıldızdır: *‘Göklerin ve yerin geçiş noktalarını tutan Nebiru; yukarıdan ve aşağıdan geçen hiçbir yıldız onsuz yolunu bulamaz, o gökyüzünün ortasında parlayan merkez direğidir.’*",
+                        "İçsel okumada **Nebiru**, insanın hayatında eski bir kimliğin veya dönemin kapanıp yeni bir çağın başladığı **büyük dönüm noktasıdır**. Kavşakta paniğe kapılmayan, kendi merkez kutbunu koruyan bilinç, geçişi güvenle tamamlar."
+                  ],
+                  "en": [
+                        "The Babylonian astronomical compendium **MUL.APIN** and Tablet V of *Enûma Eliš* read the night sky as a precision **cosmic timepiece**. The celestial sphere is mapped into three great bands: the northern **Path of Enlil**, the equatorial **Path of Anu**, and the southern **Path of Ea (Enki)**, governed across the twelve months by thirty-six decan stars.",
+                        "Across macro-time, the vernal equinox shifts backward through one zodiacal constellation roughly every **2,160 years** (**Precession of the Equinoxes**): moving from the Sumerian **Age of Taurus** (*GU4.AN.NA*, the Bull of Heaven) into the Babylonian **Age of Aries** (*LÚ.ḪUN.GÁ*, the Ram associated with Marduk), through **Pisces**, and toward the threshold of **Aquarius** (*GU.LA*, the Great One / Water-Pourer of Enki/Ea).",
+                        "Sealed in *Enûma Eliš* VII:124–131 as the **49th Sacred Name**, **Nebiru** (from Akkadian *nēberu*, 'crossing, ford, ferry-point, pivot') holds the cosmic intersection of heaven and earth: *'Nebiru shall hold the crossings of heaven and earth; waiting upon him, the stars of heaven shall not stray, for he shepherds all the gods like sheep.'*",
+                        "Archetypally, **Nebiru** represents the decisive **crossroads of consciousness**—the ability to stand calm at the turning of an era or personal life transition and orient by the pole of truth."
+                  ],
+                  "sv": [
+                        "Det babyloniska astronomiska verket **MUL.APIN** och *Enûma Eliš* femte tavla läser stjärnhimlen som ett exakt **kosmiskt urverk** indelat i tre bälten: **Enlils Väg** i norr, **Anus Väg** längs himmelsekvatorn och **Eas (Enkis) Väg** i söder.",
+                        "Genom dagjämningsprecessionen vandrar vårdagjämningspunkten bakåt genom en stjärnbild ungefär vart **2 160:e år**: från **Oxens tidsålder** (*GU4.AN.NA*) till Babylons och Marduks **Vädurens tidsålder**, vidare genom **Fiskarna** mot tröskeln till **Vattumannen** (*GU.LA*, förknippad med Enki/Ea).",
+                        "I *Enûma Eliš* VII:124–131 förseglas det **49:e Heliga Namnet Nebiru** (av akkadiskans *nēberu*, 'överfart, vadställe, korsväg, nav'): *'Nebiru ska hålla himmelens och jordens korsvägar; han vallar alla stjärnor som får.'*",
+                        "Arketypiskt är **Nebiru** medvetandets **stora korsväg** – förmågan att stå stadigt i livets och tidens vändpunkter utan att förlora sin kompass."
+                  ]
+            },
+            "chapters": {
+                  "tr": [
+                        {
+                              "heading": "Anu, Enlil ve Ea’nın Üç Göksel Yolu",
+                              "body": "Babil gök haritasında hiçbir yıldız tek başına okunmaz; her yıldız ya Kuzey’in sabit yasasına (Enlil), ya Merkez’in yüksek düzenine (Anu) ya da Güney’in derin su bilgeliğine (Ea) bağlanır."
+                        },
+                        {
+                              "heading": "49. İsim Nebiru: Kavşakta Yön Tayin Etmek",
+                              "body": "Akadca *ebēru* (‘karşıdan karşıya geçmek, nehri aşmak’) fiilinden türeyen *Nebiru*, iki kıyı arasındaki güvenli geçittir. 50. mühür olan tamlığa (Hamšâ) ulaşmadan önceki son eşik, bu kavşağı bilinçle geçmektir."
+                        }
+                  ],
+                  "en": [
+                        {
+                              "heading": "The Three Celestial Paths of Anu, Enlil, and Ea",
+                              "body": "In Babylonian uranography, every rising star is read within the harmony of three cosmic zones: the northern crown of law (Enlil), the equatorial belt of order (Anu), and the southern deep of wisdom (Ea)."
+                        },
+                        {
+                              "heading": "49th Name Nebiru: Orientation at the Crossing",
+                              "body": "Derived from Akkadian *ebēru* ('to cross over'), *Nebiru* is the ferry-crossing between two shores of time—the penultimate station before the 50th seal of completion (*Hamšâ*)."
+                        }
+                  ],
+                  "sv": [
+                        {
+                              "heading": "Anus, Enlils och Eas Tre Himmelsvägar",
+                              "body": "I babylonisk stjärnkunskap läses varje stjärna i samspel mellan tre kosmiska bälten: lagens krona i norr (Enlil), ordningens bälte i mitten (Anu) och visdomens djup i söder (Ea)."
+                        },
+                        {
+                              "heading": "49:e Namnet Nebiru: Orientering vid Överfarten",
+                              "body": "Härlett ur akkadiskans *ebēru* ('att korsa, färdas över') är *Nebiru* överfarten mellan två stränder i tiden – det näst sista steget före fullbordans 50:e sigill (*Hamšâ*)."
+                        }
+                  ]
+            },
+            "items": {
+                  "tr": [
+                        "Üç Göksel Yol (Enlil, Anu, Ea): Mezopotamya astronomisinin gökkubbeyi üç eşzamanlı bilinç kuşağı olarak haritalaması.",
+                        "Boğa’dan Koç’a ve Kova’ya: Ekinoks presesyonu ile okunan büyük tarihsel ve arketipsel çağ dönüşümleri.",
+                        "Nebiru (49. Kutsal İsim): Gök ve yerin geçiş kavşağı, yörüngelerin merkez kutbu ve dönüm noktası rehberi.",
+                        "MUL.APIN (‘Saban Yıldızı’): Babil’in en kapsamlı yıldız, takvim ve ekinoks gözlem külliyatı.",
+                        "Kavşak Etiği: Geçiş dönemlerinde paniğe kapılmadan merkezde kalma ve doğru zamanlamayı (kairos) okuma."
+                  ],
+                  "en": [
+                        "The Three Celestial Paths (Enlil, Anu, Ea): The foundational tripartite map of the Babylonian sky.",
+                        "Taurus, Aries & Aquarius: Macro-cycles of the vernal equinox and their archetypal symbolism.",
+                        "Nebiru (49th Sacred Name): The cosmic crossing and pivot star guiding transitions between epochs.",
+                        "MUL.APIN ('The Plow Star'): The canonical Mesopotamian compendium of stars, rising times, and equinoxes.",
+                        "Ethics of the Crossroads: Remaining centered during major life transitions and reading right timing."
+                  ],
+                  "sv": [
+                        "De Tre Himmelsvägarna (Enlil, Anu, Ea): Den babyloniska stjärnhimlens tredelade grundkarta.",
+                        "Oxen, Väduren & Vattumannen: Dagjämningsprecessionens stora cykler och arketypiska skiften.",
+                        "Nebiru (49:e Heliga Namnet): Den kosmiska korsvägen och vändpunktsstjärnan.",
+                        "MUL.APIN ('Plogstjärnan'): Mesopotamiens klassiska stjärn- och kalenderkompendium.",
+                        "Korsvägens Etik: Att bevara sitt centrum under stora övergångar och läsa rätt tidpunkt."
+                  ]
+            },
+            "practice": {
+                  "tr": {
+                        "title": "Uygulama · Hayatındaki ‘Nebiru Kavşağını’ Haritalama Tefekkürü",
+                        "steps": [
+                              "Kağıda birbirini dik kesen iki çizgi (bir kavşak / dört yön artısı) çiz: Sol uca ‘Geride Bıraktığım Eski Döngü’, sağ uca ‘Geçmekte Olduğum Yeni Ufuk’ yaz.",
+                              "Yukarı uca ‘Göksel İlkem (Değişmeyen Değerim)’, aşağı uca ise ‘Yeryüzündeki Somut Adımım’ yaz.",
+                              "Tam kesişim noktasına (merkeze) parmağını koyup üç derin nefes al: ‘Ben kavşağın ortasında uyanık ve merkezdeyken hangi kıyıya geçeceğimi biliyorum.’"
+                        ]
+                  },
+                  "en": {
+                        "title": "Practice · Mapping Your Own 'Nebiru Crossroads'",
+                        "steps": [
+                              "Draw two intersecting lines (a four-direction crossing) on paper: label the left arm 'The Outgrown Cycle I Release' and the right arm 'The New Horizon I Enter'.",
+                              "Label the upper arm 'My Unchanging Principle' and the lower arm 'My Grounded Step Today'.",
+                              "Place your finger at the exact center point for three slow breaths: 'Standing awake at the crossing, I know my course.'"
+                        ]
+                  },
+                  "sv": {
+                        "title": "Praktik · Att Kartlägga Din Egen 'Nebiru-Korsväg'",
+                        "steps": [
+                              "Rita två korsande linjer på ett papper: skriv till vänster 'Det Gamla Skede Jag Lämnar' och till höger 'Den Nya Horisont Jag Träder In I'.",
+                              "Skriv upptill 'Min Orubbliga Princip' och nedtill 'Mitt Konkreta Steg i Dag'.",
+                              "Lägg fingret mitt i skärningspunkten under tre djupa andetag: 'Vaken vid korsvägen känner jag min riktning.'"
+                        ]
+                  }
+            },
+            "closing": {
+                  "tr": "Yıldızlar gökyüzünde kaybolmaz çünkü her birinin döndüğü bir merkez kavşağı (Nebiru) vardır.",
+                  "en": "The stars never lose their way in the night sky, for every orbit turns around a central crossing (Nebiru).",
+                  "sv": "Stjärnorna går aldrig vilse på natthimlen, ty varje bana kretsar kring en samlande korsväg (Nebiru)."
+            },
+            "practiceImage": "/mezopotamya/practice-ziggurat-ve-yildizlar.jpg"
+      },
+      {
+            "slug": "eridu-abzu-ve-babil-esagila-tapinak-mimarisi",
+            "glyph": "XXV",
+            "image": "/mezopotamya/marukka-maruttuku.jpg",
+            "title": {
+                  "tr": "XXV · Eridu’dan Babil’e Kutsal Mimari: E-Abzu (Su Evi), Esagila ve Etemenanki’nin 7 Katı",
+                  "en": "XXV · Sacred Architecture from Eridu to Babylon: E-Abzu, Esagila & the 7 Tiers of Etemenanki",
+                  "sv": "XXV · Helig Arkitektur från Eridu till Babylon: E-Abzu, Esagila & Etemenankis 7 Avsatser"
+            },
+            "subtitle": {
+                  "tr": "Enûma Eliš VI:50–70’te Kozmik Tapınağın İnşası: Yeraltı Sularının Üzerinde Yükselen Gök-Yer Ekseni",
+                  "en": "Building the Cosmic Sanctuary in Enûma Eliš VI:50–70: The Axis of Heaven and Earth Rising Above the Primordial Waters",
+                  "sv": "Den Kosmiska Helgedomens Bygge i Enûma Eliš VI:50–70: Himmelens och Jordens Axel över Urvattnet"
+            },
+            "summary": {
+                  "tr": "Mezopotamya’da tapınak sıradan bir bina değil, kozmosun yeryüzündeki ölçekli modelidir: Eridu’daki E-Abzu derin su bilgeliğinin kökünü, Babil’deki Esagila (‘Başı Yüce Ev’) ve 7 katlı Etemenanki (‘Gök ve Yerin Temel Evi’) ise 7 Kapılı bilinç yükselişini temsil eder.",
+                  "en": "In Mesopotamia, a temple is a microcosm of the universe: Eridu's E-Abzu anchors the deep root of water-wisdom, while Babylon's Esagila ('House Whose Head Is Lofty') and seven-tiered Etemenanki ('House of the Foundation of Heaven and Earth') embody the sevenfold ascent of consciousness.",
+                  "sv": "I Mesopotamien är templet en avbild av kosmos: Eridus E-Abzu förankrar vattenvisdomens rot, medan Babylons Esagila och det sjuledade Etemenanki förkroppsligar medvetandets uppstigning."
+            },
+            "paragraphs": {
+                  "tr": [
+                        "*Enûma Eliš*’in Altıncı Tabletinde (VI:50–70), kozmik düzen kurulduktan ve insan yaratıldıktan sonra Anunnaki meclisi şükran olarak kazmaları eline alır ve iki yıl boyunca tuğla dökerek **Esagila**’yı (Sümerce *É.SAG.ÍL* — ‘Başı Yüce Olan Ev’) inşa eder. Tapınak doğrudan **Apsû’nun (Enki’nin derin bilgelik sularının) karşısına/üzerine** kurulur ve tepesi gökyüzüne yükseltilir.",
+                        "Bu mimari zincir Mezopotamya’nın en eski şehri **Eridu**’daki **E-Abzu** (‘Abzu Evi / Engur Evi’) ile başlar. Arkeolojik kazılarda Eridu’da üst üste inşa edilmiş **18 tapınak katmanı** bulunmuştur: En alttaki ilk sunak, bakir kum tepesinin ve tatlı su aynasının hemen üzerindedir. Binlerce yıl boyunca hiçbir kral bu ilk su kaynağının yerini terk etmemiş, her yeni tapınağı bir öncekinin temeli üzerine yükseltmiştir.",
+                        "Babil’de ise Esagila’nın hemen yanında yükselen yedi katlı ziggurat **Etemenanki** (*É.TEMEN.AN.KI* — ‘Gök ve Yerin Temel Platformu Evi’), yeryüzü ile gökyüzünü birbirine bağlayan kozmik merdivendir. Zigguratın **7 katı**, hem gezegensel küreleri hem de **Marduk’un 50 Kutsal İsmi** külliyatındaki **7 Kozmik Kapıyı** (1. Kapıdaki arınmadan 7. Kapıdaki zirve tapınağı *Šaḫūru*’ya yükselişi) somutlaştırır.",
+                        "İçsel mimaride **E-Abzu** insanın bilinçaltı derinliği ve kalp pınarıdır; **Etemenanki** omurga boyunca yükselen 7 bilinç basamağıdır; **Esagila** ise başın tepesinde uyanan yüksek idraktir."
+                  ],
+                  "en": [
+                        "In Tablet VI of *Enûma Eliš* (VI:50–70), once cosmic order is established, the Anunnaki mold bricks for two years to raise **Esagila** (Sumerian *É.SAG.ÍL*, 'The House Whose Head Is Lofty') directly opposite the **Apsû**, creating an earthly counterpart to the celestial dwellings of Enki, Enlil, and Anu.",
+                        "This sacred architectural lineage begins at **Eridu**, the oldest city in Sumerian tradition, around Enki's sanctuary **E-Abzu**. Archaeological excavations at Eridu revealed **eighteen successive temple strata** built directly atop one another over millennia—beginning with a small mud-brick shrine resting on virgin sand above the freshwater water-table.",
+                        "In Babylon, beside Esagila rose the seven-staged ziggurat **Etemenanki** (*É.TEMEN.AN.KI*, 'House of the Foundation of Heaven and Earth'). Its **seven tiers** mirror both the seven planetary spheres and the **Seven Cosmic Gates** of the Fifty Sacred Names—ascending from purification at the base to the summit sanctuary (*Šaḫūru*) where heaven and earth meet.",
+                        "Within the human microcosm, **E-Abzu** is the deep wellspring of the heart, **Etemenanki** is the sevenfold vertical axis of discipline, and **Esagila** is the awakened crown of consciousness."
+                  ],
+                  "sv": [
+                        "I *Enûma Eliš* sjätte tavla (VI:50–70) formar Anunnaki tegel för att resa **Esagila** (sumeriskans *É.SAG.ÍL*, 'Huset med det Höga Huvudet') mitt emot **Apsû** som en jordisk motsvarighet till det himmelska templet.",
+                        "Denna arkitektoniska linje börjar i **Eridu**, den äldsta staden i sumerisk tradition, kring Enkis helgedom **E-Abzu**. Arkeologiska utgrävningar i Eridu har blottlagt **arton tempelskikt** byggda rakt ovanpå varandra från det första lilla altaret på den orörda sanden över sötvattenspegeln.",
+                        "I Babylon reste sig intill Esagila den sjuledade zigguraten **Etemenanki** (*É.TEMEN.AN.KI*, 'Himmelens och Jordens Grundvalshus'). Dess **sju avsatser** speglar såväl de sju himlasfärerna som de **Sju Kosmiska Portarna** i Marduks femtio namn.",
+                        "I människan själv är **E-Abzu** hjärtats djupa källsprång, **Etemenanki** ryggradens sju trappsteg av mognad och **Esagila** det vakna medvetandets krön."
+                  ]
+            },
+            "chapters": {
+                  "tr": [
+                        {
+                              "heading": "Eridu’nun 18 Katmanı: Kökünü Unutmayan Yükseliş",
+                              "body": "Eridu’daki E-Abzu tapınağı bize çok önemli bir ilke öğretir: Gerçek yükseliş geçmişteki saf kaynağı yıkarak değil, ilk su pınarının (öz-niyetin) tam üzerine her dönemde daha olgun bir katman çıkılarak yapılır."
+                        },
+                        {
+                              "heading": "Etemenanki’nin 7 Basamağı ve İnsanın İçsel Tapınağı",
+                              "body": "Babil’deki Esagila Tableti’nde (*Louvre AO 6555*) ölçüleri milimetrik olarak kaydedilen 7 katlı Etemenanki, tabanda kare (toprak istikrarı) olarak başlar ve zirvede gökyüzü odasıyla (*Bīt Šaḫūru*) taçlanır."
+                        }
+                  ],
+                  "en": [
+                        {
+                              "heading": "The 18 Strata of Eridu: Ascending Without Losing the Spring",
+                              "body": "The eighteen temple layers of E-Abzu in Eridu teach an enduring truth: authentic growth never abandons its original pure spring, but builds each wiser stage directly above its first sincere foundation."
+                        },
+                        {
+                              "heading": "The 7 Tiers of Etemenanki and the Inner Sanctuary",
+                              "body": "Recorded with mathematical precision on the Esagila Tablet (*Louvre AO 6555*), seven-tiered Etemenanki rises from a square earthly base to the celestial summit chamber (*Bīt Šaḫūru*)."
+                        }
+                  ],
+                  "sv": [
+                        {
+                              "heading": "Eridus 18 Skikt: Att Växa Utan att Förlora Källan",
+                              "body": "De arton tempelskikten i Eridus E-Abzu visar att sann mognad aldrig överger sin ursprungliga rena källa utan bygger varje nytt skede på den första grunden."
+                        },
+                        {
+                              "heading": "Etemenankis 7 Avsatser och det Inre Templet",
+                              "body": "Dokumenterad med matematisk skärpa på Esagilatavlan (*Louvre AO 6555*) reser sig det sjuledade Etemenanki från jordens kvadrat till himmelsrummet (*Bīt Šaḫūru*) på toppen."
+                        }
+                  ]
+            },
+            "items": {
+                  "tr": [
+                        "E-Abzu (É.ABZU · Eridu): Enki’nin tatlı su okyanusu üzerinde yükselen ilk bilgelik tapınağı.",
+                        "Esagila (É.SAG.ÍL · Babil): ‘Başı Yüce Ev’; Marduk’un ve 50 Kutsal İsmin merkez mabedi.",
+                        "Etemenanki (É.TEMEN.AN.KI): Gök ile yeri birbirine bağlayan 7 katlı kozmik ziggurat.",
+                        "Temennu (Temel Çivisi / Tablet): Tapınağın altına gömülen ve yapının kozmik niyetini mühürleyen temel yazıtı.",
+                        "İçsel Mimari: Kökü derin suda (Abzu), gövdesi disiplinde (Etemenanki) ve başı aydınlıkta (Esagila) olan insan."
+                  ],
+                  "en": [
+                        "E-Abzu (É.ABZU · Eridu): Enki's primordial sanctuary of wisdom above the freshwater deep.",
+                        "Esagila (É.SAG.ÍL · Babylon): 'The House Whose Head Is Lofty', central sanctuary of Marduk and the 50 Names.",
+                        "Etemenanki (É.TEMEN.AN.KI): The seven-tiered ziggurat uniting the foundation of heaven and earth.",
+                        "Temennu (Foundation Peg/Tablet): The inscribed deposit buried beneath the cornerstone to seal sacred intent.",
+                        "Inner Architecture: Roots in deep water (Abzu), spine in sevenfold discipline (Etemenanki), and crown in clarity (Esagila)."
+                  ],
+                  "sv": [
+                        "E-Abzu (É.ABZU · Eridu): Enkis uråldriga visdomshelgedom över sötvattensdjupet.",
+                        "Esagila (É.SAG.ÍL · Babylon): 'Huset med det Höga Huvudet', centralhelgedom för Marduk och de 50 namnen.",
+                        "Etemenanki (É.TEMEN.AN.KI): Den sjuledade zigguraten som förenar himmelens och jordens grund.",
+                        "Temennu (Grundplugg/Grundtavla): Den invigda inskriften under hörnstenen som förseglar byggets avsikt.",
+                        "Inre Arkitektur: Rötter i djupt vatten (Abzu), hållning i sjuledad disciplin (Etemenanki) och krona i klarhet (Esagila)."
+                  ]
+            },
+            "practice": {
+                  "tr": {
+                        "title": "Uygulama · ‘Abzu’dan Esagila’ya’ 3 Noktalı Duruş ve Merkezlenme",
+                        "steps": [
+                              "1. E-Abzu (Kök ve Su): Ayak tabanlarını yere tam bas ve karnının altındaki nefesi dingin, serin bir yeraltı pınarı gibi hisset.",
+                              "2. Etemenanki (Yedi Basamaklı Omurga): Kuyruk sokumundan boynuna kadar omurganı yedi katlı bir ziggurat gibi yavaşça dikleştir.",
+                              "3. Esagila (‘Başı Yüce Ev’): Başının tepe noktasını gökyüzüne doğru hafifçe yükselt; suyun derinliği ile göğün berraklığını kendi duruşunda birleştir."
+                        ]
+                  },
+                  "en": {
+                        "title": "Practice · The 3-Point 'Abzu to Esagila' Posture of Alignment",
+                        "steps": [
+                              "1. E-Abzu (Root & Water): Plant your feet firmly on the floor and feel your lower breath as a calm, cool subterranean spring.",
+                              "2. Etemenanki (Seven-Tiered Spine): Gently lengthen your spine upward from base to neck like the seven terraces of the ziggurat.",
+                              "3. Esagila ('Lofty Head'): Lift the crown of your head lightly toward the sky, uniting deep water below with clear light above."
+                        ]
+                  },
+                  "sv": {
+                        "title": "Praktik · Trepunktsställningen 'Från Abzu till Esagila'",
+                        "steps": [
+                              "1. E-Abzu (Rot & Vatten): Stå stadigt med fötterna mot golvet och känn andningen i djupet som en sval, stilla källa.",
+                              "2. Etemenanki (Sjuledad Ryggrad): Räta långsamt upp ryggraden som zigguratens sju terrasser.",
+                              "3. Esagila ('Det Höga Huvudet'): Lyft hjässan lätt mot skyn och förena det djupa vattnet nedan med det klara ljuset ovan."
+                        ]
+                  }
+            },
+            "closing": {
+                  "tr": "Temeli derin suyun (Abzu) üzerinde olmayan hiçbir kule, başını gökyüzüne (Esagila) güvenle kaldıramaz.",
+                  "en": "No tower whose foundation is not anchored above the deep water (Abzu) can safely lift its head into heaven (Esagila).",
+                  "sv": "Inget torn vars grund inte vilar över det djupa vattnet (Abzu) kan tryggt lyfta sitt huvud mot himlen (Esagila)."
+            },
+            "practiceImage": "/mezopotamya/practice-marukka-maruttuku.jpg"
       }
     ]
   },
